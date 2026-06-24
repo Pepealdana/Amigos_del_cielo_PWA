@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    color:#222;
+    min-height:100vh;
+}
+
+#app{
+    max-width:800px;
+    margin:auto;
+}
+
+.header{
+    background:#2C4A6B;
+    color:white;
+    text-align:center;
+    padding:2rem 1rem;
+}
+
+.header h1{
+    margin-bottom:.5rem;
+}
+
+.subtitle{
+    opacity:.9;
+}
+
+#view{
+    padding:1rem;
+}
