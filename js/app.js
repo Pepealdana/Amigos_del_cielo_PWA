@@ -5,40 +5,61 @@ document.addEventListener(
     iniciarApp
 );
 
+/* ==========================
+   CARGAR DATOS
+========================== */
+
 async function cargarNovena() {
 
     try {
 
         const response =
-            await fetch("data/san-jose.json");
+            await fetch(
+                "./data/san-jose.json"
+            );
 
         if (!response.ok) {
 
             throw new Error(
-                "No se pudo cargar la novena."
+                `Error HTTP: ${response.status}`
             );
 
         }
 
-        const novena =
-            await response.json();
-
-        return novena;
+        return await response.json();
 
     } catch (error) {
 
-        console.error(error);
+        console.error(
+            "Error cargando novena:",
+            error
+        );
 
         const view =
-            document.getElementById("view");
+            document.getElementById(
+                "view"
+            );
 
-        view.innerHTML = `
+        if (view) {
 
-            <p>
-                Error al cargar la novena.
-            </p>
+            view.innerHTML = `
 
-        `;
+                <section class="home">
+
+                    <h2>
+                        Error
+                    </h2>
+
+                    <p>
+                        No fue posible cargar
+                        la novena.
+                    </p>
+
+                </section>
+
+            `;
+
+        }
 
         return null;
 
@@ -46,23 +67,103 @@ async function cargarNovena() {
 
 }
 
+/* ==========================
+   INICIO APP
+========================== */
+
 async function iniciarApp() {
 
-    const novena =
+    novenaActual =
         await cargarNovena();
 
-    if (!novena) return;
-
-    novenaActual = novena;
+    if (!novenaActual) return;
 
     mostrarInicio();
 
 }
 
+/* ==========================
+   MENÚ
+========================== */
+
+function abrirMenu() {
+
+    const menu =
+        document.getElementById(
+            "side-menu"
+        );
+
+    const overlay =
+        document.getElementById(
+            "menu-overlay"
+        );
+
+    if (menu) {
+
+        menu.classList.toggle(
+            "open"
+        );
+
+    }
+
+    if (overlay) {
+
+        overlay.classList.toggle(
+            "show"
+        );
+
+    }
+
+}
+
+function cerrarMenu() {
+
+    const menu =
+        document.getElementById(
+            "side-menu"
+        );
+
+    const overlay =
+        document.getElementById(
+            "menu-overlay"
+        );
+
+    if (menu) {
+
+        menu.classList.remove(
+            "open"
+        );
+
+    }
+
+    if (overlay) {
+
+        overlay.classList.remove(
+            "show"
+        );
+
+    }
+
+}
+
+function abrirConfiguracion() {
+
+    mostrarConfiguracion();
+
+}
+
+/* ==========================
+   INICIO
+========================== */
+
 function mostrarInicio() {
 
+    if (!novenaActual) return;
+
     const view =
-        document.getElementById("view");
+        document.getElementById(
+            "view"
+        );
 
     view.innerHTML = `
 
@@ -88,13 +189,16 @@ function mostrarInicio() {
 
             <div class="patronages">
 
-                <h3>Patrono de</h3>
+                <h3>
+                    Patrono de
+                </h3>
 
                 <ul>
 
                     ${novenaActual.patronages
-                        .map(item =>
-                            `<li>${item}</li>`
+                        .map(
+                            item =>
+                                `<li>${item}</li>`
                         )
                         .join("")}
 
@@ -126,10 +230,18 @@ function mostrarInicio() {
 
 }
 
+/* ==========================
+   HISTORIA
+========================== */
+
 function mostrarHistoria() {
 
+    if (!novenaActual) return;
+
     const view =
-        document.getElementById("view");
+        document.getElementById(
+            "view"
+        );
 
     view.innerHTML = `
 
@@ -180,10 +292,150 @@ function mostrarHistoria() {
 
 }
 
+/* ==========================
+   NOVENA
+========================== */
+
 function iniciarNovena() {
 
     alert(
         "Próximo paso: mostrar el Día 1 de la novena."
     );
+
+}
+
+/* ==========================
+   VISTAS TEMPORALES
+========================== */
+
+function mostrarBiblioteca() {
+
+    const view =
+        document.getElementById(
+            "view"
+        );
+
+    view.innerHTML = `
+
+        <section class="home">
+
+            <h2>
+                Biblioteca de Novenas
+            </h2>
+
+            <p>
+                Aquí aparecerán todas
+                las novenas disponibles.
+            </p>
+
+        </section>
+
+    `;
+
+}
+
+function mostrarFavoritas() {
+
+    const view =
+        document.getElementById(
+            "view"
+        );
+
+    view.innerHTML = `
+
+        <section class="home">
+
+            <h2>
+                Favoritas
+            </h2>
+
+            <p>
+                Tus novenas favoritas.
+            </p>
+
+        </section>
+
+    `;
+
+}
+
+function mostrarProgreso() {
+
+    const view =
+        document.getElementById(
+            "view"
+        );
+
+    view.innerHTML = `
+
+        <section class="home">
+
+            <h2>
+                Mi progreso
+            </h2>
+
+            <p>
+                Aquí podrás continuar
+                tus novenas.
+            </p>
+
+        </section>
+
+    `;
+
+}
+
+function mostrarConfiguracion() {
+
+    const view =
+        document.getElementById(
+            "view"
+        );
+
+    view.innerHTML = `
+
+        <section class="home">
+
+            <h2>
+                Configuración
+            </h2>
+
+            <p>
+                Opciones futuras de la app.
+            </p>
+
+        </section>
+
+    `;
+
+}
+
+function mostrarAcerca() {
+
+    const view =
+        document.getElementById(
+            "view"
+        );
+
+    view.innerHTML = `
+
+        <section class="home">
+
+            <h2>
+                Acerca de
+            </h2>
+
+            <p>
+                Amigos del Cielo es una
+                aplicación de oración y
+                formación espiritual
+                centrada en santos,
+                novenas y devociones
+                católicas.
+            </p>
+
+        </section>
+
+    `;
 
 }

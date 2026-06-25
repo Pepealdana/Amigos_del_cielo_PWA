@@ -1,3 +1,4 @@
+css
 /* ==========================
    RESET
 ========================== */
@@ -78,18 +79,23 @@ body{
 
     text-align:center;
 
-    padding:1rem 1rem 2rem;
+    padding:1rem 1rem 2.5rem;
 
-    border-bottom-left-radius:24px;
+    border-bottom-left-radius:28px;
 
-    border-bottom-right-radius:24px;
+    border-bottom-right-radius:28px;
 
-    box-shadow:var(--shadow);
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.12);
+
+    position:relative;
+
+    overflow:hidden;
 
 }
 
 /* ==========================
-   PARTE SUPERIOR
+   HEADER TOP
 ========================== */
 
 .header-top{
@@ -105,21 +111,26 @@ body{
 }
 
 /* ==========================
-   LOGO
+   LOGO APP
 ========================== */
 
 .app-logo{
 
-    width:72px;
+    width:84px;
 
-    height:72px;
+    height:84px;
 
     object-fit:contain;
+
+    filter:
+        drop-shadow(
+            0 4px 8px rgba(0,0,0,.20)
+        );
 
 }
 
 /* ==========================
-   BOTONES SUPERIORES
+   BOTONES HEADER
 ========================== */
 
 .icon-button{
@@ -140,12 +151,12 @@ body{
 
 .icon-button:hover{
 
-    opacity:.8;
+    opacity:.85;
 
 }
 
 /* ==========================
-   TITULO
+   TITULOS
 ========================== */
 
 .header h1{
@@ -155,10 +166,6 @@ body{
     margin-bottom:.5rem;
 
 }
-
-/* ==========================
-   SUBTITULO
-========================== */
 
 .subtitle{
 
@@ -171,10 +178,6 @@ body{
     line-height:1.4;
 
 }
-
-/* ==========================
-   TAGLINE
-========================== */
 
 .header-tagline{
 
@@ -199,7 +202,7 @@ body{
 }
 
 /* ==========================
-   HOME
+   TARJETA PRINCIPAL
 ========================== */
 
 .home{
@@ -273,7 +276,7 @@ body{
 }
 
 /* ==========================
-   BOTONES
+   BOTONES GENERALES
 ========================== */
 
 button{
@@ -309,24 +312,9 @@ button:active{
 }
 
 /* ==========================
-   RESPONSIVE
+   GRUPO DE BOTONES
 ========================== */
 
-@media(max-width:600px){
-
-    .header h1{
-
-        font-size:1.7rem;
-
-    }
-
-    .subtitle{
-
-        font-size:.95rem;
-
-    }
-
-}
 .button-group{
 
     display:flex;
@@ -361,8 +349,6 @@ button:active{
 
     list-style:none;
 
-    padding:0;
-
 }
 
 .patronages li{
@@ -388,17 +374,178 @@ button:active{
 }
 
 /* ==========================
-   GRUPO DE BOTONES
+   OVERLAY MENU
 ========================== */
 
-.button-group{
+.menu-overlay{
 
-    display:flex;
+    position:fixed;
 
-    flex-direction:column;
+    inset:0;
 
-    gap:12px;
+    background:
+        rgba(0,0,0,.45);
 
-    margin-top:1rem;
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+.menu-overlay.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+/* ==========================
+   MENU LATERAL
+========================== */
+
+.side-menu{
+
+    position:fixed;
+
+    top:0;
+
+    left:-300px;
+
+    width:280px;
+
+    height:100vh;
+
+    background:var(--color-surface);
+
+    box-shadow:
+        4px 0 18px rgba(0,0,0,.15);
+
+    transition:.3s;
+
+    z-index:1000;
+
+    padding:1.25rem;
+
+    overflow-y:auto;
+
+}
+
+.side-menu.open{
+
+    left:0;
+
+}
+
+/* ==========================
+   CABECERA MENU
+========================== */
+
+.menu-header{
+
+    text-align:center;
+
+    margin-bottom:2rem;
+
+    padding-bottom:1rem;
+
+    border-bottom:
+        1px solid #ececec;
+
+}
+
+.menu-logo{
+
+    width:72px;
+
+    height:72px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:0 auto .75rem auto;
+
+}
+
+.menu-header h2{
+
+    color:var(--color-primary);
+
+    margin-bottom:.25rem;
+
+}
+
+.menu-header p{
+
+    color:var(--color-text-light);
+
+    font-size:.9rem;
+
+}
+
+/* ==========================
+   BOTONES MENU
+========================== */
+
+.side-menu button{
+
+    width:100%;
+
+    text-align:left;
+
+    margin-bottom:.75rem;
+
+    background:transparent;
+
+    color:var(--color-text);
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:.9rem 1rem;
+
+}
+
+.side-menu button:hover{
+
+    background:
+        rgba(44,74,107,.08);
+
+    color:
+        var(--color-primary);
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:600px){
+
+    .header h1{
+
+        font-size:1.7rem;
+
+    }
+
+    .subtitle{
+
+        font-size:.95rem;
+
+    }
+
+    .app-logo{
+
+        width:72px;
+
+        height:72px;
+
+    }
 
 }
