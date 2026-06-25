@@ -402,17 +402,79 @@ function mostrarBiblioteca() {
             "view"
         );
 
+    if (
+        !catalogoNovenas ||
+        catalogoNovenas.length === 0
+    ) {
+
+        view.innerHTML = `
+
+            <section class="home">
+
+                <h2>
+                    Biblioteca vacía
+                </h2>
+
+            </section>
+
+        `;
+
+        return;
+
+    }
+
+    const tarjetas =
+        catalogoNovenas.map(
+
+            novena => `
+
+                <article
+                    class="novena-card">
+
+                    <img
+                        src="${novena.image}"
+                        alt="${novena.name}"
+                        class="novena-card-image">
+
+                    <div
+                        class="novena-card-content">
+
+                        <h3>
+                            ${novena.name}
+                        </h3>
+
+                        <p>
+                            ${novena.title}
+                        </p>
+
+                        <button
+                            onclick="abrirNovena('${novena.id}')">
+
+                            Abrir Novena
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+            `
+
+        ).join("");
+
     view.innerHTML = `
 
-        <section class="home">
+        <section
+            class="library">
 
-            <h2>
+            <h2
+                class="library-title">
+
                 Biblioteca de Novenas
+
             </h2>
 
-            <p>
-                Aquí aparecerán todas las novenas disponibles.
-            </p>
+            ${tarjetas}
 
         </section>
 
