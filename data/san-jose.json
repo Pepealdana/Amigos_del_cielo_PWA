@@ -1,0 +1,52 @@
+{
+  "id": "san-jose",
+
+  "name": "San José",
+
+  "title": "Esposo de la Virgen María y custodio de Jesús",
+
+  "feast": "19 de marzo",
+
+  "image": "assets/images/san-jose.webp",
+
+  "patronages": [
+    "Iglesia Universal",
+    "Familias",
+    "Trabajadores",
+    "Padres de familia",
+    "Buena muerte"
+  ],
+
+  "virtues": [
+    "Justicia",
+    "Obediencia",
+    "Humildad",
+    "Confianza en Dios",
+    "Trabajo",
+    "Silencio interior"
+  ],
+
+  "history": {
+    "short": "San José fue el esposo de la Virgen María y el padre adoptivo de Jesús. Elegido por Dios para custodiar la Sagrada Familia, vivió con humildad, trabajo y obediencia. Aunque los Evangelios no conservan ninguna palabra suya, sus acciones revelan una fe profunda y una confianza absoluta en la voluntad divina. La Iglesia lo reconoce como Patrono Universal y modelo para las familias cristianas."
+  },
+
+  "openingPrayer": "Glorioso San José, esposo fiel de la Virgen María y custodio amoroso de Jesús, acudo a ti con confianza y humildad. Tú que supiste escuchar la voz de Dios y cumplir su voluntad con generosidad, ayúdame a caminar con fe en medio de las dificultades, a vivir con rectitud en mis responsabilidades y a buscar siempre aquello que agrada al Señor. Intercede por mí y por mis seres queridos. Alcanza para nosotros la gracia de crecer en el amor a Dios, en el servicio a los demás y en la fidelidad a nuestra vocación. Durante esta novena deseo poner en tus manos las intenciones que llevo en mi corazón. Si son para mi bien espiritual y para mayor gloria de Dios, alcánzame el favor que con fe te presento. San José, amigo y protector, ruega por nosotros. Amén.",
+
+  "closingPrayer": "San José, modelo de los justos y protector de la Sagrada Familia, gracias por acompañarme en este momento de oración. Ayúdame a conservar en mi corazón las enseñanzas recibidas hoy, para que pueda vivirlas con sencillez, humildad y perseverancia. Enséñame a confiar más en Dios, a trabajar con amor, a servir sin buscar reconocimiento y a permanecer fiel en cada circunstancia de la vida. Que siguiendo tu ejemplo, pueda acercarme cada día más a Jesús y a María, y alcanzar la santidad a la que el Señor me llama. Amén.",
+
+  "days": [
+    {
+      "day": 1,
+
+      "virtue": "Justicia",
+
+      "title": "Hombre justo ante Dios",
+
+      "reflection": "El Evangelio presenta a San José como un hombre justo. Su justicia no consistía solamente en cumplir normas, sino en mantener un corazón dispuesto a actuar según la voluntad de Dios. Cuando enfrentó situaciones difíciles, eligió la misericordia, la prudencia y la confianza. Su ejemplo nos recuerda que la verdadera justicia nace de una relación sincera con Dios y se manifiesta en nuestras acciones cotidianas.",
+
+      "prayer": "San José, hombre justo y fiel, enséñame a actuar con rectitud en cada decisión de mi vida. Ayúdame a ser honesto, misericordioso y coherente con mi fe. Que mis palabras y acciones reflejen el amor de Dios hacia quienes me rodean. Amén.",
+
+      "action": "Realiza hoy un acto concreto de honestidad, reconciliación o servicio desinteresado."
+    }
+  ]
+}
