@@ -1,3 +1,5 @@
+let catalogoNovenas = [];
+
 let novenaActual = null;
 
 document.addEventListener(
@@ -6,16 +8,16 @@ document.addEventListener(
 );
 
 /* ==========================
-   CARGAR DATOS
+   CARGAR CATÁLOGO
 ========================== */
 
-async function cargarNovena() {
+async function cargarCatalogo() {
 
     try {
 
         const response =
             await fetch(
-                "./data/san-jose.json"
+                "./data/novenas.json"
             );
 
         if (!response.ok) {
@@ -31,37 +33,11 @@ async function cargarNovena() {
     } catch (error) {
 
         console.error(
-            "Error cargando novena:",
+            "Error cargando catálogo:",
             error
         );
 
-        const view =
-            document.getElementById(
-                "view"
-            );
-
-        if (view) {
-
-            view.innerHTML = `
-
-                <section class="home">
-
-                    <h2>
-                        Error
-                    </h2>
-
-                    <p>
-                        No fue posible cargar
-                        la novena.
-                    </p>
-
-                </section>
-
-            `;
-
-        }
-
-        return null;
+        return [];
 
     }
 
@@ -73,10 +49,8 @@ async function cargarNovena() {
 
 async function iniciarApp() {
 
-    novenaActual =
-        await cargarNovena();
-
-    if (!novenaActual) return;
+    catalogoNovenas =
+        await cargarCatalogo();
 
     mostrarInicio();
 
@@ -157,6 +131,119 @@ function abrirConfiguracion() {
 ========================== */
 
 function mostrarInicio() {
+
+    const view =
+        document.getElementById(
+            "view"
+        );
+
+    const destacada =
+        catalogoNovenas.find(
+            item => item.featured
+        );
+
+    if (!destacada) {
+
+        view.innerHTML = `
+
+            <section class="home">
+
+                <h2>
+                    No hay novenas disponibles
+                </h2>
+
+            </section>
+
+        `;
+
+        return;
+
+    }
+
+    view.innerHTML = `
+
+        <section class="home">
+
+            <img
+                src="${destacada.image}"
+                alt="${destacada.name}"
+                class="saint-image">
+
+            <h2>
+                ${destacada.name}
+            </h2>
+
+            <p class="saint-title">
+                ${destacada.title}
+            </p>
+
+            <p class="saint-feast">
+                Festividad:
+                ${destacada.feast}
+            </p>
+
+            <button
+                onclick="abrirNovena('${destacada.id}')">
+
+                Abrir Novena
+
+            </button>
+
+        </section>
+
+    `;
+
+}
+
+/* ==========================
+   ABRIR NOVENA
+========================== */
+
+async function abrirNovena(id) {
+
+    const datos =
+        catalogoNovenas.find(
+            item => item.id === id
+        );
+
+    if (!datos) return;
+
+    try {
+
+        const response =
+            await fetch(
+                datos.file
+            );
+
+        if (!response.ok) {
+
+            throw new Error(
+                `Error HTTP: ${response.status}`
+            );
+
+        }
+
+        novenaActual =
+            await response.json();
+
+        mostrarPortadaNovena();
+
+    } catch (error) {
+
+        console.error(
+            "Error cargando novena:",
+            error
+        );
+
+    }
+
+}
+
+/* ==========================
+   PORTADA NOVENA
+========================== */
+
+function mostrarPortadaNovena() {
 
     if (!novenaActual) return;
 
@@ -271,7 +358,7 @@ function mostrarHistoria() {
             <div class="button-group">
 
                 <button
-                    onclick="mostrarInicio()">
+                    onclick="mostrarPortadaNovena()">
 
                     Volver
 
@@ -299,7 +386,7 @@ function mostrarHistoria() {
 function iniciarNovena() {
 
     alert(
-        "Próximo paso: mostrar el Día 1 de la novena."
+        "Próximo paso: Día 1 de la novena."
     );
 
 }
@@ -324,8 +411,7 @@ function mostrarBiblioteca() {
             </h2>
 
             <p>
-                Aquí aparecerán todas
-                las novenas disponibles.
+                Aquí aparecerán todas las novenas disponibles.
             </p>
 
         </section>
@@ -375,8 +461,7 @@ function mostrarProgreso() {
             </h2>
 
             <p>
-                Aquí podrás continuar
-                tus novenas.
+                Aquí podrás continuar tus novenas.
             </p>
 
         </section>
@@ -401,7 +486,7 @@ function mostrarConfiguracion() {
             </h2>
 
             <p>
-                Opciones futuras de la app.
+                Opciones futuras de la aplicación.
             </p>
 
         </section>
@@ -426,12 +511,9 @@ function mostrarAcerca() {
             </h2>
 
             <p>
-                Amigos del Cielo es una
-                aplicación de oración y
-                formación espiritual
-                centrada en santos,
-                novenas y devociones
-                católicas.
+                Amigos del Cielo es una aplicación de oración,
+                formación espiritual y acompañamiento mediante
+                novenas, santos y devociones católicas.
             </p>
 
         </section>
