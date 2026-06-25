@@ -231,11 +231,13 @@ body{
         var(--saint-image-width)
     );
 
-    aspect-ratio:4 / 5;
+    aspect-ratio:4/5;
 
     object-fit:cover;
 
     border-radius:var(--radius);
+
+    border:4px solid rgba(217,182,107,.35);
 
     display:block;
 
@@ -349,6 +351,12 @@ button:active{
 .patronages ul{
 
     list-style:none;
+
+    padding:0;
+
+    margin:0 auto;
+
+    text-align:center;
 
 }
 
@@ -602,6 +610,8 @@ button:active{
     height:220px;
 
     object-fit:cover;
+
+     object-position:center 15%;
 
 }
 
