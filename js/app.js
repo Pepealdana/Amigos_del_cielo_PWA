@@ -3,11 +3,8 @@
 ========================================== */
 
 document.addEventListener(
-
     "DOMContentLoaded",
-
     iniciarApp
-
 );
 
 /* ==========================================
@@ -16,24 +13,20 @@ document.addEventListener(
 
 async function iniciarApp() {
 
+    registrarEventos();
+
     try {
 
         state.catalogo =
-
             await cargarCatalogo();
 
         if (
-
             !state.catalogo ||
-
             state.catalogo.length === 0
-
         ) {
 
             throw new Error(
-
                 "No existen novenas."
-
             );
 
         }
@@ -44,38 +37,98 @@ async function iniciarApp() {
 
         console.error(error);
 
-        const view =
+        mostrarError(
+            "No fue posible iniciar la aplicación."
+        );
 
-            document.getElementById(
+    }
 
-                "view"
+}
 
-            );
+/* ==========================================
+   REGISTRAR EVENTOS
+========================================== */
 
-        if (view) {
+function registrarEventos() {
 
-            view.innerHTML = `
+    const btnMenu =
+        document.getElementById(
+            "btn-menu"
+        );
 
-                <section class="home">
+    if (btnMenu) {
 
-                    <h2>
+        btnMenu.addEventListener(
+            "click",
+            abrirMenu
+        );
 
-                        Error
+    }
 
-                    </h2>
+    const overlay =
+        document.getElementById(
+            "menu-overlay"
+        );
 
-                    <p>
+    if (overlay) {
 
-                        No fue posible iniciar
-                        la aplicación.
+        overlay.addEventListener(
+            "click",
+            cerrarMenu
+        );
 
-                    </p>
+    }
 
-                </section>
+    registrarEvento(
+        "menu-inicio",
+        () => navegar("inicio")
+    );
 
-            `;
+    registrarEvento(
+        "menu-biblioteca",
+        () => navegar("biblioteca")
+    );
 
-        }
+    registrarEvento(
+        "menu-favoritas",
+        () => navegar("favoritas")
+    );
+
+    registrarEvento(
+        "menu-progreso",
+        () => navegar("progreso")
+    );
+
+    registrarEvento(
+        "menu-configuracion",
+        () => navegar("configuracion")
+    );
+
+    registrarEvento(
+        "menu-acerca",
+        () => navegar("acerca")
+    );
+
+}
+
+/* ==========================================
+   REGISTRAR EVENTO
+========================================== */
+
+function registrarEvento(
+    id,
+    callback
+) {
+
+    const elemento =
+        document.getElementById(id);
+
+    if (elemento) {
+
+        elemento.addEventListener(
+            "click",
+            callback
+        );
 
     }
 
@@ -88,80 +141,44 @@ async function iniciarApp() {
 function abrirMenu() {
 
     const menu =
-
         document.getElementById(
-
             "side-menu"
-
         );
 
     const overlay =
-
         document.getElementById(
-
             "menu-overlay"
-
         );
 
-    if (menu) {
+    menu?.classList.toggle(
+        "open"
+    );
 
-        menu.classList.toggle(
-
-            "open"
-
-        );
-
-    }
-
-    if (overlay) {
-
-        overlay.classList.toggle(
-
-            "show"
-
-        );
-
-    }
+    overlay?.classList.toggle(
+        "show"
+    );
 
 }
 
 function cerrarMenu() {
 
     const menu =
-
         document.getElementById(
-
             "side-menu"
-
         );
 
     const overlay =
-
         document.getElementById(
-
             "menu-overlay"
-
         );
 
-    if (menu) {
+    menu?.classList.remove(
+        "open"
+    );
 
-        menu.classList.remove(
-
-            "open"
-
-        );
-
-    }
-
-    if (overlay) {
-
-        overlay.classList.remove(
-
-            "show"
-
-        );
-
-    }
+    overlay?.classList.remove(
+        "show"
+    );
 
 }
 
@@ -173,16 +190,9 @@ function mostrarInicio() {
 
     cerrarMenu();
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML =
-
+    obtenerView().innerHTML =
         renderInicio(
-
             state.catalogo
-
         );
 
 }
@@ -195,16 +205,9 @@ function mostrarBiblioteca() {
 
     cerrarMenu();
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML =
-
+    obtenerView().innerHTML =
         renderBiblioteca(
-
             state.catalogo
-
         );
 
 }
@@ -220,19 +223,12 @@ async function abrirNovena(id) {
     try {
 
         state.novenaActual =
-
             await cargarNovena(id);
 
-        if (
-
-            !state.novenaActual
-
-        ) {
+        if (!state.novenaActual) {
 
             throw new Error(
-
                 "No fue posible cargar la novena."
-
             );
 
         }
@@ -242,6 +238,10 @@ async function abrirNovena(id) {
     } catch (error) {
 
         console.error(error);
+
+        mostrarError(
+            "No fue posible cargar la novena."
+        );
 
     }
 
@@ -253,16 +253,9 @@ async function abrirNovena(id) {
 
 function mostrarPortadaNovena() {
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML =
-
+    obtenerView().innerHTML =
         renderPortadaNovena(
-
             state.novenaActual
-
         );
 
 }
@@ -273,16 +266,9 @@ function mostrarPortadaNovena() {
 
 function mostrarHistoria() {
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML =
-
+    obtenerView().innerHTML =
         renderHistoria(
-
             state.novenaActual
-
         );
 
 }
@@ -293,17 +279,8 @@ function mostrarHistoria() {
 
 function iniciarNovena() {
 
-    // Próximamente:
-    // state.progreso =
-    // {
-    //     santo: state.novenaActual.id,
-    //     dia: 1
-    // };
-
     alert(
-
         "Próximamente iniciaremos el Día 1."
-
     );
 
 }
@@ -316,11 +293,7 @@ function mostrarFavoritas() {
 
     cerrarMenu();
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML = `
+    obtenerView().innerHTML = `
 
         <section class="home">
 
@@ -350,11 +323,7 @@ function mostrarProgreso() {
 
     cerrarMenu();
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML = `
+    obtenerView().innerHTML = `
 
         <section class="home">
 
@@ -385,11 +354,7 @@ function mostrarConfiguracion() {
 
     cerrarMenu();
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML = `
+    obtenerView().innerHTML = `
 
         <section class="home">
 
@@ -420,11 +385,7 @@ function mostrarAcerca() {
 
     cerrarMenu();
 
-    document
-
-        .getElementById("view")
-
-        .innerHTML = `
+    obtenerView().innerHTML = `
 
         <section class="home">
 
@@ -440,6 +401,44 @@ function mostrarAcerca() {
                 de oración, formación espiritual
                 y acompañamiento mediante novenas
                 y devociones católicas.
+
+            </p>
+
+        </section>
+
+    `;
+
+}
+
+/* ==========================================
+   UTILIDADES
+========================================== */
+
+function obtenerView() {
+
+    return document.getElementById(
+        "view"
+    );
+
+}
+
+function mostrarError(
+    mensaje
+) {
+
+    obtenerView().innerHTML = `
+
+        <section class="home">
+
+            <h2>
+
+                Error
+
+            </h2>
+
+            <p>
+
+                ${mensaje}
 
             </p>
 

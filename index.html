@@ -5,85 +5,136 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <title>Amigos del Cielo</title>
+    <title>
+        Amigos del Cielo
+    </title>
 
-    <meta name="description"
-          content="Camina junto a los santos cada día">
+    <meta
+        name="description"
+        content="Camina junto a los santos cada día. Novenas, santos, oraciones y devociones católicas.">
 
-    <meta name="theme-color"
-          content="#2C4A6B">
+    <meta
+        name="theme-color"
+        content="#2C4A6B">
 
-    <link rel="manifest"
-          href="manifest.json">
+    <meta
+        name="mobile-web-app-capable"
+        content="yes">
 
-    <link rel="icon"
-          href="assets/icons/icon-192.png">
+    <meta
+        name="apple-mobile-web-app-capable"
+        content="yes">
 
-    <link rel="stylesheet"
-          href="css/style.css">
+    <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="default">
+
+    <meta
+        name="apple-mobile-web-app-title"
+        content="Amigos del Cielo">
+
+    <link
+        rel="manifest"
+        href="manifest.json">
+
+    <link
+        rel="icon"
+        href="assets/icons/icon-192.png">
+
+    <link
+        rel="apple-touch-icon"
+        href="assets/icons/icon-192.png">
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
 
 </head>
 
 <body>
 
     <!-- ==========================
-         OVERLAY DEL MENÚ
+         OVERLAY
     =========================== -->
 
-    <div id="menu-overlay"
-         class="menu-overlay"
-         onclick="cerrarMenu()">
+    <div
+        id="menu-overlay"
+        class="menu-overlay">
     </div>
 
     <!-- ==========================
          MENÚ LATERAL
     =========================== -->
 
-    <nav id="side-menu"
-         class="side-menu">
+    <nav
+        id="side-menu"
+        class="side-menu">
 
         <div class="menu-header">
 
             <img
                 src="assets/icons/logosin.png"
-                alt="Amigos del Cielo"
+                alt="Logo Amigos del Cielo"
                 class="menu-logo">
 
             <h2>
+
                 Amigos del Cielo
+
             </h2>
 
             <p>
+
                 Camina junto a los santos
+
             </p>
 
         </div>
 
-        <button onclick="navegar('inicio')">
+        <button
+            id="menu-inicio">
+
             🏠 Inicio
+
         </button>
 
-        <button onclick="navegar('biblioteca')">
-            🙏 Novenas
+        <button
+            id="menu-biblioteca">
+
+            🙏 Biblioteca
+
         </button>
 
-        <button onclick="navegar('favoritas')">
+        <button
+            id="menu-favoritas">
+
             ⭐ Favoritas
+
         </button>
 
-        <button onclick="navegar('progreso')">
+        <button
+            id="menu-progreso">
+
             📖 Mi progreso
+
         </button>
 
-        <button onclick="navegar('configuracion')">
+        <button
+            id="menu-configuracion">
+
             ⚙ Configuración
+
         </button>
 
-        <button onclick="navegar('acerca')">
+        <button
+            id="menu-acerca">
+
             ℹ Acerca de
+
         </button>
 
     </nav>
@@ -94,17 +145,14 @@
 
     <div id="app">
 
-        <!-- ==========================
-             HEADER
-        =========================== -->
-
         <header class="header">
 
             <div class="header-top">
 
                 <button
+                    id="btn-menu"
                     class="icon-button"
-                    onclick="abrirMenu()">
+                    aria-label="Abrir menú">
 
                     ☰
 
@@ -112,50 +160,124 @@
 
                 <img
                     src="assets/icons/logosin.png"
-                    alt="Amigos del Cielo"
+                    alt="Logo Amigos del Cielo"
                     class="app-logo">
-
-                <button
-                    class="icon-button"
-                    onclick="abrirConfiguracion()">
-
-                    ⚙
-
-                </button>
 
             </div>
 
             <h1>
+
                 Amigos del Cielo
+
             </h1>
 
             <p class="subtitle">
+
                 Camina junto a los santos cada día
+
             </p>
 
             <p class="header-tagline">
+
                 ✦ Oración • Santos • Novenas ✦
+
             </p>
 
         </header>
 
-        <!-- ==========================
-             CONTENIDO DINÁMICO
-        =========================== -->
-
-        <main id="view">
-
-            <!-- Las vistas se renderizan aquí -->
+        <main
+            id="view">
 
         </main>
 
     </div>
 
+    <noscript>
+
+        Esta aplicación necesita JavaScript para funcionar correctamente.
+
+    </noscript>
+
     <!-- ==========================
-         SCRIPTS
+         CONFIGURACIÓN
+    =========================== -->
+
+    <script src="js/config/appConfig.js"></script>
+
+    <!-- ==========================
+         ESTADO
+    =========================== -->
+
+    <script src="js/state/state.js"></script>
+
+    <!-- ==========================
+         SERVICIOS
+    =========================== -->
+
+    <script src="js/services/dataService.js"></script>
+    <script src="js/services/storage.js"></script>
+
+    <!-- ==========================
+         UTILIDADES
+    =========================== -->
+
+    <script src="js/utils/constants.js"></script>
+    <script src="js/utils/dateUtils.js"></script>
+    <script src="js/utils/domUtils.js"></script>
+    <script src="js/utils/formatUtils.js"></script>
+    <script src="js/utils/searchUtils.js"></script>
+    <script src="js/utils/validators.js"></script>
+
+    <!-- ==========================
+         COMPONENTES COMPARTIDOS
+    =========================== -->
+
+    <script src="js/render/shared/button.js"></script>
+    <script src="js/render/shared/badge.js"></script>
+    <script src="js/render/shared/card.js"></script>
+    <script src="js/render/shared/chip.js"></script>
+    <script src="js/render/shared/divider.js"></script>
+    <script src="js/render/shared/emptyState.js"></script>
+    <script src="js/render/shared/header.js"></script>
+    <script src="js/render/shared/intenciones.js"></script>
+    <script src="js/render/shared/lista.js"></script>
+    <script src="js/render/shared/loader.js"></script>
+    <script src="js/render/shared/modal.js"></script>
+    <script src="js/render/shared/oracion.js"></script>
+
+    <!-- ==========================
+         COMPONENTES DE NOVENA
+    =========================== -->
+
+    <script src="js/render/novena/componentes.js"></script>
+    <script src="js/render/novena/portada.js"></script>
+    <script src="js/render/novena/historia.js"></script>
+    <script src="js/render/novena/dia.js"></script>
+    <script src="js/render/novena/oraciones.js"></script>
+    <script src="js/render/novena/intenciones.js"></script>
+    <script src="js/render/novena/agradecimiento.js"></script>
+
+    <!-- ==========================
+         RENDER HOME
+    =========================== -->
+
+    <script src="js/render/home/inicio.js"></script>
+    <script src="js/render/home/biblioteca.js"></script>
+    <script src="js/render/home/favoritas.js"></script>
+    <script src="js/render/home/progreso.js"></script>
+    <script src="js/render/home/configuracion.js"></script>
+    <script src="js/render/home/acerca.js"></script>
+
+    <!-- ==========================
+         ROUTER
     =========================== -->
 
     <script src="js/router.js"></script>
+
+    <!-- ==========================
+         APP
+    =========================== -->
+
     <script src="js/app.js"></script>
 
 </body>
