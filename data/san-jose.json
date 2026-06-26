@@ -1,13 +1,32 @@
 {
   "id": "san-jose",
 
+  "slug": "san-jose",
+
   "name": "San José",
 
   "title": "Esposo de la Virgen María y custodio de Jesús",
 
-  "feast": "19 de marzo",
+  "subtitle": "Patrono de la Iglesia Universal",
 
   "image": "assets/images/san-jose.webp",
+
+  "category": "Santos",
+
+  "featured": true,
+
+  "feast": {
+    "day": 19,
+    "month": 3,
+    "text": "19 de marzo"
+  },
+
+  "description": "Novena dedicada a San José, modelo de fe, obediencia y confianza en Dios.",
+
+  "quote": {
+    "text": "José hizo lo que el ángel del Señor le había mandado.",
+    "reference": "Mateo 1,24"
+  },
 
   "patronages": [
     "Iglesia Universal",
@@ -26,8 +45,21 @@
     "Silencio interior"
   ],
 
+  "keywords": [
+    "san jose",
+    "trabajo",
+    "familia",
+    "padres",
+    "obediencia",
+    "justicia",
+    "carpinteros",
+    "novena"
+  ],
+
   "history": {
-    "short": "San José fue el esposo de la Virgen María y el padre adoptivo de Jesús. Elegido por Dios para custodiar la Sagrada Familia, vivió con humildad, trabajo y obediencia. Aunque los Evangelios no conservan ninguna palabra suya, sus acciones revelan una fe profunda y una confianza absoluta en la voluntad divina. La Iglesia lo reconoce como Patrono Universal y modelo para las familias cristianas."
+    "short": "San José fue el esposo de la Virgen María y el padre adoptivo de Jesús. Elegido por Dios para custodiar la Sagrada Familia, vivió con humildad, trabajo y obediencia. Aunque los Evangelios no conservan ninguna palabra suya, sus acciones revelan una fe profunda y una confianza absoluta en la voluntad divina. La Iglesia lo reconoce como Patrono Universal y modelo para las familias cristianas.",
+
+    "extended": "San José descendía de la casa de David y ejercía el oficio de carpintero en Nazaret. Dios lo eligió para ser esposo de María y custodio de Jesús. Su vida estuvo marcada por la obediencia silenciosa, el trabajo constante y la confianza absoluta en la Providencia. En cada momento decisivo respondió con prontitud a la voluntad divina, convirtiéndose en ejemplo de padre, esposo y discípulo fiel."
   },
 
   "openingPrayer": "Glorioso San José, esposo fiel de la Virgen María y custodio amoroso de Jesús, acudo a ti con confianza y humildad. Tú que supiste escuchar la voz de Dios y cumplir su voluntad con generosidad, ayúdame a caminar con fe en medio de las dificultades, a vivir con rectitud en mis responsabilidades y a buscar siempre aquello que agrada al Señor. Intercede por mí y por mis seres queridos. Alcanza para nosotros la gracia de crecer en el amor a Dios, en el servicio a los demás y en la fidelidad a nuestra vocación. Durante esta novena deseo poner en tus manos las intenciones que llevo en mi corazón. Si son para mi bien espiritual y para mayor gloria de Dios, alcánzame el favor que con fe te presento. San José, amigo y protector, ruega por nosotros. Amén.",
@@ -38,15 +70,33 @@
     {
       "day": 1,
 
+      "theme": "La justicia",
+
       "virtue": "Justicia",
 
       "title": "Hombre justo ante Dios",
 
+      "quote": {
+        "text": "José, su esposo, que era un hombre justo...",
+        "reference": "Mateo 1,19"
+      },
+
       "reflection": "El Evangelio presenta a San José como un hombre justo. Su justicia no consistía solamente en cumplir normas, sino en mantener un corazón dispuesto a actuar según la voluntad de Dios. Cuando enfrentó situaciones difíciles, eligió la misericordia, la prudencia y la confianza. Su ejemplo nos recuerda que la verdadera justicia nace de una relación sincera con Dios y se manifiesta en nuestras acciones cotidianas.",
+
+      "meditation": "Hoy estoy llamado a revisar si mis decisiones nacen únicamente de mis intereses o si realmente busco la voluntad de Dios en mi vida.",
 
       "prayer": "San José, hombre justo y fiel, enséñame a actuar con rectitud en cada decisión de mi vida. Ayúdame a ser honesto, misericordioso y coherente con mi fe. Que mis palabras y acciones reflejen el amor de Dios hacia quienes me rodean. Amén.",
 
-      "action": "Realiza hoy un acto concreto de honestidad, reconciliación o servicio desinteresado."
+      "action": "Realiza hoy un acto concreto de honestidad, reconciliación o servicio desinteresado.",
+
+      "closing": "San José, ruega por nosotros."
     }
-  ]
+  ],
+
+  "metadata": {
+    "version": 1,
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "updated": "2026-06-25"
+  }
 }

@@ -1,81 +1,114 @@
-let catalogoNovenas = [];
-
-let novenaActual = null;
+/* ==========================================
+   APP
+========================================== */
 
 document.addEventListener(
+
     "DOMContentLoaded",
+
     iniciarApp
+
 );
 
-/* ==========================
-   CARGAR CATÁLOGO
-========================== */
+/* ==========================================
+   INICIO
+========================================== */
 
-async function cargarCatalogo() {
+async function iniciarApp() {
 
     try {
 
-        const response =
-            await fetch(
-                "./data/novenas.json"
-            );
+        state.catalogo =
 
-        if (!response.ok) {
+            await cargarCatalogo();
+
+        if (
+
+            !state.catalogo ||
+
+            state.catalogo.length === 0
+
+        ) {
 
             throw new Error(
-                `Error HTTP: ${response.status}`
+
+                "No existen novenas."
+
             );
 
         }
 
-        return await response.json();
+        mostrarInicio();
 
     } catch (error) {
 
-        console.error(
-            "Error cargando catálogo:",
-            error
-        );
+        console.error(error);
 
-        return [];
+        const view =
+
+            document.getElementById(
+
+                "view"
+
+            );
+
+        if (view) {
+
+            view.innerHTML = `
+
+                <section class="home">
+
+                    <h2>
+
+                        Error
+
+                    </h2>
+
+                    <p>
+
+                        No fue posible iniciar
+                        la aplicación.
+
+                    </p>
+
+                </section>
+
+            `;
+
+        }
 
     }
 
 }
 
-/* ==========================
-   INICIO APP
-========================== */
-
-async function iniciarApp() {
-
-    catalogoNovenas =
-        await cargarCatalogo();
-
-    mostrarInicio();
-
-}
-
-/* ==========================
+/* ==========================================
    MENÚ
-========================== */
+========================================== */
 
 function abrirMenu() {
 
     const menu =
+
         document.getElementById(
+
             "side-menu"
+
         );
 
     const overlay =
+
         document.getElementById(
+
             "menu-overlay"
+
         );
 
     if (menu) {
 
         menu.classList.toggle(
+
             "open"
+
         );
 
     }
@@ -83,7 +116,9 @@ function abrirMenu() {
     if (overlay) {
 
         overlay.classList.toggle(
+
             "show"
+
         );
 
     }
@@ -93,19 +128,27 @@ function abrirMenu() {
 function cerrarMenu() {
 
     const menu =
+
         document.getElementById(
+
             "side-menu"
+
         );
 
     const overlay =
+
         document.getElementById(
+
             "menu-overlay"
+
         );
 
     if (menu) {
 
         menu.classList.remove(
+
             "open"
+
         );
 
     }
@@ -113,392 +156,184 @@ function cerrarMenu() {
     if (overlay) {
 
         overlay.classList.remove(
+
             "show"
+
         );
 
     }
 
 }
 
-function abrirConfiguracion() {
-
-    mostrarConfiguracion();
-
-}
-
-/* ==========================
+/* ==========================================
    INICIO
-========================== */
+========================================== */
 
 function mostrarInicio() {
 
-    const view =
-        document.getElementById(
-            "view"
+    cerrarMenu();
+
+    document
+
+        .getElementById("view")
+
+        .innerHTML =
+
+        renderInicio(
+
+            state.catalogo
+
         );
-
-    const destacada =
-        catalogoNovenas.find(
-            item => item.featured
-        );
-
-    if (!destacada) {
-
-        view.innerHTML = `
-
-            <section class="home">
-
-                <h2>
-                    No hay novenas disponibles
-                </h2>
-
-            </section>
-
-        `;
-
-        return;
-
-    }
-
-    view.innerHTML = `
-
-        <section class="home">
-
-            <img
-                src="${destacada.image}"
-                alt="${destacada.name}"
-                class="saint-image">
-
-            <h2>
-                ${destacada.name}
-            </h2>
-
-            <p class="saint-title">
-                ${destacada.title}
-            </p>
-
-            <p class="saint-feast">
-                Festividad:
-                ${destacada.feast}
-            </p>
-
-            <button
-                onclick="abrirNovena('${destacada.id}')">
-
-                Abrir Novena
-
-            </button>
-
-        </section>
-
-    `;
 
 }
 
-/* ==========================
+/* ==========================================
+   BIBLIOTECA
+========================================== */
+
+function mostrarBiblioteca() {
+
+    cerrarMenu();
+
+    document
+
+        .getElementById("view")
+
+        .innerHTML =
+
+        renderBiblioteca(
+
+            state.catalogo
+
+        );
+
+}
+
+/* ==========================================
    ABRIR NOVENA
-========================== */
+========================================== */
 
 async function abrirNovena(id) {
 
-    const datos =
-        catalogoNovenas.find(
-            item => item.id === id
-        );
-
-    if (!datos) return;
+    cerrarMenu();
 
     try {
 
-        const response =
-            await fetch(
-                datos.file
-            );
+        state.novenaActual =
 
-        if (!response.ok) {
+            await cargarNovena(id);
+
+        if (
+
+            !state.novenaActual
+
+        ) {
 
             throw new Error(
-                `Error HTTP: ${response.status}`
+
+                "No fue posible cargar la novena."
+
             );
 
         }
-
-        novenaActual =
-            await response.json();
 
         mostrarPortadaNovena();
 
     } catch (error) {
 
-        console.error(
-            "Error cargando novena:",
-            error
-        );
+        console.error(error);
 
     }
 
 }
 
-/* ==========================
-   PORTADA NOVENA
-========================== */
+/* ==========================================
+   PORTADA
+========================================== */
 
 function mostrarPortadaNovena() {
 
-    if (!novenaActual) return;
+    document
 
-    const view =
-        document.getElementById(
-            "view"
+        .getElementById("view")
+
+        .innerHTML =
+
+        renderPortadaNovena(
+
+            state.novenaActual
+
         );
-
-    view.innerHTML = `
-
-        <section class="home">
-
-            <img
-                src="${novenaActual.image}"
-                alt="${novenaActual.name}"
-                class="saint-image">
-
-            <h2>
-                ${novenaActual.name}
-            </h2>
-
-            <p class="saint-title">
-                ${novenaActual.title}
-            </p>
-
-            <p class="saint-feast">
-                Festividad:
-                ${novenaActual.feast}
-            </p>
-
-            <div class="patronages">
-
-                <h3>
-                    Patrono de
-                </h3>
-
-                <ul>
-
-                    ${novenaActual.patronages
-                        .map(
-                            item =>
-                                `<li>${item}</li>`
-                        )
-                        .join("")}
-
-                </ul>
-
-            </div>
-
-            <div class="button-group">
-
-                <button
-                    onclick="mostrarHistoria()">
-
-                    Leer Historia
-
-                </button>
-
-                <button
-                    onclick="iniciarNovena()">
-
-                    Comenzar Novena
-
-                </button>
-
-            </div>
-
-        </section>
-
-    `;
 
 }
 
-/* ==========================
+/* ==========================================
    HISTORIA
-========================== */
+========================================== */
 
 function mostrarHistoria() {
 
-    if (!novenaActual) return;
+    document
 
-    const view =
-        document.getElementById(
-            "view"
+        .getElementById("view")
+
+        .innerHTML =
+
+        renderHistoria(
+
+            state.novenaActual
+
         );
-
-    view.innerHTML = `
-
-        <section class="home">
-
-            <img
-                src="${novenaActual.image}"
-                alt="${novenaActual.name}"
-                class="saint-image">
-
-            <h2>
-                ${novenaActual.name}
-            </h2>
-
-            <p class="saint-title">
-                ${novenaActual.title}
-            </p>
-
-            <div class="history">
-
-                <p>
-                    ${novenaActual.history.short}
-                </p>
-
-            </div>
-
-            <div class="button-group">
-
-                <button
-                    onclick="mostrarPortadaNovena()">
-
-                    Volver
-
-                </button>
-
-                <button
-                    onclick="iniciarNovena()">
-
-                    Comenzar Novena
-
-                </button>
-
-            </div>
-
-        </section>
-
-    `;
 
 }
 
-/* ==========================
-   NOVENA
-========================== */
+/* ==========================================
+   DÍA 1
+========================================== */
 
 function iniciarNovena() {
 
+    // Próximamente:
+    // state.progreso =
+    // {
+    //     santo: state.novenaActual.id,
+    //     dia: 1
+    // };
+
     alert(
-        "Próximo paso: Día 1 de la novena."
+
+        "Próximamente iniciaremos el Día 1."
+
     );
 
 }
 
-/* ==========================
-   VISTAS TEMPORALES
-========================== */
-
-function mostrarBiblioteca() {
-
-    const view =
-        document.getElementById(
-            "view"
-        );
-
-    if (
-        !catalogoNovenas ||
-        catalogoNovenas.length === 0
-    ) {
-
-        view.innerHTML = `
-
-            <section class="home">
-
-                <h2>
-                    Biblioteca vacía
-                </h2>
-
-            </section>
-
-        `;
-
-        return;
-
-    }
-
-    const tarjetas =
-        catalogoNovenas.map(
-
-            novena => `
-
-                <article
-                    class="novena-card">
-
-                    <img
-                        src="${novena.image}"
-                        alt="${novena.name}"
-                        class="novena-card-image">
-
-                    <div
-                        class="novena-card-content">
-
-                        <h3>
-                            ${novena.name}
-                        </h3>
-
-                        <p>
-                            ${novena.title}
-                        </p>
-
-                        <button
-                            onclick="abrirNovena('${novena.id}')">
-
-                            Abrir Novena
-
-                        </button>
-
-                    </div>
-
-                </article>
-
-            `
-
-        ).join("");
-
-    view.innerHTML = `
-
-        <section
-            class="library">
-
-            <h2
-                class="library-title">
-
-                Biblioteca de Novenas
-
-            </h2>
-
-            ${tarjetas}
-
-        </section>
-
-    `;
-
-}
+/* ==========================================
+   FAVORITAS
+========================================== */
 
 function mostrarFavoritas() {
 
-    const view =
-        document.getElementById(
-            "view"
-        );
+    cerrarMenu();
 
-    view.innerHTML = `
+    document
+
+        .getElementById("view")
+
+        .innerHTML = `
 
         <section class="home">
 
             <h2>
+
                 Favoritas
+
             </h2>
 
             <p>
-                Tus novenas favoritas.
+
+                Aquí aparecerán las novenas favoritas.
+
             </p>
 
         </section>
@@ -506,24 +341,34 @@ function mostrarFavoritas() {
     `;
 
 }
+
+/* ==========================================
+   PROGRESO
+========================================== */
 
 function mostrarProgreso() {
 
-    const view =
-        document.getElementById(
-            "view"
-        );
+    cerrarMenu();
 
-    view.innerHTML = `
+    document
+
+        .getElementById("view")
+
+        .innerHTML = `
 
         <section class="home">
 
             <h2>
+
                 Mi progreso
+
             </h2>
 
             <p>
-                Aquí podrás continuar tus novenas.
+
+                Aquí podrás continuar las novenas
+                que hayas iniciado.
+
             </p>
 
         </section>
@@ -531,24 +376,34 @@ function mostrarProgreso() {
     `;
 
 }
+
+/* ==========================================
+   CONFIGURACIÓN
+========================================== */
 
 function mostrarConfiguracion() {
 
-    const view =
-        document.getElementById(
-            "view"
-        );
+    cerrarMenu();
 
-    view.innerHTML = `
+    document
+
+        .getElementById("view")
+
+        .innerHTML = `
 
         <section class="home">
 
             <h2>
+
                 Configuración
+
             </h2>
 
             <p>
-                Opciones futuras de la aplicación.
+
+                Próximamente podrás personalizar
+                la aplicación.
+
             </p>
 
         </section>
@@ -557,25 +412,35 @@ function mostrarConfiguracion() {
 
 }
 
+/* ==========================================
+   ACERCA DE
+========================================== */
+
 function mostrarAcerca() {
 
-    const view =
-        document.getElementById(
-            "view"
-        );
+    cerrarMenu();
 
-    view.innerHTML = `
+    document
+
+        .getElementById("view")
+
+        .innerHTML = `
 
         <section class="home">
 
             <h2>
+
                 Acerca de
+
             </h2>
 
             <p>
-                Amigos del Cielo es una aplicación de oración,
-                formación espiritual y acompañamiento mediante
-                novenas, santos y devociones católicas.
+
+                Amigos del Cielo es una aplicación
+                de oración, formación espiritual
+                y acompañamiento mediante novenas
+                y devociones católicas.
+
             </p>
 
         </section>
