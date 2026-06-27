@@ -1,83 +1,104 @@
 /* ==========================================
    ROUTER
+   Amigos del Cielo
 ========================================== */
 
 const router = {
 
     rutaActual: "inicio",
 
-    ir(ruta, datos = null) {
+    rutaAnterior: null,
 
-        this.rutaActual = ruta;
+    datos: null,
+
+    rutas: {
+
+        inicio: mostrarInicio,
+
+        biblioteca: mostrarBiblioteca,
+
+        portada: mostrarPortadaNovena,
+
+        historia: mostrarHistoria,
+
+        favoritas: mostrarFavoritas,
+
+        progreso: mostrarProgreso,
+
+        configuracion: mostrarConfiguracion,
+
+        acerca: mostrarAcerca
+
+    },
+
+    ir(
+
+        ruta,
+
+        datos = null
+
+    ) {
+
+        this.rutaAnterior =
+
+            this.rutaActual;
+
+        this.rutaActual =
+
+            ruta;
+
+        this.datos =
+
+            datos;
 
         cerrarMenu();
 
-        switch (ruta) {
+        const vista =
 
-            case "inicio":
+            this.rutas[ruta];
 
-                mostrarInicio();
+        if (
 
-                break;
+            typeof vista === "function"
 
-            case "biblioteca":
+        ) {
 
-                mostrarBiblioteca();
+            vista(datos);
 
-                break;
-
-            case "portada":
-
-                mostrarPortadaNovena();
-
-                break;
-
-            case "historia":
-
-                mostrarHistoria();
-
-                break;
-
-            case "favoritas":
-
-                mostrarFavoritas();
-
-                break;
-
-            case "progreso":
-
-                mostrarProgreso();
-
-                break;
-
-            case "configuracion":
-
-                mostrarConfiguracion();
-
-                break;
-
-            case "acerca":
-
-                mostrarAcerca();
-
-                break;
-
-            default:
-
-                mostrarInicio();
+            return;
 
         }
+
+        console.warn(
+
+            `Ruta inexistente: ${ruta}`
+
+        );
+
+        mostrarInicio();
 
     }
 
 };
 
 /* ==========================================
-   COMPATIBILIDAD
+   NAVEGACIÓN
 ========================================== */
 
-function navegar(ruta) {
+function navegar(
 
-    router.ir(ruta);
+    ruta,
+
+    datos = null
+
+) {
+
+    router.ir(
+
+        ruta,
+
+        datos
+
+    );
 
 }

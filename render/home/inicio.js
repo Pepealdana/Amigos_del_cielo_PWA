@@ -4,7 +4,10 @@
 
 function renderInicio(catalogo) {
 
-    const destacada = obtenerNovenaDestacada(catalogo);
+    const destacada =
+        obtenerNovenaDestacada(
+            catalogo
+        );
 
     if (!destacada) {
 
@@ -28,40 +31,115 @@ function renderInicio(catalogo) {
 
         <section class="home">
 
-            ${crearImagen(
+            <section class="home-featured">
 
-                destacada.image,
+                <h2>
 
-                destacada.name
+                    ⭐ Novena destacada
 
-            )}
+                </h2>
 
-            ${crearTitulo(
+                ${crearImagen(
 
-                destacada.name
+                    destacada.image,
 
-            )}
+                    destacada.name
 
-            <p class="saint-title">
+                )}
 
-                ${destacada.title}
+                ${crearTitulo(
 
-            </p>
+                    destacada.name
 
-            <p class="saint-feast">
+                )}
 
-                Festividad:
-                ${destacada.feast}
+                <p class="saint-title">
 
-            </p>
+                    ${destacada.title}
 
-            ${crearBoton(
+                </p>
 
-                "Abrir Novena",
+                <p class="saint-feast">
 
-                `abrirNovena('${destacada.id}')`
+                    Festividad:
+                    ${formatearFechaLiturgica(
+                        destacada.feast
+                    )}
 
-            )}
+                </p>
+
+                <button
+                    class="btn-primary btn-abrir-novena"
+                    data-id="${destacada.id}">
+
+                    Abrir novena
+
+                </button>
+
+            </section>
+
+            <section class="home-section">
+
+                <h2>
+
+                    ❤️ Continuar novena
+
+                </h2>
+
+                <p>
+
+                    Continúa la última novena
+                    que hayas iniciado.
+
+                </p>
+
+                <button
+                    class="btn-secondary"
+                    id="btn-continuar">
+
+                    Continuar
+
+                </button>
+
+            </section>
+
+            <section class="home-section">
+
+                <h2>
+
+                    🙏 Accesos rápidos
+
+                </h2>
+
+                <div class="home-actions">
+
+                    <button
+                        class="btn-action"
+                        id="btn-ir-biblioteca">
+
+                        Biblioteca
+
+                    </button>
+
+                    <button
+                        class="btn-action"
+                        id="btn-ir-favoritas">
+
+                        Favoritas
+
+                    </button>
+
+                    <button
+                        class="btn-action"
+                        id="btn-ir-progreso">
+
+                        Mi progreso
+
+                    </button>
+
+                </div>
+
+            </section>
 
         </section>
 

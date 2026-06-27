@@ -1,12 +1,21 @@
 /* ==========================================
-   PORTADA NOVENA
+   PORTADA DE NOVENA
+   Amigos del Cielo
 ========================================== */
+
+/**
+ * Renderiza la portada principal
+ * de una novena.
+ *
+ * @param {Object} novena
+ * @returns {string}
+ */
 
 function renderPortadaNovena(novena) {
 
     return `
 
-        <section class="home">
+        <section class="novena-page">
 
             ${crearImagen(
 
@@ -22,6 +31,12 @@ function renderPortadaNovena(novena) {
 
             )}
 
+            <p class="saint-subtitle">
+
+                ${novena.subtitle}
+
+            </p>
+
             <p class="saint-title">
 
                 ${novena.title}
@@ -30,30 +45,61 @@ function renderPortadaNovena(novena) {
 
             <p class="saint-feast">
 
-                Festividad:
-                ${novena.feast}
+                📅 ${novena.feast.text}
 
             </p>
 
-            ${crearLista(
+            <p class="saint-description">
 
-                "Patrono de",
+                ${novena.description}
+
+            </p>
+
+            ${crearDivider()}
+
+            <blockquote class="saint-quote">
+
+                <p>
+
+                    "${novena.quote.text}"
+
+                </p>
+
+                <footer>
+
+                    ${novena.quote.reference}
+
+                </footer>
+
+            </blockquote>
+
+            ${renderListaSeccion(
+
+                "Patronazgos",
 
                 novena.patronages
 
             )}
 
+            ${renderListaSeccion(
+
+                "Virtudes",
+
+                novena.virtues
+
+            )}
+
             <div class="button-group">
 
-                ${crearBoton(
+                ${crearBotonSecundario(
 
-                    "Leer Historia",
+                    "Historia",
 
                     "mostrarHistoria()"
 
                 )}
 
-                ${crearBoton(
+                ${crearBotonPrimario(
 
                     "Comenzar Novena",
 

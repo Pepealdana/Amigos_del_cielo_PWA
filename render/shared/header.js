@@ -1,33 +1,83 @@
 /* ==========================================
-   HEADER INTERNO
+   HEADER
+   Amigos del Cielo
 ========================================== */
+
+/**
+ * Crea el encabezado de una sección.
+ *
+ * @param {string} titulo
+ * @param {string} subtitulo
+ * @param {string} icono
+ * @returns {string}
+ */
 
 function renderHeader(
 
     titulo,
 
-    subtitulo = ""
+    subtitulo = "",
 
-){
+    icono = ""
+
+) {
 
     return `
 
         <header class="page-header">
 
-            <h2>
+            ${
+
+                icono
+
+                    ? `
+
+                    <div class="page-header-icon">
+
+                        ${icono}
+
+                    </div>
+
+                    `
+
+                    : ""
+
+            }
+
+            <h2 class="page-title">
 
                 ${titulo}
 
             </h2>
 
-            <p>
+            ${
 
-                ${subtitulo}
+                subtitulo
 
-            </p>
+                    ? `
+
+                    <p class="page-subtitle">
+
+                        ${subtitulo}
+
+                    </p>
+
+                    `
+
+                    : ""
+
+            }
 
         </header>
 
     `;
 
 }
+
+/**
+ * Alias para mantener
+ * consistencia con los
+ * demás componentes.
+ */
+
+const crearHeader = renderHeader;

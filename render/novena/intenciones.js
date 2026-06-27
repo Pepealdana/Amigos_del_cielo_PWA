@@ -2,34 +2,60 @@
    RENDER INTENCIONES
 ========================================== */
 
-function renderIntenciones() {
+function renderIntenciones(novena) {
+
+    const intenciones =
+
+        novena.intentions || [
+
+            "Por la Iglesia y el Santo Padre.",
+
+            "Por nuestras familias.",
+
+            "Por los enfermos y quienes sufren.",
+
+            "Por quienes más necesitan la misericordia de Dios.",
+
+            "Por la intención particular con la que realizo esta novena."
+
+        ];
 
     return `
 
         <section class="home">
 
             <h2>
-                Intenciones
+
+                🙏 Intenciones
+
             </h2>
 
             <p>
 
-                Señor, pongo en tus manos
-                todas mis necesidades,
-                las de mi familia,
-                mis amigos
-                y todas aquellas personas
-                que necesitan tu ayuda.
+                Presentemos con confianza nuestras
+                necesidades al Señor por intercesión
+                de <strong>${novena.name}</strong>.
 
             </p>
 
-            <p>
+            <div class="divider"></div>
 
-                También presento
-                en silencio
-                la intención particular
-                por la que realizo
-                esta novena.
+            ${renderListaSeccion(
+
+                "Oremos por:",
+
+                intenciones
+
+            )}
+
+            <div class="divider"></div>
+
+            <p class="text-center">
+
+                Guarda unos instantes de silencio y
+                presenta en tu corazón la intención
+                particular por la cual realizas esta
+                novena.
 
             </p>
 

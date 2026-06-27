@@ -4,47 +4,75 @@
 
 function renderHistoria(novena) {
 
+    if (!novena) {
+
+        return crearEmptyState(
+
+            "No fue posible cargar la historia."
+
+        );
+
+    }
+
     return `
 
         <section class="home">
 
-            ${crearImagen(
+            ${renderCabeceraNovena(
 
-                novena.image,
-
-                novena.name
+                novena
 
             )}
 
-            ${crearTitulo(
+            ${renderFestividad(
 
-                novena.name
+                novena
 
             )}
 
-            <p class="history">
+            <div class="divider"></div>
 
-                ${novena.history.short}
+            ${renderOracion(
 
-            </p>
+                "Historia",
+
+                novena.history.short
+
+            )}
+
+            <div class="divider"></div>
+
+            ${renderPatronazgos(
+
+                novena
+
+            )}
+
+            <div class="divider"></div>
+
+            ${renderVirtudes(
+
+                novena
+
+            )}
 
             <div class="button-group">
 
-                ${crearBoton(
+                <button
+                    class="btn-secondary"
+                    id="btn-volver-portada">
 
-                    "Volver",
+                    ← Volver
 
-                    "mostrarPortadaNovena()"
+                </button>
 
-                )}
+                <button
+                    class="btn-primary"
+                    id="btn-comenzar-novena">
 
-                ${crearBoton(
+                    Comenzar novena
 
-                    "Comenzar Novena",
-
-                    "iniciarNovena()"
-
-                )}
+                </button>
 
             </div>
 

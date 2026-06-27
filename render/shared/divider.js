@@ -1,23 +1,36 @@
 /* ==========================================
    DIVIDER
+   Amigos del Cielo
 ========================================== */
 
 /**
- * Línea divisoria.
+ * Crea una línea divisoria.
+ *
+ * @param {string} tipo
+ * @returns {string}
  */
 
-function renderDivider() {
+function renderDivider(
+
+    tipo = "default"
+
+) {
 
     return `
 
-        <hr class="divider">
+        <hr
+
+            class="divider divider-${tipo}">
 
     `;
 
 }
 
 /**
- * Separador con texto.
+ * Crea un separador con texto.
+ *
+ * @param {string} texto
+ * @returns {string}
  */
 
 function renderDividerText(
@@ -41,3 +54,13 @@ function renderDividerText(
     `;
 
 }
+
+/**
+ * Alias para mantener
+ * consistencia con los
+ * demás componentes.
+ */
+
+const crearDivider = renderDivider;
+
+const crearDividerTexto = renderDividerText;

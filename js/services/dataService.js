@@ -1,33 +1,51 @@
-/**
- * ============================================
- * SERVICIO DE DATOS
- * ============================================
- */
+/* ==========================================
+   DATA SERVICE
+   Amigos del Cielo
+========================================== */
+
+/* ==========================================
+   CARGAR CATÁLOGO
+========================================== */
 
 async function cargarCatalogo() {
 
     try {
 
-        const response = await fetch("./data/novenas.json");
+        const response = await fetch(
+
+            "./data/novenas.json"
+
+        );
 
         if (!response.ok) {
 
             throw new Error(
+
                 `Error ${response.status}`
+
             );
 
         }
 
-        estado.catalogo = await response.json();
+        state.catalogo =
 
-        return estado.catalogo;
+            await response.json();
 
-    } catch (error) {
+        return state.catalogo;
+
+    }
+
+    catch (error) {
 
         console.error(
+
             "Error cargando catálogo:",
+
             error
+
         );
+
+        state.catalogo = [];
 
         return [];
 
@@ -35,52 +53,112 @@ async function cargarCatalogo() {
 
 }
 
+/* ==========================================
+   CARGAR NOVENA
+========================================== */
+
 async function cargarNovena(id) {
-
-    const novena = estado.catalogo.find(
-
-        item => item.id === id
-
-    );
-
-    if (!novena) {
-
-        return null;
-
-    }
 
     try {
 
-        const response = await fetch(
+        const novena =
 
-            novena.file
+            state.catalogo.find(
 
-        );
+                item => item.id === id
 
-        if (!response.ok) {
+            );
+
+        if (!novena) {
 
             throw new Error(
-                `Error ${response.status}`
+
+                `No existe la novena "${id}".`
+
             );
 
         }
 
-        estado.novenaActual =
+        const response =
+
+            await fetch(
+
+                novena.file
+
+            );
+
+        if (!response.ok) {
+
+            throw new Error(
+
+                `Error ${response.status}`
+
+            );
+
+        }
+
+        state.novenaActual =
 
             await response.json();
 
-        estado.diaActual = 1;
+        state.diaActual = 1;
 
-        return estado.novenaActual;
+        return state.novenaActual;
 
     }
 
-    catch(error){
+    catch (error) {
 
-        console.error(error);
+        console.error(
+
+            "Error cargando novena:",
+
+            error
+
+        );
+
+        state.novenaActual = null;
 
         return null;
 
     }
+
+}
+
+/* ==========================================
+   OBTENER DÍA
+========================================== */
+
+function obtenerDia(numeroDia) {
+
+    if (
+
+        !state.novenaActual ||
+
+        !state.novenaActual.days
+
+    ) {
+
+        return null;
+
+    }
+
+    return state.novenaActual.days.find(
+
+        dia => dia.day === numeroDia
+
+    );
+
+}
+
+/* ==========================================
+   CAMBIAR DÍA
+========================================== */
+
+function cambiarDia(numeroDia) {
+
+    state.diaActual = numeroDia;
+
+    return obtenerDia(numeroDia);
 
 }

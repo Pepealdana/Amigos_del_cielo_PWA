@@ -1,9 +1,15 @@
 /* ==========================================
    MODAL
+   Amigos del Cielo
 ========================================== */
 
 /**
- * Modal genérico.
+ * Renderiza un modal genérico.
+ *
+ * @param {string} titulo
+ * @param {string} contenido
+ * @param {string} textoBoton
+ * @returns {string}
  */
 
 function renderModal(
@@ -12,34 +18,45 @@ function renderModal(
 
     contenido,
 
-    boton = "Cerrar"
+    textoBoton = "Cerrar"
 
 ) {
 
     return `
 
-        <div class="modal">
+        <div
+
+            class="modal"
+
+            role="dialog"
+
+            aria-modal="true">
 
             <div class="modal-content">
 
-                <h2>
+                <h2 class="modal-title">
 
                     ${titulo}
 
                 </h2>
 
-                <div>
+                <div class="modal-body">
 
                     ${contenido}
 
                 </div>
 
-                <button
-                    onclick="cerrarModal()">
+                <div class="modal-footer">
 
-                    ${boton}
+                    ${crearBoton(
 
-                </button>
+                        textoBoton,
+
+                        "cerrarModal()"
+
+                    )}
+
+                </div>
 
             </div>
 
@@ -50,21 +67,59 @@ function renderModal(
 }
 
 /**
- * Cerrar modal.
+ * Inserta un modal
+ * en la aplicación.
+ */
+
+function mostrarModal(
+
+    titulo,
+
+    contenido,
+
+    textoBoton = "Cerrar"
+
+) {
+
+    document.body.insertAdjacentHTML(
+
+        "beforeend",
+
+        renderModal(
+
+            titulo,
+
+            contenido,
+
+            textoBoton
+
+        )
+
+    );
+
+}
+
+/**
+ * Elimina el modal.
  */
 
 function cerrarModal() {
 
-    const modal =
+    document
 
-        document.querySelector(
+        .querySelector(
+
             ".modal"
-        );
 
-    if (modal) {
+        )
 
-        modal.remove();
-
-    }
+        ?.remove();
 
 }
+
+/**
+ * Alias para mantener
+ * consistencia.
+ */
+
+const crearModal = renderModal;

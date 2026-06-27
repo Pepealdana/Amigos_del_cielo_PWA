@@ -1,28 +1,44 @@
-/**
- * ============================================
- * AMIGOS DEL CIELO
- * Estado Global de la Aplicación
- * ============================================
- */
+/* ==========================================
+   AMIGOS DEL CIELO
+   ESTADO GLOBAL
+========================================== */
 
-const estado = {
+const state = {
 
-    // Catálogo completo de novenas
+    /* ==========================
+       Catálogo
+    ========================== */
+
     catalogo: [],
 
-    // Novena actualmente abierta
+    /* ==========================
+       Novena abierta
+    ========================== */
+
     novenaActual: null,
 
-    // Día actual de la novena
+    /* ==========================
+       Día actual
+    ========================== */
+
     diaActual: 1,
 
-    // Favoritos del usuario
+    /* ==========================
+       Favoritas
+    ========================== */
+
     favoritos: [],
 
-    // Progreso de lectura
+    /* ==========================
+       Progreso
+    ========================== */
+
     progreso: {},
 
-    // Configuración futura
+    /* ==========================
+       Configuración
+    ========================== */
+
     configuracion: {
 
         tema: "claro",

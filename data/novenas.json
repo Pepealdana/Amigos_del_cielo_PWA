@@ -1,11 +1,38 @@
 [
   {
     "id": "san-jose",
+
+    "slug": "san-jose",
+
     "name": "San José",
+
     "title": "Esposo de la Virgen María y custodio de Jesús",
-    "feast": "19-03",
+
+    "subtitle": "Patrono de la Iglesia Universal",
+
     "category": "Santos",
+
+    "featured": true,
+
     "image": "assets/images/san-jose.webp",
-    "file": "data/san-jose.json"
+
+    "file": "data/san-jose.json",
+
+    "description": "Modelo de fe, obediencia, trabajo y confianza en Dios.",
+
+    "feast": {
+      "day": 19,
+      "month": 3,
+      "text": "19 de marzo"
+    },
+
+    "status": "published",
+
+    "search": [
+      "san jose",
+      "jose",
+      "trabajo",
+      "familia"
+    ]
   }
 ]

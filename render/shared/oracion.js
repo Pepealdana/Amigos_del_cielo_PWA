@@ -1,9 +1,14 @@
 /* ==========================================
    ORACIONES
+   Amigos del Cielo
 ========================================== */
 
 /**
- * Renderiza una oración.
+ * Renderiza un bloque de oración.
+ *
+ * @param {string} titulo
+ * @param {string} texto
+ * @returns {string}
  */
 
 function renderOracion(
@@ -18,17 +23,21 @@ function renderOracion(
 
         <section class="prayer">
 
-            <h3>
+            <h3 class="prayer-title">
 
                 ${titulo}
 
             </h3>
 
-            <p>
+            <div class="prayer-content">
 
-                ${texto}
+                <p>
 
-            </p>
+                    ${texto}
+
+                </p>
+
+            </div>
 
         </section>
 
@@ -37,7 +46,10 @@ function renderOracion(
 }
 
 /**
- * Oración destacada.
+ * Renderiza una oración destacada.
+ *
+ * @param {string} texto
+ * @returns {string}
  */
 
 function renderOracionDestacada(
@@ -48,13 +60,23 @@ function renderOracionDestacada(
 
     return `
 
-        <blockquote
-            class="featured-prayer">
+        <blockquote class="featured-prayer">
 
-            ${texto}
+            <p>
+
+                ${texto}
+
+            </p>
 
         </blockquote>
 
     `;
 
 }
+
+/**
+ * Alias para mantener
+ * consistencia entre componentes.
+ */
+
+const crearOracion = renderOracion;

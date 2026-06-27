@@ -1,0 +1,1296 @@
+/* ==========================================================
+   AMIGOS DEL CIELO
+   COMPONENTES
+========================================================== */
+
+/* ==========================================================
+   BOTONES
+========================================================== */
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:.5rem;
+
+    width:100%;
+
+    min-height:48px;
+
+    padding:
+
+        .95rem
+        1.40rem;
+
+    border:none;
+
+    border-radius:
+
+        var(--radius-sm);
+
+    font:
+
+        inherit;
+
+    font-size:
+
+        var(--font-md);
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:
+
+        background .25s,
+        color .25s,
+        transform .15s,
+        box-shadow .25s;
+
+}
+
+.btn:hover{
+
+    transform:
+
+        translateY(-1px);
+
+}
+
+.btn:active{
+
+    transform:
+
+        scale(.98);
+
+}
+
+.btn:disabled{
+
+    opacity:.55;
+
+    cursor:not-allowed;
+
+}
+
+/* --------------------------
+   Primario
+-------------------------- */
+
+.btn-primary{
+
+    background:
+
+        var(--color-primary);
+
+    color:
+
+        var(--color-text-inverse);
+
+}
+
+.btn-primary:hover{
+
+    background:
+
+        var(--color-primary-light);
+
+}
+
+/* --------------------------
+   Secundario
+-------------------------- */
+
+.btn-secondary{
+
+    background:
+
+        var(--color-secondary);
+
+    color:
+
+        var(--color-primary);
+
+}
+
+.btn-secondary:hover{
+
+    filter:
+
+        brightness(.96);
+
+}
+
+/* --------------------------
+   Acento
+-------------------------- */
+
+.btn-accent{
+
+    background:
+
+        var(--color-accent);
+
+    color:
+
+        #473300;
+
+}
+
+.btn-accent:hover{
+
+    filter:
+
+        brightness(.96);
+
+}
+
+/* --------------------------
+   Outline
+-------------------------- */
+
+.btn-outline{
+
+    background:
+
+        transparent;
+
+    color:
+
+        var(--color-primary);
+
+    border:
+
+        2px solid
+        var(--color-primary);
+
+}
+
+.btn-outline:hover{
+
+    background:
+
+        rgba(44,74,107,.06);
+
+}
+
+
+/* ==========================================================
+   ICON BUTTON
+========================================================== */
+
+.icon-button{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:48px;
+
+    height:48px;
+
+    padding:0;
+
+    border:none;
+
+    border-radius:
+
+        var(--radius-full);
+
+    background:transparent;
+
+    color:
+
+        var(--color-text-inverse);
+
+    font-size:1.5rem;
+
+    cursor:pointer;
+
+    transition:
+
+        background .25s,
+        opacity .25s,
+        transform .15s;
+
+}
+
+.icon-button:hover{
+
+    background:
+
+        rgba(255,255,255,.12);
+
+}
+
+.icon-button:active{
+
+    transform:
+
+        scale(.95);
+
+}
+
+.icon-button:focus-visible{
+
+    outline:
+
+        2px solid
+        rgba(255,255,255,.70);
+
+    outline-offset:2px;
+
+}
+/* ==========================================================
+   TARJETA NOVENA
+========================================================== */
+
+.novena-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+    background:
+
+        var(--color-surface);
+
+    border:
+
+        1px solid
+        var(--color-border);
+
+    border-radius:
+
+        var(--radius);
+
+    box-shadow:
+
+        var(--shadow);
+
+    transition:
+
+        transform .25s,
+        box-shadow .25s;
+
+}
+
+.novena-card:hover{
+
+    transform:
+
+        translateY(-4px);
+
+    box-shadow:
+
+        var(--shadow-lg);
+
+}
+
+.novena-card-image{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    object-position:center 15%;
+
+}
+
+.novena-card-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:.75rem;
+
+    flex:1;
+
+    padding:1.25rem;
+
+}
+
+.novena-card-content h3{
+
+    margin:0;
+
+    color:
+
+        var(--color-primary);
+
+}
+
+.novena-card-content p{
+
+    margin:0;
+
+    color:
+
+        var(--color-text-light);
+
+    line-height:1.6;
+
+}
+
+.novena-card-content .btn{
+
+    margin-top:auto;
+
+}
+
+/* ==========================================================
+   IMAGEN DEL SANTO
+========================================================== */
+
+.saint-image{
+
+    display:block;
+
+    width:
+
+        min(
+            85vw,
+            var(--saint-image-width)
+        );
+
+    aspect-ratio:4 / 5;
+
+    margin:
+
+        0 auto
+        1.5rem;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    background:
+
+        var(--color-surface);
+
+    border:
+
+        4px solid
+        rgba(217,182,107,.30);
+
+    border-radius:
+
+        var(--radius);
+
+    box-shadow:
+
+        var(--shadow-lg);
+
+    transition:
+
+        transform .30s,
+        box-shadow .30s;
+
+}
+
+/* ==========================================================
+   BADGES
+========================================================== */
+
+.badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-height:28px;
+
+    padding:
+
+        .35rem
+        .85rem;
+
+    border-radius:
+
+        var(--radius-full);
+
+    background:
+
+        var(--color-secondary);
+
+    color:
+
+        var(--color-primary);
+
+    font-size:
+
+        var(--font-sm);
+
+    font-weight:700;
+
+    line-height:1;
+
+    white-space:nowrap;
+
+}
+
+/* ==========================================================
+   CHIPS
+========================================================== */
+
+.chip-group{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:.5rem;
+
+}
+
+.chip{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-height:32px;
+
+    padding:
+
+        .45rem
+        1rem;
+
+    border-radius:
+
+        var(--radius-full);
+
+    background:
+
+        rgba(44,74,107,.08);
+
+    color:
+
+        var(--color-primary);
+
+    font-size:
+
+        var(--font-sm);
+
+    font-weight:500;
+
+    line-height:1;
+
+    white-space:nowrap;
+
+    transition:
+
+        background .25s,
+        color .25s,
+        transform .15s;
+
+}
+
+/* ==========================================================
+   LISTAS
+========================================================== */
+
+.list-section{
+
+    margin:
+
+        2rem 0;
+
+}
+
+.list-title{
+
+    margin-bottom:
+
+        .85rem;
+
+    color:
+
+        var(--color-primary);
+
+    font-weight:600;
+
+}
+
+.list{
+
+    padding-left:
+
+        1.5rem;
+
+}
+
+.list li{
+
+    margin-bottom:
+
+        .65rem;
+
+    line-height:
+
+        1.7;
+
+    color:
+
+        var(--color-text);
+
+}
+
+.list li:last-child{
+
+    margin-bottom:0;
+
+}
+/* ==========================================================
+   DIVIDER
+========================================================== */
+
+.divider{
+
+    border:none;
+
+    border-top:
+
+        1px solid
+        var(--color-border);
+
+    margin:
+
+        2.5rem 0;
+
+}
+
+.divider-text{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:1rem;
+
+    margin:
+
+        2.5rem 0;
+
+    text-align:center;
+
+}
+
+.divider-text::before,
+.divider-text::after{
+
+    content:"";
+
+    flex:1;
+
+    height:1px;
+
+    background:
+
+        var(--color-border);
+
+}
+
+.divider-text span{
+
+    padding:
+
+        0 .5rem;
+
+    color:
+
+        var(--color-text-light);
+
+    font-size:
+
+        var(--font-sm);
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+/* ==========================================================
+   PAGE HEADER
+========================================================== */
+
+.page-header{
+
+    text-align:center;
+
+    margin-bottom:
+
+        2rem;
+
+}
+
+.page-header h2{
+
+    margin-bottom:
+
+        .5rem;
+
+}
+
+.page-header p{
+
+    max-width:
+
+        650px;
+
+    margin:
+
+        0 auto;
+
+    color:
+
+        var(--color-text-light);
+
+    line-height:
+
+        1.6;
+
+}
+
+.page-header p:last-child{
+
+    margin-bottom:0;
+
+}
+/* ==========================================================
+   HISTORIA
+========================================================== */
+
+.history{
+
+    max-width:760px;
+
+    margin:0 auto;
+
+    text-align:justify;
+
+    line-height:1.9;
+
+    animation:
+
+        fadeIn .35s ease;
+
+}
+
+.history p{
+
+    margin-bottom:
+
+        var(--space-md);
+
+}
+
+.history p:last-child{
+
+    margin-bottom:0;
+
+}
+
+/* ==========================================================
+   ORACIONES
+========================================================== */
+
+.prayer{
+
+    max-width:760px;
+
+    margin:
+
+        2rem auto;
+
+    animation:
+
+        fadeIn .35s ease;
+
+}
+
+.prayer h3{
+
+    margin-bottom:
+
+        .85rem;
+
+    color:
+
+        var(--color-primary);
+
+    font-weight:700;
+
+    text-align:center;
+
+}
+
+.prayer p{
+
+    line-height:
+
+        1.9;
+
+    text-align:justify;
+
+    margin-bottom:
+
+        var(--space-md);
+
+}
+
+.prayer p:last-child{
+
+    margin-bottom:0;
+
+}
+/* ==========================================================
+   ORACIÓN DESTACADA
+========================================================== */
+
+.featured-prayer{
+
+    max-width:760px;
+
+    margin:
+
+        2rem auto;
+
+    padding:
+
+        1.5rem;
+
+    border-left:
+
+        5px solid
+        var(--color-accent);
+
+    border-radius:
+
+        var(--radius-sm);
+
+    background:
+
+        rgba(217,182,107,.12);
+
+    box-shadow:
+
+        var(--shadow-sm);
+
+    color:
+
+        var(--color-text);
+
+    line-height:
+
+        1.9;
+
+    text-align:justify;
+
+    font-style:italic;
+
+    animation:
+
+        fadeIn .35s ease;
+
+}
+
+.featured-prayer p:last-child{
+
+    margin-bottom:0;
+
+}
+/* ==========================================================
+   CITA BÍBLICA
+========================================================== */
+
+.quote{
+
+    max-width:760px;
+
+    margin:
+
+        2rem auto;
+
+    padding:
+
+        1.25rem
+        1.5rem;
+
+    background:
+
+        rgba(44,74,107,.05);
+
+    border-left:
+
+        4px solid
+        var(--color-primary);
+
+    border-radius:
+
+        var(--radius-sm);
+
+    box-shadow:
+
+        var(--shadow-sm);
+
+    line-height:
+
+        1.9;
+
+    text-align:justify;
+
+    animation:
+
+        fadeIn .35s ease;
+
+}
+
+.quote p:last-child{
+
+    margin-bottom:0;
+
+}
+
+.quote-reference{
+
+    margin-top:
+
+        1rem;
+
+    text-align:right;
+
+    font-size:
+
+        var(--font-sm);
+
+    font-style:italic;
+
+    font-weight:600;
+
+    color:
+
+        var(--color-text-light);
+
+}
+/* ==========================================================
+   TEXTAREA
+========================================================== */
+
+.intention-input{
+
+    width:100%;
+
+    min-height:150px;
+
+    padding:
+
+        1rem;
+
+    margin-top:
+
+        1rem;
+
+    border:
+
+        1px solid
+        var(--color-border);
+
+    border-radius:
+
+        var(--radius-sm);
+
+    background:
+
+        var(--color-surface);
+
+    color:
+
+        var(--color-text);
+
+    font:
+
+        inherit;
+
+    line-height:
+
+        1.7;
+
+    resize:vertical;
+
+    box-sizing:border-box;
+
+    transition:
+
+        border-color .25s,
+        box-shadow .25s;
+
+}
+
+.intention-input:focus{
+
+    outline:none;
+
+    border-color:
+
+        var(--color-secondary);
+
+    box-shadow:
+
+        0 0 0 3px
+        rgba(127,178,214,.25);
+
+}
+
+.intention-input::placeholder{
+
+    color:
+
+        var(--color-text-light);
+
+    opacity:.75;
+
+}
+/* ==========================================================
+   LOADER
+========================================================== */
+
+.loader{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:
+
+        1rem;
+
+    padding:
+
+        3rem 1rem;
+
+    text-align:center;
+
+    animation:
+
+        fadeIn .35s ease;
+
+}
+
+.spinner{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    border:
+
+        5px solid
+        rgba(44,74,107,.15);
+
+    border-top:
+
+        5px solid
+        var(--color-primary);
+
+    animation:
+
+        spin .9s linear infinite;
+
+}
+
+.loader p{
+
+    margin:0;
+
+    color:
+
+        var(--color-text-light);
+
+    font-size:
+
+        var(--font-sm);
+
+}
+
+/* ==========================================================
+   EMPTY STATE
+========================================================== */
+
+.empty-state{
+
+    max-width:600px;
+
+    margin:
+
+        2rem auto;
+
+    padding:
+
+        3rem 2rem;
+
+    text-align:center;
+
+    animation:
+
+        fadeIn .35s ease;
+
+}
+
+.empty-state h2{
+
+    margin-bottom:
+
+        .75rem;
+
+    color:
+
+        var(--color-primary);
+
+}
+
+.empty-state p{
+
+    margin-bottom:0;
+
+    color:
+
+        var(--color-text-light);
+
+    line-height:
+
+        1.7;
+
+}
+/* ==========================================================
+   MODAL
+========================================================== */
+
+.modal{
+
+    position:fixed;
+
+    inset:0;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:
+
+        1rem;
+
+    background:
+
+        rgba(0,0,0,.45);
+
+    backdrop-filter:
+
+        blur(3px);
+
+    z-index:2000;
+
+    animation:
+
+        fadeIn .25s ease;
+
+}
+
+.modal-content{
+
+    width:
+
+        min(92%,520px);
+
+    max-height:
+
+        90vh;
+
+    overflow-y:auto;
+
+    background:
+
+        var(--color-surface);
+
+    padding:
+
+        2rem;
+
+    border-radius:
+
+        var(--radius);
+
+    box-shadow:
+
+        var(--shadow-lg);
+
+    animation:
+
+        slideUp .30s ease;
+
+}
+
+.modal-content h2{
+
+    margin-bottom:
+
+        1rem;
+
+    text-align:center;
+
+}
+
+.modal-content p{
+
+    line-height:
+
+        1.7;
+
+}
+
+.modal-content button{
+
+    margin-top:
+
+        1.5rem;
+
+}
+
+/* ==========================================================
+   DASHBOARD CARD
+========================================================== */
+
+.dashboard-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1rem;
+
+    padding:
+
+        1.5rem;
+
+    background:
+
+        var(--color-surface);
+
+    border:
+
+        1px solid
+        var(--color-border);
+
+    border-radius:
+
+        var(--radius);
+
+    box-shadow:
+
+        var(--shadow);
+
+    transition:
+
+        transform .25s,
+        box-shadow .25s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:
+
+        translateY(-3px);
+
+    box-shadow:
+
+        var(--shadow-lg);
+
+}
+
+.dashboard-card h2{
+
+    margin:0;
+
+    color:
+
+        var(--color-primary);
+
+}
+
+.dashboard-card p{
+
+    margin:0;
+
+    color:
+
+        var(--color-text-light);
+
+    line-height:
+
+        1.6;
+
+}
+
+.dashboard-image{
+
+    width:100%;
+
+    max-height:240px;
+
+    object-fit:cover;
+
+    object-position:center top;
+
+    border-radius:
+
+        var(--radius-sm);
+
+}
+
+/* ==========================================================
+   SECTION TITLE
+========================================================== */
+
+.section-title{
+
+    margin-bottom:
+
+        1rem;
+
+    color:
+
+        var(--color-primary);
+
+    font-size:
+
+        var(--font-xl);
+
+    font-weight:700;
+
+    text-align:center;
+
+}

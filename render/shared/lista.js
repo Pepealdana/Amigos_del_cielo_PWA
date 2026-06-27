@@ -1,43 +1,93 @@
 /* ==========================================
-   DIVIDER
+   LISTA
+   Amigos del Cielo
 ========================================== */
 
 /**
- * Línea divisoria.
+ * Crea una lista.
+ *
+ * @param {Array<string>} items
+ * @param {string} titulo
+ * @returns {string}
  */
 
-function renderDivider() {
+function renderLista(
+
+    items = [],
+
+    titulo = ""
+
+) {
+
+    if (
+
+        !Array.isArray(items) ||
+
+        items.length === 0
+
+    ) {
+
+        return "";
+
+    }
 
     return `
 
-        <hr class="divider">
+        <section class="list-section">
+
+            ${
+
+                titulo
+
+                    ? `
+
+                    <h3 class="list-title">
+
+                        ${titulo}
+
+                    </h3>
+
+                    `
+
+                    : ""
+
+            }
+
+            <ul class="list">
+
+                ${
+
+                    items
+
+                        .map(
+
+                            item => `
+
+                                <li>
+
+                                    ${item}
+
+                                </li>
+
+                            `
+
+                        )
+
+                        .join("")
+
+                }
+
+            </ul>
+
+        </section>
 
     `;
 
 }
 
 /**
- * Separador con texto.
+ * Alias para mantener
+ * consistencia.
  */
 
-function renderDividerText(
-
-    texto
-
-) {
-
-    return `
-
-        <div class="divider-text">
-
-            <span>
-
-                ${texto}
-
-            </span>
-
-        </div>
-
-    `;
-
-}
+const crearLista = renderLista;

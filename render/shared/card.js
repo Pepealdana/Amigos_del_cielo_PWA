@@ -1,8 +1,24 @@
 /* ==========================================
-   CARD NOVENA
+   CARD
+   Amigos del Cielo
 ========================================== */
 
-function renderCard(novena){
+/**
+ * Crea una tarjeta de una novena.
+ *
+ * @param {Object} novena
+ * @returns {string}
+ */
+
+function renderCard(novena) {
+
+    const festividad =
+
+        novena.feast?.text ||
+
+        novena.feast ||
+
+        "";
 
     return `
 
@@ -14,7 +30,9 @@ function renderCard(novena){
 
                 alt="${novena.name}"
 
-                class="novena-card-image">
+                class="novena-card-image"
+
+                loading="lazy">
 
             <div class="novena-card-content">
 
@@ -24,19 +42,53 @@ function renderCard(novena){
 
                 </h3>
 
-                <p>
+                <p class="novena-card-title">
 
                     ${novena.title}
 
                 </p>
 
-                <button
+                ${
 
-                    onclick="abrirNovena('${novena.id}')">
+                    festividad
 
-                    Abrir Novena
+                        ? `
 
-                </button>
+                        <p class="novena-card-feast">
+
+                            📅 ${festividad}
+
+                        </p>
+
+                        `
+
+                        : ""
+
+                }
+
+                ${
+
+                    novena.featured
+
+                        ? crearBadge(
+
+                            "Destacada",
+
+                            "gold"
+
+                        )
+
+                        : ""
+
+                }
+
+                ${crearBoton(
+
+                    "Abrir Novena",
+
+                    `abrirNovena('${novena.id}')`
+
+                )}
 
             </div>
 
@@ -45,3 +97,9 @@ function renderCard(novena){
     `;
 
 }
+
+/**
+ * Alias para mantener consistencia.
+ */
+
+const crearCard = renderCard;

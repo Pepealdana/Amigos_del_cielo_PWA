@@ -1,18 +1,36 @@
 /* ==========================================
    EMPTY STATE
+   Amigos del Cielo
 ========================================== */
+
+/**
+ * Crea un estado vacío.
+ *
+ * @param {string} titulo
+ * @param {string} mensaje
+ * @param {string} icono
+ * @returns {string}
+ */
 
 function renderEmptyState(
 
     titulo,
 
-    mensaje
+    mensaje,
 
-){
+    icono = "📭"
+
+) {
 
     return `
 
-        <section class="home">
+        <section class="empty-state">
+
+            <div class="empty-state-icon">
+
+                ${icono}
+
+            </div>
 
             <h2>
 
@@ -31,3 +49,11 @@ function renderEmptyState(
     `;
 
 }
+
+/**
+ * Alias para mantener
+ * consistencia con los
+ * demás componentes.
+ */
+
+const crearEmptyState = renderEmptyState;

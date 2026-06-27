@@ -1,31 +1,92 @@
 /* ==========================================
-   ORACIONES
+   RENDER ORACIÓN
+   Amigos del Cielo
 ========================================== */
 
-function renderOracion(texto, titulo) {
+/**
+ * Renderiza cualquier oración de la aplicación.
+ *
+ * Puede utilizarse para:
+ * - Oración inicial
+ * - Oración final
+ * - Oración del día
+ * - Oraciones especiales
+ *
+ * @param {string} titulo
+ * @param {string} texto
+ * @returns {string}
+ */
+
+function renderOracion(titulo, texto) {
 
     return `
 
-        <section class="home">
+        <section class="novena-page">
 
-            <h2>
+            ${crearHeaderPagina(
+                titulo
+            )}
 
-                ${titulo}
+            <article class="prayer-card">
 
-            </h2>
+                <div class="prayer-text">
 
-            <div class="history">
+                    <p>
 
-                <p>
+                        ${texto}
 
-                    ${texto}
+                    </p>
 
-                </p>
+                </div>
+
+            </article>
+
+            <div class="button-group">
+
+                ${crearBotonSecundario(
+
+                    "Volver",
+
+                    "mostrarPortadaNovena()"
+
+                )}
 
             </div>
 
         </section>
 
     `;
+
+}
+
+/* ==========================================
+   ORACIÓN INICIAL
+========================================== */
+
+function renderOracionInicial(novena) {
+
+    return renderOracion(
+
+        "Oración Inicial",
+
+        novena.openingPrayer
+
+    );
+
+}
+
+/* ==========================================
+   ORACIÓN FINAL
+========================================== */
+
+function renderOracionFinal(novena) {
+
+    return renderOracion(
+
+        "Oración Final",
+
+        novena.closingPrayer
+
+    );
 
 }

@@ -1,20 +1,36 @@
 /* ==========================================
    LOADER
+   Amigos del Cielo
 ========================================== */
 
-function renderLoader(){
+/**
+ * Renderiza un indicador de carga.
+ *
+ * @param {string} mensaje
+ * @returns {string}
+ */
+
+function renderLoader(
+
+    mensaje = "Cargando..."
+
+) {
 
     return `
 
         <section class="loader">
 
-            <div class="spinner">
+            <div
+
+                class="spinner"
+
+                aria-hidden="true">
 
             </div>
 
-            <p>
+            <p class="loader-text">
 
-                Cargando...
+                ${mensaje}
 
             </p>
 
@@ -23,3 +39,10 @@ function renderLoader(){
     `;
 
 }
+
+/**
+ * Alias para mantener
+ * consistencia.
+ */
+
+const crearLoader = renderLoader;

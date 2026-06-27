@@ -4,6 +4,30 @@
 
 function renderBiblioteca(catalogo) {
 
+    if (!catalogo || catalogo.length === 0) {
+
+        return `
+
+            <section class="library">
+
+                <h2 class="library-title">
+
+                    Biblioteca de Novenas
+
+                </h2>
+
+                ${crearEmptyState(
+
+                    "No hay novenas disponibles."
+
+                )}
+
+            </section>
+
+        `;
+
+    }
+
     return `
 
         <section class="library">
@@ -14,51 +38,80 @@ function renderBiblioteca(catalogo) {
 
             </h2>
 
-            ${catalogo.map(
+            <p class="library-subtitle">
 
-                novena => `
+                Explora las novenas disponibles
+                y acompaña tu vida espiritual
+                durante todo el año.
 
-                    <article
-                        class="novena-card">
+            </p>
 
-                        <img
+            <div class="library-grid">
 
-                            src="${novena.image}"
+                ${catalogo.map(
 
-                            alt="${novena.name}"
+                    novena => `
 
-                            class="novena-card-image">
+                        <article
+                            class="novena-card">
 
-                        <div
-                            class="novena-card-content">
+                            <img
 
-                            <h3>
+                                src="${novena.image}"
 
-                                ${novena.name}
+                                alt="${novena.name}"
 
-                            </h3>
+                                class="novena-card-image">
 
-                            <p>
+                            <div
+                                class="novena-card-content">
 
-                                ${novena.title}
+                                <span
+                                    class="novena-category">
 
-                            </p>
+                                    ${novena.category}
 
-                            ${crearBoton(
+                                </span>
 
-                                "Abrir",
+                                <h3>
 
-                                `abrirNovena('${novena.id}')`
+                                    ${novena.name}
 
-                            )}
+                                </h3>
 
-                        </div>
+                                <p>
 
-                    </article>
+                                    ${novena.title}
 
-                `
+                                </p>
 
-            ).join("")}
+                                <p
+                                    class="novena-feast">
+
+                                    📅
+                                    ${formatearFechaLiturgica(
+                                        novena.feast
+                                    )}
+
+                                </p>
+
+                                <button
+                                    class="btn-primary btn-abrir-novena"
+                                    data-id="${novena.id}">
+
+                                    Abrir novena
+
+                                </button>
+
+                            </div>
+
+                        </article>
+
+                    `
+
+                ).join("")}
+
+            </div>
 
         </section>
 

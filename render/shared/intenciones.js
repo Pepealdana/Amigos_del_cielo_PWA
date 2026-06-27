@@ -1,12 +1,20 @@
 /* ==========================================
    INTENCIONES
+   Amigos del Cielo
 ========================================== */
 
 /**
  * Renderiza el bloque de intenciones.
+ *
+ * @param {Array<string>} intenciones
+ * @returns {string}
  */
 
-function renderIntenciones() {
+function renderIntenciones(
+
+    intenciones = []
+
+) {
 
     return `
 
@@ -14,18 +22,65 @@ function renderIntenciones() {
 
             <h3>
 
-                Intención personal
+                Intenciones de oración
 
             </h3>
 
             <p>
 
-                Presenta en silencio
-                tu intención a Dios,
-                confiando en la intercesión
-                del santo.
+                Presenta estas intenciones al Señor
+                y añade también la intención
+                que llevas en tu corazón.
 
             </p>
+
+            ${
+
+                intenciones.length
+
+                    ? `
+
+                    <ul class="intentions-list">
+
+                        ${
+
+                            intenciones
+
+                                .map(
+
+                                    item => `
+
+                                        <li>
+
+                                            ${item}
+
+                                        </li>
+
+                                    `
+
+                                )
+
+                                .join("")
+
+                        }
+
+                    </ul>
+
+                    `
+
+                    : ""
+
+            }
+
+            <label
+
+                for="personal-intention"
+
+                class="intention-label">
+
+                Intención personal
+
+            </label>
 
             <textarea
 
@@ -44,3 +99,10 @@ function renderIntenciones() {
     `;
 
 }
+
+/**
+ * Alias para mantener
+ * consistencia.
+ */
+
+const crearIntenciones = renderIntenciones;

@@ -9,19 +9,36 @@
 
   "subtitle": "Patrono de la Iglesia Universal",
 
-  "image": "assets/images/san-jose.webp",
-
   "category": "Santos",
 
-  "featured": true,
+  "image": "assets/images/san-jose.webp",
+
+  "description": "Novena dedicada a San José, modelo de fe, obediencia, trabajo y confianza en Dios.",
+
+  "novena": {
+    "days": 9
+  },
+
+  "status": "published",
+
+  "content": {
+    "mode": "inline",
+    "folder": "san-jose"
+  },
+
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "🪵"
+  },
 
   "feast": {
     "day": 19,
     "month": 3,
-    "text": "19 de marzo"
+    "text": "19 de marzo",
+    "liturgicalRank": "Solemnidad",
+    "movable": false
   },
-
-  "description": "Novena dedicada a San José, modelo de fe, obediencia y confianza en Dios.",
 
   "quote": {
     "text": "José hizo lo que el ángel del Señor le había mandado.",
@@ -45,26 +62,70 @@
     "Silencio interior"
   ],
 
-  "keywords": [
+  "search": [
     "san jose",
+    "jose",
     "trabajo",
     "familia",
     "padres",
+    "carpinteros",
     "obediencia",
     "justicia",
-    "carpinteros",
+    "nazaret",
     "novena"
   ],
 
   "history": {
-    "short": "San José fue el esposo de la Virgen María y el padre adoptivo de Jesús. Elegido por Dios para custodiar la Sagrada Familia, vivió con humildad, trabajo y obediencia. Aunque los Evangelios no conservan ninguna palabra suya, sus acciones revelan una fe profunda y una confianza absoluta en la voluntad divina. La Iglesia lo reconoce como Patrono Universal y modelo para las familias cristianas.",
+    "short": "San José fue el esposo de la Virgen María y el padre adoptivo de Jesús. Elegido por Dios para custodiar la Sagrada Familia, vivió con humildad, trabajo y obediencia. Aunque los Evangelios no conservan ninguna palabra suya, sus acciones revelan una fe profunda y una confianza absoluta en la voluntad divina.",
 
-    "extended": "San José descendía de la casa de David y ejercía el oficio de carpintero en Nazaret. Dios lo eligió para ser esposo de María y custodio de Jesús. Su vida estuvo marcada por la obediencia silenciosa, el trabajo constante y la confianza absoluta en la Providencia. En cada momento decisivo respondió con prontitud a la voluntad divina, convirtiéndose en ejemplo de padre, esposo y discípulo fiel."
+    "extended": "Descendiente de la casa de David, San José ejercía el oficio de carpintero en Nazaret. Dios lo eligió para ser esposo de María y custodio de Jesús. Aceptó con fe cada misión encomendada por el Señor, protegiendo a la Sagrada Familia durante la huida a Egipto y educando a Jesús con el ejemplo del trabajo, el silencio y la fidelidad. La Iglesia lo reconoce como Patrono Universal y modelo de vida cristiana."
   },
 
-  "openingPrayer": "Glorioso San José, esposo fiel de la Virgen María y custodio amoroso de Jesús, acudo a ti con confianza y humildad. Tú que supiste escuchar la voz de Dios y cumplir su voluntad con generosidad, ayúdame a caminar con fe en medio de las dificultades, a vivir con rectitud en mis responsabilidades y a buscar siempre aquello que agrada al Señor. Intercede por mí y por mis seres queridos. Alcanza para nosotros la gracia de crecer en el amor a Dios, en el servicio a los demás y en la fidelidad a nuestra vocación. Durante esta novena deseo poner en tus manos las intenciones que llevo en mi corazón. Si son para mi bien espiritual y para mayor gloria de Dios, alcánzame el favor que con fe te presento. San José, amigo y protector, ruega por nosotros. Amén.",
+  "openingPrayer": "Glorioso San José, esposo fiel de la Virgen María y custodio amoroso de Jesús, acudo a ti con confianza y humildad. Tú que supiste escuchar la voz de Dios y cumplir su voluntad con generosidad, ayúdame a caminar con fe en medio de las dificultades, a vivir con rectitud en mis responsabilidades y a buscar siempre aquello que agrada al Señor. Intercede por mí y por mis seres queridos. Durante esta novena pongo en tus manos las intenciones que llevo en mi corazón. Si son para mi bien espiritual y para mayor gloria de Dios, alcánzame el favor que con fe te presento. Amén.",
 
-  "closingPrayer": "San José, modelo de los justos y protector de la Sagrada Familia, gracias por acompañarme en este momento de oración. Ayúdame a conservar en mi corazón las enseñanzas recibidas hoy, para que pueda vivirlas con sencillez, humildad y perseverancia. Enséñame a confiar más en Dios, a trabajar con amor, a servir sin buscar reconocimiento y a permanecer fiel en cada circunstancia de la vida. Que siguiendo tu ejemplo, pueda acercarme cada día más a Jesús y a María, y alcanzar la santidad a la que el Señor me llama. Amén.",
+  "closingPrayer": "San José, modelo de los justos y protector de la Sagrada Familia, gracias por acompañarme durante este momento de oración. Enséñame a conservar en mi corazón las enseñanzas recibidas, a confiar más en Dios, a trabajar con amor, a servir con humildad y a permanecer fiel en cada circunstancia de mi vida. Que siguiendo tu ejemplo pueda acercarme cada día más a Jesús y a María. Amén.",
+
+  "intentions": [
+    "Por la Iglesia Universal.",
+    "Por el Papa, los obispos y los sacerdotes.",
+    "Por las familias.",
+    "Por los padres de familia.",
+    "Por quienes buscan empleo.",
+    "Por los trabajadores.",
+    "Por los enfermos.",
+    "Por quienes agonizan.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 1,18-25"
+      },
+      {
+        "reference": "Lucas 2,1-20"
+      },
+      {
+        "reference": "Lucas 2,22-52"
+      }
+    ],
+
+    "documents": [
+      "Patris Corde",
+      "Redemptoris Custos"
+    ],
+
+    "related": [
+      "San José Obrero",
+      "Sagrada Familia",
+      "Santos Esposos María y José"
+    ]
+  },
+
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
 
   "days": [
     {
@@ -72,9 +133,9 @@
 
       "theme": "La justicia",
 
-      "virtue": "Justicia",
-
       "title": "Hombre justo ante Dios",
+
+      "virtue": "Justicia",
 
       "quote": {
         "text": "José, su esposo, que era un hombre justo...",
@@ -83,7 +144,7 @@
 
       "reflection": "El Evangelio presenta a San José como un hombre justo. Su justicia no consistía solamente en cumplir normas, sino en mantener un corazón dispuesto a actuar según la voluntad de Dios. Cuando enfrentó situaciones difíciles, eligió la misericordia, la prudencia y la confianza. Su ejemplo nos recuerda que la verdadera justicia nace de una relación sincera con Dios y se manifiesta en nuestras acciones cotidianas.",
 
-      "meditation": "Hoy estoy llamado a revisar si mis decisiones nacen únicamente de mis intereses o si realmente busco la voluntad de Dios en mi vida.",
+      "meditation": "Hoy estoy llamado a revisar si mis decisiones nacen únicamente de mis intereses o si realmente busco la voluntad de Dios.",
 
       "prayer": "San José, hombre justo y fiel, enséñame a actuar con rectitud en cada decisión de mi vida. Ayúdame a ser honesto, misericordioso y coherente con mi fe. Que mis palabras y acciones reflejen el amor de Dios hacia quienes me rodean. Amén.",
 
@@ -94,9 +155,10 @@
   ],
 
   "metadata": {
-    "version": 1,
+    "version": "2.0",
     "language": "es",
     "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
     "updated": "2026-06-25"
   }
 }

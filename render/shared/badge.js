@@ -1,12 +1,27 @@
 /* ==========================================
-   BADGES
+   BADGE
+   Amigos del Cielo
 ========================================== */
 
-function renderBadge(texto) {
+/**
+ * Crea una insignia (badge).
+ *
+ * @param {string} texto
+ * @param {string} tipo
+ * @returns {string}
+ */
+
+function renderBadge(
+
+    texto,
+
+    tipo = "primary"
+
+) {
 
     return `
 
-        <span class="badge">
+        <span class="badge badge-${tipo}">
 
             ${texto}
 
@@ -15,3 +30,10 @@ function renderBadge(texto) {
     `;
 
 }
+
+/**
+ * Alias para mantener consistencia
+ * con el resto de componentes.
+ */
+
+const crearBadge = renderBadge;

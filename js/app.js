@@ -1,10 +1,14 @@
 /* ==========================================
    APP
+   Amigos del Cielo
 ========================================== */
 
 document.addEventListener(
+
     "DOMContentLoaded",
+
     iniciarApp
+
 );
 
 /* ==========================================
@@ -15,30 +19,38 @@ async function iniciarApp() {
 
     registrarEventos();
 
+    inicializarStorage();
+
     try {
 
-        state.catalogo =
-            await cargarCatalogo();
+        await cargarCatalogo();
 
         if (
-            !state.catalogo ||
+
             state.catalogo.length === 0
+
         ) {
 
             throw new Error(
+
                 "No existen novenas."
+
             );
 
         }
 
         mostrarInicio();
 
-    } catch (error) {
+    }
+
+    catch (error) {
 
         console.error(error);
 
         mostrarError(
+
             "No fue posible iniciar la aplicación."
+
         );
 
     }
@@ -51,62 +63,68 @@ async function iniciarApp() {
 
 function registrarEventos() {
 
-    const btnMenu =
-        document.getElementById(
-            "btn-menu"
-        );
+    registrarEvento(
 
-    if (btnMenu) {
+        "btn-menu",
 
-        btnMenu.addEventListener(
-            "click",
-            abrirMenu
-        );
+        abrirMenu
 
-    }
-
-    const overlay =
-        document.getElementById(
-            "menu-overlay"
-        );
-
-    if (overlay) {
-
-        overlay.addEventListener(
-            "click",
-            cerrarMenu
-        );
-
-    }
+    );
 
     registrarEvento(
+
+        "menu-overlay",
+
+        cerrarMenu
+
+    );
+
+    registrarEvento(
+
         "menu-inicio",
+
         () => navegar("inicio")
+
     );
 
     registrarEvento(
+
         "menu-biblioteca",
+
         () => navegar("biblioteca")
+
     );
 
     registrarEvento(
+
         "menu-favoritas",
+
         () => navegar("favoritas")
+
     );
 
     registrarEvento(
+
         "menu-progreso",
+
         () => navegar("progreso")
+
     );
 
     registrarEvento(
+
         "menu-configuracion",
+
         () => navegar("configuracion")
+
     );
 
     registrarEvento(
+
         "menu-acerca",
+
         () => navegar("acerca")
+
     );
 
 }
@@ -116,21 +134,30 @@ function registrarEventos() {
 ========================================== */
 
 function registrarEvento(
+
     id,
+
     callback
+
 ) {
 
     const elemento =
+
         document.getElementById(id);
 
-    if (elemento) {
+    if (!elemento) {
 
-        elemento.addEventListener(
-            "click",
-            callback
-        );
+        return;
 
     }
+
+    elemento.addEventListener(
+
+        "click",
+
+        callback
+
+    );
 
 }
 
@@ -140,45 +167,33 @@ function registrarEvento(
 
 function abrirMenu() {
 
-    const menu =
-        document.getElementById(
-            "side-menu"
-        );
+    document
 
-    const overlay =
-        document.getElementById(
-            "menu-overlay"
-        );
+        .getElementById("side-menu")
 
-    menu?.classList.toggle(
-        "open"
-    );
+        ?.classList.toggle("open");
 
-    overlay?.classList.toggle(
-        "show"
-    );
+    document
+
+        .getElementById("menu-overlay")
+
+        ?.classList.toggle("show");
 
 }
 
 function cerrarMenu() {
 
-    const menu =
-        document.getElementById(
-            "side-menu"
-        );
+    document
 
-    const overlay =
-        document.getElementById(
-            "menu-overlay"
-        );
+        .getElementById("side-menu")
 
-    menu?.classList.remove(
-        "open"
-    );
+        ?.classList.remove("open");
 
-    overlay?.classList.remove(
-        "show"
-    );
+    document
+
+        .getElementById("menu-overlay")
+
+        ?.classList.remove("show");
 
 }
 
@@ -190,10 +205,21 @@ function mostrarInicio() {
 
     cerrarMenu();
 
-    obtenerView().innerHTML =
+    actualizarTituloPagina(
+
+        "Inicio"
+
+    );
+
+    renderizar(
+
         renderInicio(
+
             state.catalogo
-        );
+
+        )
+
+    );
 
 }
 
@@ -205,10 +231,21 @@ function mostrarBiblioteca() {
 
     cerrarMenu();
 
-    obtenerView().innerHTML =
+    actualizarTituloPagina(
+
+        "Biblioteca"
+
+    );
+
+    renderizar(
+
         renderBiblioteca(
+
             state.catalogo
-        );
+
+        )
+
+    );
 
 }
 
@@ -222,26 +259,59 @@ async function abrirNovena(id) {
 
     try {
 
-        state.novenaActual =
-            await cargarNovena(id);
+        if (
 
-        if (!state.novenaActual) {
+            typeof mostrarLoader === "function"
+
+        ) {
+
+            mostrarLoader();
+
+        }
+
+        await cargarNovena(id);
+
+        if (
+
+            !state.novenaActual
+
+        ) {
 
             throw new Error(
+
                 "No fue posible cargar la novena."
+
             );
 
         }
 
         mostrarPortadaNovena();
 
-    } catch (error) {
+    }
+
+    catch (error) {
 
         console.error(error);
 
         mostrarError(
+
             "No fue posible cargar la novena."
+
         );
+
+    }
+
+    finally {
+
+        if (
+
+            typeof ocultarLoader === "function"
+
+        ) {
+
+            ocultarLoader();
+
+        }
 
     }
 
@@ -253,10 +323,21 @@ async function abrirNovena(id) {
 
 function mostrarPortadaNovena() {
 
-    obtenerView().innerHTML =
+    actualizarTituloPagina(
+
+        state.novenaActual.name
+
+    );
+
+    renderizar(
+
         renderPortadaNovena(
+
             state.novenaActual
-        );
+
+        )
+
+    );
 
 }
 
@@ -266,21 +347,44 @@ function mostrarPortadaNovena() {
 
 function mostrarHistoria() {
 
-    obtenerView().innerHTML =
+    actualizarTituloPagina(
+
+        "Historia"
+
+    );
+
+    renderizar(
+
         renderHistoria(
+
             state.novenaActual
-        );
+
+        )
+
+    );
 
 }
 
 /* ==========================================
-   DÍA 1
+   DÍA
 ========================================== */
 
 function iniciarNovena() {
 
+    state.diaActual = 1;
+
+    guardarProgreso(
+
+        state.novenaActual.id,
+
+        1
+
+    );
+
     alert(
+
         "Próximamente iniciaremos el Día 1."
+
     );
 
 }
@@ -293,25 +397,17 @@ function mostrarFavoritas() {
 
     cerrarMenu();
 
-    obtenerView().innerHTML = `
+    actualizarTituloPagina(
 
-        <section class="home">
+        "Favoritas"
 
-            <h2>
+    );
 
-                Favoritas
+    renderizar(
 
-            </h2>
+        renderFavoritas()
 
-            <p>
-
-                Aquí aparecerán las novenas favoritas.
-
-            </p>
-
-        </section>
-
-    `;
+    );
 
 }
 
@@ -323,26 +419,17 @@ function mostrarProgreso() {
 
     cerrarMenu();
 
-    obtenerView().innerHTML = `
+    actualizarTituloPagina(
 
-        <section class="home">
+        "Mi progreso"
 
-            <h2>
+    );
 
-                Mi progreso
+    renderizar(
 
-            </h2>
+        renderProgreso()
 
-            <p>
-
-                Aquí podrás continuar las novenas
-                que hayas iniciado.
-
-            </p>
-
-        </section>
-
-    `;
+    );
 
 }
 
@@ -354,26 +441,17 @@ function mostrarConfiguracion() {
 
     cerrarMenu();
 
-    obtenerView().innerHTML = `
+    actualizarTituloPagina(
 
-        <section class="home">
+        "Configuración"
 
-            <h2>
+    );
 
-                Configuración
+    renderizar(
 
-            </h2>
+        renderConfiguracion()
 
-            <p>
-
-                Próximamente podrás personalizar
-                la aplicación.
-
-            </p>
-
-        </section>
-
-    `;
+    );
 
 }
 
@@ -385,28 +463,27 @@ function mostrarAcerca() {
 
     cerrarMenu();
 
-    obtenerView().innerHTML = `
+    actualizarTituloPagina(
 
-        <section class="home">
+        "Acerca de"
 
-            <h2>
+    );
 
-                Acerca de
+    renderizar(
 
-            </h2>
+        renderAcerca()
 
-            <p>
+    );
 
-                Amigos del Cielo es una aplicación
-                de oración, formación espiritual
-                y acompañamiento mediante novenas
-                y devociones católicas.
+}
 
-            </p>
+/* ==========================================
+   RENDERIZAR
+========================================== */
 
-        </section>
+function renderizar(html) {
 
-    `;
+    obtenerView().innerHTML = html;
 
 }
 
@@ -416,17 +493,53 @@ function mostrarAcerca() {
 
 function obtenerView() {
 
-    return document.getElementById(
-        "view"
-    );
+    const view =
+
+        document.getElementById(
+
+            "view"
+
+        );
+
+    if (!view) {
+
+        throw new Error(
+
+            "No existe el contenedor #view."
+
+        );
+
+    }
+
+    return view;
 
 }
 
-function mostrarError(
-    mensaje
-) {
+function mostrarError(mensaje) {
 
-    obtenerView().innerHTML = `
+    if (
+
+        typeof crearEmptyState === "function"
+
+    ) {
+
+        renderizar(
+
+            crearEmptyState(
+
+                "Error",
+
+                mensaje
+
+            )
+
+        );
+
+        return;
+
+    }
+
+    renderizar(`
 
         <section class="home">
 
@@ -444,6 +557,18 @@ function mostrarError(
 
         </section>
 
-    `;
+    `);
+
+}
+
+function actualizarTituloPagina(
+
+    titulo
+
+) {
+
+    document.title =
+
+        `${titulo} · ${APP_CONFIG.nombre}`;
 
 }

@@ -1,56 +1,59 @@
 /* ==========================================
-   COMPONENTES COMPUESTOS
+   BUTTON
    Amigos del Cielo
 ========================================== */
 
 /**
- * Construye un bloque compuesto
- * formado por un título y contenido.
+ * Crea un botón reutilizable.
  *
- * @param {string} titulo
- * @param {string} contenido
+ * @param {string} texto
+ * @param {string} accion
+ * @param {string} tipo
+ * @param {string} icono
  * @returns {string}
  */
 
-function renderSeccion(
-    titulo,
-    contenido
+function crearBoton(
+
+    texto,
+
+    accion = "",
+
+    tipo = "primary",
+
+    icono = ""
+
 ) {
+
+    const contenido = icono
+        ? `${icono} ${texto}`
+        : texto;
+
+    const atributoAccion = accion
+        ? `onclick="${accion}"`
+        : "";
 
     return `
 
-        <section class="section">
+        <button
 
-            <h2 class="section-title">
+            class="btn btn-${tipo}"
 
-                ${titulo}
+            ${atributoAccion}
 
-            </h2>
+            type="button">
 
             ${contenido}
 
-        </section>
+        </button>
 
     `;
 
 }
 
 /**
- * Crea un bloque con un encabezado
- * y una lista de elementos.
+ * Alias para mantener consistencia
+ * con otros componentes.
  */
 
-function renderListaSeccion(
-    titulo,
-    items
-) {
-
-    return renderSeccion(
-
-        titulo,
-
-        renderLista(items)
-
-    );
-
-}
+const renderBoton = crearBoton;

@@ -1,0 +1,569 @@
+/* ==========================================================
+   AMIGOS DEL CIELO
+   BASE CSS
+   Variables, Reset y Estilos Globales
+========================================================== */
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+*,
+*::before,
+*::after{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    margin:0;
+
+}
+
+/* ==========================================================
+   VARIABLES
+========================================================== */
+
+:root{
+
+    color-scheme:light;
+
+    /* Colores principales */
+
+    --color-primary:#2C4A6B;
+    --color-primary-light:#3F638F;
+    --color-secondary:#7FB2D6;
+    --color-accent:#D9B66B;
+
+    /* Fondos */
+
+    --color-background:#F8F6F2;
+    --color-surface:#FFFFFF;
+    --color-surface-alt:#F3F4F6;
+
+    /* Texto */
+
+    --color-text:#2B2B2B;
+    --color-text-light:#666666;
+    --color-text-inverse:#FFFFFF;
+
+    /* Estados */
+
+    --color-success:#2E7D32;
+    --color-warning:#D98C00;
+    --color-error:#C62828;
+    --color-info:#1565C0;
+
+    /* Bordes */
+
+    --color-border:#E2E8F0;
+
+    /* Sombras */
+
+    --shadow-xs:
+        0 1px 2px rgba(0,0,0,.05);
+
+    --shadow-sm:
+        0 2px 6px rgba(0,0,0,.08);
+
+    --shadow:
+        0 4px 12px rgba(0,0,0,.10);
+
+    --shadow-lg:
+        0 8px 24px rgba(0,0,0,.15);
+
+    /* Radios */
+
+    --radius-xs:6px;
+    --radius-sm:10px;
+    --radius:16px;
+    --radius-lg:24px;
+    --radius-full:999px;
+
+    /* Espaciados */
+
+    --space-xs:.25rem;
+    --space-sm:.5rem;
+    --space-md:1rem;
+    --space-lg:1.5rem;
+    --space-xl:2rem;
+    --space-2xl:3rem;
+
+    /* Tipografía */
+
+    --font-family:
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    --font-xs:.75rem;
+    --font-sm:.875rem;
+    --font-md:1rem;
+    --font-lg:1.125rem;
+    --font-xl:1.5rem;
+    --font-2xl:2rem;
+    --font-3xl:2.5rem;
+
+    /* Alturas */
+
+    --line-height:1.7;
+
+    /* Transiciones */
+
+    --transition-fast:.20s;
+    --transition:.30s;
+
+    /* Imagen del santo */
+
+    --saint-image-width:260px;
+
+}
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+body{
+
+    font-family:var(--font-family);
+
+    font-size:var(--font-md);
+
+    line-height:var(--line-height);
+
+    background:var(--color-background);
+
+    color:var(--color-text);
+
+    min-height:100vh;
+
+    text-rendering:optimizeLegibility;
+
+    -webkit-font-smoothing:antialiased;
+
+    transition:
+        background var(--transition),
+        color var(--transition);
+
+}
+
+/* ==========================================================
+   TIPOGRAFÍA
+========================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    color:var(--color-primary);
+
+    line-height:1.3;
+
+    font-weight:700;
+
+}
+
+h1{
+
+    font-size:var(--font-3xl);
+
+}
+
+h2{
+
+    font-size:var(--font-2xl);
+
+}
+
+h3{
+
+    font-size:var(--font-xl);
+
+}
+
+h4{
+
+    font-size:var(--font-lg);
+
+}
+
+p{
+
+    margin-bottom:1rem;
+
+    color:var(--color-text);
+
+}
+
+small{
+
+    font-size:var(--font-sm);
+
+    color:var(--color-text-light);
+
+}
+
+strong{
+
+    font-weight:700;
+
+}
+
+/* ==========================================================
+   ENLACES
+========================================================== */
+
+a{
+
+    color:var(--color-primary);
+
+    text-decoration:none;
+
+    transition:var(--transition);
+
+}
+
+a:hover{
+
+    color:var(--color-primary-light);
+
+}
+
+/* ==========================================================
+   LISTAS
+========================================================== */
+
+ul,
+ol{
+
+    padding-left:1.5rem;
+
+}
+
+li{
+
+    margin-bottom:.4rem;
+
+}
+
+/* ==========================================================
+   IMÁGENES
+========================================================== */
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+/* ==========================================================
+   BOTONES BASE
+========================================================== */
+
+button{
+
+    font:inherit;
+
+    cursor:pointer;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:
+        .90rem
+        1.40rem;
+
+    background:
+        var(--color-primary);
+
+    color:
+        var(--color-text-inverse);
+
+    transition:
+        background var(--transition),
+        transform var(--transition);
+
+}
+
+button:hover{
+
+    background:
+        var(--color-primary-light);
+
+}
+
+button:active{
+
+    transform:scale(.98);
+
+}
+
+button:disabled{
+
+    opacity:.55;
+
+    cursor:not-allowed;
+
+}
+
+/* ==========================================================
+   INPUTS
+========================================================== */
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    padding:.85rem;
+
+    font:inherit;
+
+    border:
+        1px solid
+        var(--color-border);
+
+    border-radius:12px;
+
+    background:white;
+
+    color:var(--color-text);
+
+    transition:
+        border-color var(--transition),
+        box-shadow var(--transition);
+
+}
+
+textarea{
+
+    resize:vertical;
+
+    min-height:120px;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:
+        var(--color-secondary);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(127,178,214,.25);
+
+}
+
+/* ==========================================================
+   HR
+========================================================== */
+
+hr{
+
+    border:none;
+
+    border-top:
+        1px solid
+        var(--color-border);
+
+}
+
+/* ==========================================================
+   BLOCKQUOTE
+========================================================== */
+
+blockquote{
+
+    border-left:
+        5px solid
+        var(--color-accent);
+
+    padding-left:1rem;
+
+    font-style:italic;
+
+    color:var(--color-text-light);
+
+}
+
+/* ==========================================================
+   SELECCIÓN
+========================================================== */
+
+::selection{
+
+    background:
+        var(--color-secondary);
+
+    color:white;
+
+}
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:
+        var(--color-surface-alt);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:
+        var(--color-secondary);
+
+    border-radius:999px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:
+        var(--color-primary);
+
+}
+
+/* ==========================================================
+   FOCUS ACCESIBLE
+========================================================== */
+
+:focus-visible{
+
+    outline:
+        3px solid
+        var(--color-secondary);
+
+    outline-offset:2px;
+
+}
+
+/* ==========================================================
+   ANIMACIONES
+========================================================== */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+@keyframes slideUp{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(18px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            translateY(0);
+
+    }
+
+}
+
+@keyframes spin{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width:768px){
+
+    h1{
+
+        font-size:2rem;
+
+    }
+
+    h2{
+
+        font-size:1.7rem;
+
+    }
+
+    h3{
+
+        font-size:1.3rem;
+
+    }
+
+}
+
+@media (prefers-reduced-motion:reduce){
+
+    *{
+
+        animation:none !important;
+
+        transition:none !important;
+
+        scroll-behavior:auto !important;
+
+    }
+
+}

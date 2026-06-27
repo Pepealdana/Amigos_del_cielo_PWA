@@ -1,0 +1,376 @@
+/* ==========================================================
+   AMIGOS DEL CIELO
+   UTILIDADES
+========================================================== */
+
+/* ==========================================================
+   DISPLAY
+========================================================== */
+
+.hidden{
+
+    display:none !important;
+
+}
+
+.block{
+
+    display:block;
+
+}
+
+.inline{
+
+    display:inline;
+
+}
+
+.inline-block{
+
+    display:inline-block;
+
+}
+
+.flex{
+
+    display:flex;
+
+}
+
+.grid{
+
+    display:grid;
+
+}
+
+/* ==========================================================
+   FLEX
+========================================================== */
+
+.flex-column{
+
+    flex-direction:column;
+
+}
+
+.flex-wrap{
+
+    flex-wrap:wrap;
+
+}
+
+.flex-center{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+.flex-between{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+.flex-end{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+.gap-sm{
+
+    gap:var(--space-sm);
+
+}
+
+.gap-md{
+
+    gap:var(--space-md);
+
+}
+
+.gap-lg{
+
+    gap:var(--space-lg);
+
+}
+
+/* ==========================================================
+   TEXTO
+========================================================== */
+
+.text-left{
+
+    text-align:left;
+
+}
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.text-right{
+
+    text-align:right;
+
+}
+
+.text-justify{
+
+    text-align:justify;
+
+}
+
+.text-primary{
+
+    color:var(--color-primary);
+
+}
+
+.text-secondary{
+
+    color:var(--color-secondary);
+
+}
+
+.text-accent{
+
+    color:var(--color-accent);
+
+}
+
+.text-light{
+
+    color:var(--color-text-light);
+
+}
+
+.bold{
+
+    font-weight:700;
+
+}
+
+.medium{
+
+    font-weight:600;
+
+}
+
+.small{
+
+    font-size:var(--font-sm);
+
+}
+
+.large{
+
+    font-size:var(--font-lg);
+
+}
+
+/* ==========================================================
+   ESPACIADOS
+========================================================== */
+
+.mt-0{
+
+    margin-top:0;
+
+}
+
+.mt-sm{
+
+    margin-top:var(--space-sm);
+
+}
+
+.mt-md{
+
+    margin-top:var(--space-md);
+
+}
+
+.mt-lg{
+
+    margin-top:var(--space-lg);
+
+}
+
+.mt-xl{
+
+    margin-top:var(--space-xl);
+
+}
+
+.mb-0{
+
+    margin-bottom:0;
+
+}
+
+.mb-sm{
+
+    margin-bottom:var(--space-sm);
+
+}
+
+.mb-md{
+
+    margin-bottom:var(--space-md);
+
+}
+
+.mb-lg{
+
+    margin-bottom:var(--space-lg);
+
+}
+
+.mb-xl{
+
+    margin-bottom:var(--space-xl);
+
+}
+
+.p-sm{
+
+    padding:var(--space-sm);
+
+}
+
+.p-md{
+
+    padding:var(--space-md);
+
+}
+
+.p-lg{
+
+    padding:var(--space-lg);
+
+}
+
+/* ==========================================================
+   WIDTH
+========================================================== */
+
+.w-100{
+
+    width:100%;
+
+}
+
+.max-600{
+
+    max-width:600px;
+
+    margin-inline:auto;
+
+}
+
+.max-800{
+
+    max-width:800px;
+
+    margin-inline:auto;
+
+}
+
+/* ==========================================================
+   BORDES
+========================================================== */
+
+.rounded{
+
+    border-radius:var(--radius);
+
+}
+
+.rounded-sm{
+
+    border-radius:var(--radius-sm);
+
+}
+
+.shadow{
+
+    box-shadow:var(--shadow);
+
+}
+
+.shadow-lg{
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+/* ==========================================================
+   SCROLL
+========================================================== */
+
+.scroll-y{
+
+    overflow-y:auto;
+
+}
+
+.no-scroll{
+
+    overflow:hidden;
+
+}
+
+/* ==========================================================
+   ANIMACIONES
+========================================================== */
+
+.fade-in{
+
+    animation:fadeIn .35s ease;
+
+}
+
+.fade-up{
+
+    animation:slideUp .35s ease;
+
+}
+
+/* ==========================================================
+   ACCESIBILIDAD
+========================================================== */
+
+.sr-only{
+
+    position:absolute;
+
+    width:1px;
+
+    height:1px;
+
+    padding:0;
+
+    margin:-1px;
+
+    overflow:hidden;
+
+    clip:rect(0,0,0,0);
+
+    white-space:nowrap;
+
+    border:0;
+
+}

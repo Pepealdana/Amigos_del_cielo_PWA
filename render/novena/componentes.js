@@ -1,15 +1,10 @@
 /* ==========================================
-   COMPONENTES COMPUESTOS
+   COMPONENTES DE NOVENA
    Amigos del Cielo
 ========================================== */
 
 /**
- * Construye un bloque compuesto
- * formado por un título y contenido.
- *
- * @param {string} titulo
- * @param {string} contenido
- * @returns {string}
+ * Sección genérica.
  */
 
 function renderSeccion(
@@ -36,8 +31,7 @@ function renderSeccion(
 }
 
 /**
- * Crea un bloque con un encabezado
- * y una lista de elementos.
+ * Sección con lista.
  */
 
 function renderListaSeccion(
@@ -52,5 +46,140 @@ function renderListaSeccion(
         renderLista(items)
 
     );
+
+}
+
+/**
+ * Imagen principal del santo.
+ */
+
+function renderImagenNovena(
+    novena
+) {
+
+    return `
+
+        <img
+
+            src="${novena.image}"
+
+            alt="${novena.name}"
+
+            class="saint-image">
+
+    `;
+
+}
+
+/**
+ * Encabezado de la novena.
+ */
+
+function renderCabeceraNovena(
+    novena
+) {
+
+    return `
+
+        ${renderImagenNovena(
+
+            novena
+
+        )}
+
+        <h2>
+
+            ${novena.name}
+
+        </h2>
+
+        <p class="saint-title">
+
+            ${novena.title}
+
+        </p>
+
+    `;
+
+}
+
+/**
+ * Festividad.
+ */
+
+function renderFestividad(
+    novena
+) {
+
+    return `
+
+        <p class="saint-feast">
+
+            📅
+            ${formatearFechaLiturgica(
+
+                novena.feast
+
+            )}
+
+        </p>
+
+    `;
+
+}
+
+/**
+ * Patronazgos.
+ */
+
+function renderPatronazgos(
+    novena
+) {
+
+    return renderListaSeccion(
+
+        "Patrono de",
+
+        novena.patronages
+
+    );
+
+}
+
+/**
+ * Virtudes.
+ */
+
+function renderVirtudes(
+    novena
+) {
+
+    return renderListaSeccion(
+
+        "Virtudes",
+
+        novena.virtues
+
+    );
+
+}
+
+/**
+ * Botonera estándar.
+ */
+
+function renderBotonera(
+    botones
+) {
+
+    return `
+
+        <div class="button-group">
+
+            ${botones.join("")}
+
+        </div>
+
+    `;
 
 }
