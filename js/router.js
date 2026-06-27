@@ -11,26 +11,6 @@ const router = {
 
     datos: null,
 
-    rutas: {
-
-        inicio: mostrarInicio,
-
-        biblioteca: mostrarBiblioteca,
-
-        portada: mostrarPortadaNovena,
-
-        historia: mostrarHistoria,
-
-        favoritas: mostrarFavoritas,
-
-        progreso: mostrarProgreso,
-
-        configuracion: mostrarConfiguracion,
-
-        acerca: mostrarAcerca
-
-    },
-
     ir(
 
         ruta,
@@ -53,29 +33,67 @@ const router = {
 
         cerrarMenu();
 
-        const vista =
+        switch (ruta) {
 
-            this.rutas[ruta];
+            case "inicio":
 
-        if (
+                mostrarInicio();
 
-            typeof vista === "function"
+                break;
 
-        ) {
+            case "biblioteca":
 
-            vista(datos);
+                mostrarBiblioteca();
 
-            return;
+                break;
+
+            case "portada":
+
+                mostrarPortadaNovena();
+
+                break;
+
+            case "historia":
+
+                mostrarHistoria();
+
+                break;
+
+            case "favoritas":
+
+                mostrarFavoritas();
+
+                break;
+
+            case "progreso":
+
+                mostrarProgreso();
+
+                break;
+
+            case "configuracion":
+
+                mostrarConfiguracion();
+
+                break;
+
+            case "acerca":
+
+                mostrarAcerca();
+
+                break;
+
+            default:
+
+                console.warn(
+
+                    `Ruta inexistente: ${ruta}`
+
+                );
+
+                mostrarInicio();
 
         }
-
-        console.warn(
-
-            `Ruta inexistente: ${ruta}`
-
-        );
-
-        mostrarInicio();
 
     }
 

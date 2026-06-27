@@ -1,6 +1,11 @@
 /* ==========================================
    APP
    Amigos del Cielo
+   Parte 1 de 4
+========================================== */
+
+/* ==========================================
+   INICIALIZACIÓN
 ========================================== */
 
 document.addEventListener(
@@ -12,32 +17,18 @@ document.addEventListener(
 );
 
 /* ==========================================
-   INICIO
+   INICIAR APLICACIÓN
 ========================================== */
 
 async function iniciarApp() {
 
-    registrarEventos();
-
-    inicializarStorage();
-
     try {
 
+        registrarEventos();
+
+        inicializarStorage();
+
         await cargarCatalogo();
-
-        if (
-
-            state.catalogo.length === 0
-
-        ) {
-
-            throw new Error(
-
-                "No existen novenas."
-
-            );
-
-        }
 
         mostrarInicio();
 
@@ -45,7 +36,13 @@ async function iniciarApp() {
 
     catch (error) {
 
-        console.error(error);
+        console.error(
+
+            "Error iniciando la aplicación:",
+
+            error
+
+        );
 
         mostrarError(
 
@@ -58,7 +55,7 @@ async function iniciarApp() {
 }
 
 /* ==========================================
-   REGISTRAR EVENTOS
+   REGISTRO DE EVENTOS
 ========================================== */
 
 function registrarEventos() {
@@ -67,7 +64,7 @@ function registrarEventos() {
 
         "btn-menu",
 
-        abrirMenu
+        alternarMenu
 
     );
 
@@ -162,10 +159,10 @@ function registrarEvento(
 }
 
 /* ==========================================
-   MENÚ
+   MENÚ LATERAL
 ========================================== */
 
-function abrirMenu() {
+function alternarMenu() {
 
     document
 
@@ -178,6 +175,22 @@ function abrirMenu() {
         .getElementById("menu-overlay")
 
         ?.classList.toggle("show");
+
+}
+
+function abrirMenu() {
+
+    document
+
+        .getElementById("side-menu")
+
+        ?.classList.add("open");
+
+    document
+
+        .getElementById("menu-overlay")
+
+        ?.classList.add("show");
 
 }
 
@@ -196,9 +209,8 @@ function cerrarMenu() {
         ?.classList.remove("show");
 
 }
-
 /* ==========================================
-   INICIO
+   NAVEGACIÓN PRINCIPAL
 ========================================== */
 
 function mostrarInicio() {
@@ -222,10 +234,6 @@ function mostrarInicio() {
     );
 
 }
-
-/* ==========================================
-   BIBLIOTECA
-========================================== */
 
 function mostrarBiblioteca() {
 
@@ -259,23 +267,9 @@ async function abrirNovena(id) {
 
     try {
 
-        if (
-
-            typeof mostrarLoader === "function"
-
-        ) {
-
-            mostrarLoader();
-
-        }
-
         await cargarNovena(id);
 
-        if (
-
-            !state.novenaActual
-
-        ) {
+        if (!state.novenaActual) {
 
             throw new Error(
 
@@ -301,24 +295,10 @@ async function abrirNovena(id) {
 
     }
 
-    finally {
-
-        if (
-
-            typeof ocultarLoader === "function"
-
-        ) {
-
-            ocultarLoader();
-
-        }
-
-    }
-
 }
 
 /* ==========================================
-   PORTADA
+   PORTADA NOVENA
 ========================================== */
 
 function mostrarPortadaNovena() {
@@ -366,14 +346,14 @@ function mostrarHistoria() {
 }
 
 /* ==========================================
-   DÍA
+   INICIAR NOVENA
 ========================================== */
 
 function iniciarNovena() {
 
     state.diaActual = 1;
 
-    guardarProgreso(
+    actualizarProgreso(
 
         state.novenaActual.id,
 
@@ -383,12 +363,11 @@ function iniciarNovena() {
 
     alert(
 
-        "Próximamente iniciaremos el Día 1."
+        "Próximamente iniciaremos el Día 1 de la novena."
 
     );
 
 }
-
 /* ==========================================
    FAVORITAS
 ========================================== */
@@ -478,17 +457,110 @@ function mostrarAcerca() {
 }
 
 /* ==========================================
-   RENDERIZAR
+   DÍAS DE LA NOVENA
 ========================================== */
 
-function renderizar(html) {
+function mostrarDia(numeroDia) {
 
-    obtenerView().innerHTML = html;
+    state.diaActual = numeroDia;
+
+    const dia =
+
+        obtenerDia(numeroDia);
+
+    if (!dia) {
+
+        mostrarError(
+
+            "No existe ese día de la novena."
+
+        );
+
+        return;
+
+    }
+
+    actualizarProgreso(
+
+        state.novenaActual.id,
+
+        numeroDia
+
+    );
+
+    actualizarTituloPagina(
+
+        `Día ${numeroDia}`
+
+    );
+
+    renderizar(
+
+        renderDia(
+
+            state.novenaActual,
+
+            dia
+
+        )
+
+    );
 
 }
 
 /* ==========================================
-   UTILIDADES
+   NAVEGACIÓN ENTRE DÍAS
+========================================== */
+
+function siguienteDia() {
+
+    if (
+
+        state.diaActual < 9
+
+    ) {
+
+        mostrarDia(
+
+            state.diaActual + 1
+
+        );
+
+    }
+
+}
+
+function anteriorDia() {
+
+    if (
+
+        state.diaActual > 1
+
+    ) {
+
+        mostrarDia(
+
+            state.diaActual - 1
+
+        );
+
+    }
+
+}
+/* ==========================================
+   RENDERIZADO
+========================================== */
+
+function renderizar(html) {
+
+    const view = obtenerView();
+
+    view.innerHTML = html;
+
+}
+
+/* ==========================================
+   OBTENER CONTENEDOR PRINCIPAL
 ========================================== */
 
 function obtenerView() {
@@ -515,19 +587,29 @@ function obtenerView() {
 
 }
 
-function mostrarError(mensaje) {
+/* ==========================================
+   MENSAJES DE ERROR
+========================================== */
+
+function mostrarError(
+
+    mensaje,
+
+    titulo = "Error"
+
+) {
 
     if (
 
-        typeof crearEmptyState === "function"
+        typeof renderEmptyState === "function"
 
     ) {
 
         renderizar(
 
-            crearEmptyState(
+            renderEmptyState(
 
-                "Error",
+                titulo,
 
                 mensaje
 
@@ -545,7 +627,7 @@ function mostrarError(mensaje) {
 
             <h2>
 
-                Error
+                ${titulo}
 
             </h2>
 
@@ -561,6 +643,10 @@ function mostrarError(mensaje) {
 
 }
 
+/* ==========================================
+   TÍTULO DE LA PÁGINA
+========================================== */
+
 function actualizarTituloPagina(
 
     titulo
@@ -569,6 +655,60 @@ function actualizarTituloPagina(
 
     document.title =
 
-        `${titulo} · ${APP_CONFIG.nombre}`;
+        `${titulo} · ${APP.NAME}`;
 
 }
+
+/* ==========================================
+   RECARGAR VISTA ACTUAL
+========================================== */
+
+function refrescarVista() {
+
+    navegar(
+
+        router.rutaActual,
+
+        router.datos
+
+    );
+
+}
+
+/* ==========================================
+   UTILIDAD
+========================================== */
+
+function existeNovenaAbierta() {
+
+    return (
+
+        state.novenaActual !== null
+
+    );
+
+}
+
+/* ==========================================
+   UTILIDAD
+========================================== */
+
+function existeCatalogo() {
+
+    return (
+
+        Array.isArray(
+
+            state.catalogo
+
+        ) &&
+
+        state.catalogo.length > 0
+
+    );
+
+}
+
+/* ==========================================
+   FIN APP
+========================================== */

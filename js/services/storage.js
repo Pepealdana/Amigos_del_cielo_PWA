@@ -3,16 +3,6 @@
    Amigos del Cielo
 ========================================== */
 
-const STORAGE_KEYS = {
-
-    FAVORITOS: "adc_favoritos",
-
-    PROGRESO: "adc_progreso",
-
-    CONFIGURACION: "adc_configuracion"
-
-};
-
 /* ==========================================
    FUNCIONES INTERNAS
 ========================================== */
@@ -49,7 +39,13 @@ function guardarEnStorage(clave, datos) {
 
 }
 
-function leerDeStorage(clave, valorPorDefecto = null) {
+function leerDeStorage(
+
+    clave,
+
+    valorPorDefecto = null
+
+) {
 
     try {
 
@@ -135,7 +131,7 @@ function cargarFavoritos() {
 
         leerDeStorage(
 
-            STORAGE_KEYS.FAVORITOS,
+            STORAGE_KEYS.FAVORITES,
 
             []
 
@@ -147,7 +143,7 @@ function guardarFavoritos() {
 
     guardarEnStorage(
 
-        STORAGE_KEYS.FAVORITOS,
+        STORAGE_KEYS.FAVORITES,
 
         state.favoritos
 
@@ -195,7 +191,7 @@ function cargarProgreso() {
 
         leerDeStorage(
 
-            STORAGE_KEYS.PROGRESO,
+            STORAGE_KEYS.PROGRESS,
 
             {}
 
@@ -207,7 +203,7 @@ function guardarProgreso() {
 
     guardarEnStorage(
 
-        STORAGE_KEYS.PROGRESO,
+        STORAGE_KEYS.PROGRESS,
 
         state.progreso
 
@@ -247,7 +243,7 @@ function cargarConfiguracion() {
 
         leerDeStorage(
 
-            STORAGE_KEYS.CONFIGURACION,
+            STORAGE_KEYS.SETTINGS,
 
             null
 
@@ -271,9 +267,39 @@ function guardarConfiguracion() {
 
     guardarEnStorage(
 
-        STORAGE_KEYS.CONFIGURACION,
+        STORAGE_KEYS.SETTINGS,
 
         state.configuracion
+
+    );
+
+}
+
+/* ==========================================
+   INTENCIONES
+========================================== */
+
+function cargarIntenciones() {
+
+    state.intenciones =
+
+        leerDeStorage(
+
+            STORAGE_KEYS.INTENTIONS,
+
+            {}
+
+        );
+
+}
+
+function guardarIntenciones() {
+
+    guardarEnStorage(
+
+        STORAGE_KEYS.INTENTIONS,
+
+        state.intenciones
 
     );
 
@@ -290,5 +316,7 @@ function inicializarStorage() {
     cargarProgreso();
 
     cargarConfiguracion();
+
+    cargarIntenciones();
 
 }
