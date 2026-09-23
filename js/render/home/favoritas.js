@@ -9,7 +9,7 @@ function renderFavoritas(catalogo = [], favoritos = []) {
         ? catalogo.filter(novena => favoritos.includes(novena.id))
         : [];
 
-    return \`
+    return `
 
         <section class="page-shell">
 
@@ -25,7 +25,7 @@ function renderFavoritas(catalogo = [], favoritos = []) {
 
             </header>
 
-            \${lista.length === 0 ? \`
+            ${lista.length === 0 ? `
                 <div class="simple-panel">
                     <strong>Aún no tienes favoritas.</strong>
                     <p>
@@ -33,13 +33,13 @@ function renderFavoritas(catalogo = [], favoritos = []) {
                         de información.
                     </p>
                 </div>
-            \` : \`
+            ` : `
                 <div class="library-list">
-                    \${renderListaBiblioteca(lista)}
+                    ${renderListaBiblioteca(lista)}
                 </div>
-            \`}
+            `}
 
         </section>
 
-    \`;
+    `;
 }
