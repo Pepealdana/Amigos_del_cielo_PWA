@@ -86,42 +86,42 @@ function renderInicio(catalogo = [], progreso = {}) {
 
     const textoContinuar =
         continuidad
-            ? \`Día \${dia} de 9\`
+            ? `Día ${dia} de 9`
             : "Aún no has iniciado esta novena";
 
-    return \`
+    return `
 
         <section class="dashboard">
 
             <section class="saint-of-day">
 
                 <p class="eyebrow">
-                    \${tituloSanto}
+                    ${tituloSanto}
                 </p>
 
                 <img
-                    src="\${santo.image}"
-                    alt="\${santo.name}"
+                    src="${santo.image}"
+                    alt="${santo.name}"
                     class="saint-of-day-image"
                     loading="eager">
 
                 <h2>
-                    \${santo.name}
+                    ${santo.name}
                 </h2>
 
                 <p class="saint-of-day-title">
-                    \${santo.title}
+                    ${santo.title}
                 </p>
 
                 <p class="saint-of-day-feast">
-                    \${formatearFechaLiturgica(santo.feast)}
+                    ${formatearFechaLiturgica(santo.feast)}
                 </p>
 
                 <button
                     class="btn btn-primary btn-hero"
                     type="button"
                     data-action="open-novena"
-                    data-id="\${santo.id}">
+                    data-id="${santo.id}">
                     Conocer al santo
                 </button>
 
@@ -140,7 +140,7 @@ function renderInicio(catalogo = [], progreso = {}) {
                     <input
                         id="home-search"
                         type="search"
-                        value="\${state.busqueda || ""}"
+                        value="${state.busqueda || ""}"
                         placeholder="Buscar una novena..."
                         autocomplete="off"
                         aria-label="Buscar una novena">
@@ -158,13 +158,13 @@ function renderInicio(catalogo = [], progreso = {}) {
             <section class="continue-section">
 
                 <p class="section-kicker">
-                    \${continuidad ? "Continuar" : "Comenzar"}
+                    ${continuidad ? "Continuar" : "Comenzar"}
                 </p>
 
                 <article class="continue-card">
 
                     <img
-                        src="\${continuidad?.novena?.image || santo.image}"
+                        src="${continuidad?.novena?.image || santo.image}"
                         alt=""
                         class="continue-image"
                         loading="lazy">
@@ -172,23 +172,23 @@ function renderInicio(catalogo = [], progreso = {}) {
                     <div class="continue-content">
 
                         <h3>
-                            \${continuidad?.novena?.name || santo.name}
+                            ${continuidad?.novena?.name || santo.name}
                         </h3>
 
                         <p>
-                            \${textoContinuar}
+                            ${textoContinuar}
                         </p>
 
-                        \${continuidad ? \`
+                        ${continuidad ? `
                             <div
                                 class="progress-track"
-                                aria-label="\${porcentaje}% completado">
+                                aria-label="${porcentaje}% completado">
                                 <div
                                     class="progress-fill"
-                                    style="width:\${porcentaje}%">
+                                    style="width:${porcentaje}%">
                                 </div>
                             </div>
-                        \` : ""}
+                        ` : ""}
 
                     </div>
 
@@ -196,8 +196,8 @@ function renderInicio(catalogo = [], progreso = {}) {
                         class="btn btn-primary continue-action"
                         type="button"
                         data-action="continue-novena"
-                        data-id="\${continuidad?.novena?.id || santo.id}">
-                        \${continuidad ? "Continuar" : "Comenzar"}
+                        data-id="${continuidad?.novena?.id || santo.id}">
+                        ${continuidad ? "Continuar" : "Comenzar"}
                     </button>
 
                 </article>
@@ -206,5 +206,5 @@ function renderInicio(catalogo = [], progreso = {}) {
 
         </section>
 
-    \`;
+    `;
 }
