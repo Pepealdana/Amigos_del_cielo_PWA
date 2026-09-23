@@ -14,7 +14,7 @@ function renderBiblioteca(catalogo = []) {
 
     const categorias = obtenerCategorias(catalogo);
 
-    return \`
+    return `
 
         <section class="library page-shell">
 
@@ -43,49 +43,49 @@ function renderBiblioteca(catalogo = []) {
 
             <div class="library-filters" aria-label="Categorías">
 
-                \${categorias.map(categoria => \`
+                ${categorias.map(categoria => `
 
                     <button
-                        class="library-filter \${categoria === "Todas" ? "active" : ""}"
+                        class="library-filter ${categoria === "Todas" ? "active" : ""}"
                         type="button"
-                        data-category="\${categoria}">
-                        \${categoria}
+                        data-category="${categoria}">
+                        ${categoria}
                     </button>
 
-                \`).join("")}
+                `).join("")}
 
             </div>
 
             <div id="library-list" class="library-list">
-                \${renderListaBiblioteca(catalogo)}
+                ${renderListaBiblioteca(catalogo)}
             </div>
 
         </section>
 
-    \`;
+    `;
 }
 
 function renderListaBiblioteca(catalogo = []) {
 
     if (!Array.isArray(catalogo) || catalogo.length === 0) {
-        return \`
+        return `
             <div class="simple-panel">
                 <strong>No encontramos novenas.</strong>
                 <p>Prueba con otro término de búsqueda.</p>
             </div>
-        \`;
+        `;
     }
 
-    return catalogo.map(novena => \`
+    return catalogo.map(novena => `
 
         <button
             class="library-item"
             type="button"
             data-action="open-novena"
-            data-id="\${novena.id}">
+            data-id="${novena.id}">
 
             <img
-                src="\${novena.image}"
+                src="${novena.image}"
                 alt=""
                 class="library-item-image"
                 loading="lazy">
@@ -93,15 +93,15 @@ function renderListaBiblioteca(catalogo = []) {
             <span class="library-item-content">
 
                 <strong class="library-item-name">
-                    \${novena.name}
+                    ${novena.name}
                 </strong>
 
                 <span class="library-item-title">
-                    \${novena.title}
+                    ${novena.title}
                 </span>
 
                 <span class="library-item-meta">
-                    \${formatearFechaLiturgica(novena.feast)}
+                    ${formatearFechaLiturgica(novena.feast)}
                 </span>
 
             </span>
@@ -110,5 +110,5 @@ function renderListaBiblioteca(catalogo = []) {
 
         </button>
 
-    \`).join("");
+    `).join("");
 }
