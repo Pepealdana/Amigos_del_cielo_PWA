@@ -81,6 +81,6 @@ const APP_CONFIG = {
     ========================== */
 
     github:
-        "https://github.com/Pepealdana/Amigos-del-Cielo"
+        "https://github.com/Pepealdana/Amigos_del_cielo_PWA"
 
 };
