@@ -7,15 +7,13 @@
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0">
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-    <title>
-        Amigos del Cielo
-    </title>
+    <title>Amigos del Cielo</title>
 
     <meta
         name="description"
-        content="Camina junto a los santos cada día. Novenas, santos, oraciones y devociones católicas.">
+        content="Novenas, santos y oración diaria.">
 
     <meta
         name="theme-color"
@@ -72,7 +70,8 @@
 
     <nav
         id="side-menu"
-        class="side-menu">
+        class="side-menu"
+        aria-label="Navegación principal">
 
         <div class="menu-header">
 
@@ -81,66 +80,40 @@
                 alt="Logo Amigos del Cielo"
                 class="menu-logo">
 
-            <h2>
+            <h2>Amigos del Cielo</h2>
 
-                Amigos del Cielo
-
-            </h2>
-
-            <p>
-
-                Camina junto a los santos
-
-            </p>
+            <p>Camina junto a los santos</p>
 
         </div>
 
-        <button
-            id="menu-inicio">
-
-            🏠 Inicio
-
+        <button id="menu-inicio" type="button">
+            Inicio
         </button>
 
-        <button
-            id="menu-biblioteca">
-
-            🙏 Biblioteca
-
+        <button id="menu-biblioteca" type="button">
+            Biblioteca
         </button>
 
-        <button
-            id="menu-favoritas">
-
-            ⭐ Favoritas
-
+        <button id="menu-favoritas" type="button">
+            Favoritas
         </button>
 
-        <button
-            id="menu-progreso">
-
-            📖 Mi progreso
-
+        <button id="menu-progreso" type="button">
+            Mi progreso
         </button>
 
-        <button
-            id="menu-configuracion">
-
-            ⚙ Configuración
-
+        <button id="menu-configuracion" type="button">
+            Configuración
         </button>
 
-        <button
-            id="menu-acerca">
-
-            ℹ Acerca de
-
+        <button id="menu-acerca" type="button">
+            Acerca de
         </button>
 
     </nav>
 
     <!-- ==========================
-         APP
+         APLICACIÓN
     =========================== -->
 
     <div id="app">
@@ -152,50 +125,98 @@
                 <button
                     id="btn-menu"
                     class="icon-button"
-                    aria-label="Abrir menú">
-
+                    aria-label="Abrir menú"
+                    aria-controls="side-menu"
+                    aria-expanded="false"
+                    type="button">
                     ☰
-
                 </button>
 
-                <img
-                    src="assets/icons/logosin.png"
-                    alt="Logo Amigos del Cielo"
-                    class="app-logo">
+                <div class="header-brand">
+
+                    <img
+                        src="assets/icons/logosin.png"
+                        alt=""
+                        class="app-logo"
+                        aria-hidden="true">
+
+                    <div class="header-brand-text">
+
+                        <p class="header-brand-name">
+                            Amigos del Cielo
+                        </p>
+
+                        <p class="header-brand-subtitle">
+                            Camina junto a los santos
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <button
+                    class="icon-button"
+                    id="btn-header-settings"
+                    aria-label="Configuración"
+                    type="button">
+                    ⚙
+                </button>
+
+                <span
+                    class="header-spacer"
+                    aria-hidden="true">
+                </span>
 
             </div>
 
-            <h1>
-
-                Amigos del Cielo
-
-            </h1>
-
-            <p class="subtitle">
-
-                Camina junto a los santos cada día
-
-            </p>
-
-            <p class="header-tagline">
-
-                ✦ Oración • Santos • Novenas ✦
-
-            </p>
-
         </header>
 
-        <main
-            id="view">
-
-        </main>
+        <main id="view"></main>
 
     </div>
 
+    <!-- ==========================
+         NAVEGACIÓN MÓVIL
+    =========================== -->
+
+    <nav
+        class="bottom-nav"
+        aria-label="Navegación inferior">
+
+        <button
+            class="bottom-nav-item active"
+            data-route="inicio"
+            type="button">
+
+            <span class="bottom-nav-icon" aria-hidden="true">⌂</span>
+            <span>Inicio</span>
+
+        </button>
+
+        <button
+            class="bottom-nav-item"
+            data-route="biblioteca"
+            type="button">
+
+            <span class="bottom-nav-icon" aria-hidden="true">◉</span>
+            <span>Biblioteca</span>
+
+        </button>
+
+        <button
+            class="bottom-nav-item"
+            data-route="favoritas"
+            type="button">
+
+            <span class="bottom-nav-icon" aria-hidden="true">♡</span>
+            <span>Favoritas</span>
+
+        </button>
+
+    </nav>
+
     <noscript>
-
         Esta aplicación necesita JavaScript para funcionar correctamente.
-
     </noscript>
 
     <!-- ==========================
