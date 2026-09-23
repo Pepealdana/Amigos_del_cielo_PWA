@@ -361,11 +361,7 @@ function iniciarNovena() {
 
     );
 
-    alert(
-
-        "Próximamente iniciaremos el Día 1 de la novena."
-
-    );
+    mostrarDia(1);
 
 }
 /* ==========================================
@@ -712,3 +708,234 @@ function existeCatalogo() {
 /* ==========================================
    FIN APP
 ========================================== */
+
+/* ==========================================
+   INTERACCIONES PWA
+========================================== */
+
+document.addEventListener("click", manejarClicksPWA);
+document.addEventListener("input", manejarInputsPWA);
+
+function manejarClicksPWA(evento) {
+
+    const accion = evento.target.closest("[data-action]");
+
+    if (accion) {
+
+        const tipo = accion.dataset.action;
+        const id = accion.dataset.id;
+
+        if (tipo === "open-novena" && id) {
+            abrirNovena(id);
+            return;
+        }
+
+        if (tipo === "continue-novena" && id) {
+            continuarNovena(id);
+            return;
+        }
+    }
+
+    const ruta = evento.target.closest("[data-route]");
+
+    if (ruta) {
+        navegar(ruta.dataset.route);
+        return;
+    }
+
+    const categoria = evento.target.closest("[data-category]");
+
+    if (categoria) {
+        filtrarBibliotecaPWA(
+            categoria.dataset.category
+        );
+    }
+}
+
+function manejarInputsPWA(evento) {
+
+    if (evento.target.id === "home-search") {
+
+        state.busqueda = evento.target.value;
+
+        mostrarResultadosBusquedaPWA(
+            evento.target.value
+        );
+
+        return;
+    }
+
+    if (evento.target.id === "library-search") {
+
+        state.busqueda = evento.target.value;
+
+        actualizarBibliotecaPWA();
+    }
+}
+
+function mostrarResultadosBusquedaPWA(texto) {
+
+    const contenedor =
+        document.getElementById(
+            "home-search-results"
+        );
+
+    if (!contenedor) {
+        return;
+    }
+
+    const termino = texto.trim();
+
+    if (!termino) {
+        contenedor.hidden = true;
+        contenedor.innerHTML = "";
+        return;
+    }
+
+    const resultados =
+        buscarNovenas(
+            state.catalogo,
+            termino
+        ).slice(0, 5);
+
+    contenedor.innerHTML =
+        resultados.length
+            ? resultados.map(novena => `
+                <button
+                    class="search-result"
+                    type="button"
+                    data-action="open-novena"
+                    data-id="${novena.id}">
+
+                    <img
+                        src="${novena.image}"
+                        alt=""
+                        class="search-result-image"
+                        loading="lazy">
+
+                    <span class="search-result-text">
+
+                        <strong class="search-result-name">
+                            ${novena.name}
+                        </strong>
+
+                        <span class="search-result-subtitle">
+                            ${novena.title}
+                        </span>
+
+                    </span>
+
+                </button>
+            `).join("")
+            : `
+                <div class="search-result">
+                    <span class="search-result-text">
+                        <strong class="search-result-name">
+                            No encontramos esa novena
+                        </strong>
+                        <span class="search-result-subtitle">
+                            Prueba con otro término.
+                        </span>
+                    </span>
+                </div>
+            `;
+
+    contenedor.hidden = false;
+}
+
+let categoriaBibliotecaPWA = "Todas";
+
+function filtrarBibliotecaPWA(categoria) {
+
+    categoriaBibliotecaPWA =
+        categoria || "Todas";
+
+    document
+        .querySelectorAll(".library-filter")
+        .forEach(boton => {
+            boton.classList.toggle(
+                "active",
+                boton.dataset.category ===
+                    categoriaBibliotecaPWA
+            );
+        });
+
+    actualizarBibliotecaPWA();
+}
+
+function actualizarBibliotecaPWA() {
+
+    const contenedor =
+        document.getElementById(
+            "library-list"
+        );
+
+    if (!contenedor) {
+        return;
+    }
+
+    let resultados =
+        filtrarCategoria(
+            state.catalogo,
+            categoriaBibliotecaPWA
+        );
+
+    const termino =
+        state.busqueda.trim();
+
+    if (termino) {
+        resultados =
+            buscarNovenas(
+                resultados,
+                termino
+            );
+    }
+
+    contenedor.innerHTML =
+        renderListaBiblioteca(
+            resultados
+        );
+}
+
+function continuarNovena(id) {
+
+    const novenaId =
+        id || state.ultimaNovenaId;
+
+    if (!novenaId) {
+        mostrarInicio();
+        return;
+    }
+
+    abrirNovena(novenaId)
+        .then(() => {
+
+            if (!state.novenaActual) {
+                return;
+            }
+
+            const dia =
+                state.progreso[novenaId]?.dia || 1;
+
+            mostrarDia(dia);
+        });
+}
+
+document.addEventListener(
+    "DOMContentLoaded",
+    () => {
+
+        if (
+            "serviceWorker" in navigator
+        ) {
+            navigator.serviceWorker
+                .register("./service-worker.js")
+                .catch(error =>
+                    console.error(
+                        "Service Worker:",
+                        error
+                    )
+                );
+        }
+    }
+);
