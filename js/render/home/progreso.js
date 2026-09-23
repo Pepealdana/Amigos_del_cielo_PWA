@@ -12,7 +12,7 @@ function renderProgreso(catalogo = [], progreso = {}) {
         }))
         .filter(item => item.novena);
 
-    return \`
+    return `
 
         <section class="page-shell">
 
@@ -28,17 +28,17 @@ function renderProgreso(catalogo = [], progreso = {}) {
 
             </header>
 
-            \${entradas.length === 0 ? \`
+            ${entradas.length === 0 ? `
                 <div class="simple-panel">
                     <strong>Todavía no has iniciado ninguna novena.</strong>
                     <p>
                         Cuando comiences una novena, aparecerá aquí.
                     </p>
                 </div>
-            \` : \`
+            ` : `
                 <div class="library-list">
 
-                    \${entradas.map(item => {
+                    ${entradas.map(item => {
 
                         const dia = Number(item.datos?.dia) || 1;
 
@@ -53,12 +53,12 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 Math.round((completados / 9) * 100)
                             );
 
-                        return \`
+                        return `
 
                             <article class="continue-card">
 
                                 <img
-                                    src="\${item.novena.image}"
+                                    src="${item.novena.image}"
                                     alt=""
                                     class="continue-image"
                                     loading="lazy">
@@ -66,17 +66,17 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 <div class="continue-content">
 
                                     <h3>
-                                        \${item.novena.name}
+                                        ${item.novena.name}
                                     </h3>
 
                                     <p>
-                                        Día \${dia} de 9
+                                        Día ${dia} de 9
                                     </p>
 
                                     <div class="progress-track">
                                         <div
                                             class="progress-fill"
-                                            style="width:\${porcentaje}%">
+                                            style="width:${porcentaje}%">
                                         </div>
                                     </div>
 
@@ -86,20 +86,20 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                     class="btn btn-primary continue-action"
                                     type="button"
                                     data-action="continue-novena"
-                                    data-id="\${item.novena.id}">
+                                    data-id="${item.novena.id}">
                                     Continuar
                                 </button>
 
                             </article>
 
-                        \`;
+                        `;
 
                     }).join("")}
 
                 </div>
-            \`}
+            `}
 
         </section>
 
-    \`;
+    `;
 }
