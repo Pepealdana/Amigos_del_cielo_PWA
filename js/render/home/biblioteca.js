@@ -1,120 +1,114 @@
 /* ==========================================
-   RENDER BIBLIOTECA
+   BIBLIOTECA
+   Amigos del Cielo
 ========================================== */
 
-function renderBiblioteca(catalogo) {
+function renderBiblioteca(catalogo = []) {
 
-    if (!catalogo || catalogo.length === 0) {
-
-        return `
-
-            <section class="library">
-
-                <h2 class="library-title">
-
-                    Biblioteca de Novenas
-
-                </h2>
-
-                ${crearEmptyState(
-
-                    "No hay novenas disponibles."
-
-                )}
-
-            </section>
-
-        `;
-
+    if (!Array.isArray(catalogo) || catalogo.length === 0) {
+        return renderEmptyState(
+            "Biblioteca vacía",
+            "Todavía no hay novenas disponibles."
+        );
     }
 
-    return `
+    const categorias = obtenerCategorias(catalogo);
 
-        <section class="library">
+    return \`
 
-            <h2 class="library-title">
+        <section class="library page-shell">
 
-                Biblioteca de Novenas
+            <header class="library-head">
 
-            </h2>
+                <h2>Biblioteca</h2>
 
-            <p class="library-subtitle">
+                <p>
+                    Encuentra una novena y comienza tu camino de oración.
+                </p>
 
-                Explora las novenas disponibles
-                y acompaña tu vida espiritual
-                durante todo el año.
+            </header>
 
-            </p>
+            <div class="search-box">
 
-            <div class="library-grid">
+                <span class="search-box-icon" aria-hidden="true">🔎</span>
 
-                ${catalogo.map(
+                <input
+                    id="library-search"
+                    type="search"
+                    placeholder="Buscar una novena..."
+                    autocomplete="off"
+                    aria-label="Buscar una novena en la biblioteca">
 
-                    novena => `
+            </div>
 
-                        <article
-                            class="novena-card">
+            <div class="library-filters" aria-label="Categorías">
 
-                            <img
+                \${categorias.map(categoria => \`
 
-                                src="${novena.image}"
+                    <button
+                        class="library-filter \${categoria === "Todas" ? "active" : ""}"
+                        type="button"
+                        data-category="\${categoria}">
+                        \${categoria}
+                    </button>
 
-                                alt="${novena.name}"
+                \`).join("")}
 
-                                class="novena-card-image">
+            </div>
 
-                            <div
-                                class="novena-card-content">
-
-                                <span
-                                    class="novena-category">
-
-                                    ${novena.category}
-
-                                </span>
-
-                                <h3>
-
-                                    ${novena.name}
-
-                                </h3>
-
-                                <p>
-
-                                    ${novena.title}
-
-                                </p>
-
-                                <p
-                                    class="novena-feast">
-
-                                    📅
-                                    ${formatearFechaLiturgica(
-                                        novena.feast
-                                    )}
-
-                                </p>
-
-                                <button
-                                    class="btn-primary btn-abrir-novena"
-                                    data-id="${novena.id}">
-
-                                    Abrir novena
-
-                                </button>
-
-                            </div>
-
-                        </article>
-
-                    `
-
-                ).join("")}
-
+            <div id="library-list" class="library-list">
+                \${renderListaBiblioteca(catalogo)}
             </div>
 
         </section>
 
-    `;
+    \`;
+}
 
+function renderListaBiblioteca(catalogo = []) {
+
+    if (!Array.isArray(catalogo) || catalogo.length === 0) {
+        return \`
+            <div class="simple-panel">
+                <strong>No encontramos novenas.</strong>
+                <p>Prueba con otro término de búsqueda.</p>
+            </div>
+        \`;
+    }
+
+    return catalogo.map(novena => \`
+
+        <button
+            class="library-item"
+            type="button"
+            data-action="open-novena"
+            data-id="\${novena.id}">
+
+            <img
+                src="\${novena.image}"
+                alt=""
+                class="library-item-image"
+                loading="lazy">
+
+            <span class="library-item-content">
+
+                <strong class="library-item-name">
+                    \${novena.name}
+                </strong>
+
+                <span class="library-item-title">
+                    \${novena.title}
+                </span>
+
+                <span class="library-item-meta">
+                    \${formatearFechaLiturgica(novena.feast)}
+                </span>
+
+            </span>
+
+            <span class="library-item-arrow" aria-hidden="true">›</span>
+
+        </button>
+
+    \`).join("");
 }
