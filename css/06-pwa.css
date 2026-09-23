@@ -1,0 +1,738 @@
+/* ==========================================================
+   AMIGOS DEL CIELO
+   REDISEÑO PWA
+   Mobile first · Minimalista · Responsive
+========================================================== */
+
+:root{
+    --app-max-width:1180px;
+    --content-max-width:920px;
+    --bottom-nav-height:72px;
+    --topbar-height:64px;
+    --safe-bottom:env(safe-area-inset-bottom, 0px);
+    --soft-blue:rgba(44,74,107,.06);
+    --soft-gold:rgba(217,182,107,.16);
+}
+
+/* ==========================================================
+   BASE DE LA EXPERIENCIA
+========================================================== */
+
+html,
+body{
+    min-height:100%;
+}
+
+body{
+    background:var(--color-background);
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background:
+        radial-gradient(
+            circle at 50% -10%,
+            rgba(127,178,214,.12),
+            transparent 34%
+        );
+    z-index:-1;
+}
+
+#app{
+    width:100%;
+    max-width:var(--app-max-width);
+    min-height:100vh;
+    margin:0 auto;
+    background:transparent;
+}
+
+/* ==========================================================
+   BARRA SUPERIOR
+========================================================== */
+
+.header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    min-height:var(--topbar-height);
+    padding:.65rem 1rem;
+    border-radius:0;
+    border-bottom:1px solid var(--color-border);
+    background:rgba(248,246,242,.94);
+    color:var(--color-text);
+    box-shadow:0 2px 14px rgba(0,0,0,.05);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+}
+
+.header-top{
+    width:100%;
+    max-width:var(--content-max-width);
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:48px 1fr 48px;
+    align-items:center;
+    gap:.5rem;
+}
+
+.header-brand{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-width:0;
+}
+
+.header-brand-text{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    min-width:0;
+}
+
+.header-brand-name{
+    margin:0;
+    color:var(--color-primary);
+    font-size:1rem;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.header-brand-subtitle{
+    margin:0;
+    color:var(--color-text-light);
+    font-size:.72rem;
+    line-height:1.2;
+}
+
+.app-logo{
+    width:40px;
+    height:40px;
+    margin:0;
+    object-fit:contain;
+    filter:none;
+}
+
+.header h1,
+.header .subtitle,
+.header .header-tagline{
+    display:none;
+}
+
+.header-spacer{
+    width:48px;
+    height:48px;
+}
+
+/* ==========================================================
+   CONTENIDO PRINCIPAL
+========================================================== */
+
+#view{
+    width:100%;
+    max-width:var(--content-max-width);
+    min-height:calc(100vh - var(--topbar-height));
+    margin:0 auto;
+    padding:1.25rem 1rem calc(var(--bottom-nav-height) + 1.5rem + var(--safe-bottom));
+    display:block;
+}
+
+.dashboard,
+.library,
+.section{
+    width:100%;
+    max-width:none;
+    margin:0;
+    gap:0;
+    animation:fadeUp .28s ease;
+}
+
+.home{
+    width:100%;
+    max-width:none;
+    padding:0;
+    background:transparent;
+    box-shadow:none;
+    border-radius:0;
+}
+
+/* ==========================================================
+   NAVEGACIÓN INFERIOR
+========================================================== */
+
+.bottom-nav{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:900;
+    height:calc(var(--bottom-nav-height) + var(--safe-bottom));
+    padding:.35rem .75rem var(--safe-bottom);
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:.35rem;
+    background:rgba(255,255,255,.96);
+    border-top:1px solid var(--color-border);
+    box-shadow:0 -4px 18px rgba(0,0,0,.07);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+}
+
+.bottom-nav-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:.2rem;
+    min-height:56px;
+    padding:.35rem;
+    border-radius:12px;
+    background:transparent;
+    color:var(--color-text-light);
+    font-size:.72rem;
+    font-weight:600;
+}
+
+.bottom-nav-icon{
+    font-size:1.2rem;
+    line-height:1;
+}
+
+.bottom-nav-item.active{
+    color:var(--color-primary);
+    background:var(--soft-blue);
+}
+
+/* ==========================================================
+   HERO — SANTO DEL DÍA
+========================================================== */
+
+.saint-of-day{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding:.5rem 0 1.75rem;
+}
+
+.eyebrow{
+    margin:0 0 .7rem;
+    color:var(--color-text-light);
+    font-size:.72rem;
+    font-weight:700;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+}
+
+.saint-of-day-image{
+    width:min(72vw,280px);
+    aspect-ratio:4 / 5;
+    object-fit:cover;
+    object-position:center;
+    border-radius:24px;
+    box-shadow:0 12px 32px rgba(44,74,107,.16);
+    margin-bottom:1.15rem;
+}
+
+.saint-of-day h2{
+    margin:0;
+    color:var(--color-primary);
+    font-size:clamp(1.7rem,6vw,2.35rem);
+    line-height:1.15;
+}
+
+.saint-of-day-title{
+    max-width:500px;
+    margin:.45rem auto 0;
+    color:var(--color-text-light);
+    font-size:.98rem;
+}
+
+.saint-of-day-feast{
+    margin:.75rem 0 1rem;
+    color:var(--color-accent);
+    font-size:.85rem;
+    font-weight:700;
+}
+
+/* ==========================================================
+   BOTÓN PRINCIPAL DE HERO
+========================================================== */
+
+.btn-hero{
+    width:auto;
+    min-width:190px;
+    padding:.8rem 1.25rem;
+    border-radius:999px;
+}
+
+/* ==========================================================
+   SECCIÓN DE BÚSQUEDA
+========================================================== */
+
+.home-search{
+    margin:0 0 1.5rem;
+}
+
+.section-kicker{
+    margin:0 0 .65rem;
+    color:var(--color-primary);
+    font-size:1rem;
+    font-weight:700;
+}
+
+.search-box{
+    position:relative;
+}
+
+.search-box input{
+    min-height:52px;
+    padding:.8rem 1rem .8rem 3rem;
+    border:1px solid var(--color-border);
+    border-radius:16px;
+    background:var(--color-surface);
+    box-shadow:0 3px 12px rgba(0,0,0,.04);
+}
+
+.search-box-icon{
+    position:absolute;
+    left:1rem;
+    top:50%;
+    transform:translateY(-50%);
+    color:var(--color-text-light);
+    pointer-events:none;
+}
+
+.search-results{
+    margin-top:.65rem;
+    overflow:hidden;
+    border:1px solid var(--color-border);
+    border-radius:16px;
+    background:var(--color-surface);
+    box-shadow:var(--shadow);
+}
+
+.search-result{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:.85rem;
+    padding:.75rem;
+    text-align:left;
+    border-radius:0;
+    background:transparent;
+    color:var(--color-text);
+    border-bottom:1px solid var(--color-border);
+}
+
+.search-result:last-child{
+    border-bottom:none;
+}
+
+.search-result:hover{
+    background:var(--soft-blue);
+}
+
+.search-result-image{
+    width:52px;
+    height:64px;
+    flex:0 0 52px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.search-result-text{
+    min-width:0;
+}
+
+.search-result-name{
+    display:block;
+    margin:0;
+    color:var(--color-primary);
+    font-weight:700;
+}
+
+.search-result-subtitle{
+    display:block;
+    margin-top:.15rem;
+    color:var(--color-text-light);
+    font-size:.8rem;
+}
+
+/* ==========================================================
+   CONTINUAR
+========================================================== */
+
+.continue-section{
+    margin:0 0 1.5rem;
+}
+
+.continue-card{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    padding:1rem;
+    border:1px solid var(--color-border);
+    border-radius:18px;
+    background:var(--color-surface);
+    box-shadow:0 4px 16px rgba(0,0,0,.045);
+}
+
+.continue-image{
+    width:64px;
+    height:80px;
+    flex:0 0 64px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.continue-content{
+    min-width:0;
+    flex:1;
+}
+
+.continue-content h3{
+    margin:0;
+    font-size:1rem;
+}
+
+.continue-content p{
+    margin:.25rem 0 .55rem;
+    color:var(--color-text-light);
+    font-size:.82rem;
+}
+
+.progress-track{
+    width:100%;
+    height:5px;
+    overflow:hidden;
+    border-radius:999px;
+    background:var(--color-surface-alt);
+}
+
+.progress-fill{
+    height:100%;
+    border-radius:inherit;
+    background:var(--color-primary);
+}
+
+.continue-action{
+    flex:0 0 auto;
+    width:auto;
+    min-width:88px;
+    min-height:40px;
+    padding:.65rem .8rem;
+    border-radius:999px;
+    font-size:.8rem;
+}
+
+/* ==========================================================
+   BIBLIOTECA
+========================================================== */
+
+.library-head{
+    margin-bottom:1rem;
+}
+
+.library-head h2{
+    margin:0;
+    font-size:1.65rem;
+}
+
+.library-head p{
+    margin:.35rem 0 0;
+    color:var(--color-text-light);
+    font-size:.9rem;
+}
+
+.library-filters{
+    display:flex;
+    gap:.5rem;
+    overflow-x:auto;
+    padding:.1rem 0 .7rem;
+    margin-bottom:.5rem;
+    scrollbar-width:none;
+}
+
+.library-filters::-webkit-scrollbar{
+    display:none;
+}
+
+.library-filter{
+    flex:0 0 auto;
+    width:auto;
+    min-height:38px;
+    padding:.55rem .9rem;
+    border-radius:999px;
+    background:var(--color-surface);
+    border:1px solid var(--color-border);
+    color:var(--color-text-light);
+    font-size:.8rem;
+}
+
+.library-filter.active{
+    background:var(--color-primary);
+    border-color:var(--color-primary);
+    color:white;
+}
+
+.library-list{
+    display:flex;
+    flex-direction:column;
+    gap:.7rem;
+}
+
+.library-item{
+    display:flex;
+    align-items:center;
+    gap:.9rem;
+    width:100%;
+    padding:.7rem;
+    border:1px solid var(--color-border);
+    border-radius:16px;
+    background:var(--color-surface);
+    text-align:left;
+}
+
+.library-item-image{
+    width:64px;
+    height:80px;
+    flex:0 0 64px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.library-item-content{
+    min-width:0;
+    flex:1;
+}
+
+.library-item-name{
+    margin:0;
+    color:var(--color-primary);
+    font-size:1rem;
+}
+
+.library-item-title{
+    margin:.25rem 0;
+    color:var(--color-text-light);
+    font-size:.8rem;
+    line-height:1.35;
+}
+
+.library-item-meta{
+    margin:0;
+    color:var(--color-accent);
+    font-size:.74rem;
+    font-weight:700;
+}
+
+.library-item-arrow{
+    color:var(--color-primary);
+    font-size:1.25rem;
+}
+
+/* ==========================================================
+   PÁGINAS SECUNDARIAS
+========================================================== */
+
+.page-shell{
+    padding-top:.25rem;
+}
+
+.page-shell .page-header{
+    margin-bottom:1.25rem;
+    text-align:left;
+}
+
+.page-shell .page-title{
+    margin:0;
+    font-size:1.7rem;
+}
+
+.page-shell .page-subtitle{
+    margin:.35rem 0 0;
+    font-size:.9rem;
+}
+
+.simple-panel{
+    padding:1.1rem;
+    border:1px solid var(--color-border);
+    border-radius:18px;
+    background:var(--color-surface);
+}
+
+/* ==========================================================
+   MENÚ LATERAL — ESCRITORIO
+========================================================== */
+
+.side-menu{
+    width:250px;
+    left:0;
+    padding:1.25rem;
+    transform:translateX(0);
+    border-right:1px solid var(--color-border);
+    box-shadow:none;
+}
+
+.side-menu .menu-header{
+    text-align:left;
+    padding-bottom:1.1rem;
+    margin-bottom:1rem;
+}
+
+.side-menu .menu-logo{
+    width:52px;
+    height:52px;
+    margin:0 0 .65rem;
+}
+
+.side-menu .menu-header h2{
+    font-size:1.1rem;
+}
+
+.side-menu .menu-header p{
+    margin:0;
+    font-size:.78rem;
+}
+
+.side-menu > button{
+    width:100%;
+    min-height:44px;
+    margin-bottom:.3rem;
+    padding:.7rem .8rem;
+    border-radius:10px;
+    background:transparent;
+    color:var(--color-text);
+    text-align:left;
+    font-size:.88rem;
+}
+
+.side-menu > button:hover{
+    background:var(--soft-blue);
+    color:var(--color-primary);
+}
+
+.menu-overlay{
+    display:none;
+}
+
+/* ==========================================================
+   ESCRITORIO
+========================================================== */
+
+@media (min-width:901px){
+
+    body{
+        padding-left:250px;
+    }
+
+    .header{
+        position:sticky;
+        top:0;
+    }
+
+    .header-top{
+        grid-template-columns:1fr 48px;
+    }
+
+    .header-top > #btn-menu{
+        display:none;
+    }
+
+    .header-brand{
+        justify-content:flex-start;
+    }
+
+    .header-spacer{
+        display:none;
+    }
+
+    #view{
+        padding:1.75rem 2rem 3rem;
+    }
+
+    .bottom-nav{
+        display:none;
+    }
+
+    .saint-of-day-image{
+        width:300px;
+    }
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (min-width:601px) and (max-width:900px){
+
+    #view{
+        padding-left:1.5rem;
+        padding-right:1.5rem;
+    }
+
+    .saint-of-day-image{
+        width:260px;
+    }
+}
+
+/* ==========================================================
+   MÓVIL
+========================================================== */
+
+@media (max-width:900px){
+
+    .side-menu{
+        left:-280px;
+        transform:none;
+        transition:left var(--transition);
+        box-shadow:var(--shadow-lg);
+    }
+
+    .side-menu.open{
+        left:0;
+    }
+
+    .menu-overlay.show{
+        display:block;
+        opacity:1;
+        visibility:visible;
+    }
+}
+
+@media (max-width:420px){
+
+    #view{
+        padding-left:.85rem;
+        padding-right:.85rem;
+    }
+
+    .saint-of-day-image{
+        width:min(74vw,250px);
+    }
+
+    .continue-card{
+        gap:.7rem;
+    }
+
+    .continue-action{
+        min-width:76px;
+        padding:.6rem .65rem;
+    }
+}
+
+/* ==========================================================
+   ACCESIBILIDAD
+========================================================== */
+
+@media (prefers-reduced-motion:reduce){
+
+    .dashboard,
+    .library,
+    .section{
+        animation:none;
+    }
+}
