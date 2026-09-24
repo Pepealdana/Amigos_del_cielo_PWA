@@ -1,0 +1,376 @@
+{
+  "id": "divino-nino-jesus",
+  "slug": "divino-nino-jesus",
+  "name": "Divino Niño Jesús",
+  "title": "Novena al Divino Niño Jesús",
+  "subtitle": "Crecer con Jesús en confianza, sencillez y amor",
+  "category": "Devociones",
+  "image": "assets/images/santos/nino_jesus.webp",
+  "description": "Nueve días para contemplar a Jesús en el misterio de su infancia y aprender de Él la confianza filial, la sencillez, la vida familiar, el trabajo, el servicio y la esperanza.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#E9A46A",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "movable": true,
+    "text": "Fiesta del Divino Niño Jesús en el Santuario del 20 de Julio — primer domingo de septiembre"
+  },
+  "patronages": [
+    "Niños",
+    "Familias",
+    "Personas que buscan esperanza y confianza en Dios",
+    "Obras de atención a niños y personas necesitadas"
+  ],
+  "virtues": [
+    "Confianza",
+    "Sencillez",
+    "Humildad",
+    "Obediencia",
+    "Vida familiar",
+    "Trabajo",
+    "Caridad",
+    "Esperanza",
+    "Entrega"
+  ],
+  "search": [
+    "divino niño",
+    "divino niño jesús",
+    "niño jesús",
+    "niño del 20 de julio",
+    "20 de julio",
+    "juan del rizzo",
+    "familia",
+    "niños",
+    "confianza",
+    "trabajo",
+    "pobreza",
+    "esperanza",
+    "oración"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio",
+        "familia de nazaret"
+      ]
+    },
+    {
+      "id": "ninos",
+      "label": "Niños y protección de la infancia",
+      "keywords": [
+        "niños",
+        "niño",
+        "infancia",
+        "hijos",
+        "educacion",
+        "educación",
+        "proteccion",
+        "protección"
+      ]
+    },
+    {
+      "id": "necesidad",
+      "label": "Necesidad, pobreza y ayuda",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "necesidad",
+        "ayuda",
+        "carencia",
+        "alimentos",
+        "servicio"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y vida cotidiana",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "oficio",
+        "trabajadores",
+        "estudio",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "confianza",
+      "label": "Confianza y esperanza",
+      "keywords": [
+        "confianza",
+        "esperanza",
+        "miedo",
+        "angustia",
+        "preocupacion",
+        "preocupación",
+        "incertidumbre"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "fe",
+        "eucaristia",
+        "eucaristía",
+        "misa",
+        "devocion",
+        "devoción"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "salud",
+        "sufrimiento",
+        "dolor",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "consagracion",
+      "label": "Consagración y vida cristiana",
+      "keywords": [
+        "consagracion",
+        "consagración",
+        "entrega",
+        "conversion",
+        "conversión",
+        "vida cristiana"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción al Divino Niño Jesús del 20 de Julio se consolidó en Bogotá a partir del apostolado del sacerdote salesiano Juan del Rizzo, quien propagó esta devoción entre los niños y las familias del sector. El santuario se convirtió en un importante lugar de peregrinación y de servicio a personas necesitadas.",
+    "extended": "La devoción al Divino Niño Jesús del 20 de Julio está vinculada a la obra salesiana en Bogotá. Los Salesianos registran que el padre Juan del Rizzo llegó al sector en 1935 y propagó allí la devoción al Divino Niño Jesús. La imagen que se veneró en el lugar estuvo inspirada en la tradición del Niño Jesús de Praga, pero adquirió una identidad propia dentro de la devoción bogotana.\n\nEl crecimiento de la devoción estuvo acompañado por una obra pastoral y social. La Conferencia Episcopal de Colombia recuerda que Juan del Rizzo llegó a un sector popular del sur de Bogotá con especial atención a los niños pobres y a las personas necesitadas. La obra del santuario se desarrolló junto con iniciativas de asistencia y educación, manteniendo una dimensión social vinculada a la espiritualidad salesiana.\n\nLa primera piedra del templo fue bendecida el 19 de marzo de 1937 y el templo fue inaugurado solemnemente en 1942. Actualmente el Santuario del Divino Niño Jesús del 20 de Julio continúa siendo un importante lugar de peregrinación. La fiesta patronal del santuario se celebra el primer domingo de septiembre; el 20 de julio corresponde al nombre y onomástico del barrio, aunque por tradición popular muchas personas relacionan esa fecha con el Divino Niño.\n\nLa novena de Amigos del Cielo no reproduce literalmente una novena publicada por el Santuario ni por otra institución. Sus reflexiones y oraciones son textos originales, elaborados a partir de la Sagrada Escritura, la enseñanza de la Iglesia sobre la infancia y vida oculta de Jesús y fuentes históricas sobre la devoción del Divino Niño en Colombia."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\n\nDivino Niño Jesús, nos acercamos a ti con confianza. Tú quisiste compartir nuestra vida humana y crecer en el seno de una familia, en la sencillez de Nazaret. Enséñanos a confiar en el Padre, a vivir con un corazón humilde, a cuidar a los pequeños y a convertir nuestra fe en obras de amor. Recibe durante estos nueve días nuestras intenciones y ayúdanos a crecer contigo en sabiduría, estatura y gracia. Amén.",
+  "closingPrayer": "Divino Niño Jesús, gracias por acompañarnos durante estos nueve días. Haz que aprendamos de tu infancia santa a vivir con sencillez, confianza, obediencia, trabajo y amor. Bendice a nuestras familias, protege a los niños, consuela a quienes sufren y despierta en nosotros una generosidad capaz de servir a los más necesitados. Que esta novena no termine en nuestras palabras, sino que continúe en nuestras decisiones y obras de cada día. Amén.",
+  "intentions": [
+    "Por los niños, especialmente quienes viven pobreza, abandono, enfermedad, violencia o falta de oportunidades.",
+    "Por las familias, para que encuentren en Jesús, María y José un camino de amor, respeto y cuidado.",
+    "Por los padres, madres, cuidadores y educadores, para que acompañen a los niños con paciencia y responsabilidad.",
+    "Por quienes atraviesan dificultades económicas, desempleo o incertidumbre sobre el futuro.",
+    "Por las personas enfermas y quienes las cuidan, para que reciban consuelo, fortaleza y ayuda.",
+    "Por quienes se sienten solos, angustiados o desanimados, para que recuperen la esperanza.",
+    "Por las obras de la Iglesia y de la sociedad que sirven a niños, jóvenes y personas vulnerables.",
+    "Por quienes desean volver a Dios y comenzar una vida cristiana más coherente.",
+    "Por nuestras intenciones personales y por la gracia de vivir con un corazón sencillo, confiado y dispuesto a servir."
+  ],
+  "resources": {
+    "devotion": "La devoción al Divino Niño Jesús se comprende dentro de la fe cristiana en la Encarnación: el Hijo de Dios asumió verdaderamente nuestra humanidad y vivió una vida humana en familia, oración, trabajo y crecimiento. La piedad popular del Divino Niño en Colombia ha unido esta contemplación con la confianza, la oración y la ayuda a los necesitados.",
+    "feast": "En el Santuario del Divino Niño Jesús del 20 de Julio, la fiesta patronal se celebra el primer domingo de septiembre. El 20 de julio es el onomástico del barrio donde se encuentra el santuario.",
+    "related": [
+      "Infancia de Jesús",
+      "Sagrada Familia de Nazaret",
+      "San José",
+      "Virgen María",
+      "Juan del Rizzo",
+      "Santuario del Divino Niño Jesús del 20 de Julio"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Nueve décadas de una promesa: el Divino Niño sigue congregando multitudes en Bogotá",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://www.cec.org.co/index.php/sistema-informativo/actualidad/nueve-decadas-de-una-promesa-el-divino-nino-sigue-congregando",
+      "type": "official"
+    },
+    {
+      "title": "Oración al Divino Niño",
+      "organization": "Arquidiócesis de Bogotá",
+      "url": "https://arquibogota.org.co/centro-de-informacion/noticias/oracion-al-divino-nino",
+      "type": "official"
+    },
+    {
+      "title": "Memoria histórica",
+      "organization": "Salesianos Bogotá",
+      "url": "https://salesianosbogota.org/memoriahistorica/",
+      "type": "official"
+    },
+    {
+      "title": "Línea de tiempo de la Obra Salesiana",
+      "organization": "Salesianos Bogotá",
+      "url": "https://salesianosbogota.org/linea-de-tiempo-obra-salesiana/",
+      "type": "official"
+    },
+    {
+      "title": "Catecismo de la Iglesia Católica — Los misterios de la infancia y vida oculta de Jesús",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/archive/catechism_sp/p122a3p3_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus, 27 de diciembre de 1998",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1998/documents/hf_jp-ii_ang_27121998.html",
+      "type": "official"
+    },
+    {
+      "title": "El Divino Niño del 20 de Julio: información sobre la fiesta patronal",
+      "organization": "Visit Bogotá",
+      "url": "https://visitbogota.co/es/que-hacer-en-bogota/cultura/santuario-del-divino-nino-jesus-del-20-de-julio",
+      "type": "reference"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Jesús, el Niño Salvador",
+      "title": "Acercarnos a Jesús con confianza",
+      "bible": {
+        "reference": "Lucas 2,10-14",
+        "title": "Les ha nacido un Salvador"
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Puedo acercarme a Jesús con la sencillez de quien sabe que es recibido y amado?",
+      "intention": "Por quienes necesitan recuperar la confianza en Dios y por quienes viven con miedo o incertidumbre.",
+      "prayer": "Divino Niño Jesús, Salvador nuestro, recibe nuestras preocupaciones y enséñanos a acercarnos a ti con confianza. Que la alegría de tu venida venza nuestro miedo y nos ayude a reconocer que Dios no abandona a sus hijos. Amén.",
+      "action": "Presenta a Jesús una preocupación concreta y termina tu oración diciendo: «Divino Niño Jesús, en ti confío»."
+    },
+    {
+      "day": 2,
+      "theme": "La pequeñez ante Dios",
+      "title": "Aprender a hacerse pequeño",
+      "bible": {
+        "reference": "Mateo 18,1-5",
+        "title": "El que se haga pequeño como este niño"
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Qué actitud necesito cambiar para dejar de ponerme en el centro y aprender a recibir de Dios?",
+      "intention": "Por quienes buscan crecer en humildad, sencillez y apertura a los demás.",
+      "prayer": "Divino Niño Jesús, enséñanos la verdadera sencillez. Líbranos del orgullo que nos encierra y danos un corazón capaz de reconocer que necesitamos de Dios y de los demás. Que nuestra pequeñez no sea debilidad, sino apertura para recibir tu gracia. Amén.",
+      "action": "Haz hoy una tarea sencilla que normalmente no buscarías realizar y hazla sin esperar reconocimiento."
+    },
+    {
+      "day": 3,
+      "theme": "Crecer en sabiduría y gracia",
+      "title": "Crecer por dentro",
+      "bible": {
+        "reference": "Lucas 2,40-52",
+        "title": "Jesús crecía en sabiduría, estatura y gracia"
+      },
+      "virtue": "Sabiduría",
+      "reflection": "¿En qué aspecto de mi vida necesito crecer para parecerme más a Cristo?",
+      "intention": "Por niños, jóvenes y adultos que están aprendiendo, estudiando o buscando orientar su vida.",
+      "prayer": "Divino Niño Jesús, ayúdanos a crecer de manera integral. Danos sabiduría para elegir el bien, fortaleza para perseverar y gracia para vivir cerca de Dios. Que nuestro aprendizaje se convierta también en servicio a los demás. Amén.",
+      "action": "Dedica un tiempo concreto a aprender algo que ayude a tu crecimiento humano o espiritual."
+    },
+    {
+      "day": 4,
+      "theme": "La familia de Nazaret",
+      "title": "Hacer de la familia una escuela de amor",
+      "bible": {
+        "reference": "Lucas 2,51-52",
+        "title": "Jesús vivía sujeto a ellos y crecía en sabiduría"
+      },
+      "virtue": "Amor familiar",
+      "reflection": "¿Qué puedo hacer hoy para que mi hogar sea un lugar de respeto, escucha y cuidado?",
+      "intention": "Por las familias, especialmente las que atraviesan conflictos, enfermedad, duelo o dificultades económicas.",
+      "prayer": "Divino Niño Jesús, bendice nuestras familias. Enséñanos a escucharnos, perdonarnos, cuidarnos y respetarnos. Acompaña a los padres, madres, hijos, abuelos y cuidadores, y ayúdanos a construir hogares donde cada persona pueda sentirse recibida y valorada. Amén.",
+      "action": "Realiza hoy un gesto concreto de cuidado hacia alguien de tu familia."
+    },
+    {
+      "day": 5,
+      "theme": "Nazaret y el trabajo",
+      "title": "Santificar lo cotidiano",
+      "bible": {
+        "reference": "Colosenses 3,23-24",
+        "title": "Hagan todo de corazón, como para el Señor"
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Cómo puedo vivir mis estudios, trabajo y tareas cotidianas con mayor responsabilidad y sentido?",
+      "intention": "Por quienes buscan empleo, por los trabajadores y por quienes sostienen con esfuerzo a sus familias.",
+      "prayer": "Divino Niño Jesús, que quisiste vivir una vida sencilla en Nazaret, acompaña nuestro trabajo y nuestras responsabilidades. Abre caminos para quienes buscan empleo y fortalece a quienes trabajan con esfuerzo. Enséñanos a valorar el trabajo honesto y a poner nuestros talentos al servicio del bien. Amén.",
+      "action": "Cumple hoy una responsabilidad pendiente con especial cuidado, aunque nadie vaya a reconocerlo."
+    },
+    {
+      "day": 6,
+      "theme": "Jesús y los pequeños",
+      "title": "Cuidar a quienes necesitan más",
+      "bible": {
+        "reference": "Marcos 10,13-16",
+        "title": "Dejen que los niños se acerquen a mí"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué niño o persona vulnerable necesita hoy una palabra, una ayuda o una presencia responsable?",
+      "intention": "Por los niños pobres, enfermos, abandonados, víctimas de violencia o privados de oportunidades.",
+      "prayer": "Divino Niño Jesús, tú que acoges a los pequeños, abre nuestros ojos ante quienes necesitan protección y cuidado. Haznos responsables de nuestra manera de tratar a los niños y generosos para apoyar a quienes trabajan por su bienestar. Amén.",
+      "action": "Realiza una obra concreta en favor de un niño, una familia necesitada o una iniciativa seria de ayuda a la infancia."
+    },
+    {
+      "day": 7,
+      "theme": "Esperanza en la dificultad",
+      "title": "Confiar cuando el camino se vuelve difícil",
+      "bible": {
+        "reference": "Mateo 2,13-15",
+        "title": "José tomó al niño y a su madre y se retiró a Egipto"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación difícil necesito poner en manos de Dios sin abandonar las acciones que me corresponden?",
+      "intention": "Por las familias desplazadas, los niños en situaciones de violencia, los migrantes y quienes viven circunstancias que amenazan su seguridad.",
+      "prayer": "Divino Niño Jesús, acompaña a quienes atraviesan peligro, desplazamiento, pobreza o incertidumbre. Da protección a los niños y familias que sufren y muéstranos cómo colaborar responsablemente con quienes necesitan ayuda. Que la esperanza nos mueva a actuar y no a permanecer indiferentes. Amén.",
+      "action": "Infórmate sobre una necesidad real de tu comunidad y, si está a tu alcance, realiza una ayuda concreta y responsable."
+    },
+    {
+      "day": 8,
+      "theme": "Oración y vida interior",
+      "title": "Guardar a Jesús en el corazón",
+      "bible": {
+        "reference": "Lucas 2,19",
+        "title": "María conservaba todo en su corazón"
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar ocupa el silencio y la oración en mi vida diaria?",
+      "intention": "Por quienes desean recuperar la vida espiritual y por quienes necesitan serenidad para tomar decisiones.",
+      "prayer": "Divino Niño Jesús, enséñanos a detenernos ante tu presencia. Que aprendamos de María a guardar en el corazón las obras de Dios, a escuchar antes de actuar y a llevar nuestras decisiones a la oración. Haz de nuestro corazón un lugar donde tu palabra pueda crecer. Amén.",
+      "action": "Reserva hoy al menos diez minutos de silencio para orar, leer un pasaje del Evangelio y presentar a Jesús tus intenciones."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega y misión",
+      "title": "Seguir caminando con Jesús",
+      "bible": {
+        "reference": "Lucas 2,52",
+        "title": "Jesús crecía en sabiduría, estatura y gracia"
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué cambio concreto quiero conservar después de terminar esta novena?",
+      "intention": "Por todas las intenciones presentadas durante estos nueve días y para que nuestra devoción se transforme en una vida de fe y servicio.",
+      "prayer": "Divino Niño Jesús, recibe nuestra vida y nuestras intenciones. Que al terminar esta novena no dejemos atrás lo que hemos aprendido de ti. Haznos crecer en confianza, sencillez, responsabilidad, oración y caridad. Bendice a nuestros hogares y envíanos a servir con alegría a quienes más necesitan esperanza. Amén.",
+      "action": "Elige una práctica concreta de oración, servicio o ayuda a los demás que continuarás después de esta novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La base bíblica, doctrinal e histórica se fundamenta en la Sagrada Escritura, el Catecismo de la Iglesia Católica y fuentes oficiales e institucionales sobre la devoción del Divino Niño Jesús en Colombia. No se reproduce literalmente una novena particular de otra fuente."
+  }
+}
