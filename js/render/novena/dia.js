@@ -101,16 +101,16 @@ function renderDia(
             <div class="button-group">
 
                 <button
-                    class="btn-secondary"
-                    id="btn-dia-anterior">
+                    class="btn-secondary" type="button"
+                    data-action="previous-day">
 
                     ← Anterior
 
                 </button>
 
                 <button
-                    class="btn-primary"
-                    id="btn-dia-siguiente">
+                    class="btn-primary" type="button"
+                    data-action="next-day">
 
                     Siguiente →
 
