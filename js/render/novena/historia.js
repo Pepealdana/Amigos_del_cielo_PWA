@@ -14,6 +14,13 @@ function renderHistoria(novena) {
 
     }
 
+    const historiaBreve =
+        novena.history?.short || "";
+
+    const historiaExtendida =
+        novena.history?.extended ||
+        historiaBreve;
+
     return `
 
         <section class="home">
@@ -36,17 +43,47 @@ function renderHistoria(novena) {
 
                 "Historia",
 
-                novena.history.short
+                historiaBreve
 
             )}
 
-            ${renderOracion(
+            <section class="history-extended">
 
-                "Historia ampliada",
+                <button
+                    class="history-extended-toggle"
+                    type="button"
+                    data-action="toggle-extended-history"
+                    aria-expanded="false"
+                    aria-controls="historia-extendida-contenido">
 
-                novena.history.extended
+                    <span>
+                        Historia extendida
+                    </span>
 
-            )}
+                    <span
+                        class="history-extended-icon"
+                        aria-hidden="true">
+                        ▾
+                    </span>
+
+                </button>
+
+                <div
+                    id="historia-extendida-contenido"
+                    class="history-extended-content"
+                    hidden>
+
+                    <div class="history">
+
+                        <p>
+                            ${historiaExtendida}
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
 
             <div class="divider"></div>
 
