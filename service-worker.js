@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v47";
+const CACHE_NAME = "amigos-del-cielo-v48";
 
 const APP_SHELL = [
     "./",
@@ -13,6 +13,7 @@ const APP_SHELL = [
     "./data/beata-clara-fey.json",
     "./data/divina-misericordia.json",
     "./data/espiritu-santo.json",
+    "./data/sagrado-corazon-de-jesus.json",
     "./data/santo-tomas-de-aquino.json",
     "./data/santa-margarita-maria-alacoque.json",
     "./data/san-jose.json",
