@@ -1,0 +1,470 @@
+{
+  "id": "san-juan-bosco",
+  "slug": "san-juan-bosco",
+  "name": "San Juan Bosco",
+  "title": "Presbítero y fundador de la Familia Salesiana",
+  "subtitle": "Padre y maestro de la juventud",
+  "category": "Santos",
+  "image": "assets/images/santos/san_juan_bosco.webp",
+  "description": "Sacerdote educador que dedicó su vida a los jóvenes, especialmente a los más pobres, mediante la educación, la formación para el trabajo, la fe y el acompañamiento.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-juan-bosco"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "⭐"
+  },
+  "feast": {
+    "day": 31,
+    "month": 1,
+    "text": "31 de enero",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Da mihi animas, cetera tolle.",
+    "reference": "Lema de San Juan Bosco, inspirado en Génesis 14,21"
+  },
+  "patronages": [
+    "Juventud",
+    "Educadores",
+    "Aprendices y estudiantes"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad pastoral",
+    "Alegría",
+    "Confianza en Dios",
+    "Paciencia",
+    "Trabajo",
+    "Amabilidad",
+    "Perseverancia"
+  ],
+  "search": [
+    "san juan bosco",
+    "don bosco",
+    "bosco",
+    "salesianos",
+    "juventud",
+    "jóvenes",
+    "educacion",
+    "educadores",
+    "oratorio",
+    "escuela",
+    "trabajo",
+    "aprendices",
+    "vocacion",
+    "maria auxiliadora",
+    "sueño de los nueve años",
+    "sistema preventivo",
+    "pobres"
+  ],
+  "interventions": [
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y educación",
+      "keywords": [
+        "jovenes",
+        "juventud",
+        "educacion",
+        "educadores",
+        "estudiantes",
+        "adolescentes",
+        "niños"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y acompañamiento",
+      "keywords": [
+        "familia",
+        "padres",
+        "madres",
+        "hijos",
+        "acompañamiento",
+        "crianza"
+      ]
+    },
+    {
+      "id": "estudio-trabajo",
+      "label": "Estudio, oficio y trabajo",
+      "keywords": [
+        "estudio",
+        "trabajo",
+        "oficio",
+        "aprendices",
+        "empleo",
+        "formacion profesional",
+        "escuela"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y discernimiento",
+      "keywords": [
+        "vocacion",
+        "llamado",
+        "sacerdote",
+        "religioso",
+        "discernimiento",
+        "mision"
+      ]
+    },
+    {
+      "id": "pobres",
+      "label": "Pobreza y jóvenes vulnerables",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "calle",
+        "vulnerables",
+        "necesidad",
+        "abandono"
+      ]
+    },
+    {
+      "id": "alegria",
+      "label": "Alegría y esperanza",
+      "keywords": [
+        "alegria",
+        "esperanza",
+        "animo",
+        "tristeza",
+        "soledad",
+        "amistad"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida cristiana",
+      "keywords": [
+        "oracion",
+        "fe",
+        "eucaristia",
+        "confesion",
+        "evangelio",
+        "catequesis"
+      ]
+    },
+    {
+      "id": "iglesia",
+      "label": "Iglesia y misión salesiana",
+      "keywords": [
+        "iglesia",
+        "salesianos",
+        "salesianas",
+        "oratorio",
+        "mision",
+        "apostolado"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Juan Bosco nació en 1815 en Castelnuovo d'Asti, en una familia campesina. Quedó huérfano de padre siendo niño y fue educado en la fe por su madre Margarita. A los nueve años tuvo un sueño que marcaría profundamente su comprensión de la misión que desarrollaría entre los jóvenes. Después de superar dificultades económicas y formativas, fue ordenado sacerdote en 1841. En Turín comenzó a reunir y educar a muchachos, especialmente a los más pobres, creando el Oratorio de Valdocco. Fundó la Sociedad de San Francisco de Sales y, junto con Santa María Dominica Mazzarello, impulsó la obra que daría origen a las Hijas de María Auxiliadora. Murió en Turín el 31 de enero de 1888.",
+    "extended": "Juan Bosco nació el 16 de agosto de 1815 en I Becchi, cerca de Castelnuovo d'Asti. Su familia vivía del trabajo del campo y su padre, Francisco Luis Bosco, murió cuando Juan tenía apenas dos años. Su madre, Margarita Occhiena, desempeñó un papel decisivo en su educación humana y cristiana. Cuando tenía nueve años, Juan relató un sueño que conservaría como una referencia para toda su vida: en él aparecían muchachos que peleaban y una figura que le mostraba que no debía ganarlos con violencia, sino mediante la mansedumbre y la caridad. La tradición salesiana considera este sueño una experiencia decisiva para comprender su futura misión educativa; el propio Don Bosco lo interpretó progresivamente a lo largo de los años. Su infancia y juventud estuvieron marcadas por el deseo de estudiar y llegar al sacerdocio, pero también por dificultades económicas. Para mantenerse y estudiar aprendió y ejerció diversos oficios. Fue ordenado sacerdote en Turín en 1841 y, bajo la guía de san José Cafasso, comenzó a conocer de cerca las necesidades de jóvenes pobres y abandonados de la ciudad. En el contexto de la rápida transformación social de Turín, Don Bosco desarrolló el Oratorio como un espacio donde los muchachos podían encontrar una casa, educación, formación cristiana, recreación y preparación para el trabajo. Su método educativo fue conocido posteriormente como Sistema Preventivo, basado en la razón, la religión y la amabilidad. Don Bosco no entendía la educación solamente como instrucción religiosa: promovió también talleres y escuelas para preparar a los jóvenes para un oficio y una vida digna. Su preocupación por los jóvenes que estaban solos o en situación de pobreza se convirtió en una misión estable. En 1859 fundó con sus colaboradores la Sociedad de San Francisco de Sales, cuyos miembros serían conocidos como salesianos. Junto con Santa María Dominica Mazzarello impulsó además la obra de las Hijas de María Auxiliadora para la educación de las jóvenes. La devoción a María Auxiliadora ocupó un lugar central en su espiritualidad y en la vida de sus obras. En su iconografía aparece generalmente como sacerdote, con sotana, y rodeado de niños o jóvenes, porque su misión educativa constituye el rasgo más característico de su vida. También puede aparecer con un libro, asociado a la educación y a sus escritos; con el lema «Da mihi animas, cetera tolle», que expresa su orientación apostólica; y junto a María Auxiliadora, estrechamente vinculada a su espiritualidad y a la historia de la obra salesiana. El sueño de los nueve años puede aparecer representado en materiales salesianos, pero debe entenderse como una experiencia espiritual narrada por Don Bosco y posteriormente interpretada dentro de su misión, no como un hecho histórico que pueda demostrarse de la misma manera que su ordenación o la fundación de la Sociedad Salesiana. Juan Bosco murió en Turín el 31 de enero de 1888 y fue canonizado por Pío XI en 1934. La Iglesia lo recuerda como padre y maestro de la juventud, y su obra continúa a través de la Familia Salesiana."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Juan Bosco, padre y maestro de la juventud, acompáñame durante estos nueve días. Enséñame a vivir con alegría, paciencia y confianza en Dios. Ayúdame a acompañar a los jóvenes, a valorar la educación y el trabajo, a cuidar a quienes más necesitan apoyo y a vivir la fe con sencillez. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Juan Bosco, gracias por acompañarme durante esta novena. Intercede por los jóvenes, las familias, los educadores, estudiantes y trabajadores. Ayuda a quienes atraviesan pobreza, soledad o dificultades a encontrar personas que los acompañen con respeto y esperanza. Enséñanos a educar desde la confianza, a prevenir antes que castigar y a poner nuestros dones al servicio de los demás. Que María Auxiliadora nos acompañe siempre. Amén.",
+  "intentions": [
+    "Por los niños y jóvenes que necesitan acompañamiento, educación y oportunidades.",
+    "Por familias que atraviesan dificultades económicas o educativas.",
+    "Por docentes, educadores, catequistas y personas que trabajan con jóvenes.",
+    "Por estudiantes y aprendices que necesitan perseverancia y orientación.",
+    "Por jóvenes en situación de pobreza, abandono o vulnerabilidad.",
+    "Por quienes buscan una vocación y necesitan acompañamiento para discernir.",
+    "Por sacerdotes, religiosos, religiosas y miembros de la Familia Salesiana.",
+    "Por jóvenes que viven tristeza, soledad o pérdida de esperanza.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 18,1-5"
+      },
+      {
+        "reference": "Marcos 10,13-16"
+      },
+      {
+        "reference": "1 Corintios 9,22-23"
+      }
+    ],
+    "documents": [
+      "Memorias del Oratorio de San Francisco de Sales",
+      "Sistema Preventivo en la educación de la juventud",
+      "Carta de Roma de 1884"
+    ],
+    "related": [
+      "Santa María Dominica Mazzarello",
+      "San José Cafasso",
+      "Familia Salesiana"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Iuvenum Patris — San Juan Bosco, padre y maestro de la juventud",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1988/documents/hf_jp-ii_apl_19880131_iuvenum-patris.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 31 de enero de 2010",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/angelus/2010/documents/hf_ben-xvi_ang_20100131.html",
+      "type": "official"
+    },
+    {
+      "title": "Visita a la Universidad Pontificia Salesiana — 31 de enero de 1981",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1981/january/documents/hf_jp-ii_spe_19810131_univ-salesiana.html",
+      "type": "official"
+    },
+    {
+      "title": "31 de enero — San Juan Bosco, presbítero",
+      "organization": "Salesianos de Don Bosco",
+      "url": "https://archive.sdb.org/ESP/pdf/Bosco_Messa_es.pdf",
+      "type": "official"
+    },
+    {
+      "title": "El sueño de los nueve años",
+      "organization": "Salesianos de Don Bosco",
+      "url": "https://archive.sdb.org/Documenti/Rettor_Maggiore/strenna/2024/Strenna_2024_Presentazione_es.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una infancia marcada por la fe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Bosco nació en 1815 en una familia campesina. Su padre murió cuando él tenía dos años y su madre Margarita tuvo un papel decisivo en su educación. Desde pequeño desarrolló el deseo de estudiar y llegar a ser sacerdote, aunque las dificultades económicas hicieron difícil ese camino."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las circunstancias de una familia no tienen que determinar por completo el futuro. Una persona que acompaña, educa y sostiene puede convertirse en una influencia decisiva para toda la vida."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué persona ha sido importante para mi formación y qué puedo aprender de su ejemplo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, especialmente por quienes educan a sus hijos en medio de dificultades económicas o personales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, acompaña a nuestras familias. Ayúdanos a reconocer el valor de quienes educan con paciencia y a confiar en que una vida puede crecer incluso en medio de dificultades. Amén."
+      },
+      "action": "Agradece hoy a una persona que haya contribuido a tu formación."
+    },
+    {
+      "day": 2,
+      "theme": "El sueño de los nueve años",
+      "title": "Una misión que se fue comprendiendo con el tiempo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "A los nueve años, Juan Bosco relató un sueño que quedó profundamente grabado en su memoria. En él recibió una indicación relacionada con la manera de acercarse a los muchachos: no mediante la violencia, sino con mansedumbre y caridad. Don Bosco fue comprendiendo el significado de esta experiencia a lo largo de su vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Algunas experiencias adquieren su significado de manera progresiva. No siempre comprendemos desde el comienzo qué misión puede tener una intuición o un deseo profundo."
+      },
+      "virtue": "Paciencia",
+      "reflection": "¿Hay algo que hoy no comprendo completamente pero que podría necesitar tiempo para discernir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que buscan su camino y por quienes necesitan paciencia para comprender su vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, enséñame a no desesperarme cuando todavía no comprendo el camino. Dame paciencia para discernir y fidelidad para avanzar paso a paso. Amén."
+      },
+      "action": "Escribe una meta importante que tengas y un pequeño paso que puedas dar hacia ella esta semana."
+    },
+    {
+      "day": 3,
+      "theme": "La vocación",
+      "title": "Convertir un deseo en servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de superar dificultades económicas y completar sus estudios, Juan Bosco fue ordenado sacerdote en 1841. Con la orientación de san José Cafasso comenzó a conocer de cerca la situación de jóvenes pobres y abandonados de Turín."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación no se entiende solamente como una profesión. También puede ser una forma concreta de poner la propia vida al servicio de otras personas."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué capacidad que tengo podría convertirse en un servicio para otras personas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, religiosos, religiosas y jóvenes que están discerniendo su vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, ayuda a quienes buscan su vocación. Que cada persona pueda descubrir sus dones y ponerlos al servicio de Dios y de los demás. Amén."
+      },
+      "action": "Identifica una habilidad tuya y piensa en una forma concreta de usarla para ayudar a alguien."
+    },
+    {
+      "day": 4,
+      "theme": "Los jóvenes",
+      "title": "Un lugar donde sentirse acogidos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Turín, Don Bosco comenzó a reunir jóvenes y desarrolló el Oratorio como un espacio de encuentro, recreación, educación, formación cristiana y acompañamiento. Su atención se dirigió especialmente a muchachos pobres o que tenían pocas oportunidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acompañar a alguien no consiste solamente en corregirlo. También significa ofrecer un lugar donde pueda sentirse escuchado, valorado y capaz de crecer."
+      },
+      "virtue": "Acogida",
+      "reflection": "¿Las personas jóvenes que conozco encuentran en mí alguien que escucha antes de juzgar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por niños y jóvenes que se sienten solos, excluidos o sin oportunidades de educación y crecimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, intercede por los jóvenes que necesitan una persona que crea en ellos. Enséñanos a acompañar sin humillar y a corregir sin destruir la esperanza. Amén."
+      },
+      "action": "Escucha hoy a un joven o a una persona que necesite hablar, procurando no interrumpir ni juzgar."
+    },
+    {
+      "day": 5,
+      "theme": "El Sistema Preventivo",
+      "title": "Educar desde la razón, la religión y la amabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La experiencia educativa de Don Bosco dio origen al llamado Sistema Preventivo. Su propuesta puso énfasis en la presencia cercana del educador, la razón, la religión y la amabilidad, buscando prevenir las faltas mediante acompañamiento y formación en lugar de limitarse al castigo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La prevención puede ser más formativa que esperar al error para castigar. La presencia, los límites claros, el diálogo y la confianza ayudan a una persona a aprender a decidir responsablemente."
+      },
+      "virtue": "Amabilidad",
+      "reflection": "¿Cómo reacciono cuando alguien comete un error: intento comprender y educar o solamente castigo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por educadores, docentes, padres, madres y todas las personas responsables de acompañar a niños y jóvenes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, enséñanos a educar con firmeza y amabilidad. Danos sabiduría para corregir sin perder el respeto y para acompañar antes de que aparezcan dificultades mayores. Amén."
+      },
+      "action": "Cuando alguien cometa hoy un error, intenta primero comprender qué ocurrió y orienta hacia una solución concreta."
+    },
+    {
+      "day": 6,
+      "theme": "Educación y trabajo",
+      "title": "Preparar para una vida digna",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Don Bosco comprendió que muchos jóvenes necesitaban no solamente educación religiosa, sino también aprender un oficio. En sus obras creó talleres y espacios de formación que buscaban preparar a los muchachos para el trabajo y una vida digna."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La educación integral une conocimientos, valores y capacidades prácticas. Aprender algo útil para la vida también puede ser una forma de recuperar dignidad y oportunidades."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué conocimiento u oficio necesito fortalecer para asumir mejor mis responsabilidades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, aprendices y jóvenes que buscan oportunidades de formación y trabajo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, acompaña a quienes estudian y aprenden un oficio. Abre caminos para quienes necesitan oportunidades y ayúdanos a valorar el trabajo digno. Amén."
+      },
+      "action": "Dedica hoy tiempo a aprender o practicar una habilidad que pueda ser útil para tu futuro."
+    },
+    {
+      "day": 7,
+      "theme": "La esperanza",
+      "title": "No abandonar a quien está empezando",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La obra de Don Bosco creció alrededor de jóvenes que necesitaban oportunidades, acompañamiento y esperanza. Su propuesta buscaba formar buenos cristianos y ciudadanos responsables, convencido de que una educación cercana podía transformar una vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acompañar significa no reducir a una persona a sus errores presentes. La esperanza permite mirar también las capacidades que todavía pueden desarrollarse."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién estoy juzgando solamente por su situación actual sin reconocer lo que puede llegar a ser?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que han cometido errores, están en situaciones difíciles o necesitan una nueva oportunidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, enséñanos a mirar a cada joven con esperanza. Que sepamos reconocer posibilidades donde otros solamente ven problemas. Amén."
+      },
+      "action": "Anima hoy sinceramente a una persona que esté luchando por mejorar en algún aspecto de su vida."
+    },
+    {
+      "day": 8,
+      "theme": "María Auxiliadora",
+      "title": "Confiar y trabajar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción a María Auxiliadora ocupó un lugar central en la espiritualidad y en las obras de Don Bosco. La construcción de la Basílica de María Auxiliadora en Turín se convirtió en uno de los signos más visibles de esta confianza y de su misión salesiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La confianza en Dios no sustituye el esfuerzo. En Don Bosco, la oración aparece unida al trabajo, la organización y la responsabilidad por quienes estaban bajo su cuidado."
+      },
+      "virtue": "Confianza en Dios",
+      "reflection": "¿En qué situación necesito confiar más en Dios sin dejar de hacer responsablemente lo que me corresponde?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias y comunidades que necesitan esperanza, protección y fortaleza para seguir adelante."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, enséñanos a confiar en Dios y a trabajar con responsabilidad. María Auxiliadora, acompaña nuestras familias y protege especialmente a quienes más necesitan ayuda. Amén."
+      },
+      "action": "Presenta a Dios una preocupación concreta y escribe también qué acción responsable puedes realizar hoy."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Padre y maestro de la juventud",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Don Bosco murió en Turín el 31 de enero de 1888. Para entonces había dejado una obra educativa y apostólica que continuaría mediante la Sociedad de San Francisco de Sales y las Hijas de María Auxiliadora. Fue canonizado por Pío XI en 1934."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vida dedicada al servicio puede continuar dando fruto después de la muerte. El legado de Don Bosco invita a educar, acompañar y abrir oportunidades para que los jóvenes desarrollen sus capacidades y su fe."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso concreto quiero mantener después de esta novena para acompañar, educar o servir mejor a otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los jóvenes, educadores, familias y personas que han sido presentados durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bosco, padre y maestro de la juventud, intercede por nosotros. Ayúdanos a vivir con alegría, educar con amabilidad, trabajar con responsabilidad y confiar en Dios. Que sepamos acompañar a quienes necesitan esperanza y abrir caminos de crecimiento para los jóvenes. María Auxiliadora, ruega por nosotros. Amén."
+      },
+      "action": "Elige una acción concreta de acompañamiento, educación o servicio que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
