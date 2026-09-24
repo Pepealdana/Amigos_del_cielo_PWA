@@ -4344,5 +4344,152 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santos-arcangeles",
+    "slug": "santos-arcangeles",
+    "name": "Santos Arcángeles Miguel, Gabriel y Rafael",
+    "title": "Novena a los Santos Arcángeles Miguel, Gabriel y Rafael",
+    "subtitle": "Servir a Dios, anunciar su salvación y caminar bajo su protección",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/santos_arcangeles_miguel_gabriel_rafael.webp",
+    "file": "data/santos-arcangeles.json",
+    "description": "Nueve días para contemplar la misión de los santos arcángeles Miguel, Gabriel y Rafael en la historia de la salvación y pedir la gracia de vivir con fe, fortaleza, escucha, servicio, esperanza y caridad.",
+    "feast": {
+      "day": 29,
+      "month": 9,
+      "text": "29 de septiembre",
+      "liturgicalRank": "Fiesta",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san miguel",
+      "san gabriel",
+      "san rafael",
+      "arcangeles",
+      "arcángeles",
+      "miguel arcangel",
+      "gabriel arcangel",
+      "rafael arcangel",
+      "proteccion",
+      "protección",
+      "defensa",
+      "anuncio",
+      "salud",
+      "viajes",
+      "discernimiento",
+      "familia"
+    ],
+    "interventions": [
+      {
+        "id": "proteccion",
+        "label": "Protección y fortaleza espiritual",
+        "keywords": [
+          "proteccion",
+          "protección",
+          "peligro",
+          "tentacion",
+          "tentación",
+          "miedo",
+          "fortaleza",
+          "defensa"
+        ]
+      },
+      {
+        "id": "discernimiento",
+        "label": "Discernimiento y decisiones",
+        "keywords": [
+          "discernimiento",
+          "decisiones",
+          "camino",
+          "guia",
+          "guía",
+          "vocacion",
+          "vocación",
+          "duda"
+        ]
+      },
+      {
+        "id": "anuncio",
+        "label": "Anuncio y evangelización",
+        "keywords": [
+          "anuncio",
+          "evangelizacion",
+          "evangelización",
+          "mision",
+          "misión",
+          "predicacion",
+          "predicación",
+          "comunicacion",
+          "comunicación"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y sanación",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "salud",
+          "sanacion",
+          "sanación",
+          "hospital",
+          "dolor"
+        ]
+      },
+      {
+        "id": "viajes",
+        "label": "Viajes y caminos",
+        "keywords": [
+          "viaje",
+          "viajes",
+          "camino",
+          "viajeros",
+          "desplazamiento",
+          "migrantes",
+          "migrantes"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y acompañamiento",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "acompañamiento",
+          "acompanamiento"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en las dificultades",
+        "keywords": [
+          "esperanza",
+          "angustia",
+          "incertidumbre",
+          "sufrimiento",
+          "crisis",
+          "consuelo"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "oración",
+          "fe",
+          "misa",
+          "eucaristia",
+          "eucaristía",
+          "adoracion",
+          "adoración"
+        ]
+      }
+    ]
   }
 ]
