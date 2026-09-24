@@ -28,6 +28,8 @@ async function iniciarApp() {
 
         inicializarStorage();
 
+        aplicarPreferenciasVisuales();
+
         solicitarPersistenciaStorage();
 
         await cargarCatalogo();
@@ -817,6 +819,11 @@ function manejarClicksPWA(evento) {
             desactivarRecordatorioDesdeUI();
             return;
         }
+
+        if (tipo === "text-size" && accion.dataset.size) {
+            cambiarTamanoTexto(accion.dataset.size);
+            return;
+        }
     }
 
     const ruta = evento.target.closest("[data-route]");
@@ -1266,3 +1273,45 @@ window.addEventListener("message", evento => {
         );
     }
 });
+
+
+/* ==========================================
+   APARIENCIA Y TAMAÑO DEL TEXTO
+========================================== */
+
+function obtenerEscalaTexto(tamano) {
+    const escalas = {
+        pequeno: "0.92",
+        normal: "1",
+        grande: "1.10"
+    };
+
+    return escalas[tamano] || escalas.normal;
+}
+
+function aplicarPreferenciasVisuales() {
+    const tamano =
+        state.configuracion?.tamanoTexto || "normal";
+
+    document.documentElement.style.setProperty(
+        "--text-scale",
+        obtenerEscalaTexto(tamano)
+    );
+
+    document.documentElement.dataset.textSize = tamano;
+}
+
+function cambiarTamanoTexto(tamano) {
+    if (!["pequeno", "normal", "grande"].includes(tamano)) {
+        return;
+    }
+
+    state.configuracion = {
+        ...state.configuracion,
+        tamanoTexto: tamano
+    };
+
+    guardarConfiguracion();
+    aplicarPreferenciasVisuales();
+    mostrarConfiguracion();
+}
