@@ -16,80 +16,80 @@ function renderPortadaNovena(novena) {
 
     if (estado?.estado === "en-curso") {
         mensajeCalendario =
-            \`Novena en curso · Día \${estado.dia} de \${total}\`;
+            `Novena en curso · Día ${estado.dia} de ${total}`;
     } else if (estado?.estado === "proxima") {
         mensajeCalendario =
-            \`Próximo inicio · \${formatearFechaLiturgica({
+            `Próximo inicio · ${formatearFechaLiturgica({
                 day: estado.inicio.getDate(),
                 month: estado.inicio.getMonth() + 1
-            })}\`;
+            })}`;
     }
 
-    return \`
+    return `
 
         <section class="novena-page">
 
-            \${crearImagen(
+            ${crearImagen(
                 novena.image,
                 novena.name
             )}
 
-            \${crearTitulo(
+            ${crearTitulo(
                 escaparHTML(novena.name)
             )}
 
             <p class="saint-subtitle">
-                \${escaparHTML(novena.subtitle || "")}
+                ${escaparHTML(novena.subtitle || "")}
             </p>
 
             <p class="saint-title">
-                \${escaparHTML(novena.title || "")}
+                ${escaparHTML(novena.title || "")}
             </p>
 
             <p class="saint-feast">
-                📅 \${escaparHTML(
+                📅 ${escaparHTML(
                     formatearFechaLiturgica(novena.feast)
                 )}
             </p>
 
-            \${mensajeCalendario ? \`
+            ${mensajeCalendario ? `
                 <p class="calendar-status">
-                    \${escaparHTML(mensajeCalendario)}
+                    ${escaparHTML(mensajeCalendario)}
                 </p>
-            \` : ""}
+            ` : ""}
 
             <p class="saint-description">
-                \${escaparHTML(novena.description || "")}
+                ${escaparHTML(novena.description || "")}
             </p>
 
-            \${novena.quote?.text ? \`
+            ${novena.quote?.text ? `
 
-                \${crearDivider()}
+                ${crearDivider()}
 
                 <blockquote class="saint-quote">
 
                     <p>
-                        "\${escaparHTML(novena.quote.text)}"
+                        "${escaparHTML(novena.quote.text)}"
                     </p>
 
                     <footer>
-                        \${escaparHTML(
+                        ${escaparHTML(
                             novena.quote.reference || ""
                         )}
                     </footer>
 
                 </blockquote>
 
-            \` : ""}
+            ` : ""}
 
-            \${Array.isArray(novena.patronages)
+            ${Array.isArray(novena.patronages)
                 ? renderListaSeccion(
                     "Patronazgos",
                     novena.patronages.map(escaparHTML)
                 )
                 : ""}
 
-            \${Array.isArray(novena.virtues)
+            ${Array.isArray(novena.virtues)
                 ? renderListaSeccion(
                     "Virtudes",
                     novena.virtues.map(escaparHTML)
@@ -102,22 +102,22 @@ function renderPortadaNovena(novena) {
                     class="btn btn-secondary"
                     type="button"
                     data-action="favorite-novena"
-                    data-id="\${escaparHTML(novena.id)}">
+                    data-id="${escaparHTML(novena.id)}">
 
-                    \${esFavorita(novena.id)
+                    ${esFavorita(novena.id)
                         ? "Quitar de favoritas"
                         : "Agregar a favoritas"}
 
                 </button>
 
-                \${crearBotonSecundario(
+                ${crearBotonSecundario(
                     "Historia",
                     "mostrarHistoria()"
                 )}
 
-                \${crearBotonPrimario(
+                ${crearBotonPrimario(
                     estado?.estado === "en-curso"
-                        ? \`Continuar · Día \${estado.dia}\`
+                        ? `Continuar · Día ${estado.dia}`
                         : "Comenzar Novena",
                     "iniciarNovena()"
                 )}
@@ -126,5 +126,5 @@ function renderPortadaNovena(novena) {
 
         </section>
 
-    \`;
+    `;
 }
