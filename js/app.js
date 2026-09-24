@@ -564,7 +564,7 @@ function mostrarDia(numeroDia) {
 
             state.novenaActual,
 
-            dia
+            numeroDia
 
         )
 
