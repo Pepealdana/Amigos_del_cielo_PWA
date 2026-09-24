@@ -146,7 +146,10 @@ self.addEventListener("notificationclick", event => {
                 return cliente.focus();
             }
 
-            return self.clients.openWindow("./");
+            return self.clients.openWindow(
+                "./?novena=" +
+                encodeURIComponent(novenaId)
+            );
         })
     );
 });
