@@ -69,6 +69,26 @@ function renderAcerca() {
 
             <div class="divider"></div>
 
+            <h3>
+                Participa
+            </h3>
+
+            <p>
+                ¿Tienes una sugerencia para mejorar la aplicación
+                o te gustaría proponer un santo para una futura novena?
+                Puedes enviarnos tu propuesta desde la sección
+                <strong>Participa</strong>.
+            </p>
+
+            <button
+                class="btn btn-primary"
+                type="button"
+                data-route="participa">
+                Participa o sugiere un santo
+            </button>
+
+            <div class="divider"></div>
+
             <p class="version">
 
                 Versión
