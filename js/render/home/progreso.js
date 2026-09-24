@@ -22,7 +22,7 @@ function renderProgreso(catalogo = [], progreso = {}) {
                 return fechaB - fechaA;
             });
 
-    return \`
+    return `
 
         <section class="page-shell">
 
@@ -38,7 +38,7 @@ function renderProgreso(catalogo = [], progreso = {}) {
 
             </header>
 
-            \${entradas.length === 0 ? \`
+            ${entradas.length === 0 ? `
 
                 <div class="simple-panel">
 
@@ -52,11 +52,11 @@ function renderProgreso(catalogo = [], progreso = {}) {
 
                 </div>
 
-            \` : \`
+            ` : `
 
                 <div class="library-list">
 
-                    \${entradas.map(item => {
+                    ${entradas.map(item => {
 
                         const dia =
                             Number(item.datos?.dia) || 1;
@@ -81,12 +81,12 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 )
                             );
 
-                        return \`
+                        return `
 
                             <article class="continue-card">
 
                                 <img
-                                    src="\${escaparHTML(item.novena.image)}"
+                                    src="${escaparHTML(item.novena.image)}"
                                     alt=""
                                     class="continue-image"
                                     loading="lazy">
@@ -94,19 +94,19 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 <div class="continue-content">
 
                                     <h3>
-                                        \${escaparHTML(item.novena.name)}
+                                        ${escaparHTML(item.novena.name)}
                                     </h3>
 
                                     <p>
-                                        Día \${dia} de \${total}
+                                        Día ${dia} de ${total}
                                     </p>
 
                                     <div class="progress-track"
-                                         aria-label="\${porcentaje}% completado">
+                                         aria-label="${porcentaje}% completado">
 
                                         <div
                                             class="progress-fill"
-                                            style="width:\${porcentaje}%">
+                                            style="width:${porcentaje}%">
                                         </div>
 
                                     </div>
@@ -117,21 +117,21 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                     class="btn btn-primary continue-action"
                                     type="button"
                                     data-action="continue-novena"
-                                    data-id="\${escaparHTML(item.novena.id)}">
+                                    data-id="${escaparHTML(item.novena.id)}">
                                     Continuar
                                 </button>
 
                             </article>
 
-                        \`;
+                        `;
 
                     }).join("")}
 
                 </div>
 
-            \`}
+            `}
 
         </section>
 
-    \`;
+    `;
 }
