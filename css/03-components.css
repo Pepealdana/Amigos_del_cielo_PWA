@@ -707,6 +707,151 @@
 }
 
 /* ==========================================================
+   HISTORIA EXTENDIDA DESPLEGABLE
+========================================================== */
+
+.history-extended{
+
+    max-width:760px;
+
+    margin:
+        1.5rem auto
+        2rem;
+
+    border:
+        1px solid
+        var(--color-border);
+
+    border-radius:
+        var(--radius-sm);
+
+    background:
+        var(--color-surface);
+
+    overflow:hidden;
+
+}
+
+.history-extended-toggle{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:1rem;
+
+    width:100%;
+
+    min-height:52px;
+
+    padding:
+        .85rem
+        1rem;
+
+    border:none;
+
+    background:
+        rgba(44,74,107,.05);
+
+    color:
+        var(--color-primary);
+
+    font:
+        inherit;
+
+    font-weight:700;
+
+    text-align:left;
+
+    cursor:pointer;
+
+    transition:
+        background .25s,
+        color .25s;
+
+}
+
+.history-extended-toggle:hover{
+
+    background:
+        rgba(44,74,107,.09);
+
+}
+
+.history-extended-toggle:focus-visible{
+
+    outline:
+        2px solid
+        var(--color-secondary);
+
+    outline-offset:
+        -2px;
+
+}
+
+.history-extended-toggle.is-open{
+
+    background:
+        rgba(217,182,107,.12);
+
+}
+
+.history-extended-icon{
+
+    flex:
+        0 0 auto;
+
+    font-size:
+        1.15rem;
+
+    line-height:1;
+
+    transition:
+        transform .25s ease;
+
+}
+
+.history-extended-toggle.is-open
+.history-extended-icon{
+
+    transform:
+        translateY(1px);
+
+}
+
+.history-extended-content{
+
+    padding:
+        0 1rem
+        1rem;
+
+    border-top:
+        1px solid
+        var(--color-border);
+
+    animation:
+        fadeIn .25s ease;
+
+}
+
+.history-extended-content[hidden]{
+
+    display:none;
+
+}
+
+.history-extended-content .history{
+
+    margin-top:
+        1rem;
+
+    margin-bottom:0;
+
+}
+
+/* ==========================================================
    ORACIONES
 ========================================================== */
 
