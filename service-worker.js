@@ -143,6 +143,11 @@ self.addEventListener("notificationclick", event => {
             const cliente = clients[0];
 
             if (cliente) {
+                cliente.postMessage({
+                    type: "open-novena",
+                    novenaId
+                });
+
                 return cliente.focus();
             }
 
