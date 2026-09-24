@@ -747,6 +747,133 @@
     ]
   },
   {
+    "id": "san-juan-bautista",
+    "slug": "san-juan-bautista",
+    "name": "San Juan Bautista",
+    "title": "Precursor de Jesucristo y profeta del Altísimo",
+    "subtitle": "La voz que prepara el camino del Señor",
+    "category": "Santos",
+    "image": "assets/images/santos/san_juan_bautista.webp",
+    "file": "data/san-juan-bautista.json",
+    "description": "Profeta y precursor de Jesús que llamó a la conversión, bautizó en el Jordán y señaló a Cristo como el Cordero de Dios.",
+    "feast": {
+      "day": 24,
+      "month": 6,
+      "text": "24 de junio",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san juan bautista",
+      "juan el bautista",
+      "juan bautista",
+      "precursor",
+      "profeta",
+      "bautismo",
+      "conversion",
+      "jordán",
+      "desierto",
+      "cordero de dios",
+      "herodes",
+      "martirio",
+      "adviento"
+    ],
+    "interventions": [
+      {
+        "id": "conversion",
+        "label": "Conversión y cambio de vida",
+        "keywords": [
+          "conversion",
+          "convertirse",
+          "arrepentimiento",
+          "pecado",
+          "cambio de vida",
+          "volver a dios"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y propósito",
+        "keywords": [
+          "vocacion",
+          "llamado",
+          "proposito",
+          "mision",
+          "camino",
+          "discernimiento"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oracion",
+          "desierto",
+          "silencio",
+          "vida interior",
+          "escuchar a dios"
+        ]
+      },
+      {
+        "id": "valentia",
+        "label": "Valentía para decir la verdad",
+        "keywords": [
+          "valentia",
+          "verdad",
+          "denunciar",
+          "coraje",
+          "fidelidad",
+          "testimonio"
+        ]
+      },
+      {
+        "id": "bautismo",
+        "label": "Bautismo y vida cristiana",
+        "keywords": [
+          "bautismo",
+          "bautizar",
+          "jordán",
+          "vida cristiana",
+          "fe"
+        ]
+      },
+      {
+        "id": "humildad",
+        "label": "Humildad y servicio",
+        "keywords": [
+          "humildad",
+          "servicio",
+          "disminuir",
+          "protagonismo",
+          "cristo"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y reconciliación",
+        "keywords": [
+          "familia",
+          "padres",
+          "hijos",
+          "reconciliacion",
+          "corazones"
+        ]
+      },
+      {
+        "id": "persecucion",
+        "label": "Pruebas y perseverancia",
+        "keywords": [
+          "persecucion",
+          "prueba",
+          "sufrimiento",
+          "martirio",
+          "dificultad",
+          "perseverancia"
+        ]
+      }
+    ]
+  },
+  {
     "id": "san-juan-bosco",
     "slug": "san-juan-bosco",
     "name": "San Juan Bosco",
