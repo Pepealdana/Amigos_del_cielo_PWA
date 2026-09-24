@@ -1,0 +1,459 @@
+{
+  "id": "san-camilo-de-lelis",
+  "slug": "san-camilo-de-lelis",
+  "name": "San Camilo de Lelis",
+  "title": "Presbítero y fundador de los Ministros de los Enfermos",
+  "subtitle": "Servidor de los enfermos y patrono de los hospitales",
+  "category": "Santos",
+  "image": "assets/images/santos/san_camilo_de_lelis.webp",
+  "description": "Santo italiano que convirtió una vida marcada por las disipaciones en una vocación de servicio misericordioso a los enfermos, especialmente a los más necesitados.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-camilo-de-lelis"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 14,
+    "month": 7,
+    "text": "14 de julio",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Servir a los enfermos es servir a Cristo.",
+    "reference": "Tradición espiritual camiliana; formulación difundida por la Orden de los Ministros de los Enfermos"
+  },
+  "patronages": [
+    "Enfermos",
+    "Hospitales",
+    "Personal sanitario",
+    "Sanidad militar italiana"
+  ],
+  "virtues": [
+    "Conversión",
+    "Misericordia",
+    "Caridad",
+    "Compasión",
+    "Servicio",
+    "Humildad",
+    "Perseverancia",
+    "Fe",
+    "Esperanza"
+  ],
+  "search": [
+    "san camilo",
+    "san camilo de lelis",
+    "camilo de lelis",
+    "camilos",
+    "enfermos",
+    "hospitales",
+    "enfermeros",
+    "personal sanitario",
+    "misericordia",
+    "conversion",
+    "caridad",
+    "crucifijo"
+  ],
+  "interventions": [
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "curacion"
+      ]
+    },
+    {
+      "id": "cuidadores",
+      "label": "Cuidadores y personal sanitario",
+      "keywords": [
+        "cuidadores",
+        "enfermeros",
+        "enfermeras",
+        "medicos",
+        "sanitarios",
+        "salud",
+        "hospital"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y cambio de vida",
+      "keywords": [
+        "conversion",
+        "cambio de vida",
+        "pecado",
+        "arrepentimiento",
+        "recomenzar"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y misericordia",
+      "keywords": [
+        "caridad",
+        "misericordia",
+        "compasion",
+        "ayudar",
+        "servicio",
+        "amor"
+      ]
+    },
+    {
+      "id": "acompanamiento",
+      "label": "Acompañamiento en el sufrimiento",
+      "keywords": [
+        "acompañamiento",
+        "soledad",
+        "consuelo",
+        "escucha",
+        "presencia"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y servicio",
+      "keywords": [
+        "vocacion",
+        "llamado",
+        "mision",
+        "servicio",
+        "religioso"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familias que cuidan a un enfermo",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "cuidar",
+        "cuidados"
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "label": "Fortaleza ante la enfermedad",
+      "keywords": [
+        "fortaleza",
+        "esperanza",
+        "paciencia",
+        "prueba",
+        "dolor"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Camilo de Lelis nació en Bucchianico en 1550. En su juventud fue soldado y llevó durante un tiempo una vida marcada por el juego y las disipaciones. En 1575 experimentó una conversión profunda y comenzó un camino de servicio. Una antigua herida en un pie lo llevó al hospital San Giacomo de Roma, donde descubrió su vocación de atender a los enfermos. Fundó los Ministros de los Enfermos y murió en Roma en 1614. Fue canonizado por Benedicto XIV en 1746.",
+    "extended": "Camilo de Lelis nació el 25 de mayo de 1550 en Bucchianico, en los Abruzos. Durante su juventud siguió la carrera militar y, según las fuentes biográficas conservadas por la tradición camiliana, llevó durante años una vida desordenada marcada por el juego. En 1575, durante una peregrinación hacia Roma, experimentó una conversión decisiva que cambió la dirección de su vida. No se trató simplemente de abandonar un comportamiento: comenzó a buscar de manera concreta cómo entregar su vida a Dios y al servicio de los demás.\n\nUna antigua herida en un pie, que ya había sufrido durante su vida militar, lo condujo al hospital San Giacomo de Roma. Allí trabajó como sirviente y enfermero, pero inicialmente fue despedido por dificultades relacionadas con su carácter. Más tarde regresó al hospital y esta experiencia terminó siendo fundamental. San Juan Pablo II señaló que pasó en el San Giacomo períodos de su vida como enfermo, sirviente, enfermero y maestro de casa, y que de esa experiencia surgieron orientaciones que después incorporó a la regla de su congregación.\n\nEn 1584 Camilo redactó disposiciones para el servicio de los pobres enfermos, insistiendo en unir competencia y cuidado humano. Comprendió que atender a un enfermo exigía no solamente conocimientos y acciones prácticas, sino también cercanía, respeto y una actitud misericordiosa. En 1586 la comunidad recibió aprobación pontificia y en 1591 nació formalmente la Congregación de los Ministros de los Enfermos.\n\nLa experiencia de conversión fue, por tanto, una transformación claramente documentada en su biografía. Las fuentes vaticanas hablan de su conversión en 1575 y de su deseo posterior de servir a Cristo en los enfermos. No es necesario añadir una historia de pecado diferente de la que las fuentes ya describen: su juventud marcada por el juego y las disipaciones, seguida por la conversión y el servicio, permite comprender suficientemente el cambio de rumbo de su vida.\n\nLa espiritualidad de Camilo estuvo profundamente relacionada con el Crucifijo. La tradición camiliana conserva el recuerdo del crucifijo de San Giacomo como un signo importante en su camino de oración y servicio. Por eso suele representarse con hábito religioso y una gran cruz roja sobre el pecho. San Juan Pablo II explicó que esa cruz cosida al hábito de los camilos recuerda que Cristo es el médico divino y el verdadero salvador de la humanidad. También aparece atendiendo a un enfermo, imagen directamente relacionada con su misión.\n\nCamilo murió en Roma el 14 de julio de 1614 y fue canonizado por Benedicto XIV en 1746. León XIII lo proclamó patrono de los enfermos y de los hospitales en 1886; Pío XI lo declaró patrono del personal sanitario en 1930 y Pablo VI patrono de la sanidad militar italiana en 1974. Su memoria litúrgica se celebra el 14 de julio. Su legado se encuentra especialmente unido a la misericordia concreta, la atención integral del enfermo y la dignidad de quien sufre."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nSan Camilo de Lelis, servidor de los enfermos, acompáñame durante estos nueve días. Enséñame a mirar a quien sufre con misericordia, a servir con paciencia y a descubrir en cada persona enferma una dignidad que merece cuidado y respeto. Presento ante Dios la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Camilo de Lelis, patrono de los enfermos y de quienes los cuidan, intercede por nosotros. Ayúdanos a acompañar el sufrimiento con misericordia, paciencia y esperanza. Bendice a los enfermos, a sus familias y al personal sanitario, y enséñanos a servir con un corazón compasivo. Amén.",
+  "intentions": [
+    "Por los enfermos que atraviesan dolor físico o espiritual.",
+    "Por médicos, enfermeros, cuidadores y demás personal sanitario.",
+    "Por familias que acompañan a un ser querido durante una enfermedad.",
+    "Por quienes se sienten solos durante una hospitalización o tratamiento.",
+    "Por quienes necesitan transformar su vida y comenzar de nuevo.",
+    "Por hospitales y centros de salud que atienden a personas vulnerables.",
+    "Por quienes trabajan en situaciones de emergencia y riesgo.",
+    "Por quienes viven enfermedades prolongadas y necesitan fortaleza.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 10,25-37"
+      },
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Mateo 11,28-30"
+      },
+      {
+        "reference": "1 Corintios 13,1-7"
+      }
+    ],
+    "documents": [
+      "Disposiciones y modos que se deben seguir en los hospitales para servir a los pobres enfermos (1584)"
+    ],
+    "related": [
+      "Ministros de los Enfermos",
+      "San Juan de Dios"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Ángelus del 14 de julio de 2002",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/2002/documents/hf_jp-ii_ang_20020714.html",
+      "type": "official"
+    },
+    {
+      "title": "Mensaje a los Clérigos Regulares Ministros de los Enfermos — 15 de mayo de 2000",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/2000/apr-jun/documents/hf_jp-ii_spe_20000515_camilliani.html",
+      "type": "official"
+    },
+    {
+      "title": "Visita al hospital San Giacomo de Roma — 21 de diciembre de 1980",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1980/december/documents/hf_jp-ii_spe_19801221_ospedale-sangiacomo.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 14 de julio de 2013",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/angelus/2013/documents/papa-francesco_angelus_20130714.html",
+      "type": "official"
+    },
+    {
+      "title": "Camilianos, ministros de los enfermos",
+      "organization": "Ministros de los Enfermos",
+      "url": "https://www.camilliani.org/es/",
+      "type": "official"
+    },
+    {
+      "title": "Una presencia maternal: Nuestra Señora y San Camilo",
+      "organization": "Ministros de los Enfermos",
+      "url": "https://www.camilliani.org/es/una-presenza-materna-la-madonna-e-san-camillo/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una vida que necesitaba un nuevo rumbo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Camilo nació en 1550 y durante su juventud siguió la carrera militar. Las fuentes biográficas describen también un período marcado por el juego y las disipaciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Un cambio de vida puede comenzar cuando reconocemos con honestidad aquello que necesitamos transformar."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué aspecto de mi vida necesita hoy un cambio de dirección?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean superar hábitos que les hacen daño."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Camilo, acompaña a quienes desean comenzar de nuevo. Enséñanos a reconocer nuestros errores y a buscar caminos concretos de cambio. Amén."
+      },
+      "action": "Identifica un hábito que quieras mejorar y define un primer paso realista para comenzar."
+    },
+    {
+      "day": 2,
+      "theme": "La conversión",
+      "title": "Cuando una decisión cambia la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1575 Camilo vivió una conversión decisiva. A partir de entonces comenzó a buscar una forma de vida dedicada a Dios y al servicio de los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión no borra el pasado, pero puede abrir una dirección nueva."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Creo que es posible cambiar, incluso después de haber cometido errores?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan una nueva oportunidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, por intercesión de San Camilo, danos esperanza para cambiar y valentía para comenzar de nuevo. Amén."
+      },
+      "action": "Pide perdón por una acción concreta si es necesario y realiza hoy un paso que repare el daño posible."
+    },
+    {
+      "day": 3,
+      "theme": "El hospital",
+      "title": "Una herida que se convirtió en experiencia de servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su antigua herida en el pie lo llevó al hospital San Giacomo. Allí conoció de cerca la enfermedad y aprendió desde dentro lo que significaba ser enfermo, sirviente y enfermero."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acercarnos al sufrimiento permite comprender necesidades que desde lejos no vemos."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Cómo cambia mi manera de mirar el sufrimiento cuando me acerco realmente a quien lo vive?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos y por quienes se sienten solos durante una enfermedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Camilo, enséñanos a acercarnos al sufrimiento sin miedo y con respeto. Amén."
+      },
+      "action": "Pregunta a una persona enferma o que esté pasando una dificultad qué ayuda concreta necesita, sin asumir por ella."
+    },
+    {
+      "day": 4,
+      "theme": "La misericordia",
+      "title": "Cuidar a la persona, no solo la enfermedad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Camilo comprendió que atender a un enfermo requería competencia y también humanidad. Su propuesta para los hospitales buscaba unir el cuidado corporal con una actitud misericordiosa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar bien requiere escucha, paciencia y respeto por la persona."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Escucho realmente a las personas cuando necesitan ayuda o intento resolverlo todo rápidamente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por cuidadores, médicos, enfermeros y familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Camilo, danos un corazón misericordioso para escuchar, comprender y cuidar con respeto. Amén."
+      },
+      "action": "Dedica hoy unos minutos a escuchar a alguien que necesite ser atendido, sin interrumpirlo."
+    },
+    {
+      "day": 5,
+      "theme": "Servir con competencia",
+      "title": "La caridad también exige responsabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Camilo promovió normas concretas para el servicio hospitalario y buscó que la atención uniera conocimientos prácticos con humanidad. La caridad no excluye la preparación: la necesita."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad responsable también requiere preparación y competencia."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué conocimiento o habilidad necesito mejorar para servir mejor a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por profesionales y estudiantes del área de la salud."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ayúdanos a unir competencia y humanidad cuando nuestras responsabilidades afectan la vida de otros. Amén."
+      },
+      "action": "Aprende hoy algo concreto que pueda mejorar la manera en que ayudas a otra persona."
+    },
+    {
+      "day": 6,
+      "theme": "El enfermo como hermano",
+      "title": "Descubrir a Cristo en quien sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Camilo veía el servicio al enfermo como un encuentro con Cristo. Su misión puso en el centro a personas vulnerables, especialmente a quienes sufrían en los hospitales."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La persona que sufre conserva su dignidad y merece un cuidado atento."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién me cuesta mirar con paciencia o compasión?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, personas mayores, personas con discapacidad y quienes sufren abandono."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Camilo, enséñanos a reconocer la dignidad de quien sufre y a tratarlo con respeto y ternura. Amén."
+      },
+      "action": "Realiza una acción concreta de cuidado por una persona vulnerable."
+    },
+    {
+      "day": 7,
+      "theme": "La cruz",
+      "title": "Una vida sostenida por Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La cruz roja que llevan los camilos recuerda el lugar central de Cristo en su servicio. El Crucifijo de San Giacomo ocupó un lugar importante en la espiritualidad de Camilo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede sostenernos cuando existen situaciones que no podemos controlar."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué hago cuando una situación de sufrimiento supera lo que puedo solucionar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven enfermedades graves o prolongadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Camilo, acompaña a quienes sufren y ayúdanos a sostener la esperanza cuando no tenemos respuestas fáciles. Amén."
+      },
+      "action": "Acompaña hoy a alguien que sufre sin intentar darle una explicación para todo."
+    },
+    {
+      "day": 8,
+      "theme": "La perseverancia",
+      "title": "Servir incluso cuando cuesta",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Camilo perseveró durante años en el servicio a los enfermos y fundó una comunidad dedicada a esta misión. Su obra continuó después de su muerte y se extendió por medio de la familia camiliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia es especialmente importante cuando el cuidado se prolonga en el tiempo."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso de cuidado necesito sostener aunque me resulte difícil?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes cuidan durante largos períodos a un familiar enfermo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Camilo, fortalece a quienes sirven durante mucho tiempo y dales descanso, paciencia y esperanza. Amén."
+      },
+      "action": "Ayuda hoy a un cuidador con una tarea concreta para aliviar parte de su carga."
+    },
+    {
+      "day": 9,
+      "theme": "Una misión que continúa",
+      "title": "Servir a Cristo en quien sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Camilo murió en Roma en 1614. La Iglesia lo reconoció como patrono de los enfermos, hospitales y personal sanitario. Su legado continúa en quienes entienden el cuidado como una forma concreta de misericordia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vida de servicio puede continuar a través de otras personas y comunidades."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué puedo hacer para que mi manera de cuidar a otros sea más humana y constante?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los enfermos, sus familias y quienes trabajan por su cuidado."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Camilo, ayúdanos a servir con un corazón compasivo. Que nunca pasemos de largo ante quien sufre y que sepamos acompañarlo con respeto, esperanza y amor. Amén."
+      },
+      "action": "Elige una práctica concreta de cuidado o servicio que puedas mantener durante las próximas semanas."
+    }
+  ]
+}
