@@ -78,18 +78,21 @@ function renderAgradecimiento(novena) {
             <div class="button-group">
 
                 <button
-                    class="btn-primary"
-                    id="btn-volver-inicio">
+                    class="btn btn-primary"
+                    type="button"
+                    data-action="restart-novena"
+                    data-id="${escaparHTML(novena.id)}">
 
-                    Ir al inicio
+                    Volver a rezar
 
                 </button>
 
                 <button
-                    class="btn-secondary"
-                    id="btn-biblioteca">
+                    class="btn btn-secondary"
+                    type="button"
+                    data-route="inicio">
 
-                    Explorar novenas
+                    Ir al inicio
 
                 </button>
 
