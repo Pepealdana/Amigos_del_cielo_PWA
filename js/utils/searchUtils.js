@@ -11,6 +11,58 @@ function normalizarTextoBusqueda(texto) {
         .trim();
 }
 
+function obtenerIntervencionesNovena(novena) {
+    if (!novena) {
+        return [];
+    }
+
+    const intervenciones = Array.isArray(novena.interventions)
+        ? novena.interventions
+        : [];
+
+    return intervenciones
+        .map(intervencion => {
+            if (typeof intervencion === "string") {
+                return {
+                    id: normalizarTextoBusqueda(intervencion),
+                    label: intervencion,
+                    keywords: []
+                };
+            }
+
+            return {
+                id: intervencion?.id || "",
+                label: intervencion?.label || "",
+                keywords: Array.isArray(intervencion?.keywords)
+                    ? intervencion.keywords
+                    : []
+            };
+        })
+        .filter(intervencion => intervencion.label);
+}
+
+function obtenerCoincidenciasIntervencion(novena, texto) {
+    const termino = normalizarTextoBusqueda(texto);
+
+    if (!termino) {
+        return [];
+    }
+
+    return obtenerIntervencionesNovena(novena)
+        .filter(intervencion => {
+            const contenido = [
+                intervencion.id,
+                intervencion.label,
+                ...intervencion.keywords
+            ]
+                .filter(Boolean)
+                .join(" ");
+
+            return normalizarTextoBusqueda(contenido)
+                .includes(termino);
+        });
+}
+
 function buscarNovenas(catalogo, texto) {
 
     if (!Array.isArray(catalogo)) {
@@ -40,12 +92,23 @@ function buscarNovenas(catalogo, texto) {
             ...(Array.isArray(novena.patronages)
                 ? novena.patronages
                 : [])
-        ]
-            .filter(Boolean)
-            .join(" ");
+        ];
+
+        const intervenciones =
+            obtenerIntervencionesNovena(novena)
+                .flatMap(intervencion => [
+                    intervencion.id,
+                    intervencion.label,
+                    ...intervencion.keywords
+                ]);
 
         return normalizarTextoBusqueda(
-            campos
+            [
+                ...campos,
+                ...intervenciones
+            ]
+                .filter(Boolean)
+                .join(" ")
         ).includes(termino);
     });
 }
