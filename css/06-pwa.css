@@ -735,3 +735,78 @@ body::before{
         animation:none;
     }
 }
+
+/* ==========================================================
+   PARTICIPA
+========================================================== */
+
+.participa-page{
+    animation:fadeUp .28s ease;
+}
+
+.participa-intro{
+    margin-bottom:1rem;
+}
+
+.participa-intro h3{
+    margin-top:0;
+    color:var(--color-primary);
+}
+
+.participa-form{
+    display:flex;
+    flex-direction:column;
+    gap:.55rem;
+}
+
+.participa-form label{
+    margin-top:.35rem;
+    color:var(--color-primary);
+    font-size:.86rem;
+    font-weight:700;
+}
+
+.participa-form .optional{
+    color:var(--color-text-light);
+    font-weight:400;
+}
+
+.participa-form input,
+.participa-form select,
+.participa-form textarea{
+    width:100%;
+    padding:.8rem .9rem;
+    border:1px solid var(--color-border);
+    border-radius:12px;
+    background:var(--color-surface);
+    color:var(--color-text);
+    font:inherit;
+    font-size:.9rem;
+}
+
+.participa-form textarea{
+    resize:vertical;
+    min-height:140px;
+}
+
+.participa-form input:focus,
+.participa-form select:focus,
+.participa-form textarea:focus{
+    outline:2px solid rgba(44,74,107,.18);
+    border-color:var(--color-primary);
+}
+
+.form-note{
+    color:var(--color-text-light);
+    font-size:.8rem;
+    line-height:1.5;
+}
+
+.form-feedback{
+    margin:.25rem 0;
+    padding:.7rem .8rem;
+    border-radius:10px;
+    background:var(--soft-gold);
+    color:var(--color-text);
+    font-size:.82rem;
+}
