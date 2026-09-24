@@ -141,6 +141,55 @@ function renderConfiguracion() {
 
             </section>
 
+
+            <section class="simple-panel text-size-panel">
+
+                <h3>
+                    Tamaño del texto
+                </h3>
+
+                <p>
+                    Ajusta el tamaño de los textos de la aplicación
+                    según tu comodidad de lectura.
+                </p>
+
+                <div
+                    class="text-size-options"
+                    role="group"
+                    aria-label="Tamaño del texto">
+
+                    <button
+                        class="btn btn-text-size ${state.configuracion?.tamanoTexto === "pequeno" ? "active" : ""}"
+                        type="button"
+                        data-action="text-size"
+                        data-size="pequeno"
+                        aria-pressed="${state.configuracion?.tamanoTexto === "pequeno" ? "true" : "false"}">
+                        Pequeño
+                    </button>
+
+                    <button
+                        class="btn btn-text-size ${state.configuracion?.tamanoTexto === "normal" ? "active" : ""}"
+                        type="button"
+                        data-action="text-size"
+                        data-size="normal"
+                        aria-pressed="${state.configuracion?.tamanoTexto === "normal" ? "true" : "false"}">
+                        Normal
+                    </button>
+
+                    <button
+                        class="btn btn-text-size ${state.configuracion?.tamanoTexto === "grande" ? "active" : ""}"
+                        type="button"
+                        data-action="text-size"
+                        data-size="grande"
+                        aria-pressed="${state.configuracion?.tamanoTexto === "grande" ? "true" : "false"}">
+                        Grande
+                    </button>
+
+                </div>
+
+            </section>
+
+
             <section class="simple-panel">
 
                 <h3>
