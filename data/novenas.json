@@ -215,5 +215,123 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-agustin-de-hipona",
+    "slug": "san-agustin-de-hipona",
+    "name": "San Agustín de Hipona",
+    "title": "Obispo y Doctor de la Iglesia",
+    "subtitle": "Padre de la Iglesia latina",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/san_agustin_de_hipona.webp",
+    "file": "data/san-agustin-de-hipona.json",
+    "description": "Buscador de la verdad, convertido a Cristo y pastor de Hipona, cuya vida unió estudio, oración, conversión y servicio.",
+    "feast": {
+      "day": 28,
+      "month": 8,
+      "text": "28 de agosto",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san agustin",
+      "san agustín de hipona",
+      "agustin",
+      "hipona",
+      "conversion",
+      "convertirse",
+      "verdad",
+      "estudio",
+      "filosofia",
+      "teologia",
+      "oracion",
+      "confesiones",
+      "familia",
+      "madres",
+      "pastores",
+      "obispos",
+      "inquietud espiritual"
+    ],
+    "interventions": [
+      {
+        "id": "conversion",
+        "label": "Conversión y regreso a Dios",
+        "keywords": [
+          "conversion",
+          "convertirse",
+          "cambio de vida",
+          "pecado",
+          "arrepentimiento",
+          "regresar a dios",
+          "fe perdida"
+        ]
+      },
+      {
+        "id": "verdad",
+        "label": "Búsqueda de la verdad y sentido",
+        "keywords": [
+          "verdad",
+          "sentido",
+          "dudas",
+          "busqueda",
+          "inquietud",
+          "discernimiento",
+          "sabiduria"
+        ]
+      },
+      {
+        "id": "estudio-formacion",
+        "label": "Estudio y formación cristiana",
+        "keywords": [
+          "estudio",
+          "estudiantes",
+          "filosofia",
+          "teologia",
+          "formacion",
+          "aprendizaje",
+          "lectura",
+          "escritura"
+        ]
+      },
+      {
+        "id": "vida-interior",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oracion",
+          "vida interior",
+          "silencio",
+          "paz",
+          "corazon inquieto",
+          "meditacion"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y madres que oran",
+        "keywords": [
+          "familia",
+          "madres",
+          "madres que oran",
+          "hijos",
+          "hijo",
+          "padres"
+        ]
+      },
+      {
+        "id": "pastoral",
+        "label": "Servicio pastoral e Iglesia",
+        "keywords": [
+          "iglesia",
+          "pastoral",
+          "sacerdotes",
+          "sacerdote",
+          "obispos",
+          "obispo",
+          "pastores",
+          "comunidad"
+        ]
+      }
+    ]
   }
 ]
