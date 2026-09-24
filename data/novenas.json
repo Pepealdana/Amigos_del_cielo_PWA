@@ -4067,5 +4067,146 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sagrado-corazon-de-jesus",
+    "slug": "sagrado-corazon-de-jesus",
+    "name": "Sagrado Corazón de Jesús",
+    "title": "Novena al Sagrado Corazón de Jesús",
+    "subtitle": "Contemplar el amor de Cristo y responder con amor",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/sagrado_corazon_de_jesus.webp",
+    "file": "data/sagrado-corazon-de-jesus.json",
+    "description": "Nueve días para contemplar el amor de Cristo, crecer en confianza, conversión, reparación y caridad, y aprender a responder al amor del Corazón de Jesús con la propia vida.",
+    "feast": {
+      "movable": true,
+      "text": "Solemnidad del Sagrado Corazón de Jesús — viernes después de la Solemnidad del Corpus Christi"
+    },
+    "status": "published",
+    "search": [
+      "sagrado corazón de jesús",
+      "sagrado corazon de jesus",
+      "corazón de jesús",
+      "corazon de jesus",
+      "amor de cristo",
+      "misericordia",
+      "reparación",
+      "reparacion",
+      "primeros viernes",
+      "hora santa",
+      "eucaristía",
+      "eucaristia",
+      "consagración",
+      "consagracion",
+      "santa margarita maria",
+      "claudio de la colombiere"
+    ],
+    "interventions": [
+      {
+        "id": "familia",
+        "label": "Familia y consagración del hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "matrimonio",
+          "consagracion",
+          "consagración"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermedad, sufrimiento y consuelo",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "consuelo",
+          "hospital"
+        ]
+      },
+      {
+        "id": "conversion",
+        "label": "Conversión, perdón y reparación",
+        "keywords": [
+          "conversion",
+          "conversión",
+          "pecado",
+          "perdon",
+          "perdón",
+          "reparacion",
+          "reparación",
+          "arrepentimiento"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y adoración eucarística",
+        "keywords": [
+          "oracion",
+          "oración",
+          "adoracion",
+          "adoración",
+          "eucaristia",
+          "eucaristía",
+          "hora santa",
+          "sagrario"
+        ]
+      },
+      {
+        "id": "confianza",
+        "label": "Confianza en Dios",
+        "keywords": [
+          "confianza",
+          "fe",
+          "esperanza",
+          "miedo",
+          "temor",
+          "abandono"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y servicio",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "llamado",
+          "servicio",
+          "sacerdotes",
+          "religiosos",
+          "religiosas"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y obras de misericordia",
+        "keywords": [
+          "caridad",
+          "misericordia",
+          "pobres",
+          "necesitados",
+          "ayuda",
+          "servicio"
+        ]
+      },
+      {
+        "id": "reparacion",
+        "label": "Reparación y reconciliación",
+        "keywords": [
+          "reparacion",
+          "reparación",
+          "reconciliacion",
+          "reconciliación",
+          "perdon",
+          "perdón",
+          "justicia",
+          "paz"
+        ]
+      }
+    ]
   }
 ]
