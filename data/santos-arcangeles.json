@@ -1,0 +1,375 @@
+{
+  "id": "santos-arcangeles",
+  "slug": "santos-arcangeles",
+  "name": "Santos Arcángeles Miguel, Gabriel y Rafael",
+  "title": "Novena a los Santos Arcángeles Miguel, Gabriel y Rafael",
+  "subtitle": "Servir a Dios, anunciar su salvación y caminar bajo su protección",
+  "category": "Devociones",
+  "image": "assets/images/santos/santos_arcangeles_miguel_gabriel_rafael.webp",
+  "description": "Nueve días para contemplar la misión de los santos arcángeles Miguel, Gabriel y Rafael en la historia de la salvación y pedir la gracia de vivir con fe, fortaleza, escucha, servicio, esperanza y caridad.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "day": 29,
+    "month": 9,
+    "text": "29 de septiembre",
+    "liturgicalRank": "Fiesta",
+    "movable": false
+  },
+  "patronages": [
+    "Protección espiritual",
+    "Mensajeros y comunicadores de la fe",
+    "Viajeros",
+    "Personas que buscan fortaleza y guía"
+  ],
+  "virtues": [
+    "Fortaleza",
+    "Escucha",
+    "Obediencia",
+    "Discernimiento",
+    "Esperanza",
+    "Servicio",
+    "Protección",
+    "Confianza",
+    "Caridad"
+  ],
+  "search": [
+    "san miguel",
+    "san gabriel",
+    "san rafael",
+    "arcangeles",
+    "arcángeles",
+    "miguel arcangel",
+    "gabriel arcangel",
+    "rafael arcangel",
+    "proteccion",
+    "protección",
+    "defensa",
+    "anuncio",
+    "salud",
+    "viajes",
+    "discernimiento",
+    "familia"
+  ],
+  "interventions": [
+    {
+      "id": "proteccion",
+      "label": "Protección y fortaleza espiritual",
+      "keywords": [
+        "proteccion",
+        "protección",
+        "peligro",
+        "tentacion",
+        "tentación",
+        "miedo",
+        "fortaleza",
+        "defensa"
+      ]
+    },
+    {
+      "id": "discernimiento",
+      "label": "Discernimiento y decisiones",
+      "keywords": [
+        "discernimiento",
+        "decisiones",
+        "camino",
+        "guia",
+        "guía",
+        "vocacion",
+        "vocación",
+        "duda"
+      ]
+    },
+    {
+      "id": "anuncio",
+      "label": "Anuncio y evangelización",
+      "keywords": [
+        "anuncio",
+        "evangelizacion",
+        "evangelización",
+        "mision",
+        "misión",
+        "predicacion",
+        "predicación",
+        "comunicacion",
+        "comunicación"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y sanación",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "salud",
+        "sanacion",
+        "sanación",
+        "hospital",
+        "dolor"
+      ]
+    },
+    {
+      "id": "viajes",
+      "label": "Viajes y caminos",
+      "keywords": [
+        "viaje",
+        "viajes",
+        "camino",
+        "viajeros",
+        "desplazamiento",
+        "migrantes",
+        "migrantes"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y acompañamiento",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "acompañamiento",
+        "acompanamiento"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en las dificultades",
+      "keywords": [
+        "esperanza",
+        "angustia",
+        "incertidumbre",
+        "sufrimiento",
+        "crisis",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "fe",
+        "misa",
+        "eucaristia",
+        "eucaristía",
+        "adoracion",
+        "adoración"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La Iglesia celebra conjuntamente a los santos arcángeles Miguel, Gabriel y Rafael el 29 de septiembre. La Sagrada Escritura presenta a Miguel en la lucha contra el mal, a Gabriel como mensajero de Dios y a Rafael como acompañante y enviado para Tobías.",
+    "extended": "La Iglesia venera a los ángeles como criaturas espirituales que sirven a Dios y participan, según su misión, en la historia de la salvación. El Directorio sobre la piedad popular y la liturgia señala que la Iglesia celebra el 29 de septiembre la memoria litúrgica de los arcángeles Miguel, Gabriel y Rafael y pide con confianza su intercesión.\n\nSan Miguel aparece en el libro de Daniel como uno de los principales príncipes celestiales y en el Apocalipsis como quien combate junto con sus ángeles contra el dragón. Su nombre expresa la pregunta «¿Quién como Dios?», una afirmación de la soberanía de Dios frente al mal.\n\nSan Gabriel aparece especialmente en el Evangelio de Lucas como el ángel enviado por Dios a María para anunciar la concepción de Jesús. Su misión está vinculada al anuncio de la salvación y a la invitación a acoger la palabra de Dios con fe.\n\nSan Rafael ocupa un lugar destacado en el libro de Tobías. Acompaña a Tobías en el camino, participa en acontecimientos relacionados con la sanación y manifiesta al final que ha sido enviado por Dios. Su figura se relaciona de modo particular con el acompañamiento, la protección y la sanación.\n\nLa devoción católica a los arcángeles no los coloca en el lugar de Dios. La oración cristiana se dirige a Dios y pide a los santos y a los ángeles su intercesión. Esta novena de Amigos del Cielo presenta a Miguel, Gabriel y Rafael desde esta perspectiva, buscando que su ejemplo y ministerio conduzcan siempre hacia Cristo y hacia el cumplimiento de la voluntad de Dios."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\n\nDios todopoderoso, creador de los ángeles y de los hombres, gracias por permitirnos contemplar el servicio de tus santos arcángeles. Por intercesión de san Miguel, san Gabriel y san Rafael, ayúdanos a permanecer firmes en la fe, escuchar tu palabra, anunciar el Evangelio y caminar con esperanza. Recibe nuestras intenciones durante estos nueve días y haz que toda nuestra oración nos acerque más a Jesucristo. Amén.",
+  "closingPrayer": "Dios nuestro, te damos gracias por este camino de oración junto a san Miguel, san Gabriel y san Rafael. Concédenos vivir con la fortaleza de quien confía en ti, la disponibilidad de quien escucha tu palabra y la caridad de quien acompaña a los demás. Que la devoción a tus santos arcángeles no se quede en palabras, sino que nos impulse a servir, proteger al vulnerable, anunciar el bien y perseverar en el camino cristiano. Por Cristo nuestro Señor. Amén.",
+  "intentions": [
+    "Por la Iglesia y por todos los cristianos, para que permanezcan firmes en la fe y en la esperanza.",
+    "Por quienes enfrentan miedo, tentaciones, violencia o situaciones de peligro, para que encuentren protección y ayuda.",
+    "Por quienes anuncian el Evangelio, catequistas, misioneros, comunicadores y servidores de la Iglesia.",
+    "Por quienes necesitan discernir una decisión importante y buscan un camino conforme a la voluntad de Dios.",
+    "Por los enfermos y por quienes los acompañan, para que reciban consuelo, fortaleza y atención adecuada.",
+    "Por viajeros, migrantes, desplazados y personas que emprenden caminos difíciles.",
+    "Por las familias que necesitan acompañamiento, reconciliación y paz.",
+    "Por quienes atraviesan crisis, soledad, angustia o incertidumbre sobre el futuro.",
+    "Por nuestras intenciones personales y para que aprendamos a servir a Dios y a los demás con generosidad."
+  ],
+  "resources": {
+    "devotion": "La devoción a los arcángeles debe vivirse dentro de la fe en Dios y en comunión con la Iglesia. Los ángeles son servidores de Dios; la oración cristiana pide su intercesión y contempla su misión como parte de la obra salvadora de Dios.",
+    "feast": "La fiesta de los santos arcángeles Miguel, Gabriel y Rafael se celebra el 29 de septiembre.",
+    "related": [
+      "Ángeles Custodios",
+      "San Miguel Arcángel",
+      "San Gabriel Arcángel",
+      "San Rafael Arcángel",
+      "Sagrada Escritura",
+      "Protección espiritual"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Confiémonos a los arcángeles",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/cotidie/2017/documents/papa-francesco-cotidie_20170929_arcangeles.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus, 29 de septiembre de 1985",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1985/documents/hf_jp-ii_ang_19850929.html",
+      "type": "official"
+    },
+    {
+      "title": "Directorio sobre la piedad popular y la liturgia",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Fiesta de los santos Arcángeles Miguel, Gabriel y Rafael",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/092927.cfm",
+      "type": "official"
+    },
+    {
+      "title": "Prefacio de Santos Arcángeles",
+      "organization": "USCCB",
+      "url": "https://www.usccb.org/resources/prefacio-de-santos-arcangeles.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "San Miguel: ¿Quién como Dios?",
+      "title": "Permanecer firmes en la fe",
+      "bible": {
+        "reference": "Apocalipsis 12,7-12",
+        "title": "Miguel y sus ángeles combatieron contra el dragón"
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué situación está poniendo a prueba hoy mi confianza en Dios?",
+      "intention": "Por quienes viven miedo, tentación o situaciones que ponen a prueba su fe.",
+      "prayer": "San Miguel Arcángel, ayúdanos a permanecer firmes en Dios cuando enfrentemos el mal, la confusión o el miedo. Enséñanos a no confiar en nuestras propias fuerzas como si fueran suficientes, sino a buscar la ayuda de Dios y elegir siempre el bien. Amén.",
+      "action": "Identifica hoy una situación en la que necesitas actuar con mayor fortaleza y pide a Dios sabiduría para hacerlo correctamente."
+    },
+    {
+      "day": 2,
+      "theme": "San Miguel: servicio y protección",
+      "title": "Defender el bien",
+      "bible": {
+        "reference": "Daniel 10,12-13",
+        "title": "Miguel, uno de los principales príncipes"
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo proteger hoy la dignidad de alguien que necesita apoyo?",
+      "intention": "Por quienes sufren violencia, abuso, injusticia o indefensión.",
+      "prayer": "San Miguel, servidor de Dios, enséñanos a defender el bien sin violencia ni odio. Danos valentía para no permanecer indiferentes ante el sufrimiento y sabiduría para buscar caminos responsables de protección, justicia y paz. Amén.",
+      "action": "Haz hoy una acción concreta que proteja, acompañe o defienda con prudencia a una persona vulnerable."
+    },
+    {
+      "day": 3,
+      "theme": "San Gabriel: escuchar a Dios",
+      "title": "Abrir el corazón a la palabra",
+      "bible": {
+        "reference": "Lucas 1,26-38",
+        "title": "Gabriel anuncia a María la venida de Jesús"
+      },
+      "virtue": "Escucha",
+      "reflection": "¿Estoy dejando espacio para escuchar antes de decidir y actuar?",
+      "intention": "Por quienes necesitan reconocer qué les pide Dios en una etapa importante de su vida.",
+      "prayer": "San Gabriel, mensajero de Dios, enséñanos a escuchar con atención. Ayúdanos a recibir la palabra de Dios con fe y a responder como María con disponibilidad. Que nuestras decisiones estén iluminadas por la verdad, la oración y el deseo de hacer el bien. Amén.",
+      "action": "Lee hoy lentamente un pasaje del Evangelio y guarda unos minutos de silencio antes de responder a una decisión pendiente."
+    },
+    {
+      "day": 4,
+      "theme": "San Gabriel: anunciar la salvación",
+      "title": "Llevar buenas noticias",
+      "bible": {
+        "reference": "Lucas 1,30-33",
+        "title": "Anuncio del nacimiento de Jesús"
+      },
+      "virtue": "Anuncio",
+      "reflection": "¿Mis palabras llevan esperanza y verdad o aumentan el miedo y la división?",
+      "intention": "Por evangelizadores, catequistas, sacerdotes, religiosos, comunicadores y todos los cristianos llamados a anunciar el Evangelio.",
+      "prayer": "San Gabriel, ayúdanos a comunicar el bien con claridad, humildad y caridad. Que nuestras palabras no sean motivo de división, sino instrumentos para anunciar a Cristo, consolar al que sufre y orientar hacia la verdad. Amén.",
+      "action": "Comparte hoy una palabra verdadera y esperanzadora con alguien que la necesite, evitando rumores o mensajes que puedan causar daño."
+    },
+    {
+      "day": 5,
+      "theme": "San Rafael: caminar acompañado",
+      "title": "No caminar solos",
+      "bible": {
+        "reference": "Tobías 5,4-17",
+        "title": "Rafael acompaña a Tobías en el camino"
+      },
+      "virtue": "Acompañamiento",
+      "reflection": "¿A quién necesito pedir ayuda y a quién puedo acompañar yo?",
+      "intention": "Por viajeros, migrantes, personas solas y quienes atraviesan una etapa de cambio o incertidumbre.",
+      "prayer": "San Rafael, compañero enviado por Dios, acompaña nuestros caminos. Enséñanos a reconocer que necesitamos de otros y a ofrecer también nuestra presencia a quienes caminan con dificultad. Protege a quienes viajan y a quienes deben comenzar de nuevo lejos de su hogar. Amén.",
+      "action": "Contacta hoy a una persona que esté atravesando un cambio o dificultad y ofrécele una ayuda concreta."
+    },
+    {
+      "day": 6,
+      "theme": "San Rafael: cuidado y sanación",
+      "title": "Acompañar al que sufre",
+      "bible": {
+        "reference": "Tobías 11,7-15",
+        "title": "La sanación de Tobit"
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Cómo puedo acompañar a una persona enferma sin reducirla solamente a su enfermedad?",
+      "intention": "Por los enfermos, cuidadores, profesionales de la salud y familias que viven procesos de enfermedad.",
+      "prayer": "San Rafael, servidor de Dios en el camino de Tobías, intercede por quienes sufren enfermedad. Consuela a los enfermos, fortalece a sus cuidadores y ayuda a quienes trabajan por la salud. Que sepamos acompañar con respeto, paciencia y esperanza, sin prometer aquello que no podemos garantizar. Amén.",
+      "action": "Realiza hoy una llamada, visita o ayuda concreta a una persona enferma o a quien la cuida."
+    },
+    {
+      "day": 7,
+      "theme": "Los tres arcángeles: obedecer y servir",
+      "title": "Poner los dones al servicio de Dios",
+      "bible": {
+        "reference": "Hebreos 1,14",
+        "title": "Espíritus enviados para servir"
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué capacidad que Dios me ha dado puedo poner hoy al servicio de otra persona?",
+      "intention": "Por quienes ejercen responsabilidades en la Iglesia, en las familias, en el trabajo y en la sociedad.",
+      "prayer": "Santos Miguel, Gabriel y Rafael, ayúdennos a comprender que los dones recibidos no son solamente para nuestro beneficio. Enséñennos a servir con humildad, responsabilidad y alegría, buscando el bien de los demás y la gloria de Dios. Amén.",
+      "action": "Pon hoy una capacidad, conocimiento o recurso tuyo al servicio gratuito de alguien que lo necesite."
+    },
+    {
+      "day": 8,
+      "theme": "Protección y discernimiento",
+      "title": "Elegir el camino del bien",
+      "bible": {
+        "reference": "Salmo 91,11-12",
+        "title": "A sus ángeles ha dado órdenes acerca de ti"
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Qué camino necesito evaluar con más serenidad antes de tomar una decisión?",
+      "intention": "Por quienes están ante decisiones importantes, especialmente jóvenes que buscan orientar su vocación y futuro.",
+      "prayer": "Santos arcángeles, acompáñennos cuando tengamos que decidir. Líbrennos de actuar por miedo, presión o engaño. Que aprendamos a buscar consejo prudente, orar, considerar las consecuencias y elegir aquello que conduce al bien y respeta la dignidad de los demás. Amén.",
+      "action": "Antes de tomar hoy una decisión importante, detente, ora y consulta si es necesario a una persona prudente y de confianza."
+    },
+    {
+      "day": 9,
+      "theme": "Misión y alabanza",
+      "title": "Servir con esperanza",
+      "bible": {
+        "reference": "Juan 1,47-51",
+        "title": "Los ángeles de Dios suben y bajan sobre el Hijo del hombre"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Cómo puedo convertir mi fe en un servicio concreto después de terminar esta novena?",
+      "intention": "Por todas las intenciones presentadas durante estos nueve días y por la gracia de vivir como servidores de Dios en nuestra vida cotidiana.",
+      "prayer": "Santos Miguel, Gabriel y Rafael, conduzcan nuestra mirada hacia Cristo, centro de toda nuestra fe. Que aprendamos de ustedes a servir, anunciar, acompañar y permanecer fieles. Presenten ante Dios nuestras intenciones y ayúdennos a continuar nuestro camino con esperanza, caridad y perseverancia. Amén.",
+      "action": "Elige una obra concreta de oración, servicio o acompañamiento que continuarás después de esta novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La base bíblica, doctrinal e histórica se fundamenta en la Sagrada Escritura y en fuentes oficiales de la Iglesia. No se reproduce literalmente una novena particular de otra fuente."
+  }
+}
