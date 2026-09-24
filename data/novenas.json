@@ -3114,5 +3114,143 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-catalina-de-siena",
+    "slug": "santa-catalina-de-siena",
+    "name": "Santa Catalina de Siena",
+    "title": "Virgen y Doctora de la Iglesia",
+    "subtitle": "Mística dominica y mensajera de paz",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_catalina_de_siena.webp",
+    "file": "data/santa-catalina-de-siena.json",
+    "description": "Mística dominica del siglo XIV que unió una profunda vida de oración con la caridad, el servicio a los enfermos, la búsqueda de la paz y el amor a la Iglesia.",
+    "feast": {
+      "day": 29,
+      "month": 4,
+      "text": "29 de abril",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa catalina",
+      "santa catalina de siena",
+      "catalina de siena",
+      "siena",
+      "dominicos",
+      "dominicas",
+      "mantellate",
+      "doctora de la iglesia",
+      "mística",
+      "diálogo",
+      "providencia",
+      "paz",
+      "iglesia",
+      "roma",
+      "aviñon",
+      "enfermos",
+      "caridad",
+      "eucaristía",
+      "estigmas",
+      "europa",
+      "italia"
+    ],
+    "interventions": [
+      {
+        "id": "paz-reconciliacion",
+        "label": "Paz y reconciliación",
+        "keywords": [
+          "paz",
+          "reconciliacion",
+          "reconciliación",
+          "conflicto",
+          "division",
+          "división",
+          "dialogo",
+          "diálogo",
+          "unidad"
+        ]
+      },
+      {
+        "id": "iglesia",
+        "label": "Iglesia y vida cristiana",
+        "keywords": [
+          "iglesia",
+          "papa",
+          "pastores",
+          "vocacion",
+          "vocación",
+          "fe",
+          "comunidad"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "peste",
+          "cuidado"
+        ]
+      },
+      {
+        "id": "discernimiento",
+        "label": "Discernimiento y decisiones",
+        "keywords": [
+          "discernimiento",
+          "decisiones",
+          "decidir",
+          "vocacion",
+          "vocación",
+          "llamado",
+          "providencia"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oracion",
+          "oración",
+          "contemplacion",
+          "contemplación",
+          "silencio",
+          "eucaristia",
+          "eucaristía"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio a los demás",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "pobres",
+          "necesitados",
+          "enfermos",
+          "ayuda",
+          "hermanos"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y entrega a Dios",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "llamado",
+          "consagracion",
+          "consagración",
+          "santidad",
+          "entrega"
+        ]
+      }
+    ]
   }
 ]
