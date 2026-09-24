@@ -1,0 +1,357 @@
+{
+  "id": "espiritu-santo",
+  "slug": "espiritu-santo",
+  "name": "Espíritu Santo",
+  "title": "Novena al Espíritu Santo",
+  "subtitle": "En preparación para Pentecostés",
+  "category": "Devociones",
+  "image": "assets/images/santos/espiritu_santo.webp",
+  "description": "Nueve días de oración para invocar al Espíritu Santo, disponernos a su acción y pedir sus siete dones para vivir la fe con mayor docilidad, fortaleza y caridad.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "movable": true,
+    "text": "Domingo de Pentecostés"
+  },
+  "patronages": [],
+  "virtues": [
+    "Docilidad",
+    "Sabiduría",
+    "Discernimiento",
+    "Fortaleza",
+    "Piedad",
+    "Confianza",
+    "Caridad",
+    "Esperanza",
+    "Servicio"
+  ],
+  "search": [
+    "espíritu santo",
+    "espiritu santo",
+    "pentecostés",
+    "pentecostes",
+    "dones del espíritu santo",
+    "dones del espiritu santo",
+    "sabiduría",
+    "entendimiento",
+    "consejo",
+    "fortaleza",
+    "ciencia",
+    "piedad",
+    "temor de Dios",
+    "ven espíritu santo",
+    "paráclito"
+  ],
+  "interventions": [
+    {
+      "id": "discernimiento",
+      "label": "Discernimiento y decisiones",
+      "keywords": [
+        "discernimiento",
+        "decisiones",
+        "decidir",
+        "consejo",
+        "voluntad de dios",
+        "orientación"
+      ]
+    },
+    {
+      "id": "estudio",
+      "label": "Estudio y comprensión de la fe",
+      "keywords": [
+        "estudio",
+        "entendimiento",
+        "ciencia",
+        "sabiduría",
+        "formación",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "label": "Fortaleza en las dificultades",
+      "keywords": [
+        "fortaleza",
+        "miedo",
+        "temor",
+        "prueba",
+        "sufrimiento",
+        "perseverancia",
+        "ánimo"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y relaciones",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "perdón",
+        "unidad",
+        "convivencia"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y misión",
+      "keywords": [
+        "vocación",
+        "vocacion",
+        "llamado",
+        "mision",
+        "servicio",
+        "apostolado"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oración",
+        "oracion",
+        "silencio",
+        "contemplación",
+        "contemplacion",
+        "adoración",
+        "adoracion"
+      ]
+    },
+    {
+      "id": "iglesia",
+      "label": "Iglesia y unidad",
+      "keywords": [
+        "iglesia",
+        "unidad",
+        "comunidad",
+        "pentecostés",
+        "pentecostes",
+        "evangelización",
+        "evangelizacion"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La novena de Pentecostés nace de la oración de los discípulos reunidos en el Cenáculo después de la Ascensión, junto con María y otros discípulos, mientras esperaban la venida del Espíritu Santo. La Iglesia reconoce estos nueve días como el origen bíblico de una práctica de piedad muy difundida.",
+    "extended": "Los Hechos de los Apóstoles presentan a los discípulos reunidos en oración después de la Ascensión de Jesús: permanecían unidos y perseveraban en la oración junto con María, mientras esperaban el cumplimiento de la promesa del Padre. La Iglesia ha visto en esos días de espera el fundamento bíblico de la novena de Pentecostés.\n\nEl Catecismo enseña que Pentecostés manifiesta la efusión del Espíritu Santo sobre la comunidad de los discípulos y marca de manera visible el comienzo de la misión de la Iglesia. El Espíritu Santo es presentado como Persona divina, don del Padre y del Hijo, que comunica vida, santifica, guía hacia la verdad y capacita para la misión.\n\nLa tradición cristiana identifica siete dones del Espíritu Santo: sabiduría, entendimiento, consejo, fortaleza, ciencia, piedad y temor de Dios. Estos dones disponen al creyente a responder con mayor docilidad a la acción de Dios. La novena de Amigos del Cielo toma estos siete dones como eje de los días centrales y añade un primer día sobre la venida del Espíritu y un noveno día centrado en María, la oración y la misión.\n\nEsta novena no pretende reproducir literalmente una publicación concreta. Sus reflexiones, oraciones, compromisos y adaptaciones son textos originales de Amigos del Cielo, fundamentados en la Sagrada Escritura, el Catecismo y la tradición de la Iglesia."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\n\nVen, Espíritu Santo. Tú eres el Don prometido por Cristo, fuente de vida, verdad, consuelo y fortaleza. Durante estos nueve días queremos disponernos a tu acción. Ilumina nuestra mente, transforma nuestro corazón, fortalece nuestra voluntad y enséñanos a vivir como discípulos de Jesús. Que, junto con María y la Iglesia, perseveremos en la oración y sepamos reconocer tu presencia en nuestra vida. Amén.",
+  "closingPrayer": "Espíritu Santo, gracias por acompañarnos durante esta novena. Haz crecer en nosotros tus dones y ayúdanos a convertirlos en frutos de amor, alegría, paz, paciencia, bondad, fidelidad y dominio propio. Danos valentía para anunciar el Evangelio, humildad para dejarnos enseñar por Dios y caridad para servir a nuestros hermanos. Que nuestra vida sea un espacio donde otros puedan reconocer la esperanza y la paz que vienen de Cristo. Amén.",
+  "intentions": [
+    "Por la Iglesia, para que viva siempre guiada por el Espíritu Santo y sea signo de unidad, esperanza y caridad.",
+    "Por quienes buscan sabiduría para tomar decisiones importantes y discernir su vocación.",
+    "Por estudiantes, docentes, investigadores y todas las personas que buscan comprender la verdad.",
+    "Por quienes atraviesan pruebas, enfermedad, miedo, duelo o situaciones que requieren fortaleza.",
+    "Por las familias y comunidades que necesitan reconciliación, diálogo y paz.",
+    "Por quienes sirven a los demás en la Iglesia, en la familia, en la educación y en la sociedad.",
+    "Por quienes desean crecer en la oración y recuperar una relación viva con Dios.",
+    "Por quienes han perdido la confianza en Dios o viven una fe marcada por el temor, la indiferencia o el desánimo.",
+    "Por nuestras intenciones personales y para que, como María y los discípulos, sepamos responder con generosidad a la misión que Dios nos confía."
+  ],
+  "resources": {
+    "timing": "La forma tradicional de la novena de Pentecostés se vincula a los nueve días entre la Ascensión y Pentecostés, cuando los discípulos permanecieron en oración con María. En la aplicación también puede rezarse libremente como una novena devocional.",
+    "bible": [
+      "Hechos 1,4-14",
+      "Hechos 2,1-11",
+      "Juan 14,15-17",
+      "Juan 14,25-27",
+      "Juan 16,12-15",
+      "Romanos 8,14-17",
+      "Romanos 8,26-27",
+      "Gálatas 5,22-25"
+    ],
+    "gifts": [
+      "Sabiduría",
+      "Entendimiento",
+      "Consejo",
+      "Fortaleza",
+      "Ciencia",
+      "Piedad",
+      "Temor de Dios"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Catecismo de la Iglesia Católica, nn. 731–741",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/archive/catechism_sp/p1s2c3a8_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Catecismo de la Iglesia Católica, nn. 1830–1832",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/archive/catechism_sp/p3s1c1a7_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Catecismo de la Iglesia Católica, n. 2671",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/archive/catechism_sp/p4s1c2a2_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Novena de Pentecostés 2021",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://www.cec.org.co/sites/default/files/Novena%20Pentecost%C3%A9s%202021%20%281%29.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Santa Misa en la Solemnidad de Pentecostés",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/en/homilies/2015/documents/papa-francesco_20150524_omelia-pentecoste.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La promesa del Espíritu",
+      "title": "Permanecer en oración y esperanza",
+      "bible": {
+        "reference": "Hechos 1,4-14",
+        "title": "Los discípulos esperan la promesa del Padre"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué necesito poner hoy en manos de Dios mientras espero una respuesta o un cambio?",
+      "intention": "Por la Iglesia y por todos quienes esperan con fe una nueva luz para su vida.",
+      "prayer": "Espíritu Santo, enséñanos a esperar con confianza. Reúne nuestros corazones, fortalece nuestra oración y ayúdanos a permanecer disponibles para recibir lo que Dios quiere darnos. Amén.",
+      "action": "Reserva hoy un momento de silencio para pedir conscientemente: «Ven, Espíritu Santo»."
+    },
+    {
+      "day": 2,
+      "theme": "Don de sabiduría",
+      "title": "Aprender a mirar la vida con Dios",
+      "bible": {
+        "reference": "Sabiduría 7,7-10",
+        "title": "La sabiduría como don recibido"
+      },
+      "virtue": "Sabiduría",
+      "reflection": "¿Qué decisión o situación necesito mirar con una perspectiva más profunda y menos superficial?",
+      "intention": "Por quienes deben tomar decisiones importantes y necesitan distinguir lo verdaderamente valioso.",
+      "prayer": "Espíritu Santo, concédenos sabiduría para reconocer lo que conduce al bien. Que no confundamos éxito con plenitud ni comodidad con felicidad, y que aprendamos a mirar nuestras decisiones a la luz del Evangelio. Amén.",
+      "action": "Antes de tomar una decisión importante, detente unos minutos y pide sabiduría al Espíritu Santo."
+    },
+    {
+      "day": 3,
+      "theme": "Don de entendimiento",
+      "title": "Comprender la fe y la Palabra",
+      "bible": {
+        "reference": "Lucas 24,13-35",
+        "title": "El corazón que comprende las Escrituras"
+      },
+      "virtue": "Entendimiento",
+      "reflection": "¿Qué enseñanza de Jesús necesito comprender mejor para vivirla de verdad?",
+      "intention": "Por estudiantes, docentes, catequistas y quienes buscan comprender mejor la fe.",
+      "prayer": "Espíritu Santo, abre nuestra inteligencia y nuestro corazón. Ayúdanos a comprender la Palabra de Dios y a descubrir cómo ilumina nuestra vida concreta. Que conocer la fe nos lleve también a vivirla. Amén.",
+      "action": "Lee hoy un breve pasaje del Evangelio y pide al Espíritu Santo que te ayude a descubrir qué te quiere enseñar."
+    },
+    {
+      "day": 4,
+      "theme": "Don de ciencia",
+      "title": "Reconocer a Dios en su creación",
+      "bible": {
+        "reference": "Romanos 1,19-20",
+        "title": "Las huellas del Creador"
+      },
+      "virtue": "Ciencia",
+      "reflection": "¿Qué bienes creados pueden estar ocupando en mi vida un lugar que solo corresponde a Dios?",
+      "intention": "Por quienes trabajan en la ciencia, la educación y la protección de la creación, para que busquen siempre la verdad y el bien.",
+      "prayer": "Espíritu Santo, enséñanos a valorar correctamente las cosas creadas. Que sepamos agradecer sus dones sin convertirlos en ídolos y que usemos nuestros conocimientos para servir a la verdad, a la vida y al bien común. Amén.",
+      "action": "Agradece hoy a Dios por un elemento concreto de la creación y realiza una acción sencilla para cuidarlo."
+    },
+    {
+      "day": 5,
+      "theme": "Don de consejo",
+      "title": "Discernir el camino correcto",
+      "bible": {
+        "reference": "Santiago 1,5-6",
+        "title": "Pedir sabiduría a Dios"
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿En qué decisión necesito pedir ayuda a Dios antes de actuar?",
+      "intention": "Por quienes deben tomar decisiones familiares, profesionales, pastorales o vocacionales.",
+      "prayer": "Espíritu Santo, ilumina nuestras decisiones. Ayúdanos a reconocer lo que conduce al bien, a escuchar con humildad consejos prudentes y a no confundir nuestros deseos con la voluntad de Dios. Amén.",
+      "action": "Si tienes una decisión pendiente, escríbela y presenta ante Dios las distintas opciones con serenidad."
+    },
+    {
+      "day": 6,
+      "theme": "Don de fortaleza",
+      "title": "Permanecer firmes en el bien",
+      "bible": {
+        "reference": "2 Corintios 12,9-10",
+        "title": "La fuerza de Dios en nuestra debilidad"
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito enfrentar sin perder la confianza?",
+      "intention": "Por quienes sufren enfermedad, miedo, persecución, cansancio, duelo o cualquier forma de prueba.",
+      "prayer": "Espíritu Santo, sé nuestra fortaleza cuando nos sintamos débiles. Danos valor para afrontar las dificultades, perseverancia para continuar haciendo el bien y confianza para pedir ayuda cuando nuestras fuerzas no sean suficientes. Amén.",
+      "action": "Anima hoy a una persona que esté atravesando una dificultad y ofrécele una ayuda concreta."
+    },
+    {
+      "day": 7,
+      "theme": "Don de piedad",
+      "title": "Vivir como hijos y hermanos",
+      "bible": {
+        "reference": "Romanos 8,14-17",
+        "title": "El Espíritu nos hace hijos de Dios"
+      },
+      "virtue": "Piedad",
+      "reflection": "¿Cómo puedo hacer que mi oración y mi relación con Dios transformen también mi trato hacia los demás?",
+      "intention": "Por las familias y comunidades que necesitan recuperar la ternura, el perdón y la unidad.",
+      "prayer": "Espíritu Santo, sana nuestro corazón de la dureza y enséñanos a acercarnos a Dios como hijos. Haznos también hermanos atentos, capaces de perdonar, escuchar y servir con alegría. Amén.",
+      "action": "Realiza hoy un gesto de reconciliación o ternura hacia alguien cercano."
+    },
+    {
+      "day": 8,
+      "theme": "Don de temor de Dios",
+      "title": "Vivir con reverencia y confianza",
+      "bible": {
+        "reference": "Salmo 111,10",
+        "title": "El temor del Señor es principio de sabiduría"
+      },
+      "virtue": "Reverencia",
+      "reflection": "¿Hay algo que estoy haciendo que debería revisar delante de Dios con sinceridad?",
+      "intention": "Por quienes han perdido el sentido de Dios y por nosotros, para que aprendamos a vivir con respeto, confianza y responsabilidad.",
+      "prayer": "Espíritu Santo, danos un corazón que reconozca la grandeza de Dios sin vivir dominado por el miedo. Que el respeto por Dios nos lleve a rechazar el mal, a buscar el bien y a vivir con libertad y responsabilidad. Amén.",
+      "action": "Haz un examen de conciencia breve y elige una conducta concreta que quieras corregir."
+    },
+    {
+      "day": 9,
+      "theme": "María, oración y misión",
+      "title": "Salir del Cenáculo para servir",
+      "bible": {
+        "reference": "Hechos 2,1-11",
+        "title": "Pentecostés y el nacimiento de la misión de la Iglesia"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué misión concreta me está confiando Dios en mi familia, trabajo, estudio, comunidad o Iglesia?",
+      "intention": "Por la Iglesia, por quienes anuncian el Evangelio y por cada cristiano llamado a ser testigo de Cristo en el mundo.",
+      "prayer": "Espíritu Santo, así como reuniste a María y a los discípulos en oración y los enviaste a anunciar las maravillas de Dios, renueva también nuestra vida. Danos valentía para servir, humildad para escuchar y caridad para ser testigos de Cristo allí donde nos encontremos. Amén.",
+      "action": "Realiza hoy una obra de servicio y ofrece conscientemente ese gesto como respuesta a la acción del Espíritu Santo."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son adaptaciones originales de Amigos del Cielo. La estructura doctrinal se fundamenta en la Sagrada Escritura, el Catecismo de la Iglesia Católica y referencias de la Conferencia Episcopal de Colombia. No se reproduce literalmente la novena de una fuente externa."
+  }
+}
