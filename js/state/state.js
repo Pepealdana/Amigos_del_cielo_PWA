@@ -11,10 +11,12 @@ const state = {
     favoritos: [],
     progreso: {},
     intenciones: {},
+    recordatorios: {},
     configuracion: {
         tema: "claro",
         idioma: "es",
-        notificaciones: false
+        notificaciones: false,
+        horaRecordatorio: "19:00"
     },
     busqueda: ""
 };
