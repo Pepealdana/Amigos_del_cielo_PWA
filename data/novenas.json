@@ -4629,5 +4629,142 @@
         ]
       }
     ]
+  },
+  {
+    "id": "senor-de-los-milagros-de-buga",
+    "slug": "senor-de-los-milagros-de-buga",
+    "name": "Señor de los Milagros de Buga",
+    "title": "Novena al Señor de los Milagros de Buga",
+    "subtitle": "Contemplar a Cristo crucificado y vivir la fe con misericordia",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/senor_de_los_milagros_de_buga.webp",
+    "file": "data/senor-de-los-milagros-de-buga.json",
+    "description": "Nueve días para contemplar a Jesucristo crucificado, confiar en su misericordia y traducir la fe en conversión, servicio, reconciliación y amor al prójimo.",
+    "feast": {
+      "day": 14,
+      "month": 9,
+      "text": "14 de septiembre — Exaltación de la Santa Cruz y celebración del Señor de los Milagros de Buga",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "señor de los milagros",
+      "señor de los milagros de buga",
+      "buga",
+      "cristo crucificado",
+      "crucificado",
+      "milagros",
+      "santuario de buga",
+      "peregrinos",
+      "exaltacion de la santa cruz",
+      "exaltación de la santa cruz",
+      "enfermos",
+      "conversion",
+      "conversión",
+      "misericordia"
+    ],
+    "interventions": [
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "sanación",
+          "sanacion",
+          "hospital"
+        ]
+      },
+      {
+        "id": "conversion",
+        "label": "Conversión y vida nueva",
+        "keywords": [
+          "conversion",
+          "conversión",
+          "pecado",
+          "arrepentimiento",
+          "vida nueva",
+          "cambio de vida"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y reconciliación",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "matrimonio",
+          "reconciliacion",
+          "reconciliación"
+        ]
+      },
+      {
+        "id": "perdon",
+        "label": "Perdón y reconciliación",
+        "keywords": [
+          "perdon",
+          "perdón",
+          "reconciliacion",
+          "reconciliación",
+          "resentimiento",
+          "ofensa"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en la dificultad",
+        "keywords": [
+          "esperanza",
+          "angustia",
+          "miedo",
+          "crisis",
+          "dificultad",
+          "incertidumbre"
+        ]
+      },
+      {
+        "id": "peregrinos",
+        "label": "Peregrinos y caminos",
+        "keywords": [
+          "peregrino",
+          "peregrinos",
+          "viaje",
+          "camino",
+          "santuario",
+          "Buga"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "pobres",
+          "necesitados",
+          "ayuda",
+          "misericordia"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe ante la cruz",
+        "keywords": [
+          "fe",
+          "cruz",
+          "cristo",
+          "jesus",
+          "Jesús",
+          "oracion",
+          "oración"
+        ]
+      }
+    ]
   }
 ]
