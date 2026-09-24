@@ -1,0 +1,438 @@
+{
+  "id": "san-antonio-de-padua",
+  "slug": "san-antonio-de-padua",
+  "name": "San Antonio de Padua",
+  "title": "Presbítero y Doctor de la Iglesia",
+  "subtitle": "Doctor Evangélico",
+  "category": "Santos",
+  "image": "assets/images/santos/san_antonio_de_padua.webp",
+  "description": "Fraile franciscano, predicador y maestro de la fe, recordado por su amor a la Palabra de Dios, la oración y el servicio.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-antonio-de-padua"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "📖"
+  },
+  "feast": {
+    "day": 13,
+    "month": 6,
+    "text": "13 de junio",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Me agrada que enseñes teología a los frailes.",
+    "reference": "San Francisco de Asís, citado por Benedicto XVI, Audiencia General del 10 de febrero de 2010"
+  },
+  "patronages": [
+    "Objetos perdidos",
+    "Personas que buscan recuperar la fe",
+    "Padua"
+  ],
+  "virtues": [
+    "Fe",
+    "Amor a la Palabra de Dios",
+    "Oración",
+    "Humildad",
+    "Caridad",
+    "Celo apostólico",
+    "Perseverancia",
+    "Confianza en Dios"
+  ],
+  "search": [
+    "san antonio de padua",
+    "san antonio",
+    "antonio de lisboa",
+    "padua",
+    "objetos perdidos",
+    "cosas perdidas",
+    "documentos perdidos",
+    "fe perdida",
+    "predicacion",
+    "predicador",
+    "biblia",
+    "escritura",
+    "estudio",
+    "estudiantes",
+    "teologia",
+    "franciscanos",
+    "oracion",
+    "necesidades"
+  ],
+  "interventions": [
+    {
+      "id": "objetos-perdidos",
+      "label": "Objetos y documentos perdidos",
+      "keywords": [
+        "perdido",
+        "perdida",
+        "perdidos",
+        "perdidas",
+        "objeto perdido",
+        "cosas perdidas",
+        "documentos perdidos",
+        "encontrar"
+      ]
+    },
+    {
+      "id": "fe-perdida",
+      "label": "Recuperar la fe y la vida espiritual",
+      "keywords": [
+        "fe",
+        "fe perdida",
+        "dudas de fe",
+        "vida espiritual",
+        "conversion",
+        "volver a dios",
+        "volver a la fe"
+      ]
+    },
+    {
+      "id": "estudio-formacion",
+      "label": "Estudio y formación cristiana",
+      "keywords": [
+        "estudio",
+        "estudiar",
+        "estudiantes",
+        "teologia",
+        "formacion",
+        "aprendizaje",
+        "sabiduria",
+        "biblia",
+        "escritura"
+      ]
+    },
+    {
+      "id": "predicacion-evangelizacion",
+      "label": "Predicación y evangelización",
+      "keywords": [
+        "predicacion",
+        "predicar",
+        "evangelizacion",
+        "evangelizar",
+        "catequesis",
+        "apostolado",
+        "mision"
+      ]
+    },
+    {
+      "id": "necesidades",
+      "label": "Necesidades y dificultades",
+      "keywords": [
+        "necesidad",
+        "necesidades",
+        "dificultad",
+        "problema",
+        "ayuda",
+        "afliccion",
+        "angustia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "San Antonio de Padua nació en Lisboa alrededor de 1195 con el nombre de Fernando. Primero ingresó con los Canónigos Regulares de San Agustín y después se hizo fraile menor franciscano. Fue estudioso de la Sagrada Escritura, maestro de teología y predicador. Murió cerca de Padua el 13 de junio de 1231 y fue canonizado en 1232.",
+    "extended": "Fernando nació en Lisboa alrededor de 1195. Recibió formación bíblica y teológica en Coimbra. En 1220, el testimonio de los primeros mártires franciscanos de Marruecos despertó en él el deseo de ingresar en los Frailes Menores, donde tomó el nombre de Antonio. Una enfermedad le impidió continuar su viaje misionero hacia Marruecos. En Italia fue destinado a la predicación y a la enseñanza. Predicó en Italia y Francia y ejerció también el servicio de superior provincial. Murió cerca de Padua el 13 de junio de 1231. Fue canonizado por Gregorio IX en 1232 y en 1946 Pío XII lo proclamó Doctor de la Iglesia con el título de Doctor Evangélico."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Antonio de Padua, hermano franciscano y servidor de la Palabra de Dios, acompáñame durante estos nueve días. Enséñame a buscar a Dios con un corazón sincero, a escuchar su Palabra, a perseverar en la oración y a servir con caridad. Presento al Señor, por tu intercesión, la intención que llevo en mi corazón. Que esta novena me ayude a acercarme más a Jesucristo y a vivir con mayor fe y esperanza. Amén.",
+  "closingPrayer": "San Antonio de Padua, Doctor Evangélico, gracias por acompañarme durante esta novena. Ayúdame a conservar el deseo de buscar a Dios, escuchar su Palabra y vivirla con coherencia. Intercede por mis necesidades y por quienes necesitan consuelo, orientación o ayuda. Enséñame a servir con humildad y caridad y a confiar siempre en Jesucristo. Amén.",
+  "intentions": [
+    "Por quienes han perdido un objeto, un documento o algo importante y necesitan recuperarlo.",
+    "Por quienes sienten que han perdido la fe o desean volver a acercarse a Dios.",
+    "Por estudiantes, docentes y personas que buscan crecer en sabiduría y formación.",
+    "Por quienes anuncian el Evangelio, catequistas, misioneros y servidores de la Iglesia.",
+    "Por quienes atraviesan dificultades económicas, familiares o personales.",
+    "Por quienes necesitan orientación para tomar una decisión importante.",
+    "Por las personas que sufren soledad, angustia o desánimo.",
+    "Por la Iglesia y por quienes trabajan al servicio de la evangelización.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 10,1-9"
+      },
+      {
+        "reference": "Mateo 5,13-16"
+      },
+      {
+        "reference": "Isaías 61,1-3"
+      }
+    ],
+    "documents": [
+      "Audiencia general de Benedicto XVI sobre San Antonio de Padua",
+      "Doctor Evangelico — Pío XII, 1946"
+    ],
+    "related": [
+      "San Francisco de Asís",
+      "Orden de los Frailes Menores",
+      "Basílica de San Antonio de Padua"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general del 10 de febrero de 2010: San Antonio de Padua",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2010/documents/hf_ben-xvi_aud_20100210.html",
+      "type": "official"
+    },
+    {
+      "title": "San Antonio de Padua, Doctor de la Iglesia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/pius-xii/la/apost_letters/documents/hf_p-xii_apl_19460116_antonio-di-padova.html",
+      "type": "official"
+    },
+    {
+      "title": "Visita pastoral a Padua: Santa Misa en la Basílica de San Antonio",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/homilies/1982/documents/hf_jp-ii_hom_19820912_padova.html",
+      "type": "official"
+    },
+    {
+      "title": "Basílica de San Antonio de Padua",
+      "organization": "Basílica de San Antonio de Padua",
+      "url": "https://www.santantonio.org/es",
+      "type": "official"
+    },
+    {
+      "title": "Help me find — Saint Anthony of Padua",
+      "organization": "Basílica de San Antonio de Padua",
+      "url": "https://www.santantonio.org/en/content/help-me-find",
+      "type": "official"
+    },
+    {
+      "title": "Memoria de San Antonio de Padua",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://bible.usccb.org/es/bible/lecturas/061316.cfm",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La búsqueda de Dios",
+      "title": "Un joven que buscó al Señor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Fernando nació en Lisboa alrededor de 1195. Desde joven ingresó en la vida religiosa y recibió una formación profunda en la Sagrada Escritura y la enseñanza de la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual comienza con una búsqueda sincera. Antonio cultivó el estudio y la oración antes de asumir grandes responsabilidades."
+      },
+      "virtue": "Búsqueda de Dios",
+      "reflection": "¿Qué lugar ocupan la oración y la Palabra de Dios en mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan a Dios y atraviesan dudas o alejamiento de la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, ayúdame a buscar a Dios con un corazón sincero y a crecer en la fe. Amén."
+      },
+      "action": "Dedica hoy unos minutos a leer un pasaje del Evangelio en silencio."
+    },
+    {
+      "day": 2,
+      "theme": "La formación",
+      "title": "La Palabra de Dios como alimento",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Antonio estudió la Sagrada Escritura y a los Padres de la Iglesia. Esa formación fue fundamental para su posterior ministerio de enseñanza y predicación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Aprender la fe también es una forma de buscar a Dios. La formación cristiana ayuda a comprender mejor el Evangelio y vivirlo."
+      },
+      "virtue": "Sabiduría",
+      "reflection": "¿Qué aspecto de mi fe necesito conocer mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, docentes, catequistas y quienes buscan crecer en sabiduría."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, maestro de la Palabra, ayúdame a aprender con humildad y a poner mis conocimientos al servicio del bien. Amén."
+      },
+      "action": "Aprende hoy algo nuevo relacionado con tu fe y compártelo con alguien."
+    },
+    {
+      "day": 3,
+      "theme": "La vocación",
+      "title": "De Fernando a Antonio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1220, el testimonio de los primeros mártires franciscanos despertó en Fernando el deseo de una entrega más radical. Ingresó en los Frailes Menores y tomó el nombre de Antonio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación puede tomar caminos que no habíamos previsto. Discernir exige escuchar, orar y estar disponibles para cambiar de rumbo."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Hay alguna llamada al servicio que estoy evitando?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan discernir su vocación y por quienes se preparan para servir."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, enséñame a escuchar las llamadas de Dios con libertad y generosidad. Amén."
+      },
+      "action": "Identifica una responsabilidad o servicio que puedas asumir con mayor generosidad."
+    },
+    {
+      "day": 4,
+      "theme": "La providencia",
+      "title": "Cuando el camino cambia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Antonio deseaba partir hacia Marruecos para anunciar el Evangelio, pero una enfermedad se lo impidió. Regresó y terminó en Italia, donde se abrió un camino diferente hacia su misión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No todos nuestros planes salen como esperamos. La fe nos ayuda a buscar un camino nuevo cuando una puerta se cierra."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué plan frustrado necesito entregar hoy a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan cambios inesperados, enfermedades o proyectos frustrados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, acompaña a quienes ven cambiar sus planes y ayúdanos a confiar en Dios. Amén."
+      },
+      "action": "Ante una dificultad concreta, busca una forma de convertirla en oportunidad para hacer el bien."
+    },
+    {
+      "day": 5,
+      "theme": "La predicación",
+      "title": "Anunciar el Evangelio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Antonio fue llamado a predicar y desarrolló una intensa actividad apostólica en Italia y Francia. Su preparación bíblica y teológica estuvo al servicio del anuncio del Evangelio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar también es dar testimonio mediante nuestras decisiones y obras. Las palabras necesitan estar acompañadas por una vida coherente."
+      },
+      "virtue": "Celo apostólico",
+      "reflection": "¿Cómo puedo dar hoy testimonio de mi fe sin imponerla?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, catequistas, misioneros y evangelizadores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, ayúdame a ser testigo de Cristo con palabras y acciones, con sabiduría y caridad. Amén."
+      },
+      "action": "Haz hoy una obra concreta de caridad sin buscar reconocimiento."
+    },
+    {
+      "day": 6,
+      "theme": "La enseñanza",
+      "title": "La fe que se estudia y se comparte",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Antonio fue uno de los primeros maestros de teología de los Frailes Menores. San Francisco reconoció su capacidad para enseñar teología a los frailes."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede crecer cuando aprendemos a comprenderla y compartirla. El conocimiento cristiano está llamado al servicio de la verdad y de los demás."
+      },
+      "virtue": "Humildad intelectual",
+      "reflection": "¿Uso lo que sé para servir o para sentirme superior?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enseñan, estudian y forman a otros."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, enséñame a aprender con humildad y a compartir lo que sé con paciencia. Amén."
+      },
+      "action": "Ayuda hoy a alguien a comprender algo que sabes, sin esperar reconocimiento."
+    },
+    {
+      "day": 7,
+      "theme": "La oración",
+      "title": "El silencio que abre el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En sus Sermones, Antonio presenta la oración como una relación de amor con Dios y enseña la importancia del silencio interior para liberarse de las distracciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El silencio cristiano también es interior: permite ordenar las preocupaciones y abrir el corazón a Dios. La oración incluye pedir y dar gracias."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué preocupaciones me impiden estar presente ante Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven ansiedad, preocupación o cansancio interior."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, enséñame a entrar en el silencio interior y a presentar mis necesidades a Dios con confianza y gratitud. Amén."
+      },
+      "action": "Reserva hoy diez minutos sin teléfono ni distracciones para la oración."
+    },
+    {
+      "day": 8,
+      "theme": "La caridad",
+      "title": "La fe que se convierte en servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La predicación de Antonio buscaba acercar a las personas a la vida cristiana. La tradición de su santuario conserva una fuerte memoria de su intercesión ante necesidades concretas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe madura cuando se transforma en caridad. Pedir la intercesión de un santo también puede llevarnos a imitar su disposición para ayudar."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de otra persona puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen necesidades materiales o espirituales y por quienes los ayudan."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio, enséñame a reconocer las necesidades de quienes me rodean y a servir con generosidad. Amén."
+      },
+      "action": "Realiza hoy una ayuda concreta a una persona que la necesite."
+    },
+    {
+      "day": 9,
+      "theme": "La perseverancia",
+      "title": "Permanecer fiel hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Antonio continuó predicando y sirviendo a la Iglesia hasta sus últimos años. Murió cerca de Padua el 13 de junio de 1231. Fue canonizado en 1232 y proclamado Doctor de la Iglesia en 1946."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se forma mediante la fidelidad cotidiana. Antonio dejó el ejemplo de una vida entregada al estudio, la oración, la predicación y el servicio."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso bueno necesito mantener aunque desaparezca el entusiasmo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan perseverancia y por la intención particular de esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Antonio de Padua, Doctor Evangélico, acompáñame en la fe y ayúdame a perseverar cuando aparezcan dificultades. Amén."
+      },
+      "action": "Elige un compromiso espiritual sencillo que puedas mantener durante las próximas semanas."
+    }
+  ]
+}
