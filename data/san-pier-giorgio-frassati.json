@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  },
+  "saint": {
+    "id": "san-pier-giorgio-frassati",
+    "name": "San Pier Giorgio Frassati",
+    "title": "Laico dominico y testigo de la caridad",
+    "subtitle": "Joven de oración, amistad, servicio y alegría cristiana",
+    "feast": "4 de julio",
+    "place": "Turín, Italia",
+    "era": "1901–1925",
+    "description": "Joven laico italiano que vivió una intensa vida eucarística y de oración, sirvió a los pobres y enfermos, cultivó la amistad y el estudio, y encontró en la montaña una imagen de su camino hacia Dios.",
+    "quote": {
+      "text": "Hacia lo alto.",
+      "reference": "Inscripción escrita por Pier Giorgio Frassati en una fotografía tomada durante una de sus últimas ascensiones, citada por el papa León XIV en la homilía de canonización de 2025."
+    },
+    "patronages": [
+      "Jóvenes y jóvenes adultos, especialmente en la tradición de la Jornada Mundial de la Juventud",
+      "Montañeros y alpinistas, según la devoción y tradición asociadas a su testimonio",
+      "Estudiantes, según la devoción vinculada a su vida universitaria"
+    ],
+    "virtues": [
+      "Fe",
+      "Caridad",
+      "Oración",
+      "Amistad",
+      "Alegría",
+      "Humildad",
+      "Responsabilidad",
+      "Perseverancia",
+      "Esperanza"
+    ]
+  },
+  "novena": {
+    "days": 9,
+    "introduction": "Esta novena recorre algunos momentos y rasgos centrales de la vida de San Pier Giorgio Frassati: la fe recibida y cultivada desde joven, la Eucaristía, el servicio a los pobres, la amistad, el estudio, el compromiso cristiano en la sociedad, la montaña, la enfermedad y la esperanza. Su testimonio muestra que la santidad puede vivirse en la vida laical, en las responsabilidades ordinarias y en el servicio concreto a los demás.",
+    "calendarNote": "La memoria litúrgica de San Pier Giorgio Frassati se celebra el 4 de julio. En esta novena, el día 9 corresponde a esa fecha cuando se comienza ocho días antes."
+  },
+  "openingPrayer": {
+    "title": "Oración inicial",
+    "text": "Señor Jesús, queremos caminar durante estos nueve días junto a san Pier Giorgio Frassati. Enséñanos a buscarte en la Eucaristía, en la oración, en la amistad y en el servicio a quienes necesitan nuestra ayuda. Danos un corazón generoso, una fe viva y la valentía de orientar nuestra vida hacia lo alto. Por intercesión de san Pier Giorgio, ayúdanos a reconocer tu presencia en cada persona y a responder con amor a las necesidades que encontremos. Amén."
+  },
+  "commonPrayers": {
+    "ourFather": "Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. Amén.",
+    "hailMary": "Dios te salve, María, llena eres de gracia; el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.",
+    "gloryBe": "Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén."
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Una fe que crece en lo cotidiano",
+      "title": "Una juventud abierta a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pier Giorgio nació en Turín el 6 de abril de 1901, en una familia conocida de la ciudad. Desde pequeño recibió formación cristiana y fue creciendo en una vida de oración y sacramentos. A los diez años recibió la Primera Comunión y, durante su formación escolar, participó en iniciativas de espiritualidad y apostolado. La Santa Sede destaca que su fe se alimentó especialmente de la Eucaristía diaria, la oración y la confesión frecuente. Más tarde estudió Ingeniería Mecánica, con especialización en Ingeniería de Minas, en el Politécnico de Turín. Su historia no se presenta como la de una conversión provocada por un pecado concreto del que tuviera que apartarse. Su transformación fue más bien un crecimiento progresivo: aprender a poner a Cristo en el centro de sus decisiones y a convertir la fe recibida en una vida concreta de servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual no comienza solamente después de una gran crisis. También puede crecer poco a poco, mediante la oración, los sacramentos, el estudio y las decisiones diarias."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué lugar ocupa Dios en mis decisiones ordinarias? ¿Hay alguna práctica sencilla de oración que necesite recuperar o fortalecer?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes que buscan su camino, para que encuentren personas y comunidades que los ayuden a crecer en la fe y en la responsabilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio Frassati, enséñanos a crecer en la fe sin separar nuestra vida cotidiana de Dios. Ayúdanos a buscar a Cristo con sinceridad y a vivir con responsabilidad nuestra etapa de vida. Ruega por nosotros para que aprendamos a reconocer la presencia de Dios en las pequeñas decisiones de cada día. Amén."
+      },
+      "action": "Reserva hoy unos minutos de silencio para hablar con Dios sobre una decisión concreta que estés viviendo."
+    },
+    {
+      "day": 2,
+      "theme": "La Eucaristía como centro",
+      "title": "Encontrar a Cristo en la oración",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Eucaristía ocupó un lugar central en la vida de Pier Giorgio. La documentación de la Santa Sede señala su participación frecuente en la Misa, la adoración eucarística y la confesión. También rezaba el Rosario y buscaba alimentar su fe mediante la lectura espiritual. Para él, la oración no estaba separada de la caridad: el encuentro con Cristo en la Eucaristía impulsaba su encuentro con las personas necesitadas. Esta unión entre contemplación y acción fue una característica constante de su vida laical."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración cristiana no es una pausa aislada de la vida. Puede convertirse en la fuente desde la cual aprendemos a mirar a los demás con mayor atención y misericordia."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Mi oración me ayuda a reconocer las necesidades de quienes están cerca de mí? ¿Qué puedo hacer para cuidar mejor mi vida espiritual?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes han dejado de orar o se sienten lejos de Dios, para que encuentren nuevamente un camino de confianza y esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio, amigo de Cristo en la Eucaristía y en la oración, ayúdanos a buscar al Señor con un corazón sincero. Enséñanos a dejar que la oración transforme nuestra manera de vivir, de estudiar, de trabajar y de relacionarnos con los demás. Ruega por nosotros para que nuestra fe se traduzca en obras de amor. Amén."
+      },
+      "action": "Dedica hoy un momento especial a la oración; si puedes, participa en la Eucaristía o realiza un momento de adoración."
+    },
+    {
+      "day": 3,
+      "theme": "La caridad concreta",
+      "title": "Servir a los pobres y enfermos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante sus años de estudiante, Pier Giorgio participó en las Conferencias de San Vicente de Paúl y dedicó buena parte de su tiempo libre a visitar familias pobres. La Santa Sede recuerda que ayudaba a los más necesitados incluso con sacrificios personales y que sus amigos lo veían recorrer las calles de Turín llevando ayuda. Su servicio no fue una actividad ocasional: estaba unido a su vida de oración y a su comprensión de la caridad cristiana. En la homilía de canonización de 2025, el papa León XIV recordó que Pier Giorgio veía en los pobres y enfermos una luz que no encontraba de la misma manera en otros lugares."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad puede comenzar con acciones sencillas: escuchar, visitar, compartir, acompañar y reconocer la dignidad de quien atraviesa una necesidad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Hay alguien cerca de mí que necesite ayuda y a quien estoy pasando por alto? ¿Puedo ofrecer tiempo, escucha o una ayuda concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que viven en pobreza, enfermedad, soledad o abandono, y por quienes trabajan para acompañarlas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio, que encontraste a Cristo en el rostro de los pobres y enfermos, enséñanos a no ser indiferentes ante el sufrimiento. Danos generosidad para compartir lo que tenemos y humildad para servir sin buscar reconocimiento. Ruega por quienes hoy necesitan una mano amiga. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia o servicio sin anunciarla ni buscar reconocimiento."
+    },
+    {
+      "day": 4,
+      "theme": "Responsabilidad y estudio",
+      "title": "La santidad también se estudia y se trabaja",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pier Giorgio fue estudiante de Ingeniería de Minas en el Politécnico de Turín. No vivió su formación académica como algo separado de su fe. En medio de sus estudios participó en asociaciones católicas, cultivó amistades y mantuvo su compromiso con los pobres. También procuró profundizar intelectualmente en su fe y, en sus últimos meses, se interesó especialmente por el pensamiento de santo Tomás de Aquino. Su ejemplo muestra a un joven que intentó integrar estudio, oración, amistad y servicio, sin reducir la vida cristiana a una sola actividad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cumplir bien nuestras responsabilidades también puede formar parte de una vida cristiana. El estudio y el trabajo pueden convertirse en espacios de disciplina, servicio y crecimiento."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Estoy tratando mis estudios o mi trabajo como una responsabilidad que puede servir a los demás? ¿Qué hábito necesito mejorar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, trabajadores y personas que buscan una profesión, para que puedan desarrollar sus capacidades con honestidad y sentido de servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio, estudiante y joven comprometido con sus responsabilidades, ayúdanos a trabajar con honestidad y perseverancia. Enséñanos a desarrollar nuestros talentos sin olvidar a quienes necesitan nuestra ayuda. Ruega para que sepamos unir fe, estudio, trabajo y servicio. Amén."
+      },
+      "action": "Completa hoy una tarea que hayas postergado y hazla con atención, responsabilidad y espíritu de servicio."
+    },
+    {
+      "day": 5,
+      "theme": "Amistad y fraternidad",
+      "title": "Caminar con otros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pier Giorgio fue conocido por su carácter alegre y por la importancia que daba a la amistad. Compartía con sus amigos el estudio, el deporte, las excursiones y la fe. Las montañas eran para él un lugar de encuentro: organizaba salidas con compañeros y las vinculaba con momentos de oración, conversación y vida cristiana. Como laico dominico, también animó a algunos amigos a acercarse a la espiritualidad de Santo Domingo. Su vida muestra que la amistad no era un entretenimiento separado de la fe, sino un espacio donde podía compartir convicciones, alegrías y responsabilidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una amistad sana ayuda a crecer. También puede ser un lugar donde aprendemos a escuchar, corregirnos con respeto, compartir la fe y acompañarnos en las dificultades."
+      },
+      "virtue": "Amistad",
+      "reflection": "¿Qué clase de amigo estoy siendo? ¿Mis relaciones me ayudan a crecer en el bien y ayudan también a otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras amistades, especialmente por quienes atraviesan soledad, conflictos o dificultades para relacionarse."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio, amigo alegre y generoso, ayúdanos a construir relaciones sanas y fieles. Enséñanos a estar presentes cuando alguien necesita compañía y a compartir con nuestros amigos aquello que nos ayuda a acercarnos a Dios. Amén."
+      },
+      "action": "Escribe o llama hoy a una persona que aprecias y pregúntale sinceramente cómo está."
+    },
+    {
+      "day": 6,
+      "theme": "Fe comprometida en la sociedad",
+      "title": "Un laico que no se desentendió del mundo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pier Giorgio participó activamente en asociaciones católicas de su tiempo, entre ellas Acción Católica, la Federación Universitaria Católica Italiana y las Conferencias de San Vicente de Paúl. También tuvo participación en la vida social y política de su país y experimentó dificultades a causa de sus compromisos en asociaciones católicas durante los años del fascismo. La Santa Sede ha destacado que para él la fe no era una devoción privada: su relación con Cristo lo impulsaba a asumir responsabilidades dentro de la sociedad y a servir especialmente a quienes estaban en situación de necesidad. Este compromiso debe entenderse en el contexto histórico de su época y sin reducir su testimonio a una actividad política concreta."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede llevarnos a asumir responsabilidades en nuestra comunidad. Servir al bien común también exige respeto, diálogo, responsabilidad y atención a quienes quedan al margen."
+      },
+      "virtue": "Compromiso",
+      "reflection": "¿Qué responsabilidad tengo en mi familia, estudio, trabajo o comunidad? ¿Estoy dispuesto a usar mis capacidades para el bien de otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan por el bien común, por comunidades más justas y por la dignidad de las personas vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio, que viviste tu fe también en medio de la sociedad, ayúdanos a no permanecer indiferentes ante las necesidades de nuestro entorno. Danos prudencia para actuar, valentía para defender la dignidad humana y humildad para servir sin buscar protagonismo. Amén."
+      },
+      "action": "Identifica una necesidad concreta de tu comunidad y piensa en una acción realista que puedas realizar o apoyar."
+    },
+    {
+      "day": 7,
+      "theme": "La montaña y la alegría",
+      "title": "Hacia lo alto",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pier Giorgio amaba la montaña y practicó actividades como el alpinismo y el esquí. Participó en asociaciones de montaña y organizaba excursiones con sus amigos. La montaña llegó a expresar una dimensión importante de su espiritualidad: caminar, afrontar el esfuerzo, compartir el camino y dirigir la mirada hacia una meta. En una fotografía de una de sus últimas ascensiones, tomada en el valle de Lanzo en 1925, escribió las palabras «Hacia lo alto». El papa León XIV presentó esta expresión en la canonización como una síntesis de su deseo de orientar la vida hacia Dios. La montaña, por tanto, no es solo un elemento decorativo de su iconografía: se convirtió en un símbolo de su camino espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Crecer requiere camino, esfuerzo y paciencia. También necesitamos aprender a disfrutar sanamente de la vida, agradecer, compartir con otros y mantener una dirección."
+      },
+      "virtue": "Alegría",
+      "reflection": "¿Hacia dónde estoy orientando mi vida? ¿Qué actividad sana me ayuda a agradecer, descansar y compartir con otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes que han perdido la esperanza o la alegría, para que encuentren caminos de amistad, propósito y encuentro con Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio, que encontrabas alegría en la amistad, en la montaña y en la vida de fe, enséñanos a caminar con esperanza. Ayúdanos a mantener los ojos puestos en Dios cuando el camino se haga difícil y a llevar a otros con nosotros hacia el bien. Amén."
+      },
+      "action": "Haz hoy una actividad sana que te ayude a recuperar la alegría y, si es posible, compártela con alguien."
+    },
+    {
+      "day": 8,
+      "theme": "Enfermedad y entrega",
+      "title": "Seguir amando en medio de la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1925, cuando tenía 24 años, Pier Giorgio enfermó gravemente y murió el 4 de julio en Turín. Su enfermedad fue breve y su muerte sorprendió a quienes lo rodeaban. La documentación de la Santa Sede recuerda que, aun cuando la enfermedad afectó su joven vida, no dejó de amar, ofrecerse a Dios y orar. Su muerte también puso de manifiesto la amplitud de su servicio: muchas de las personas que acudieron a sus funerales eran pobres a quienes había ayudado. La Iglesia no recuerda su enfermedad como el centro de su vida, sino como una última prueba en la que permaneció orientado hacia Dios y hacia los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No siempre podemos elegir las circunstancias que atravesamos, pero sí podemos buscar maneras de conservar la esperanza, pedir ayuda y permanecer unidos a quienes nos acompañan."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué dificultad estoy atravesando? ¿A quién puedo pedir ayuda y qué pequeño paso puedo dar hoy sin perder la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, por quienes los cuidan y por las familias que atraviesan momentos de sufrimiento o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio, acompaña a quienes sufren enfermedad y a quienes cuidan de ellos. Ruega para que reciban consuelo, atención y esperanza. Enséñanos a no huir del sufrimiento ajeno y a permanecer cerca de quienes necesitan compañía. Amén."
+      },
+      "action": "Acompaña hoy a una persona que esté enferma, sola o atravesando una dificultad; si no puedes visitarla, hazle saber que estás presente."
+    },
+    {
+      "day": 9,
+      "theme": "Vivir orientados hacia Dios",
+      "title": "Una vida que apunta hacia lo alto",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pier Giorgio murió en 1925, pero su testimonio continuó creciendo en la Iglesia. Fue beatificado por san Juan Pablo II en 1990 y canonizado por el papa León XIV el 7 de septiembre de 2025, junto con san Carlo Acutis. En la homilía de canonización, el Papa presentó a Pier Giorgio como un joven enamorado de Jesús, cuya fe se expresó en la oración, la amistad, la caridad y el compromiso social. Su iconografía contemporánea suele mostrarlo como un joven laico, acompañado por un rosario y por la montaña. La montaña recuerda su pasión por el alpinismo y, sobre todo, se ha convertido en un símbolo de su camino hacia Dios; el Rosario y la Eucaristía recuerdan las prácticas que alimentaron su vida espiritual. Estos signos ayudan a expresar su testimonio sin confundir los símbolos devocionales con hechos biográficos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no exige una vida apartada de las responsabilidades ordinarias. Podemos orientar hacia Dios nuestro estudio, trabajo, amistades, tiempo libre, servicio y decisiones."
+      },
+      "virtue": "Esperanza",
+      "reflection": "Si hoy tuviera que resumir hacia dónde quiero orientar mi vida, ¿qué pondría en el centro? ¿Qué decisión concreta puedo tomar para acercarme más a Dios y servir mejor a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Presenta a Dios tu intención personal y, además, pide por los jóvenes de tu familia, comunidad y país, para que encuentren caminos de fe, amistad, responsabilidad y esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pier Giorgio Frassati, joven amigo de Cristo, enséñanos a vivir con alegría, a buscar a Dios en la oración y la Eucaristía, a servir a los pobres y enfermos, y a caminar junto a nuestros amigos con generosidad. Ayúdanos a orientar nuestras capacidades y decisiones hacia el bien. Que, como tú, podamos mirar hacia lo alto sin abandonar las necesidades de quienes caminan a nuestro lado. Ruega por nosotros y acompaña nuestras intenciones. Amén."
+      },
+      "action": "Escribe una decisión concreta que quieras mantener después de terminar esta novena y colócala en un lugar donde puedas recordarla."
+    }
+  ],
+  "closingPrayer": {
+    "title": "Oración final",
+    "text": "Señor Jesús, te damos gracias por la vida de san Pier Giorgio Frassati y por el testimonio de una santidad vivida en la juventud, en la amistad, en el estudio, en la oración y en el servicio. Por su intercesión, ayúdanos a vivir nuestra fe con coherencia, a reconocer tu presencia en los pobres y enfermos y a orientar nuestras decisiones hacia el bien. Danos esperanza para continuar el camino y generosidad para acompañar a quienes encontramos. Que nuestra vida también pueda dirigirse hacia lo alto, buscando siempre tu voluntad. Amén."
+  },
+  "sources": [
+    {
+      "title": "Santa Misa y canonización de los beatos Pier Giorgio Frassati y Carlo Acutis",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/leo-xiv/es/homilies/2025/documents/20250907-omelia-frassati-acutis.html",
+      "type": "official"
+    },
+    {
+      "title": "Librito de la celebración de la canonización de Pier Giorgio Frassati y Carlo Acutis",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/libretti/2025/20250907-libretto-canonizzazione.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Beato dominico Pier Giorgio Frassati canonizado en 2025",
+      "organization": "Orden de Predicadores",
+      "url": "https://es.op.org/El-beato-dominico-Pier-Giorgio-Frassati-y-su-hermano-Jerome-fueron-canonizados-en-el-verano-de-2025./",
+      "type": "official"
+    },
+    {
+      "title": "Acción Católica trae las reliquias de San Pier Giorgio Frassati a Roma",
+      "organization": "Vatican News",
+      "url": "https://www.vaticannews.va/es/iglesia/news/2026-01/accion-catolica-reliquias-de-san-pier-giorgio-frassati-roma.html",
+      "type": "official"
+    },
+    {
+      "title": "San Pier Giorgio Frassati: iniciativas por los 125 años de su nacimiento",
+      "organization": "Archidiócesis de Turín",
+      "url": "https://www.diocesi.torino.it/site/san-pier-giorgio-frassati-iniziative-per-i-125-anni-dalla-nascita/",
+      "type": "official"
+    }
+  ]
+}
