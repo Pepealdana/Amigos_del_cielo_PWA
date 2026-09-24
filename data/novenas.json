@@ -608,5 +608,142 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-ignacio-de-loyola",
+    "slug": "san-ignacio-de-loyola",
+    "name": "San Ignacio de Loyola",
+    "title": "Presbítero y fundador de la Compañía de Jesús",
+    "subtitle": "Peregrino y maestro del discernimiento",
+    "category": "Santos",
+    "image": "assets/images/santos/san_ignacio_de_loyola.webp",
+    "file": "data/san-ignacio-de-loyola.json",
+    "description": "Caballero convertido en peregrino de Cristo, fundador de la Compañía de Jesús y autor de los Ejercicios Espirituales.",
+    "feast": {
+      "day": 31,
+      "month": 7,
+      "text": "31 de julio",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san ignacio",
+      "ignacio de loyola",
+      "jesuitas",
+      "compañía de jesus",
+      "ejercicios espirituales",
+      "discernimiento",
+      "vocacion",
+      "retiros",
+      "oracion",
+      "conversion",
+      "pamplona",
+      "manresa",
+      "paris",
+      "roma",
+      "servicio",
+      "estudio",
+      "jovenes"
+    ],
+    "interventions": [
+      {
+        "id": "conversion",
+        "label": "Conversión y cambio de vida",
+        "keywords": [
+          "conversion",
+          "cambio de vida",
+          "pecado",
+          "recomenzar",
+          "volver a dios"
+        ]
+      },
+      {
+        "id": "discernimiento",
+        "label": "Discernimiento y toma de decisiones",
+        "keywords": [
+          "discernimiento",
+          "decisiones",
+          "decidir",
+          "dudas",
+          "vocacion",
+          "eleccion",
+          "orientacion"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y servicio",
+        "keywords": [
+          "vocacion",
+          "llamado",
+          "servicio",
+          "mision",
+          "religioso",
+          "sacerdote",
+          "jesuita"
+        ]
+      },
+      {
+        "id": "estudio",
+        "label": "Estudio y formación",
+        "keywords": [
+          "estudio",
+          "estudiantes",
+          "universidad",
+          "formacion",
+          "aprendizaje",
+          "educacion"
+        ]
+      },
+      {
+        "id": "retiro-oracion",
+        "label": "Retiros y vida de oración",
+        "keywords": [
+          "retiro",
+          "ejercicios espirituales",
+          "oracion",
+          "meditacion",
+          "silencio",
+          "vida interior"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y búsqueda de propósito",
+        "keywords": [
+          "jovenes",
+          "juventud",
+          "proposito",
+          "sentido",
+          "futuro",
+          "camino"
+        ]
+      },
+      {
+        "id": "servicio",
+        "label": "Servicio a los demás",
+        "keywords": [
+          "servicio",
+          "ayudar",
+          "pobres",
+          "necesitados",
+          "justicia",
+          "reconciliacion"
+        ]
+      },
+      {
+        "id": "iglesia",
+        "label": "Iglesia y misión",
+        "keywords": [
+          "iglesia",
+          "mision",
+          "evangelizacion",
+          "papa",
+          "apostolado",
+          "comunidad"
+        ]
+      }
+    ]
   }
 ]
