@@ -1806,5 +1806,145 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-expedito",
+    "slug": "san-expedito",
+    "name": "San Expedito",
+    "title": "Mártir venerado en la tradición cristiana",
+    "subtitle": "Testimonio de decisión y fidelidad en la urgencia",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/san_expedito.webp",
+    "file": "data/san-expedito.json",
+    "description": "Figura de devoción popular asociada al martirio, a la decisión de no aplazar el bien y a las causas que requieren atención urgente.",
+    "feast": {
+      "day": 19,
+      "month": 4,
+      "text": "19 de abril",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san expedito",
+      "expedito",
+      "causas urgentes",
+      "causas justas",
+      "hoy",
+      "hodie",
+      "cras",
+      "mañana",
+      "procrastinacion",
+      "procrastinación",
+      "estudiantes",
+      "trabajo",
+      "enfermos",
+      "familia",
+      "juventud",
+      "juicios"
+    ],
+    "interventions": [
+      {
+        "id": "urgencias",
+        "label": "Necesidades urgentes y decisiones",
+        "keywords": [
+          "urgente",
+          "urgencia",
+          "urgencias",
+          "necesidad",
+          "decisión",
+          "decisiones",
+          "problema",
+          "hoy"
+        ]
+      },
+      {
+        "id": "procrastinacion",
+        "label": "Superar la postergación",
+        "keywords": [
+          "procrastinacion",
+          "procrastinación",
+          "postergar",
+          "aplazar",
+          "mañana",
+          "demora",
+          "pereza"
+        ]
+      },
+      {
+        "id": "trabajo",
+        "label": "Trabajo y dificultades laborales",
+        "keywords": [
+          "trabajo",
+          "empleo",
+          "desempleo",
+          "laboral",
+          "negocio",
+          "responsabilidad"
+        ]
+      },
+      {
+        "id": "estudio",
+        "label": "Estudio y responsabilidades",
+        "keywords": [
+          "estudio",
+          "estudiante",
+          "estudiantes",
+          "examen",
+          "tareas",
+          "universidad",
+          "colegio"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y necesidades del hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "matrimonio",
+          "problemas familiares"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "salud",
+          "dolor",
+          "hospital",
+          "sufrimiento"
+        ]
+      },
+      {
+        "id": "justicia",
+        "label": "Causas justas y conflictos",
+        "keywords": [
+          "justicia",
+          "juicio",
+          "juicios",
+          "proceso",
+          "conflicto",
+          "derechos",
+          "abogado"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y toma de decisiones",
+        "keywords": [
+          "jovenes",
+          "jóvenes",
+          "juventud",
+          "decisión",
+          "vocación",
+          "futuro"
+        ]
+      }
+    ]
   }
 ]
