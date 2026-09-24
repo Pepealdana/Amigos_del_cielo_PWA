@@ -40,6 +40,14 @@ function renderHistoria(novena) {
 
             )}
 
+            ${renderOracion(
+
+                "Historia ampliada",
+
+                novena.history.extended
+
+            )}
+
             <div class="divider"></div>
 
             ${renderPatronazgos(
