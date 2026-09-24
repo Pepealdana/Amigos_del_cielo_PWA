@@ -17,6 +17,9 @@ const APP_CONFIG = {
 
     autor: "Peter Aldana",
 
+    correoContacto:
+        "pepealdanagomez@hotmail.com",
+
     licencia: "MIT",
 
     idioma: "es",
