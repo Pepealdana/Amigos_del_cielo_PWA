@@ -56,7 +56,7 @@ async function cargarNovena(id) {
     }
 
     const ruta = "./" +
-        resumen.file.replace(/^\\.\\//, "");
+        resumen.file.replace("./", "");
 
     const response = await fetch(
         ruta,
