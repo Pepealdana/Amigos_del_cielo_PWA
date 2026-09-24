@@ -4,57 +4,30 @@
 ========================================== */
 
 const APP = {
-
     NAME: "Amigos del Cielo",
-
     VERSION: "1.0.0",
-
     AUTHOR: "Proyecto Amigos del Cielo"
-
 };
 
 const STORAGE_KEYS = {
-
     FAVORITES: "adc-favorites",
-
     PROGRESS: "adc-progress",
-
     SETTINGS: "adc-settings",
-
-    INTENTIONS: "adc-intentions"
-
+    INTENTIONS: "adc-intentions",
+    REMINDERS: "adc-reminders"
 };
 
 const ROUTES = {
-
     HOME: "inicio",
-
     LIBRARY: "biblioteca",
-
     FAVORITES: "favoritas",
-
     PROGRESS: "progreso",
-
     SETTINGS: "configuracion",
-
+    PARTICIPATE: "participa",
     ABOUT: "acerca"
-
 };
 
 const MONTHS = [
-
-    "enero",
-    "febrero",
-    "marzo",
-    "abril",
-    "mayo",
-    "junio",
-
-    "julio",
-    "agosto",
-    "septiembre",
-    "octubre",
-    "noviembre",
-    "diciembre"
-
+    "enero","febrero","marzo","abril","mayo","junio",
+    "julio","agosto","septiembre","octubre","noviembre","diciembre"
 ];
