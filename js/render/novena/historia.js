@@ -59,16 +59,18 @@ function renderHistoria(novena) {
             <div class="button-group">
 
                 <button
-                    class="btn-secondary"
-                    id="btn-volver-portada">
+                    class="btn btn-secondary"
+                    type="button"
+                    data-route="portada">
 
                     ← Volver
 
                 </button>
 
                 <button
-                    class="btn-primary"
-                    id="btn-comenzar-novena">
+                    class="btn btn-primary"
+                    type="button"
+                    data-action="start-novena">
 
                     Comenzar novena
 
