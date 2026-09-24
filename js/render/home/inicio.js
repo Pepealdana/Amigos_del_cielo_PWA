@@ -76,7 +76,7 @@ function renderInicio(catalogo = [], progreso = {}) {
 
     const porcentaje =
         continuidad
-            ? Math.min(100, Math.round((completados / 9) * 100))
+            ? Math.min(100, Math.round((completados / APP_CONFIG.diasNovena) * 100))
             : 0;
 
     const tituloSanto =
@@ -86,7 +86,7 @@ function renderInicio(catalogo = [], progreso = {}) {
 
     const textoContinuar =
         continuidad
-            ? `Día ${dia} de 9`
+            ? `Día ${dia} de ${APP_CONFIG.diasNovena}`
             : "Aún no has iniciado esta novena";
 
     return `
