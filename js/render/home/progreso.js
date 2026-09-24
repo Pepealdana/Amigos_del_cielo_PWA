@@ -73,13 +73,18 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 ? item.datos.completados.length
                                 : 0;
 
+                        const completada =
+                            item.datos?.completada === true;
+
                         const porcentaje =
-                            Math.min(
-                                100,
-                                Math.round(
-                                    (completados / total) * 100
-                                )
-                            );
+                            completada
+                                ? 100
+                                : Math.min(
+                                    100,
+                                    Math.round(
+                                        (completados / total) * 100
+                                    )
+                                );
 
                         return `
 
@@ -98,7 +103,9 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                     </h3>
 
                                     <p>
-                                        Día ${dia} de ${total}
+                                        ${completada
+                                            ? "Novena completada"
+                                            : `Día ${dia} de ${total}`}
                                     </p>
 
                                     <div class="progress-track"
@@ -116,9 +123,9 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 <button
                                     class="btn btn-primary continue-action"
                                     type="button"
-                                    data-action="continue-novena"
+                                    data-action="${completada ? "restart-novena" : "continue-novena"}"
                                     data-id="${escaparHTML(item.novena.id)}">
-                                    Continuar
+                                    ${completada ? "Volver a rezar" : "Continuar"}
                                 </button>
 
                             </article>
