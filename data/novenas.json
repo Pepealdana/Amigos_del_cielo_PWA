@@ -2869,5 +2869,119 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-teresa-de-avila",
+    "slug": "santa-teresa-de-avila",
+    "name": "Santa Teresa de Ávila",
+    "title": "Virgen y Doctora de la Iglesia",
+    "subtitle": "Maestra de oración y reformadora del Carmelo",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_teresa_de_avila.webp",
+    "file": "data/santa-teresa-de-avila.json",
+    "description": "Mística, escritora y reformadora del Carmelo, cuya vida une oración, amistad con Cristo, discernimiento y servicio a la Iglesia.",
+    "feast": {
+      "day": 15,
+      "month": 10,
+      "text": "15 de octubre",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa teresa",
+      "santa teresa de avila",
+      "santa teresa de jesus",
+      "teresa de ahumada",
+      "avila",
+      "carmelo",
+      "carmelitas descalzos",
+      "doctora de la iglesia",
+      "oracion",
+      "mística",
+      "reforma",
+      "camino de perfeccion",
+      "castillo interior",
+      "libro de la vida",
+      "san juan de la cruz"
+    ],
+    "interventions": [
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "oración",
+          "contemplacion",
+          "contemplación",
+          "silencio",
+          "vida espiritual",
+          "meditacion",
+          "meditación"
+        ]
+      },
+      {
+        "id": "discernimiento",
+        "label": "Discernimiento y decisiones",
+        "keywords": [
+          "discernimiento",
+          "vocacion",
+          "vocación",
+          "decisiones",
+          "llamado",
+          "voluntad de dios"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en tiempos de prueba",
+        "keywords": [
+          "esperanza",
+          "prueba",
+          "dificultad",
+          "desanimo",
+          "desánimo",
+          "fortaleza",
+          "perseverancia"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y relaciones",
+        "keywords": [
+          "familia",
+          "amistad",
+          "amistades",
+          "hogar",
+          "personas"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y servicio",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "servicio",
+          "iglesia",
+          "apostolado",
+          "mision",
+          "misión"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y búsqueda de sentido",
+        "keywords": [
+          "jovenes",
+          "jóvenes",
+          "juventud",
+          "estudiantes",
+          "sentido",
+          "futuro"
+        ]
+      }
+    ]
   }
 ]
