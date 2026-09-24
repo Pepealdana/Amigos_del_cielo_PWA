@@ -34,7 +34,22 @@ async function iniciarApp() {
 
         iniciarMonitorRecordatorios();
 
-        mostrarInicio();
+        const novenaSolicitada =
+            new URLSearchParams(
+                window.location.search
+            ).get("novena");
+
+        if (
+            novenaSolicitada &&
+            buscarNovenaPorId(
+                state.catalogo,
+                novenaSolicitada
+            )
+        ) {
+            abrirNovena(novenaSolicitada);
+        } else {
+            mostrarInicio();
+        }
 
     }
 
