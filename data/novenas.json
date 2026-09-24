@@ -3804,5 +3804,23 @@
     "status": "published",
     "category": "Santos",
     "description": "Religiosa francesa de la Visitación cuya vida de oración y sus experiencias místicas estuvieron vinculadas a la difusión de la devoción al Sagrado Corazón de Jesús."
+  },
+  {
+    "id": "santo-tomas-de-aquino",
+    "slug": "santo-tomas-de-aquino",
+    "name": "Santo Tomás de Aquino",
+    "title": "Presbítero y Doctor de la Iglesia",
+    "image": "assets/images/santos/santo_tomas_aquino.webp",
+    "feast": {
+      "day": 28,
+      "month": 1,
+      "text": "28 de enero",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "file": "data/santo-tomas-de-aquino.json",
+    "status": "published",
+    "category": "Santos",
+    "description": "Fraile dominico, sacerdote y Doctor de la Iglesia que unió estudio, contemplación y búsqueda de la verdad."
   }
 ]
