@@ -63,6 +63,12 @@ function obtenerCoincidenciasIntervencion(novena, texto) {
         });
 }
 
+function obtenerEtiquetasIntervencion(novena, texto) {
+    return obtenerCoincidenciasIntervencion(novena, texto)
+        .map(intervencion => intervencion.label)
+        .join(" · ");
+}
+
 function buscarNovenas(catalogo, texto) {
 
     if (!Array.isArray(catalogo)) {
