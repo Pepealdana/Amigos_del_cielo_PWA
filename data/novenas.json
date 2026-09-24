@@ -4899,5 +4899,143 @@
         ]
       }
     ]
+  },
+  {
+    "id": "virgen-del-carmen",
+    "slug": "virgen-del-carmen",
+    "name": "Virgen del Carmen",
+    "title": "Novena a Nuestra Señora del Carmen",
+    "subtitle": "Caminar con María hacia Cristo con oración, confianza y servicio",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/virgen_del_carmen.webp",
+    "file": "data/virgen-del-carmen.json",
+    "description": "Nueve días para contemplar a Nuestra Señora del Carmen como modelo de oración, escucha y entrega a Dios, y pedir su intercesión por las familias, los viajeros y quienes recorren caminos de servicio.",
+    "feast": {
+      "day": 16,
+      "month": 7,
+      "text": "16 de julio",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "virgen del carmen",
+      "nuestra señora del carmen",
+      "carmen",
+      "monte carmelo",
+      "carmelitas",
+      "escapulario",
+      "marineros",
+      "pescadores",
+      "conductores",
+      "transportadores",
+      "viajeros",
+      "familia",
+      "colombia"
+    ],
+    "interventions": [
+      {
+        "id": "familia",
+        "label": "Familia y hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "matrimonio"
+        ]
+      },
+      {
+        "id": "viajeros",
+        "label": "Conductores, viajeros y caminos",
+        "keywords": [
+          "conductor",
+          "conductores",
+          "viajero",
+          "viajeros",
+          "carretera",
+          "camino",
+          "transporte",
+          "transportadores"
+        ]
+      },
+      {
+        "id": "mar",
+        "label": "Marineros, pescadores y navegantes",
+        "keywords": [
+          "mar",
+          "marinero",
+          "marineros",
+          "pescador",
+          "pescadores",
+          "navegante",
+          "barco",
+          "río",
+          "rio"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "consuelo"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza y protección",
+        "keywords": [
+          "esperanza",
+          "proteccion",
+          "protección",
+          "miedo",
+          "angustia",
+          "peligro"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y vida consagrada",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "carmelitas",
+          "religiosos",
+          "religiosas",
+          "sacerdotes"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oracion",
+          "oración",
+          "contemplacion",
+          "contemplación",
+          "silencio",
+          "retiro"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "ayuda",
+          "pobres",
+          "necesitados",
+          "misericordia"
+        ]
+      }
+    ]
   }
 ]
