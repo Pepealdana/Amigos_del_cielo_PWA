@@ -29,14 +29,11 @@ function renderPortadaNovena(novena) {
 
         <section class="novena-page">
 
-            ${crearImagen(
-                novena.image,
-                novena.name
-            )}
+            ${renderImagenNovena(novena)}
 
-            ${crearTitulo(
-                escaparHTML(novena.name)
-            )}
+            <h2>
+                ${escaparHTML(novena.name)}
+            </h2>
 
             <p class="saint-subtitle">
                 ${escaparHTML(novena.subtitle || "")}
@@ -110,17 +107,25 @@ function renderPortadaNovena(novena) {
 
                 </button>
 
-                ${crearBotonSecundario(
-                    "Historia",
-                    "mostrarHistoria()"
-                )}
+                <button
+                    class="btn btn-secondary"
+                    type="button"
+                    data-route="historia">
 
-                ${crearBotonPrimario(
-                    estado?.estado === "en-curso"
+                    Historia
+
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-action="start-novena">
+
+                    ${estado?.estado === "en-curso"
                         ? `Continuar · Día ${estado.dia}`
-                        : "Comenzar Novena",
-                    "iniciarNovena()"
-                )}
+                        : "Comenzar Novena"}
+
+                </button>
 
             </div>
 
