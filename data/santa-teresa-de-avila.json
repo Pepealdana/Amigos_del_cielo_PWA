@@ -1,0 +1,443 @@
+{
+  "id": "santa-teresa-de-avila",
+  "slug": "santa-teresa-de-avila",
+  "name": "Santa Teresa de Ávila",
+  "title": "Virgen y Doctora de la Iglesia",
+  "subtitle": "Maestra de oración y reformadora del Carmelo",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_teresa_de_avila.webp",
+  "description": "Mística, escritora y reformadora del Carmelo, cuyo testimonio une oración, amistad con Cristo, discernimiento y servicio a la Iglesia.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-teresa-de-avila"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 15,
+    "month": 10,
+    "text": "15 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Nada te turbe, nada te espante; todo se pasa, Dios no se muda.",
+    "reference": "Santa Teresa de Jesús, poesía «Nada te turbe»; citada por Benedicto XVI en la Audiencia general del 2 de febrero de 2011."
+  },
+  "patronages": [
+    "Escritora y autora espiritual, según la tradición eclesial",
+    "España, como copatrona junto con Santiago, en el contexto de su patronazgo histórico"
+  ],
+  "virtues": [
+    "Fe",
+    "Oración",
+    "Humildad",
+    "Fortaleza",
+    "Discernimiento",
+    "Perseverancia",
+    "Caridad",
+    "Obediencia",
+    "Amistad con Cristo"
+  ],
+  "search": [
+    "santa teresa",
+    "santa teresa de avila",
+    "santa teresa de jesus",
+    "teresa de ahumada",
+    "avila",
+    "carmelo",
+    "carmelitas descalzos",
+    "doctora de la iglesia",
+    "oracion",
+    "mística",
+    "mística",
+    "reforma",
+    "camino de perfeccion",
+    "castillo interior",
+    "libro de la vida",
+    "san juan de la cruz"
+  ],
+  "interventions": [
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación",
+        "silencio",
+        "vida espiritual",
+        "meditacion",
+        "meditación"
+      ]
+    },
+    {
+      "id": "discernimiento",
+      "label": "Discernimiento y decisiones",
+      "keywords": [
+        "discernimiento",
+        "vocacion",
+        "vocación",
+        "decisiones",
+        "llamado",
+        "voluntad de dios"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en tiempos de prueba",
+      "keywords": [
+        "esperanza",
+        "prueba",
+        "dificultad",
+        "desanimo",
+        "desánimo",
+        "fortaleza",
+        "perseverancia"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y relaciones",
+      "keywords": [
+        "familia",
+        "amistad",
+        "amistades",
+        "hogar",
+        "personas"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y servicio",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "servicio",
+        "iglesia",
+        "apostolado",
+        "mision",
+        "misión"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y búsqueda de sentido",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "juventud",
+        "estudiantes",
+        "sentido",
+        "futuro"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Teresa de Ahumada nació en Ávila en 1515. Ingresó en el Carmelo a los 20 años y, después de un largo camino de oración y discernimiento, impulsó una reforma de la vida carmelita basada en la oración, la vida fraterna y una mayor austeridad. Fundó diecisiete Carmelos reformados y colaboró con san Juan de la Cruz en los comienzos del Carmelo Descalzo. Escritora de obras como Libro de la vida, Camino de perfección y Las moradas o Castillo interior, murió en Alba de Tormes en 1582. Fue canonizada en 1622 y proclamada Doctora de la Iglesia en 1970.",
+    "extended": "Teresa de Ahumada nació en Ávila, España, en 1515, en una familia numerosa. Desde niña mostró interés por la vida de los santos y por la entrega a Dios. Benedicto XVI, al presentar su figura, recordó que antes de los nueve años llegó a desear el martirio después de leer relatos de santos. Tras la muerte de su madre, cuando Teresa tenía unos doce años, recurrió a la Virgen pidiéndole que fuera su madre.\n\nEn su adolescencia experimentó cambios propios de su edad y también recibió influencias de lecturas que la alejaron temporalmente de la orientación espiritual de su infancia. Más tarde, durante su formación con las agustinas de Santa María de Gracia de Ávila, recuperó el interés por la oración y por los libros espirituales. A los veinte años ingresó en el monasterio carmelita de la Encarnación y tomó el nombre de Teresa de Jesús.\n\nPoco después sufrió una enfermedad muy grave que la dejó durante varios días en estado crítico. Su camino posterior estuvo marcado por una lucha interior que ella misma describe en su Libro de la vida. Durante años experimentó dificultades para perseverar en la oración y reconoció sus propias resistencias. En 1554, al contemplar una imagen de Cristo muy llagado, vivió una experiencia que describió como decisiva para su retorno más profundo a Dios. A partir de entonces se consolidó en ella un intenso camino de oración y vida interior.\n\nTeresa fue una mujer de oración, pero también una mujer de acción. Su experiencia espiritual la llevó a considerar necesaria una renovación de la vida carmelita. En 1562 fundó en Ávila el primer Carmelo reformado, dedicado a san José. Después emprendió numerosos viajes y fundaciones, llegando a establecer diecisiete Carmelos reformados. En este proceso contó con colaboradores y encontró en san Juan de la Cruz un compañero fundamental para la reforma del Carmelo.\n\nSu enseñanza espiritual quedó plasmada en obras como Libro de la vida, Camino de perfección, Las moradas o Castillo interior y Fundaciones. En ellas presenta la oración como una relación de amistad con Dios y desarrolla un camino de crecimiento interior. Su lenguaje procede de su propia experiencia y de su diálogo con maestros espirituales, teólogos y las grandes figuras de la tradición cristiana.\n\nLa vida de Teresa también estuvo marcada por dificultades, oposición, enfermedades y viajes exigentes. La reforma que impulsaba requirió discernimiento, obediencia y perseverancia. Ella no presentó la vida espiritual como ausencia de problemas, sino como un camino en el que la persona aprende a confiar cada vez más en Dios. Su conocida expresión «Nada te turbe» resume esta orientación de confianza, aunque forma parte de un poema y no de una fórmula aislada de contexto.\n\nTeresa murió en Alba de Tormes la noche del 15 de octubre de 1582, mientras continuaba vinculada a la obra de sus fundaciones. Fue beatificada en 1614 y canonizada en 1622. En 1970, Pablo VI la proclamó Doctora de la Iglesia, reconociendo la eminencia de su doctrina. Es una de las grandes maestras de la espiritualidad cristiana y una figura central de la tradición carmelita.\n\nSu iconografía suele representarla con el hábito carmelita, un libro y una pluma, aludiendo a sus escritos, y en ocasiones con un corazón atravesado por una flecha, relacionado con la tradición de su experiencia mística y la transverberación. Estos elementos pertenecen a la tradición artística y devocional y no deben confundirse con representaciones fotográficas de acontecimientos históricos."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nSanta Teresa de Jesús, maestra de oración y amiga de Cristo, acompáñanos durante estos nueve días. Enséñanos a buscar a Dios con sinceridad, a perseverar en la oración y a servir a la Iglesia con humildad. Presentamos nuestras intenciones y pedimos la gracia de crecer en fe, esperanza, caridad y confianza en Dios. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de Santa Teresa de Jesús. Enséñanos a vivir la oración como amistad contigo y a convertir esa amistad en servicio, paciencia y amor a los demás. Danos fortaleza para perseverar en las dificultades y sabiduría para discernir tu voluntad. Amén.",
+  "intentions": [
+    "Por quienes desean fortalecer su vida de oración y su relación con Dios.",
+    "Por quienes atraviesan dudas y necesitan discernir una decisión importante.",
+    "Por quienes viven dificultades, enfermedades o períodos de desánimo.",
+    "Por las familias y comunidades que necesitan crecer en diálogo, paciencia y caridad.",
+    "Por quienes buscan su vocación y desean descubrir cómo servir mejor.",
+    "Por quienes trabajan por la renovación y el bien de la Iglesia.",
+    "Por escritores, educadores y quienes transmiten la fe mediante la palabra.",
+    "Por quienes viven una etapa de silencio o sequedad espiritual.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Lucas 10,38-42"
+      },
+      {
+        "reference": "Mateo 6,5-13"
+      },
+      {
+        "reference": "Salmo 27,7-14"
+      }
+    ],
+    "documents": [
+      "Libro de la vida",
+      "Camino de perfección",
+      "Las moradas o Castillo interior",
+      "Fundaciones"
+    ],
+    "related": [
+      "San Juan de la Cruz",
+      "Orden del Carmen",
+      "Oración contemplativa"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general del 2 de febrero de 2011: Santa Teresa de Jesús",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2011/documents/hf_ben-xvi_aud_20110202.html",
+      "type": "official"
+    },
+    {
+      "title": "Multiformis Sapientia Dei — Proclamación de Santa Teresa de Ávila como Doctora de la Iglesia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/paul-vi/es/apost_letters/documents/hf_p-vi_apl_19700927_multiformis-sapientia.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía en la proclamación de Santa Teresa de Jesús como Doctora de la Iglesia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/paul-vi/es/homilies/1970/documents/hf_p-vi_hom_19700927.html",
+      "type": "official"
+    },
+    {
+      "title": "Mensaje televisivo en el IV Centenario del tránsito de Santa Teresa de Jesús",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1982/october/documents/hf_jp-ii_spe_19821015_teresa-di-avila.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una niña que quiere conocer a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa nació en Ávila en 1515. Desde niña se interesó por las vidas de los santos y llegó a expresar, siendo muy pequeña, el deseo de entregar su vida a Dios. Tras la muerte de su madre, buscó en la Virgen una figura materna y protectora."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los deseos profundos necesitan crecer y madurar. La vida espiritual también es un camino de formación y discernimiento."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué deseo de bien y de Dios necesito cuidar y hacer crecer?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños y jóvenes que están descubriendo su vocación y sentido de vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, ayúdanos a conservar un corazón abierto a Dios y a aprender a discernir nuestros deseos con sabiduría. Amén."
+      },
+      "action": "Escribe una intención espiritual que quieras presentar hoy a Dios."
+    },
+    {
+      "day": 2,
+      "theme": "La vocación",
+      "title": "Elegir un camino de entrega",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "A los veinte años Teresa ingresó en el monasterio carmelita de la Encarnación de Ávila y tomó el nombre de Teresa de Jesús. Su entrada en la vida religiosa inició un camino largo de oración, formación y discernimiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación se descubre y madura con el tiempo. Las decisiones importantes requieren oración, consejo y responsabilidad."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Qué decisión de mi vida necesita más oración y serenidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo su vocación o una decisión importante."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, acompaña a quienes buscan su camino. Enséñanos a discernir con libertad, verdad y confianza en Dios. Amén."
+      },
+      "action": "Dedica unos minutos a pedir luz sobre una decisión concreta."
+    },
+    {
+      "day": 3,
+      "theme": "La prueba",
+      "title": "Perseverar cuando cuesta orar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa sufrió una enfermedad grave pocos años después de entrar en el Carmelo y atravesó períodos de dificultad interior. En sus escritos reconoció que durante años tuvo problemas para perseverar en la oración y que necesitó volver una y otra vez a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dificultad para orar no significa que todo esté perdido. La perseverancia puede consistir sencillamente en volver a comenzar."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué práctica buena he abandonado y puedo retomar con paciencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedad, cansancio o desánimo espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, acompaña a quienes sienten cansancio o dificultad. Enséñanos a volver a Dios con humildad cada vez que sea necesario. Amén."
+      },
+      "action": "Retoma hoy una práctica espiritual sencilla que hayas dejado."
+    },
+    {
+      "day": 4,
+      "theme": "El encuentro con Cristo",
+      "title": "Mirar a Cristo con un corazón nuevo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1554, al contemplar una imagen de Cristo muy llagado, Teresa vivió una experiencia que describió como decisiva en su camino espiritual. Desde entonces profundizó en una relación más intensa con Cristo y en la oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración cristiana no es una idea abstracta: tiene como centro a Cristo y puede transformar la manera en que miramos nuestra propia vida."
+      },
+      "virtue": "Amor a Cristo",
+      "reflection": "¿Qué significa para mí mirar a Cristo con sinceridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean acercarse nuevamente a Cristo y recuperar la esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñanos a mirar a Cristo con un corazón sincero y a descubrir en Él una fuente de esperanza y transformación. Amén."
+      },
+      "action": "Dedica hoy unos minutos a contemplar en silencio un crucifijo o una imagen de Cristo."
+    },
+    {
+      "day": 5,
+      "theme": "La oración",
+      "title": "Orar como quien trata con un amigo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa desarrolló una profunda enseñanza sobre la oración. En sus escritos la presenta como una relación de amistad con Dios y como un camino que transforma progresivamente a la persona."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración puede ser sencilla y constante. No se trata solamente de hablar, sino también de permanecer ante Dios y aprender a escuchar."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Cómo puedo hacer de la oración una relación más personal y perseverante?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean fortalecer su vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñanos a tratar con Dios con confianza y sinceridad. Ayúdanos a permanecer con Él incluso cuando no sentimos nada extraordinario. Amén."
+      },
+      "action": "Reserva diez minutos de silencio para estar ante Dios sin otras distracciones."
+    },
+    {
+      "day": 6,
+      "theme": "La reforma",
+      "title": "Una renovación nacida de la oración",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La experiencia espiritual de Teresa la llevó a impulsar una reforma del Carmelo. En 1562 fundó en Ávila el primer Carmelo reformado y posteriormente estableció otros conventos, buscando una vida marcada por la oración, la fraternidad y una mayor austeridad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La renovación verdadera comienza también por la propia vida. Cambiar algo para bien exige paciencia, diálogo, responsabilidad y perseverancia."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué aspecto de mi vida necesita una renovación concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia, las comunidades cristianas y quienes trabajan por su renovación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, danos fortaleza para mejorar lo que está en nuestras manos y humildad para hacerlo buscando siempre el bien. Amén."
+      },
+      "action": "Haz hoy un cambio concreto y pequeño que mejore tu manera de orar, trabajar o relacionarte."
+    },
+    {
+      "day": 7,
+      "theme": "Amistad y misión",
+      "title": "Caminar con otros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa contó con la amistad espiritual de numerosos cristianos y tuvo una relación especialmente importante con san Juan de la Cruz. Juntos participaron en la renovación del Carmelo, mientras ella continuaba sus fundaciones y escritos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual no se construye siempre en soledad. Las amistades sanas pueden ayudarnos a crecer, corregirnos y servir mejor."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué personas me ayudan a acercarme al bien y cómo puedo ser también una ayuda para ellas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras amistades, familias y comunidades, para que sean espacios de apoyo y crecimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, ayúdanos a construir amistades que acerquen a Dios y nos hagan más generosos, pacientes y responsables. Amén."
+      },
+      "action": "Agradece o ayuda hoy a una persona que haya sido importante en tu camino."
+    },
+    {
+      "day": 8,
+      "theme": "La perseverancia",
+      "title": "Nada te turbe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa afrontó viajes, enfermedades, dificultades y oposición mientras continuaba sus fundaciones. Su conocido poema «Nada te turbe» expresa una espiritualidad centrada en la confianza, la paciencia y la permanencia de Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La confianza cristiana no elimina los problemas. Ayuda a atravesarlos sin abandonar el bien ni perder de vista aquello que permanece."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué preocupación necesito poner hoy en manos de Dios sin abandonar mis responsabilidades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas y necesitan fortaleza para perseverar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñanos a confiar en Dios en medio de las dificultades y a conservar la paz mientras hacemos lo que nos corresponde. Amén."
+      },
+      "action": "Escribe una preocupación concreta y acompáñala con una acción responsable que sí puedas realizar."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Una vida entregada a la Iglesia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa murió en Alba de Tormes el 15 de octubre de 1582. Fue beatificada en 1614, canonizada en 1622 y proclamada Doctora de la Iglesia por Pablo VI en 1970. Sus escritos siguen siendo una referencia fundamental de la espiritualidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El legado de Teresa muestra que la oración y la acción pueden caminar juntas. Una relación profunda con Dios puede traducirse en servicio, responsabilidad y entrega a la Iglesia."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué práctica de oración o servicio quiero conservar después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes buscan una vida más cercana a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa de Jesús, acompáñanos en nuestro camino. Enséñanos a orar con sinceridad, a perseverar en las dificultades y a servir con alegría. Que nuestra vida pueda ser cada día una respuesta al amor de Dios. Amén."
+      },
+      "action": "Elige una práctica de oración y una acción de servicio que quieras mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
