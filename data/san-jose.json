@@ -365,10 +365,98 @@
     }
   ],
   "metadata": {
-    "version": "3.0",
+    "version": "3.1",
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
     "updated": "2026-09-23"
-  }
+  },
+  "interventions": [
+    {
+      "id": "trabajo-empleo",
+      "label": "Trabajo y empleo",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "desempleo",
+        "trabajador",
+        "trabajadores",
+        "oficio",
+        "profesion",
+        "sustento"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "matrimonio",
+        "padres",
+        "padre",
+        "madre",
+        "hijos",
+        "sagrada familia"
+      ]
+    },
+    {
+      "id": "migrantes-refugiados",
+      "label": "Migrantes y refugiados",
+      "keywords": [
+        "migrante",
+        "migrantes",
+        "refugiado",
+        "refugiados",
+        "desplazados",
+        "exiliados"
+      ]
+    },
+    {
+      "id": "necesidad-pobreza",
+      "label": "Necesidad y pobreza",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "necesidad",
+        "indigencia",
+        "carencia",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "enfermos-cuidadores",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "sufrimiento",
+        "afligidos",
+        "cuidados",
+        "cuidadores"
+      ]
+    },
+    {
+      "id": "moribundos",
+      "label": "Moribundos y buena muerte",
+      "keywords": [
+        "moribundo",
+        "moribundos",
+        "buena muerte",
+        "muerte",
+        "agonizantes"
+      ]
+    },
+    {
+      "id": "iglesia",
+      "label": "Iglesia",
+      "keywords": [
+        "iglesia",
+        "iglesia universal",
+        "pastores",
+        "vocaciones"
+      ]
+    }
+  ]
 }
