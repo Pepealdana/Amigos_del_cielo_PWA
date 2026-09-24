@@ -3822,5 +3822,23 @@
     "status": "published",
     "category": "Santos",
     "description": "Fraile dominico, sacerdote y Doctor de la Iglesia que unió estudio, contemplación y búsqueda de la verdad."
+  },
+  {
+    "id": "beata-clara-fey",
+    "slug": "beata-clara-fey",
+    "name": "Beata Clara Fey",
+    "title": "Virgen y fundadora de las Hermanas del Niño Jesús Pobre",
+    "image": "assets/images/santos/beata_clara_fey.webp",
+    "feast": {
+      "day": 8,
+      "month": 5,
+      "text": "8 de mayo",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "file": "data/beata-clara-fey.json",
+    "status": "published",
+    "category": "Beatas",
+    "description": "Fundadora de las Hermanas del Niño Jesús Pobre, dedicada a la educación y acompañamiento de niños y jóvenes necesitados."
   }
 ]
