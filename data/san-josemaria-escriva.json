@@ -1,0 +1,475 @@
+{
+  "id": "san-josemaria-escriva",
+  "slug": "san-josemaria-escriva",
+  "name": "San Josemaría Escrivá",
+  "title": "Presbítero y fundador del Opus Dei",
+  "subtitle": "La santidad en la vida ordinaria y el trabajo",
+  "category": "Santos",
+  "image": "assets/images/santos/san_jose_maria_escriva.webp",
+  "description": "Sacerdote español que enseñó a buscar a Dios en la vida cotidiana, el trabajo, la familia y las realidades ordinarias, y fundador del Opus Dei.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-josemaria-escriva"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 26,
+    "month": 6,
+    "text": "26 de junio",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "A ese Dios invisible lo encontramos en las cosas más visibles y materiales.",
+    "reference": "San Josemaría Escrivá, citado por san Juan Pablo II en la homilía de canonización, 6 de octubre de 2002."
+  },
+  "patronages": [
+    "Laicos llamados a vivir la santidad en medio de las realidades ordinarias, según el mensaje espiritual de San Josemaría.",
+    "Trabajo y vida profesional, como ámbitos de santificación cotidiana en su enseñanza."
+  ],
+  "virtues": [
+    "Fe",
+    "Oración",
+    "Trabajo",
+    "Humildad",
+    "Servicio",
+    "Alegría",
+    "Fidelidad",
+    "Caridad",
+    "Esperanza"
+  ],
+  "search": [
+    "san josemaria escriva",
+    "san josemaría escrivá",
+    "josemaria",
+    "josémaría",
+    "opus dei",
+    "santidad en la vida ordinaria",
+    "trabajo",
+    "familia",
+    "laicos",
+    "vocacion",
+    "oracion",
+    "rosario",
+    "sacerdote",
+    "evangelizacion",
+    "vida cotidiana",
+    "santificacion"
+  ],
+  "interventions": [
+    {
+      "id": "trabajo",
+      "label": "Trabajo y vida profesional",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "profesion",
+        "profesión",
+        "oficio",
+        "empresa",
+        "estudio",
+        "labor"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y propósito",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "proposito",
+        "propósito",
+        "discernimiento",
+        "camino"
+      ]
+    },
+    {
+      "id": "vida-ordinaria",
+      "label": "Santidad en la vida cotidiana",
+      "keywords": [
+        "vida cotidiana",
+        "vida ordinaria",
+        "santidad",
+        "santificacion",
+        "santificación",
+        "familia",
+        "hogar"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oracion",
+        "oración",
+        "misa",
+        "eucaristia",
+        "eucaristía",
+        "rosario",
+        "meditacion",
+        "meditación"
+      ]
+    },
+    {
+      "id": "laicos",
+      "label": "Vida cristiana de los laicos",
+      "keywords": [
+        "laicos",
+        "laico",
+        "apostolado",
+        "evangelizacion",
+        "evangelización",
+        "mundo",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y relaciones cotidianas",
+      "keywords": [
+        "familia",
+        "matrimonio",
+        "padres",
+        "hijos",
+        "hogar",
+        "amistad"
+      ]
+    },
+    {
+      "id": "dificultades",
+      "label": "Dificultades y perseverancia",
+      "keywords": [
+        "dificultad",
+        "prueba",
+        "sufrimiento",
+        "cruz",
+        "perseverancia",
+        "recomenzar"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio y caridad",
+      "keywords": [
+        "servicio",
+        "caridad",
+        "ayudar",
+        "pobres",
+        "necesitados",
+        "misericordia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Josemaría Escrivá de Balaguer nació en Barbastro, España, el 9 de enero de 1902. Fue ordenado sacerdote en 1925 y en 1928 fundó el Opus Dei. Su enseñanza puso especial énfasis en la llamada universal a la santidad y en encontrar a Dios en el trabajo, la familia y las ocupaciones ordinarias. Murió en Roma el 26 de junio de 1975 y fue canonizado por san Juan Pablo II el 6 de octubre de 2002.",
+    "extended": "Josemaría Escrivá nació en Barbastro, España, el 9 de enero de 1902. Creció en una familia católica y durante su adolescencia comenzó a experimentar una inquietud vocacional que marcaría toda su vida. No existe una conversión documentada provocada por un pecado concreto; su proceso fue más bien un despertar progresivo a una llamada de Dios y una profundización de la vida cristiana.\\n\\nUn episodio que él consideró decisivo ocurrió en Logroño durante el invierno de 1917-1918. Vio en la nieve las huellas de los pies descalzos de un carmelita. Aquella escena sencilla le produjo una fuerte impresión y despertó en él el deseo de entregarse a Dios. Decidió prepararse para el sacerdocio, primero en Logroño y después en el seminario de Zaragoza. La propia tradición biográfica de San Josemaría presenta estas huellas como un acontecimiento que ayudó a descubrir su vocación.\\n\\nFue ordenado sacerdote en 1925. Durante sus primeros años ejerció su ministerio en parroquias y en ambientes diversos, incluidos barrios pobres y grupos de estudiantes. El 2 de octubre de 1928, según su propio testimonio, comprendió con mayor claridad la misión que Dios le confiaba: promover entre cristianos de todas las condiciones la búsqueda de la santidad en medio del mundo. Así nació el Opus Dei, institución de la Iglesia dedicada a difundir esta llamada a la santidad en la vida ordinaria.\\n\\nUna de las características centrales de su enseñanza fue la santificación del trabajo. Para San Josemaría, las tareas profesionales, familiares y sociales no tenían que separarse de la relación con Dios. El trabajo realizado con competencia, responsabilidad y caridad podía convertirse en una ocasión de encuentro con Dios y de servicio a los demás. San Juan Pablo II destacó precisamente esta dimensión durante su canonización: la vida familiar, profesional y social puede formar una sola existencia vivida con Dios.\\n\\nLa oración ocupó también un lugar central. San Josemaría insistía en que el apostolado debía nacer de una vida interior profunda y de los sacramentos. La Eucaristía, la oración mental y la devoción a la Virgen, especialmente mediante el Rosario, acompañaron su camino espiritual. Su libro «Santo Rosario», publicado en 1934, muestra la importancia que concedía a la contemplación de los misterios de Cristo y de María.\\n\\nSu vida no estuvo exenta de dificultades. La muerte de su padre, las dificultades económicas familiares, los años de la Guerra Civil española y las incomprensiones que acompañaron el crecimiento de su labor apostólica fueron circunstancias en las que buscó perseverar en la misión recibida. En lugar de presentar estas experiencias como una historia de perfección sin obstáculos, su biografía permite mostrar un camino de confianza, trabajo, oración y recomienzo.\\n\\nEn su iconografía aparece habitualmente como sacerdote, con vestiduras clericales o celebrando la Misa. El libro puede aludir a sus numerosos escritos espirituales, mientras que el Rosario recuerda su profunda devoción mariana. En algunas representaciones aparece con los brazos abiertos o en actitud de conversación, una forma artística de expresar su cercanía pastoral y su enseñanza sobre llevar a Cristo a las realidades ordinarias. La imagen escultórica instalada en la Basílica de San Pedro lo representa revestido con ornamentos sacerdotales para celebrar la Misa y lleva una inscripción tomada de Juan 12,32, relacionada con su comprensión de la misión cristiana.\\n\\nSan Josemaría murió en Roma el 26 de junio de 1975. Fue beatificado por san Juan Pablo II el 17 de mayo de 1992 y canonizado por el mismo Papa el 6 de octubre de 2002. Su legado espiritual se centra en una idea sencilla y exigente: la santidad no está reservada a circunstancias extraordinarias, sino que puede buscarse en el trabajo, la familia, el estudio, las relaciones humanas, la oración y el servicio de cada día."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\nSeñor, ayúdanos, por intercesión de San Josemaría, a descubrir tu presencia en nuestra vida cotidiana. Enséñanos a trabajar con responsabilidad, a amar a nuestra familia, a servir a los demás y a convertir nuestras ocupaciones ordinarias en oportunidades para crecer en santidad. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de San Josemaría Escrivá. Ayúdanos a llevar nuestra fe a cada ambiente de nuestra vida. Que sepamos encontrarte en el trabajo, el estudio, la familia, la oración y el servicio. Danos perseverancia para recomenzar cuando fallemos y generosidad para buscar siempre el bien. Amén.",
+  "intentions": [
+    "Por quienes buscan descubrir su vocación y propósito.",
+    "Por estudiantes y trabajadores, para que realicen sus responsabilidades con sentido y dignidad.",
+    "Por las familias y los hogares que desean crecer en la fe.",
+    "Por los laicos que desean vivir su compromiso cristiano en la sociedad.",
+    "Por quienes atraviesan dificultades laborales o económicas.",
+    "Por quienes necesitan recuperar el hábito de la oración.",
+    "Por quienes tienen dificultades para perseverar en sus compromisos.",
+    "Por las personas que buscan servir a los demás desde su profesión.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Colosenses 3,17"
+      },
+      {
+        "reference": "Colosenses 3,23-24"
+      },
+      {
+        "reference": "Mateo 5,14-16"
+      },
+      {
+        "reference": "Romanos 12,1-2"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización de San Josemaría Escrivá, 6 de octubre de 2002."
+    ],
+    "related": [
+      "Santidad en la vida ordinaria",
+      "Trabajo",
+      "Vocación",
+      "Oración",
+      "Familia"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Canonización de Josemaría Escrivá de Balaguer",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20021006_index_escriva_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía de canonización, 6 de octubre de 2002",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2002/documents/hf_jp-ii_hom_20021006_escriva.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus de la canonización, 6 de octubre de 2002",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/2002/documents/hf_jp-ii_ang_20021006.html",
+      "type": "official"
+    },
+    {
+      "title": "Biografía de San Josemaría Escrivá",
+      "organization": "Opus Dei",
+      "url": "https://opusdei.org/es-cr/article/san-josemaria-escriva/",
+      "type": "reference"
+    },
+    {
+      "title": "Vocación de San Josemaría",
+      "organization": "Opus Dei",
+      "url": "https://opusdei.org/es-es/article/vocacion-de-san-josemaria/",
+      "type": "reference"
+    },
+    {
+      "title": "Fotos e iconografía de San Josemaría",
+      "organization": "Opus Dei",
+      "url": "https://opusdei.org/es/page/fotos-e-iconografia-de-san-josemaria/",
+      "type": "reference"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La llamada",
+      "title": "Escuchar una inquietud interior",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su adolescencia, Josemaría comenzó a percibir una llamada de Dios. Las huellas de un carmelita descalzo en la nieve de Logroño despertaron en él un deseo profundo de entrega y lo llevaron a prepararse para el sacerdocio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las vocaciones pueden comenzar con preguntas sencillas: qué quiere Dios de mí, para qué he recibido mis capacidades y cómo puedo servir."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué inquietud buena llevo tiempo sintiendo y debería presentar a Dios en la oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y propósito."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ilumina nuestro camino y ayúdanos a escuchar con libertad y confianza aquello a lo que nos llamas. Amén."
+      },
+      "action": "Dedica diez minutos a escribir qué dones tienes y cómo podrías ponerlos al servicio de los demás."
+    },
+    {
+      "day": 2,
+      "theme": "El sacerdocio",
+      "title": "Prepararse para servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Josemaría decidió prepararse para el sacerdocio y estudió en los seminarios de Logroño y Zaragoza. Fue ordenado sacerdote en 1925 y comenzó su ministerio en distintos ambientes."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una llamada necesita formación, paciencia y acompañamiento. No basta con sentir un deseo: hay que prepararse responsablemente para servir."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Estoy dispuesto a formarme y perseverar en aquello que considero una vocación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, seminaristas y por quienes se preparan para servir a la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, fortalece a quienes se preparan para servirte y dales fidelidad, humildad y alegría. Amén."
+      },
+      "action": "Ora hoy por un sacerdote o por una persona que esté discerniendo su vocación."
+    },
+    {
+      "day": 3,
+      "theme": "Una misión",
+      "title": "Descubrir que todos pueden ser santos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El 2 de octubre de 1928, Josemaría comprendió con mayor claridad la misión de fundar el Opus Dei y promover la llamada a la santidad en medio del mundo. Su mensaje se dirigió a cristianos de todas las condiciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no está reservada a una profesión, estado de vida o circunstancia extraordinaria. Cada persona puede buscar a Dios desde su propia realidad."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué aspecto de mi vida cotidiana necesito entregar más conscientemente a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los cristianos que buscan vivir su fe en medio de sus responsabilidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ayúdanos a descubrir que nuestra vida cotidiana también puede ser camino de santidad y servicio. Amén."
+      },
+      "action": "Elige una actividad cotidiana y realízala hoy con especial atención, responsabilidad y caridad."
+    },
+    {
+      "day": 4,
+      "theme": "El trabajo",
+      "title": "Santificar lo cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Una de las enseñanzas centrales de San Josemaría fue que el trabajo profesional y las tareas ordinarias pueden convertirse en medios de santificación. Para él, trabajar bien también podía ser una forma de servir a Dios y al prójimo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El valor espiritual de nuestro trabajo no depende solamente de su prestigio. Importan la responsabilidad, la competencia, la honestidad y el amor con que lo realizamos."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Cómo cambiaría mi manera de estudiar o trabajar si lo entendiera también como un servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por trabajadores, estudiantes y quienes buscan empleo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, bendice nuestro trabajo. Enséñanos a realizarlo con responsabilidad, honestidad y espíritu de servicio. Amén."
+      },
+      "action": "Realiza hoy una tarea que sueles hacer con desgano procurando hacerla con cuidado y generosidad."
+    },
+    {
+      "day": 5,
+      "theme": "La oración",
+      "title": "Encontrar a Dios en medio del día",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Josemaría enseñó que la vida interior debía acompañar todas las actividades. La oración, la Eucaristía y la devoción a la Virgen fueron elementos constantes de su camino espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no tiene que ser un espacio aislado de la vida. Puede ayudarnos a vivir nuestras responsabilidades con una mirada más consciente de Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué momento concreto de mi día puedo reservar para estar con Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar o profundizar su vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, enséñanos a encontrarte en medio de nuestras ocupaciones y a reservar cada día un tiempo para escucharte. Amén."
+      },
+      "action": "Haz hoy una pausa breve durante tu jornada para orar conscientemente por una persona que necesite ayuda."
+    },
+    {
+      "day": 6,
+      "theme": "La familia",
+      "title": "Amar en las relaciones de cada día",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Josemaría insistió en que la vida familiar y social no debía separarse de la vida espiritual. Para él, las relaciones cotidianas ofrecían numerosas oportunidades de practicar la caridad, la paciencia y el servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad también se prueba en casa: escuchar, pedir perdón, ayudar, cumplir responsabilidades y tratar con respeto a quienes conviven con nosotros."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona cercana necesita hoy más mi paciencia, escucha o ayuda?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y por quienes desean mejorar sus relaciones cotidianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, bendice nuestras familias. Enséñanos a servir con alegría, pedir perdón con humildad y amar con paciencia. Amén."
+      },
+      "action": "Haz hoy un gesto de servicio en casa sin esperar que te lo pidan."
+    },
+    {
+      "day": 7,
+      "theme": "La cruz",
+      "title": "Perseverar en las dificultades",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de San Josemaría estuvo marcada también por dificultades, pérdidas, incomprensiones y circunstancias históricas difíciles. Él enseñó que la cruz podía convertirse en un lugar de encuentro con Cristo y de crecimiento interior."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa ignorar el dolor. Significa seguir buscando el bien y la confianza en Dios incluso cuando el camino se vuelve difícil."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad estoy viviendo que necesita de mí paciencia y perseverancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas, pérdidas o dificultades prolongadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, acompaña a quienes sufren. Danos fortaleza para perseverar y humildad para pedir ayuda cuando la necesitemos. Amén."
+      },
+      "action": "Ante una dificultad concreta, decide hoy un pequeño paso responsable en lugar de quedarte solamente en la preocupación."
+    },
+    {
+      "day": 8,
+      "theme": "El servicio",
+      "title": "Llevar la fe a los ambientes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Josemaría dedicó gran parte de su vida a la formación espiritual de personas de distintas condiciones y enseñó a llevar la fe a los ambientes profesionales, familiares y sociales."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar no siempre significa hablar mucho. También significa actuar con honestidad, servicio, respeto y coherencia allí donde vivimos."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué ambiente de mi vida necesita hoy un testimonio más coherente de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los laicos que desean servir a Dios en su profesión y en la sociedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, haz que nuestras acciones hablen de tu amor. Ayúdanos a servir con humildad en cada ambiente donde nos encontremos. Amén."
+      },
+      "action": "Realiza hoy una obra de servicio en tu lugar de estudio, trabajo o comunidad."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Una vida ordinaria vivida con Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Josemaría murió en Roma el 26 de junio de 1975. Fue beatificado en 1992 y canonizado en 2002. San Juan Pablo II destacó en su canonización su enseñanza sobre una vida plenamente unida a Dios en medio de las realidades familiares, profesionales y sociales."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La novena termina invitándonos a continuar el camino: buscar a Dios no solamente en momentos extraordinarios, sino en las decisiones, trabajos, relaciones y responsabilidades de cada día."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué aspecto concreto de mi vida cotidiana quiero vivir desde ahora con mayor fe, responsabilidad y caridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la intención particular con la que realizo esta novena y por nuestra perseverancia en el camino cristiano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, por intercesión de San Josemaría, ayúdanos a encontrarte en nuestra vida cotidiana. Que nuestro trabajo, nuestra familia, nuestro estudio, nuestras relaciones y nuestro servicio sean caminos de amor a Ti y al prójimo. Amén."
+      },
+      "action": "Escribe un compromiso concreto para vivir tu fe en una actividad cotidiana y comienza a practicarlo hoy."
+    }
+  ]
+}
