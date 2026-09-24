@@ -25,7 +25,7 @@ function renderConfiguracion() {
     const notificacionesDisponibles =
         "Notification" in window;
 
-    return \`
+    return `
 
         <section class="page-shell">
 
@@ -68,13 +68,13 @@ function renderConfiguracion() {
                             Selecciona una novena
                         </option>
 
-                        \${state.catalogo.map(novena => \`
+                        ${state.catalogo.map(novena => `
                             <option
-                                value="\${escaparHTML(novena.id)}"
-                                \${novena.id === novenaSeleccionada ? "selected" : ""}>
-                                \${escaparHTML(novena.name)}
+                                value="${escaparHTML(novena.id)}"
+                                ${novena.id === novenaSeleccionada ? "selected" : ""}>
+                                ${escaparHTML(novena.name)}
                             </option>
-                        \`).join("")}
+                        `).join("")}
 
                     </select>
 
@@ -86,7 +86,7 @@ function renderConfiguracion() {
                         id="recordatorio-hora"
                         name="hora"
                         type="time"
-                        value="\${escaparHTML(hora)}"
+                        value="${escaparHTML(hora)}"
                         required>
 
                     <label class="setting-check">
@@ -94,7 +94,7 @@ function renderConfiguracion() {
                             id="recordatorio-activo"
                             name="activo"
                             type="checkbox"
-                            \${recordatorioActivo?.activo ? "checked" : ""}>
+                            ${recordatorioActivo?.activo ? "checked" : ""}>
                         <span>
                             Activar recordatorio
                         </span>
@@ -116,7 +116,7 @@ function renderConfiguracion() {
                 </p>
 
                 <p class="form-note">
-                    \${notificacionesDisponibles
+                    ${notificacionesDisponibles
                         ? "La aplicación solicitará permiso para mostrar notificaciones."
                         : "Este navegador no ofrece notificaciones web compatibles."
                     }
@@ -170,11 +170,11 @@ function renderConfiguracion() {
             </section>
 
             <p class="version">
-                Versión \${APP_CONFIG.version}
+                Versión ${APP_CONFIG.version}
             </p>
 
         </section>
 
-    \`;
+    `;
 
 }
