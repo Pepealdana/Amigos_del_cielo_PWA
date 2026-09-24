@@ -1231,3 +1231,25 @@ async function solicitarPersistenciaStorage() {
         return false;
     }
 }
+
+
+window.addEventListener("message", evento => {
+
+    if (
+        evento.data?.type !== "open-novena" ||
+        !evento.data?.novenaId
+    ) {
+        return;
+    }
+
+    if (
+        buscarNovenaPorId(
+            state.catalogo,
+            evento.data.novenaId
+        )
+    ) {
+        abrirNovena(
+            evento.data.novenaId
+        );
+    }
+});
