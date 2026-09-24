@@ -121,28 +121,53 @@ function sumarDias(fecha, cantidad) {
     return resultado;
 }
 
+function calcularPascua(anio) {
+    const a = anio % 19;
+    const b = Math.floor(anio / 100);
+    const c = anio % 100;
+    const d = Math.floor(b / 4);
+    const e = b % 4;
+    const f = Math.floor((b + 8) / 25);
+    const g = Math.floor((b - f + 1) / 3);
+    const h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4);
+    const k = c % 4;
+    const l = (32 + 2 * e + 2 * i - h - k) % 7;
+    const m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const mes = Math.floor((h + l - 7 * m + 114) / 31);
+    const dia = ((h + l - 7 * m + 114) % 31) + 1;
+    return crearFechaLocal(anio, mes, dia);
+}
+
 function obtenerFechaFestividad(fecha, anio = obtenerFechaActual().getFullYear()) {
+    if (!fecha) return null;
+
+    if (typeof fecha === "object" && fecha.movable === true) {
+        const tipo = String(fecha.type || fecha.key || "").toLowerCase();
+        const texto = String(fecha.text || "").toLowerCase();
+        const pascua = calcularPascua(anio);
+
+        if (tipo === "divina-misericordia" || texto.includes("ii domingo de pascua")) {
+            return sumarDias(pascua, 7);
+        }
+        if (tipo === "pentecostes" || texto.includes("pentecost")) {
+            return sumarDias(pascua, 49);
+        }
+        if (tipo === "sagrado-corazon" || texto.includes("sagrado corazón")) {
+            return sumarDias(pascua, 68);
+        }
+        if (tipo === "divino-nino" || texto.includes("primer domingo de septiembre")) {
+            const septiembre = crearFechaLocal(anio, 9, 1);
+            return sumarDias(septiembre, (7 - septiembre.getDay()) % 7);
+        }
+        return null;
+    }
+
     const datos = parsearFestividad(fecha);
-
-    if (!datos || datos.mes < 1 || datos.mes > 12) {
+    if (!datos || datos.mes < 1 || datos.mes > 12 || datos.dia < 1 || datos.dia > 31) {
         return null;
     }
-
-    const resultado = crearFechaLocal(
-        anio,
-        datos.mes,
-        datos.dia
-    );
-
-    /* Las festividades móviles requieren una fecha anual concreta. */
-    if (
-        typeof fecha === "object" &&
-        fecha.movable === true
-    ) {
-        return null;
-    }
-
-    return resultado;
+    return crearFechaLocal(anio, datos.mes, datos.dia);
 }
 
 function obtenerFechaInicioNovena(fecha, anio = obtenerFechaActual().getFullYear()) {
