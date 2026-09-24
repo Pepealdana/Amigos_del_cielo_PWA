@@ -2233,5 +2233,150 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-judas-tadeo",
+    "slug": "san-judas-tadeo",
+    "name": "San Judas Tadeo",
+    "title": "Apóstol y mártir",
+    "subtitle": "Testigo de Cristo y servidor de la esperanza",
+    "category": "Santos",
+    "image": "assets/images/santos/san_judas_tadeo.webp",
+    "file": "data/san-judas-tadeo.json",
+    "description": "Uno de los Doce Apóstoles de Jesús, recordado por su pregunta durante la última Cena y venerado como apóstol y mártir, especialmente en las causas difíciles.",
+    "feast": {
+      "day": 28,
+      "month": 10,
+      "text": "28 de octubre",
+      "liturgicalRank": "Fiesta",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san judas tadeo",
+      "judas tadeo",
+      "apostol",
+      "apóstol",
+      "martir",
+      "mártir",
+      "causas dificiles",
+      "causas difíciles",
+      "causas desesperadas",
+      "esperanza",
+      "fe",
+      "perseverancia",
+      "doce apostoles",
+      "doce apóstoles",
+      "ultima cena",
+      "última cena",
+      "carta de judas"
+    ],
+    "interventions": [
+      {
+        "id": "causas-dificiles",
+        "label": "Situaciones difíciles y causas urgentes",
+        "keywords": [
+          "difícil",
+          "dificil",
+          "desesperada",
+          "desesperado",
+          "urgente",
+          "problema",
+          "necesidad",
+          "imposible"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en tiempos de dificultad",
+        "keywords": [
+          "esperanza",
+          "desanimo",
+          "desánimo",
+          "angustia",
+          "tribulacion",
+          "tribulación",
+          "prueba",
+          "sufrimiento"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe y perseverancia cristiana",
+        "keywords": [
+          "fe",
+          "dudas",
+          "creer",
+          "perseverancia",
+          "fidelidad",
+          "cristo",
+          "jesus",
+          "Jesús"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y necesidades del hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "matrimonio",
+          "problemas familiares"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "hospital",
+          "dolor",
+          "sufrimiento"
+        ]
+      },
+      {
+        "id": "trabajo",
+        "label": "Trabajo y dificultades económicas",
+        "keywords": [
+          "trabajo",
+          "empleo",
+          "desempleo",
+          "negocio",
+          "economia",
+          "economía",
+          "deudas"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y decisiones importantes",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "llamado",
+          "decisión",
+          "decision",
+          "discernimiento",
+          "futuro"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y búsqueda de orientación",
+        "keywords": [
+          "jovenes",
+          "jóvenes",
+          "juventud",
+          "estudiantes",
+          "futuro",
+          "orientacion",
+          "orientación"
+        ]
+      }
+    ]
   }
 ]
