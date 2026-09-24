@@ -1395,5 +1395,132 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-camilo-de-lelis",
+    "slug": "san-camilo-de-lelis",
+    "name": "San Camilo de Lelis",
+    "title": "Presbítero y fundador de los Ministros de los Enfermos",
+    "subtitle": "Servidor de los enfermos y patrono de los hospitales",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/san_camilo_de_lelis.webp",
+    "file": "data/san-camilo-de-lelis.json",
+    "description": "Santo italiano que convirtió una vida marcada por las disipaciones en una vocación de servicio misericordioso a los enfermos, especialmente a los más necesitados.",
+    "feast": {
+      "day": 14,
+      "month": 7,
+      "text": "14 de julio",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san camilo",
+      "san camilo de lelis",
+      "camilo de lelis",
+      "camilos",
+      "enfermos",
+      "hospitales",
+      "enfermeros",
+      "personal sanitario",
+      "misericordia",
+      "conversion",
+      "caridad",
+      "crucifijo"
+    ],
+    "interventions": [
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "curacion"
+        ]
+      },
+      {
+        "id": "cuidadores",
+        "label": "Cuidadores y personal sanitario",
+        "keywords": [
+          "cuidadores",
+          "enfermeros",
+          "enfermeras",
+          "medicos",
+          "sanitarios",
+          "salud",
+          "hospital"
+        ]
+      },
+      {
+        "id": "conversion",
+        "label": "Conversión y cambio de vida",
+        "keywords": [
+          "conversion",
+          "cambio de vida",
+          "pecado",
+          "arrepentimiento",
+          "recomenzar"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y misericordia",
+        "keywords": [
+          "caridad",
+          "misericordia",
+          "compasion",
+          "ayudar",
+          "servicio",
+          "amor"
+        ]
+      },
+      {
+        "id": "acompanamiento",
+        "label": "Acompañamiento en el sufrimiento",
+        "keywords": [
+          "acompañamiento",
+          "soledad",
+          "consuelo",
+          "escucha",
+          "presencia"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y servicio",
+        "keywords": [
+          "vocacion",
+          "llamado",
+          "mision",
+          "servicio",
+          "religioso"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familias que cuidan a un enfermo",
+        "keywords": [
+          "familia",
+          "padres",
+          "hijos",
+          "cuidar",
+          "cuidados"
+        ]
+      },
+      {
+        "id": "fortaleza",
+        "label": "Fortaleza ante la enfermedad",
+        "keywords": [
+          "fortaleza",
+          "esperanza",
+          "paciencia",
+          "prueba",
+          "dolor"
+        ]
+      }
+    ]
   }
 ]
