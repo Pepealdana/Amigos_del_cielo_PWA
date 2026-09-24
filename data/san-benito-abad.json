@@ -1,0 +1,480 @@
+{
+  "id": "san-benito-abad",
+  "slug": "san-benito-abad",
+  "name": "San Benito Abad",
+  "title": "Abad y padre del monacato occidental",
+  "subtitle": "Patrono de Europa",
+  "category": "Santos",
+  "image": "assets/images/santos/san_benito_abad.webp",
+  "description": "Monje y abad que buscó a Dios en la oración, el trabajo y la vida comunitaria, y cuya Regla marcó profundamente la tradición monástica occidental.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-benito-abad"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝️"
+  },
+  "feast": {
+    "day": 11,
+    "month": 7,
+    "text": "11 de julio",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "No anteponer nada al amor de Cristo.",
+    "reference": "San Benito, Regla de los monjes, 4, 21"
+  },
+  "patronages": [
+    "Europa",
+    "Monjes y monjas benedictinos",
+    "Vida monástica"
+  ],
+  "virtues": [
+    "Búsqueda de Dios",
+    "Conversión",
+    "Obediencia",
+    "Humildad",
+    "Discernimiento",
+    "Oración",
+    "Trabajo",
+    "Caridad",
+    "Perseverancia"
+  ],
+  "search": [
+    "san benito",
+    "benito de nursia",
+    "benedictinos",
+    "abad",
+    "monjes",
+    "monjas",
+    "regla de san benito",
+    "ora et labora",
+    "oracion",
+    "trabajo",
+    "discernimiento",
+    "paz",
+    "europa",
+    "muerte feliz",
+    "tentaciones"
+  ],
+  "interventions": [
+    {
+      "id": "busqueda-de-dios",
+      "label": "Búsqueda de Dios y vida espiritual",
+      "keywords": [
+        "dios",
+        "busqueda",
+        "vida espiritual",
+        "oracion",
+        "silencio",
+        "contemplacion",
+        "discernimiento"
+      ]
+    },
+    {
+      "id": "disciplina-rutina",
+      "label": "Disciplina y hábitos de vida",
+      "keywords": [
+        "disciplina",
+        "habitos",
+        "rutina",
+        "orden",
+        "constancia",
+        "perseverancia",
+        "puntualidad"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y vida cotidiana",
+      "keywords": [
+        "trabajo",
+        "oficio",
+        "responsabilidad",
+        "tareas",
+        "vida cotidiana",
+        "estudio"
+      ]
+    },
+    {
+      "id": "familia-comunidad",
+      "label": "Familia, comunidad y convivencia",
+      "keywords": [
+        "familia",
+        "comunidad",
+        "convivencia",
+        "hermanos",
+        "respeto",
+        "perdon",
+        "paz"
+      ]
+    },
+    {
+      "id": "tentaciones",
+      "label": "Tentaciones y lucha espiritual",
+      "keywords": [
+        "tentacion",
+        "tentaciones",
+        "lucha espiritual",
+        "mal",
+        "fortaleza",
+        "cruz"
+      ]
+    },
+    {
+      "id": "vida-monastica",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "monje",
+        "monja",
+        "vida religiosa",
+        "consagracion",
+        "monasterio"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "conflicto",
+        "unidad",
+        "dialogo",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "buena-muerte",
+      "label": "Preparación para la muerte y esperanza",
+      "keywords": [
+        "muerte",
+        "buena muerte",
+        "moribundos",
+        "esperanza",
+        "agonia",
+        "vida eterna"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Benito nació en Nursia alrededor del año 480 y recibió sus primeros estudios en Roma. Insatisfecho con el ambiente que encontró allí, se retiró primero a Affile y después a la soledad de Subiaco, donde vivió cerca de tres años en una cueva. Con el tiempo reunió discípulos y fundó comunidades monásticas. Hacia el año 529 se estableció en Montecassino, donde escribió la Regla que orientaría la vida de sus monjes. Murió alrededor del año 547 y su legado se extendió ampliamente por Europa y por la Iglesia.",
+    "extended": "Benito nació en Nursia alrededor del año 480, en una época marcada por la transformación del mundo romano. Sus padres, según la tradición transmitida por san Gregorio Magno, pertenecían a una familia acomodada y lo enviaron a estudiar a Roma. Allí experimentó un rechazo profundo hacia el estilo de vida que veía a su alrededor y decidió apartarse antes de terminar sus estudios. Esta decisión fue una transformación importante: no se trató de una conversión provocada por un pecado concreto que las fuentes permitan identificar, sino de una búsqueda radical de Dios y de una voluntad de no dejarse arrastrar por aquello que consideraba contrario a la vida cristiana. Después de una breve estancia en Affile, se retiró a Subiaco, donde vivió aproximadamente tres años como eremita en una cueva. Según el relato de san Gregorio Magno, ese período estuvo marcado por una lucha interior contra tentaciones relacionadas con el orgullo, la sensualidad, la ira y el deseo de ponerse a sí mismo en el centro. La soledad fue así una etapa formativa: antes de guiar a otros, Benito tuvo que aprender a ordenar su propia vida. Después llegaron discípulos y comunidades. Benito organizó la vida monástica alrededor de la oración, la escucha, el trabajo, la disciplina, la obediencia y la convivencia fraterna. Más tarde se trasladó a Montecassino, donde dio forma a la Regla de los monjes, su obra escrita principal. La Regla no presenta una espiritualidad basada solamente en el aislamiento: regula una comunidad concreta, enseña al abad a escuchar, pide moderación y recuerda que el servicio a Dios se vive también en las tareas ordinarias. La tradición benedictina resumió posteriormente este espíritu con la expresión «ora et labora», mientras que la propia Regla insiste en poner el amor de Cristo por encima de todo. En la iconografía, Benito aparece habitualmente como abad, con hábito monástico, báculo y, en muchas representaciones, un libro que alude a su Regla. También puede aparecer con una cruz, una copa rota y un cuervo. Estos últimos elementos proceden de episodios narrados por san Gregorio Magno y de la tradición asociada posteriormente a la Medalla de San Benito: la copa recuerda el relato de un intento de envenenamiento que habría quedado frustrado por la señal de la cruz, y el cuervo recuerda el episodio de un pan envenenado que fue retirado. Estos elementos deben entenderse como parte de la tradición hagiográfica e iconográfica, no como símbolos cuyo origen esté documentado en la propia Regla. La cruz expresa además la centralidad de Cristo y la devoción de Benito a la Cruz. La Medalla de San Benito desarrolló posteriormente este conjunto de símbolos y se convirtió en un sacramental de amplia difusión; la propia Confederación Benedictina advierte que no debe usarse como amuleto ni atribuirle poderes mágicos. San Benito murió en Montecassino alrededor del año 547. En 1964, Pablo VI lo proclamó patrono principal de Europa, reconociendo la influencia histórica de su Regla y de la tradición benedictina en la vida espiritual y cultural del continente."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Benito Abad, buscador de Dios y maestro de vida monástica, acompáñame durante estos nueve días. Enséñame a ordenar mi vida, a escuchar con humildad, a perseverar en la oración y a realizar con responsabilidad las tareas que Dios pone en mi camino. Ayúdame a poner el amor de Cristo en el centro de mis decisiones y a buscar la paz en medio de las dificultades. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Benito Abad, gracias por acompañarme durante esta novena. Ayúdame a buscar a Dios con un corazón sincero, a vivir con orden y perseverancia, a trabajar con responsabilidad y a tratar a los demás con caridad. Intercede por las familias, las comunidades, quienes sienten tentaciones o dificultades y quienes han consagrado su vida a Dios. Que aprendamos a poner el amor de Cristo por encima de todo y a caminar hacia Él con esperanza. Amén.",
+  "intentions": [
+    "Por quienes desean ordenar su vida espiritual y volver a buscar a Dios con sinceridad.",
+    "Por quienes luchan contra tentaciones, hábitos desordenados o decisiones que les hacen daño.",
+    "Por estudiantes y trabajadores que necesitan disciplina, constancia y equilibrio.",
+    "Por las familias y comunidades que buscan vivir con respeto, paciencia y paz.",
+    "Por monjes, monjas, sacerdotes y todas las personas consagradas.",
+    "Por quienes deben tomar una decisión importante y necesitan discernimiento.",
+    "Por quienes viven conflictos y necesitan reconciliación y serenidad.",
+    "Por quienes acompañan a personas enfermas o cercanas a la muerte.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Proverbios 2,1-9"
+      },
+      {
+        "reference": "Mateo 19,27-29"
+      },
+      {
+        "reference": "Salmo 33,2-11"
+      }
+    ],
+    "documents": [
+      "Regla de los monjes",
+      "Diálogos de san Gregorio Magno, libro II"
+    ],
+    "related": [
+      "Santa Escolástica",
+      "Orden de San Benito",
+      "Monasterios benedictinos"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general del 9 de abril de 2008: San Benito de Nursia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080409.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 10 de julio de 2005",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/angelus/2005/documents/hf_ben-xvi_ang_20050710.html",
+      "type": "official"
+    },
+    {
+      "title": "Sanctorum Altrix — XV centenario del nacimiento de San Benito",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1980/documents/hf_jp-ii_apl_11071980_sanctorum-altrix.html",
+      "type": "official"
+    },
+    {
+      "title": "Memoria de San Benito, abad",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://bible.usccb.org/es/bible/lecturas/0711-memoria.cfm",
+      "type": "official"
+    },
+    {
+      "title": "La Medalla de San Benito",
+      "organization": "Confederación Benedictina / OSB",
+      "url": "https://osb.org/es/la-medalla-de-san-benito/",
+      "type": "official"
+    },
+    {
+      "title": "Historia de la tradición benedictina",
+      "organization": "Confederación Benedictina / OSB",
+      "url": "https://jubilee.osb.org/es/history",
+      "type": "official"
+    },
+    {
+      "title": "La Regla de San Benito — textos y traducciones",
+      "organization": "Confederación Benedictina / OSB",
+      "url": "https://osb.org/our-roots/the-rule/texts-and-translations-of-the-rule-of-saint-benedict/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La búsqueda de Dios",
+      "title": "Un joven que decidió apartarse",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Benito nació en Nursia alrededor del año 480 y fue enviado a estudiar a Roma. Según la tradición transmitida por san Gregorio Magno, quedó profundamente descontento con el ambiente que encontró y decidió retirarse antes de terminar sus estudios para buscar a Dios con mayor libertad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Buscar a Dios también puede exigirnos revisar ambientes, hábitos o prioridades que están alejándonos de lo que consideramos verdaderamente importante."
+      },
+      "virtue": "Búsqueda de Dios",
+      "reflection": "¿Qué ocupa hoy el centro de mi vida y qué necesito ordenar para buscar mejor a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean comenzar de nuevo su vida espiritual y necesitan claridad para tomar decisiones."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, enséñame a buscar a Dios con un corazón sincero. Ayúdame a reconocer aquello que me aparta de Él y dame valentía para ordenar mi vida. Amén."
+      },
+      "action": "Aparta hoy unos minutos de una actividad que normalmente ocupa tu tiempo y utilízalos para orar en silencio."
+    },
+    {
+      "day": 2,
+      "theme": "La soledad que forma",
+      "title": "Aprender en el silencio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de una breve estancia en Affile, Benito se retiró a Subiaco y vivió cerca de tres años en una cueva. La soledad no fue simplemente aislamiento: se convirtió en un tiempo de oración, lucha interior y maduración antes de comenzar a guiar a otros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El silencio puede ayudarnos a reconocer lo que ocurre dentro de nosotros. No siempre necesitamos más ruido o actividad; a veces necesitamos detenernos para escuchar."
+      },
+      "virtue": "Silencio interior",
+      "reflection": "¿Qué descubro de mí cuando dejo por un momento el ruido y las distracciones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven cansancio, confusión o exceso de preocupaciones y necesitan recuperar momentos de silencio y oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, enséñame a valorar el silencio que conduce a Dios. Que pueda detenerme, escuchar y reconocer con humildad lo que necesita cambiar en mi corazón. Amén."
+      },
+      "action": "Reserva diez minutos sin teléfono, música ni redes sociales para permanecer en silencio delante de Dios."
+    },
+    {
+      "day": 3,
+      "theme": "La lucha interior",
+      "title": "Vencer lo que desordena el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Gregorio Magno cuenta que durante su etapa de soledad Benito enfrentó diversas tentaciones. El relato destaca la lucha contra el orgullo, la sensualidad, la ira y el deseo de ponerse a sí mismo en el centro. Esta etapa fue presentada como una preparación para poder servir a otros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual no elimina automáticamente nuestras luchas. Aprender a reconocerlas y responder con decisiones concretas forma parte del crecimiento."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué tentación o reacción desordenada necesito reconocer sin justificarla?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes luchan contra hábitos, impulsos o decisiones que desean superar con la ayuda de Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, acompáñame en mis luchas interiores. Dame fortaleza para reconocer mis debilidades, pedir ayuda cuando la necesite y elegir el bien con perseverancia. Amén."
+      },
+      "action": "Identifica una situación que suele hacerte caer en un mal hábito y prepara una alternativa concreta para responder de otra manera."
+    },
+    {
+      "day": 4,
+      "theme": "La comunidad",
+      "title": "De la soledad al servicio de otros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de su experiencia como eremita, Benito comenzó a reunir discípulos y a organizar comunidades. Su camino mostró que la búsqueda de Dios podía vivirse también con otros, mediante una vida ordenada por la oración, la obediencia y la convivencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual no consiste solamente en lo que hacemos a solas. Aprendemos a amar, escuchar, perdonar y servir precisamente en relación con otras personas."
+      },
+      "virtue": "Caridad fraterna",
+      "reflection": "¿Qué necesita cambiar en mi manera de convivir con quienes comparten mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras familias, comunidades y lugares de estudio o trabajo, para que crezcan el respeto, la paciencia y la colaboración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, enséñame a vivir con otros sin encerrarme en mis propios intereses. Ayúdame a escuchar, respetar y servir con paciencia. Amén."
+      },
+      "action": "Realiza hoy una tarea que beneficie a otra persona sin esperar reconocimiento."
+    },
+    {
+      "day": 5,
+      "theme": "La Regla",
+      "title": "Un camino concreto para vivir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Montecassino, Benito dio forma a la Regla de los monjes. El texto organiza la vida comunitaria y aborda la oración, la obediencia, el trabajo, la autoridad del abad, la corrección y la convivencia. Su propuesta busca un equilibrio prudente y humano."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los buenos propósitos necesitan estructuras concretas. Un horario, una responsabilidad definida o una práctica sencilla pueden ayudarnos a convertir un deseo espiritual en una forma de vida."
+      },
+      "virtue": "Orden",
+      "reflection": "¿Qué aspecto de mi vida necesita una estructura más clara para que mis buenas intenciones se conviertan en hábitos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan recuperar orden y constancia en su vida personal, familiar, académica o laboral."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, ayúdame a ordenar mi tiempo y mis responsabilidades. Que el orden no sea una carga, sino una ayuda para vivir con mayor libertad y fidelidad. Amén."
+      },
+      "action": "Organiza una tarea importante de mañana en un horario concreto y cúmplelo."
+    },
+    {
+      "day": 6,
+      "theme": "Oración y trabajo",
+      "title": "Santificar lo cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición benedictina llegó a resumir su espíritu con la expresión «ora et labora». La Regla integra la oración comunitaria con el trabajo y las tareas necesarias para la vida del monasterio. Para Benito, buscar a Dios no significaba abandonar las responsabilidades ordinarias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración y el trabajo no tienen por qué competir. Las tareas cotidianas también pueden realizarse con responsabilidad, gratitud y sentido de servicio."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Cómo puedo realizar mis tareas de hoy con mayor atención y espíritu de servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, trabajadores, cuidadores y todas las personas que sostienen con su esfuerzo la vida de sus familias y comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, enséñame a trabajar con responsabilidad y a no separar mi vida cotidiana de mi relación con Dios. Que mis tareas sean también una forma de servicio. Amén."
+      },
+      "action": "Realiza una tarea cotidiana que suelas hacer con prisa, esta vez con atención y ofreciendo tu esfuerzo a Dios."
+    },
+    {
+      "day": 7,
+      "theme": "Escuchar y obedecer",
+      "title": "Aprender a recibir consejo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Regla pide al abad escuchar el consejo de los hermanos y recuerda que en ocasiones Dios puede revelar lo mejor por medio de quien tiene menos experiencia. La autoridad aparece así unida a la escucha y al servicio, no solamente al mando."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Escuchar de verdad requiere humildad. No siempre la respuesta que necesitamos viene de la persona que esperábamos, y aceptar un buen consejo puede ayudarnos a corregir el rumbo."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Me permito escuchar consejos aunque contradigan lo que ya había decidido?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen responsabilidades de liderazgo en sus familias, trabajos, comunidades y en la Iglesia, para que sepan escuchar y servir."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, líbrame del orgullo que me impide escuchar. Dame humildad para reconocer la verdad, recibir consejos y corregir cuando sea necesario. Amén."
+      },
+      "action": "Pide hoy una opinión sincera a una persona de confianza sobre un aspecto de tu vida que quieras mejorar."
+    },
+    {
+      "day": 8,
+      "theme": "La paz y la protección",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición benedictina conserva relatos sobre las pruebas y peligros que enfrentó Benito, entre ellos el episodio de la copa envenenada y el pan enviado por un enemigo. Estos relatos fueron transmitidos por san Gregorio Magno y quedaron ligados posteriormente a la iconografía y a la Medalla de San Benito. La cruz ocupa el centro de esta tradición."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción cristiana no convierte los objetos religiosos en amuletos. La cruz y los signos asociados a san Benito pueden recordarnos la confianza en Cristo, la necesidad de rechazar el mal y la perseverancia en el bien."
+      },
+      "virtue": "Confianza en Dios",
+      "reflection": "¿Qué dificultad necesito poner hoy en manos de Dios sin dejar de cumplir mi responsabilidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan conflictos, amenazas, tentaciones o situaciones que les generan miedo, para que encuentren apoyo, prudencia y esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito, acompáñame cuando tenga miedo o enfrente dificultades. Que la cruz de Cristo sea para mí una señal de esperanza y una llamada a permanecer firme en el bien. Amén."
+      },
+      "action": "Ante una preocupación concreta, escribe qué puedes hacer responsablemente y qué necesitas dejar en manos de Dios."
+    },
+    {
+      "day": 9,
+      "theme": "Perseverancia y legado",
+      "title": "Poner el amor de Cristo por encima de todo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Benito murió alrededor del año 547 en Montecassino. Su Regla continuó orientando generaciones de monjes y monjas y tuvo una amplia influencia en la historia de la Iglesia y de Europa. En 1964, Pablo VI lo proclamó patrono principal de Europa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se construye mediante decisiones repetidas y perseverantes. El legado de Benito no se explica solamente por una gran obra, sino por una forma de vida que puso la búsqueda de Dios, la comunidad, el trabajo y la oración en un mismo camino."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué práctica concreta de oración, orden, trabajo o servicio quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean perseverar en un cambio de vida, por las comunidades cristianas y por todas las intenciones presentadas durante estos nueve días."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Benito Abad, intercede por nosotros. Enséñanos a buscar a Dios con perseverancia, a vivir con orden y humildad, a trabajar con responsabilidad y a tratar a los demás con caridad. Que sepamos poner el amor de Cristo por encima de todo. Amén."
+      },
+      "action": "Elige una práctica concreta de oración, orden o servicio y comprométete a mantenerla durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
