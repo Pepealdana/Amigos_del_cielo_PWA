@@ -3,124 +3,128 @@
    Amigos del Cielo
 ========================================== */
 
-/**
- * Renderiza la portada principal
- * de una novena.
- *
- * @param {Object} novena
- * @returns {string}
- */
-
 function renderPortadaNovena(novena) {
 
-    return `
+    const estado =
+        obtenerEstadoNovena(novena?.feast);
+
+    const total =
+        Number(novena?.novena?.days) ||
+        APP_CONFIG.diasNovena;
+
+    let mensajeCalendario = "";
+
+    if (estado?.estado === "en-curso") {
+        mensajeCalendario =
+            \`Novena en curso · Día \${estado.dia} de \${total}\`;
+    } else if (estado?.estado === "proxima") {
+        mensajeCalendario =
+            \`Próximo inicio · \${formatearFechaLiturgica({
+                day: estado.inicio.getDate(),
+                month: estado.inicio.getMonth() + 1
+            })}\`;
+    }
+
+    return \`
 
         <section class="novena-page">
 
-            ${crearImagen(
-
+            \${crearImagen(
                 novena.image,
-
                 novena.name
-
             )}
 
-            ${crearTitulo(
-
-                novena.name
-
+            \${crearTitulo(
+                escaparHTML(novena.name)
             )}
 
             <p class="saint-subtitle">
-
-                ${novena.subtitle}
-
+                \${escaparHTML(novena.subtitle || "")}
             </p>
 
             <p class="saint-title">
-
-                ${novena.title}
-
+                \${escaparHTML(novena.title || "")}
             </p>
 
             <p class="saint-feast">
-
-                📅 ${novena.feast.text}
-
+                📅 \${escaparHTML(
+                    formatearFechaLiturgica(novena.feast)
+                )}
             </p>
+
+            \${mensajeCalendario ? \`
+                <p class="calendar-status">
+                    \${escaparHTML(mensajeCalendario)}
+                </p>
+            \` : ""}
 
             <p class="saint-description">
-
-                ${novena.description}
-
+                \${escaparHTML(novena.description || "")}
             </p>
 
-            ${crearDivider()}
+            \${novena.quote?.text ? \`
 
-            <blockquote class="saint-quote">
+                \${crearDivider()}
 
-                <p>
+                <blockquote class="saint-quote">
 
-                    "${novena.quote.text}"
+                    <p>
+                        "\${escaparHTML(novena.quote.text)}"
+                    </p>
 
-                </p>
+                    <footer>
+                        \${escaparHTML(
+                            novena.quote.reference || ""
+                        )}
+                    </footer>
 
-                <footer>
+                </blockquote>
 
-                    ${novena.quote.reference}
+            \` : ""}
 
-                </footer>
+            \${Array.isArray(novena.patronages)
+                ? renderListaSeccion(
+                    "Patronazgos",
+                    novena.patronages.map(escaparHTML)
+                )
+                : ""}
 
-            </blockquote>
-
-            ${renderListaSeccion(
-
-                "Patronazgos",
-
-                novena.patronages
-
-            )}
-
-            ${renderListaSeccion(
-
-                "Virtudes",
-
-                novena.virtues
-
-            )}
+            \${Array.isArray(novena.virtues)
+                ? renderListaSeccion(
+                    "Virtudes",
+                    novena.virtues.map(escaparHTML)
+                )
+                : ""}
 
             <div class="button-group">
+
                 <button
                     class="btn btn-secondary"
                     type="button"
                     data-action="favorite-novena"
-                    data-id="${novena.id}">
-                    ${esFavorita(novena.id)
+                    data-id="\${escaparHTML(novena.id)}">
+
+                    \${esFavorita(novena.id)
                         ? "Quitar de favoritas"
                         : "Agregar a favoritas"}
+
                 </button>
 
-
-                ${crearBotonSecundario(
-
+                \${crearBotonSecundario(
                     "Historia",
-
                     "mostrarHistoria()"
-
                 )}
 
-                ${crearBotonPrimario(
-
-                    "Comenzar Novena",
-
+                \${crearBotonPrimario(
+                    estado?.estado === "en-curso"
+                        ? \`Continuar · Día \${estado.dia}\`
+                        : "Comenzar Novena",
                     "iniciarNovena()"
-
                 )}
 
             </div>
 
         </section>
 
-    `;
-
+    \`;
 }
