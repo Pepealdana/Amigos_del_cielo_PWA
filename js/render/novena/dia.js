@@ -32,7 +32,7 @@ function renderDia(
 
     const mensajeCalendario =
         estadoCalendario?.estado === "en-curso"
-            ? \`Calendario litúrgico · Día \${estadoCalendario.dia} de \${total}\`
+            ? `Calendario litúrgico · Día ${estadoCalendario.dia} de ${total}`
             : "";
 
     const anteriorDisponible =
@@ -46,61 +46,61 @@ function renderDia(
             )
         );
 
-    return \`
+    return `
 
         <section class="home">
 
-            \${renderCabeceraNovena(novena)}
+            ${renderCabeceraNovena(novena)}
 
-            \${crearBadge(
+            ${crearBadge(
                 "Día " + dia.day + " de " + total
             )}
 
-            \${mensajeCalendario ? \`
+            ${mensajeCalendario ? `
                 <p class="calendar-status">
-                    \${escaparHTML(mensajeCalendario)}
+                    ${escaparHTML(mensajeCalendario)}
                 </p>
-            \` : ""}
+            ` : ""}
 
             <h3>
-                \${escaparHTML(dia.title)}
+                ${escaparHTML(dia.title)}
             </h3>
 
-            \${crearChip(
+            ${crearChip(
                 escaparHTML(dia.virtue || "")
             )}
 
             <div class="divider"></div>
 
-            \${dia.life?.text
+            ${dia.life?.text
                 ? renderOracion(
                     "Conozcamos su vida",
                     dia.life.text
                 )
                 : ""}
 
-            \${dia.learning?.text
+            ${dia.learning?.text
                 ? renderOracion(
                     "¿Qué podemos aprender?",
                     dia.learning.text
                 )
                 : ""}
 
-            \${dia.reflection
+            ${dia.reflection
                 ? renderOracion(
                     "Reflexión",
                     dia.reflection
                 )
                 : ""}
 
-            \${dia.intention?.text
+            ${dia.intention?.text
                 ? renderOracion(
                     "Intención del día",
                     dia.intention.text
                 )
                 : ""}
 
-            \${dia.prayer?.text
+            ${dia.prayer?.text
                 ? renderOracion(
                     "Oración del día",
                     dia.prayer.text
@@ -112,7 +112,7 @@ function renderDia(
                     )
                     : "")}
 
-            \${dia.action
+            ${dia.action
                 ? renderListaSeccion(
                     "Compromiso del día",
                     [dia.action]
@@ -125,7 +125,7 @@ function renderDia(
                     class="btn btn-secondary"
                     type="button"
                     data-action="previous-day"
-                    \${anteriorDisponible ? "" : "disabled"}>
+                    ${anteriorDisponible ? "" : "disabled"}>
                     ← Anterior
                 </button>
 
@@ -133,7 +133,7 @@ function renderDia(
                     class="btn btn-primary"
                     type="button"
                     data-action="next-day"
-                    \${siguienteDisponible ? "" : "disabled"}>
+                    ${siguienteDisponible ? "" : "disabled"}>
                     Siguiente →
                 </button>
 
@@ -141,5 +141,5 @@ function renderDia(
 
         </section>
 
-    \`;
+    `;
 }
