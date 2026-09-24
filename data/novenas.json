@@ -1264,5 +1264,136 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-pedro-claver",
+    "slug": "san-pedro-claver",
+    "name": "San Pedro Claver",
+    "title": "Presbítero y misionero jesuita",
+    "subtitle": "Servidor de los esclavizados en Cartagena de Indias",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/san_pedro_claver.webp",
+    "file": "data/san-pedro-claver.json",
+    "description": "Jesuita que dedicó su vida en Cartagena al cuidado, acompañamiento y evangelización de los africanos esclavizados que llegaban al puerto.",
+    "feast": {
+      "day": 9,
+      "month": 9,
+      "text": "9 de septiembre",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san pedro claver",
+      "pedro claver",
+      "cartagena",
+      "jesuita",
+      "esclavos",
+      "esclavizados",
+      "africa",
+      "caridad",
+      "dignidad",
+      "derechos humanos",
+      "mision",
+      "enfermos",
+      "pobres",
+      "colombia"
+    ],
+    "interventions": [
+      {
+        "id": "dignidad",
+        "label": "Dignidad humana e igualdad",
+        "keywords": [
+          "dignidad",
+          "igualdad",
+          "discriminacion",
+          "racismo",
+          "derechos humanos",
+          "persona"
+        ]
+      },
+      {
+        "id": "marginados",
+        "label": "Personas marginadas y excluidas",
+        "keywords": [
+          "marginados",
+          "excluidos",
+          "rechazo",
+          "abandono",
+          "soledad",
+          "pobres"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "heridas",
+          "dolor",
+          "hospital",
+          "sufrimiento"
+        ]
+      },
+      {
+        "id": "servicio",
+        "label": "Caridad y servicio",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "ayudar",
+          "acompañar",
+          "misericordia",
+          "solidaridad"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe y evangelización",
+        "keywords": [
+          "fe",
+          "evangelizacion",
+          "bautismo",
+          "catequesis",
+          "mision",
+          "sacerdote"
+        ]
+      },
+      {
+        "id": "valentia",
+        "label": "Valentía para defender al vulnerable",
+        "keywords": [
+          "valentia",
+          "defender",
+          "abusos",
+          "injusticia",
+          "coraje",
+          "verdad"
+        ]
+      },
+      {
+        "id": "perseverancia",
+        "label": "Perseverancia en la misión",
+        "keywords": [
+          "perseverancia",
+          "fidelidad",
+          "dificultad",
+          "paciencia",
+          "constancia"
+        ]
+      },
+      {
+        "id": "reconciliacion",
+        "label": "Reconciliación y convivencia",
+        "keywords": [
+          "reconciliacion",
+          "perdon",
+          "convivencia",
+          "paz",
+          "unidad"
+        ]
+      }
+    ]
   }
 ]
