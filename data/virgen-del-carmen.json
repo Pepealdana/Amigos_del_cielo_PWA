@@ -1,0 +1,367 @@
+{
+  "id": "virgen-del-carmen",
+  "slug": "virgen-del-carmen",
+  "name": "Virgen del Carmen",
+  "title": "Novena a Nuestra Señora del Carmen",
+  "subtitle": "Caminar con María hacia Cristo con oración, confianza y servicio",
+  "category": "Devociones",
+  "image": "assets/images/santos/virgen_del_carmen.webp",
+  "description": "Nueve días para contemplar a Nuestra Señora del Carmen como modelo de oración, escucha y entrega a Dios, y pedir su intercesión por las familias, los viajeros y quienes recorren caminos de servicio.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "day": 16,
+    "month": 7,
+    "text": "16 de julio",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "patronages": [
+    "Familias",
+    "Marineros",
+    "Pescadores",
+    "Conductores",
+    "Viajeros",
+    "Comunidades del Carmelo"
+  ],
+  "virtues": [
+    "Oración",
+    "Escucha",
+    "Confianza",
+    "Entrega",
+    "Servicio",
+    "Esperanza",
+    "Perseverancia",
+    "Pureza de corazón",
+    "Caridad"
+  ],
+  "search": [
+    "virgen del carmen",
+    "nuestra señora del carmen",
+    "carmen",
+    "monte carmelo",
+    "carmelitas",
+    "escapulario",
+    "marineros",
+    "pescadores",
+    "conductores",
+    "transportadores",
+    "viajeros",
+    "familia",
+    "colombia"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio"
+      ]
+    },
+    {
+      "id": "viajeros",
+      "label": "Conductores, viajeros y caminos",
+      "keywords": [
+        "conductor",
+        "conductores",
+        "viajero",
+        "viajeros",
+        "carretera",
+        "camino",
+        "transporte",
+        "transportadores"
+      ]
+    },
+    {
+      "id": "mar",
+      "label": "Marineros, pescadores y navegantes",
+      "keywords": [
+        "mar",
+        "marinero",
+        "marineros",
+        "pescador",
+        "pescadores",
+        "navegante",
+        "barco",
+        "río",
+        "rio"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza y protección",
+      "keywords": [
+        "esperanza",
+        "proteccion",
+        "protección",
+        "miedo",
+        "angustia",
+        "peligro"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "carmelitas",
+        "religiosos",
+        "religiosas",
+        "sacerdotes"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación",
+        "silencio",
+        "retiro"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "ayuda",
+        "pobres",
+        "necesitados",
+        "misericordia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción a Nuestra Señora del Carmen está vinculada al Monte Carmelo y a la tradición espiritual de los carmelitas. La Iglesia celebra su memoria el 16 de julio. El escapulario del Carmen es un signo de pertenencia y devoción que recuerda el compromiso de vivir como discípulos de Cristo siguiendo el ejemplo de María.",
+    "extended": "El Monte Carmelo, en Tierra Santa, está vinculado desde antiguo a la tradición profética de Elías. A finales del siglo XII y comienzos del XIII, ermitaños cristianos se reunieron allí para llevar una vida de oración y penitencia; de esta experiencia surgió la familia carmelitana, cuya espiritualidad se difundió posteriormente por Europa y por todo el mundo.\\n\\nLa Santa Sede y la Conferencia Episcopal de Colombia destacan que la devoción a Nuestra Señora del Carmen está especialmente relacionada con la oración, la contemplación y la entrega a Dios. Benedicto XVI presentó a María del Carmelo como modelo de oración y de búsqueda de Dios en el silencio.\\n\\nEl escapulario se convirtió en uno de los signos más difundidos de esta devoción. San Juan Pablo II explicó que expresa una relación filial con María y un compromiso de orientar la existencia según su ejemplo y al servicio de los hermanos. No es un objeto mágico ni una garantía automática de salvación: su sentido es espiritual y debe vivirse dentro de la fe y la vida cristiana.\\n\\nEn Colombia, la devoción adquirió una presencia especialmente arraigada. La Conferencia Episcopal documenta celebraciones en mares, ríos y carreteras, con oración por familias, conductores, viajeros, pescadores, marineros y comunidades que encomiendan sus caminos a Dios por intercesión de María.\\n\\nEsta novena busca conservar ese sentido: mirar a María como Madre y modelo, pedir su intercesión y dejar que su ejemplo conduzca siempre a Jesucristo."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\n\\nSanta María del Carmen, Madre de Jesús y Madre nuestra, acompáñanos durante estos nueve días. Enséñanos a orar, a escuchar la palabra de Dios y a servir con generosidad. Protege nuestros caminos y presenta ante tu Hijo nuestras intenciones. Que nuestra devoción se convierta en una vida cristiana más fiel, humilde y caritativa. Amén.",
+  "closingPrayer": "Santa María del Carmen, gracias por acompañarnos durante esta novena. Llévanos siempre hacia Jesucristo y enséñanos a vivir con fe en medio de los caminos de la vida. Acompaña a nuestras familias, a quienes trabajan en carreteras y mares, a los enfermos y a todos los que necesitan esperanza. Que el signo de nuestra devoción se traduzca en servicio, oración y amor al prójimo. Amén.",
+  "intentions": [
+    "Por nuestras familias, para que vivan unidas en la fe, el respeto y el amor.",
+    "Por conductores, transportadores y viajeros, para que recorran sus caminos con prudencia y regresen con bien a sus hogares.",
+    "Por marineros, pescadores, navegantes y comunidades que viven del mar y de los ríos.",
+    "Por los enfermos y por quienes los acompañan.",
+    "Por quienes atraviesan peligros, miedo, soledad o incertidumbre.",
+    "Por los carmelitas y por quienes viven una vocación de oración y servicio.",
+    "Por quienes buscan discernir su vocación y el camino que Dios les propone.",
+    "Por quienes necesitan recuperar la esperanza y acercarse nuevamente a Dios.",
+    "Por nuestras intenciones personales y para que aprendamos a vivir como discípulos de Cristo siguiendo el ejemplo de María."
+  ],
+  "resources": {
+    "devotion": "La devoción a Nuestra Señora del Carmen es una devoción mariana que contempla a María como modelo de oración y entrega e implora su intercesión. El escapulario expresa un compromiso de vida cristiana; no debe entenderse como amuleto ni como sustituto de la fe y los sacramentos.",
+    "feast": "16 de julio.",
+    "related": [
+      "Monte Carmelo",
+      "Escapulario del Carmen",
+      "Orden del Carmen",
+      "San Simón Stock",
+      "San Elías"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Devoción a la Virgen del Carmen",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://cec.org.co/tags/virgen-del-carmen",
+      "type": "official"
+    },
+    {
+      "title": "Entre el mar, los ríos y las carreteras: así celebraron los colombianos a la Virgen del Carmen",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://www.cec.org.co/index.php/sistema-informativo/actualidad/entre-el-mar-los-rios-y-las-carreteras-asi-celebraron-los",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus, 16 de julio de 2006",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/angelus/2006/documents/hf_ben-xvi_ang_20060716.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus, 24 de julio de 1988",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1988/documents/hf_jp-ii_ang_19880724.html",
+      "type": "official"
+    },
+    {
+      "title": "Nuestra Señora del Carmen — 16 de julio",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/pius-xii/es/speeches/1946/documents/hf_p-xii_spe_19460716_mariano-colombia.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "El Carmelo: buscar a Dios",
+      "title": "Subir al monte de la oración",
+      "bible": {
+        "reference": "1 Reyes 18,36-39",
+        "title": "Elías invoca al Señor"
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio real estoy dando a la oración en mi vida?",
+      "intention": "Por quienes necesitan recuperar una vida de oración y por quienes buscan a Dios.",
+      "prayer": "Santa María del Carmen, enséñanos a buscar a Dios con un corazón sincero. Ayúdanos a encontrar momentos de silencio y oración en medio de nuestras ocupaciones, para que Cristo sea el centro de nuestra vida. Amén.",
+      "action": "Reserva hoy un momento concreto de silencio para orar sin distracciones."
+    },
+    {
+      "day": 2,
+      "theme": "María escucha la Palabra",
+      "title": "Guardar la palabra en el corazón",
+      "bible": {
+        "reference": "Lucas 2,19",
+        "title": "María conservaba estas cosas y las meditaba"
+      },
+      "virtue": "Escucha",
+      "reflection": "¿Escucho realmente la Palabra de Dios o solo la leo de manera apresurada?",
+      "intention": "Por quienes necesitan discernir decisiones y aprender a escuchar antes de actuar.",
+      "prayer": "Santa María del Carmen, mujer que escucha, enséñanos a guardar la Palabra de Dios en el corazón. Que aprendamos a meditarla y llevarla a nuestras decisiones cotidianas. Amén.",
+      "action": "Lee hoy un pasaje breve del Evangelio y quédate unos minutos en silencio después de leerlo."
+    },
+    {
+      "day": 3,
+      "theme": "María dice sí",
+      "title": "Confiar y responder",
+      "bible": {
+        "reference": "Lucas 1,38",
+        "title": "Aquí está la esclava del Señor"
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué llamada buena estoy evitando por miedo o inseguridad?",
+      "intention": "Por quienes buscan discernir su vocación, trabajo, familia o servicio.",
+      "prayer": "Santa María del Carmen, ayúdanos a responder a Dios con confianza. Danos libertad para decir sí al bien y prudencia para discernir aquello que realmente corresponde a nuestra vocación. Amén.",
+      "action": "Presenta a Dios una decisión pendiente y busca hoy consejo prudente si lo necesitas."
+    },
+    {
+      "day": 4,
+      "theme": "María conduce a Cristo",
+      "title": "Hacer lo que Él nos diga",
+      "bible": {
+        "reference": "Juan 2,1-11",
+        "title": "Hagan lo que Él les diga"
+      },
+      "virtue": "Obediencia",
+      "reflection": "¿Qué enseñanza de Jesús necesito llevar hoy a la práctica?",
+      "intention": "Por quienes desean renovar su vida cristiana y por nuestras familias.",
+      "prayer": "Santa María del Carmen, llévanos siempre hacia Jesús. Que aprendamos de ti a escuchar su palabra y ponerla en práctica, especialmente cuando amar y servir nos resulte difícil. Amén.",
+      "action": "Elige hoy una enseñanza concreta de Jesús y conviértela en una acción."
+    },
+    {
+      "day": 5,
+      "theme": "María acompaña los caminos",
+      "title": "Caminar con prudencia y esperanza",
+      "bible": {
+        "reference": "Salmo 121,1-8",
+        "title": "El Señor guardará tu salida y tu entrada"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué camino de mi vida necesita hoy más confianza y prudencia?",
+      "intention": "Por conductores, transportadores, viajeros, marineros, pescadores y todos quienes trabajan en caminos y ríos.",
+      "prayer": "Santa María del Carmen, acompaña a quienes recorren caminos y aguas. Pide para ellos prudencia, responsabilidad y protección. Que nunca olvidemos que cuidar la vida también es una forma de honrar a Dios. Amén.",
+      "action": "Antes de un desplazamiento, realiza una breve oración y comprométete a conducir o viajar con prudencia."
+    },
+    {
+      "day": 6,
+      "theme": "El escapulario como compromiso",
+      "title": "Vestir la fe con la vida",
+      "bible": {
+        "reference": "Gálatas 3,27",
+        "title": "Revístanse de Cristo"
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Mi devoción exterior corresponde a una vida interior coherente?",
+      "intention": "Por todos los devotos del Carmen, para que vivan su fe con coherencia y caridad.",
+      "prayer": "Santa María del Carmen, ayúdanos a comprender el sentido verdadero de los signos de nuestra fe. Que el escapulario y toda expresión de devoción nos recuerden el compromiso de vivir como discípulos de Cristo y servir a los demás. Amén.",
+      "action": "Realiza hoy una obra de caridad que exprese de manera concreta tu fe."
+    },
+    {
+      "day": 7,
+      "theme": "María junto al que sufre",
+      "title": "Acompañar con compasión",
+      "bible": {
+        "reference": "Juan 19,25-27",
+        "title": "Junto a la cruz de Jesús estaba su madre"
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Sé permanecer cerca de quien sufre aunque no pueda solucionar su problema?",
+      "intention": "Por enfermos, personas en duelo y quienes atraviesan sufrimientos prolongados.",
+      "prayer": "Santa María del Carmen, que permaneciste junto a la cruz, acompaña a quienes sufren. Enséñanos a estar presentes con respeto y compasión, sin ofrecer respuestas fáciles ni abandonar al que necesita compañía. Amén.",
+      "action": "Acompaña hoy a una persona que esté enferma, sola o atravesando un duelo."
+    },
+    {
+      "day": 8,
+      "theme": "María y la comunidad",
+      "title": "Servir y construir fraternidad",
+      "bible": {
+        "reference": "Hechos 1,12-14",
+        "title": "Todos perseveraban unidos en la oración"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué puedo hacer para fortalecer la unidad de mi comunidad?",
+      "intention": "Por nuestras parroquias, comunidades, familias y grupos de servicio.",
+      "prayer": "Santa María del Carmen, reunida con los discípulos en oración, enséñanos a construir comunidad. Líbranos de la indiferencia y ayúdanos a servir con humildad, paciencia y alegría. Amén.",
+      "action": "Haz hoy algo concreto para fortalecer la unidad de tu familia o comunidad."
+    },
+    {
+      "day": 9,
+      "theme": "Llegar a Cristo",
+      "title": "Perseverar en el camino",
+      "bible": {
+        "reference": "Hebreos 12,1-3",
+        "title": "Corramos con perseverancia fijando los ojos en Jesús"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso de oración y servicio quiero mantener después de esta novena?",
+      "intention": "Por todas nuestras intenciones y para que María nos ayude a permanecer cerca de Cristo.",
+      "prayer": "Santa María del Carmen, Madre y modelo de vida cristiana, acompáñanos después de estos nueve días. Llévanos siempre hacia Jesucristo y ayúdanos a perseverar en la oración, el servicio y la caridad. Amén.",
+      "action": "Escribe un compromiso concreto de oración o servicio para continuar después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La información histórica y devocional se fundamenta en fuentes oficiales de la Iglesia. No se reproducen literalmente novenas externas."
+  }
+}
