@@ -1,0 +1,26 @@
+name: Validar datos de Amigos del Cielo
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'scripts/validate-data.js'
+      - '.github/workflows/validate-data.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/validate-data.js'
+      - '.github/workflows/validate-data.yml'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validar catálogo y novenas
+        run: node scripts/validate-data.js
