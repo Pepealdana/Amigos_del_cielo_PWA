@@ -106,6 +106,9 @@ function renderInicio(catalogo = [], progreso = {}) {
             continuidad?.novena?.novena?.days
         ) || APP_CONFIG.diasNovena;
 
+    const completada =
+        continuidad?.progreso?.completada === true;
+
     const completados =
         Array.isArray(
             continuidad?.progreso?.completados
@@ -232,7 +235,9 @@ function renderInicio(catalogo = [], progreso = {}) {
 
                         <p>
                             ${continuidad
-                                ? `Día ${dia} de ${total}`
+                                ? (completada
+                                    ? "Novena completada"
+                                    : `Día ${dia} de ${total}`)
                                 : "Aún no has iniciado esta novena"}
                         </p>
 
@@ -254,12 +259,12 @@ function renderInicio(catalogo = [], progreso = {}) {
                     <button
                         class="btn btn-primary continue-action"
                         type="button"
-                        data-action="continue-novena"
+                        data-action="${completada ? "restart-novena" : "continue-novena"}"
                         data-id="${escaparHTML(novenaContinuar.id)}">
 
-                        ${continuidad
-                            ? "Continuar"
-                            : "Comenzar"}
+                        ${completada
+                            ? "Volver a rezar"
+                            : (continuidad ? "Continuar" : "Comenzar")}
 
                     </button>
 
