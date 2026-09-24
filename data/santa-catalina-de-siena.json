@@ -1,0 +1,444 @@
+{
+  "id": "santa-catalina-de-siena",
+  "slug": "santa-catalina-de-siena",
+  "name": "Santa Catalina de Siena",
+  "title": "Virgen y Doctora de la Iglesia",
+  "subtitle": "Mística dominica y mensajera de paz",
+  "category": "Santos",
+  "featured": false,
+  "image": "assets/images/santos/santa_catalina_de_siena.webp",
+  "description": "Mística dominica del siglo XIV que unió una profunda vida de oración con la caridad, el servicio a los enfermos, la búsqueda de la paz y el amor a la Iglesia.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "data/santa-catalina-de-siena"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 29,
+    "month": 4,
+    "text": "29 de abril",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Siempre es conveniente que nuestras almas coman y saboreen las almas de nuestros hermanos.",
+    "reference": "Carta 147"
+  },
+  "patronages": [
+    "Italia",
+    "Europa"
+  ],
+  "virtues": [
+    "Oración",
+    "Caridad",
+    "Fortaleza",
+    "Humildad",
+    "Amor a la Iglesia",
+    "Búsqueda de la paz",
+    "Servicio a los enfermos"
+  ],
+  "search": [
+    "santa catalina",
+    "santa catalina de siena",
+    "catalina de siena",
+    "siena",
+    "dominicos",
+    "dominicas",
+    "mantellate",
+    "doctora de la iglesia",
+    "mística",
+    "diálogo",
+    "providencia",
+    "paz",
+    "iglesia",
+    "roma",
+    "aviñon",
+    "enfermos",
+    "caridad",
+    "eucaristía",
+    "estigmas",
+    "europa",
+    "italia"
+  ],
+  "interventions": [
+    {
+      "id": "paz-reconciliacion",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "reconciliación",
+        "conflicto",
+        "division",
+        "división",
+        "dialogo",
+        "diálogo",
+        "unidad"
+      ]
+    },
+    {
+      "id": "iglesia",
+      "label": "Iglesia y vida cristiana",
+      "keywords": [
+        "iglesia",
+        "papa",
+        "pastores",
+        "vocacion",
+        "vocación",
+        "fe",
+        "comunidad"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "peste",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "discernimiento",
+      "label": "Discernimiento y decisiones",
+      "keywords": [
+        "discernimiento",
+        "decisiones",
+        "decidir",
+        "vocacion",
+        "vocación",
+        "llamado",
+        "providencia"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación",
+        "silencio",
+        "eucaristia",
+        "eucaristía"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio a los demás",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "pobres",
+        "necesitados",
+        "enfermos",
+        "ayuda",
+        "hermanos"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y entrega a Dios",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "consagracion",
+        "consagración",
+        "santidad",
+        "entrega"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Santa Catalina nació en Siena en 1347, en una familia numerosa. Desde joven cultivó una intensa vida de oración y, a los dieciséis años, ingresó en la Tercera Orden Dominicana como Mantellata, permaneciendo en su casa y dedicándose a la oración, la penitencia y las obras de caridad. Su fama de santidad la llevó a acompañar espiritualmente a personas de muy distintas condiciones, incluidos eclesiásticos y gobernantes. Trabajó por la paz y por la unidad de la Iglesia en un periodo de grandes conflictos, y mantuvo una relación epistolar con el papa Gregorio XI para animarlo a regresar a Roma. Murió en Roma el 29 de abril de 1380, con solo treinta y tres años. Fue canonizada en 1461 y proclamada Doctora de la Iglesia en 1970.",
+    "extended": "Catalina Benincasa nació en Siena en 1347, hija de Jacopo Benincasa y Lapa Piagenti. Creció en una familia muy numerosa y, según las fuentes tradicionales de su vida, desde niña manifestó un fuerte deseo de consagrarse a Dios. A los dieciséis años, después de una experiencia espiritual vinculada a santo Domingo, ingresó en la Tercera Orden de Santo Domingo, entre las Mantellate. A diferencia de las religiosas de clausura, continuó viviendo en el entorno de su familia y desarrolló una intensa vida de oración junto con obras de misericordia. Su servicio a los demás ocupó un lugar importante en su vida. Atendió a enfermos y personas marginadas, incluso durante la epidemia de peste de 1374. La fama de su vida espiritual hizo que muchas personas acudieran a ella para pedir consejo. Entre quienes mantuvieron relación con Catalina estuvieron personas consagradas, ciudadanos, gobernantes y miembros de la jerarquía eclesiástica. Catalina vivió en una época marcada por profundas tensiones políticas y eclesiales. En este contexto defendió la unidad de la Iglesia y trabajó por la paz. Mantuvo correspondencia con el papa Gregorio XI, que residía en Aviñón, y lo exhortó a regresar a Roma. Gregorio XI regresó a Roma en 1377. Después, durante el periodo del cisma de Occidente, Catalina permaneció vinculada a la obediencia de Urbano VI y continuó escribiendo y aconsejando para la renovación de la vida cristiana. Su enseñanza espiritual quedó recogida especialmente en el Diálogo sobre la Divina Providencia y en numerosas cartas. En ellas aparecen temas como el amor a Dios y al prójimo, la misericordia, la libertad, la oración, la penitencia y la unión con Cristo. Su espiritualidad estuvo profundamente marcada por la Eucaristía y por la contemplación de Cristo crucificado. La tradición de su vida también habla de experiencias místicas extraordinarias. Entre ellas se encuentra la recepción de los estigmas en 1375, durante una experiencia de oración en Pisa. Las fuentes hagiográficas describen estos estigmas como invisibles para los demás. Este episodio pertenece al ámbito de la tradición mística de Catalina y debe distinguirse de los hechos biográficos documentados con mayor certeza. En 1374 fue examinada por autoridades de la Orden Dominicana en Florencia. Allí quedó bajo el acompañamiento de fray Raimundo de Capua, quien posteriormente fue su confesor y escribió una importante biografía de ella. Catalina continuó desarrollando su misión espiritual y eclesial hasta sus últimos años. Murió en Roma el 29 de abril de 1380, a los treinta y tres años. Fue canonizada por el papa Pío II en 1461. Pablo VI la proclamó Doctora de la Iglesia en 1970, junto con santa Teresa de Ávila. Juan Pablo II la declaró copatrona de Europa en 1999, reconociendo su importancia para la historia y la vida espiritual del continente. En la iconografía suele aparecer con el hábito blanco y negro de las Mantellate, el crucifijo, el lirio, el libro o la corona de espinas. Estos elementos pertenecen a la tradición artística y devocional y no deben interpretarse todos como objetos cuya posesión histórica esté documentada."
+  },
+  "openingPrayer": "Santa Catalina de Siena, mujer de oración, caridad y fortaleza, ayúdanos a buscar a Dios con un corazón sincero y a reconocer su presencia en nuestra vida. Enséñanos a amar a Cristo, a servir a nuestros hermanos y a trabajar por la paz. Acompáñanos durante estos nueve días y presenta ante el Señor nuestras necesidades. Amén.",
+  "closingPrayer": "Santa Catalina de Siena, virgen y Doctora de la Iglesia, intercede por nosotros. Ayúdanos a permanecer unidos a Cristo, a crecer en la caridad y a vivir nuestra fe con valentía y humildad. Ruega por nuestras familias, por quienes sufren y por la Iglesia. Que, siguiendo tu ejemplo, sepamos transformar la oración en servicio y trabajar por la paz. Amén.",
+  "intentions": [
+    "Por la paz y la reconciliación donde existen conflictos.",
+    "Por la unidad de la Iglesia y la fidelidad de sus pastores.",
+    "Por los enfermos, especialmente quienes sufren soledad o abandono.",
+    "Por quienes deben tomar decisiones difíciles y necesitan discernimiento.",
+    "Por quienes viven dificultades familiares, sociales o espirituales.",
+    "Por las personas que desean crecer en la vida de oración.",
+    "Por quienes trabajan por la justicia, la paz y el bien común.",
+    "Por nuestras necesidades personales y las de quienes llevamos en el corazón."
+  ],
+  "resources": {},
+  "sources": [
+    {
+      "title": "Audiencia general del 24 de noviembre de 2010: Santa Catalina de Siena",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2010/documents/hf_ben-xvi_aud_20101124.html",
+      "type": "official"
+    },
+    {
+      "title": "Amantissima Providentia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1980/documents/hf_jp-ii_apl_29041980_amantissima-providentia.html",
+      "type": "official"
+    },
+    {
+      "title": "Santa Misa en el VI centenario de la muerte de santa Catalina de Siena",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1980/documents/hf_jp-ii_hom_19800429_centenario-caterina-siena.html",
+      "type": "official"
+    },
+    {
+      "title": "Visita pastoral a Siena: discurso en la basílica de Santo Domingo",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1980/september/documents/hf_jp-ii_spe_19800914_domenicani-siena.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 12 de febrero de 1995",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1995/documents/hf_jp-ii_ang_19950212.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Una joven que buscó a Dios",
+      "title": "El deseo de entregar la vida a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Catalina nació en Siena en 1347, en una familia muy numerosa. Desde muy joven manifestó un profundo deseo de vivir para Dios. A los dieciséis años ingresó en la Tercera Orden de Santo Domingo como Mantellata. Permaneció vinculada a su familia y comenzó una vida marcada por la oración, la penitencia y la caridad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La búsqueda de Dios puede comenzar en cualquier etapa de la vida. Catalina nos recuerda que una vocación cristiana no depende de abandonar todas las responsabilidades cotidianas, sino de aprender a vivirlas desde una relación profunda con Dios."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué lugar ocupa Dios en las decisiones que estoy tomando hoy? ¿Hay algo que necesite entregarle con mayor confianza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y por quienes necesitan claridad para orientar su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, como ayudaste a Catalina a descubrir el camino al que la llamabas, ayúdanos a reconocer tu voluntad y a responder con generosidad. Danos un corazón disponible para servirte. Amén."
+      },
+      "action": "Reserva hoy unos minutos de silencio para preguntarte qué llamada de Dios estás ignorando o postergando."
+    },
+    {
+      "day": 2,
+      "theme": "La oración que transforma",
+      "title": "Cultivar una vida interior profunda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Catalina estuvo sostenida por la oración y la contemplación. Su relación con Cristo no quedó separada de sus responsabilidades: desde su entorno cotidiano desarrolló una intensa vida espiritual que alimentó su servicio a los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no es solo un momento aislado del día. Puede convertirse en el lugar desde el cual aprendemos a mirar nuestras decisiones, nuestras relaciones y nuestras dificultades con una perspectiva más profunda."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Mi oración transforma la manera en que trato a los demás? ¿Qué podría cambiar para hacer más constante mi encuentro con Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen dificultades para orar y por quienes atraviesan momentos de sequedad o cansancio espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, enséñanos a buscarte con un corazón sincero. Danos perseverancia para orar aun cuando no encontremos respuestas inmediatas y haz que nuestra oración nos lleve a amar y servir mejor. Amén."
+      },
+      "action": "Dedica hoy diez minutos a la oración sin teléfono ni otras distracciones."
+    },
+    {
+      "day": 3,
+      "theme": "La caridad concreta",
+      "title": "Servir a Cristo en quien sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Catalina dedicó parte importante de su vida al cuidado de enfermos y personas necesitadas. Su servicio alcanzó también a quienes sufrían durante la peste de 1374. Para ella, el amor a Dios debía hacerse visible en el amor al hermano."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana no consiste únicamente en buenos sentimientos. Se expresa en tiempo, atención, paciencia y ayuda concreta, especialmente cuando acompañar a otra persona exige esfuerzo."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Hay alguien cercano que necesite de mi tiempo o de una ayuda concreta? ¿Estoy dispuesto a servir sin esperar reconocimiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, cuidadores, personas solas y quienes viven situaciones de pobreza o abandono."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Jesús, enséñanos a reconocerte en quienes sufren. Danos sensibilidad para descubrir sus necesidades y generosidad para servirlos con respeto y amor. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de servicio por una persona que necesite ayuda."
+    },
+    {
+      "day": 4,
+      "theme": "Amor a la Iglesia",
+      "title": "Servir desde la fidelidad y la verdad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Catalina vivió en un periodo de fuertes dificultades para la Iglesia. Su respuesta fue intensificar la oración, aconsejar, escribir y trabajar por la renovación cristiana. Su relación con distintos miembros de la Iglesia estuvo marcada por el deseo de ayudar a superar divisiones y dificultades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Amar a la Iglesia también implica orar por ella, servirla y buscar su bien con humildad. La fidelidad cristiana puede expresarse mediante una palabra sincera cuando nace de la caridad y del deseo de construir."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Cómo puedo contribuir a la unidad de mi comunidad cristiana en lugar de alimentar divisiones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia, sus pastores, las comunidades cristianas y quienes trabajan por la unidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, concede a tu Iglesia servidores fieles, humildes y valientes. Ayúdanos a construir la unidad con nuestras palabras, decisiones y obras. Amén."
+      },
+      "action": "Evita hoy una conversación que pueda alimentar una división y, en su lugar, busca una forma concreta de favorecer la unidad."
+    },
+    {
+      "day": 5,
+      "theme": "Una mensajera de paz",
+      "title": "Trabajar por la reconciliación",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Catalina intervino en distintos conflictos de su tiempo y fue reconocida por su búsqueda de la paz. Juan Pablo II destacó su labor como mensajera de paz y su deseo de reconciliar personas y comunidades enfrentadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La paz comienza también en los espacios cotidianos: la familia, el trabajo, la comunidad y las amistades. Reconciliar no significa ignorar los problemas, sino buscar caminos para afrontarlos sin alimentar el odio."
+      },
+      "virtue": "Paciencia",
+      "reflection": "¿Qué conflicto necesita hoy de una palabra prudente, una disculpa o un gesto de reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades divididas, y por quienes trabajan por la paz en medio de conflictos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor de la paz, haznos instrumentos de reconciliación. Danos prudencia para hablar, humildad para reconocer nuestros errores y valentía para dar el primer paso hacia el encuentro. Amén."
+      },
+      "action": "Da hoy un paso concreto hacia la reconciliación con alguien con quien exista una dificultad."
+    },
+    {
+      "day": 6,
+      "theme": "La misión en tiempos difíciles",
+      "title": "Perseverar cuando todo parece incierto",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Catalina vivió en medio de tensiones políticas y eclesiales. Aun en situaciones complejas continuó escribiendo, aconsejando y animando a otros a permanecer fieles a Cristo. En 1374 fue examinada por miembros de la Orden Dominicana, y posteriormente recibió el acompañamiento de fray Raimundo de Capua."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las dificultades no siempre significan que debamos abandonar una misión. A veces exigen mayor discernimiento, acompañamiento y perseverancia."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad me está haciendo pensar en abandonar algo bueno? ¿Necesito buscar consejo antes de tomar una decisión?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan decisiones difíciles, pruebas prolongadas o momentos de incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Dios de toda fortaleza, acompaña a quienes están cansados o confundidos. Ayúdanos a perseverar en el bien y a buscar consejo cuando no sepamos qué camino tomar. Amén."
+      },
+      "action": "Identifica una dificultad concreta y escribe un pequeño paso que puedas dar hoy para afrontarla con responsabilidad."
+    },
+    {
+      "day": 7,
+      "theme": "Cristo en el centro",
+      "title": "Contemplar a Cristo crucificado",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Catalina estuvo profundamente marcada por el amor a Cristo y por la contemplación de su pasión. La tradición de su vida relata también que recibió los estigmas en 1375, durante una experiencia de oración en Pisa; las fuentes hagiográficas los describen como invisibles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La experiencia de los santos no se reduce a fenómenos extraordinarios. En Catalina, el centro de su espiritualidad fue el amor a Cristo y la entrega a los demás. La tradición de los estigmas debe entenderse dentro de ese contexto espiritual."
+      },
+      "virtue": "Amor a Cristo",
+      "reflection": "¿Qué significa para mí permanecer cerca de Cristo cuando el sufrimiento forma parte de la vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven enfermedades, duelos o sufrimientos profundos y necesitan esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Jesús crucificado, permanece junto a quienes sufren. Enséñanos a contemplar tu amor y a responder al dolor con esperanza, compasión y confianza en Dios. Amén."
+      },
+      "action": "Ante una dificultad de hoy, dedica unos minutos a contemplar a Cristo crucificado y evita responder desde la desesperanza."
+    },
+    {
+      "day": 8,
+      "theme": "La sabiduría al servicio",
+      "title": "Hablar con verdad y caridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Catalina dejó una importante correspondencia y el Diálogo sobre la Divina Providencia. En sus escritos trató sobre la vida espiritual, la misericordia, la oración, la caridad y la renovación cristiana. Su palabra llegó a personas de distintas condiciones sociales y eclesiales."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La palabra puede construir o destruir. La sabiduría cristiana busca unir verdad y caridad: decir lo necesario con respeto, escuchar antes de juzgar y orientar las conversaciones hacia el bien."
+      },
+      "virtue": "Prudencia",
+      "reflection": "¿Mis palabras ayudan a los demás a acercarse al bien? ¿Sé corregir sin humillar y escuchar sin prejuicios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen responsabilidades de liderazgo, enseñanza o acompañamiento espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, purifica nuestras palabras. Danos sabiduría para hablar con verdad, caridad para escuchar y prudencia para reconocer cuándo es mejor guardar silencio. Amén."
+      },
+      "action": "Antes de responder hoy en una conversación difícil, haz una pausa y pregúntate si tus palabras serán verdaderas, necesarias y caritativas."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida entregada hasta el final",
+      "title": "Vivir para Dios y para los demás",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Catalina murió en Roma el 29 de abril de 1380, con solo treinta y tres años. Su vida breve dejó una huella profunda en la Iglesia. Fue canonizada en 1461, proclamada Doctora de la Iglesia en 1970 y declarada copatrona de Europa en 1999."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fecundidad de una vida no depende únicamente de su duración. Catalina vivió con una orientación clara: amar a Dios y convertir ese amor en oración, servicio, búsqueda de la paz y entrega a la Iglesia."
+      },
+      "virtue": "Entrega",
+      "reflection": "Después de estos nueve días, ¿qué aspecto de la vida de Catalina quiero llevar a mi vida cotidiana?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Presenta al Señor tu intención personal y las necesidades de las personas por quienes has rezado durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Catalina de Siena, ayúdanos a vivir con un corazón entregado a Dios y atento a las necesidades de nuestros hermanos. Intercede por nuestras intenciones y enséñanos a permanecer fieles al bien hasta el final. Amén."
+      },
+      "action": "Elige una virtud de esta novena y conviértela en un compromiso concreto para los próximos días."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
