@@ -118,6 +118,14 @@ function registrarEventos() {
 
     registrarEvento(
 
+        "menu-participa",
+
+        () => navegar("participa")
+
+    );
+
+    registrarEvento(
+
         "menu-acerca",
 
         () => navegar("acerca")
@@ -450,6 +458,24 @@ function mostrarConfiguracion() {
    ACERCA DE
 ========================================== */
 
+function mostrarParticipa() {
+
+    cerrarMenu();
+
+    actualizarTituloPagina(
+
+        "Participa"
+
+    );
+
+    renderizar(
+
+        renderParticipa()
+
+    );
+
+}
+
 function mostrarAcerca() {
 
     cerrarMenu();
@@ -777,6 +803,66 @@ function manejarClicksPWA(evento) {
         );
     }
 }
+
+function manejarFormularioParticipa(evento) {
+
+    if (evento.target.id !== "participa-form") {
+        return;
+    }
+
+    evento.preventDefault();
+
+    const tipo = document.getElementById("participa-tipo")?.value?.trim();
+    const nombre = document.getElementById("participa-nombre")?.value?.trim();
+    const correo = document.getElementById("participa-correo")?.value?.trim();
+    const mensaje = document.getElementById("participa-mensaje")?.value?.trim();
+
+    if (!tipo || !mensaje) {
+        mostrarAvisoParticipa("Selecciona un tipo de sugerencia y escribe tu mensaje.");
+        return;
+    }
+
+    if (correo && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo)) {
+        mostrarAvisoParticipa("Revisa el correo electrónico ingresado.");
+        return;
+    }
+
+    const asunto = encodeURIComponent(
+        `Amigos del Cielo — ${tipo}`
+    );
+
+    const cuerpo = encodeURIComponent(
+        [
+            "Sugerencia recibida desde Amigos del Cielo.",
+            "",
+            `Tipo: ${tipo}`,
+            `Nombre: ${nombre || "No indicado"}`,
+            `Correo: ${correo || "No indicado"}`,
+            "",
+            "Mensaje:",
+            mensaje
+        ].join("\n")
+    );
+
+    window.location.href =
+        `mailto:${APP_CONFIG.correoContacto}?subject=${asunto}&body=${cuerpo}`;
+
+}
+
+function mostrarAvisoParticipa(mensaje) {
+
+    const aviso = document.getElementById("participa-aviso");
+
+    if (!aviso) {
+        return;
+    }
+
+    aviso.textContent = mensaje;
+    aviso.hidden = false;
+
+}
+
+document.addEventListener("submit", manejarFormularioParticipa);
 
 function manejarInputsPWA(evento) {
 
