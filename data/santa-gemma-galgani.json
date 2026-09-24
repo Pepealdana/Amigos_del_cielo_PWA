@@ -1,0 +1,426 @@
+{
+  "id": "santa-gemma-galgani",
+  "slug": "santa-gemma-galgani",
+  "name": "Santa Gemma Galgani",
+  "title": "Virgen y mística pasionista",
+  "subtitle": "Testigo de la Pasión de Cristo y de la vida de oración",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_gelma_galgani.webp",
+  "description": "Joven laica de Lucca cuya vida espiritual estuvo marcada por la Eucaristía, la contemplación de la Pasión de Cristo, la oración y una profunda entrega por la conversión de los pecadores.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-gemma-galgani"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 16,
+    "month": 5,
+    "text": "16 de mayo",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "No quiero de Jesús más que a Jesús.",
+    "reference": "Testimonio atribuido a Santa Gema Galgani y conservado en la tradición pasionista; formulación difundida por la Familia Pasionista."
+  },
+  "patronages": [
+    "Movimiento laical pasionista"
+  ],
+  "virtues": [
+    "Amor a Cristo crucificado",
+    "Eucaristía",
+    "Oración",
+    "Humildad",
+    "Pureza",
+    "Paciencia",
+    "Entrega"
+  ],
+  "search": [
+    "santa gema",
+    "gema galgani",
+    "gemma galgani",
+    "gema de lucca",
+    "lucca",
+    "pasionistas",
+    "pasión de cristo",
+    "eucaristía",
+    "oración",
+    "estigmas",
+    "mística",
+    "conversión",
+    "pecadores",
+    "sufrimiento",
+    "jóvenes"
+  ],
+  "interventions": [
+    {
+      "id": "oracion",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oración",
+        "oracion",
+        "vida interior",
+        "contemplación",
+        "contemplacion",
+        "silencio",
+        "meditación",
+        "meditacion"
+      ]
+    },
+    {
+      "id": "eucaristia",
+      "label": "Eucaristía y adoración",
+      "keywords": [
+        "eucaristía",
+        "eucaristia",
+        "misa",
+        "comunión",
+        "comunion",
+        "adoración",
+        "adoracion"
+      ]
+    },
+    {
+      "id": "sufrimiento",
+      "label": "Sufrimiento y enfermedad",
+      "keywords": [
+        "sufrimiento",
+        "dolor",
+        "enfermedad",
+        "enfermos",
+        "prueba",
+        "cruz"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y lucha espiritual",
+      "keywords": [
+        "conversión",
+        "conversion",
+        "pecado",
+        "pecadores",
+        "arrepentimiento",
+        "cambio de vida"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y entrega a Dios",
+      "keywords": [
+        "vocación",
+        "vocacion",
+        "llamado",
+        "consagración",
+        "consagracion",
+        "virginidad",
+        "vida religiosa"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y búsqueda de santidad",
+      "keywords": [
+        "jóvenes",
+        "jovenes",
+        "juventud",
+        "santidad",
+        "propósito",
+        "proposito"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y seres queridos",
+      "keywords": [
+        "familia",
+        "padres",
+        "madre",
+        "padre",
+        "seres queridos",
+        "duelo"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Gemma Galgani nació en 1878 cerca de Lucca, Italia. Desde niña cultivó una profunda devoción a Jesús crucificado y a la Eucaristía. Quedó huérfana siendo joven y fue acogida por la familia Giannini, en cuyo hogar vivió los últimos años de su vida. Deseó ingresar en las religiosas pasionistas, pero no pudo realizar ese proyecto debido a las circunstancias de su salud y de su vida. Su director espiritual fue el sacerdote pasionista Germano Ruoppolo. Su espiritualidad estuvo marcada por la oración, la penitencia, la entrega por la conversión de los pecadores y una intensa experiencia mística. La tradición pasionista conserva el testimonio de sus estigmas y de otros fenómenos místicos, que deben distinguirse de los datos biográficos comprobables. Murió en Lucca el 11 de abril de 1903, Sábado Santo, a los 25 años. Fue beatificada en 1933 y canonizada por Pío XII en 1940.",
+    "extended": "Gemma Galgani nació el 12 de marzo de 1878 en Borgonuovo di Camigliano, cerca de Lucca, en la Toscana. Creció en una familia católica y desde muy joven manifestó una marcada inclinación hacia la oración y la contemplación de la Pasión de Cristo. La muerte de su madre y, posteriormente, la de su padre dejaron a Gemma huérfana siendo todavía joven. En esos años atravesó también dificultades de salud y momentos de gran precariedad familiar.\n\nDespués de la muerte de sus padres, Gemma fue acogida por la familia Giannini, una familia cristiana de Lucca. Allí vivió los últimos años de su existencia y encontró un ambiente que favoreció su vida de oración. Cultivó una especial devoción a la Eucaristía y a Jesús crucificado, y realizó un voto de virginidad como expresión de su consagración a Dios.\n\nGemma deseó ingresar en un monasterio de religiosas pasionistas. Sin embargo, no pudo realizar este deseo. La propia Familia Pasionista la presenta como un ejemplo de santidad vivido en el mundo: aunque no llegó a ser religiosa pasionista, mantuvo una profunda vinculación espiritual con la espiritualidad de la Pasión. El sacerdote pasionista Germano Ruoppolo fue su director espiritual durante los últimos años de su vida y ayudó a acompañar y discernir su experiencia espiritual.\n\nSu vida estuvo acompañada por fenómenos místicos que forman parte de las fuentes y de la tradición relacionada con ella: éxtasis, experiencias de diálogo espiritual, devoción al ángel custodio y los estigmas. La tradición pasionista afirma que recibió los estigmas en 1899 y que las heridas se manifestaban especialmente alrededor de la preparación para el viernes. Estos fenómenos pertenecen al ámbito de la experiencia mística atribuida a Gemma y no deben confundirse con los hechos biográficos ordinarios. En la documentación eclesial sobre su causa también aparece destacada la centralidad de sus virtudes, especialmente la fe, la esperanza, la caridad, la humildad, la paciencia y la entrega a Cristo.\n\nGemma ofreció su vida y sus sufrimientos por la conversión de los pecadores y por la reparación de las infidelidades de los sacerdotes, dentro del lenguaje espiritual propio de su época y de la tradición pasionista. Su mensaje espiritual puede resumirse en la contemplación de Cristo crucificado, la participación en su Pasión mediante la oración y el sufrimiento aceptado con fe, y la confianza en Dios.\n\nSu salud se deterioró progresivamente. Murió en Lucca el 11 de abril de 1903, Sábado Santo, a los 25 años. Su fama de santidad se extendió después de su muerte. Fue declarada venerable y beatificada el 14 de mayo de 1933. Pío XII la canonizó el 2 de mayo de 1940. La Familia Pasionista continúa presentándola como una figura estrechamente vinculada a su espiritualidad, aunque su camino de santidad fue vivido como laica en medio del mundo."
+  },
+  "openingPrayer": "Santa Gema Galgani, testigo de la Pasión de Cristo y mujer de oración, acompáñanos en estos nueve días. Enséñanos a mirar a Jesús crucificado con fe, a recibir la Eucaristía con amor y a confiar en Dios en medio de nuestras pruebas. Intercede por nuestras intenciones y ayúdanos a vivir con humildad, paciencia y caridad. Amén.",
+  "closingPrayer": "Santa Gema Galgani, tú que viviste con amor la contemplación de Cristo crucificado, ruega por nosotros. Ayúdanos a permanecer cerca de Jesús en la oración, a ofrecerle nuestras dificultades con confianza y a servir con caridad a quienes sufren. Presenta ante Dios nuestras intenciones y enséñanos a buscar la santidad en nuestra vida cotidiana. Amén.",
+  "intentions": [
+    "Por quienes atraviesan una enfermedad o un sufrimiento prolongado.",
+    "Por quienes desean volver a Dios y necesitan fuerza para comenzar de nuevo.",
+    "Por los jóvenes que buscan su vocación y un sentido para su vida.",
+    "Por las familias que viven un duelo o una situación difícil.",
+    "Por los sacerdotes y por quienes necesitan renovar su vida espiritual.",
+    "Por quienes se sienten solos, desanimados o alejados de la fe.",
+    "Por quienes desean aprender a orar y crecer en la vida interior.",
+    "Por las personas que piden ayuda para perseverar en medio de una prueba.",
+    "Por nuestras intenciones personales y por quienes confiamos a la intercesión de Santa Gema."
+  ],
+  "resources": {},
+  "sources": [
+    {
+      "title": "Santa Gema Galgani",
+      "organization": "Familia Pasionista — Passiochristi",
+      "url": "https://www.passiochristi.org/santa-gema-galgani/?lang=es",
+      "type": "official"
+    },
+    {
+      "title": "Carta con motivo del primer centenario del nacimiento de Santa Gema Galgani",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/roman_curia/secretariat_state/archivio/documents/rc_seg-st_19780312_villot-galgani_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Carta a los Pasionistas con motivo del 50.º aniversario de la canonización de Santa Gema Galgani",
+      "organization": "San Juan Pablo II — Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/letters/1990/documents/hf_jp-ii_let_19901016_padre-augustin.html",
+      "type": "official"
+    },
+    {
+      "title": "Acta Apostolicae Sedis: proceso de beatificación y canonización de Gemma Galgani",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/archive/aas/documents/AAS-33-1941-ocr.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Una vida orientada hacia Dios",
+      "title": "Aprender a buscar a Dios desde joven",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Gemma nació en 1878 cerca de Lucca y desde niña mostró una profunda inclinación hacia la oración y la contemplación de la Pasión de Cristo. Su vida estuvo marcada desde temprano por la fe y por el deseo de acercarse a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual puede comenzar con pequeños deseos de buscar a Dios. No necesitamos esperar circunstancias extraordinarias para comenzar a orar y ordenar nuestra vida hacia Él."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué lugar ocupa Dios en las decisiones y preocupaciones de mi vida cotidiana?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Pidamos por quienes desean comenzar o recomenzar un camino de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema, ayúdame a buscar a Dios con un corazón sincero y a poner mi vida en sus manos. Enséñame a crecer cada día en la fe. Amén."
+      },
+      "action": "Dedica hoy unos minutos de silencio a hablar con Dios y agradecerle por una persona que haya ayudado a fortalecer tu fe."
+    },
+    {
+      "day": 2,
+      "theme": "La prueba y la confianza",
+      "title": "Dios también está presente en el sufrimiento",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Gemma perdió a su madre y posteriormente a su padre cuando todavía era joven. Además, afrontó problemas de salud y dificultades familiares. Estas experiencias acompañaron su camino espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El sufrimiento no elimina la posibilidad de confiar. Gemma buscó vivir sus pruebas desde la oración y la entrega a Dios, sin convertir el dolor en el centro de su vida."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Cómo reacciono cuando una dificultad no puede resolverse inmediatamente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven una enfermedad, un duelo o una prueba prolongada."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema, acompaña a quienes sufren. Pide para nosotros una confianza perseverante cuando no comprendamos el camino que tenemos delante. Amén."
+      },
+      "action": "Acompaña hoy a alguien que esté pasando por una dificultad mediante una llamada, un mensaje o una ayuda concreta."
+    },
+    {
+      "day": 3,
+      "theme": "La Eucaristía y Cristo crucificado",
+      "title": "Permanecer cerca de Jesús",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Gemma estuvo profundamente marcada por la Eucaristía y por la contemplación de Jesús crucificado. La Familia Pasionista destaca ambas dimensiones como rasgos centrales de su camino."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración cristiana no consiste solamente en pedir. También implica permanecer ante Cristo, contemplarlo y dejar que su amor transforme nuestra manera de vivir."
+      },
+      "virtue": "Amor a Cristo",
+      "reflection": "¿Busco momentos para estar con Jesús sin pedirle nada, simplemente para adorarlo y agradecerle?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean acercarse nuevamente a la Eucaristía y a la vida sacramental."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Jesús, enséñame a permanecer cerca de ti. Que la Eucaristía y la contemplación de tu cruz transformen mi manera de amar y servir. Amén."
+      },
+      "action": "Haz una oración breve ante un crucifijo o, si puedes, participa en la Eucaristía o dedica un momento a la adoración."
+    },
+    {
+      "day": 4,
+      "theme": "Una vocación vivida en el mundo",
+      "title": "La santidad también se vive en la vida cotidiana",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Gemma deseó ingresar en las religiosas pasionistas, pero no pudo realizar este proyecto. Su camino de santidad se desarrolló como laica, acogida por la familia Giannini, en medio de la vida ordinaria."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La búsqueda de la santidad no depende únicamente de pertenecer a una comunidad religiosa. Cada persona puede responder a Dios desde las circunstancias concretas de su vida."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Acepto mi realidad actual como un lugar donde también puedo amar y servir a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan discernir su vocación y por quienes viven su fe en medio de sus responsabilidades cotidianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema, ayúdame a descubrir cómo puedo servir a Dios desde mi realidad concreta y a aceptar con paz el camino que Él me presenta. Amén."
+      },
+      "action": "Identifica una responsabilidad cotidiana que sueles realizar con desgano y hazla hoy con especial cuidado y amor."
+    },
+    {
+      "day": 5,
+      "theme": "Oración y vida interior",
+      "title": "Aprender a permanecer en silencio ante Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Gemma estuvo acompañada por una intensa práctica de oración. Las fuentes pasionistas hablan de una profunda vida mística y de experiencias extraordinarias, siempre acompañadas por dirección espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración necesita tiempo, silencio y perseverancia. Los fenómenos extraordinarios no son el centro de la vida cristiana; lo esencial es crecer en la fe, la caridad y la humildad."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Tengo un momento estable de silencio y oración, aunque sea breve?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean aprender a orar y por quienes atraviesan sequedad o dificultades en su vida espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema, enséñame a buscar a Dios en el silencio. Que no dependa de sentir algo especial para permanecer fiel a la oración. Amén."
+      },
+      "action": "Reserva hoy diez minutos sin teléfono ni distracciones para permanecer en silencio ante Dios."
+    },
+    {
+      "day": 6,
+      "theme": "Los fenómenos místicos",
+      "title": "Discernir con humildad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las fuentes sobre Gemma describen éxtasis, visiones y estigmas, especialmente desde 1899. La documentación eclesial sobre su causa también examinó sus virtudes y los hechos vinculados a su vida espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La tradición cristiana distingue entre los fenómenos extraordinarios y la santidad. Lo decisivo no es buscar experiencias especiales, sino sus frutos: fe, humildad, caridad, paciencia y fidelidad."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Busco a Dios o busco experiencias que me hagan sentir espiritualmente especial?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan discernimiento y acompañamiento para crecer con equilibrio en su vida espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema, ayúdame a vivir mi fe con humildad y prudencia. Que busque siempre a Dios y no las experiencias extraordinarias. Amén."
+      },
+      "action": "Evita hoy hablar de tus buenas obras o logros espirituales. Haz una acción buena sin buscar reconocimiento."
+    },
+    {
+      "day": 7,
+      "theme": "Orar por los demás",
+      "title": "Entregar la vida por la conversión",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Gemma estuvo vinculada a la oración por la conversión de los pecadores y a una profunda comprensión de la reparación dentro de la espiritualidad de la Pasión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración puede abrirnos a las necesidades de otras personas. Pedir por quienes se han alejado de Dios nos ayuda también a crecer en misericordia y a evitar el juicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Hay alguien por quien me cuesta orar con sinceridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se han alejado de Dios, por quienes viven situaciones de pecado y por quienes necesitan misericordia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema, intercede por quienes necesitan volver a Dios. Enséñame a orar por ellos con misericordia, sin juzgar y con esperanza. Amén."
+      },
+      "action": "Ora hoy por una persona concreta con la que tengas dificultad y evita cualquier palabra de juicio sobre ella."
+    },
+    {
+      "day": 8,
+      "theme": "La cruz y la perseverancia",
+      "title": "Permanecer fiel en la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La enfermedad y el sufrimiento acompañaron los últimos años de Gemma. Su espiritualidad entendió estas experiencias a la luz de la Pasión de Cristo y de la confianza en Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa negar el dolor. Significa continuar buscando el bien y confiando en Dios aun cuando la situación sea difícil."
+      },
+      "virtue": "Paciencia",
+      "reflection": "¿Qué prueba concreta necesito aprender a vivir con mayor paciencia y confianza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados de luchar y necesitan fortaleza para perseverar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema, acompaña a quienes están cansados y sufren. Pide para nosotros la paciencia necesaria para permanecer fieles en medio de la prueba. Amén."
+      },
+      "action": "Cuando aparezca hoy una dificultad, detente antes de reaccionar y ofrece a Dios una oración breve."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida entregada a Cristo",
+      "title": "Buscar la santidad en lo cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Gemma murió el 11 de abril de 1903, Sábado Santo, a los 25 años. Su fama de santidad se extendió después de su muerte y la Iglesia reconoció sus virtudes y su intercesión hasta su canonización en 1940."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El camino de Gemma nos recuerda que la santidad se expresa en el amor a Cristo, la oración, la humildad, la paciencia y la caridad. Los dones extraordinarios no sustituyen estas virtudes."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué aspecto de mi vida necesito entregar hoy con mayor confianza a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Presentemos nuevamente todas nuestras intenciones y, especialmente, aquella que hemos llevado durante estos nueve días."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Gema Galgani, acompáñanos al terminar esta novena. Ayúdanos a amar a Jesús, a permanecer cerca de su cruz y a vivir nuestra fe con humildad y caridad. Presenta ante Dios nuestras intenciones y ruega por nosotros. Amén."
+      },
+      "action": "Elige una práctica concreta de oración o caridad que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
