@@ -25,7 +25,7 @@ function renderOracion(
 
             <h3 class="prayer-title">
 
-                ${titulo}
+                ${escaparHTML(titulo)}
 
             </h3>
 
@@ -33,7 +33,7 @@ function renderOracion(
 
                 <p>
 
-                    ${texto}
+                    ${escaparHTML(texto)}
 
                 </p>
 
