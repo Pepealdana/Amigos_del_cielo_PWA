@@ -124,6 +124,14 @@ function registrarEventos() {
 
     );
 
+    registrarEvento(
+
+        "btn-header-settings",
+
+        () => navegar("configuracion")
+
+    );
+
 }
 
 /* ==========================================
@@ -227,7 +235,9 @@ function mostrarInicio() {
 
         renderInicio(
 
-            state.catalogo
+            state.catalogo,
+
+            state.progreso
 
         )
 
@@ -351,15 +361,9 @@ function mostrarHistoria() {
 
 function iniciarNovena() {
 
-    state.diaActual = 1;
-
-    actualizarProgreso(
-
-        state.novenaActual.id,
-
-        1
-
-    );
+    if (!state.novenaActual) {
+        return;
+    }
 
     mostrarDia(1);
 
@@ -380,7 +384,13 @@ function mostrarFavoritas() {
 
     renderizar(
 
-        renderFavoritas()
+        renderFavoritas(
+
+            state.catalogo,
+
+            state.favoritos
+
+        )
 
     );
 
@@ -402,7 +412,13 @@ function mostrarProgreso() {
 
     renderizar(
 
-        renderProgreso()
+        renderProgreso(
+
+            state.catalogo,
+
+            state.progreso
+
+        )
 
     );
 
@@ -510,36 +526,25 @@ function mostrarDia(numeroDia) {
 
 function siguienteDia() {
 
+    const siguiente =
+        state.diaActual + 1;
+
     if (
-
-        state.diaActual < 9
-
+        siguiente <= obtenerTotalDiasNovena() &&
+        obtenerDia(siguiente)
     ) {
-
-        mostrarDia(
-
-            state.diaActual + 1
-
-        );
-
+        mostrarDia(siguiente);
     }
 
 }
 
 function anteriorDia() {
 
-    if (
+    const anterior =
+        state.diaActual - 1;
 
-        state.diaActual > 1
-
-    ) {
-
-        mostrarDia(
-
-            state.diaActual - 1
-
-        );
-
+    if (anterior >= 1) {
+        mostrarDia(anterior);
     }
 
 }
@@ -732,6 +737,27 @@ function manejarClicksPWA(evento) {
 
         if (tipo === "continue-novena" && id) {
             continuarNovena(id);
+            return;
+        }
+
+        if (tipo === "next-day") {
+            siguienteDia();
+            return;
+        }
+
+        if (tipo === "previous-day") {
+            anteriorDia();
+            return;
+        }
+
+        if (tipo === "favorite-novena" && id) {
+            alternarFavorita(id);
+            mostrarPortadaNovena();
+            return;
+        }
+
+        if (tipo === "start-novena") {
+            iniciarNovena();
             return;
         }
     }
