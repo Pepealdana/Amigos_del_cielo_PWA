@@ -1,12 +1,12 @@
 {
   "id": "santa-teresa-de-avila",
   "slug": "santa-teresa-de-avila",
-  "name": "Santa Teresa de Ávila",
+  "name": "Santa Teresa de Ávila (Santa Teresa de Jesús)",
   "title": "Virgen y Doctora de la Iglesia",
   "subtitle": "Maestra de oración y reformadora del Carmelo",
   "category": "Santos",
   "image": "assets/images/santos/santa_teresa_de_avila.webp",
-  "description": "Mística, escritora y reformadora del Carmelo, cuyo testimonio une oración, amistad con Cristo, discernimiento y servicio a la Iglesia.",
+  "description": "Mística, escritora y reformadora del Carmelo, conocida también como Santa Teresa de Jesús.",
   "novena": {
     "days": 9
   },
@@ -56,7 +56,6 @@
     "carmelitas descalzos",
     "doctora de la iglesia",
     "oracion",
-    "mística",
     "mística",
     "reforma",
     "camino de perfeccion",
