@@ -100,7 +100,7 @@ function esHoyLaFestividad(fecha) {
 ========================================================== */
 
 function crearFechaLocal(anio, mes, dia) {
-    return new Date(anio, mes - 1, dia, 12, 0, 0, 0);
+    return new Date(anio, mes - 1, dia, 0, 0, 0, 0);
 }
 
 function formatearFechaISO(fecha) {
@@ -162,6 +162,12 @@ function obtenerFechaFinNovena(fecha, anio = obtenerFechaActual().getFullYear())
 function obtenerDiaProgramadoNovena(fecha, fechaActual = obtenerFechaActual()) {
     const anioActual = fechaActual.getFullYear();
 
+    const fechaSoloDia = crearFechaLocal(
+        fechaActual.getFullYear(),
+        fechaActual.getMonth() + 1,
+        fechaActual.getDate()
+    );
+
     let inicio = obtenerFechaInicioNovena(fecha, anioActual);
     let fin = obtenerFechaFinNovena(fecha, anioActual);
 
@@ -169,7 +175,7 @@ function obtenerDiaProgramadoNovena(fecha, fechaActual = obtenerFechaActual()) {
         return null;
     }
 
-    if (fechaActual < inicio) {
+    if (fechaSoloDia < inicio) {
         return {
             estado: "proxima",
             dia: 0,
@@ -178,7 +184,7 @@ function obtenerDiaProgramadoNovena(fecha, fechaActual = obtenerFechaActual()) {
         };
     }
 
-    if (fechaActual > fin) {
+    if (fechaSoloDia > fin) {
         inicio = obtenerFechaInicioNovena(fecha, anioActual + 1);
         fin = obtenerFechaFinNovena(fecha, anioActual + 1);
 
@@ -197,7 +203,7 @@ function obtenerDiaProgramadoNovena(fecha, fechaActual = obtenerFechaActual()) {
     const diferencia =
         Math.floor(
             (
-                fechaActual.getTime() -
+                fechaSoloDia.getTime() -
                 inicio.getTime()
             ) /
             (1000 * 60 * 60 * 24)
