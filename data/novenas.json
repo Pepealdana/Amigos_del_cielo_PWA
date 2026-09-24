@@ -1137,5 +1137,132 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-pio-de-pietrelcina",
+    "slug": "san-pio-de-pietrelcina",
+    "name": "San Pío de Pietrelcina",
+    "title": "Presbítero capuchino",
+    "subtitle": "Hombre de oración, reconciliación y servicio",
+    "category": "Santos",
+    "image": "assets/images/santos/san_pio_de_pieltrecina.webp",
+    "file": "data/san-pio-de-pietrelcina.json",
+    "description": "Fraile capuchino italiano cuya vida estuvo marcada por la oración, la Eucaristía, la reconciliación, el servicio a los enfermos y una profunda espiritualidad de la cruz.",
+    "feast": {
+      "day": 23,
+      "month": 9,
+      "text": "23 de septiembre",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san pio",
+      "san pío de pietrelcina",
+      "padre pio",
+      "padre pío",
+      "capuchino",
+      "confesion",
+      "confesiones",
+      "eucaristia",
+      "oracion",
+      "estigmas",
+      "enfermos",
+      "sufrimiento",
+      "san giovanni rotondo"
+    ],
+    "interventions": [
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "silencio",
+          "adoracion",
+          "vida interior",
+          "fe",
+          "eucaristia"
+        ]
+      },
+      {
+        "id": "reconciliacion",
+        "label": "Reconciliación y confesión",
+        "keywords": [
+          "confesion",
+          "confesiones",
+          "reconciliacion",
+          "perdon",
+          "pecado",
+          "conversion"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "consuelo"
+        ]
+      },
+      {
+        "id": "cruz",
+        "label": "Pruebas, sufrimiento y esperanza",
+        "keywords": [
+          "cruz",
+          "sufrimiento",
+          "prueba",
+          "dolor",
+          "esperanza",
+          "perseverancia"
+        ]
+      },
+      {
+        "id": "humildad",
+        "label": "Humildad y sencillez",
+        "keywords": [
+          "humildad",
+          "sencillez",
+          "orgullo",
+          "reconocimiento"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y vida consagrada",
+        "keywords": [
+          "vocacion",
+          "fraile",
+          "capuchino",
+          "sacerdote",
+          "religioso",
+          "consagracion"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y acompañamiento",
+        "keywords": [
+          "familia",
+          "padres",
+          "hijos",
+          "acompañamiento",
+          "consejo"
+        ]
+      },
+      {
+        "id": "fortaleza",
+        "label": "Fortaleza ante las dificultades",
+        "keywords": [
+          "fortaleza",
+          "dificultad",
+          "persecucion",
+          "incomprension",
+          "obediencia"
+        ]
+      }
+    ]
   }
 ]
