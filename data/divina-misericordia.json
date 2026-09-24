@@ -1,0 +1,384 @@
+{
+  "id": "divina-misericordia",
+  "slug": "divina-misericordia",
+  "name": "Divina Misericordia",
+  "title": "Novena de la Divina Misericordia",
+  "subtitle": "Según el Diario de Santa Faustina Kowalska, nn. 1209–1229",
+  "category": "Devociones",
+  "image": "assets/images/santos/divina_misericordia.webp",
+  "description": "Novena transmitida por Santa Faustina Kowalska, centrada en llevar ante Jesús distintos grupos de almas y pedir para ellas la misericordia del Padre.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "movable": true,
+    "text": "II Domingo de Pascua — Domingo de la Divina Misericordia"
+  },
+  "quote": {
+    "text": "Jesús, en ti confío.",
+    "reference": "Diario de Santa Faustina; devoción a la Divina Misericordia."
+  },
+  "patronages": [],
+  "virtues": [
+    "Confianza",
+    "Misericordia",
+    "Conversión",
+    "Oración",
+    "Caridad",
+    "Perdón",
+    "Humildad",
+    "Esperanza"
+  ],
+  "search": [
+    "divina misericordia",
+    "santa faustina",
+    "faustina kowalska",
+    "jesús misericordioso",
+    "coronilla",
+    "novena",
+    "misericordia",
+    "confianza",
+    "perdón",
+    "conversión",
+    "purgatorio"
+  ],
+  "interventions": [
+    {
+      "id": "conversion",
+      "label": "Conversión y perdón",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "pecado",
+        "arrepentimiento",
+        "perdon",
+        "perdón"
+      ]
+    },
+    {
+      "id": "confianza",
+      "label": "Confianza en Dios",
+      "keywords": [
+        "confianza",
+        "fe",
+        "esperanza",
+        "miedo",
+        "angustia"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y sufrimiento",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "sufrimiento",
+        "dolor",
+        "hospital"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y seres queridos",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "hogar",
+        "seres queridos"
+      ]
+    },
+    {
+      "id": "sacerdotes-religiosos",
+      "label": "Sacerdotes y vida consagrada",
+      "keywords": [
+        "sacerdote",
+        "sacerdotes",
+        "religiosos",
+        "religiosas",
+        "vocacion"
+      ]
+    },
+    {
+      "id": "difuntos",
+      "label": "Difuntos y oración por los fallecidos",
+      "keywords": [
+        "difuntos",
+        "fallecidos",
+        "purgatorio",
+        "duelo",
+        "muerte"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Obras de misericordia",
+      "keywords": [
+        "caridad",
+        "misericordia",
+        "servicio",
+        "pobres",
+        "necesitados",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "iglesia",
+      "label": "Iglesia y unidad",
+      "keywords": [
+        "iglesia",
+        "unidad",
+        "cristianos",
+        "comunidad",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Santa María Faustina Kowalska nació como Helena Kowalska el 25 de agosto de 1905 en Głogowiec, Polonia. Ingresó en 1925 en la Congregación de las Hermanas de la Bienaventurada Virgen María de la Misericordia y vivió una vida religiosa sencilla marcada por la oración, el servicio y la confianza en la misericordia de Dios. Murió en Cracovia el 5 de octubre de 1938. Fue beatificada en 1993 y canonizada por san Juan Pablo II el 30 de abril de 2000.",
+    "extended": "Santa Faustina Kowalska nació como Helena Kowalska el 25 de agosto de 1905 en Głogowiec, Polonia, en una familia numerosa y cristiana. Desde joven mostró inclinación hacia la oración y el deseo de consagrarse a Dios. Después de trabajar para ayudar a su familia, ingresó el 1 de agosto de 1925 en la Congregación de las Hermanas de la Bienaventurada Virgen María de la Misericordia, donde recibió el nombre de sor María Faustina.\n\nDurante su vida religiosa desempeñó labores sencillas, entre ellas cocina, jardinería y portería, mientras cultivaba una intensa vida interior. Vivió en distintas casas de su congregación, especialmente en Cracovia, Płock y Vilna. En su Diario registró experiencias espirituales y mensajes que entendió como recibidos de Cristo, entre ellos la llamada a anunciar la misericordia de Dios y a confiar en ella.\n\nLa espiritualidad asociada a su misión comprende la imagen de Jesús Misericordioso, la confianza expresada en «Jesús, en ti confío», la Coronilla de la Divina Misericordia, la Hora de la Misericordia y la celebración litúrgica del Domingo de la Divina Misericordia. La Santa Sede ha presentado su mensaje como una forma de volver a proponer con fuerza el núcleo evangélico de la misericordia, el perdón y la solidaridad con quienes sufren.\n\nFaustina padeció tuberculosis y otros sufrimientos. Murió en Cracovia el 5 de octubre de 1938, a los 33 años. Fue beatificada por san Juan Pablo II el 18 de abril de 1993 y canonizada por él el 30 de abril de 2000. En aquella canonización, el Papa proclamó que el II Domingo de Pascua sería celebrado en toda la Iglesia como Domingo de la Divina Misericordia."
+  },
+  "openingPrayer": "Santa Faustina, apóstol de la Divina Misericordia, acompáñanos durante estos nueve días. Enséñanos a acercar a Dios nuestras propias vidas y las de nuestros hermanos, especialmente quienes necesitan perdón, esperanza, consuelo y conversión. Que aprendamos a confiar en Jesús y a practicar la misericordia con obras, palabras y oración. Amén.",
+  "closingPrayer": "Señor Jesús, gracias por este camino de oración. Por intercesión de santa Faustina, aumenta en nosotros la confianza en tu misericordia. Haznos capaces de perdonar, servir, acompañar y llevar esperanza a quienes sufren. Que al terminar esta novena no solo hayamos pedido misericordia, sino que también aprendamos a vivirla. Jesús, en ti confío. Amén.",
+  "intentions": [
+    "Por quienes viven alejados de Dios y necesitan volver a Él.",
+    "Por el Papa, los obispos, sacerdotes, diáconos, religiosos y religiosas.",
+    "Por quienes permanecen fieles a Dios en medio de pruebas y sufrimientos.",
+    "Por quienes no creen, tienen dudas de fe o buscan la verdad.",
+    "Por la unidad de los cristianos y por quienes se han alejado de la comunión de la Iglesia.",
+    "Por los niños y por las personas que viven con humildad y sencillez.",
+    "Por quienes difunden y practican la misericordia mediante sus obras.",
+    "Por los difuntos y por quienes lloran la pérdida de seres queridos.",
+    "Por quienes se han vuelto indiferentes o tibios en su vida espiritual.",
+    "Por nuestras intenciones personales y las necesidades del mundo."
+  ],
+  "resources": {
+    "chaplet": "La Coronilla de la Divina Misericordia puede rezarse como oración adicional. En esta novena no se confunde con las intenciones de los nueve días del Diario.",
+    "timing": "La tradición difundida a partir del Diario sitúa el comienzo de esta novena en el Viernes Santo, para culminar en el Domingo de la Divina Misericordia. La fecha litúrgica es móvil."
+  },
+  "sources": [
+    {
+      "title": "Homilía de la canonización de santa Faustina Kowalska",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2000/documents/hf_jp-ii_hom_20000430_faustina.html",
+      "type": "official"
+    },
+    {
+      "title": "Regina Caeli de la canonización de santa Faustina",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/2000/documents/hf_jp-ii_reg_20000430.html",
+      "type": "official"
+    },
+    {
+      "title": "Domingo de la Divina Misericordia, 22 de abril de 2001",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2001/documents/hf_jp-ii_hom_20010422_divina-misericordia.html",
+      "type": "official"
+    },
+    {
+      "title": "Decreto sobre indulgencias vinculadas a la devoción a la Divina Misericordia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_en.html",
+      "type": "official"
+    },
+    {
+      "title": "Novena a la Divina Misericordia",
+      "organization": "Saint Faustina",
+      "url": "https://www.saint-faustina.org/novena-to-the-divine-mercy/",
+      "type": "devotional-reference"
+    },
+    {
+      "title": "Diario de Santa Faustina, nn. 1209–1229",
+      "organization": "Referencia primaria de la novena",
+      "url": "https://faustina-message.com/The-Novena-to-the-Divine-Mercy.html",
+      "type": "primary-reference"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "sourceReference": "Diario 1209–1211",
+      "theme": "Toda la humanidad",
+      "title": "La misericordia para todos, especialmente los pecadores",
+      "jesusQuote": "«Hoy tráeme a toda la humanidad, especialmente a todos los pecadores.»",
+      "jesusText": "Según el registro de santa Faustina, Jesús pide que durante este primer día sean llevados ante su misericordia todos los seres humanos, con una atención especial a quienes viven en pecado. La intención nace del deseo de que nadie quede fuera de la fuente de la misericordia.",
+      "prayerAdapted": "Jesús misericordioso, ponemos ante ti a toda la humanidad. Mira con compasión nuestras heridas, pecados, decisiones equivocadas y resistencias a tu amor. Recibe especialmente a quienes están más alejados de ti. Que nadie quede fuera de nuestra oración y que todos podamos descubrir tu misericordia y volver a ti con confianza.",
+      "eternalFather": "Padre eterno, mira con misericordia a toda la humanidad, especialmente a quienes necesitan conversión. Por la Pasión de tu Hijo, derrama sobre nosotros la gracia de reconocerte como Padre y de responder a tu amor con confianza. Amén.",
+      "bible": {
+        "reference": "Lucas 15,11-32",
+        "title": "El padre misericordioso"
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Hay alguien a quien me cuesta creer que Dios pueda perdonar?",
+      "intention": "Por toda la humanidad, especialmente por quienes viven alejados de Dios.",
+      "action": "Ora hoy por una persona concreta que necesite reconciliación con Dios, sin juzgarla."
+    },
+    {
+      "day": 2,
+      "sourceReference": "Diario 1212–1213",
+      "theme": "Sacerdotes y religiosos",
+      "title": "Quienes sirven como instrumentos de misericordia",
+      "jesusQuote": "«Hoy tráeme las almas de los sacerdotes y religiosos, y sumérgelas en mi insondable misericordia.»",
+      "jesusText": "Faustina registra que Jesús presenta a sacerdotes y religiosos como personas llamadas a servir y transmitir la misericordia de Dios. La oración pide para ellos gracia, fortaleza, luz y capacidad para guiar a otros hacia la salvación.",
+      "prayerAdapted": "Jesús misericordioso, fortalece a quienes han consagrado su vida a tu servicio. Dales fidelidad en sus responsabilidades, pureza de intención, sabiduría para acompañar y fortaleza ante las dificultades. Haz que su vida sea un canal de tu misericordia para quienes encuentran en ellos orientación y consuelo.",
+      "eternalFather": "Padre eterno, mira con misericordia a los sacerdotes y religiosos. Sostén sus vocaciones, ilumina sus decisiones y concédeles la gracia necesaria para servir con fidelidad y conducir a otros hacia Cristo. Amén.",
+      "bible": {
+        "reference": "2 Corintios 4,7-10",
+        "title": "Tesoro en vasos de barro"
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Cómo puedo orar concretamente por quienes sirven a la Iglesia?",
+      "intention": "Por el Papa, los obispos, sacerdotes, diáconos, religiosos y religiosas.",
+      "action": "Haz una oración personal por un sacerdote o religioso que conozcas."
+    },
+    {
+      "day": 3,
+      "sourceReference": "Diario 1214–1215",
+      "theme": "Almas devotas y fieles",
+      "title": "La fidelidad que acompaña a Cristo",
+      "jesusQuote": "«Hoy tráeme todas las almas devotas y fieles, y sumérgelas en el océano de mi misericordia.»",
+      "jesusText": "En este día la novena presenta a quienes permanecen fieles a Dios. Faustina registra que estas almas son descritas como un consuelo para Cristo en el camino de la Pasión, como una pequeña gota de consuelo en medio de un océano de amargura.",
+      "prayerAdapted": "Jesús misericordioso, recibe a quienes buscan permanecer fieles a ti. Sostén su perseverancia cuando la oración se vuelva difícil, cuando aparezcan dudas o cuando el bien parezca no producir fruto. Conserva en nosotros un corazón disponible para tu voluntad y una confianza que no dependa de las circunstancias.",
+      "eternalFather": "Padre eterno, mira con misericordia a quienes procuran permanecer fieles a tu Hijo. Por su Pasión, fortalécelos en la esperanza, la caridad y la perseverancia. Amén.",
+      "bible": {
+        "reference": "Hebreos 10,35-36",
+        "title": "Perseverar en la voluntad de Dios"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué aspecto de mi vida necesito volver a ser constante?",
+      "intention": "Por quienes perseveran en la fe en medio de dificultades, dudas o sufrimientos.",
+      "action": "Retoma hoy una práctica buena de oración o caridad que hayas abandonado."
+    },
+    {
+      "day": 4,
+      "sourceReference": "Diario 1216–1217",
+      "theme": "Quienes no conocen o no creen en Cristo",
+      "title": "La luz para quienes buscan",
+      "jesusQuote": "«Hoy tráeme a los paganos y a quienes todavía no me conocen.»",
+      "jesusText": "El cuarto día pide oración por quienes no conocen a Cristo y por quienes no creen. El centro de la intención es que puedan recibir la luz y descubrir la bondad de Dios. La novena invita a pedir desde la misericordia y no desde la condena.",
+      "prayerAdapted": "Jesús misericordioso, acompaña a quienes todavía no te conocen o tienen dificultades para creer. Respeta sus caminos y búsquedas, ilumina sus conciencias y pon en su camino personas capaces de dar testimonio con humildad, coherencia y caridad. Que quienes buscan sinceramente la verdad puedan encontrar luz.",
+      "eternalFather": "Padre eterno, mira con misericordia a quienes no conocen todavía a tu Hijo y a quienes buscan la verdad. Concédeles luz, libertad interior y personas que puedan dar testimonio de tu amor con respeto y caridad. Amén.",
+      "bible": {
+        "reference": "Juan 1,1-9",
+        "title": "La luz que ilumina a todo ser humano"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Cómo puedo dar testimonio de mi fe sin imponerla?",
+      "intention": "Por quienes no creen, dudan o todavía no conocen a Jesucristo.",
+      "action": "Haz hoy un acto de bondad que sea un testimonio silencioso de tu fe."
+    },
+    {
+      "day": 5,
+      "sourceReference": "Diario 1218–1219",
+      "theme": "Unidad de los cristianos",
+      "title": "Orar por quienes están separados",
+      "jesusQuote": "«Hoy tráeme las almas de los hermanos separados y sumérgelas en el océano de mi misericordia.»",
+      "jesusText": "En el texto de Faustina, este día se dirige a quienes se encuentran separados de la plena comunión eclesial. El lenguaje histórico de su época es más fuerte que el utilizado hoy en muchos contextos pastorales. Para la aplicación conviene conservar la referencia al Diario y presentar la intención como una oración por la unidad de los cristianos y la búsqueda de la verdad en la caridad.",
+      "prayerAdapted": "Jesús misericordioso, mira a todos los cristianos que todavía no vivimos plenamente la unidad. Sana las heridas de la división, elimina el orgullo y el prejuicio, y ayúdanos a buscar la verdad sin perder la caridad. Haz que los discípulos de Cristo crezcamos en el amor y demos un testimonio más unido ante el mundo.",
+      "eternalFather": "Padre eterno, mira con misericordia a quienes están separados de la comunión plena de la Iglesia. Por la Pasión de tu Hijo, guía a los cristianos hacia la verdad, la reconciliación y la unidad. Amén.",
+      "bible": {
+        "reference": "Juan 17,20-23",
+        "title": "Que todos sean uno"
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué prejuicio o actitud puede dificultar en mí la reconciliación con otros cristianos?",
+      "intention": "Por la unidad de los cristianos y por quienes han sufrido heridas o divisiones religiosas.",
+      "action": "Ora por una persona de otra comunidad cristiana y pide por la unidad de todos los discípulos de Cristo."
+    },
+    {
+      "day": 6,
+      "sourceReference": "Diario 1220–1223",
+      "theme": "Los humildes y los niños",
+      "title": "La sencillez que recibe la gracia",
+      "jesusQuote": "«Hoy tráeme las almas mansas y humildes y las almas de los pequeños.»",
+      "jesusText": "Faustina registra que Jesús presenta a los humildes y a los niños como quienes se asemejan especialmente a su corazón. La humildad aparece aquí como una disposición para recibir la gracia, no como desprecio de uno mismo.",
+      "prayerAdapted": "Jesús misericordioso, forma en nosotros un corazón sencillo y humilde. Protege a los niños, acompaña su crecimiento y permite que encuentren adultos que los cuiden con amor y responsabilidad. Líbranos del orgullo que nos cierra a la gracia y enséñanos a recibir de ti con confianza.",
+      "eternalFather": "Padre eterno, mira con misericordia a los humildes y a los niños. Protégelos, bendícelos y haz que el mundo que los rodea sea un lugar donde puedan crecer en verdad, seguridad, amor y esperanza. Amén.",
+      "bible": {
+        "reference": "Mateo 18,1-5",
+        "title": "Como los niños"
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Puedo reconocer que necesito recibir ayuda, consejo o gracia?",
+      "intention": "Por los niños, por quienes los cuidan y por todas las personas que viven con humildad y sencillez.",
+      "action": "Realiza hoy un servicio sencillo sin buscar reconocimiento."
+    },
+    {
+      "day": 7,
+      "sourceReference": "Diario 1224–1225",
+      "theme": "Quienes veneran y practican la misericordia",
+      "title": "Convertirse en testigos de la misericordia",
+      "jesusQuote": "«Hoy tráeme las almas que veneran y glorifican especialmente mi misericordia.»",
+      "jesusText": "Este día se dirige a quienes tienen una devoción especial a la misericordia de Dios. El texto de Faustina relaciona esa devoción con la confianza, la perseverancia y las obras concretas de misericordia. No se trata solamente de hablar de la misericordia, sino de vivirla.",
+      "prayerAdapted": "Jesús misericordioso, recibe a quienes desean honrar tu misericordia. Haz que su devoción se traduzca en obras: que sepan escuchar, perdonar, ayudar, acompañar y defender la dignidad de quienes sufren. Que su vida sea un testimonio visible del Evangelio de la misericordia.",
+      "eternalFather": "Padre eterno, mira con misericordia a quienes glorifican tu misericordia con la oración y las obras. Haz de ellos testigos fieles de tu amor y servidores atentos de quienes necesitan ayuda. Amén.",
+      "bible": {
+        "reference": "Mateo 25,31-40",
+        "title": "Tuve hambre y me diste de comer"
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Mi devoción a la misericordia de Dios se refleja realmente en cómo trato a los demás?",
+      "intention": "Por quienes promueven y practican las obras de misericordia.",
+      "action": "Realiza una obra de misericordia corporal o espiritual de manera concreta."
+    },
+    {
+      "day": 8,
+      "sourceReference": "Diario 1226–1227",
+      "theme": "Las almas del purgatorio",
+      "title": "Orar por quienes esperan la plenitud de Dios",
+      "jesusQuote": "«Hoy tráeme las almas que están en la prisión del Purgatorio.»",
+      "jesusText": "El octavo día pide orar por las almas del purgatorio. Faustina registra una petición de misericordia para quienes, según la enseñanza católica, están siendo purificados antes de entrar en la plenitud de la comunión con Dios.",
+      "prayerAdapted": "Jesús misericordioso, presentamos ante ti a las almas de nuestros hermanos difuntos. Purifícalas y llévalas a la plenitud de tu presencia. Recibe también el dolor de quienes lloran a sus seres queridos y fortalece su esperanza en la vida eterna.",
+      "eternalFather": "Padre eterno, mira con misericordia a las almas que se encuentran en purificación. Por la Pasión de tu Hijo, concédeles la plenitud de tu misericordia y permite que entren en la alegría de tu presencia. Amén.",
+      "bible": {
+        "reference": "2 Macabeos 12,44-46",
+        "title": "Oración por los difuntos"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién de mis seres queridos fallecidos quiero confiar hoy especialmente a Dios?",
+      "intention": "Por los difuntos, especialmente por quienes no tienen quien rece por ellos, y por sus familias.",
+      "action": "Dedica unos minutos a rezar por un familiar o conocido fallecido."
+    },
+    {
+      "day": 9,
+      "sourceReference": "Diario 1228–1229",
+      "theme": "Las almas tibias",
+      "title": "Despertar el amor",
+      "jesusQuote": "«Hoy tráeme las almas que se han vuelto tibias y sumérgelas en el abismo de mi misericordia.»",
+      "jesusText": "El último día está dirigido a quienes han caído en la tibieza espiritual. Faustina registra que Jesús pide llevar estas almas a su misericordia porque la indiferencia hiere profundamente el amor. La intención no es condenar, sino pedir que vuelva a encenderse el deseo de Dios.",
+      "prayerAdapted": "Jesús misericordioso, mira a quienes se han acostumbrado a vivir la fe con indiferencia. Despierta en ellos el deseo de amarte, de orar y de hacer el bien. También nosotros te pedimos que renueves nuestro propio corazón cuando la rutina, el cansancio o el egoísmo hayan apagado nuestro fervor.",
+      "eternalFather": "Padre eterno, mira con misericordia a quienes se encuentran tibios o indiferentes. Por la Pasión de tu Hijo, despierta en ellos el deseo de tu amor y haz que vuelvan a caminar con esperanza hacia ti. Amén.",
+      "bible": {
+        "reference": "Apocalipsis 3,14-22",
+        "title": "No eres frío ni caliente"
+      },
+      "virtue": "Renovación",
+      "reflection": "¿En qué aspecto de mi vida espiritual me he vuelto indiferente?",
+      "intention": "Por quienes se han alejado interiormente de Dios y por nosotros, para que nuestro amor no se enfríe.",
+      "action": "Elige una práctica concreta de fe que quieras recuperar y comienza hoy."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las secciones jesusText y prayerAdapted son adaptaciones originales de Amigos del Cielo. Los jesusQuote son fragmentos breves para identificar cada pasaje. La referencia primaria es Diario de Santa Faustina, nn. 1209–1229."
+  }
+}
