@@ -5070,5 +5070,37 @@
       "paz",
       "conversion"
     ]
+  },
+  {
+    "id": "virgen-de-lourdes",
+    "slug": "virgen-de-lourdes",
+    "name": "Virgen de Lourdes",
+    "title": "Novena a Nuestra Señora de Lourdes",
+    "subtitle": "Oración, conversión y esperanza junto a María",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/virgen_inmaculada_concepcion_lourdes.webp",
+    "file": "data/virgen-de-lourdes.json",
+    "description": "Nueve días para acercarnos al mensaje espiritual de Lourdes: oración, conversión, penitencia, confianza en Dios, servicio y esperanza, especialmente junto a quienes sufren.",
+    "feast": {
+      "day": 11,
+      "month": 2,
+      "text": "11 de febrero",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "virgen de lourdes",
+      "nuestra señora de lourdes",
+      "lourdes",
+      "bernardita",
+      "bernardette",
+      "massabielle",
+      "inmaculada concepcion",
+      "enfermos",
+      "peregrinos",
+      "gruta"
+    ]
   }
 ]
