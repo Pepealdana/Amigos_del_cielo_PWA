@@ -1,0 +1,360 @@
+{
+  "id": "virgen-de-guadalupe",
+  "slug": "virgen-de-guadalupe",
+  "name": "Virgen de Guadalupe",
+  "title": "Novena a Nuestra Señora de Guadalupe",
+  "subtitle": "Caminar con María hacia Cristo con confianza, humildad y amor",
+  "category": "Devociones",
+  "image": "assets/images/santos/virgen_de_guadalupe.webp",
+  "description": "Nueve días para contemplar a Santa María de Guadalupe como Madre que conduce a Cristo y aprender de ella confianza, escucha, humildad, servicio y esperanza.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "day": 12,
+    "month": 12,
+    "text": "12 de diciembre",
+    "liturgicalRank": "Fiesta",
+    "movable": false
+  },
+  "patronages": [
+    "América",
+    "Pueblos de América",
+    "Familias",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Confianza",
+    "Humildad",
+    "Escucha",
+    "Caridad",
+    "Esperanza",
+    "Servicio",
+    "Obediencia",
+    "Fe",
+    "Perseverancia"
+  ],
+  "search": [
+    "virgen de guadalupe",
+    "nuestra señora de guadalupe",
+    "guadalupe",
+    "santa maria de guadalupe",
+    "juan diego",
+    "tepeyac",
+    "méxico",
+    "mexico",
+    "américa",
+    "america",
+    "tilma",
+    "madre de dios",
+    "madre de américa"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y quienes sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza y dificultades",
+      "keywords": [
+        "esperanza",
+        "angustia",
+        "miedo",
+        "crisis",
+        "dificultad",
+        "incertidumbre"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinos y caminos",
+      "keywords": [
+        "peregrino",
+        "peregrinos",
+        "viaje",
+        "camino",
+        "santuario"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y discernimiento",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "discernimiento",
+        "decisión",
+        "decision"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "pobres",
+        "necesitados",
+        "ayuda",
+        "misericordia"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y vida cristiana",
+      "keywords": [
+        "fe",
+        "oracion",
+        "oración",
+        "evangelio",
+        "cristo",
+        "jesus",
+        "Jesús"
+      ]
+    },
+    {
+      "id": "familias-america",
+      "label": "Pueblos y familias de América",
+      "keywords": [
+        "america",
+        "américa",
+        "pueblos",
+        "latinoamerica",
+        "latinoamérica",
+        "comunidad"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción a Nuestra Señora de Guadalupe está vinculada a la tradición de las apariciones de Santa María a san Juan Diego en el Tepeyac en diciembre de 1531. La Iglesia celebra su fiesta el 12 de diciembre y reconoce a Guadalupe como una advocación mariana de especial importancia para los pueblos de América.",
+    "extended": "La tradición guadalupana sitúa en diciembre de 1531 los encuentros de Santa María de Guadalupe con Juan Diego Cuauhtlatoatzin en el cerro del Tepeyac, cerca de la actual Ciudad de México. El Nican Mopohua, escrito en náhuatl y atribuido a Antonio Valeriano, es una de las principales fuentes narrativas del acontecimiento. La Basílica de Guadalupe conserva y presenta esta tradición junto con otras fuentes documentales.\\n\\nLa Santa Sede estableció que la fiesta de la Bienaventurada Virgen María de Guadalupe se celebre el 12 de diciembre en todo el continente americano. San Juan Pablo II destacó la importancia de esta advocación para la evangelización y la unidad de los pueblos de América.\\n\\nLa Iglesia canonizó a Juan Diego Cuauhtlatoatzin en 2002. La tradición lo presenta como un hombre humilde que acogió el mensaje de María y colaboró en la construcción de la primera ermita del Tepeyac.\\n\\nEsta novena no busca sustituir la celebración litúrgica ni presentar cada detalle de la tradición como una afirmación histórica independiente. Su propósito es conducir a Cristo mediante las virtudes que María manifiesta en el relato guadalupano: escucha, humildad, confianza, disponibilidad, caridad y esperanza."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\n\\nSanta María de Guadalupe, Madre de Dios y Madre nuestra, acompáñanos durante estos nueve días. Enséñanos a escuchar la palabra de Dios, confiar cuando no entendemos el camino y servir con humildad. Presenta ante tu Hijo nuestras intenciones y ayúdanos a vivir una fe que se transforme en amor y servicio. Amén.",
+  "closingPrayer": "Santa María de Guadalupe, gracias por acompañarnos en este camino de oración. Llévanos siempre hacia Jesucristo, tu Hijo. Que aprendamos de tu humildad, confianza y caridad y que nuestra devoción produzca frutos concretos en nuestra familia, comunidad y vida cotidiana. Ruega por nosotros y por todos los pueblos de América. Amén.",
+  "intentions": [
+    "Por las familias, para que encuentren unidad, diálogo y paz.",
+    "Por los enfermos y quienes los cuidan, para que reciban consuelo y fortaleza.",
+    "Por los pueblos de América, para que crezcan en justicia, fraternidad y paz.",
+    "Por quienes atraviesan pobreza, migración, soledad o incertidumbre.",
+    "Por los jóvenes que buscan su vocación y su camino de vida.",
+    "Por quienes trabajan por la evangelización y el servicio a los demás.",
+    "Por quienes peregrinan a santuarios y buscan renovar su fe.",
+    "Por quienes necesitan reconciliación y una nueva oportunidad.",
+    "Por nuestras intenciones personales y para que aprendamos a llevar a Cristo a nuestra vida cotidiana."
+  ],
+  "resources": {
+    "devotion": "La devoción a la Virgen de Guadalupe es una devoción mariana centrada en María como Madre que conduce a Jesucristo. La oración a María pide su intercesión y nunca sustituye la adoración debida solamente a Dios.",
+    "feast": "12 de diciembre.",
+    "related": [
+      "San Juan Diego Cuauhtlatoatzin",
+      "Tepeyac",
+      "Basílica de Guadalupe",
+      "Evangelización de América",
+      "Nuestra Señora de Guadalupe"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Decreto sobre la celebración de la Fiesta de la Bienaventurada Virgen María de Guadalupe",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20000628_guadalupe_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Biografía de san Juan Diego Cuauhtlatoatzin",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020731_juan-diego_en.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus, 26 de enero de 1992",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1992/documents/hf_jp-ii_ang_19920126.html",
+      "type": "official"
+    },
+    {
+      "title": "El Relato — Nican Mopohua",
+      "organization": "Basílica de Santa María de Guadalupe",
+      "url": "https://virgendeguadalupe.org.mx/el-relato/",
+      "type": "reference"
+    },
+    {
+      "title": "Documentos Históricos Guadalupanos",
+      "organization": "Basílica de Santa María de Guadalupe",
+      "url": "https://virgendeguadalupe.org.mx/documentos-historicos/",
+      "type": "reference"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "María escucha y acoge",
+      "title": "Abrir el corazón a Dios",
+      "bible": {
+        "reference": "Lucas 1,26-38",
+        "title": "Hágase en mí según tu palabra"
+      },
+      "virtue": "Escucha",
+      "reflection": "¿Estoy dejando espacio para escuchar a Dios antes de responder?",
+      "intention": "Por quienes necesitan reconocer con serenidad el camino que Dios les propone.",
+      "prayer": "Santa María de Guadalupe, enséñanos a escuchar antes de actuar. Danos un corazón disponible para recibir la palabra de Dios y responder con confianza. Amén.",
+      "action": "Guarda hoy unos minutos de silencio y lee lentamente un pasaje del Evangelio."
+    },
+    {
+      "day": 2,
+      "theme": "La humildad de Juan Diego",
+      "title": "Dios mira a los pequeños",
+      "bible": {
+        "reference": "Lucas 1,46-55",
+        "title": "Ha mirado la humildad de su sierva"
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Dónde necesito dejar de buscar reconocimiento para servir con mayor libertad?",
+      "intention": "Por quienes se sienten poco valorados, especialmente personas sencillas y vulnerables.",
+      "prayer": "Santa María, ayúdanos a reconocer que nuestra dignidad no depende del reconocimiento de los demás. Enséñanos a servir con sencillez y a valorar a quienes suelen pasar desapercibidos. Amén.",
+      "action": "Haz hoy un servicio discreto sin buscar que otros sepan que lo realizaste."
+    },
+    {
+      "day": 3,
+      "theme": "No tengas miedo",
+      "title": "Confiar en el cuidado de Dios",
+      "bible": {
+        "reference": "Isaías 41,10",
+        "title": "No temas, porque yo estoy contigo"
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué miedo necesito entregar hoy a Dios?",
+      "intention": "Por quienes viven angustia, enfermedad, dificultades económicas o incertidumbre.",
+      "prayer": "Madre de Guadalupe, acompaña a quienes tienen miedo. Ayúdanos a confiar en Dios sin negar nuestras dificultades y a buscar también la ayuda humana que necesitamos. Amén.",
+      "action": "Presenta a Dios una preocupación concreta y da hoy un paso responsable para afrontarla."
+    },
+    {
+      "day": 4,
+      "theme": "María lleva a Cristo",
+      "title": "Ser presencia que consuela",
+      "bible": {
+        "reference": "Juan 2,1-11",
+        "title": "Hagan lo que él les diga"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Cómo puedo llevar hoy consuelo y esperanza a alguien?",
+      "intention": "Por las personas enfermas, solas o afligidas y por quienes las acompañan.",
+      "prayer": "Santa María de Guadalupe, enséñanos a estar atentos a las necesidades de los demás. Que, como tú, sepamos señalar siempre hacia Cristo y convertir nuestra fe en gestos concretos de amor. Amén.",
+      "action": "Visita, llama o ayuda hoy a una persona que necesite compañía."
+    },
+    {
+      "day": 5,
+      "theme": "Una casita sagrada",
+      "title": "Hacer de la familia un lugar de encuentro",
+      "bible": {
+        "reference": "Josué 24,15",
+        "title": "Mi familia y yo serviremos al Señor"
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué puedo cambiar en mi hogar para hacerlo más acogedor y cristiano?",
+      "intention": "Por las familias que necesitan reconciliación, diálogo y paz.",
+      "prayer": "Madre de Guadalupe, acompaña nuestros hogares. Ayúdanos a construir ambientes donde haya respeto, perdón, oración y cuidado mutuo. Que nuestras casas sean lugares donde el amor pueda crecer. Amén.",
+      "action": "Realiza hoy un gesto concreto de reconciliación o servicio dentro de tu hogar."
+    },
+    {
+      "day": 6,
+      "theme": "Una madre para los pueblos",
+      "title": "Construir unidad",
+      "bible": {
+        "reference": "Efesios 2,13-18",
+        "title": "Él es nuestra paz"
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué actitud mía puede contribuir a disminuir una división?",
+      "intention": "Por los pueblos de América y por quienes trabajan por la paz, la justicia y la fraternidad.",
+      "prayer": "Santa María de Guadalupe, Madre de los pueblos, ayúdanos a superar prejuicios y divisiones. Que aprendamos a reconocer la dignidad de cada persona y a construir comunidades donde haya respeto y fraternidad. Amén.",
+      "action": "Busca hoy un punto de encuentro con alguien con quien tengas una diferencia."
+    },
+    {
+      "day": 7,
+      "theme": "Peregrinar con esperanza",
+      "title": "Caminar aunque no veamos todo claro",
+      "bible": {
+        "reference": "Hebreos 12,1-3",
+        "title": "Corramos con perseverancia fijando los ojos en Jesús"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué camino bueno estoy a punto de abandonar por cansancio?",
+      "intention": "Por peregrinos, migrantes y personas que atraviesan etapas de cambio.",
+      "prayer": "Madre de Guadalupe, acompaña nuestros caminos. Danos perseverancia cuando no comprendamos todo y ayúdanos a continuar con esperanza, buscando siempre a Cristo. Amén.",
+      "action": "Retoma hoy una práctica buena que hayas abandonado por desánimo."
+    },
+    {
+      "day": 8,
+      "theme": "Llevar el Evangelio con respeto",
+      "title": "Servir a los demás",
+      "bible": {
+        "reference": "Mateo 28,19-20",
+        "title": "Vayan y hagan discípulos"
+      },
+      "virtue": "Misión",
+      "reflection": "¿Cómo puedo compartir mi fe sin imponerla y sirviendo primero?",
+      "intention": "Por catequistas, misioneros, evangelizadores y todos los cristianos que sirven a la Iglesia.",
+      "prayer": "Santa María de Guadalupe, acompaña a quienes anuncian el Evangelio. Enséñanos a comunicar nuestra fe con humildad, respeto y caridad, recordando que el testimonio de vida también anuncia a Cristo. Amén.",
+      "action": "Realiza hoy un servicio que haga visible el amor cristiano sin buscar reconocimiento."
+    },
+    {
+      "day": 9,
+      "theme": "María nos conduce a Cristo",
+      "title": "Vivir como discípulos",
+      "bible": {
+        "reference": "Juan 19,25-27",
+        "title": "Ahí tienes a tu madre"
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso concreto quiero llevar conmigo después de esta novena?",
+      "intention": "Por todas nuestras intenciones y para que María nos ayude a permanecer cerca de Cristo.",
+      "prayer": "Santa María de Guadalupe, recibe nuestras súplicas y llévanos siempre hacia Jesús. Que después de estos nueve días vivamos con más fe, humildad, caridad y esperanza. Enséñanos a servir a quienes encontramos en el camino y a perseverar en el bien. Amén.",
+      "action": "Escribe un compromiso concreto de oración, servicio o reconciliación y comienza a cumplirlo hoy."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La información histórica y devocional se fundamenta en fuentes oficiales de la Iglesia y en fuentes documentales de la Basílica de Guadalupe. No se reproducen literalmente novenas externas."
+  }
+}
