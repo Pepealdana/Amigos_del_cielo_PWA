@@ -2709,5 +2709,165 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-rosa-de-lima",
+    "slug": "santa-rosa-de-lima",
+    "name": "Santa Rosa de Lima",
+    "title": "Virgen y laica dominica",
+    "subtitle": "Mística de la oración, la caridad y el servicio",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_rosa_de_lima.webp",
+    "file": "data/santa-rosa-de-lima.json",
+    "description": "Primera santa canonizada del continente americano, cuya vida unió oración contemplativa, servicio a los necesitados, amor a la Eucaristía y entrega generosa a Dios.",
+    "feast": {
+      "day": 23,
+      "month": 8,
+      "text": "23 de agosto",
+      "liturgicalRank": "Memoria opcional",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa rosa",
+      "santa rosa de lima",
+      "rosa de lima",
+      "isabel flores de oliva",
+      "lima",
+      "peru",
+      "perú",
+      "america",
+      "américa",
+      "dominica",
+      "oracion",
+      "oración",
+      "eucaristia",
+      "eucaristía",
+      "rosario",
+      "pobres",
+      "enfermos",
+      "mision",
+      "misión",
+      "mistica",
+      "mística",
+      "rosa",
+      "familia",
+      "jovenes",
+      "jóvenes"
+    ],
+    "interventions": [
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "oración",
+          "contemplacion",
+          "contemplación",
+          "silencio",
+          "meditacion",
+          "meditación",
+          "fe"
+        ]
+      },
+      {
+        "id": "pobres",
+        "label": "Personas en pobreza y necesidad",
+        "keywords": [
+          "pobres",
+          "pobreza",
+          "necesidad",
+          "necesitados",
+          "vulnerables",
+          "ayuda"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "cuidado"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y responsabilidades del hogar",
+        "keywords": [
+          "familia",
+          "padres",
+          "madre",
+          "hijos",
+          "hogar",
+          "trabajo"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y discernimiento",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "llamado",
+          "discernimiento",
+          "consagracion",
+          "consagración",
+          "proposito",
+          "propósito"
+        ]
+      },
+      {
+        "id": "mision",
+        "label": "Misión y evangelización",
+        "keywords": [
+          "mision",
+          "misión",
+          "evangelizacion",
+          "evangelización",
+          "evangelio",
+          "predicar"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en tiempos de prueba",
+        "keywords": [
+          "esperanza",
+          "prueba",
+          "dificultad",
+          "desanimo",
+          "desánimo",
+          "aridez",
+          "sufrimiento"
+        ]
+      },
+      {
+        "id": "rosario",
+        "label": "Rosario y devoción mariana",
+        "keywords": [
+          "rosario",
+          "virgen",
+          "maria",
+          "maría"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y búsqueda de sentido",
+        "keywords": [
+          "jovenes",
+          "jóvenes",
+          "juventud",
+          "adolescentes",
+          "estudiantes",
+          "sentido"
+        ]
+      }
+    ]
   }
 ]
