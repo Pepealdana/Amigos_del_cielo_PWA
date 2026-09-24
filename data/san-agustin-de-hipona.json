@@ -1,0 +1,454 @@
+{
+  "id": "san-agustin-de-hipona",
+  "slug": "san-agustin-de-hipona",
+  "name": "San Agustín de Hipona",
+  "title": "Obispo y Doctor de la Iglesia",
+  "subtitle": "Padre de la Iglesia latina",
+  "category": "Santos",
+  "image": "assets/images/santos/san_agustin_de_hipona.webp",
+  "description": "Buscador de la verdad, convertido a Cristo y pastor de Hipona, cuya vida unió estudio, oración, conversión y servicio.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-agustin-de-hipona"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "❤️"
+  },
+  "feast": {
+    "day": 28,
+    "month": 8,
+    "text": "28 de agosto",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Tarde te amé, hermosura tan antigua y tan nueva.",
+    "reference": "San Agustín, Confesiones X, 27, 38"
+  },
+  "patronages": [
+    "Teólogos",
+    "Estudiosos y buscadores de la verdad"
+  ],
+  "virtues": [
+    "Conversión",
+    "Búsqueda de la verdad",
+    "Humildad",
+    "Oración",
+    "Caridad",
+    "Sabiduría",
+    "Perseverancia",
+    "Servicio pastoral"
+  ],
+  "search": [
+    "san agustin",
+    "san agustín de hipona",
+    "agustin",
+    "hipona",
+    "conversion",
+    "convertirse",
+    "verdad",
+    "estudio",
+    "filosofia",
+    "teologia",
+    "oracion",
+    "confesiones",
+    "familia",
+    "madres",
+    "pastores",
+    "obispos",
+    "inquietud espiritual"
+  ],
+  "interventions": [
+    {
+      "id": "conversion",
+      "label": "Conversión y regreso a Dios",
+      "keywords": [
+        "conversion",
+        "convertirse",
+        "cambio de vida",
+        "pecado",
+        "arrepentimiento",
+        "regresar a dios",
+        "fe perdida"
+      ]
+    },
+    {
+      "id": "verdad",
+      "label": "Búsqueda de la verdad y sentido",
+      "keywords": [
+        "verdad",
+        "sentido",
+        "dudas",
+        "busqueda",
+        "inquietud",
+        "discernimiento",
+        "sabiduria"
+      ]
+    },
+    {
+      "id": "estudio-formacion",
+      "label": "Estudio y formación cristiana",
+      "keywords": [
+        "estudio",
+        "estudiantes",
+        "filosofia",
+        "teologia",
+        "formacion",
+        "aprendizaje",
+        "lectura",
+        "escritura"
+      ]
+    },
+    {
+      "id": "vida-interior",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oracion",
+        "vida interior",
+        "silencio",
+        "paz",
+        "corazon inquieto",
+        "meditacion"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y madres que oran",
+      "keywords": [
+        "familia",
+        "madres",
+        "madres que oran",
+        "hijos",
+        "hijo",
+        "padres"
+      ]
+    },
+    {
+      "id": "pastoral",
+      "label": "Servicio pastoral e Iglesia",
+      "keywords": [
+        "iglesia",
+        "pastoral",
+        "sacerdotes",
+        "sacerdote",
+        "obispos",
+        "obispo",
+        "pastores",
+        "comunidad"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Aurelio Agustín nació en Tagaste, en el norte de África, en el año 354. Buscó durante años la verdad y la felicidad en distintas corrientes de pensamiento y en sus propios proyectos de vida. La influencia de su madre Mónica, la predicación de san Ambrosio y un largo proceso interior lo condujeron a la conversión y al bautismo. Después fue sacerdote y obispo de Hipona, donde dedicó su vida a la predicación, el estudio, la defensa de la fe y el servicio a los pobres. Murió en Hipona en el año 430.",
+    "extended": "Agustín nació en Tagaste en 354 y desde joven mostró una inteligencia excepcional y un fuerte deseo de comprender la verdad. En su propia obra Confesiones contó con notable sinceridad sus búsquedas, errores y deseos. Durante su juventud se dejó llevar por la ambición intelectual y profesional, por relaciones afectivas desordenadas y por un deseo intenso de encontrar la felicidad lejos de Dios. También siguió durante un tiempo el maniqueísmo y después atravesó otras búsquedas filosóficas. No fue una transformación instantánea: fue un camino largo, con avances, dudas y resistencias. Su madre Mónica perseveró en la oración por él, mientras Agustín encontraba en la predicación de san Ambrosio de Milán una nueva manera de comprender la Escritura y la fe cristiana. En Milán llegó a una crisis interior decisiva. En el jardín, después de una intensa lucha consigo mismo, escuchó una voz infantil que interpretó como una invitación a tomar y leer; abrió las cartas de san Pablo y encontró allí una llamada a abandonar la vida anterior y revestirse de Cristo. Fue bautizado por Ambrosio en la Vigilia Pascual de 387. A partir de entonces no dejó de cambiar: quiso inicialmente llevar una vida de oración y estudio en comunidad, pero terminó comprendiendo que Dios lo llamaba también al servicio pastoral. Fue ordenado sacerdote en Hipona en 391 y consagrado obispo en 395. Como pastor predicó con frecuencia, atendió a pobres y huérfanos, formó al clero y defendió la fe frente a diversas controversias de su tiempo. Sus experiencias de búsqueda y conversión quedaron reflejadas en obras como Confesiones, mientras que el libro, el corazón y los atributos episcopales pasaron a formar parte de su representación tradicional. El libro recuerda su amor por la Escritura, el estudio y la enseñanza. El corazón, especialmente unido al libro y a una llama o flecha en algunas imágenes, expresa su experiencia interior de un corazón que buscaba descansar en Dios y que fue transformado por la Palabra. La vestidura episcopal, el báculo y la mitra recuerdan su ministerio como obispo de Hipona. En algunas representaciones aparece también con una pluma, aludiendo a su enorme producción escrita. Agustín murió el 28 de agosto de 430, mientras Hipona estaba sitiada por los vándalos. Su vida quedó así marcada por una transformación profunda: del hombre inquieto que buscaba la verdad en muchos caminos al cristiano que puso su inteligencia, su palabra y su ministerio al servicio de Dios y de los demás."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Agustín de Hipona, hombre de búsqueda, conversión y servicio, acompáñame durante estos nueve días. Enséñame a reconocer las inquietudes de mi corazón, a buscar la verdad con humildad, a abrirme a la gracia de Dios y a poner mis capacidades al servicio de los demás. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Agustín de Hipona, gracias por acompañarme durante esta novena. Ayúdame a no huir de las preguntas profundas de mi corazón y a buscar en Dios la verdad y la paz. Intercede por quienes desean cambiar de vida, por quienes están alejados de la fe, por quienes estudian y enseñan y por quienes sirven a la Iglesia. Que, como tú, aprendamos a poner nuestros dones al servicio de la verdad, del amor y de nuestros hermanos. Amén.",
+  "intentions": [
+    "Por quienes desean cambiar de vida y regresar a Dios.",
+    "Por quienes viven dudas de fe o una profunda inquietud interior.",
+    "Por estudiantes, docentes, investigadores y buscadores de la verdad.",
+    "Por las familias y, de manera especial, por las madres que oran por sus hijos.",
+    "Por sacerdotes, obispos y quienes ejercen responsabilidades pastorales.",
+    "Por quienes se sienten atrapados por hábitos que desean superar.",
+    "Por quienes necesitan encontrar paz interior y sentido para su vida.",
+    "Por quienes trabajan por la unidad y la verdad dentro de la Iglesia.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 15,11-32"
+      },
+      {
+        "reference": "Romanos 13,11-14"
+      },
+      {
+        "reference": "Salmo 42,2-3"
+      }
+    ],
+    "documents": [
+      "Confesiones",
+      "De doctrina christiana",
+      "De civitate Dei"
+    ],
+    "related": [
+      "Santa Mónica",
+      "San Ambrosio de Milán",
+      "Orden de San Agustín"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general del 9 de enero de 2008: San Agustín. 1 - La vida",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080109.html",
+      "type": "official"
+    },
+    {
+      "title": "Audiencia general del 27 de febrero de 2008: San Agustín. 5 - Las conversiones",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080227.html",
+      "type": "official"
+    },
+    {
+      "title": "Audiencia general del 20 de febrero de 2008: San Agustín. 4 - Las obras",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080220.html",
+      "type": "official"
+    },
+    {
+      "title": "Oración a san Agustín",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/2004/november/documents/hf_jp-ii_spe_20041111_prayer-st-augustine.html",
+      "type": "official"
+    },
+    {
+      "title": "Memoria de San Agustín, obispo y doctor de la Iglesia",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://bible.usccb.org/es/bible/lecturas/0828-memoria.cfm",
+      "type": "official"
+    },
+    {
+      "title": "In illo uno unum — símbolos de la Orden de San Agustín",
+      "organization": "Orden de San Agustín",
+      "url": "https://www.augustinianorder.org/post/in-illo-uno-unum-detailed-explanation-of-the-papal-coat-of-arms-and-motto-chosen-by-leo-xiv-for-h?lang=es",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La inquietud del corazón",
+      "title": "Un joven que buscaba la verdad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Agustín nació en Tagaste en 354. Desde joven destacó por su inteligencia y por un deseo intenso de comprender el mundo y encontrar la felicidad. Su camino no fue lineal: buscó respuestas en distintas corrientes de pensamiento y en sus propios proyectos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las preguntas profundas no tienen que ser enemigas de la fe. Pueden convertirse en el comienzo de una búsqueda sincera cuando estamos dispuestos a reconocer que todavía no tenemos todas las respuestas."
+      },
+      "virtue": "Búsqueda de la verdad",
+      "reflection": "¿Qué preguntas profundas están ocupando hoy mi corazón y cómo puedo llevarlas a la oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan respuestas sobre Dios, la fe y el sentido de su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, acompaña mi búsqueda y enséñame a no conformarme con respuestas superficiales. Guíame hacia la verdad y hacia Dios. Amén."
+      },
+      "action": "Escribe una pregunta importante que llevas dentro y dedica unos minutos a presentársela a Dios."
+    },
+    {
+      "day": 2,
+      "theme": "Las búsquedas que no llenan",
+      "title": "Reconocer lo que nos aleja",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En las Confesiones, Agustín reconoce que durante su juventud vivió unido a deseos, ambiciones y relaciones que no le daban la paz que buscaba. También siguió el maniqueísmo durante varios años. Más tarde reconocería con claridad sus errores y su necesidad de cambiar."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Reconocer nuestros errores no significa negar nuestra historia. Puede ser el comienzo de una vida nueva cuando dejamos de justificar aquello que sabemos que nos hace daño."
+      },
+      "virtue": "Sinceridad",
+      "reflection": "¿Hay algún hábito, apego o decisión que sé que necesito revisar delante de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean abandonar hábitos que les hacen daño y comenzar un camino de cambio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, ayúdame a mirar mi vida con sinceridad. Dame humildad para reconocer mis errores y valentía para comenzar a cambiar. Amén."
+      },
+      "action": "Identifica un hábito que quieras mejorar y da hoy un primer paso concreto."
+    },
+    {
+      "day": 3,
+      "theme": "La búsqueda de la verdad",
+      "title": "Cuando la inteligencia también busca a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Agustín pasó por distintas escuelas de pensamiento antes de acercarse plenamente a la fe cristiana. Su búsqueda intelectual no desapareció con la conversión; fue integrada en una vida dedicada al estudio de la Escritura, la teología y la filosofía."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no exige dejar de pensar. Agustín muestra que estudiar, preguntar y buscar la verdad pueden formar parte de una vida espiritual cuando se realizan con humildad."
+      },
+      "virtue": "Sabiduría",
+      "reflection": "¿Cómo puedo unir mejor mi fe con mi deseo de aprender y comprender?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, docentes, investigadores y quienes buscan la verdad con honestidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, enséñame a estudiar con humildad y a buscar la verdad sin orgullo. Que mis conocimientos estén al servicio del bien. Amén."
+      },
+      "action": "Dedica hoy tiempo a estudiar algo importante y termina agradeciendo a Dios por la capacidad de aprender."
+    },
+    {
+      "day": 4,
+      "theme": "La conversión",
+      "title": "Un corazón que decide cambiar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Milán, después de años de lucha interior, Agustín vivió una crisis decisiva. En el jardín escuchó una voz infantil que interpretó como una invitación a tomar y leer. Abrió las cartas de san Pablo y encontró una llamada a abandonar la vida anterior y revestirse de Cristo. Fue bautizado por san Ambrosio en 387."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión puede llegar después de un largo proceso. A veces una decisión concreta resume años de preguntas, lágrimas, acompañamiento y gracia. Cambiar de vida exige pasar del deseo a una respuesta."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué cambio concreto sé que debo comenzar, pero sigo aplazando?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean reconciliarse con Dios y por quienes están comenzando un camino de conversión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, acompaña mis decisiones de cambio. Ayúdame a escuchar la Palabra de Dios y a responder con generosidad cuando me invita a una vida nueva. Amén."
+      },
+      "action": "Lee hoy un pasaje breve del Evangelio y elige una enseñanza para poner en práctica."
+    },
+    {
+      "day": 5,
+      "theme": "La gracia y la compañía",
+      "title": "Mónica, Ambrosio y una nueva vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La conversión de Agustín estuvo acompañada por personas concretas. Su madre Mónica perseveró durante años en la oración por él. San Ambrosio de Milán influyó en su comprensión de la Escritura y de la fe. Después del bautismo, Agustín regresó hacia África con nuevos amigos para vivir una vida dedicada a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dios puede servirse de otras personas para acompañarnos en nuestros procesos. También nosotros podemos ser apoyo para alguien que está buscando, dudando o intentando cambiar."
+      },
+      "virtue": "Gratitud",
+      "reflection": "¿Quién ha sido una presencia importante en mi camino espiritual y cómo puedo agradecerlo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y, especialmente, por las madres y padres que oran y esperan por sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, intercede por nuestras familias. Que quienes acompañan a otros con paciencia no pierdan la esperanza y que quienes hemos recibido ayuda sepamos agradecerla. Amén."
+      },
+      "action": "Agradece hoy de manera concreta a una persona que haya contribuido a tu crecimiento."
+    },
+    {
+      "day": 6,
+      "theme": "El servicio",
+      "title": "Del deseo de retirarse al llamado a pastorear",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Agustín quería dedicar su vida al estudio, la oración y la vida común. Sin embargo, en Hipona fue ordenado sacerdote en 391 y cuatro años después consagrado obispo. Lo que inicialmente no había buscado se convirtió en un servicio pastoral que aceptó como llamada de Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No siempre nuestra vocación coincide con el plan que habíamos imaginado. La disponibilidad también consiste en aceptar responsabilidades cuando descubrimos que pueden convertirse en servicio."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Hay una responsabilidad que rechazo simplemente porque no coincide con mis planes?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, religiosos, obispos y todas las personas llamadas al servicio de la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, enséñame a reconocer cuándo una responsabilidad puede convertirse en servicio. Dame generosidad para responder sin buscar solamente mi comodidad. Amén."
+      },
+      "action": "Asume hoy una responsabilidad que hayas estado evitando y realízala con espíritu de servicio."
+    },
+    {
+      "day": 7,
+      "theme": "La caridad pastoral",
+      "title": "Una vida entregada a los demás",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Como obispo de Hipona, Agustín predicó con frecuencia, ayudó a pobres y huérfanos, cuidó la formación del clero y afrontó controversias que afectaban a la vida de la Iglesia. Su estudio dejó de ser una actividad privada y se convirtió en instrumento de servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los dones personales adquieren un sentido más pleno cuando ayudan a otros. El conocimiento, la palabra, el tiempo y la capacidad de escuchar pueden convertirse en formas concretas de caridad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué capacidad o conocimiento que tengo podría utilizar hoy para ayudar a otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a comunidades, parroquias y obras de ayuda, y por quienes trabajan por los más vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, ayúdame a no guardar mis dones solamente para mí. Enséñame a ponerlos al servicio de quienes necesitan una palabra, una orientación o una ayuda concreta. Amén."
+      },
+      "action": "Usa hoy una habilidad tuya para resolver una necesidad real de otra persona."
+    },
+    {
+      "day": 8,
+      "theme": "La vida interior",
+      "title": "Un corazón que aprende a descansar en Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La experiencia interior de Agustín quedó reflejada especialmente en sus Confesiones. Su búsqueda de muchos años desembocó en el reconocimiento de que la criatura no encuentra descanso definitivo lejos de Dios. La oración, la Escritura y el examen de la propia vida ocuparon un lugar central en su camino."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida exterior puede estar llena de actividades y, aun así, dejar una profunda inquietud. La oración permite detenernos, reconocer lo que ocurre dentro de nosotros y orientar nuevamente el corazón hacia Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué inquietud necesito presentar hoy a Dios en lugar de intentar resolverla solamente con mis propias fuerzas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven inquietud, soledad, confusión o cansancio interior y necesitan encontrar esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín, acompaña nuestros corazones inquietos. Enséñanos a buscar en Dios la paz que ninguna cosa creada puede darnos por completo. Amén."
+      },
+      "action": "Guarda diez minutos de silencio para orar sin teléfono ni otras distracciones."
+    },
+    {
+      "day": 9,
+      "theme": "La perseverancia y el legado",
+      "title": "Seguir buscando hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Agustín permaneció como obispo de Hipona hasta su muerte en 430. Durante el asedio de la ciudad por los vándalos enfermó gravemente y pidió que colocaran ante él los salmos penitenciales para poder leerlos y orar. Murió el 28 de agosto, después de una vida marcada por la búsqueda, la conversión y el servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión no es solamente un momento del pasado. Es una orientación que necesita renovarse durante toda la vida. Agustín terminó su camino todavía buscando a Dios, sirviendo a los demás y reconociendo su necesidad de misericordia."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué decisión buena quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan perseverar en un proceso de cambio y por todas las intenciones que hemos presentado durante estos nueve días."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Agustín de Hipona, intercede por nosotros. Ayúdanos a perseverar en la búsqueda de Dios, a reconocer nuestros errores con humildad y a poner nuestros dones al servicio de los demás. Que nuestro corazón encuentre en Dios la verdad, la paz y la esperanza. Amén."
+      },
+      "action": "Elige una práctica concreta de oración, estudio o servicio que quieras mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-23"
+  }
+}
