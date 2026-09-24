@@ -1,0 +1,366 @@
+{
+  "id": "santos-cosme-y-damian",
+  "slug": "santos-cosme-y-damian",
+  "name": "Santos Cosme y Damián",
+  "title": "Novena a los Santos Cosme y Damián",
+  "subtitle": "Servir con caridad y aliviar el sufrimiento",
+  "category": "Santos",
+  "image": "assets/images/santos/santos_cosme_y_damian.webp",
+  "description": "Nueve días para contemplar el testimonio de los santos Cosme y Damián, médicos cristianos que, según la tradición, atendían gratuitamente a los enfermos y dieron testimonio de Cristo hasta el martirio.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✚"
+  },
+  "feast": {
+    "day": 26,
+    "month": 9,
+    "text": "26 de septiembre",
+    "liturgicalRank": "Memoria opcional",
+    "movable": false
+  },
+  "patronages": [
+    "Médicos",
+    "Cirujanos",
+    "Farmacéuticos",
+    "Enfermos",
+    "Profesionales de la salud"
+  ],
+  "virtues": [
+    "Caridad",
+    "Servicio",
+    "Compasión",
+    "Generosidad",
+    "Fe",
+    "Fortaleza",
+    "Esperanza",
+    "Fraternidad",
+    "Perseverancia"
+  ],
+  "search": [
+    "san cosme",
+    "san damián",
+    "san damian",
+    "cosme y damian",
+    "médicos",
+    "medicos",
+    "cirujanos",
+    "farmacéuticos",
+    "enfermos",
+    "salud",
+    "sanación",
+    "caridad",
+    "profesionales de la salud"
+  ],
+  "interventions": [
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "salud"
+      ]
+    },
+    {
+      "id": "profesionales-salud",
+      "label": "Médicos y profesionales de la salud",
+      "keywords": [
+        "médico",
+        "medico",
+        "médicos",
+        "medicos",
+        "cirujano",
+        "cirujanos",
+        "enfermería",
+        "enfermeria",
+        "farmacéutico",
+        "farmaceutico",
+        "salud"
+      ]
+    },
+    {
+      "id": "familiares-cuidadores",
+      "label": "Familiares y cuidadores",
+      "keywords": [
+        "cuidador",
+        "cuidadores",
+        "familia",
+        "familiares",
+        "acompañamiento",
+        "acompanamiento"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio gratuito",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "ayuda",
+        "generosidad",
+        "pobreza",
+        "necesidad"
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "label": "Fortaleza en la enfermedad",
+      "keywords": [
+        "fortaleza",
+        "miedo",
+        "angustia",
+        "dolor",
+        "prueba",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y testimonio cristiano",
+      "keywords": [
+        "fe",
+        "evangelio",
+        "cristo",
+        "conversion",
+        "conversión",
+        "testimonio"
+      ]
+    },
+    {
+      "id": "martirio",
+      "label": "Perseverancia y fidelidad",
+      "keywords": [
+        "martirio",
+        "persecución",
+        "persecucion",
+        "fidelidad",
+        "perseverancia"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación al servicio",
+      "keywords": [
+        "vocación",
+        "vocacion",
+        "llamado",
+        "servicio",
+        "profesion",
+        "profesión"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Según la tradición recogida por la Iglesia, Cosme y Damián fueron hermanos cristianos y médicos que ejercieron su profesión sin exigir pago, especialmente a quienes no podían pagar. Su testimonio de caridad estuvo unido a la fe y culminó en el martirio durante las persecuciones de los primeros siglos.",
+    "extended": "La información histórica sobre Cosme y Damián procede en buena parte de tradiciones antiguas. La memoria litúrgica de la Iglesia los presenta como mártires y recuerda que ejercieron la medicina en Cirro, en la antigua provincia de Eufratesia, sin pedir recompensa por sus servicios.\\n\\nVatican News resume la tradición según la cual fueron cristianos dedicados al cuidado de los enfermos y conocidos como anárgiros, expresión griega relacionada con quienes no reciben dinero por su servicio. Su actividad médica no se entendía separada de su fe: buscaban también el bien espiritual de quienes atendían.\\n\\nLas narraciones sobre su martirio contienen elementos legendarios, por lo que esta novena no presenta como hechos históricos comprobados todos los detalles de esas tradiciones. Lo que la liturgia conserva con claridad es su memoria como mártires y su testimonio de servicio.\\n\\nLa Iglesia celebra a los santos Cosme y Damián el 26 de septiembre. Su ejemplo puede inspirar especialmente a quienes trabajan en la salud, a quienes cuidan enfermos y a todos los cristianos llamados a servir gratuitamente y con compasión."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\n\\nDios misericordioso, fuente de toda vida y de toda verdadera sanación, gracias por el testimonio de los santos Cosme y Damián. Enséñanos a servir con generosidad, a acompañar al que sufre y a poner nuestros conocimientos y capacidades al bien de los demás. Por su intercesión, recibe nuestras intenciones y danos una fe firme, una caridad sincera y un corazón dispuesto a servir. Por Cristo nuestro Señor. Amén.",
+  "closingPrayer": "Señor Jesús, gracias por estos nueve días junto a los santos Cosme y Damián. Haz que su ejemplo nos ayude a mirar al enfermo con dignidad, al necesitado con compasión y a toda persona con espíritu de servicio. Bendice a quienes trabajan por la salud, fortalece a los cuidadores y concede esperanza a quienes sufren. Que nuestra fe se traduzca en obras de amor y servicio. Por Cristo nuestro Señor. Amén.",
+  "intentions": [
+    "Por los enfermos y por quienes esperan con esperanza su recuperación.",
+    "Por médicos, enfermeros, cirujanos, farmacéuticos y demás profesionales de la salud.",
+    "Por las familias que acompañan a un ser querido durante una enfermedad.",
+    "Por quienes no pueden acceder fácilmente a servicios de salud o medicamentos.",
+    "Por quienes realizan su trabajo con escasos recursos y gran responsabilidad.",
+    "Por quienes atraviesan enfermedades prolongadas, dolor crónico o procesos de rehabilitación.",
+    "Por quienes tienen miedo ante un diagnóstico o una intervención médica.",
+    "Por quienes han perdido a un ser querido después de una enfermedad.",
+    "Por nuestras intenciones personales y para que aprendamos a servir con caridad generosa."
+  ],
+  "resources": {
+    "devotion": "La devoción a los santos Cosme y Damián debe conducir hacia Cristo, fuente de toda vida y salvación. Pedimos su intercesión y contemplamos su ejemplo de servicio, sin atribuirles el lugar que corresponde a Dios.",
+    "feast": "La Iglesia recuerda a los santos Cosme y Damián el 26 de septiembre.",
+    "related": [
+      "San Lucas Evangelista",
+      "Enfermos",
+      "Profesionales de la salud",
+      "Mártires",
+      "Caridad cristiana"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Ss. Cosme y Damián, mártires",
+      "organization": "Vatican News",
+      "url": "https://www.vaticannews.va/es/santos/09/26/ss--cosme-y-damian--martires.html",
+      "type": "reference"
+    },
+    {
+      "title": "Santo del día — 26 de septiembre",
+      "organization": "Vatican News",
+      "url": "https://www.vaticannews.va/es/santos/09/26.html",
+      "type": "reference"
+    },
+    {
+      "title": "Santo de hoy: San Cosme y San Damián",
+      "organization": "Arquidiócesis de Bogotá",
+      "url": "https://arquibogota.org.co/centro-de-informacion/noticias/santo-de-hoy-san-cosme-y-san-damian",
+      "type": "reference"
+    },
+    {
+      "title": "Santos Cosme y Damián",
+      "organization": "Arquidiócesis de Granada",
+      "url": "https://archidiocesisgranada.es/santo-del-dia/santos-cosme-y-damian-2/",
+      "type": "reference"
+    },
+    {
+      "title": "Optional Memorial of Saints Cosmas and Damian, Martyrs",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/bible/readings/0926-memorial-cosmas-damian.cfm",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La caridad que se acerca al que sufre",
+      "title": "Mirar al enfermo con compasión",
+      "bible": {
+        "reference": "Mateo 25,34-40",
+        "title": "Estuve enfermo y me visitaron"
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Cómo cambia mi manera de mirar a una persona cuando recuerdo que merece cuidado y dignidad?",
+      "intention": "Por todos los enfermos, especialmente quienes se sienten solos.",
+      "prayer": "Santos Cosme y Damián, enséñennos a acercarnos al que sufre sin indiferencia. Que sepamos escuchar, acompañar y ayudar con respeto, reconociendo en cada persona una dignidad que debe ser cuidada. Amén.",
+      "action": "Ofrece hoy una ayuda concreta o una palabra de compañía a una persona enferma o que esté pasando por una dificultad."
+    },
+    {
+      "day": 2,
+      "theme": "La medicina como servicio",
+      "title": "Poner los dones al servicio",
+      "bible": {
+        "reference": "1 Pedro 4,10",
+        "title": "Pongan al servicio de los demás el don que recibieron"
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué conocimiento, habilidad o recurso puedo poner hoy al servicio de alguien?",
+      "intention": "Por médicos, enfermeros, cirujanos, farmacéuticos y todos los profesionales de la salud.",
+      "prayer": "Santos Cosme y Damián, ayuden a quienes trabajan por la salud a ejercer su profesión con competencia, humanidad y sentido de servicio. Que nunca olviden la persona que está detrás de cada necesidad. Amén.",
+      "action": "Reconoce y agradece hoy el trabajo de una persona que cuida la salud de otros."
+    },
+    {
+      "day": 3,
+      "theme": "Servir sin calcular la recompensa",
+      "title": "La generosidad que no busca pago",
+      "bible": {
+        "reference": "Lucas 6,32-36",
+        "title": "Sean misericordiosos"
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Puedo hacer el bien hoy sin esperar reconocimiento?",
+      "intention": "Por quienes viven en pobreza o tienen dificultades para acceder a atención y medicamentos.",
+      "prayer": "Santos médicos de Cristo, enséñennos una generosidad que no mida cada gesto por lo que recibirá a cambio. Danos un corazón atento a quien no puede devolvernos el favor y dispuesto a compartir con prudencia y justicia. Amén.",
+      "action": "Haz hoy un acto de servicio gratuito y discreto."
+    },
+    {
+      "day": 4,
+      "theme": "Acompañar el dolor",
+      "title": "No dejar solo al que sufre",
+      "bible": {
+        "reference": "Romanos 12,15",
+        "title": "Alégrense con los que se alegran; lloren con los que lloran"
+      },
+      "virtue": "Acompañamiento",
+      "reflection": "¿Sé estar presente cuando no tengo una solución para el problema de otra persona?",
+      "intention": "Por familiares y cuidadores que acompañan procesos largos de enfermedad.",
+      "prayer": "Santos Cosme y Damián, intercedan por quienes cuidan día tras día a un enfermo. Enséñennos que acompañar también es una forma de amar y que una presencia paciente puede sostener a quien atraviesa momentos difíciles. Amén.",
+      "action": "Llama o escribe hoy a un cuidador o familiar que necesite sentirse acompañado."
+    },
+    {
+      "day": 5,
+      "theme": "Fe en medio de la prueba",
+      "title": "Confiar cuando la enfermedad asusta",
+      "bible": {
+        "reference": "Salmo 23,1-4",
+        "title": "Aunque camine por cañadas oscuras, nada temo"
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué miedo necesito poner hoy delante de Dios?",
+      "intention": "Por quienes esperan resultados médicos, diagnósticos o intervenciones.",
+      "prayer": "Santos Cosme y Damián, acompañen a quienes sienten miedo ante la enfermedad. Pidan para ellos serenidad, fortaleza y personas capaces de sostenerlos. Que la confianza en Dios no nos haga negar el dolor, sino atravesarlo con esperanza. Amén.",
+      "action": "Dedica unos minutos de oración por una persona que esté esperando un resultado o procedimiento médico."
+    },
+    {
+      "day": 6,
+      "theme": "La salud integral",
+      "title": "Cuidar cuerpo, mente y espíritu",
+      "bible": {
+        "reference": "1 Corintios 6,19-20",
+        "title": "Su cuerpo es templo del Espíritu Santo"
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué hábito de cuidado debo fortalecer y qué ayuda profesional debería aceptar cuando sea necesario?",
+      "intention": "Por quienes necesitan recuperar su salud física, emocional o espiritual y por quienes los acompañan.",
+      "prayer": "Santos Cosme y Damián, ayúdennos a comprender el cuidado de la salud como una responsabilidad. Danos humildad para pedir ayuda, prudencia para seguir indicaciones adecuadas y respeto por quienes trabajan para aliviar el sufrimiento. Amén.",
+      "action": "Revisa hoy un aspecto de tu autocuidado y toma una medida concreta y razonable para mejorarlo."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverar en el bien",
+      "title": "Servir incluso cuando cuesta",
+      "bible": {
+        "reference": "Gálatas 6,9",
+        "title": "No nos cansemos de hacer el bien"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué servicio bueno estoy pensando abandonar por cansancio?",
+      "intention": "Por profesionales y cuidadores que experimentan agotamiento, presión o desánimo.",
+      "prayer": "Santos Cosme y Damián, fortalezcan a quienes sirven a los enfermos y a quienes sostienen responsabilidades difíciles. Que sepan descansar, pedir ayuda y perseverar sin perder la caridad ni la dignidad propia. Amén.",
+      "action": "Agradece hoy a alguien que persevera en una tarea de cuidado y, si puedes, alivia parte de su carga."
+    },
+    {
+      "day": 8,
+      "theme": "La fe que se hace testimonio",
+      "title": "Anunciar con la vida",
+      "bible": {
+        "reference": "Mateo 5,14-16",
+        "title": "Que brille su luz delante de los demás"
+      },
+      "virtue": "Testimonio",
+      "reflection": "¿Qué aspecto de mi manera de vivir puede hacer visible el amor de Cristo?",
+      "intention": "Por los cristianos que sirven en ambientes de salud y por quienes desean vivir su fe con coherencia.",
+      "prayer": "Santos Cosme y Damián, ayúdennos a unir la fe con nuestras obras. Que nuestras palabras y decisiones reflejen la misericordia de Cristo y que sepamos dar testimonio sin imponer, sirviendo con respeto y verdad. Amén.",
+      "action": "Realiza hoy una obra de misericordia sin convertirla en motivo de orgullo o exhibición."
+    },
+    {
+      "day": 9,
+      "theme": "Fidelidad hasta el final",
+      "title": "Permanecer firmes en el amor",
+      "bible": {
+        "reference": "Romanos 8,35-39",
+        "title": "Nada podrá separarnos del amor de Cristo"
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué compromiso de servicio quiero mantener después de terminar esta novena?",
+      "intention": "Por todas las intenciones de estos nueve días, por los enfermos y por quienes los cuidan.",
+      "prayer": "Santos Cosme y Damián, mártires fieles de Cristo, presenten ante Dios nuestras súplicas. Enséñennos a perseverar en la caridad cuando servir sea fácil y también cuando resulte costoso. Que después de esta novena continuemos cuidando, acompañando y haciendo el bien. Amén.",
+      "action": "Elige una obra concreta de servicio o acompañamiento que puedas mantener de manera responsable durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La información histórica se presenta distinguiendo la tradición de los datos conservados por la liturgia y fuentes eclesiales. Los relatos legendarios del martirio no se presentan como hechos históricos comprobados."
+  }
+}
