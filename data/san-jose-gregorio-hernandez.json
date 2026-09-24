@@ -1,0 +1,474 @@
+{
+  "id": "san-jose-gregorio-hernandez",
+  "slug": "san-jose-gregorio-hernandez",
+  "name": "San José Gregorio Hernández",
+  "title": "Médico y fiel laico",
+  "subtitle": "Médico de los pobres y apóstol de la caridad",
+  "category": "Santos",
+  "image": "assets/images/santos/san_jose_gregorio_hernandez.webp",
+  "description": "Médico, profesor y científico venezolano que vivió su profesión como servicio a Dios y al prójimo, atendiendo especialmente a los pobres y enfermos.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-jose-gregorio-hernandez"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 26,
+    "month": 10,
+    "text": "26 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "¡He ofrecido mi vida en holocausto a Dios por la paz del mundo!",
+    "reference": "Palabras de José Gregorio Hernández a un amigo, citadas en el libreto oficial de la canonización de 2025."
+  },
+  "patronages": [
+    "Médicos y profesionales de la salud, por su testimonio de servicio cristiano en la medicina.",
+    "Enfermos y personas que sufren, en el marco de la devoción a su intercesión.",
+    "Ciencias de la paz: fue nombrado copatrono del Ciclo de Estudios en Ciencias de la Paz de la Pontificia Universidad Lateranense en 2021."
+  ],
+  "virtues": [
+    "Caridad",
+    "Fe",
+    "Humildad",
+    "Servicio",
+    "Esperanza",
+    "Oración",
+    "Compasión",
+    "Responsabilidad",
+    "Paz"
+  ],
+  "search": [
+    "san jose gregorio hernandez",
+    "jose gregorio hernandez",
+    "medico de los pobres",
+    "venezuela",
+    "medico",
+    "medicina",
+    "ciencia",
+    "profesor",
+    "enfermos",
+    "pobres",
+    "caridad",
+    "paz",
+    "oracion",
+    "salud",
+    "estudiantes",
+    "familia"
+  ],
+  "interventions": [
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "salud",
+        "pacientes"
+      ]
+    },
+    {
+      "id": "salud",
+      "label": "Médicos, cuidadores y personal de salud",
+      "keywords": [
+        "medico",
+        "médico",
+        "medicos",
+        "médicos",
+        "enfermeros",
+        "enfermeras",
+        "salud",
+        "hospital",
+        "sanitario"
+      ]
+    },
+    {
+      "id": "pobres",
+      "label": "Personas en necesidad y pobreza",
+      "keywords": [
+        "pobres",
+        "pobreza",
+        "necesidad",
+        "carencia",
+        "ayuda",
+        "necesitados"
+      ]
+    },
+    {
+      "id": "estudio-ciencia",
+      "label": "Estudio, ciencia y formación",
+      "keywords": [
+        "estudio",
+        "ciencia",
+        "medicina",
+        "universidad",
+        "profesor",
+        "estudiantes",
+        "investigacion",
+        "investigación"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "ayudar",
+        "misericordia",
+        "solidaridad",
+        "compasion",
+        "compasión"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "guerra",
+        "reconciliacion",
+        "reconciliación",
+        "conflicto",
+        "justicia"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "misa",
+        "eucaristia",
+        "eucaristía",
+        "rosario",
+        "dios",
+        "fe"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familias que acompañan a un enfermo",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "enfermo",
+        "cuidar",
+        "acompañamiento"
+      ]
+    }
+  ],
+  "history": {
+    "short": "José Gregorio Hernández Cisneros nació en Isnotú, Venezuela, el 26 de octubre de 1864. Fue médico, profesor y científico, y puso sus conocimientos al servicio de los enfermos, especialmente de quienes tenían menos recursos. Su fe y su caridad orientaron su vida profesional hasta su muerte accidental en Caracas, el 29 de junio de 1919, cuando se dirigía a llevar medicinas a un enfermo.",
+    "extended": "José Gregorio Hernández Cisneros nació en Isnotú, Venezuela, el 26 de octubre de 1864. Su madre, Josefa Cisneros, tuvo un papel importante en su formación cristiana. El Papa Francisco recordó que el propio José Gregorio atribuía a su madre la enseñanza temprana de la virtud, el conocimiento de Dios y la caridad. Desde joven mostró interés por el estudio y, siguiendo el camino de la medicina, llegó a convertirse en médico, profesor universitario y científico.\\n\\nSu transformación no corresponde a una conversión provocada por un pecado concreto que pueda documentarse. Fue más bien un proceso de profundización de una fe recibida en la familia y de integración entre ciencia, profesión y vida cristiana. En varias ocasiones buscó la vida religiosa y sacerdotal, pero problemas de salud le impidieron perseverar por ese camino. En lugar de considerar esas dificultades como el final de su vocación, comprendió progresivamente que podía servir a Dios mediante el cuidado de los enfermos. El Papa Francisco describió esta disponibilidad como una apertura a los designios de Dios y señaló que Hernández llegó a entender la medicina como un «sacerdocio» al servicio del dolor humano.\\n\\nDespués de graduarse de médico en Caracas en 1888, viajó a Europa para perfeccionar sus estudios. A su regreso a Venezuela contribuyó decisivamente a la modernización de la enseñanza médica: fundó cátedras relacionadas con la histología, la fisiología y la bacteriología, impulsó la investigación experimental y desarrolló una importante labor docente. Su vida muestra que, para él, la fe y la ciencia no eran caminos opuestos. El conocimiento médico era una responsabilidad que debía ponerse al servicio de la persona.\\n\\nSu experiencia profesional estuvo marcada especialmente por la atención gratuita a personas pobres. No se limitó a tratar enfermedades: visitaba a quienes sufrían, ayudaba con medicamentos y, según la biografía oficial de la canonización, exhortaba a los necesitados a confiar en Dios y acercarse a los sacramentos. Durante la epidemia de gripe de 1918 en Caracas intensificó su servicio médico y su atención a los enfermos. Por esta dedicación recibió en Venezuela el nombre con el que se le recuerda hasta hoy: «el médico de los pobres».\\n\\nLa mañana del 29 de junio de 1919 asistió a misa y salió para llevar medicinas a un enfermo. Mientras cruzaba una calle de Caracas fue atropellado por un automóvil. Fue trasladado al hospital y murió invocando a la Santísima Virgen. La Santa Sede presenta este final como la culminación de una vida entregada al servicio: murió mientras realizaba una obra de misericordia.\\n\\nSu iconografía recoge principalmente elementos relacionados con su vida real: el traje y sombrero propios de su época, que ayudan a reconocerlo como laico de comienzos del siglo XX, y los elementos médicos, como la bata o instrumentos, que recuerdan su profesión y su servicio a los enfermos. Algunas representaciones añaden el rosario, el crucifijo o la imagen de la Virgen para expresar su vida de oración y su fe. El título «médico de los pobres» resume el rasgo más característico de esta tradición iconográfica: no se trata solamente de representar a un médico, sino a un profesional que entendió su conocimiento como una forma concreta de caridad.\\n\\nLa Iglesia reconoció su testimonio con la beatificación celebrada en Caracas el 30 de abril de 2021. El 19 de octubre de 2025, el Papa León XIV presidió en la Plaza de San Pedro su canonización junto con otros seis beatos. Así, José Gregorio Hernández pasó a ser reconocido como santo de la Iglesia universal. Su legado puede resumirse en una unión concreta entre fe, ciencia, trabajo, caridad y esperanza: servir al prójimo con los dones recibidos y poner el conocimiento al servicio de la dignidad humana."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\nSeñor, Dios de misericordia, por intercesión de San José Gregorio Hernández, enséñanos a poner nuestros conocimientos, nuestro trabajo y nuestros dones al servicio de los demás. Danos un corazón atento a los enfermos, a los pobres y a quienes sufren. Haznos instrumentos de caridad, esperanza y paz. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de San José Gregorio Hernández. Ayúdanos a unir la fe con nuestras responsabilidades cotidianas y a servir con generosidad a quienes necesitan nuestra ayuda. Danos sabiduría para estudiar, responsabilidad para trabajar, compasión para acompañar al que sufre y valentía para construir la paz. Que nuestra oración se convierta en obras de caridad. Amén.",
+  "intentions": [
+    "Por los enfermos y quienes atraviesan un tiempo de sufrimiento.",
+    "Por médicos, enfermeros, cuidadores y todos los profesionales de la salud.",
+    "Por las personas que no pueden acceder fácilmente a la atención médica.",
+    "Por estudiantes y profesionales que desean poner su conocimiento al servicio de los demás.",
+    "Por quienes viven en pobreza o atraviesan necesidades materiales.",
+    "Por las familias que acompañan a un ser querido enfermo.",
+    "Por la paz en nuestros hogares, comunidades y países.",
+    "Por quienes necesitan esperanza para continuar en medio de una dificultad.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,35-40"
+      },
+      {
+        "reference": "Colosenses 3,23-24"
+      },
+      {
+        "reference": "Mateo 5,9"
+      },
+      {
+        "reference": "1 Corintios 13,4-7"
+      }
+    ],
+    "documents": [
+      "Audiencia general del Papa Francisco sobre José Gregorio Hernández, 13 de septiembre de 2023.",
+      "Libreto oficial de la canonización de José Gregorio Hernández, 19 de octubre de 2025."
+    ],
+    "related": [
+      "Caridad",
+      "Servicio a los enfermos",
+      "Ciencia y fe",
+      "Paz",
+      "Esperanza"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general: José Gregorio Hernández Cisneros, médico de los pobres y apóstol de paz",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/audiences/2023/documents/20230913-udienza-generale.html",
+      "type": "official"
+    },
+    {
+      "title": "Libreto de la canonización de los siete beatos",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/libretti/2025/20251019-libretto-canonizzazione.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Santa Misa y canonización de José Gregorio Hernández Cisneros",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2025/10/19/191025A.html",
+      "type": "official"
+    },
+    {
+      "title": "José Gregorio Hernández, copatrono del Ciclo de Estudios en Ciencias de la Paz",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/francesco/es/letters/2021/documents/papa-francesco_20210426_chirografo.html",
+      "type": "official"
+    },
+    {
+      "title": "Fiesta litúrgica de José Gregorio Hernández",
+      "organization": "Pontificio Colegio Pío Latino Americano",
+      "url": "https://piolatino.org/fiesta-beato-jose-gregorio-hernandez/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La fe recibida",
+      "title": "Una vida guiada por la caridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José Gregorio nació en Isnotú en 1864 y recibió de su familia una formación cristiana profunda. El Papa Francisco recordó que él mismo reconocía especialmente la influencia de su madre en su aprendizaje de la fe y la caridad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual también se construye en lo cotidiano: la familia, la educación, la oración y las pequeñas obras de servicio pueden formar nuestro corazón."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué personas han ayudado a formar mi manera de vivir la fe y de tratar a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras familias y por quienes nos han enseñado a vivir con fe y generosidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, gracias por las personas que nos han enseñado a amar y servir. Haz que también nosotros transmitamos el bien con nuestras palabras y acciones. Amén."
+      },
+      "action": "Agradece hoy de manera concreta a una persona que haya sido importante en tu formación."
+    },
+    {
+      "day": 2,
+      "theme": "La vocación",
+      "title": "Descubrir cómo servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José Gregorio eligió la medicina y llegó a ser un médico, profesor y científico destacado. Su camino profesional fue adquiriendo un sentido cada vez más profundo de servicio al prójimo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación no siempre consiste en cambiar de profesión. También puede significar descubrir cómo convertir nuestro trabajo cotidiano en un servicio a los demás."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo convertir mi estudio, trabajo u oficio en una forma concreta de servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y por quienes desean trabajar con sentido."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ayúdanos a reconocer los dones que nos has dado y a ponerlos al servicio del bien. Amén."
+      },
+      "action": "Identifica una habilidad que poseas y úsala hoy para ayudar a otra persona."
+    },
+    {
+      "day": 3,
+      "theme": "La ciencia",
+      "title": "Buscar la verdad para servir mejor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de graduarse de médico en Caracas, José Gregorio perfeccionó sus estudios en Europa. A su regreso impulsó la enseñanza de la histología, la fisiología y la bacteriología y fortaleció la formación médica en Venezuela."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Estudiar y buscar la verdad también puede ser una forma de servicio cuando el conocimiento se utiliza para mejorar la vida de las personas."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Estoy aprovechando mis oportunidades de estudio y formación para crecer y aportar algo bueno?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, investigadores, docentes y profesionales que buscan la verdad con responsabilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Dios de la verdad, bendice a quienes estudian, enseñan e investigan. Que su conocimiento contribuya al bien de las personas. Amén."
+      },
+      "action": "Dedica hoy un tiempo concreto a estudiar o aprender algo que pueda ayudarte a servir mejor."
+    },
+    {
+      "day": 4,
+      "theme": "Los pobres",
+      "title": "Ver a Cristo en quien necesita ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José Gregorio atendía gratuitamente a personas necesitadas y, según la Santa Sede, también les ayudaba con medicamentos y dinero cuando lo requerían. Su cercanía a los más débiles le dio el nombre de «médico de los pobres»."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad comienza cuando dejamos de mirar las necesidades ajenas como algo distante y decidimos responder con lo que tenemos."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué necesidad concreta de una persona cercana puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que viven en pobreza, soledad o necesidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, abre nuestros ojos ante quienes necesitan ayuda. Danos generosidad para compartir nuestro tiempo, nuestros recursos y nuestros talentos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de ayuda sin esperar reconocimiento."
+    },
+    {
+      "day": 5,
+      "theme": "Los enfermos",
+      "title": "Acompañar el sufrimiento",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José Gregorio no entendió la medicina solamente como una técnica. Su fe lo llevó a acercarse a los enfermos con atención y compasión. El Papa Francisco señaló que veía a Jesús en los pobres, enfermos, migrantes y personas que sufrían."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acompañar a quien sufre no siempre significa solucionar su problema. A veces significa estar presente, escuchar y ofrecer una ayuda concreta."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Hay alguien que necesite hoy más mi presencia y escucha que mis consejos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos y por quienes los cuidan día tras día."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, acompaña a quienes sufren y danos un corazón compasivo para no pasar de largo ante su dolor. Amén."
+      },
+      "action": "Llama o visita, si es posible, a una persona enferma o que esté pasando por una dificultad."
+    },
+    {
+      "day": 6,
+      "theme": "La oración",
+      "title": "Unir trabajo y vida interior",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La actividad profesional de José Gregorio estaba acompañada por una vida de oración y participación en la Eucaristía. La Santa Sede presenta su intimidad con Dios como una de las fuentes de su fuerza y dedicación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no tiene que alejarnos de nuestras responsabilidades. Puede ayudarnos a realizarlas con mayor sentido, paciencia y amor."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar ocupa realmente Dios en medio de mis responsabilidades diarias?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar o profundizar su vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, enséñanos a buscarte en medio de nuestras ocupaciones y a trabajar con un corazón unido a Ti. Amén."
+      },
+      "action": "Reserva hoy un momento concreto de silencio para orar por las personas que necesitan tu ayuda."
+    },
+    {
+      "day": 7,
+      "theme": "La paz",
+      "title": "Ofrecer la vida por la paz",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José Gregorio vivió durante la Primera Guerra Mundial y expresó su deseo de ofrecer su vida por la paz. El libreto oficial de su canonización conserva el testimonio de esa entrega interior."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La paz no se construye solamente en grandes acontecimientos. También comienza en la manera en que tratamos a quienes viven y trabajan junto a nosotros."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué conflicto cercano necesita de mí una actitud diferente para comenzar a sanar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la paz en nuestras familias, comunidades y países."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, haznos constructores de paz. Danos sabiduría para dialogar, humildad para reconocer nuestros errores y valentía para buscar la reconciliación. Amén."
+      },
+      "action": "Evita hoy una discusión innecesaria y da un paso concreto hacia la reconciliación en una relación que lo necesite."
+    },
+    {
+      "day": 8,
+      "theme": "La fidelidad",
+      "title": "Servir hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El 29 de junio de 1919, después de asistir a misa, José Gregorio salió a llevar medicinas a un enfermo. Fue atropellado por un automóvil y murió en el hospital invocando a la Santísima Virgen. Su muerte ocurrió mientras realizaba una obra de misericordia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad se demuestra cuando nuestras convicciones se mantienen unidas a nuestras acciones, incluso en las circunstancias ordinarias de la vida."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué compromiso de servicio necesito asumir con mayor constancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a otros y necesitan fortaleza para perseverar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, fortalece nuestra fidelidad. Que no abandonemos el bien por cansancio, dificultad o falta de reconocimiento. Amén."
+      },
+      "action": "Cumple hoy una responsabilidad que hayas asumido, aunque nadie vaya a reconocértelo."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Fe, ciencia y caridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José Gregorio Hernández fue canonizado por el Papa León XIV el 19 de octubre de 2025. Su testimonio une la fe de un laico, el ejercicio responsable de la medicina, la búsqueda científica y una vida dedicada a los pobres y enfermos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad puede vivirse en la profesión, en el estudio, en la familia y en el servicio cotidiano. Los dones que recibimos pueden convertirse en caminos concretos de caridad."
+      },
+      "virtue": "Esperanza",
+      "reflection": "Después de esta novena, ¿qué don, conocimiento o responsabilidad quiero poner más claramente al servicio de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la intención particular con la que realizamos esta novena y por nuestra fidelidad al bien que podemos hacer."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, por intercesión de San José Gregorio Hernández, haz de nuestra vida un servicio. Que nuestra fe ilumine nuestro trabajo, que nuestro conocimiento busque la verdad y que nuestras acciones lleven esperanza a quienes sufren. Amén."
+      },
+      "action": "Escribe un compromiso concreto para continuar sirviendo a los demás después de terminar esta novena y comienza a cumplirlo hoy."
+    }
+  ]
+}
