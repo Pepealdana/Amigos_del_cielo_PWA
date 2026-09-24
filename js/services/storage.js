@@ -44,21 +44,12 @@ function limpiarStorage() {
 ========================================== */
 
 function cargarFavoritos() {
-    state.favoritos = leerDeStorage(
-        STORAGE_KEYS.FAVORITES,
-        []
-    );
-
-    if (!Array.isArray(state.favoritos)) {
-        state.favoritos = [];
-    }
+    state.favoritos = leerDeStorage(STORAGE_KEYS.FAVORITES, []);
+    if (!Array.isArray(state.favoritos)) state.favoritos = [];
 }
 
 function guardarFavoritos() {
-    guardarEnStorage(
-        STORAGE_KEYS.FAVORITES,
-        state.favoritos
-    );
+    return guardarEnStorage(STORAGE_KEYS.FAVORITES, state.favoritos);
 }
 
 function esFavorita(id) {
@@ -66,9 +57,10 @@ function esFavorita(id) {
 }
 
 function alternarFavorita(id) {
+    if (!id) return;
+
     if (esFavorita(id)) {
-        state.favoritos =
-            state.favoritos.filter(item => item !== id);
+        state.favoritos = state.favoritos.filter(item => item !== id);
     } else {
         state.favoritos.push(id);
     }
@@ -81,10 +73,7 @@ function alternarFavorita(id) {
 ========================================== */
 
 function cargarProgreso() {
-    state.progreso = leerDeStorage(
-        STORAGE_KEYS.PROGRESS,
-        {}
-    );
+    state.progreso = leerDeStorage(STORAGE_KEYS.PROGRESS, {});
 
     if (
         !state.progreso ||
@@ -97,50 +86,45 @@ function cargarProgreso() {
     const ids = Object.keys(state.progreso);
 
     if (ids.length > 0) {
-        state.ultimaNovenaId = ids
-            .sort((a, b) => {
-                const fechaA =
-                    new Date(state.progreso[a]?.fecha || 0).getTime();
-
-                const fechaB =
-                    new Date(state.progreso[b]?.fecha || 0).getTime();
-
-                return fechaB - fechaA;
-            })[0];
+        state.ultimaNovenaId = ids.sort((a, b) => {
+            const fechaA = new Date(state.progreso[a]?.fecha || 0).getTime();
+            const fechaB = new Date(state.progreso[b]?.fecha || 0).getTime();
+            return fechaB - fechaA;
+        })[0];
     }
 }
 
 function guardarProgreso() {
-    guardarEnStorage(
-        STORAGE_KEYS.PROGRESS,
-        state.progreso
-    );
+    return guardarEnStorage(STORAGE_KEYS.PROGRESS, state.progreso);
 }
 
 function actualizarProgreso(novenaId, dia) {
+    if (!novenaId) return;
 
-    const anterior =
-        state.progreso[novenaId] || {};
+    const numeroDia = Number(dia);
 
-    const completados =
-        Array.isArray(anterior.completados)
-            ? [...anterior.completados]
-            : [];
+    if (!Number.isInteger(numeroDia) || numeroDia < 1 || numeroDia > 9) {
+        return;
+    }
 
-    if (!completados.includes(dia)) {
-        completados.push(dia);
+    const anterior = state.progreso[novenaId] || {};
+    const completados = Array.isArray(anterior.completados)
+        ? [...anterior.completados]
+        : [];
+
+    if (!completados.includes(numeroDia)) {
+        completados.push(numeroDia);
         completados.sort((a, b) => a - b);
     }
 
     state.progreso[novenaId] = {
         ...anterior,
-        dia,
+        dia: numeroDia,
         completados,
         fecha: new Date().toISOString()
     };
 
     state.ultimaNovenaId = novenaId;
-
     guardarProgreso();
 }
 
@@ -149,12 +133,9 @@ function actualizarProgreso(novenaId, dia) {
 ========================================== */
 
 function cargarConfiguracion() {
-    const configuracion = leerDeStorage(
-        STORAGE_KEYS.SETTINGS,
-        null
-    );
+    const configuracion = leerDeStorage(STORAGE_KEYS.SETTINGS, null);
 
-    if (configuracion) {
+    if (configuracion && typeof configuracion === "object") {
         state.configuracion = {
             ...state.configuracion,
             ...configuracion
@@ -163,10 +144,7 @@ function cargarConfiguracion() {
 }
 
 function guardarConfiguracion() {
-    guardarEnStorage(
-        STORAGE_KEYS.SETTINGS,
-        state.configuracion
-    );
+    return guardarEnStorage(STORAGE_KEYS.SETTINGS, state.configuracion);
 }
 
 /* ==========================================
@@ -174,24 +152,71 @@ function guardarConfiguracion() {
 ========================================== */
 
 function cargarIntenciones() {
-    state.intenciones = leerDeStorage(
-        STORAGE_KEYS.INTENTIONS,
-        {}
-    );
+    state.intenciones = leerDeStorage(STORAGE_KEYS.INTENTIONS, {});
 
     if (
         !state.intenciones ||
-        typeof state.intenciones !== "object"
+        typeof state.intenciones !== "object" ||
+        Array.isArray(state.intenciones)
     ) {
         state.intenciones = {};
     }
 }
 
 function guardarIntenciones() {
-    guardarEnStorage(
-        STORAGE_KEYS.INTENTIONS,
-        state.intenciones
-    );
+    return guardarEnStorage(STORAGE_KEYS.INTENTIONS, state.intenciones);
+}
+
+/* ==========================================
+   RECORDATORIOS
+========================================== */
+
+function cargarRecordatorios() {
+    state.recordatorios = leerDeStorage(STORAGE_KEYS.REMINDERS, {});
+
+    if (
+        !state.recordatorios ||
+        typeof state.recordatorios !== "object" ||
+        Array.isArray(state.recordatorios)
+    ) {
+        state.recordatorios = {};
+    }
+}
+
+function guardarRecordatorios() {
+    return guardarEnStorage(STORAGE_KEYS.REMINDERS, state.recordatorios);
+}
+
+function obtenerRecordatorio(novenaId) {
+    return state.recordatorios[novenaId] || null;
+}
+
+function guardarRecordatorio(novenaId, hora, activo = true) {
+    if (
+        !novenaId ||
+        !/^([01]\d|2[0-3]):[0-5]\d$/.test(hora)
+    ) {
+        return false;
+    }
+
+    const anterior = state.recordatorios[novenaId] || {};
+
+    state.recordatorios[novenaId] = {
+        ...anterior,
+        novenaId,
+        hora,
+        activo: Boolean(activo),
+        ultimaNotificacion: anterior.ultimaNotificacion || null
+    };
+
+    return guardarRecordatorios();
+}
+
+function eliminarRecordatorio(novenaId) {
+    if (!novenaId) return;
+
+    delete state.recordatorios[novenaId];
+    guardarRecordatorios();
 }
 
 /* ==========================================
@@ -203,4 +228,5 @@ function inicializarStorage() {
     cargarProgreso();
     cargarConfiguracion();
     cargarIntenciones();
+    cargarRecordatorios();
 }
