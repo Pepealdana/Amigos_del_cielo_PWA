@@ -2983,5 +2983,136 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-teresita-de-lisieux",
+    "slug": "santa-teresita-de-lisieux",
+    "name": "Santa Teresita de Lisieux",
+    "title": "Virgen y Doctora de la Iglesia",
+    "subtitle": "El caminito de la confianza y el amor",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_teresita_de_lisieux.webp",
+    "file": "data/santa-teresita-de-lisieux.json",
+    "description": "Carmelita descalza que descubrió en la confianza filial y en el amor su pequeño camino hacia Dios y vivió un profundo deseo misionero desde la clausura.",
+    "feast": {
+      "day": 1,
+      "month": 10,
+      "text": "1 de octubre",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa teresita",
+      "santa teresa de lisieux",
+      "santa teresa del niño jesus",
+      "teresita",
+      "lisieux",
+      "carmelo",
+      "caminito",
+      "confianza",
+      "amor",
+      "misiones",
+      "misionera",
+      "historia de un alma",
+      "santa faz"
+    ],
+    "interventions": [
+      {
+        "id": "confianza",
+        "label": "Confianza y abandono en Dios",
+        "keywords": [
+          "confianza",
+          "abandono",
+          "dios",
+          "temor",
+          "ansiedad"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "oración",
+          "contemplacion",
+          "contemplación",
+          "evangelio",
+          "misa",
+          "eucaristia"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y búsqueda de sentido",
+        "keywords": [
+          "jovenes",
+          "jóvenes",
+          "juventud",
+          "vocacion",
+          "vocación",
+          "sentido"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y relaciones",
+        "keywords": [
+          "familia",
+          "padres",
+          "hermanas",
+          "hogar",
+          "perdon",
+          "perdón"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "sufrimiento",
+          "dolor",
+          "hospital"
+        ]
+      },
+      {
+        "id": "mision",
+        "label": "Misión y evangelización",
+        "keywords": [
+          "mision",
+          "misión",
+          "misioneros",
+          "evangelizacion",
+          "evangelización"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y discernimiento",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "llamado",
+          "discernimiento",
+          "servicio"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en tiempos de prueba",
+        "keywords": [
+          "esperanza",
+          "prueba",
+          "dificultad",
+          "desanimo",
+          "desánimo",
+          "sequedad",
+          "fe"
+        ]
+      }
+    ]
   }
 ]
