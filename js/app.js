@@ -394,6 +394,14 @@ function iniciarNovena() {
         return;
     }
 
+    const progresoActual =
+        state.progreso[state.novenaActual.id];
+
+    if (progresoActual?.completada) {
+        reiniciarYComenzarNovena(state.novenaActual.id);
+        return;
+    }
+
     const diaInicial =
         obtenerDiaInicialPorCalendario(
             state.novenaActual
@@ -404,6 +412,43 @@ function iniciarNovena() {
     );
 
 }
+
+function finalizarNovenaActual() {
+
+    if (!state.novenaActual) {
+        return;
+    }
+
+    finalizarNovena(state.novenaActual.id);
+    state.diaActual = 9;
+
+    actualizarTituloPagina("Novena finalizada");
+
+    renderizar(
+        renderAgradecimiento(state.novenaActual)
+    );
+}
+
+function reiniciarYComenzarNovena(id) {
+
+    if (!id) {
+        return;
+    }
+
+    reiniciarNovena(id);
+
+    abrirNovena(id).then(() => {
+
+        if (!state.novenaActual) {
+            return;
+        }
+
+        state.diaActual = 1;
+        mostrarDia(1);
+
+    });
+}
+
 /* ==========================================
    FAVORITAS
 ========================================== */
@@ -812,6 +857,16 @@ function manejarClicksPWA(evento) {
 
         if (tipo === "start-novena") {
             iniciarNovena();
+            return;
+        }
+
+        if (tipo === "finish-novena") {
+            finalizarNovenaActual();
+            return;
+        }
+
+        if (tipo === "restart-novena" && id) {
+            reiniciarYComenzarNovena(id);
             return;
         }
 
