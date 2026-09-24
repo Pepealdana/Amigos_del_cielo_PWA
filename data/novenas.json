@@ -2556,5 +2556,158 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-rita-de-casia",
+    "slug": "santa-rita-de-casia",
+    "name": "Santa Rita de Casia",
+    "title": "Religiosa agustina y mujer de paz",
+    "subtitle": "Testigo de perdón, oración, esperanza y reconciliación",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_rita_de_casia.webp",
+    "file": "data/santa-rita-de-casia.json",
+    "description": "Religiosa agustina cuya vida estuvo marcada por la familia, el perdón, la oración, la caridad y la búsqueda de la paz.",
+    "feast": {
+      "day": 22,
+      "month": 5,
+      "text": "22 de mayo",
+      "liturgicalRank": "Memoria opcional",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa rita",
+      "santa rita de casia",
+      "rita de casia",
+      "casia",
+      "roccaporena",
+      "agustinas",
+      "agustiniana",
+      "perdon",
+      "perdón",
+      "paz",
+      "reconciliacion",
+      "reconciliación",
+      "causas imposibles",
+      "causas dificiles",
+      "causas difíciles",
+      "familia",
+      "viudas",
+      "enfermos",
+      "oracion",
+      "oración",
+      "espina",
+      "rosa"
+    ],
+    "interventions": [
+      {
+        "id": "familia",
+        "label": "Familia, matrimonio y conflictos familiares",
+        "keywords": [
+          "familia",
+          "matrimonio",
+          "esposos",
+          "esposa",
+          "marido",
+          "hijos",
+          "hogar",
+          "conflicto familiar"
+        ]
+      },
+      {
+        "id": "perdon",
+        "label": "Perdón y reconciliación",
+        "keywords": [
+          "perdon",
+          "perdón",
+          "resentimiento",
+          "reconciliacion",
+          "reconciliación",
+          "venganza",
+          "odio",
+          "heridas"
+        ]
+      },
+      {
+        "id": "paz",
+        "label": "Paz y resolución de conflictos",
+        "keywords": [
+          "paz",
+          "conflicto",
+          "violencia",
+          "guerra",
+          "dialogo",
+          "diálogo",
+          "reconciliar"
+        ]
+      },
+      {
+        "id": "causas-dificiles",
+        "label": "Situaciones difíciles y causas urgentes",
+        "keywords": [
+          "dificil",
+          "difícil",
+          "imposible",
+          "urgente",
+          "problema",
+          "necesidad",
+          "desesperanza"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "cuidadores"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "oración",
+          "misa",
+          "rosario",
+          "cristo",
+          "dios",
+          "fe",
+          "silencio"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en tiempos de prueba",
+        "keywords": [
+          "esperanza",
+          "desanimo",
+          "desánimo",
+          "prueba",
+          "dificultad",
+          "futuro",
+          "fortaleza"
+        ]
+      },
+      {
+        "id": "mujeres",
+        "label": "Mujeres y situaciones de vida",
+        "keywords": [
+          "mujer",
+          "mujeres",
+          "viuda",
+          "viudas",
+          "esposa",
+          "madre",
+          "familia"
+        ]
+      }
+    ]
   }
 ]
