@@ -46,6 +46,8 @@ function renderDia(
             )
         );
 
+    const esUltimoDia = Number(numeroDia) === total;
+
     return `
 
         <section class="home">
@@ -129,13 +131,22 @@ function renderDia(
                     ← Anterior
                 </button>
 
-                <button
-                    class="btn btn-primary"
-                    type="button"
-                    data-action="next-day"
-                    ${siguienteDisponible ? "" : "disabled"}>
-                    Siguiente →
-                </button>
+                ${esUltimoDia ? `
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        data-action="finish-novena">
+                        Finalizar novena
+                    </button>
+                ` : `
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        data-action="next-day"
+                        ${siguienteDisponible ? "" : "disabled"}>
+                        Siguiente →
+                    </button>
+                `}
 
             </div>
 
