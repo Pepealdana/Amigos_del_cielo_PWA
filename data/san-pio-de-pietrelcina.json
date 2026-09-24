@@ -1,0 +1,450 @@
+{
+  "id": "san-pio-de-pietrelcina",
+  "slug": "san-pio-de-pietrelcina",
+  "name": "San Pío de Pietrelcina",
+  "title": "Presbítero capuchino",
+  "subtitle": "Hombre de oración, reconciliación y servicio",
+  "category": "Santos",
+  "image": "assets/images/santos/san_pio_de_pieltrecina.webp",
+  "description": "Fraile capuchino italiano cuya vida estuvo marcada por la oración, la Eucaristía, la reconciliación, el servicio a los enfermos y una profunda espiritualidad de la cruz.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-pio-de-pietrelcina"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 23,
+    "month": 9,
+    "text": "23 de septiembre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Quisiera ser un pobre fraile que reza.",
+    "reference": "Biografía oficial de la Santa Sede, citando una expresión del Padre Pío"
+  },
+  "patronages": [
+    "Personas que buscan reconciliación",
+    "Enfermos y quienes sufren"
+  ],
+  "virtues": [
+    "Oración",
+    "Fe",
+    "Caridad",
+    "Humildad",
+    "Obediencia",
+    "Fortaleza",
+    "Paciencia",
+    "Reconciliación",
+    "Esperanza"
+  ],
+  "search": [
+    "san pio",
+    "san pío de pietrelcina",
+    "padre pio",
+    "padre pío",
+    "capuchino",
+    "confesion",
+    "confesiones",
+    "eucaristia",
+    "oracion",
+    "estigmas",
+    "enfermos",
+    "sufrimiento",
+    "san giovanni rotondo"
+  ],
+  "interventions": [
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "silencio",
+        "adoracion",
+        "vida interior",
+        "fe",
+        "eucaristia"
+      ]
+    },
+    {
+      "id": "reconciliacion",
+      "label": "Reconciliación y confesión",
+      "keywords": [
+        "confesion",
+        "confesiones",
+        "reconciliacion",
+        "perdon",
+        "pecado",
+        "conversion"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "cruz",
+      "label": "Pruebas, sufrimiento y esperanza",
+      "keywords": [
+        "cruz",
+        "sufrimiento",
+        "prueba",
+        "dolor",
+        "esperanza",
+        "perseverancia"
+      ]
+    },
+    {
+      "id": "humildad",
+      "label": "Humildad y sencillez",
+      "keywords": [
+        "humildad",
+        "sencillez",
+        "orgullo",
+        "reconocimiento"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "fraile",
+        "capuchino",
+        "sacerdote",
+        "religioso",
+        "consagracion"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y acompañamiento",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "acompañamiento",
+        "consejo"
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "label": "Fortaleza ante las dificultades",
+      "keywords": [
+        "fortaleza",
+        "dificultad",
+        "persecucion",
+        "incomprension",
+        "obediencia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Francesco Forgione nació en Pietrelcina en 1887. A los dieciséis años ingresó al noviciado de los Frailes Menores Capuchinos y recibió el nombre de Fray Pío. Fue ordenado sacerdote en 1910 y en 1916 llegó a San Giovanni Rotondo, donde permaneció hasta su muerte. Ejerció especialmente el ministerio de la reconciliación, la dirección espiritual y la celebración de la Eucaristía, y atendió a numerosos enfermos y personas que buscaban consuelo. Murió el 23 de septiembre de 1968 y fue canonizado por Juan Pablo II en 2002.",
+    "extended": "Francesco Forgione nació el 25 de mayo de 1887 en Pietrelcina, Italia, y fue bautizado al día siguiente. Creció en una familia de fe y desde joven manifestó el deseo de consagrarse a Dios. A los dieciséis años ingresó en el noviciado de los Frailes Menores Capuchinos de Morcone y recibió el nombre religioso de Pío. Después de la profesión solemne fue ordenado sacerdote en Benevento el 10 de agosto de 1910. Por motivos de salud pasó algunos años cerca de su familia y en 1916 fue enviado al convento de San Giovanni Rotondo, donde permanecería durante el resto de su vida. Su misión sacerdotal se concentró especialmente en la Eucaristía, el sacramento de la Reconciliación y la dirección espiritual. Miles de personas acudían a él buscando confesarse, consejo y consuelo. La Santa Sede destaca que veía especialmente en los pobres, enfermos y personas que sufrían una imagen de Cristo y se entregaba a ellos. Su camino espiritual estuvo marcado por numerosos sufrimientos físicos e interiores y por dificultades relacionadas con la comprensión y supervisión de algunas experiencias atribuidas a su vida mística. En lugar de presentar estas pruebas como una conversión provocada por un pecado concreto, las fuentes oficiales las describen como un camino de purificación, obediencia y configuración con Cristo crucificado. Juan Pablo II destacó precisamente la obediencia de Padre Pío durante los períodos en que fue incomprendido. Los estigmas forman parte central de la iconografía del santo. La Santa Sede los presenta como un signo asociado a su intensa identificación espiritual con Cristo crucificado, pero su significado debe situarse dentro de la espiritualidad de la cruz y no reducir su vida a un fenómeno extraordinario. En las representaciones aparece habitualmente con hábito capuchino, barba, rosario y las manos mostrando los estigmas; también puede aparecer celebrando la Misa o sentado en el confesionario, imágenes que recuerdan los ministerios que ocuparon gran parte de su vida. El hospital Casa Sollievo della Sofferenza, promovido por él y abierto en San Giovanni Rotondo, expresa de forma concreta su preocupación por quienes sufrían. Padre Pío murió serenamente el 23 de septiembre de 1968. Fue beatificado en 1999 y canonizado por Juan Pablo II el 16 de junio de 2002. La Iglesia celebra su memoria litúrgica el 23 de septiembre. Su legado se relaciona especialmente con la oración, la Eucaristía, la reconciliación, la caridad hacia los enfermos y la perseverancia en medio de la prueba."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Pío de Pietrelcina, sacerdote y hermano capuchino, acompáñame durante estos nueve días. Enséñame a buscar a Dios en la oración, a reconciliarme con Él, a acompañar a quien sufre y a permanecer fiel en las dificultades. Presento ante el Señor la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Pío de Pietrelcina, hombre de oración y servidor de los que sufren, intercede por nosotros. Ayúdanos a acercarnos a Dios con confianza, a buscar el perdón, a cuidar a los enfermos y a perseverar cuando la vida se vuelve difícil. Enséñanos a vivir con humildad, obediencia y esperanza, unidos a Cristo crucificado y resucitado. Amén.",
+  "intentions": [
+    "Por quienes necesitan reconciliarse con Dios y recibir el perdón.",
+    "Por enfermos, cuidadores y personas que sufren física o espiritualmente.",
+    "Por sacerdotes que ejercen el ministerio de la reconciliación.",
+    "Por quienes atraviesan pruebas, dolor o incomprensión.",
+    "Por familias que necesitan acompañamiento y consuelo.",
+    "Por religiosos y religiosas que buscan vivir con fidelidad su vocación.",
+    "Por quienes se sienten lejos de Dios y necesitan recuperar la esperanza.",
+    "Por quienes trabajan en hospitales y acompañan a personas vulnerables.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Gálatas 6,14"
+      },
+      {
+        "reference": "Mateo 11,28-30"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "1 Pedro 2,4-5"
+      },
+      {
+        "reference": "Marcos 8,34-35"
+      }
+    ],
+    "documents": [
+      "Epistolario del Padre Pío"
+    ],
+    "related": [
+      "San Francisco de Asís",
+      "Frailes Menores Capuchinos"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Padre Pío de Pietrelcina — Biografía para la canonización",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020616_padre-pio_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Canonización del beato Pío de Pietrelcina — 16 de junio de 2002",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2002/documents/hf_jp-ii_hom_20020616_padre-pio.html",
+      "type": "official"
+    },
+    {
+      "title": "Beatificación del padre Pío de Pietrelcina — 2 de mayo de 1999",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1999/documents/hf_jp-ii_hom_02051999_padre-pio.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una llamada desde la juventud",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francesco Forgione nació en Pietrelcina en 1887 y desde joven sintió el deseo de consagrarse a Dios. A los dieciséis años ingresó al noviciado de los Capuchinos y recibió el nombre de Fray Pío."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación puede comenzar como un deseo sencillo que necesita tiempo, formación y acompañamiento para madurar."
+      },
+      "virtue": "Vocación",
+      "reflection": "¿Qué deseo profundo de bien necesito cuidar y discernir con paciencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que buscan descubrir su vocación y propósito."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, acompaña a quienes buscan su camino. Ayúdalos a discernir con libertad y a responder con generosidad al bien que Dios les propone. Amén."
+      },
+      "action": "Escribe una decisión importante que estés discerniendo y qué información o consejo necesitas para tomarla responsablemente."
+    },
+    {
+      "day": 2,
+      "theme": "La formación",
+      "title": "Aprender a obedecer",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pío recibió formación dentro de la familia capuchina, hizo su profesión solemne y fue ordenado sacerdote en 1910. Su camino religioso estuvo marcado por la disciplina, la oración y la obediencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La libertad no significa hacer siempre lo que queremos. También puede crecer cuando aprendemos a asumir responsablemente compromisos que hemos elegido."
+      },
+      "virtue": "Obediencia",
+      "reflection": "¿Qué compromiso legítimo necesito asumir con mayor responsabilidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por religiosos, religiosas y personas que viven compromisos de servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, enséñame a vivir mis responsabilidades con humildad y fidelidad, sin confundir libertad con indiferencia. Amén."
+      },
+      "action": "Cumple hoy una responsabilidad que hayas estado posponiendo."
+    },
+    {
+      "day": 3,
+      "theme": "La oración",
+      "title": "Un hombre que quería rezar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de llegar a San Giovanni Rotondo en 1916, Padre Pío permaneció allí hasta su muerte. La oración ocupó un lugar central en su vida y en su ministerio sacerdotal."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no tiene que ser una actividad aislada de la vida. Puede convertirse en el lugar desde el cual aprendemos a mirar y servir mejor a los demás."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar real ocupa la oración en mi día?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar una vida de oración y cercanía con Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, enséñame a buscar a Dios con perseverancia y a convertir la oración en una fuente de paz y servicio. Amén."
+      },
+      "action": "Reserva hoy un momento concreto de oración y protégelo de distracciones."
+    },
+    {
+      "day": 4,
+      "theme": "La reconciliación",
+      "title": "El confesionario como lugar de misericordia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Uno de los principales servicios de Padre Pío fue la celebración del sacramento de la Reconciliación. Muchas personas acudían a él durante largos períodos buscando consejo, perdón y orientación espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Reconocer nuestros errores no tiene que conducir a la desesperanza. La reconciliación permite asumir el pasado y abrir un camino nuevo."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Hay algo que necesito reconocer, reparar o presentar ante Dios con sinceridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan reconciliarse con Dios, consigo mismos o con otras personas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, acompaña a quienes buscan el perdón. Ayúdanos a reconocer nuestros errores con sinceridad y a confiar en la misericordia de Dios. Amén."
+      },
+      "action": "Da hoy un paso concreto hacia una reconciliación posible y prudente."
+    },
+    {
+      "day": 5,
+      "theme": "Los enfermos",
+      "title": "Ver a Cristo en quien sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Santa Sede destaca que Padre Pío se entregaba especialmente a los pobres, enfermos y personas que sufrían, reconociendo en ellos la imagen de Cristo. Su preocupación por el sufrimiento también se expresó en la creación de una obra hospitalaria en San Giovanni Rotondo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar a una persona enferma no consiste solamente en resolver un problema físico. También implica presencia, respeto, escucha y consuelo."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Cómo puedo acompañar mejor a alguien que está sufriendo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, cuidadores, médicos, enfermeros y trabajadores de la salud."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, acompaña a quienes sufren enfermedad y a quienes los cuidan. Enséñanos a ofrecer presencia, respeto y esperanza. Amén."
+      },
+      "action": "Comunícate hoy con una persona enferma o que esté atravesando un momento difícil."
+    },
+    {
+      "day": 6,
+      "theme": "La cruz",
+      "title": "Perseverar en medio de la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Padre Pío estuvo marcada por sufrimientos físicos e interiores y por períodos en los que algunas de sus experiencias fueron objeto de incomprensión y supervisión. La Iglesia ha destacado su obediencia durante esas pruebas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No siempre podemos eliminar una dificultad inmediatamente. A veces perseverar significa seguir haciendo el bien mientras buscamos ayuda y atravesamos el proceso con esperanza."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito afrontar sin abandonar mis responsabilidades ni mi esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan sufrimientos prolongados, pérdidas o situaciones que no comprenden."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, acompaña a quienes sufren. Danos fortaleza para perseverar y sabiduría para pedir ayuda cuando la necesitemos. Amén."
+      },
+      "action": "Identifica una dificultad actual y una acción concreta y saludable que puedas realizar para afrontarla."
+    },
+    {
+      "day": 7,
+      "theme": "La humildad",
+      "title": "No buscar el protagonismo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Aunque miles de personas acudían a Padre Pío, él insistía en reconocerse como un fraile dedicado a la oración. Su ministerio no tenía como centro su propia fama, sino Cristo, la Eucaristía y el servicio a quienes buscaban ayuda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La humildad no consiste en negar los dones recibidos, sino en no convertirlos en una razón para colocarnos por encima de los demás."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Cuánto necesito ser reconocido para sentir que lo que hago tiene valor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes ejercen responsabilidades y necesitan servir sin buscar protagonismo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, ayúdame a servir sin necesitar reconocimiento. Que mis capacidades sean instrumentos para el bien y no motivos de orgullo. Amén."
+      },
+      "action": "Haz hoy un bien concreto sin contárselo a nadie."
+    },
+    {
+      "day": 8,
+      "theme": "La Eucaristía",
+      "title": "Cristo en el centro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Santa Sede señala la celebración de la Misa como la cumbre de la actividad apostólica de Padre Pío. Su espiritualidad estuvo profundamente centrada en Cristo crucificado y resucitado."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana necesita un centro. Para Padre Pío, ese centro era Cristo, y desde allí nacían la oración, el sacrificio y el servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué ocupa realmente el centro de mis decisiones y prioridades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes participan en la Eucaristía y desean profundizar su vida de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío, ayúdanos a poner a Cristo en el centro de nuestra vida y a dejar que nuestra fe se traduzca en caridad y servicio. Amén."
+      },
+      "action": "Participa hoy, si te es posible y corresponde, en la Eucaristía o dedica un momento a meditar ante el Señor."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Oración, reconciliación y servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Padre Pío murió el 23 de septiembre de 1968. Fue beatificado en 1999 y canonizado por Juan Pablo II en 2002. La Iglesia conserva su memoria especialmente vinculada a la oración, la reconciliación, la Eucaristía y la atención a quienes sufren."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vida espiritual auténtica se expresa en obras concretas: reconciliar, acompañar, cuidar, perseverar y servir."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué práctica de oración o servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las personas y situaciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pío de Pietrelcina, intercede por nosotros. Enséñanos a orar con perseverancia, buscar el perdón, cuidar a quienes sufren y permanecer fieles en las pruebas. Que nuestra vida tenga a Cristo en el centro y se convierta en servicio para los demás. Amén."
+      },
+      "action": "Elige una práctica concreta de oración o servicio y comprométete a mantenerla durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
