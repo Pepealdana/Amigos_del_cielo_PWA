@@ -1,0 +1,354 @@
+{
+  "id": "virgen-de-lourdes",
+  "slug": "virgen-de-lourdes",
+  "name": "Virgen de Lourdes",
+  "title": "Novena a Nuestra Señora de Lourdes",
+  "subtitle": "Oración, conversión y esperanza junto a María",
+  "category": "Devociones",
+  "image": "assets/images/santos/virgen_inmaculada_concepcion_lourdes.webp",
+  "description": "Nueve días para acercarnos al mensaje espiritual de Lourdes: oración, conversión, penitencia, confianza en Dios, servicio y esperanza, especialmente junto a quienes sufren.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline"
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "day": 11,
+    "month": 2,
+    "text": "11 de febrero",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "patronages": [
+    "Enfermos",
+    "Personas con discapacidad",
+    "Peregrinos",
+    "Familias",
+    "Conversión"
+  ],
+  "virtues": [
+    "Oración",
+    "Conversión",
+    "Penitencia",
+    "Confianza",
+    "Compasión",
+    "Esperanza",
+    "Servicio",
+    "Pureza de corazón",
+    "Perseverancia"
+  ],
+  "search": [
+    "virgen de lourdes",
+    "nuestra señora de lourdes",
+    "lourdes",
+    "bernardita",
+    "bernardette",
+    "massabielle",
+    "inmaculada concepcion",
+    "enfermos",
+    "peregrinos",
+    "gruta"
+  ],
+  "interventions": [
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "discapacidad"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y reconciliación",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "pecado",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza",
+      "keywords": [
+        "esperanza",
+        "angustia",
+        "miedo",
+        "soledad",
+        "desanimo",
+        "desánimo"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinos y viajeros",
+      "keywords": [
+        "peregrino",
+        "peregrinos",
+        "viajero",
+        "viajeros",
+        "camino",
+        "santuario"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración",
+      "keywords": [
+        "oracion",
+        "oración",
+        "rosario",
+        "rezar",
+        "silencio"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocaciones y servicio",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "sacerdote",
+        "religiosa",
+        "religioso",
+        "servicio"
+      ]
+    },
+    {
+      "id": "difuntos",
+      "label": "Difuntos",
+      "keywords": [
+        "difunto",
+        "difuntos",
+        "fallecido",
+        "fallecidos",
+        "duelo"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción a Nuestra Señora de Lourdes está vinculada a las 18 apariciones que, según el testimonio de santa Bernardita Soubirous, tuvieron lugar en la gruta de Massabielle entre el 11 de febrero y el 16 de julio de 1858. El mensaje de Lourdes está profundamente relacionado con la oración, la penitencia, la conversión y la esperanza.",
+    "extended": "Bernardita Soubirous vivió en Lourdes en un contexto familiar de pobreza. El 11 de febrero de 1858 tuvo lugar la primera de las 18 apariciones en la gruta de Massabielle. El ciclo concluyó el 16 de julio de ese mismo año. El Santuario de Lourdes conserva y presenta esta historia a partir del testimonio de Bernardita y de la investigación eclesial que condujo al reconocimiento de las apariciones.\\n\\nEl 25 de marzo de 1858, en la decimosexta aparición, la Señora se presentó a Bernardita con las palabras «Yo soy la Inmaculada Concepción». Este acontecimiento se comprende dentro de la fe católica sobre la Inmaculada Concepción, definida como dogma por Pío IX en 1854.\\n\\nLa Iglesia ha vinculado el mensaje de Lourdes con la oración, la penitencia y la conversión. El santuario se convirtió además en un lugar de peregrinación especialmente cercano a las personas enfermas y con discapacidad, y en un espacio de consuelo y esperanza.\\n\\nBernardita ingresó con las Hermanas de Nevers, profesó como religiosa y murió en 1879. Fue canonizada en 1933. Esta novena utiliza reflexiones y oraciones originales de Amigos del Cielo inspiradas en el mensaje documentado de Lourdes; no reproduce una novena externa de manera literal."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\n\\nNuestra Señora de Lourdes, Madre de Jesús y Madre nuestra, acompáñanos durante estos nueve días. Enséñanos a orar con sencillez, a convertir el corazón y a confiar en Dios en medio de nuestras dificultades. Mira especialmente a quienes sufren enfermedad, soledad o angustia, y ayúdanos a ser para ellos presencia de consuelo y esperanza. Amén.",
+  "closingPrayer": "Nuestra Señora de Lourdes, gracias por caminar con nosotros durante esta novena. Llévanos siempre hacia Jesucristo y enséñanos a perseverar en la oración, la conversión y la caridad. Acompaña a los enfermos, a sus familias y a todos los que buscan esperanza. Que nuestra devoción se transforme en servicio y en una vida más cercana a Dios. Amén.",
+  "intentions": [
+    "Por los enfermos y por quienes viven con una discapacidad o un sufrimiento prolongado.",
+    "Por las familias que acompañan a personas enfermas y por quienes las cuidan.",
+    "Por quienes necesitan reconciliarse con Dios y comenzar de nuevo.",
+    "Por los peregrinos y por quienes buscan consuelo en medio de sus dificultades.",
+    "Por los sacerdotes, religiosos, religiosas y servidores que acompañan a los que sufren.",
+    "Por quienes atraviesan duelo, soledad, miedo o angustia.",
+    "Por los niños y jóvenes que necesitan crecer en esperanza y fe.",
+    "Por nuestros familiares y amigos difuntos, confiándolos a la misericordia de Dios.",
+    "Por nuestras intenciones personales y para que perseveremos en la oración y el servicio."
+  ],
+  "resources": {
+    "devotion": "La devoción a Nuestra Señora de Lourdes invita a la oración, la conversión, la penitencia y la confianza en Dios. La atención especial a los enfermos es una dimensión central de la vida del Santuario, pero la fe cristiana no promete que toda enfermedad será curada; pide acompañar, cuidar y esperar en Dios.",
+    "feast": "11 de febrero, Jornada Mundial del Enfermo.",
+    "related": [
+      "Gruta de Massabielle",
+      "Santa Bernardita Soubirous",
+      "Inmaculada Concepción",
+      "Rosario",
+      "Santuario de Lourdes"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Bernardita Soubirous",
+      "organization": "Santuario de Nuestra Señora de Lourdes",
+      "url": "https://www.lourdes-france.org/es/bernardita-soubirous/",
+      "type": "official"
+    },
+    {
+      "title": "Las 18 apariciones de Lourdes",
+      "organization": "Santuario de Nuestra Señora de Lourdes",
+      "url": "https://www.lourdes-france.org/es/expliquez-moi-les-apparitions/",
+      "type": "official"
+    },
+    {
+      "title": "El decreto de reconocimiento de las apariciones",
+      "organization": "Santuario de Nuestra Señora de Lourdes",
+      "url": "https://www.lourdes-france.org/en/the-decree/",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 11 de febrero de 2007",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/angelus/2007/documents/hf_ben-xvi_ang_20070211.html",
+      "type": "official"
+    },
+    {
+      "title": "Procesión con antorchas en Lourdes, 13 de septiembre de 2008",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/homilies/2008/documents/hf_ben-xvi_hom_20080913_lourdes-processione.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Oración",
+      "title": "Aprender a orar con sencillez",
+      "bible": {
+        "reference": "Lucas 11,1-4",
+        "title": "Señor, enséñanos a orar"
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué necesito cambiar para que mi oración sea más sincera y perseverante?",
+      "intention": "Por quienes han dejado de orar y por quienes buscan volver a Dios.",
+      "prayer": "Nuestra Señora de Lourdes, enséñanos a orar con un corazón sencillo. Que podamos acercarnos a Dios sin miedo y permanecer con Él incluso cuando no encontremos respuestas inmediatas. Amén.",
+      "action": "Dedica hoy un momento de silencio para hablar con Dios y escuchar."
+    },
+    {
+      "day": 2,
+      "theme": "Conversión",
+      "title": "Dejar que Dios transforme el corazón",
+      "bible": {
+        "reference": "Marcos 1,14-15",
+        "title": "Conviértanse y crean en el Evangelio"
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué actitud necesito reconocer y entregar a Dios?",
+      "intention": "Por quienes desean reconciliarse con Dios y por nosotros mismos.",
+      "prayer": "María, Madre de misericordia, ayúdanos a reconocer nuestros errores. Danos humildad para pedir perdón y valentía para cambiar aquello que nos aleja de Dios y de los demás. Amén.",
+      "action": "Haz un examen de conciencia y da un paso concreto hacia la reconciliación."
+    },
+    {
+      "day": 3,
+      "theme": "Penitencia",
+      "title": "Ofrecer con amor",
+      "bible": {
+        "reference": "Romanos 12,1-2",
+        "title": "Ofrezcan sus cuerpos como sacrificio vivo"
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué renuncia o esfuerzo puedo ofrecer hoy por amor?",
+      "intention": "Por quienes sufren y por quienes necesitan aprender a ofrecer sus dificultades.",
+      "prayer": "Nuestra Señora de Lourdes, enséñanos el sentido cristiano de la penitencia. Que no busquemos el sufrimiento por sí mismo, sino que sepamos ofrecer con amor nuestros esfuerzos y renuncias, unidos a Cristo. Amén.",
+      "action": "Haz hoy una pequeña renuncia voluntaria y conviértela en una oportunidad de servicio."
+    },
+    {
+      "day": 4,
+      "theme": "Confianza",
+      "title": "No tener miedo",
+      "bible": {
+        "reference": "Juan 14,27",
+        "title": "No se turbe su corazón ni tenga miedo"
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué temor necesito poner hoy en las manos de Dios?",
+      "intention": "Por quienes viven miedo, ansiedad, soledad o incertidumbre.",
+      "prayer": "María, mujer de confianza, acompaña a quienes tienen miedo. Enséñanos a reconocer nuestras preocupaciones sin quedar dominados por ellas y a buscar en Dios una esperanza que nos sostenga. Amén.",
+      "action": "Presenta a Dios un temor concreto y realiza una acción prudente que te ayude a afrontarlo."
+    },
+    {
+      "day": 5,
+      "theme": "Los enfermos",
+      "title": "Acompañar al que sufre",
+      "bible": {
+        "reference": "Romanos 12,15",
+        "title": "Alégrense con los que están alegres; lloren con los que lloran"
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Sé acompañar a quien sufre sin minimizar su dolor?",
+      "intention": "Por los enfermos, sus familias, cuidadores y profesionales de la salud.",
+      "prayer": "Nuestra Señora de Lourdes, acompaña a todos los que sufren enfermedad. Danos un corazón compasivo para estar cerca de ellos, escuchar, cuidar y servir. Que nunca dejemos sola a una persona por no saber qué decir. Amén.",
+      "action": "Comunícate hoy con una persona enferma o con alguien que la esté cuidando."
+    },
+    {
+      "day": 6,
+      "theme": "La Inmaculada Concepción",
+      "title": "Cuidar la vida interior",
+      "bible": {
+        "reference": "Lucas 1,46-49",
+        "title": "Mi alma proclama la grandeza del Señor"
+      },
+      "virtue": "Pureza de corazón",
+      "reflection": "¿Qué pensamientos, palabras o hábitos necesito ordenar para vivir con mayor libertad?",
+      "intention": "Por niños, jóvenes y adultos que buscan crecer en una vida interior sana.",
+      "prayer": "María Inmaculada, ayúdanos a cuidar el corazón. Que nuestras palabras, pensamientos y decisiones estén orientados hacia la verdad, la bondad y el amor. Amén.",
+      "action": "Aparta hoy un tiempo de aquello que te dispersa y úsalo para una actividad que fortalezca tu vida interior."
+    },
+    {
+      "day": 7,
+      "theme": "Esperanza",
+      "title": "Esperar aun en la dificultad",
+      "bible": {
+        "reference": "Romanos 5,3-5",
+        "title": "La esperanza no defrauda"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Dónde necesito recuperar la esperanza?",
+      "intention": "Por quienes atraviesan enfermedad, duelo, pobreza, soledad o dificultades prolongadas.",
+      "prayer": "Nuestra Señora de Lourdes, acompaña a quienes sienten que ya no pueden más. Ayúdanos a comprender que la esperanza cristiana no niega el dolor, sino que permite atravesarlo confiando en Dios y apoyándonos unos a otros. Amén.",
+      "action": "Acompaña hoy a alguien que esté atravesando una dificultad."
+    },
+    {
+      "day": 8,
+      "theme": "Servicio",
+      "title": "Ser consuelo para otros",
+      "bible": {
+        "reference": "2 Corintios 1,3-4",
+        "title": "Dios nos consuela para que podamos consolar"
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo convertirme hoy en una ayuda concreta para alguien?",
+      "intention": "Por quienes trabajan al servicio de enfermos y personas vulnerables.",
+      "prayer": "María, Madre que acompaña, haznos disponibles para servir. Que nuestra devoción no se quede en palabras y que sepamos convertir la oración en gestos concretos de cuidado, paciencia y misericordia. Amén.",
+      "action": "Realiza hoy una obra de servicio que alivie una necesidad concreta."
+    },
+    {
+      "day": 9,
+      "theme": "Perseverancia",
+      "title": "Caminar con María hacia Cristo",
+      "bible": {
+        "reference": "Hebreos 12,1-3",
+        "title": "Corramos con perseverancia fijando los ojos en Jesús"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso de oración y servicio quiero mantener después de esta novena?",
+      "intention": "Por todas nuestras intenciones y para que perseveremos en la fe, la oración y la caridad.",
+      "prayer": "Nuestra Señora de Lourdes, acompáñanos después de estos nueve días. Llévanos siempre a Jesucristo y ayúdanos a perseverar en la oración, la conversión y el servicio. Que sepamos cuidar a quienes sufren y mantener viva la esperanza. Amén.",
+      "action": "Escribe un compromiso concreto para continuar una práctica de oración o servicio después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La información histórica se fundamenta en fuentes oficiales del Santuario de Lourdes y de la Santa Sede."
+  }
+}
