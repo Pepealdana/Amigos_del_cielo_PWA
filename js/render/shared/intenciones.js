@@ -52,7 +52,7 @@ function renderIntenciones(
 
                                         <li>
 
-                                            ${item}
+                                            ${escaparHTML(item)}
 
                                         </li>
 
