@@ -745,5 +745,143 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-juan-bosco",
+    "slug": "san-juan-bosco",
+    "name": "San Juan Bosco",
+    "title": "Presbítero y fundador de la Familia Salesiana",
+    "subtitle": "Padre y maestro de la juventud",
+    "category": "Santos",
+    "image": "assets/images/santos/san_juan_bosco.webp",
+    "file": "data/san-juan-bosco.json",
+    "description": "Sacerdote educador que dedicó su vida a los jóvenes, especialmente a los más pobres, mediante la educación, la formación para el trabajo, la fe y el acompañamiento.",
+    "feast": {
+      "day": 31,
+      "month": 1,
+      "text": "31 de enero",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san juan bosco",
+      "don bosco",
+      "bosco",
+      "salesianos",
+      "juventud",
+      "jóvenes",
+      "educacion",
+      "educadores",
+      "oratorio",
+      "escuela",
+      "trabajo",
+      "aprendices",
+      "vocacion",
+      "maria auxiliadora",
+      "sueño de los nueve años",
+      "sistema preventivo",
+      "pobres"
+    ],
+    "interventions": [
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y educación",
+        "keywords": [
+          "jovenes",
+          "juventud",
+          "educacion",
+          "educadores",
+          "estudiantes",
+          "adolescentes",
+          "niños"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y acompañamiento",
+        "keywords": [
+          "familia",
+          "padres",
+          "madres",
+          "hijos",
+          "acompañamiento",
+          "crianza"
+        ]
+      },
+      {
+        "id": "estudio-trabajo",
+        "label": "Estudio, oficio y trabajo",
+        "keywords": [
+          "estudio",
+          "trabajo",
+          "oficio",
+          "aprendices",
+          "empleo",
+          "formacion profesional",
+          "escuela"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y discernimiento",
+        "keywords": [
+          "vocacion",
+          "llamado",
+          "sacerdote",
+          "religioso",
+          "discernimiento",
+          "mision"
+        ]
+      },
+      {
+        "id": "pobres",
+        "label": "Pobreza y jóvenes vulnerables",
+        "keywords": [
+          "pobreza",
+          "pobres",
+          "calle",
+          "vulnerables",
+          "necesidad",
+          "abandono"
+        ]
+      },
+      {
+        "id": "alegria",
+        "label": "Alegría y esperanza",
+        "keywords": [
+          "alegria",
+          "esperanza",
+          "animo",
+          "tristeza",
+          "soledad",
+          "amistad"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida cristiana",
+        "keywords": [
+          "oracion",
+          "fe",
+          "eucaristia",
+          "confesion",
+          "evangelio",
+          "catequesis"
+        ]
+      },
+      {
+        "id": "iglesia",
+        "label": "Iglesia y misión salesiana",
+        "keywords": [
+          "iglesia",
+          "salesianos",
+          "salesianas",
+          "oratorio",
+          "mision",
+          "apostolado"
+        ]
+      }
+    ]
   }
 ]
