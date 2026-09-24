@@ -1,0 +1,366 @@
+{
+  "id": "sagrado-corazon-de-jesus",
+  "slug": "sagrado-corazon-de-jesus",
+  "name": "Sagrado Corazón de Jesús",
+  "title": "Novena al Sagrado Corazón de Jesús",
+  "subtitle": "Contemplar el amor de Cristo y responder con amor",
+  "category": "Devociones",
+  "image": "assets/images/santos/sagrado_corazon_de_jesus.webp",
+  "description": "Nueve días para contemplar el amor de Cristo, crecer en confianza, conversión, reparación y caridad, y aprender a responder al amor del Corazón de Jesús con la propia vida.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#7A2430",
+    "secondaryColor": "#D9B66B",
+    "icon": "♥"
+  },
+  "feast": {
+    "movable": true,
+    "text": "Solemnidad del Sagrado Corazón de Jesús — viernes después de la Solemnidad del Corpus Christi"
+  },
+  "patronages": [
+    "Devotos del Sagrado Corazón de Jesús"
+  ],
+  "virtues": [
+    "Amor",
+    "Confianza",
+    "Conversión",
+    "Humildad",
+    "Reparación",
+    "Misericordia",
+    "Caridad",
+    "Perseverancia",
+    "Entrega"
+  ],
+  "search": [
+    "sagrado corazón de jesús",
+    "sagrado corazon de jesus",
+    "corazón de jesús",
+    "corazon de jesus",
+    "amor de cristo",
+    "misericordia",
+    "reparación",
+    "reparacion",
+    "primeros viernes",
+    "hora santa",
+    "eucaristía",
+    "eucaristia",
+    "consagración",
+    "consagracion",
+    "santa margarita maria",
+    "claudio de la colombiere"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia y consagración del hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio",
+        "consagracion",
+        "consagración"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermedad, sufrimiento y consuelo",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "consuelo",
+        "hospital"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión, perdón y reparación",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "pecado",
+        "perdon",
+        "perdón",
+        "reparacion",
+        "reparación",
+        "arrepentimiento"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y adoración eucarística",
+      "keywords": [
+        "oracion",
+        "oración",
+        "adoracion",
+        "adoración",
+        "eucaristia",
+        "eucaristía",
+        "hora santa",
+        "sagrario"
+      ]
+    },
+    {
+      "id": "confianza",
+      "label": "Confianza en Dios",
+      "keywords": [
+        "confianza",
+        "fe",
+        "esperanza",
+        "miedo",
+        "temor",
+        "abandono"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y servicio",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "servicio",
+        "sacerdotes",
+        "religiosos",
+        "religiosas"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y obras de misericordia",
+      "keywords": [
+        "caridad",
+        "misericordia",
+        "pobres",
+        "necesitados",
+        "ayuda",
+        "servicio"
+      ]
+    },
+    {
+      "id": "reparacion",
+      "label": "Reparación y reconciliación",
+      "keywords": [
+        "reparacion",
+        "reparación",
+        "reconciliacion",
+        "reconciliación",
+        "perdon",
+        "perdón",
+        "justicia",
+        "paz"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción al Sagrado Corazón de Jesús contempla el amor humano y divino de Cristo y se expresa en oración, adoración, confianza, conversión, reparación y caridad. La tradición cristiana tuvo diversos precursores y recibió un impulso particular mediante san Juan Eudes y santa Margarita María de Alacoque.",
+    "extended": "La veneración del Corazón de Cristo tiene raíces antiguas en la contemplación de la Pasión y del costado traspasado de Jesús. El papa Pío XII, en la encíclica Haurietis aquas, recordó que esta devoción no comenzó con una sola persona, sino que tuvo diversos precursores en la historia de la espiritualidad cristiana.\n\nEntre quienes contribuyeron a su desarrollo se encuentran san Buenaventura, santa Gertrudis, santa Catalina de Siena, san Francisco de Sales y, de manera especialmente significativa, san Juan Eudes, quien promovió una celebración litúrgica del Corazón de Jesús. Santa Margarita María Alacoque tuvo después un papel destacado en la difusión de la devoción, acompañada espiritualmente por el beato Claudio de la Colombière. La Iglesia distingue estos testimonios históricos de la valoración espiritual de las experiencias místicas de los santos.\n\nLa encíclica Haurietis aquas enseña que el Corazón de Jesús permite contemplar de manera particular el amor del Salvador. La devoción, correctamente entendida, conduce a una respuesta de amor: oración, adoración, confianza, conversión, reparación y servicio al prójimo. No se trata de una devoción separada del Evangelio, sino de una forma de profundizar en el misterio del amor de Cristo.\n\nLa solemnidad del Sagrado Corazón de Jesús se celebra el viernes posterior a la solemnidad del Corpus Christi. La tradición de los primeros viernes y otras prácticas vinculadas al Sagrado Corazón pertenecen a la piedad católica y deben vivirse en armonía con la liturgia y la vida sacramental de la Iglesia.\n\nEsta novena contiene textos originales de Amigos del Cielo, elaborados a partir de la Sagrada Escritura, Haurietis aquas y fuentes oficiales de la Iglesia. No reproduce literalmente una novena particular publicada por otra institución."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\n\nSeñor Jesús, nos acercamos a tu Sagrado Corazón para contemplar el amor con que nos has amado. Enséñanos a recibir tu misericordia, a confiar en ti, a reconocer nuestros errores y a responder a tu amor con una vida de oración, caridad y servicio. Durante estos nueve días recibe nuestras intenciones y transforma nuestro corazón para que se parezca cada vez más al tuyo. Amén.",
+  "closingPrayer": "Sagrado Corazón de Jesús, gracias por este camino de oración. Haz nuestro corazón semejante al tuyo: humilde para aprender, fuerte para perseverar, misericordioso para perdonar y generoso para servir. Recibe nuestras intenciones y ayúdanos a llevar a nuestra familia, comunidad y mundo el amor que hemos contemplado en ti. Que nuestra devoción no se quede en palabras, sino que se convierta en una vida entregada al bien. Amén.",
+  "intentions": [
+    "Por quienes necesitan descubrir que Dios los ama y no han encontrado todavía un camino de confianza.",
+    "Por las familias, para que sus hogares crezcan en amor, perdón, fidelidad y oración.",
+    "Por quienes sufren enfermedad, soledad, duelo o situaciones que ponen a prueba su esperanza.",
+    "Por quienes buscan la conversión y necesitan fuerza para comenzar de nuevo.",
+    "Por sacerdotes, religiosos y religiosas, para que sirvan con fidelidad y caridad.",
+    "Por quienes cargan heridas causadas por conflictos, rechazo, injusticia o falta de perdón.",
+    "Por quienes desean crecer en la adoración, la Eucaristía y la vida de oración.",
+    "Por quienes necesitan reparar un daño, reconciliarse o recuperar la paz interior.",
+    "Por nuestras intenciones personales y para que aprendamos a responder al amor de Cristo mediante obras concretas de caridad."
+  ],
+  "resources": {
+    "devotion": "La devoción al Sagrado Corazón de Jesús se vive en armonía con la liturgia, la oración, la Eucaristía, la conversión y las obras de caridad.",
+    "feast": "La solemnidad se celebra el viernes posterior a la solemnidad del Corpus Christi.",
+    "related": [
+      "Santa Margarita María de Alacoque",
+      "San Juan Eudes",
+      "Beato Claudio de la Colombière",
+      "Eucaristía",
+      "Reparación",
+      "Misericordia"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Haurietis Aquas",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+      "type": "official"
+    },
+    {
+      "title": "Carta con motivo del 50.º aniversario de Haurietis Aquas",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/letters/2006/documents/hf_ben-xvi_let_20060515_50-haurietis-aquas.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus, 20 de junio de 2004",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/2004/documents/hf_jp-ii_ang_20040620.html",
+      "type": "official"
+    },
+    {
+      "title": "Solemnidad del Sagrado Corazón de Jesús",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/060427.cfm",
+      "type": "official"
+    },
+    {
+      "title": "World Day of Prayer for the Sanctification of Priests",
+      "organization": "USCCB",
+      "url": "https://www.usccb.org/committees/clergy-consecrated-life-vocations/world-day-prayer-sanctification-priests",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "El amor de Cristo",
+      "title": "Dejarse amar por Jesús",
+      "bible": {
+        "reference": "Romanos 5,5-8",
+        "title": "El amor de Dios ha sido derramado en nuestros corazones"
+      },
+      "virtue": "Amor",
+      "reflection": "¿Qué cambia en mi vida cuando recuerdo que el amor de Dios no depende de mis méritos?",
+      "intention": "Por quienes se sienten solos, rechazados o alejados de Dios.",
+      "prayer": "Sagrado Corazón de Jesús, enséñanos a recibir tu amor con confianza. Sana nuestra imagen de Dios cuando esté marcada por el miedo y ayúdanos a reconocer los signos de tu amor en nuestra vida. Amén.",
+      "action": "Agradece hoy a Dios por tres signos concretos de amor que hayas recibido."
+    },
+    {
+      "day": 2,
+      "theme": "La confianza",
+      "title": "Descansar en el corazón de Cristo",
+      "bible": {
+        "reference": "Mateo 11,28-30",
+        "title": "Aprendan de mí, que soy manso y humilde de corazón"
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación necesito entregar hoy a Jesús en lugar de intentar controlarlo todo?",
+      "intention": "Por quienes viven ansiedad, incertidumbre, cansancio o situaciones que les cuesta afrontar.",
+      "prayer": "Sagrado Corazón de Jesús, recibe nuestras preocupaciones. Danos la confianza necesaria para buscar ayuda, actuar responsablemente y dejar en tus manos aquello que no podemos controlar. Que tu paz sostenga nuestro corazón. Amén.",
+      "action": "Presenta a Jesús una preocupación concreta y termina tu oración con: «Jesús, confío en ti»."
+    },
+    {
+      "day": 3,
+      "theme": "La conversión",
+      "title": "Volver al corazón de Dios",
+      "bible": {
+        "reference": "Lucas 15,11-24",
+        "title": "El Padre recibe al hijo que regresa"
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué actitud, hábito o decisión necesito reconocer y comenzar a cambiar?",
+      "intention": "Por quienes desean volver a Dios y por quienes necesitan fuerza para iniciar una nueva etapa.",
+      "prayer": "Sagrado Corazón de Jesús, danos humildad para reconocer nuestros errores y valentía para cambiar. Que nunca confundamos arrepentimiento con desesperanza. Llévanos por el camino del perdón y de una vida renovada. Amén.",
+      "action": "Haz hoy un examen de conciencia y, si es necesario, da un primer paso concreto hacia la reconciliación."
+    },
+    {
+      "day": 4,
+      "theme": "La humildad",
+      "title": "Aprender de un corazón manso",
+      "bible": {
+        "reference": "Mateo 11,28-30",
+        "title": "Manso y humilde de corazón"
+      },
+      "virtue": "Humildad",
+      "reflection": "¿En qué relación o situación necesito dejar de defender mi orgullo y aprender a escuchar?",
+      "intention": "Por las familias, comunidades y grupos donde existen tensiones, orgullo o dificultades para dialogar.",
+      "prayer": "Sagrado Corazón de Jesús, haz nuestro corazón humilde y manso. Enséñanos a escuchar antes de responder, a reconocer cuando nos equivocamos y a buscar el bien de los demás sin necesidad de tener siempre la razón. Amén.",
+      "action": "Escucha hoy a alguien con atención, sin interrumpir ni preparar inmediatamente una respuesta."
+    },
+    {
+      "day": 5,
+      "theme": "La reparación",
+      "title": "Responder al mal con el bien",
+      "bible": {
+        "reference": "Colosenses 3,12-15",
+        "title": "Revístanse de misericordia y perdón"
+      },
+      "virtue": "Reparación",
+      "reflection": "¿Qué daño puedo ayudar a reparar mediante una acción concreta?",
+      "intention": "Por quienes han sido heridos por la violencia, la injusticia, el rechazo o la indiferencia.",
+      "prayer": "Sagrado Corazón de Jesús, enséñanos a reparar el mal con el bien. Danos sabiduría para reconocer el daño causado, humildad para pedir perdón y generosidad para realizar acciones que ayuden a reconstruir la confianza. Amén.",
+      "action": "Si has causado un daño, busca hoy una forma prudente y sincera de repararlo; si no puedes, ora y realiza una obra de bien."
+    },
+    {
+      "day": 6,
+      "theme": "La misericordia",
+      "title": "Un corazón capaz de perdonar",
+      "bible": {
+        "reference": "Lucas 6,27-36",
+        "title": "Sean misericordiosos como su Padre"
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Hay una herida que necesito entregar a Dios para no seguir alimentando el resentimiento?",
+      "intention": "Por quienes viven conflictos, rupturas familiares o dificultades para perdonar.",
+      "prayer": "Sagrado Corazón de Jesús, recibe nuestras heridas y enséñanos a perdonar sin negar el daño ni renunciar a la justicia. Líbranos del deseo de devolver mal por mal y danos caminos de reconciliación cuando sean posibles. Amén.",
+      "action": "Ora por una persona con quien tengas una dificultad y evita hoy una palabra o acción que aumente el conflicto."
+    },
+    {
+      "day": 7,
+      "theme": "La Eucaristía y la adoración",
+      "title": "Permanecer cerca de Cristo",
+      "bible": {
+        "reference": "Juan 15,4-9",
+        "title": "Permanezcan en mí"
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar ocupa realmente la oración y la Eucaristía en mi semana?",
+      "intention": "Por quienes desean recuperar la vida de oración y por quienes encuentran en la Eucaristía fuerza para perseverar.",
+      "prayer": "Sagrado Corazón de Jesús, atrae nuestro corazón hacia ti. Enséñanos a valorar la Eucaristía, la adoración y el silencio como espacios para permanecer contigo. Que nuestra oración no sea una obligación vacía, sino una relación viva contigo. Amén.",
+      "action": "Dedica hoy un tiempo de oración ante el Sagrario o, si no es posible, en silencio ante Dios."
+    },
+    {
+      "day": 8,
+      "theme": "La caridad",
+      "title": "Llevar el amor de Cristo a los demás",
+      "bible": {
+        "reference": "1 Juan 4,7-12",
+        "title": "Dios es amor"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Cómo puede hacerse visible el amor de Cristo en mi manera de tratar a los demás?",
+      "intention": "Por las personas pobres, enfermas, solas o necesitadas de acompañamiento.",
+      "prayer": "Sagrado Corazón de Jesús, que tu amor no se quede solamente en nuestra oración. Haznos atentos al que sufre, generosos con quien necesita ayuda y capaces de servir sin buscar reconocimiento. Que nuestras obras hagan visible tu amor. Amén.",
+      "action": "Realiza hoy una obra concreta de misericordia, especialmente por alguien que no pueda devolverte el favor."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega y misión",
+      "title": "Hacer del amor una forma de vida",
+      "bible": {
+        "reference": "Efesios 3,14-19",
+        "title": "Conocer el amor de Cristo que supera todo conocimiento"
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué cambio concreto quiero conservar después de terminar esta novena?",
+      "intention": "Por todas las intenciones presentadas durante estos nueve días y por la gracia de vivir como testigos del amor de Cristo.",
+      "prayer": "Sagrado Corazón de Jesús, recibe nuestra vida y nuestras intenciones. Haz que lo aprendido durante esta novena se convierta en decisiones concretas de oración, perdón, servicio y caridad. Que podamos llevar tu amor a nuestras familias, trabajos, estudios, comunidades y a quienes más lo necesitan. Amén.",
+      "action": "Elige una práctica concreta de oración o caridad que continuarás después de terminar la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La base doctrinal e histórica se fundamenta en la Sagrada Escritura, Haurietis aquas y fuentes oficiales de la Iglesia. No se reproduce literalmente una novena particular de otra fuente."
+  }
+}
