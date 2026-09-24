@@ -76,7 +76,7 @@ function renderHistoria(novena) {
                     <div class="history">
 
                         <p>
-                            ${historiaExtendida}
+                            ${escaparHTML(historiaExtendida)}
                         </p>
 
                     </div>
