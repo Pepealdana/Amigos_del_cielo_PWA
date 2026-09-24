@@ -1,0 +1,513 @@
+{
+  "id": "santa-rosa-de-lima",
+  "slug": "santa-rosa-de-lima",
+  "name": "Santa Rosa de Lima",
+  "title": "Virgen y laica dominica",
+  "subtitle": "Mística de la oración, la caridad y el servicio",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_rosa_de_lima.webp",
+  "description": "Primera santa canonizada del continente americano, cuya vida unió oración contemplativa, servicio a los necesitados, amor a la Eucaristía y entrega generosa a Dios.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-rosa-de-lima"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 23,
+    "month": 8,
+    "text": "23 de agosto",
+    "liturgicalRank": "Memoria opcional",
+    "movable": false
+  },
+  "patronages": [
+    "América, como patrona principal del continente",
+    "Perú y Lima, según la tradición y la devoción local",
+    "Filipinas, según la tradición patronal vinculada a su canonización"
+  ],
+  "virtues": [
+    "Fe",
+    "Oración",
+    "Caridad",
+    "Misericordia",
+    "Humildad",
+    "Pureza de corazón",
+    "Perseverancia",
+    "Fortaleza",
+    "Esperanza"
+  ],
+  "search": [
+    "santa rosa",
+    "santa rosa de lima",
+    "rosa de lima",
+    "isabel flores de oliva",
+    "isabel flores",
+    "lima",
+    "peru",
+    "perú",
+    "america",
+    "américa",
+    "dominica",
+    "dominicos",
+    "tercera orden",
+    "oracion",
+    "oración",
+    "eucaristia",
+    "eucaristía",
+    "rosario",
+    "pobres",
+    "enfermos",
+    "mision",
+    "penitencia",
+    "contemplacion",
+    "contemplación",
+    "mistica",
+    "mística",
+    "desposorio mistico",
+    "desposorio místico",
+    "rosa",
+    "corona de flores",
+    "familia",
+    "juventud"
+  ],
+  "interventions": [
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación",
+        "silencio",
+        "meditacion",
+        "meditación",
+        "vida espiritual",
+        "fe"
+      ]
+    },
+    {
+      "id": "pobres",
+      "label": "Personas en pobreza y necesidad",
+      "keywords": [
+        "pobres",
+        "pobreza",
+        "necesidad",
+        "carencia",
+        "necesitados",
+        "vulnerables",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "cuidar",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y responsabilidades del hogar",
+      "keywords": [
+        "familia",
+        "padres",
+        "madre",
+        "hijos",
+        "hogar",
+        "responsabilidades",
+        "trabajo"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y discernimiento",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "discernimiento",
+        "consagracion",
+        "consagración",
+        "propósito",
+        "proposito"
+      ]
+    },
+    {
+      "id": "mision",
+      "label": "Misión y evangelización",
+      "keywords": [
+        "mision",
+        "misión",
+        "evangelizacion",
+        "evangelización",
+        "predicar",
+        "evangelio",
+        "indigenas",
+        "indígenas"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en tiempos de prueba",
+      "keywords": [
+        "esperanza",
+        "prueba",
+        "dificultad",
+        "desanimo",
+        "desánimo",
+        "aridez",
+        "sufrimiento"
+      ]
+    },
+    {
+      "id": "rosario",
+      "label": "Rosario y devoción mariana",
+      "keywords": [
+        "rosario",
+        "virgen",
+        "maria",
+        "maría",
+        "madre de dios"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y búsqueda de sentido",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "juventud",
+        "adolescentes",
+        "estudiantes",
+        "sentido",
+        "futuro"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Isabel Flores de Oliva nació en Lima en 1586. Desde joven buscó una vida entregada a Dios y, en 1606, ingresó como laica en la Tercera Orden de Santo Domingo. Vivió en su propia casa, combinando oración, trabajo, ayuda a su familia y servicio a pobres y enfermos. Su vida estuvo marcada por una intensa experiencia mística, penitencia y amor a la Eucaristía. Murió en Lima el 24 de agosto de 1617, a los 31 años, y fue canonizada por Clemente X en 1671.",
+    "extended": "Isabel Flores de Oliva nació en Lima en 1586, en una familia de pequeños propietarios. El nombre de Rosa se hizo popular desde su infancia y ella añadió posteriormente «de Santa María». Creció en una sociedad colonial marcada por profundas diferencias sociales y económicas. Los dominicos de Lima tuvieron un papel importante en la evangelización y en la formación espiritual de los laicos, y ese ambiente influyó en su camino de fe.\n\nDesde joven manifestó un fuerte deseo de consagrarse a Dios. La tradición dominicana señala que hizo voto de virginidad y que sintió especial admiración por Santa Catalina de Siena. Durante un tiempo tuvo que discernir entre la posibilidad de entrar en una comunidad contemplativa y la necesidad de permanecer junto a su familia, que atravesaba estrecheces económicas. En 1606 encontró una forma de vivir su vocación sin abandonar el hogar: ingresó en la Tercera Orden de Santo Domingo como laica dominica.\n\nSu vida cotidiana estuvo lejos de ser pasiva. Enseñaba a niños, trabajaba en costura, cultivaba el huerto y colaboraba con el sostenimiento de su familia. Al mismo tiempo construyó una pequeña ermita en el jardín de su casa, donde dedicaba largos períodos a la oración y la contemplación. Su espiritualidad estuvo profundamente centrada en Cristo, la Eucaristía y la oración, y también promovió la devoción al Rosario.\n\nRosa se caracterizó por una intensa práctica penitencial. Las fuentes dominicanas la describen como una mística y conservan testimonios de períodos prolongados de aridez espiritual. Es importante no reducir su figura a las penitencias: su experiencia de Dios también se expresó en el amor a las personas, la misericordia, el cuidado de los enfermos y la atención a quienes sufrían. Quiso incluso participar directamente en la misión evangelizadora, aunque diversas circunstancias impidieron que saliera de Lima como misionera.\n\nUna experiencia especialmente característica de Santa Rosa fue su vida mística. Los procesos de canonización recogieron testimonios sobre sus experiencias de oración y sobre un llamado «desposorio místico» con Cristo, asociado en la tradición a una experiencia vivida en la capilla del Rosario en 1617. Este lenguaje pertenece a la tradición espiritual y debe entenderse dentro del contexto de la mística cristiana, no como un matrimonio humano ni como un hecho que pueda reconstruirse con el mismo grado de certeza que su nacimiento, su ingreso en la Tercera Orden o su muerte.\n\nLa rosa y la corona de flores son elementos centrales de su iconografía. El nombre Rosa quedó unido a su identidad desde joven y la tradición artística dominicana la representa frecuentemente con una corona de rosas. El hábito blanco y negro identifica su pertenencia a la Orden de Predicadores como laica dominica. El crucifijo, el Rosario y otros elementos de oración recuerdan su vida contemplativa y su devoción a Cristo y a la Virgen. Estos atributos son signos de la tradición iconográfica y no deben confundirse con fotografías de acontecimientos históricos.\n\nSanta Rosa murió en Lima el 24 de agosto de 1617, a los 31 años. Fue beatificada en 1668 y canonizada por el papa Clemente X el 12 de abril de 1671. Es reconocida como la primera santa canonizada del continente americano y Clemente X la proclamó patrona principal de América. La devoción también la reconoce como patrona de Perú, Lima y Filipinas. La Iglesia celebra su memoria litúrgica el 23 de agosto en el calendario romano, aunque algunas celebraciones locales pueden tener fechas propias.\n\nSu legado reúne contemplación y servicio. Santa Rosa no vivió la oración como aislamiento de las necesidades de los demás: su vida combinó silencio, trabajo, familia, misericordia y deseo de anunciar a Cristo. Por eso su testimonio puede leerse hoy como una invitación a buscar a Dios con profundidad y, desde esa relación, cuidar concretamente a quienes necesitan ayuda."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nSanta Rosa de Lima, mujer de oración y servicio, acompáñanos durante estos nueve días. Enséñanos a buscar a Dios con un corazón sincero, a cuidar nuestras responsabilidades y a reconocer a Cristo en quienes sufren. Presentamos ante el Señor nuestras intenciones y pedimos la gracia de vivir con fe, caridad, humildad y esperanza. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de Santa Rosa de Lima. Ayúdanos a unir la oración con el servicio, la contemplación con la caridad y la fe con decisiones concretas. Que, siguiendo su ejemplo, podamos cuidar a nuestra familia, acompañar a quienes sufren y buscar siempre tu voluntad. Amén.",
+  "intentions": [
+    "Por quienes buscan una vida de oración más profunda y una relación más cercana con Dios.",
+    "Por las familias que atraviesan dificultades económicas y necesitan fortaleza y esperanza.",
+    "Por los pobres, enfermos y personas que viven situaciones de abandono o necesidad.",
+    "Por jóvenes que buscan descubrir su vocación y el sentido de su vida.",
+    "Por quienes atraviesan períodos de sequedad espiritual, dudas o desánimo.",
+    "Por quienes desean servir en la Iglesia y en la sociedad con generosidad.",
+    "Por quienes anuncian el Evangelio y por las comunidades que necesitan esperanza.",
+    "Por las personas que tienen una devoción a la Virgen y desean crecer en la vida de oración.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Lucas 10,38-42"
+      },
+      {
+        "reference": "1 Corintios 13,1-13"
+      },
+      {
+        "reference": "Salmo 63,2-9"
+      }
+    ],
+    "documents": [
+      "Primer proceso ordinario para la canonización de Santa Rosa de Lima (1617), fuente histórica recogida por la tradición dominicana."
+    ],
+    "related": [
+      "Orden de Predicadores",
+      "Santa Catalina de Siena",
+      "Eucaristía",
+      "Rosario"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Rosa de Lima — Patrona de Perú y de América",
+      "organization": "Orden de Predicadores",
+      "url": "https://www.dominicos.org/quienes-somos/grandes-figuras/santa-rosa-de-lima/",
+      "type": "official"
+    },
+    {
+      "title": "Santa Rosa de Lima — Memoria litúrgica",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/readings/0823-memorial-rose-lima.cfm",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 6 de septiembre de 1992",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1992/documents/hf_jp-ii_ang_19920906.html",
+      "type": "official"
+    },
+    {
+      "title": "Audiencia general del 20 de agosto de 2008",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080820.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Ecclesia in America",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/apost_exhortations/documents/hf_jp-ii_exh_22011999_ecclesia-in-america.html",
+      "type": "official"
+    },
+    {
+      "title": "La oración del amor — experiencia mística de Santa Rosa de Lima",
+      "organization": "Orden de Predicadores",
+      "url": "https://www.dominicos.org/media/uploads/recursos/libros/la_experiencia_mistica_de_santa_rosa_de_lima_fray_julian_de_cos_2020.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una joven que busca a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Isabel Flores de Oliva nació en Lima en 1586. Desde joven recibió formación cristiana y manifestó un fuerte deseo de entregar su vida a Dios. La tradición dominicana recuerda que hizo voto de virginidad y que sintió una especial admiración por Santa Catalina de Siena."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una búsqueda espiritual puede comenzar desde muy temprano y necesita tiempo para descubrir cómo concretarse en la vida real."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué deseo profundo de bien y de Dios necesito cuidar con mayor atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que buscan descubrir su vocación y el sentido de su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, acompaña a quienes buscan a Dios desde su juventud. Ayúdanos a escuchar con sinceridad y a descubrir cómo podemos servir. Amén."
+      },
+      "action": "Escribe una intención espiritual o una pregunta importante que quieras presentar hoy a Dios."
+    },
+    {
+      "day": 2,
+      "theme": "La vocación",
+      "title": "Encontrar a Dios en la vida cotidiana",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rosa sintió vocación a una vida contemplativa, pero su familia atravesaba estrecheces económicas y necesitaba su ayuda. En 1606 ingresó en la Tercera Orden de Santo Domingo como laica, encontrando una manera de vivir su entrega a Dios sin abandonar el hogar."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vocación cristiana puede vivirse en diferentes estados de vida. También las responsabilidades familiares y laborales pueden convertirse en espacios de servicio y santidad."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Cómo puedo vivir mejor mi fe dentro de las responsabilidades que ya tengo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo una vocación o una decisión importante para su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, enséñanos a discernir con libertad y responsabilidad. Ayúdanos a reconocer el camino en el que podamos amar y servir mejor. Amén."
+      },
+      "action": "Identifica una responsabilidad cotidiana que puedas vivir hoy con mayor atención y sentido de servicio."
+    },
+    {
+      "day": 3,
+      "theme": "La oración",
+      "title": "Una ermita en medio del hogar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rosa construyó una pequeña ermita en el jardín de su casa para dedicar tiempo a la oración y la contemplación. Las fuentes dominicanas la presentan como una mística cuya vida interior estuvo profundamente orientada hacia Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración necesita un espacio real en nuestra vida. No siempre requiere condiciones extraordinarias: puede comenzar con un momento sencillo de silencio y atención a Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio concreto puedo reservar cada día para estar en silencio ante Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar la oración y fortalecer su vida espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, ayúdanos a buscar a Dios en el silencio. Enséñanos a permanecer ante Él con un corazón sincero y perseverante. Amén."
+      },
+      "action": "Reserva hoy diez minutos sin teléfono ni otras distracciones para orar en silencio."
+    },
+    {
+      "day": 4,
+      "theme": "Trabajo y familia",
+      "title": "Servir también con las manos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Como laica dominica, Rosa enseñaba a niños, trabajaba en costura y cultivaba el huerto de su casa. Con estas actividades ayudaba al sostenimiento de su familia. Su vida contemplativa estuvo unida a responsabilidades concretas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La espiritualidad no elimina nuestras responsabilidades. El trabajo, el estudio y las tareas del hogar también pueden convertirse en actos de servicio."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué tarea cotidiana puedo realizar hoy con más amor y menos queja?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que atraviesan dificultades económicas y por quienes trabajan para sostener su hogar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, acompaña a nuestras familias. Ayúdanos a trabajar con responsabilidad y a reconocer la dignidad del servicio cotidiano. Amén."
+      },
+      "action": "Realiza hoy una tarea necesaria en casa sin esperar reconocimiento."
+    },
+    {
+      "day": 5,
+      "theme": "Misericordia",
+      "title": "Ver al que necesita ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rosa se destacó por sus obras de misericordia con necesitados, enfermos y personas oprimidas. Las fuentes dominicanas señalan que su amor a Dios se expresaba también en el cuidado concreto de quienes sufrían."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración cristiana no termina en nosotros. El encuentro con Dios puede abrirnos a reconocer necesidades concretas y responder con misericordia."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Hay alguien cercano cuyo sufrimiento estoy ignorando?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y personas que viven situaciones de abandono o necesidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, enséñanos a reconocer a Cristo en quienes sufren. Danos un corazón dispuesto a ayudar con respeto, prudencia y generosidad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de ayuda a una persona que lo necesite."
+    },
+    {
+      "day": 6,
+      "theme": "La penitencia y la cruz",
+      "title": "Perseverar en medio de la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Rosa estuvo marcada por la penitencia y por períodos de aridez espiritual. Las fuentes dominicanas también conservan testimonios sobre su intensa identificación con Cristo y su deseo de ofrecer su vida por la salvación de otros. Estas prácticas deben comprenderse dentro de la espiritualidad de su época y no como una invitación a dañarse."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia cristiana no consiste en buscar el sufrimiento por sí mismo. Consiste en permanecer en el bien cuando aparecen dificultades, frustraciones o períodos de sequedad interior."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué dificultad necesito afrontar sin abandonar mis responsabilidades ni mi esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas, sufrimiento o períodos de desánimo espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, acompaña a quienes atraviesan momentos difíciles. Enséñanos a permanecer en el bien y a pedir ayuda cuando el sufrimiento nos supera. Amén."
+      },
+      "action": "Identifica una dificultad actual y elige una acción concreta, saludable y responsable para afrontarla."
+    },
+    {
+      "day": 7,
+      "theme": "La experiencia mística",
+      "title": "Un corazón entregado a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los testimonios recogidos durante el proceso de canonización hablan de una intensa vida mística. La tradición dominicana describe también un desposorio místico con Cristo en 1617. Este lenguaje pertenece a la tradición de la mística cristiana y expresa simbólicamente una unión profunda con Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La experiencia espiritual no se mide por fenómenos extraordinarios. Lo esencial es hacia dónde conduce: en Rosa, la oración se relacionó con amor a Dios, servicio, misericordia y deseo de anunciar a Cristo."
+      },
+      "virtue": "Amor a Dios",
+      "reflection": "¿Mi oración está produciendo más amor, paciencia y servicio en mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan profundizar su relación con Dios y por quienes atraviesan dudas o sequedad espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, ayúdanos a buscar a Dios con un corazón sincero. Que nuestra oración se transforme en amor concreto hacia los demás. Amén."
+      },
+      "action": "Después de orar hoy, realiza una acción concreta de servicio que nazca de esa oración."
+    },
+    {
+      "day": 8,
+      "theme": "La misión",
+      "title": "Una fe que quiere salir al encuentro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rosa deseó participar en la misión evangelizadora y quiso salir de Lima, pero diversas circunstancias se lo impidieron. Desde su propio entorno mantuvo un fuerte deseo de ayudar a la Iglesia y de acercar a otros a Cristo mediante la oración y el testimonio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No siempre podemos hacer exactamente lo que imaginamos. También podemos vivir una misión significativa desde el lugar y las circunstancias que tenemos."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué bien puedo hacer desde el lugar concreto en el que Dios me ha puesto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes anuncian el Evangelio y por las comunidades que necesitan esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa, enséñanos a servir desde nuestras posibilidades. Que no esperemos condiciones perfectas para hacer el bien. Amén."
+      },
+      "action": "Busca hoy una oportunidad concreta para compartir esperanza, ayuda o una palabra de ánimo."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Oración que se convierte en servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rosa murió en Lima el 24 de agosto de 1617, a los 31 años. Fue beatificada en 1668 y canonizada por Clemente X el 12 de abril de 1671. Es reconocida como la primera santa canonizada del continente americano y como patrona principal de América. La Iglesia celebra su memoria el 23 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El legado de Santa Rosa une contemplación y servicio. Su vida recuerda que la oración puede transformar la manera en que trabajamos, cuidamos a la familia y respondemos ante las necesidades de los demás."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué práctica de oración o servicio quiero conservar después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las personas y situaciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rosa de Lima, intercede por nosotros. Enséñanos a buscar a Dios con profundidad y a convertir nuestra fe en caridad, responsabilidad y servicio. Que podamos perseverar en el bien y llevar esperanza a quienes nos rodean. Amén."
+      },
+      "action": "Elige una práctica concreta de oración y una obra de servicio que quieras mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
