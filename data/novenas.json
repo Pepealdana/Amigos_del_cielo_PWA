@@ -3525,5 +3525,120 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-filomena",
+    "slug": "santa-filomena",
+    "name": "Santa Filomena",
+    "title": "Virgen y mártir",
+    "subtitle": "Testigo de la fe y de la esperanza cristiana",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_filomena.webp",
+    "file": "data/santa-filomena.json",
+    "description": "Joven mártir venerada desde el descubrimiento de sus restos en las catacumbas de Priscila, cuya devoción se difundió ampliamente en el siglo XIX.",
+    "feast": {
+      "day": 11,
+      "month": 8,
+      "text": "11 de agosto",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa filomena",
+      "filomena",
+      "philomena",
+      "virgen y martir",
+      "virgen mártir",
+      "mártir",
+      "niños",
+      "infantes",
+      "jóvenes",
+      "juventud",
+      "pureza",
+      "fortaleza",
+      "perseverancia",
+      "esperanza",
+      "mugnano",
+      "catacumbas de priscila",
+      "martires"
+    ],
+    "interventions": [
+      {
+        "id": "ninos",
+        "label": "Niños, infantes y jóvenes",
+        "keywords": [
+          "niños",
+          "ninos",
+          "infantes",
+          "bebés",
+          "bebes",
+          "jóvenes",
+          "jovenes",
+          "juventud"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe y perseverancia",
+        "keywords": [
+          "fe",
+          "perseverancia",
+          "dudas",
+          "dificultades",
+          "fidelidad"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermedad y sufrimiento",
+        "keywords": [
+          "enfermedad",
+          "enfermos",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "curacion",
+          "curación"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y seres queridos",
+        "keywords": [
+          "familia",
+          "padres",
+          "hijos",
+          "niños",
+          "hogar",
+          "seres queridos"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en tiempos difíciles",
+        "keywords": [
+          "esperanza",
+          "prueba",
+          "dificultad",
+          "desanimo",
+          "desánimo",
+          "miedo",
+          "temor"
+        ]
+      },
+      {
+        "id": "pureza",
+        "label": "Pureza y vida cristiana",
+        "keywords": [
+          "pureza",
+          "castidad",
+          "virtud",
+          "tentacion",
+          "tentación",
+          "vida cristiana"
+        ]
+      }
+    ]
   }
 ]
