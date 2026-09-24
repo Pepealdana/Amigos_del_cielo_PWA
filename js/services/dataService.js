@@ -1,322 +1,165 @@
 /* ==========================================
-   STORAGE
+   DATA SERVICE
    Amigos del Cielo
 ========================================== */
 
-/* ==========================================
-   FUNCIONES INTERNAS
-========================================== */
+const DATA_PATH = "./data/novenas.json";
 
-function guardarEnStorage(clave, datos) {
+async function cargarCatalogo() {
+    const response = await fetch(DATA_PATH, { cache: "no-cache" });
 
-    try {
-
-        localStorage.setItem(
-
-            clave,
-
-            JSON.stringify(datos)
-
+    if (!response.ok) {
+        throw new Error(
+            "No fue posible cargar el catálogo (" +
+            response.status +
+            ")."
         );
-
-        return true;
-
     }
 
-    catch (error) {
+    const catalogo = await response.json();
 
-        console.error(
-
-            "Error guardando datos:",
-
-            error
-
+    if (!Array.isArray(catalogo)) {
+        throw new Error(
+            "El catálogo de novenas no tiene un formato válido."
         );
+    }
 
+    state.catalogo = catalogo.filter(
+        novena => novena && novena.status !== "draft"
+    );
+
+    return state.catalogo;
+}
+
+async function cargarNovena(id) {
+    if (!id) {
+        throw new Error(
+            "No se indicó el identificador de la novena."
+        );
+    }
+
+    const resumen = buscarNovenaPorId(
+        state.catalogo,
+        id
+    );
+
+    if (!resumen) {
+        throw new Error(
+            "No existe la novena con id: " + id
+        );
+    }
+
+    if (!resumen.file) {
+        throw new Error(
+            'La novena "' + id + '" no tiene archivo de datos.'
+        );
+    }
+
+    const ruta = "./" +
+        resumen.file.replace(/^\\.\\//, "");
+
+    const response = await fetch(
+        ruta,
+        { cache: "no-cache" }
+    );
+
+    if (!response.ok) {
+        throw new Error(
+            "No fue posible cargar la novena (" +
+            response.status +
+            ")."
+        );
+    }
+
+    const novena = await response.json();
+
+    if (!novena || typeof novena !== "object") {
+        throw new Error(
+            "Los datos de la novena no son válidos."
+        );
+    }
+
+    if (!Array.isArray(novena.days)) {
+        novena.days = [];
+    }
+
+    state.novenaActual = novena;
+
+    const progreso = state.progreso[id];
+
+    state.diaActual =
+        Number(progreso?.dia) || 1;
+
+    return novena;
+}
+
+function obtenerDia(numeroDia) {
+    if (
+        !state.novenaActual ||
+        !Array.isArray(state.novenaActual.days)
+    ) {
+        return null;
+    }
+
+    return state.novenaActual.days.find(
+        dia => Number(dia.day) === Number(numeroDia)
+    ) || null;
+}
+
+function obtenerDiaActualNovena() {
+    return obtenerDia(state.diaActual);
+}
+
+function obtenerTotalDiasNovena() {
+    const configurados =
+        Number(state.novenaActual?.novena?.days);
+
+    if (
+        Number.isInteger(configurados) &&
+        configurados > 0
+    ) {
+        return configurados;
+    }
+
+    const disponibles =
+        state.novenaActual?.days?.length || 0;
+
+    return disponibles || APP_CONFIG.diasNovena;
+}
+
+function cambiarDia(numeroDia) {
+    const numero = Number(numeroDia);
+    const total = obtenerTotalDiasNovena();
+
+    if (
+        !Number.isInteger(numero) ||
+        numero < 1 ||
+        numero > total ||
+        !obtenerDia(numero)
+    ) {
         return false;
-
     }
 
+    state.diaActual = numero;
+    return true;
 }
 
-function leerDeStorage(
-
-    clave,
-
-    valorPorDefecto = null
-
-) {
-
-    try {
-
-        const datos =
-
-            localStorage.getItem(clave);
-
-        return datos
-
-            ? JSON.parse(datos)
-
-            : valorPorDefecto;
-
+function reiniciarNovena() {
+    if (!state.novenaActual) {
+        return;
     }
 
-    catch (error) {
+    const id = state.novenaActual.id;
 
-        console.error(
+    delete state.progreso[id];
 
-            "Error leyendo datos:",
-
-            error
-
-        );
-
-        return valorPorDefecto;
-
-    }
-
-}
-
-function eliminarDeStorage(clave) {
-
-    try {
-
-        localStorage.removeItem(clave);
-
-    }
-
-    catch (error) {
-
-        console.error(
-
-            "Error eliminando datos:",
-
-            error
-
-        );
-
-    }
-
-}
-
-function limpiarStorage() {
-
-    try {
-
-        localStorage.clear();
-
-    }
-
-    catch (error) {
-
-        console.error(
-
-            "Error limpiando almacenamiento:",
-
-            error
-
-        );
-
-    }
-
-}
-
-/* ==========================================
-   FAVORITOS
-========================================== */
-
-function cargarFavoritos() {
-
-    state.favoritos =
-
-        leerDeStorage(
-
-            STORAGE_KEYS.FAVORITES,
-
-            []
-
-        );
-
-}
-
-function guardarFavoritos() {
-
-    guardarEnStorage(
-
-        STORAGE_KEYS.FAVORITES,
-
-        state.favoritos
-
-    );
-
-}
-
-function esFavorita(id) {
-
-    return state.favoritos.includes(id);
-
-}
-
-function alternarFavorita(id) {
-
-    if (esFavorita(id)) {
-
-        state.favoritos =
-
-            state.favoritos.filter(
-
-                item => item !== id
-
-            );
-
-    }
-
-    else {
-
-        state.favoritos.push(id);
-
-    }
-
-    guardarFavoritos();
-
-}
-
-/* ==========================================
-   PROGRESO
-========================================== */
-
-function cargarProgreso() {
-
-    state.progreso =
-
-        leerDeStorage(
-
-            STORAGE_KEYS.PROGRESS,
-
-            {}
-
-        );
-
-}
-
-function guardarProgreso() {
-
-    guardarEnStorage(
-
-        STORAGE_KEYS.PROGRESS,
-
-        state.progreso
-
-    );
-
-}
-
-function actualizarProgreso(
-
-    novenaId,
-
-    dia
-
-) {
-
-    state.progreso[novenaId] = {
-
-        dia,
-
-        fecha:
-
-            new Date().toISOString()
-
-    };
+    state.ultimaNovenaId = null;
+    state.diaActual = 1;
 
     guardarProgreso();
-
 }
 
-/* ==========================================
-   CONFIGURACIÓN
-========================================== */
-
-function cargarConfiguracion() {
-
-    const configuracion =
-
-        leerDeStorage(
-
-            STORAGE_KEYS.SETTINGS,
-
-            null
-
-        );
-
-    if (configuracion) {
-
-        state.configuracion = {
-
-            ...state.configuracion,
-
-            ...configuracion
-
-        };
-
-    }
-
-}
-
-function guardarConfiguracion() {
-
-    guardarEnStorage(
-
-        STORAGE_KEYS.SETTINGS,
-
-        state.configuracion
-
-    );
-
-}
-
-/* ==========================================
-   INTENCIONES
-========================================== */
-
-function cargarIntenciones() {
-
-    state.intenciones =
-
-        leerDeStorage(
-
-            STORAGE_KEYS.INTENTIONS,
-
-            {}
-
-        );
-
-}
-
-function guardarIntenciones() {
-
-    guardarEnStorage(
-
-        STORAGE_KEYS.INTENTIONS,
-
-        state.intenciones
-
-    );
-
-}
-
-/* ==========================================
-   INICIALIZAR STORAGE
-========================================== */
-
-function inicializarStorage() {
-
-    cargarFavoritos();
-
-    cargarProgreso();
-
-    cargarConfiguracion();
-
-    cargarIntenciones();
-
+function cerrarNovenaActual() {
+    state.novenaActual = null;
+    state.diaActual = 1;
 }
