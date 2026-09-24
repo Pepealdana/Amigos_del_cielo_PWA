@@ -1,0 +1,478 @@
+{
+  "id": "san-carlo-acutis",
+  "slug": "san-carlo-acutis",
+  "name": "San Carlo Acutis",
+  "title": "Laico y testigo de la Eucaristía",
+  "subtitle": "Joven apóstol de la fe en el mundo digital",
+  "category": "Santos",
+  "image": "assets/images/santos/san_carlo_acutis.webp",
+  "description": "Joven italiano que puso la Eucaristía, la oración y la caridad en el centro de su vida y utilizó sus conocimientos de informática para comunicar la fe.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-carlo-acutis"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 12,
+    "month": 10,
+    "text": "12 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "La Eucaristía es mi autopista hacia el cielo.",
+    "reference": "Expresión de San Carlo Acutis citada por el Papa Francisco en el Mensaje para la XXXIX Jornada Mundial de la Juventud, 2024."
+  },
+  "patronages": [
+    "No consta un patronazgo universal oficial específico; su testimonio está especialmente vinculado a los jóvenes, la Eucaristía y la evangelización en el ámbito digital."
+  ],
+  "virtues": [
+    "Fe",
+    "Amor a la Eucaristía",
+    "Oración",
+    "Caridad",
+    "Humildad",
+    "Alegría",
+    "Pureza de corazón",
+    "Generosidad",
+    "Esperanza"
+  ],
+  "search": [
+    "san carlo acutis",
+    "carlo acutis",
+    "eucaristia",
+    "eucaristía",
+    "jovenes",
+    "jóvenes",
+    "internet",
+    "informatica",
+    "informática",
+    "evangelizacion digital",
+    "milagros eucaristicos",
+    "milagros eucarísticos",
+    "oracion",
+    "caridad",
+    "confesion",
+    "confesión",
+    "asís",
+    "assisi"
+  ],
+  "interventions": [
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y búsqueda de propósito",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "adolescentes",
+        "juventud",
+        "propósito",
+        "sentido",
+        "futuro"
+      ]
+    },
+    {
+      "id": "eucaristia",
+      "label": "Eucaristía y vida espiritual",
+      "keywords": [
+        "eucaristia",
+        "eucaristía",
+        "misa",
+        "comunion",
+        "comunión",
+        "adoracion",
+        "adoración",
+        "sagrario"
+      ]
+    },
+    {
+      "id": "vida-digital",
+      "label": "Uso responsable de internet y tecnología",
+      "keywords": [
+        "internet",
+        "redes",
+        "tecnologia",
+        "tecnología",
+        "informatica",
+        "informática",
+        "pantallas",
+        "web"
+      ]
+    },
+    {
+      "id": "evangelizacion",
+      "label": "Evangelización y comunicación de la fe",
+      "keywords": [
+        "evangelizacion",
+        "evangelización",
+        "apostolado",
+        "catequesis",
+        "fe",
+        "testimonio",
+        "comunicar"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio a los necesitados",
+      "keywords": [
+        "caridad",
+        "pobres",
+        "necesitados",
+        "servicio",
+        "ayuda",
+        "misericordia",
+        "solidaridad"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y crecimiento espiritual",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "pecado",
+        "confesion",
+        "confesión",
+        "cambio de vida",
+        "santidad"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y educación en la fe",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "educacion",
+        "educación",
+        "catequesis",
+        "hogar"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y esperanza",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "leucemia",
+        "sufrimiento",
+        "dolor",
+        "esperanza"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Carlo Acutis nació en Londres el 3 de mayo de 1991 y creció principalmente en Milán. Desde niño desarrolló una profunda vida de oración y una especial devoción a la Eucaristía. Estudió y practicó informática, y utilizó sus conocimientos para preparar una exposición sobre milagros eucarísticos. En 2006 enfermó de una leucemia fulminante y murió en Monza el 12 de octubre, a los quince años. Fue beatificado en 2020 y canonizado el 7 de septiembre de 2025 por el papa León XIV.",
+    "extended": "Carlo Acutis nació en Londres el 3 de mayo de 1991, mientras sus padres se encontraban allí por motivos laborales, y creció principalmente en Milán. Desde pequeño mostró una vida de fe que fue madurando de manera progresiva. La Santa Sede ha destacado que encontró a Jesús en su familia, en la escuela y especialmente en los sacramentos. La Santa Misa diaria, la oración, la adoración eucarística, la confesión y la caridad llegaron a formar parte de su vida ordinaria.\\n\\nSu historia no presenta una conversión dramática provocada por un pecado concreto que pueda documentarse como en la vida de otros santos. En su caso, las fuentes describen más bien un crecimiento temprano y sostenido en la amistad con Cristo. Su primera comunión, recibida a los siete años, fue un momento especialmente significativo en su camino espiritual, y la Eucaristía se convirtió en el centro de su proyecto de vida.\\n\\nCarlo tenía también un interés particular por la informática. Aprendió a utilizar herramientas digitales y creó materiales para comunicar la fe. Entre sus proyectos más conocidos está una exposición sobre milagros eucarísticos, preparada mediante textos, fotografías y recursos informáticos y posteriormente difundida en distintos lugares. La finalidad de este trabajo era ayudar a otras personas a acercarse al misterio de la Eucaristía; no se trataba de sustituir la fe por la tecnología, sino de utilizar una herramienta de su tiempo para comunicar aquello que consideraba esencial.\\n\\nEn su vida cotidiana también tuvo presentes a los demás. El papa León XIV, en la homilía de su canonización, señaló que Carlo integraba la oración, el deporte, el estudio y la caridad, y destacó que practicaba generosamente obras concretas de caridad. Su testimonio muestra que la vida espiritual no estaba separada de sus amistades, intereses, estudios y responsabilidades.\\n\\nEn octubre de 2006 enfermó de una leucemia fulminante. Murió en el hospital San Gerardo de Monza el 12 de octubre, a los quince años. Según la tradición biográfica recogida por fuentes eclesiales, ofreció sus sufrimientos por el Papa y por la Iglesia. Fue beatificado en Asís el 10 de octubre de 2020. Tras el reconocimiento del segundo milagro atribuido a su intercesión, su canonización fue fijada y celebrada el 7 de septiembre de 2025 por el papa León XIV. Desde entonces es venerado en la Iglesia como San Carlo Acutis.\\n\\nLa iconografía contemporánea suele representarlo como un adolescente o joven con ropa sencilla, y frecuentemente incluye la Eucaristía, una custodia o referencias a su trabajo informático. Estos elementos no deben entenderse todos como atributos litúrgicos antiguos: son recursos iconográficos posteriores que recuerdan aspectos documentados de su vida, especialmente su amor a la Eucaristía y su uso de la informática para evangelizar. Su representación con ropa juvenil también busca conservar la imagen histórica de un muchacho de nuestro tiempo, sin convertirlo en una figura distante de la vida cotidiana.\\n\\nSu memoria litúrgica se celebra el 12 de octubre. La Iglesia lo presenta especialmente como un joven que orientó su vida hacia Cristo mediante medios sencillos: la Eucaristía, la oración, la confesión, la caridad, el estudio y el uso responsable de sus capacidades."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\nSan Carlo Acutis, ayúdanos a poner a Jesús en el centro de nuestra vida. Enséñanos a amar la Eucaristía, a crecer en la oración, a servir con alegría y a utilizar nuestros talentos para el bien. Acompáñanos durante estos nueve días y presenta ante Dios la intención que llevamos en el corazón. Amén.",
+  "closingPrayer": "San Carlo Acutis, amigo de Jesús y testigo de la Eucaristía, intercede por nosotros. Ayúdanos a vivir nuestra fe con alegría, a cuidar nuestro corazón, a servir a los demás y a utilizar la tecnología con sabiduría y responsabilidad. Ruega especialmente por los jóvenes, por las familias y por quienes buscan un sentido para su vida. Amén.",
+  "intentions": [
+    "Por los jóvenes que buscan un propósito y un camino para su vida.",
+    "Por quienes desean acercarse de nuevo a la Eucaristía y a la oración.",
+    "Por estudiantes, docentes y familias que educan en la fe.",
+    "Por quienes necesitan aprender a usar internet y las redes con responsabilidad.",
+    "Por quienes desean compartir la fe con respeto y verdad.",
+    "Por las personas pobres, solas o necesitadas de ayuda.",
+    "Por quienes luchan con el pecado y desean recomenzar.",
+    "Por los enfermos y por sus familias, especialmente quienes atraviesan enfermedades graves.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Juan 6,51-58"
+      },
+      {
+        "reference": "Mateo 5,13-16"
+      },
+      {
+        "reference": "Marcos 12,28-34"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      }
+    ],
+    "documents": [
+      "Mensaje del Papa Francisco para la XXXIX Jornada Mundial de la Juventud 2024",
+      "Homilía del Papa León XIV en la canonización de San Carlo Acutis, 7 de septiembre de 2025"
+    ],
+    "related": [
+      "Eucaristía",
+      "Adoración eucarística",
+      "Evangelización digital",
+      "Santuario de la Spogliazione de Asís"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Misa y canonización de los Beatos Pier Giorgio Frassati y Carlo Acutis — 7 de septiembre de 2025",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/leo-xiv/es/homilies/2025/documents/20250907-omelia-frassati-acutis.html",
+      "type": "official"
+    },
+    {
+      "title": "Mensaje para la XXXIX Jornada Mundial de la Juventud 2024",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2024/09/17/0700/01399.html",
+      "type": "official"
+    },
+    {
+      "title": "Capilla Papal con el rito de canonización de los beatos Pier Giorgio Frassati y Carlo Acutis — 7 de septiembre de 2025",
+      "organization": "Sala de Prensa de la Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2025/09/07/070925a.html",
+      "type": "official"
+    },
+    {
+      "title": "San Carlo Acutis: canonización y memoria litúrgica",
+      "organization": "Diócesis de Asís – Nocera Umbra – Gualdo Tadino",
+      "url": "https://www.diocesiassisi.it/canonizzazione-carlo-acutis-celebrazioni-e-momenti-in-assisi/",
+      "type": "official"
+    },
+    {
+      "title": "Carlo Acutis, biografía y camino de santidad",
+      "organization": "Diócesis de Asís – Nocera Umbra – Gualdo Tadino",
+      "url": "https://www.diocesiassisi.it/carlo-acutis-santo-la-data-della-canonizzazione-e-il-7-settembre/",
+      "type": "official"
+    },
+    {
+      "title": "Promulgación de decretos del Dicasterio de las Causas de los Santos — 23 de mayo de 2024",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2024/05/23/230524a.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una fe que creció desde la infancia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carlo nació en Londres en 1991 y creció principalmente en Milán. Desde niño recibió la fe en su familia y fue integrando la oración y los sacramentos en su vida cotidiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual puede crecer a través de pequeños hábitos constantes desde la infancia y la juventud."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué lugar ocupa Dios en mis actividades cotidianas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños y jóvenes que están descubriendo la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Carlo, ayúdanos a descubrir a Jesús en nuestra vida diaria y a crecer en la fe con sencillez. Amén."
+      },
+      "action": "Reserva hoy unos minutos para una oración breve y consciente, sin distracciones."
+    },
+    {
+      "day": 2,
+      "theme": "La Eucaristía",
+      "title": "Jesús en el centro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Desde los siete años, la Eucaristía ocupó un lugar central en la vida de Carlo. La Santa Misa y la adoración eucarística fueron prácticas habituales de su camino espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no es solamente una idea: se alimenta de una relación viva con Cristo y de la participación en los sacramentos."
+      },
+      "virtue": "Amor a la Eucaristía",
+      "reflection": "¿Cómo vivo la Eucaristía: como costumbre, obligación o encuentro con Jesús?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean acercarse nuevamente a la Eucaristía."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Carlo, enséñanos a acercarnos a Jesús en la Eucaristía con fe, reverencia y un corazón dispuesto a cambiar. Amén."
+      },
+      "action": "Si te es posible, participa hoy en la Misa o dedica un momento a la adoración eucarística."
+    },
+    {
+      "day": 3,
+      "theme": "La oración",
+      "title": "Una amistad que se cultiva",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carlo integró la oración, la adoración y la confesión en su vida ordinaria. Su espiritualidad no estaba separada del estudio, el deporte, las amistades y la vida familiar."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración puede formar parte de una vida normal sin alejarnos de nuestras responsabilidades."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué momento del día puedo reservar para estar en silencio ante Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen dificultades para encontrar un espacio de silencio y oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, por intercesión de San Carlo, ayúdanos a cuidar nuestra amistad contigo en medio de nuestras ocupaciones. Amén."
+      },
+      "action": "Apaga durante diez minutos las notificaciones y dedica ese tiempo a la oración."
+    },
+    {
+      "day": 4,
+      "theme": "La tecnología",
+      "title": "Usar los talentos para el bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carlo tenía facilidad e interés por la informática. Utilizó sus conocimientos para elaborar recursos de evangelización, entre ellos una exposición sobre milagros eucarísticos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La tecnología puede ser una herramienta útil cuando está al servicio de las personas y de fines buenos."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿La manera en que uso la tecnología me ayuda a crecer o me distrae de lo importante?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes y familias que buscan un uso equilibrado de internet y las redes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Carlo, ayúdanos a utilizar nuestras capacidades y la tecnología con inteligencia, responsabilidad y respeto. Amén."
+      },
+      "action": "Elimina hoy una distracción digital innecesaria y usa ese tiempo para algo que construya."
+    },
+    {
+      "day": 5,
+      "theme": "La evangelización",
+      "title": "Comunicar la fe con los medios de nuestro tiempo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carlo preparó materiales digitales sobre milagros eucarísticos. Su proyecto buscaba ayudar a otras personas a conocer y valorar la Eucaristía."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar también implica aprender a comunicar el Evangelio de manera comprensible en el contexto en que vivimos."
+      },
+      "virtue": "Testimonio",
+      "reflection": "¿Cómo puedo comunicar mis convicciones sin imponerlas y con respeto hacia los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes anuncian el Evangelio en internet y en los medios de comunicación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, danos sabiduría para comunicar el bien, la verdad y la fe con respeto, claridad y caridad. Amén."
+      },
+      "action": "Comparte hoy algo que pueda aportar esperanza o conocimiento a otra persona, evitando contenido que humille o divida."
+    },
+    {
+      "day": 6,
+      "theme": "La caridad",
+      "title": "La fe se vuelve concreta",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Carlo unió oración y caridad. El Papa León XIV destacó en su canonización que practicaba generosamente obras concretas de ayuda a los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede expresarse en gestos sencillos de servicio, especialmente hacia quienes tienen menos."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo ayudar hoy de una manera concreta y discreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas pobres, solas o que necesitan ayuda."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Carlo, enséñanos a reconocer las necesidades de quienes nos rodean y a responder con generosidad. Amén."
+      },
+      "action": "Haz hoy una obra de misericordia concreta sin buscar reconocimiento."
+    },
+    {
+      "day": 7,
+      "theme": "La conversión",
+      "title": "Mirar hacia Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las fuentes sobre Carlo no describen una conversión dramática causada por un pecado concreto. Su camino fue el de una amistad con Cristo cultivada desde joven, acompañada por la confesión y el deseo de crecer en santidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Convertirse también significa orientar repetidamente la mirada hacia Dios y corregir el rumbo cuando nos alejamos de Él."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Qué necesito reconocer, corregir o entregar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean dejar atrás un hábito o conducta que les hace daño."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, danos humildad para reconocer nuestros errores y confianza para volver a Ti cada vez que sea necesario. Amén."
+      },
+      "action": "Haz un examen breve de conciencia y, si corresponde, busca reconciliarte con alguien o acudir al sacramento de la Reconciliación."
+    },
+    {
+      "day": 8,
+      "theme": "La enfermedad",
+      "title": "Amar también en medio de la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 2006 Carlo enfermó de una leucemia fulminante. Murió el 12 de octubre, a los quince años. La enfermedad no borró el sentido de su vida de fe ni su deseo de entregarse a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no significa negar el sufrimiento, sino vivirlo sin perder la confianza en Dios y la capacidad de amar."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Dónde necesito hoy una esperanza que vaya más allá de mis circunstancias?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, sus familias y quienes atraviesan tratamientos difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Carlo, acompaña a quienes sufren enfermedades y ayúdanos a permanecer cerca de ellos con respeto, paciencia y esperanza. Amén."
+      },
+      "action": "Comunícate hoy con una persona enferma o con alguien que esté pasando por una prueba y hazle saber que no está sola."
+    },
+    {
+      "day": 9,
+      "theme": "La santidad cotidiana",
+      "title": "Hacer de la vida una obra de amor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carlo murió en 2006 y fue beatificado en 2020. El 7 de septiembre de 2025 fue canonizado por el papa León XIV. En su canonización, la Iglesia presentó su vida como un testimonio de amor a Jesús, especialmente en la Eucaristía, la oración y la caridad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no exige una vida extraordinaria en apariencia: puede crecer en la familia, el estudio, el trabajo, la amistad, la oración y el servicio."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué cambio concreto puedo mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes de todo el mundo y por nuestra propia vocación a la santidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Carlo Acutis, acompáñanos para que no desperdiciemos nuestra vida. Ayúdanos a poner a Dios en el centro, amar la Eucaristía, servir a los demás y usar nuestros talentos para el bien. Amén."
+      },
+      "action": "Elige un compromiso espiritual o de servicio que puedas mantener durante las próximas semanas."
+    }
+  ]
+}
