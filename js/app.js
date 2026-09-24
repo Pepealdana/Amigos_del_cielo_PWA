@@ -875,6 +875,13 @@ function manejarClicksPWA(evento) {
             return;
         }
 
+        if (tipo === "toggle-extended-history") {
+
+            alternarHistoriaExtendida(accion);
+
+            return;
+        }
+
         if (tipo === "text-size" && accion.dataset.size) {
             cambiarTamanoTexto(accion.dataset.size);
             return;
@@ -1369,4 +1376,52 @@ function cambiarTamanoTexto(tamano) {
     guardarConfiguracion();
     aplicarPreferenciasVisuales();
     mostrarConfiguracion();
+}
+
+
+/* ==========================================
+   HISTORIA EXTENDIDA
+========================================== */
+
+function alternarHistoriaExtendida(boton) {
+
+    if (!boton) {
+        return;
+    }
+
+    const contenidoId =
+        boton.getAttribute("aria-controls");
+
+    const contenido =
+        contenidoId
+            ? document.getElementById(contenidoId)
+            : null;
+
+    if (!contenido) {
+        return;
+    }
+
+    const expandida =
+        boton.getAttribute("aria-expanded") === "true";
+
+    boton.setAttribute(
+        "aria-expanded",
+        String(!expandida)
+    );
+
+    contenido.hidden = expandida;
+
+    boton.classList.toggle(
+        "is-open",
+        !expandida
+    );
+
+    const icono =
+        boton.querySelector(".history-extended-icon");
+
+    if (icono) {
+        icono.textContent =
+            expandida ? "▾" : "▴";
+    }
+
 }
