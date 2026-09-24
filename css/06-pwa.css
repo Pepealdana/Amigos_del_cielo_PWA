@@ -866,3 +866,83 @@ body::before{
 .settings-panel + .simple-panel{
     margin-top:1rem;
 }
+
+
+/* ==========================================================
+   ACCESIBILIDAD: TAMAÑO DEL TEXTO
+========================================================== */
+
+html{
+    font-size:calc(16px * var(--text-scale, 1));
+}
+
+body{
+    font-size:1rem;
+}
+
+/* ==========================================================
+   HEADER — CONTRASTE DE CONTROLES
+========================================================== */
+
+.header .icon-button{
+    color:var(--color-primary);
+    background:transparent;
+}
+
+.header .icon-button:hover{
+    background:rgba(44,74,107,.08);
+}
+
+.header .icon-button:focus-visible{
+    outline:3px solid var(--color-secondary);
+    outline-offset:2px;
+}
+
+/* ==========================================================
+   RECORDATORIOS Y CONTROLES DE TAMAÑO
+========================================================== */
+
+.settings-panel .btn-primary{
+    min-height:52px;
+    font-size:1rem;
+    font-weight:700;
+}
+
+.text-size-panel{
+    margin-top:1rem;
+}
+
+.text-size-options{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:.55rem;
+    margin-top:.85rem;
+}
+
+.btn-text-size{
+    min-height:46px;
+    padding:.7rem .5rem;
+    border:1px solid var(--color-border);
+    background:var(--color-surface);
+    color:var(--color-primary);
+}
+
+.btn-text-size:hover{
+    background:var(--soft-blue);
+}
+
+.btn-text-size.active{
+    background:var(--color-primary);
+    color:var(--color-text-inverse);
+    border-color:var(--color-primary);
+}
+
+@media (max-width:420px){
+    .text-size-options{
+        gap:.4rem;
+    }
+
+    .btn-text-size{
+        padding:.65rem .35rem;
+    }
+}
