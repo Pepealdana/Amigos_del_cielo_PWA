@@ -138,7 +138,7 @@
   ],
   "history": {
     "short": "San Antonio de Padua nació en Lisboa alrededor de 1195 con el nombre de Fernando. Primero ingresó con los Canónigos Regulares de San Agustín y después se hizo fraile menor franciscano. Fue estudioso de la Sagrada Escritura, maestro de teología y predicador. Murió cerca de Padua el 13 de junio de 1231 y fue canonizado en 1232.",
-    "extended": "Fernando nació en Lisboa alrededor de 1195. Recibió formación bíblica y teológica en Coimbra. En 1220, el testimonio de los primeros mártires franciscanos de Marruecos despertó en él el deseo de ingresar en los Frailes Menores, donde tomó el nombre de Antonio. Una enfermedad le impidió continuar su viaje misionero hacia Marruecos. En Italia fue destinado a la predicación y a la enseñanza. Predicó en Italia y Francia y ejerció también el servicio de superior provincial. Murió cerca de Padua el 13 de junio de 1231. Fue canonizado por Gregorio IX en 1232 y en 1946 Pío XII lo proclamó Doctor de la Iglesia con el título de Doctor Evangélico."
+    "extended": "Fernando nació en Lisboa alrededor de 1195 y recibió una formación religiosa y teológica sólida entre los Canónigos Regulares de San Agustín. Su vida experimentó un cambio decisivo en 1220, cuando llegaron a Coimbra las reliquias de cinco frailes franciscanos martirizados en Marruecos. El testimonio de aquellos misioneros despertó en Fernando el deseo de una entrega más radical y de anunciar el Evangelio, por lo que dejó a los agustinos, ingresó en los Frailes Menores y tomó el nombre de Antonio. No se trata de una conversión motivada por un pecado concreto que las fuentes oficiales señalen, sino de un profundo cambio de vocación y de orientación de su vida provocado por una experiencia que lo impresionó y lo llevó a buscar una forma distinta de servir a Dios. Su primer proyecto franciscano tampoco ocurrió como había imaginado: viajó con la intención de llegar a Marruecos, pero una enfermedad le impidió continuar. El camino de regreso lo llevó a Italia y allí, en lugar de abandonar su vocación, descubrió una misión inesperada en la predicación y la enseñanza. Su preparación bíblica y teológica, que inicialmente parecía formar parte de una vida religiosa más reservada, terminó convirtiéndose en una herramienta para anunciar el Evangelio con profundidad. Antonio predicó en Italia y Francia, enseñó teología a los frailes y ejerció responsabilidades dentro de la Orden. Sus últimos años estuvieron vinculados a Padua, donde murió el 13 de junio de 1231. Fue canonizado al año siguiente y en 1946 Pío XII lo proclamó Doctor de la Iglesia con el título de Doctor Evangélico. La manera en que hoy se representa a san Antonio también resume distintos momentos de su tradición espiritual. El libro recuerda su conocimiento de la Sagrada Escritura, su enseñanza y su predicación; el hábito franciscano identifica su pertenencia a los Frailes Menores; el lirio simboliza su pureza y su lucha contra el mal; y el pan recuerda su caridad hacia los pobres. El Niño Jesús, que aparece en muchas representaciones, está relacionado con la tradición de una visión que habría tenido en Camposampiero y expresa su amor a Cristo y su intimidad con Dios. Por eso la imagen de Antonio no es solamente decorativa: reúne su formación, su pertenencia franciscana, su predicación, su vida de oración y su servicio a los necesitados. La Basílica de San Antonio también conserva y explica esta tradición iconográfica, mientras que la enseñanza de Benedicto XVI permite comprender cómo la inteligencia, el celo apostólico y el fervor místico marcaron su figura."
   },
   "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Antonio de Padua, hermano franciscano y servidor de la Palabra de Dios, acompáñame durante estos nueve días. Enséñame a buscar a Dios con un corazón sincero, a escuchar su Palabra, a perseverar en la oración y a servir con caridad. Presento al Señor, por tu intercesión, la intención que llevo en mi corazón. Que esta novena me ayude a acercarme más a Jesucristo y a vivir con mayor fe y esperanza. Amén.",
   "closingPrayer": "San Antonio de Padua, Doctor Evangélico, gracias por acompañarme durante esta novena. Ayúdame a conservar el deseo de buscar a Dios, escuchar su Palabra y vivirla con coherencia. Intercede por mis necesidades y por quienes necesitan consuelo, orientación o ayuda. Enséñame a servir con humildad y caridad y a confiar siempre en Jesucristo. Amén.",
@@ -210,6 +210,12 @@
       "title": "Memoria de San Antonio de Padua",
       "organization": "United States Conference of Catholic Bishops",
       "url": "https://bible.usccb.org/es/bible/lecturas/061316.cfm",
+      "type": "official"
+    },
+    {
+      "title": "Símbolos de San Antonio de Padua",
+      "organization": "Basílica de San Antonio de Padua",
+      "url": "https://www.santantonio.org/es/content/s%C3%ADmbolos",
       "type": "official"
     }
   ],
@@ -434,5 +440,12 @@
       },
       "action": "Elige un compromiso espiritual sencillo que puedas mantener durante las próximas semanas."
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.1",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-23"
+  }
 }
