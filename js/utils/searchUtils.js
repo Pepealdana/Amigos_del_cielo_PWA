@@ -3,312 +3,145 @@
    Amigos del Cielo
 ========================================== */
 
-/* ==========================================
-   BUSCAR NOVENAS
-========================================== */
+function normalizarTextoBusqueda(texto) {
+    return String(texto || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
+}
 
-function buscarNovenas(
+function buscarNovenas(catalogo, texto) {
 
-    catalogo,
-
-    texto
-
-) {
-
-    if (
-
-        !texto ||
-
-        !Array.isArray(catalogo)
-
-    ) {
-
-        return catalogo;
-
+    if (!Array.isArray(catalogo)) {
+        return [];
     }
 
     const termino =
+        normalizarTextoBusqueda(texto);
 
-        texto
-
-            .toLowerCase()
-
-            .trim();
-
-    return catalogo.filter(
-
-        novena => {
-
-            const campos = [
-
-                novena.name,
-
-                novena.title,
-
-                novena.subtitle,
-
-                novena.description,
-
-                novena.category,
-
-                ...(novena.search || [])
-
-            ]
-
-                .filter(Boolean)
-
-                .join(" ")
-
-                .toLowerCase();
-
-            return campos.includes(
-
-                termino
-
-            );
-
-        }
-
-    );
-
-}
-
-/* ==========================================
-   FILTRAR POR CATEGORÍA
-========================================== */
-
-function filtrarCategoria(
-
-    catalogo,
-
-    categoria
-
-) {
-
-    if (
-
-        !Array.isArray(catalogo)
-
-    ) {
-
-        return [];
-
-    }
-
-    if (
-
-        !categoria ||
-
-        categoria === "Todas"
-
-    ) {
-
+    if (!termino) {
         return catalogo;
+    }
 
+    return catalogo.filter(novena => {
+
+        const campos = [
+            novena.name,
+            novena.slug,
+            novena.title,
+            novena.subtitle,
+            novena.description,
+            novena.category,
+            novena.feast?.text,
+            ...(Array.isArray(novena.search)
+                ? novena.search
+                : []),
+            ...(Array.isArray(novena.patronages)
+                ? novena.patronages
+                : [])
+        ]
+            .filter(Boolean)
+            .join(" ");
+
+        return normalizarTextoBusqueda(
+            campos
+        ).includes(termino);
+    });
+}
+
+function filtrarCategoria(catalogo, categoria) {
+
+    if (!Array.isArray(catalogo)) {
+        return [];
+    }
+
+    if (!categoria || categoria === "Todas") {
+        return catalogo;
     }
 
     return catalogo.filter(
-
-        novena =>
-
-            novena.category === categoria
-
+        novena => novena.category === categoria
     );
-
 }
 
-/* ==========================================
-   OBTENER CATEGORÍAS
-========================================== */
+function obtenerCategorias(catalogo) {
 
-function obtenerCategorias(
-
-    catalogo
-
-) {
-
-    if (
-
-        !Array.isArray(catalogo)
-
-    ) {
-
+    if (!Array.isArray(catalogo)) {
         return ["Todas"];
-
     }
 
     const categorias =
-
         catalogo
-
-            .map(
-
-                item => item.category
-
-            )
-
+            .map(item => item.category)
             .filter(Boolean)
-
-            .sort();
+            .sort((a, b) =>
+                String(a).localeCompare(
+                    String(b),
+                    "es"
+                )
+            );
 
     return [
-
         "Todas",
-
         ...new Set(categorias)
-
     ];
-
 }
 
-/* ==========================================
-   OBTENER DESTACADA
-========================================== */
+function obtenerNovenaDestacada(catalogo) {
 
-function obtenerNovenaDestacada(
-
-    catalogo
-
-) {
-
-    if (
-
-        !Array.isArray(catalogo)
-
-    ) {
-
+    if (!Array.isArray(catalogo)) {
         return null;
-
     }
 
     return (
-
         catalogo.find(
-
             novena =>
-
                 novena.featured === true
-
-        )
-
-        ||
-
-        catalogo[0]
-
-        ||
-
+        ) ||
+        catalogo[0] ||
         null
-
     );
-
 }
 
-/* ==========================================
-   BUSCAR POR ID
-========================================== */
+function buscarNovenaPorId(catalogo, id) {
 
-function buscarNovenaPorId(
-
-    catalogo,
-
-    id
-
-) {
-
-    if (
-
-        !Array.isArray(catalogo)
-
-    ) {
-
+    if (!Array.isArray(catalogo)) {
         return null;
-
     }
 
     return (
-
         catalogo.find(
-
             novena =>
-
                 novena.id === id
-
-        )
-
-        ||
-
+        ) ||
         null
-
     );
-
 }
 
-/* ==========================================
-   BUSCAR POR SLUG
-========================================== */
+function buscarNovenaPorSlug(catalogo, slug) {
 
-function buscarNovenaPorSlug(
-
-    catalogo,
-
-    slug
-
-) {
-
-    if (
-
-        !Array.isArray(catalogo)
-
-    ) {
-
+    if (!Array.isArray(catalogo)) {
         return null;
-
     }
 
     return (
-
         catalogo.find(
-
             novena =>
-
                 novena.slug === slug
-
-        )
-
-        ||
-
+        ) ||
         null
-
     );
-
 }
 
-/* ==========================================
-   NOVENAS PUBLICADAS
-========================================== */
+function obtenerNovenasPublicadas(catalogo) {
 
-function obtenerNovenasPublicadas(
-
-    catalogo
-
-) {
-
-    if (
-
-        !Array.isArray(catalogo)
-
-    ) {
-
+    if (!Array.isArray(catalogo)) {
         return [];
-
     }
 
     return catalogo.filter(
-
         novena =>
-
             novena.status === "published"
-
     );
-
 }
