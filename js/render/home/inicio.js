@@ -135,7 +135,7 @@ function renderInicio(catalogo = [], progreso = {}) {
             : "Santos y novenas";
 
     const mensajeCalendario =
-        obtenerMensajeCalendario(novenaContinuar);
+        obtenerMensajeCalendario(santo);
 
     return `
 
