@@ -1946,5 +1946,150 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-jose-gregorio-hernandez",
+    "slug": "san-jose-gregorio-hernandez",
+    "name": "San José Gregorio Hernández",
+    "title": "Médico y fiel laico",
+    "subtitle": "Médico de los pobres y apóstol de la caridad",
+    "category": "Santos",
+    "image": "assets/images/santos/san_jose_gregorio_hernandez.webp",
+    "file": "data/san-jose-gregorio-hernandez.json",
+    "description": "Médico, profesor y científico venezolano que vivió su profesión como servicio a Dios y al prójimo, atendiendo especialmente a los pobres y enfermos.",
+    "feast": {
+      "day": 26,
+      "month": 10,
+      "text": "26 de octubre",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san jose gregorio hernandez",
+      "jose gregorio hernandez",
+      "medico de los pobres",
+      "venezuela",
+      "medico",
+      "medicina",
+      "ciencia",
+      "profesor",
+      "enfermos",
+      "pobres",
+      "caridad",
+      "paz",
+      "oracion",
+      "salud",
+      "estudiantes",
+      "familia"
+    ],
+    "interventions": [
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "salud",
+          "pacientes"
+        ]
+      },
+      {
+        "id": "salud",
+        "label": "Médicos, cuidadores y personal de salud",
+        "keywords": [
+          "medico",
+          "médico",
+          "medicos",
+          "médicos",
+          "enfermeros",
+          "enfermeras",
+          "salud",
+          "hospital",
+          "sanitario"
+        ]
+      },
+      {
+        "id": "pobres",
+        "label": "Personas en necesidad y pobreza",
+        "keywords": [
+          "pobres",
+          "pobreza",
+          "necesidad",
+          "carencia",
+          "ayuda",
+          "necesitados"
+        ]
+      },
+      {
+        "id": "estudio-ciencia",
+        "label": "Estudio, ciencia y formación",
+        "keywords": [
+          "estudio",
+          "ciencia",
+          "medicina",
+          "universidad",
+          "profesor",
+          "estudiantes",
+          "investigacion",
+          "investigación"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "ayudar",
+          "misericordia",
+          "solidaridad",
+          "compasion",
+          "compasión"
+        ]
+      },
+      {
+        "id": "paz",
+        "label": "Paz y reconciliación",
+        "keywords": [
+          "paz",
+          "guerra",
+          "reconciliacion",
+          "reconciliación",
+          "conflicto",
+          "justicia"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "oración",
+          "misa",
+          "eucaristia",
+          "eucaristía",
+          "rosario",
+          "dios",
+          "fe"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familias que acompañan a un enfermo",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "enfermo",
+          "cuidar",
+          "acompañamiento"
+        ]
+      }
+    ]
   }
 ]
