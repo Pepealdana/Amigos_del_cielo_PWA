@@ -1010,5 +1010,132 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-martin-de-porres",
+    "slug": "san-martin-de-porres",
+    "name": "San Martín de Porres",
+    "title": "Religioso dominico y servidor de los pobres",
+    "subtitle": "Fray Escoba, testigo de humildad y caridad",
+    "category": "Santos",
+    "image": "assets/images/santos/san_martin_de_porres.webp",
+    "file": "data/san-martin-de-porres.json",
+    "description": "Religioso dominico de Lima que dedicó su vida al servicio de los enfermos, pobres y necesitados, viviendo con humildad, caridad y espíritu de reconciliación.",
+    "feast": {
+      "day": 3,
+      "month": 11,
+      "text": "3 de noviembre",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san martin de porres",
+      "martin de porres",
+      "fray escoba",
+      "lima",
+      "dominico",
+      "dominicos",
+      "pobres",
+      "enfermos",
+      "caridad",
+      "humildad",
+      "barbero",
+      "cirujano",
+      "justicia social"
+    ],
+    "interventions": [
+      {
+        "id": "pobres",
+        "label": "Pobreza y necesidades materiales",
+        "keywords": [
+          "pobreza",
+          "pobres",
+          "necesidad",
+          "carencia",
+          "alimento",
+          "vestido",
+          "ayuda"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "hospital",
+          "cuidado",
+          "salud"
+        ]
+      },
+      {
+        "id": "humildad",
+        "label": "Humildad y sencillez",
+        "keywords": [
+          "humildad",
+          "sencillez",
+          "orgullo",
+          "servir",
+          "ultimo"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "ayudar",
+          "misericordia",
+          "solidaridad"
+        ]
+      },
+      {
+        "id": "reconciliacion",
+        "label": "Reconciliación y convivencia",
+        "keywords": [
+          "reconciliacion",
+          "unidad",
+          "conflicto",
+          "perdon",
+          "convivencia"
+        ]
+      },
+      {
+        "id": "trabajo",
+        "label": "Trabajo y oficio",
+        "keywords": [
+          "trabajo",
+          "oficio",
+          "barbero",
+          "peluquero",
+          "medicina",
+          "responsabilidad"
+        ]
+      },
+      {
+        "id": "discriminacion",
+        "label": "Dignidad e igualdad",
+        "keywords": [
+          "discriminacion",
+          "racismo",
+          "igualdad",
+          "dignidad",
+          "exclusion"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "silencio",
+          "contemplacion",
+          "fe",
+          "dios"
+        ]
+      }
+    ]
   }
 ]
