@@ -1,54 +1,291 @@
 {
-  "metadata": {
-    "version": "1.0",
-    "language": "es",
-    "author": "Amigos del Cielo",
-    "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-24"
-  },
-  "saint": {
-    "id": "san-pier-giorgio-frassati",
-    "name": "San Pier Giorgio Frassati",
-    "title": "Laico dominico y testigo de la caridad",
-    "subtitle": "Joven de oración, amistad, servicio y alegría cristiana",
-    "feast": "4 de julio",
-    "place": "Turín, Italia",
-    "era": "1901–1925",
-    "description": "Joven laico italiano que vivió una intensa vida eucarística y de oración, sirvió a los pobres y enfermos, cultivó la amistad y el estudio, y encontró en la montaña una imagen de su camino hacia Dios.",
-    "quote": {
-      "text": "Hacia lo alto.",
-      "reference": "Inscripción escrita por Pier Giorgio Frassati en una fotografía tomada durante una de sus últimas ascensiones, citada por el papa León XIV en la homilía de canonización de 2025."
-    },
-    "patronages": [
-      "Jóvenes y jóvenes adultos, especialmente en la tradición de la Jornada Mundial de la Juventud",
-      "Montañeros y alpinistas, según la devoción y tradición asociadas a su testimonio",
-      "Estudiantes, según la devoción vinculada a su vida universitaria"
-    ],
-    "virtues": [
-      "Fe",
-      "Caridad",
-      "Oración",
-      "Amistad",
-      "Alegría",
-      "Humildad",
-      "Responsabilidad",
-      "Perseverancia",
-      "Esperanza"
-    ]
-  },
+  "id": "san-pier-giorgio-frassati",
+  "slug": "san-pier-giorgio-frassati",
+  "name": "San Pier Giorgio Frassati",
+  "title": "Laico dominico y testigo de la caridad",
+  "subtitle": "Joven de oración, amistad, servicio y alegría cristiana",
+  "category": "Santos",
+  "image": "assets/images/santos/san_pier_giorgio_frassati.webp",
+  "description": "Joven laico italiano que vivió una intensa vida eucarística y de oración, sirvió a los pobres y enfermos, cultivó la amistad y el estudio, y encontró en la montaña una imagen de su camino hacia Dios.",
   "novena": {
     "days": 9,
     "introduction": "Esta novena recorre algunos momentos y rasgos centrales de la vida de San Pier Giorgio Frassati: la fe recibida y cultivada desde joven, la Eucaristía, el servicio a los pobres, la amistad, el estudio, el compromiso cristiano en la sociedad, la montaña, la enfermedad y la esperanza. Su testimonio muestra que la santidad puede vivirse en la vida laical, en las responsabilidades ordinarias y en el servicio concreto a los demás.",
     "calendarNote": "La memoria litúrgica de San Pier Giorgio Frassati se celebra el 4 de julio. En esta novena, el día 9 corresponde a esa fecha cuando se comienza ocho días antes."
   },
-  "openingPrayer": {
-    "title": "Oración inicial",
-    "text": "Señor Jesús, queremos caminar durante estos nueve días junto a san Pier Giorgio Frassati. Enséñanos a buscarte en la Eucaristía, en la oración, en la amistad y en el servicio a quienes necesitan nuestra ayuda. Danos un corazón generoso, una fe viva y la valentía de orientar nuestra vida hacia lo alto. Por intercesión de san Pier Giorgio, ayúdanos a reconocer tu presencia en cada persona y a responder con amor a las necesidades que encontremos. Amén."
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-pier-giorgio-frassati"
   },
-  "commonPrayers": {
-    "ourFather": "Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. Amén.",
-    "hailMary": "Dios te salve, María, llena eres de gracia; el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.",
-    "gloryBe": "Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén."
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 4,
+    "month": 7,
+    "text": "4 de julio",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Hacia lo alto.",
+    "reference": "Inscripción escrita por Pier Giorgio Frassati en una fotografía tomada durante una de sus últimas ascensiones, citada por el papa León XIV en la homilía de canonización de 2025."
+  },
+  "patronages": [
+    "Jóvenes y jóvenes adultos, especialmente en la tradición de la Jornada Mundial de la Juventud",
+    "Montañeros y alpinistas, según la devoción y tradición asociadas a su testimonio",
+    "Estudiantes, según la devoción vinculada a su vida universitaria"
+  ],
+  "virtues": [
+    "Fe",
+    "Caridad",
+    "Oración",
+    "Amistad",
+    "Alegría",
+    "Humildad",
+    "Responsabilidad",
+    "Perseverancia",
+    "Esperanza"
+  ],
+  "search": [
+    "san pier giorgio frassati",
+    "pier giorgio frassati",
+    "frassati",
+    "jovenes",
+    "jóvenes",
+    "juventud",
+    "estudiantes",
+    "estudio",
+    "pobres",
+    "enfermos",
+    "caridad",
+    "eucaristia",
+    "eucaristía",
+    "oracion",
+    "oración",
+    "rosario",
+    "montaña",
+    "alpinismo",
+    "amistad",
+    "alegria",
+    "alegría",
+    "esperanza",
+    "dominicos",
+    "tercera orden dominicana",
+    "hacia lo alto",
+    "verso l'alto"
+  ],
+  "interventions": [
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y jóvenes adultos",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "juventud",
+        "adolescentes",
+        "estudiantes",
+        "universitarios",
+        "joven adulto"
+      ]
+    },
+    {
+      "id": "pobres",
+      "label": "Personas en pobreza y necesidad",
+      "keywords": [
+        "pobres",
+        "pobreza",
+        "necesidad",
+        "necesitados",
+        "carencia",
+        "ayuda",
+        "vulnerables"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "salud",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "cuidadores"
+      ]
+    },
+    {
+      "id": "estudio",
+      "label": "Estudio y responsabilidades",
+      "keywords": [
+        "estudio",
+        "estudiantes",
+        "universidad",
+        "ingenieria",
+        "ingeniería",
+        "examen",
+        "responsabilidad",
+        "formacion",
+        "formación"
+      ]
+    },
+    {
+      "id": "amistad",
+      "label": "Amistad y acompañamiento",
+      "keywords": [
+        "amistad",
+        "amigos",
+        "amigo",
+        "soledad",
+        "compañia",
+        "compañía",
+        "relaciones"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "misa",
+        "eucaristia",
+        "eucaristía",
+        "adoracion",
+        "adoración",
+        "rosario",
+        "confesion",
+        "confesión",
+        "fe"
+      ]
+    },
+    {
+      "id": "montana",
+      "label": "Montaña, deporte y vida sana",
+      "keywords": [
+        "montaña",
+        "montanas",
+        "montañas",
+        "alpinismo",
+        "alpinista",
+        "escalada",
+        "senderismo",
+        "esqui",
+        "esquí",
+        "deporte"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza y perseverancia",
+      "keywords": [
+        "esperanza",
+        "perseverancia",
+        "dificultad",
+        "prueba",
+        "sufrimiento",
+        "futuro",
+        "animo",
+        "ánimo"
+      ]
+    },
+    {
+      "id": "compromiso-social",
+      "label": "Compromiso social y bien común",
+      "keywords": [
+        "sociedad",
+        "comunidad",
+        "bien comun",
+        "bien común",
+        "servicio",
+        "responsabilidad",
+        "dignidad",
+        "compromiso"
+      ]
+    }
+  ],
+  "history": {
+    "short": "San Pier Giorgio Frassati fue un joven laico italiano, estudiante de Ingeniería de Minas y miembro de la Tercera Orden de Santo Domingo. Vivió una intensa vida de oración y Eucaristía, sirvió a personas pobres y enfermas, cultivó profundas amistades y participó en asociaciones católicas. Murió en Turín el 4 de julio de 1925, a los 24 años, y fue canonizado por el papa León XIV el 7 de septiembre de 2025.",
+    "extended": "Pier Giorgio Frassati nació en Turín el 6 de abril de 1901. Creció en una familia de tradición católica y recibió desde joven una formación cristiana que fue profundizando mediante la oración, los sacramentos y la participación en la vida de la Iglesia. No existe una base suficiente para presentar su historia como una conversión causada por un pecado concreto. Su transformación fue progresiva: la fe recibida en la infancia fue convirtiéndose en una relación cada vez más consciente con Cristo y en un compromiso concreto con las personas necesitadas.\\n\\nLa Eucaristía ocupó un lugar central en su vida. Participaba frecuentemente en la Misa, practicaba la adoración eucarística, se confesaba y rezaba el Rosario. Esta vida espiritual no permaneció separada de sus responsabilidades. Mientras estudiaba Ingeniería de Minas en el Politécnico de Turín, buscó integrar la formación académica, la oración, la amistad y el servicio. También profundizó en la doctrina cristiana y se interesó especialmente por santo Tomás de Aquino.\\n\\nUna experiencia formativa decisiva fue su contacto con personas pobres y enfermas. Como miembro de las Conferencias de San Vicente de Paúl, visitaba familias necesitadas y destinaba tiempo y recursos a quienes sufrían. Su caridad no se limitó a dar cosas: implicaba acercarse personalmente, escuchar y acompañar. La homilía de canonización de 2025 destacó precisamente esta relación entre su amor a Cristo y su servicio a los pobres y enfermos.\\n\\nPier Giorgio también participó activamente en asociaciones católicas, entre ellas Acción Católica, la Federación Universitaria Católica Italiana y las Conferencias de San Vicente de Paúl. Como laico joven, entendía la fe como una responsabilidad también dentro de la sociedad. Vivió este compromiso en un contexto histórico marcado por el ascenso del fascismo en Italia y experimentó dificultades relacionadas con sus actividades católicas. Este aspecto debe entenderse históricamente y no reducir su testimonio a una actividad política: su preocupación central fue vivir la fe y servir al bien de las personas.\\n\\nLa amistad tuvo un lugar importante en su vida. Compartía con sus amigos la oración, el estudio, el deporte, las excursiones y las conversaciones. En 1922 ingresó en la Tercera Orden de Santo Domingo, vinculándose más estrechamente con la espiritualidad dominicana. Su alegría y su capacidad para crear vínculos muestran una forma de santidad vivida en medio de relaciones, responsabilidades y actividades propias de un joven.\\n\\nLa montaña fue otra dimensión característica de su vida. Practicó el alpinismo y el esquí y organizaba excursiones con sus amigos. En una fotografía de una de sus últimas ascensiones, realizada en el valle de Lanzo en 1925, escribió «Hacia lo alto». Esta expresión fue retomada por el papa León XIV durante la canonización como signo de su orientación hacia Dios. Por eso la montaña aparece frecuentemente en su iconografía: tiene un fundamento biográfico real y, al mismo tiempo, se ha convertido en símbolo espiritual del camino hacia lo alto.\\n\\nEn 1925 Pier Giorgio enfermó gravemente y murió en Turín el 4 de julio, cuando tenía 24 años. Su muerte fue inesperada para muchas personas de su entorno. Los numerosos pobres que acudieron a sus funerales hicieron visible para su familia una dimensión de su vida que no siempre conocía. La Iglesia ha interpretado su enfermedad y muerte dentro de un testimonio más amplio de fe, caridad y entrega, sin convertir la enfermedad en el centro de su biografía.\\n\\nSu proceso de reconocimiento eclesial continuó después de su muerte. Fue beatificado por san Juan Pablo II en 1990 y canonizado por el papa León XIV el 7 de septiembre de 2025. En la iconografía contemporánea suele aparecer como un joven laico, con ropa civil, Rosario, cruz y, con frecuencia, montañas al fondo. El Rosario y la referencia a la Eucaristía recuerdan su vida de oración; la montaña recuerda su afición al alpinismo y su significado espiritual; la representación como joven laico subraya que vivió su vocación cristiana en medio del estudio, las amistades y las responsabilidades ordinarias. Estos elementos son signos devocionales que ayudan a representar su testimonio y no deben confundirse con atributos históricos necesarios en todas sus representaciones."
+  },
+  "openingPrayer": "Señor Jesús, queremos caminar durante estos nueve días junto a san Pier Giorgio Frassati. Enséñanos a buscarte en la Eucaristía, en la oración, en la amistad y en el servicio a quienes necesitan nuestra ayuda. Danos un corazón generoso, una fe viva y la valentía de orientar nuestra vida hacia lo alto. Por intercesión de san Pier Giorgio, ayúdanos a reconocer tu presencia en cada persona y a responder con amor a las necesidades que encontremos. Amén.",
+  "closingPrayer": "Señor Jesús, te damos gracias por la vida de san Pier Giorgio Frassati y por el testimonio de una santidad vivida en la juventud, en la amistad, en el estudio, en la oración y en el servicio. Por su intercesión, ayúdanos a vivir nuestra fe con coherencia, a reconocer tu presencia en los pobres y enfermos y a orientar nuestras decisiones hacia el bien. Danos esperanza para continuar el camino y generosidad para acompañar a quienes encontramos. Que nuestra vida también pueda dirigirse hacia lo alto, buscando siempre tu voluntad. Amén.",
+  "intentions": [
+    "Por los jóvenes que buscan su camino, para que encuentren personas y comunidades que los ayuden a crecer en la fe y en la responsabilidad.",
+    "Por quienes han dejado de orar o se sienten lejos de Dios, para que encuentren nuevamente un camino de confianza y esperanza.",
+    "Por las personas que viven en pobreza, enfermedad, soledad o abandono, y por quienes trabajan para acompañarlas.",
+    "Por estudiantes, trabajadores y personas que buscan una profesión, para que puedan desarrollar sus capacidades con honestidad y sentido de servicio.",
+    "Por nuestras amistades, especialmente por quienes atraviesan soledad, conflictos o dificultades para relacionarse.",
+    "Por quienes trabajan por el bien común, por comunidades más justas y por la dignidad de las personas vulnerables.",
+    "Por los jóvenes que han perdido la esperanza o la alegría, para que encuentren caminos de amistad, propósito y encuentro con Dios.",
+    "Por los enfermos, por quienes los cuidan y por las familias que atraviesan momentos de sufrimiento o incertidumbre.",
+    "Presenta a Dios tu intención personal y, además, pide por los jóvenes de tu familia, comunidad y país, para que encuentren caminos de fe, amistad, responsabilidad y esperanza."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 5,7"
+      },
+      {
+        "reference": "Mateo 25,34-40"
+      },
+      {
+        "reference": "Juan 6,35-40"
+      },
+      {
+        "reference": "Filipenses 4,4-9"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización de Pier Giorgio Frassati, 7 de septiembre de 2025."
+    ],
+    "related": [
+      "Caridad",
+      "Eucaristía",
+      "Juventud",
+      "Amistad",
+      "Esperanza",
+      "Servicio"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Misa y canonización de los beatos Pier Giorgio Frassati y Carlo Acutis",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/leo-xiv/es/homilies/2025/documents/20250907-omelia-frassati-acutis.html",
+      "type": "official"
+    },
+    {
+      "title": "Librito de la celebración de la canonización de Pier Giorgio Frassati y Carlo Acutis",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/libretti/2025/20250907-libretto-canonizzazione.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Beato dominico Pier Giorgio Frassati canonizado en 2025",
+      "organization": "Orden de Predicadores",
+      "url": "https://es.op.org/El-beato-dominico-Pier-Giorgio-Frassati-y-su-hermano-Jerome-fueron-canonizados-en-el-verano-de-2025./",
+      "type": "official"
+    },
+    {
+      "title": "Acción Católica trae las reliquias de San Pier Giorgio Frassati a Roma",
+      "organization": "Vatican News",
+      "url": "https://www.vaticannews.va/es/iglesia/news/2026-01/accion-catolica-reliquias-de-san-pier-giorgio-frassati-roma.html",
+      "type": "official"
+    },
+    {
+      "title": "San Pier Giorgio Frassati: iniciativas por los 125 años de su nacimiento",
+      "organization": "Archidiócesis de Turín",
+      "url": "https://www.diocesi.torino.it/site/san-pier-giorgio-frassati-iniziative-per-i-125-anni-dalla-nascita/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
   },
   "days": [
     {
@@ -266,42 +503,6 @@
         "text": "San Pier Giorgio Frassati, joven amigo de Cristo, enséñanos a vivir con alegría, a buscar a Dios en la oración y la Eucaristía, a servir a los pobres y enfermos, y a caminar junto a nuestros amigos con generosidad. Ayúdanos a orientar nuestras capacidades y decisiones hacia el bien. Que, como tú, podamos mirar hacia lo alto sin abandonar las necesidades de quienes caminan a nuestro lado. Ruega por nosotros y acompaña nuestras intenciones. Amén."
       },
       "action": "Escribe una decisión concreta que quieras mantener después de terminar esta novena y colócala en un lugar donde puedas recordarla."
-    }
-  ],
-  "closingPrayer": {
-    "title": "Oración final",
-    "text": "Señor Jesús, te damos gracias por la vida de san Pier Giorgio Frassati y por el testimonio de una santidad vivida en la juventud, en la amistad, en el estudio, en la oración y en el servicio. Por su intercesión, ayúdanos a vivir nuestra fe con coherencia, a reconocer tu presencia en los pobres y enfermos y a orientar nuestras decisiones hacia el bien. Danos esperanza para continuar el camino y generosidad para acompañar a quienes encontramos. Que nuestra vida también pueda dirigirse hacia lo alto, buscando siempre tu voluntad. Amén."
-  },
-  "sources": [
-    {
-      "title": "Santa Misa y canonización de los beatos Pier Giorgio Frassati y Carlo Acutis",
-      "organization": "Santa Sede",
-      "url": "https://www.vatican.va/content/leo-xiv/es/homilies/2025/documents/20250907-omelia-frassati-acutis.html",
-      "type": "official"
-    },
-    {
-      "title": "Librito de la celebración de la canonización de Pier Giorgio Frassati y Carlo Acutis",
-      "organization": "Santa Sede",
-      "url": "https://www.vatican.va/news_services/liturgy/libretti/2025/20250907-libretto-canonizzazione.pdf",
-      "type": "official"
-    },
-    {
-      "title": "Beato dominico Pier Giorgio Frassati canonizado en 2025",
-      "organization": "Orden de Predicadores",
-      "url": "https://es.op.org/El-beato-dominico-Pier-Giorgio-Frassati-y-su-hermano-Jerome-fueron-canonizados-en-el-verano-de-2025./",
-      "type": "official"
-    },
-    {
-      "title": "Acción Católica trae las reliquias de San Pier Giorgio Frassati a Roma",
-      "organization": "Vatican News",
-      "url": "https://www.vaticannews.va/es/iglesia/news/2026-01/accion-catolica-reliquias-de-san-pier-giorgio-frassati-roma.html",
-      "type": "official"
-    },
-    {
-      "title": "San Pier Giorgio Frassati: iniciativas por los 125 años de su nacimiento",
-      "organization": "Archidiócesis de Turín",
-      "url": "https://www.diocesi.torino.it/site/san-pier-giorgio-frassati-iniziative-per-i-125-anni-dalla-nascita/",
-      "type": "official"
     }
   ]
 }
