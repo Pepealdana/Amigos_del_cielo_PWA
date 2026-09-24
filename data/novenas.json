@@ -1522,5 +1522,152 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-carlo-acutis",
+    "slug": "san-carlo-acutis",
+    "name": "San Carlo Acutis",
+    "title": "Laico y testigo de la Eucaristía",
+    "subtitle": "Joven apóstol de la fe en el mundo digital",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/san_carlo_acutis.webp",
+    "file": "data/san-carlo-acutis.json",
+    "description": "Joven italiano que puso la Eucaristía, la oración y la caridad en el centro de su vida y utilizó sus conocimientos de informática para comunicar la fe.",
+    "feast": {
+      "day": 12,
+      "month": 10,
+      "text": "12 de octubre",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san carlo acutis",
+      "carlo acutis",
+      "eucaristia",
+      "eucaristía",
+      "jovenes",
+      "jóvenes",
+      "internet",
+      "informatica",
+      "informática",
+      "evangelizacion digital",
+      "milagros eucaristicos",
+      "milagros eucarísticos",
+      "oracion",
+      "caridad",
+      "confesion",
+      "confesión",
+      "asís",
+      "assisi"
+    ],
+    "interventions": [
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y búsqueda de propósito",
+        "keywords": [
+          "jovenes",
+          "jóvenes",
+          "adolescentes",
+          "juventud",
+          "propósito",
+          "sentido",
+          "futuro"
+        ]
+      },
+      {
+        "id": "eucaristia",
+        "label": "Eucaristía y vida espiritual",
+        "keywords": [
+          "eucaristia",
+          "eucaristía",
+          "misa",
+          "comunion",
+          "comunión",
+          "adoracion",
+          "adoración",
+          "sagrario"
+        ]
+      },
+      {
+        "id": "vida-digital",
+        "label": "Uso responsable de internet y tecnología",
+        "keywords": [
+          "internet",
+          "redes",
+          "tecnologia",
+          "tecnología",
+          "informatica",
+          "informática",
+          "pantallas",
+          "web"
+        ]
+      },
+      {
+        "id": "evangelizacion",
+        "label": "Evangelización y comunicación de la fe",
+        "keywords": [
+          "evangelizacion",
+          "evangelización",
+          "apostolado",
+          "catequesis",
+          "fe",
+          "testimonio",
+          "comunicar"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio a los necesitados",
+        "keywords": [
+          "caridad",
+          "pobres",
+          "necesitados",
+          "servicio",
+          "ayuda",
+          "misericordia",
+          "solidaridad"
+        ]
+      },
+      {
+        "id": "conversion",
+        "label": "Conversión y crecimiento espiritual",
+        "keywords": [
+          "conversion",
+          "conversión",
+          "pecado",
+          "confesion",
+          "confesión",
+          "cambio de vida",
+          "santidad"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y educación en la fe",
+        "keywords": [
+          "familia",
+          "padres",
+          "hijos",
+          "educacion",
+          "educación",
+          "catequesis",
+          "hogar"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y esperanza",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "leucemia",
+          "sufrimiento",
+          "dolor",
+          "esperanza"
+        ]
+      }
+    ]
   }
 ]
