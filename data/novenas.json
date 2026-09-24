@@ -3786,5 +3786,23 @@
     "status": "published",
     "category": "Santos",
     "description": "Primera santa colombiana, educadora y misionera que dedicó su vida a anunciar el Evangelio, defender la dignidad de los pueblos indígenas y formar una familia religiosa para la misión."
+  },
+  {
+    "id": "santa-margarita-maria-alacoque",
+    "slug": "santa-margarita-maria-alacoque",
+    "name": "Santa Margarita María de Alacoque",
+    "title": "Virgen y religiosa de la Visitación, apóstol del Sagrado Corazón de Jesús",
+    "image": "assets/images/santos/santa_margarita_maria_de_alacoque.webp",
+    "feast": {
+      "day": 16,
+      "month": 10,
+      "text": "16 de octubre",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "file": "data/santa-margarita-maria-alacoque.json",
+    "status": "published",
+    "category": "Santos",
+    "description": "Religiosa francesa de la Visitación cuya vida de oración y sus experiencias místicas estuvieron vinculadas a la difusión de la devoción al Sagrado Corazón de Jesús."
   }
 ]
