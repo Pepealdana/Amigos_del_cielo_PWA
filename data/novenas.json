@@ -3943,5 +3943,129 @@
         ]
       }
     ]
+  },
+  {
+    "id": "espiritu-santo",
+    "slug": "espiritu-santo",
+    "name": "Espíritu Santo",
+    "title": "Novena al Espíritu Santo",
+    "subtitle": "En preparación para Pentecostés",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/espiritu_santo.webp",
+    "file": "data/espiritu-santo.json",
+    "description": "Nueve días de oración para invocar al Espíritu Santo, disponernos a su acción y pedir sus siete dones para vivir la fe con mayor docilidad, fortaleza y caridad.",
+    "feast": {
+      "movable": true,
+      "text": "Domingo de Pentecostés"
+    },
+    "status": "published",
+    "search": [
+      "espíritu santo",
+      "espiritu santo",
+      "pentecostés",
+      "pentecostes",
+      "dones del espíritu santo",
+      "dones del espiritu santo",
+      "sabiduría",
+      "entendimiento",
+      "consejo",
+      "fortaleza",
+      "ciencia",
+      "piedad",
+      "temor de Dios",
+      "ven espíritu santo",
+      "paráclito"
+    ],
+    "interventions": [
+      {
+        "id": "discernimiento",
+        "label": "Discernimiento y decisiones",
+        "keywords": [
+          "discernimiento",
+          "decisiones",
+          "decidir",
+          "consejo",
+          "voluntad de dios",
+          "orientación"
+        ]
+      },
+      {
+        "id": "estudio",
+        "label": "Estudio y comprensión de la fe",
+        "keywords": [
+          "estudio",
+          "entendimiento",
+          "ciencia",
+          "sabiduría",
+          "formación",
+          "aprendizaje"
+        ]
+      },
+      {
+        "id": "fortaleza",
+        "label": "Fortaleza en las dificultades",
+        "keywords": [
+          "fortaleza",
+          "miedo",
+          "temor",
+          "prueba",
+          "sufrimiento",
+          "perseverancia",
+          "ánimo"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y relaciones",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "perdón",
+          "unidad",
+          "convivencia"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y misión",
+        "keywords": [
+          "vocación",
+          "vocacion",
+          "llamado",
+          "mision",
+          "servicio",
+          "apostolado"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oración",
+          "oracion",
+          "silencio",
+          "contemplación",
+          "contemplacion",
+          "adoración",
+          "adoracion"
+        ]
+      },
+      {
+        "id": "iglesia",
+        "label": "Iglesia y unidad",
+        "keywords": [
+          "iglesia",
+          "unidad",
+          "comunidad",
+          "pentecostés",
+          "pentecostes",
+          "evangelización",
+          "evangelizacion"
+        ]
+      }
+    ]
   }
 ]
