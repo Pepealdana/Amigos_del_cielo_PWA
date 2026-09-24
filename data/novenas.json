@@ -3381,5 +3381,149 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-faustina-kowalska",
+    "slug": "santa-faustina-kowalska",
+    "name": "Santa Faustina Kowalska",
+    "title": "Virgen y religiosa de las Hermanas de la Bienaventurada Virgen María de la Misericordia",
+    "subtitle": "Apóstol de la Divina Misericordia",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_faustina_kowalska.webp",
+    "file": "data/santa-faustina-kowalska.json",
+    "description": "Religiosa polaca cuya vida de oración, confianza en Dios y servicio al prójimo estuvo profundamente vinculada al mensaje de la Divina Misericordia.",
+    "feast": {
+      "day": 5,
+      "month": 10,
+      "text": "5 de octubre",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa faustina",
+      "faustina kowalska",
+      "faustina",
+      "helena kowalska",
+      "divina misericordia",
+      "misericordia",
+      "jesús misericordioso",
+      "diario",
+      "coronilla",
+      "hora de la misericordia",
+      "confianza en dios",
+      "religiosas",
+      "cracovia",
+      "polonia",
+      "vilna",
+      "vilnius",
+      "plock",
+      "eucaristia",
+      "oracion"
+    ],
+    "interventions": [
+      {
+        "id": "misericordia",
+        "label": "Misericordia y perdón",
+        "keywords": [
+          "misericordia",
+          "perdon",
+          "perdón",
+          "pecado",
+          "arrepentimiento",
+          "reconciliacion",
+          "reconciliación"
+        ]
+      },
+      {
+        "id": "confianza",
+        "label": "Confianza en Dios",
+        "keywords": [
+          "confianza",
+          "fe",
+          "esperanza",
+          "miedo",
+          "temor",
+          "angustia",
+          "abandono"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oracion",
+          "oración",
+          "adoracion",
+          "adoración",
+          "silencio",
+          "contemplacion",
+          "contemplación",
+          "eucaristia",
+          "eucaristía"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermedad y sufrimiento",
+        "keywords": [
+          "enfermedad",
+          "enfermos",
+          "sufrimiento",
+          "dolor",
+          "tuberculosis",
+          "prueba"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y seres queridos",
+        "keywords": [
+          "familia",
+          "padres",
+          "hijos",
+          "madre",
+          "padre",
+          "seres queridos"
+        ]
+      },
+      {
+        "id": "conversion",
+        "label": "Conversión y vida nueva",
+        "keywords": [
+          "conversion",
+          "conversión",
+          "cambio de vida",
+          "arrepentimiento",
+          "volver a dios"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en tiempos de prueba",
+        "keywords": [
+          "esperanza",
+          "prueba",
+          "desanimo",
+          "desánimo",
+          "dificultad",
+          "perseverancia"
+        ]
+      },
+      {
+        "id": "obras-misericordia",
+        "label": "Caridad y obras de misericordia",
+        "keywords": [
+          "caridad",
+          "obras de misericordia",
+          "ayudar",
+          "pobres",
+          "necesitados",
+          "servicio",
+          "solidaridad"
+        ]
+      }
+    ]
   }
 ]
