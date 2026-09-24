@@ -1,0 +1,453 @@
+{
+  "id": "san-martin-de-porres",
+  "slug": "san-martin-de-porres",
+  "name": "San Martín de Porres",
+  "title": "Religioso dominico y servidor de los pobres",
+  "subtitle": "Fray Escoba, testigo de humildad y caridad",
+  "category": "Santos",
+  "image": "assets/images/santos/san_martin_de_porres.webp",
+  "description": "Religioso dominico de Lima que dedicó su vida al servicio de los enfermos, pobres y necesitados, viviendo con humildad, caridad y espíritu de reconciliación.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-martin-de-porres"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 3,
+    "month": 11,
+    "text": "3 de noviembre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "A todos amaba y curaba sin tener en cuenta su procedencia.",
+    "reference": "Tradición biográfica dominicana sobre su servicio a los enfermos"
+  },
+  "patronages": [
+    "Justicia social",
+    "Personas de ascendencia africana",
+    "Barberos y peluqueros",
+    "Enfermos y trabajadores de la salud"
+  ],
+  "virtues": [
+    "Humildad",
+    "Caridad",
+    "Servicio",
+    "Obediencia",
+    "Misericordia",
+    "Oración",
+    "Sencillez",
+    "Reconciliación",
+    "Perseverancia"
+  ],
+  "search": [
+    "san martin de porres",
+    "martin de porres",
+    "fray escoba",
+    "lima",
+    "dominico",
+    "dominicos",
+    "pobres",
+    "enfermos",
+    "caridad",
+    "humildad",
+    "barbero",
+    "cirujano",
+    "justicia social"
+  ],
+  "interventions": [
+    {
+      "id": "pobres",
+      "label": "Pobreza y necesidades materiales",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "necesidad",
+        "carencia",
+        "alimento",
+        "vestido",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "hospital",
+        "cuidado",
+        "salud"
+      ]
+    },
+    {
+      "id": "humildad",
+      "label": "Humildad y sencillez",
+      "keywords": [
+        "humildad",
+        "sencillez",
+        "orgullo",
+        "servir",
+        "ultimo"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "ayudar",
+        "misericordia",
+        "solidaridad"
+      ]
+    },
+    {
+      "id": "reconciliacion",
+      "label": "Reconciliación y convivencia",
+      "keywords": [
+        "reconciliacion",
+        "unidad",
+        "conflicto",
+        "perdon",
+        "convivencia"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y oficio",
+      "keywords": [
+        "trabajo",
+        "oficio",
+        "barbero",
+        "peluquero",
+        "medicina",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "discriminacion",
+      "label": "Dignidad e igualdad",
+      "keywords": [
+        "discriminacion",
+        "racismo",
+        "igualdad",
+        "dignidad",
+        "exclusion"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "silencio",
+        "contemplacion",
+        "fe",
+        "dios"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Martín de Porres nació en Lima en 1579, hijo de Juan de Porres y Ana Velázquez. Aprendió el oficio de barbero-cirujano y desde joven atendió a personas necesitadas. Ingresó al convento dominico de Nuestra Señora del Rosario y profesó como hermano cooperador en 1603. Se distinguió por su cuidado de los enfermos, la atención a los pobres y una vida de oración y humildad. Murió en Lima en 1639 y fue canonizado por Juan XXIII en 1962.",
+    "extended": "Martín de Porres nació en Lima en 1579, hijo de Juan de Porres, de origen español, y Ana Velázquez, mujer negra libre nacida en Panamá. Su origen familiar y las condiciones sociales de la Lima colonial marcaron parte de su camino: la discriminación de su época también afectó sus posibilidades dentro de la vida religiosa. Desde joven aprendió oficios relacionados con el cuidado de las personas, entre ellos peluquería y barbería-cirugía, y puso esos conocimientos al servicio de quienes no podían pagar. Más tarde entró en el convento de Nuestra Señora del Rosario, de los dominicos. Inicialmente lo hizo como donado, en un contexto en el que las barreras sociales y raciales limitaban el acceso a la profesión religiosa. En 1603 profesó como hermano cooperador. En el convento recibió tareas humildes, entre ellas la limpieza, y la escoba se convirtió en uno de los signos más conocidos de su vida. No se trata de una historia de conversión provocada por un pecado concreto: las fuentes biográficas lo presentan desde joven orientado hacia la fe y el servicio. Su gran transformación puede describirse como una profundización progresiva de la caridad, la humildad y la entrega, convirtiendo sus conocimientos, su trabajo y su vida comunitaria en servicio a los demás. Martín atendía a enfermos y pobres y acogía a personas de distintos grupos sociales. Los dominicos lo presentan como un hombre que ayudó a superar divisiones de una sociedad profundamente desigual. Su caridad no se limitó a una categoría de personas: atendió a indígenas, españoles, negros y mulatos, y se ocupó también de presos y personas necesitadas. La tradición sobre su vida conserva relatos de experiencias místicas y hechos extraordinarios; deben distinguirse de los datos históricos documentados. Su iconografía suele mostrarlo con hábito dominico, una escoba y una cruz, recordando su humilde oficio y su vida consagrada. También aparece acompañado de perro, gato y ratón, imagen relacionada con relatos tradicionales sobre su capacidad de convivencia y cuidado de los animales. En algunas representaciones lleva un rosario o medicinas, vinculados a su oración y a su servicio a los enfermos. Estos elementos pertenecen al desarrollo de la tradición iconográfica y hagiográfica y no deben confundirse con datos comprobables de la misma manera que su nacimiento, profesión religiosa o muerte. Martín murió en Lima el 3 de noviembre de 1639. Fue beatificado en 1837 y canonizado por Juan XXIII el 6 de mayo de 1962. Su vida quedó asociada especialmente a la humildad, la caridad, el cuidado de los enfermos y la dignidad de las personas marginadas."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Martín de Porres, hermano humilde y servidor de los necesitados, acompáñame durante estos nueve días. Enséñame a servir sin buscar reconocimiento, a cuidar a quien sufre y a tratar a toda persona con dignidad. Presento ante Dios la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Martín de Porres, servidor humilde y amigo de los pobres, intercede por nosotros. Ayúdanos a reconocer a Cristo en quien sufre, a vencer la indiferencia y la discriminación y a servir con alegría. Enséñanos a vivir con sencillez, oración y caridad, buscando la reconciliación y la dignidad de todos. Amén.",
+  "intentions": [
+    "Por las personas que viven pobreza o carecen de lo necesario.",
+    "Por los enfermos, cuidadores y trabajadores de la salud.",
+    "Por quienes sufren discriminación, racismo o exclusión.",
+    "Por familias y comunidades divididas que necesitan reconciliación.",
+    "Por trabajadores que buscan empleo digno y estabilidad.",
+    "Por quienes sirven a los demás en silencio y sin reconocimiento.",
+    "Por las personas privadas de libertad y quienes viven abandono.",
+    "Por quienes necesitan crecer en humildad y caridad.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Lucas 10,25-37"
+      },
+      {
+        "reference": "Filipenses 2,1-11"
+      },
+      {
+        "reference": "1 Corintios 13,1-13"
+      }
+    ],
+    "documents": [],
+    "related": [
+      "Orden de Predicadores",
+      "San Juan XXIII"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Canonización del beato Martín de Porres — 6 de mayo de 1962",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-xxiii/es/homilies/1962/documents/hf_j-xxiii_hom_19620506_martino-porres.html",
+      "type": "official"
+    },
+    {
+      "title": "San Martín de Porres: patrono de la Justicia Social",
+      "organization": "Orden de Predicadores",
+      "url": "https://www.dominicos.org/quienes-somos/grandes-figuras/san-martin-de-porres/",
+      "type": "official"
+    },
+    {
+      "title": "San Martín de Porres — Evangelio del día",
+      "organization": "Orden de Predicadores",
+      "url": "https://www.dominicos.org/predicacion/evangelio-del-dia/3-11-2011/san-martin-de-porres/",
+      "type": "official"
+    },
+    {
+      "title": "Memoria de San Martín de Porres",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/leo-xiv/es/messages/pont-messages/2025/documents/20251103-messaggio-conami-puebla.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una vida marcada por las diferencias",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Martín nació en Lima en una sociedad profundamente jerarquizada. Desde joven conoció el trabajo y aprendió oficios que después utilizaría para atender a quienes necesitaban ayuda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No elegimos todas las circunstancias en las que nacemos, pero sí podemos decidir qué hacemos con nuestros dones y oportunidades."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Qué circunstancia de mi vida puedo convertir en una oportunidad para servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias y personas que enfrentan dificultades económicas o sociales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, ayúdame a recibir mi historia con humildad y a descubrir cómo puedo servir con lo que soy. Amén."
+      },
+      "action": "Agradece hoy una capacidad o oportunidad que poseas y piensa cómo usarla para ayudar."
+    },
+    {
+      "day": 2,
+      "theme": "El trabajo",
+      "title": "Los dones puestos al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Martín aprendió barbería y conocimientos de atención a los enfermos. Su trabajo no fue solamente una manera de ganarse la vida: se convirtió en un medio para cuidar a otros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Un conocimiento adquiere mayor valor cuando beneficia también a quienes tienen menos oportunidades."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué conocimiento u oficio puedo poner al servicio de otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por trabajadores, aprendices y quienes buscan empleo digno."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, enséñame a trabajar con responsabilidad y a poner mis capacidades al servicio de los demás. Amén."
+      },
+      "action": "Ayuda hoy a alguien utilizando una habilidad que tengas."
+    },
+    {
+      "day": 3,
+      "theme": "La vocación",
+      "title": "Entrar al convento para servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Martín ingresó al convento dominico de Nuestra Señora del Rosario y profesó como hermano cooperador en 1603. Allí asumió tareas humildes y desarrolló una intensa vida de oración y servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación cristiana se expresa en la entrega concreta de la vida, incluso en tareas que otros consideran pequeñas."
+      },
+      "virtue": "Obediencia",
+      "reflection": "¿Qué responsabilidad sencilla estoy llamado a cumplir mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan su vocación y por religiosos y religiosas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, ayúdame a descubrir mi vocación y a vivirla con fidelidad, obediencia y alegría. Amén."
+      },
+      "action": "Cumple hoy una tarea que normalmente evitas, haciéndola con buena disposición."
+    },
+    {
+      "day": 4,
+      "theme": "La escoba",
+      "title": "La humildad de servir en lo pequeño",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En el convento se le confiaron labores de limpieza. La escoba quedó asociada a su figura porque representa un servicio humilde que Martín asumió sin considerar que disminuyera su dignidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Ningún servicio realizado con amor es insignificante. La humildad nos libera de necesitar reconocimiento constante."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Me cuesta realizar tareas que no reciben reconocimiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes realizan trabajos humildes y necesarios para la vida de otros."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, líbrame de buscar siempre reconocimiento. Enséñame a servir con alegría aunque nadie me vea. Amén."
+      },
+      "action": "Haz hoy una tarea útil de manera anónima."
+    },
+    {
+      "day": 5,
+      "theme": "Los enfermos",
+      "title": "Cuidar al que sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Martín destacó por su atención a los enfermos. Sus conocimientos y su tiempo fueron puestos al servicio de personas que no podían pagar por atención o medicinas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar a quien sufre exige tiempo, paciencia y respeto por su dignidad."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Cómo reacciono ante las necesidades de una persona enferma o vulnerable?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, cuidadores, médicos, enfermeros y trabajadores de la salud."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, acompaña a quienes sufren enfermedad y enséñanos a cuidar con paciencia y compasión. Amén."
+      },
+      "action": "Llama o visita, si es posible, a alguien enfermo o que necesite compañía."
+    },
+    {
+      "day": 6,
+      "theme": "Sin distinciones",
+      "title": "Reconocer la dignidad de todos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Martín atendía a personas de diferentes grupos sociales y étnicos. Su servicio se convirtió en un testimonio de que la dignidad de una persona no depende de su origen o condición."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana no puede depender de prejuicios. Toda persona merece respeto y cuidado."
+      },
+      "virtue": "Dignidad",
+      "reflection": "¿Qué prejuicio necesito revisar en mi manera de tratar a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren racismo, discriminación o exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, ayúdanos a reconocer en cada persona una dignidad que merece respeto y cuidado. Amén."
+      },
+      "action": "Identifica un prejuicio cotidiano y reemplázalo conscientemente por una actitud de respeto."
+    },
+    {
+      "day": 7,
+      "theme": "Reconciliación",
+      "title": "Unir lo que estaba dividido",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Martín se desarrolló en una sociedad marcada por profundas diferencias. Su servicio a personas de diversos grupos es recordado como un signo de fraternidad y reconciliación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La unidad no exige negar las diferencias; exige reconocer la dignidad común y buscar el bien compartido."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Hay una relación en la que puedo dar hoy un primer paso hacia la paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias y comunidades que viven conflictos o divisiones."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, ayúdanos a dar pasos de reconciliación y a no alimentar divisiones con nuestras palabras o acciones. Amén."
+      },
+      "action": "Da hoy un primer paso prudente para reparar una relación."
+    },
+    {
+      "day": 8,
+      "theme": "La oración",
+      "title": "Servir desde una vida interior",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición sobre Martín destaca una intensa vida de oración y experiencias místicas. Los relatos extraordinarios deben distinguirse de los hechos históricos, pero su fama de oración estuvo siempre vinculada a su servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio cristiano necesita una fuente interior que permita perseverar sin convertir la ayuda en simple activismo."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar ocupa la oración en mi manera de servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a los demás y necesitan fortaleza interior."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín, enséñame a unir oración y servicio, para que mis obras nazcan de un corazón dispuesto a amar. Amén."
+      },
+      "action": "Reserva hoy un momento de silencio para orar por una persona que sufre."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Una caridad que permanece",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Martín murió en Lima el 3 de noviembre de 1639 y fue canonizado por Juan XXIII en 1962. Su memoria continúa vinculada a la humildad, la caridad y el servicio a los pobres y enfermos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El legado de una vida no depende de ocupar un lugar importante, sino del bien que permanece en las personas que hemos servido."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué forma concreta de servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las personas presentadas durante estos nueve días y por quienes necesitan ayuda."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Martín de Porres, intercede por nosotros. Ayúdanos a servir con humildad, cuidar a quien sufre, respetar a todos y perseverar en la caridad. Amén."
+      },
+      "action": "Elige una obra concreta de servicio y comprométete a mantenerla durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
