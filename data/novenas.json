@@ -2091,5 +2091,147 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-josemaria-escriva",
+    "slug": "san-josemaria-escriva",
+    "name": "San Josemaría Escrivá",
+    "title": "Presbítero y fundador del Opus Dei",
+    "subtitle": "La santidad en la vida ordinaria y el trabajo",
+    "category": "Santos",
+    "image": "assets/images/santos/san_jose_maria_escriva.webp",
+    "file": "data/san-josemaria-escriva.json",
+    "description": "Sacerdote español que enseñó a buscar a Dios en la vida cotidiana, el trabajo, la familia y las realidades ordinarias, y fundador del Opus Dei.",
+    "feast": {
+      "day": 26,
+      "month": 6,
+      "text": "26 de junio",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san josemaria escriva",
+      "san josemaría escrivá",
+      "josemaria",
+      "josémaría",
+      "opus dei",
+      "santidad en la vida ordinaria",
+      "trabajo",
+      "familia",
+      "laicos",
+      "vocacion",
+      "oracion",
+      "rosario",
+      "sacerdote",
+      "evangelizacion",
+      "vida cotidiana",
+      "santificacion"
+    ],
+    "interventions": [
+      {
+        "id": "trabajo",
+        "label": "Trabajo y vida profesional",
+        "keywords": [
+          "trabajo",
+          "empleo",
+          "profesion",
+          "profesión",
+          "oficio",
+          "empresa",
+          "estudio",
+          "labor"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y propósito",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "llamado",
+          "proposito",
+          "propósito",
+          "discernimiento",
+          "camino"
+        ]
+      },
+      {
+        "id": "vida-ordinaria",
+        "label": "Santidad en la vida cotidiana",
+        "keywords": [
+          "vida cotidiana",
+          "vida ordinaria",
+          "santidad",
+          "santificacion",
+          "santificación",
+          "familia",
+          "hogar"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oracion",
+          "oración",
+          "misa",
+          "eucaristia",
+          "eucaristía",
+          "rosario",
+          "meditacion",
+          "meditación"
+        ]
+      },
+      {
+        "id": "laicos",
+        "label": "Vida cristiana de los laicos",
+        "keywords": [
+          "laicos",
+          "laico",
+          "apostolado",
+          "evangelizacion",
+          "evangelización",
+          "mundo",
+          "sociedad"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y relaciones cotidianas",
+        "keywords": [
+          "familia",
+          "matrimonio",
+          "padres",
+          "hijos",
+          "hogar",
+          "amistad"
+        ]
+      },
+      {
+        "id": "dificultades",
+        "label": "Dificultades y perseverancia",
+        "keywords": [
+          "dificultad",
+          "prueba",
+          "sufrimiento",
+          "cruz",
+          "perseverancia",
+          "recomenzar"
+        ]
+      },
+      {
+        "id": "servicio",
+        "label": "Servicio y caridad",
+        "keywords": [
+          "servicio",
+          "caridad",
+          "ayudar",
+          "pobres",
+          "necesitados",
+          "misericordia"
+        ]
+      }
+    ]
   }
 ]
