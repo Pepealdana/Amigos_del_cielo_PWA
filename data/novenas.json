@@ -333,5 +333,141 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-benito-abad",
+    "slug": "san-benito-abad",
+    "name": "San Benito Abad",
+    "title": "Abad y padre del monacato occidental",
+    "subtitle": "Patrono de Europa",
+    "category": "Santos",
+    "image": "assets/images/santos/san_benito_abad.webp",
+    "file": "data/san-benito-abad.json",
+    "description": "Monje y abad que buscó a Dios en la oración, el trabajo y la vida comunitaria, y cuya Regla marcó profundamente la tradición monástica occidental.",
+    "feast": {
+      "day": 11,
+      "month": 7,
+      "text": "11 de julio",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san benito",
+      "benito de nursia",
+      "benedictinos",
+      "abad",
+      "monjes",
+      "monjas",
+      "regla de san benito",
+      "ora et labora",
+      "oracion",
+      "trabajo",
+      "discernimiento",
+      "paz",
+      "europa",
+      "muerte feliz",
+      "tentaciones"
+    ],
+    "interventions": [
+      {
+        "id": "busqueda-de-dios",
+        "label": "Búsqueda de Dios y vida espiritual",
+        "keywords": [
+          "dios",
+          "busqueda",
+          "vida espiritual",
+          "oracion",
+          "silencio",
+          "contemplacion",
+          "discernimiento"
+        ]
+      },
+      {
+        "id": "disciplina-rutina",
+        "label": "Disciplina y hábitos de vida",
+        "keywords": [
+          "disciplina",
+          "habitos",
+          "rutina",
+          "orden",
+          "constancia",
+          "perseverancia",
+          "puntualidad"
+        ]
+      },
+      {
+        "id": "trabajo",
+        "label": "Trabajo y vida cotidiana",
+        "keywords": [
+          "trabajo",
+          "oficio",
+          "responsabilidad",
+          "tareas",
+          "vida cotidiana",
+          "estudio"
+        ]
+      },
+      {
+        "id": "familia-comunidad",
+        "label": "Familia, comunidad y convivencia",
+        "keywords": [
+          "familia",
+          "comunidad",
+          "convivencia",
+          "hermanos",
+          "respeto",
+          "perdon",
+          "paz"
+        ]
+      },
+      {
+        "id": "tentaciones",
+        "label": "Tentaciones y lucha espiritual",
+        "keywords": [
+          "tentacion",
+          "tentaciones",
+          "lucha espiritual",
+          "mal",
+          "fortaleza",
+          "cruz"
+        ]
+      },
+      {
+        "id": "vida-monastica",
+        "label": "Vocación y vida consagrada",
+        "keywords": [
+          "vocacion",
+          "monje",
+          "monja",
+          "vida religiosa",
+          "consagracion",
+          "monasterio"
+        ]
+      },
+      {
+        "id": "paz",
+        "label": "Paz y reconciliación",
+        "keywords": [
+          "paz",
+          "reconciliacion",
+          "conflicto",
+          "unidad",
+          "dialogo",
+          "serenidad"
+        ]
+      },
+      {
+        "id": "buena-muerte",
+        "label": "Preparación para la muerte y esperanza",
+        "keywords": [
+          "muerte",
+          "buena muerte",
+          "moribundos",
+          "esperanza",
+          "agonia",
+          "vida eterna"
+        ]
+      }
+    ]
   }
 ]
