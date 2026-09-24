@@ -1,0 +1,364 @@
+{
+  "id": "senor-de-los-milagros-de-buga",
+  "slug": "senor-de-los-milagros-de-buga",
+  "name": "Señor de los Milagros de Buga",
+  "title": "Novena al Señor de los Milagros de Buga",
+  "subtitle": "Contemplar a Cristo crucificado y vivir la fe con misericordia",
+  "category": "Devociones",
+  "image": "assets/images/santos/senor_de_los_milagros_de_buga.webp",
+  "description": "Nueve días para contemplar a Jesucristo crucificado, confiar en su misericordia y traducir la fe en conversión, servicio, reconciliación y amor al prójimo.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 14,
+    "month": 9,
+    "text": "14 de septiembre — Exaltación de la Santa Cruz y celebración del Señor de los Milagros de Buga",
+    "movable": false
+  },
+  "patronages": [
+    "Peregrinos",
+    "Enfermos",
+    "Familias",
+    "Personas que buscan conversión y reconciliación"
+  ],
+  "virtues": [
+    "Fe",
+    "Conversión",
+    "Misericordia",
+    "Esperanza",
+    "Reconciliación",
+    "Caridad",
+    "Perseverancia",
+    "Confianza",
+    "Entrega"
+  ],
+  "search": [
+    "señor de los milagros",
+    "señor de los milagros de buga",
+    "buga",
+    "cristo crucificado",
+    "crucificado",
+    "milagros",
+    "santuario de buga",
+    "peregrinos",
+    "exaltacion de la santa cruz",
+    "exaltación de la santa cruz",
+    "enfermos",
+    "conversion",
+    "conversión",
+    "misericordia"
+  ],
+  "interventions": [
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "sanación",
+        "sanacion",
+        "hospital"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y vida nueva",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "pecado",
+        "arrepentimiento",
+        "vida nueva",
+        "cambio de vida"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y reconciliación",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "perdon",
+      "label": "Perdón y reconciliación",
+      "keywords": [
+        "perdon",
+        "perdón",
+        "reconciliacion",
+        "reconciliación",
+        "resentimiento",
+        "ofensa"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en la dificultad",
+      "keywords": [
+        "esperanza",
+        "angustia",
+        "miedo",
+        "crisis",
+        "dificultad",
+        "incertidumbre"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinos y caminos",
+      "keywords": [
+        "peregrino",
+        "peregrinos",
+        "viaje",
+        "camino",
+        "santuario",
+        "Buga"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "pobres",
+        "necesitados",
+        "ayuda",
+        "misericordia"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe ante la cruz",
+      "keywords": [
+        "fe",
+        "cruz",
+        "cristo",
+        "jesus",
+        "Jesús",
+        "oracion",
+        "oración"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción al Señor de los Milagros de Buga se remonta, según la tradición recogida por la Iglesia en Colombia, a la segunda mitad del siglo XVI y está vinculada a una imagen de Cristo crucificado asociada al río Guadalajara. La devoción se desarrolló alrededor de la contemplación de Cristo y del Santuario de Buga, hoy lugar de peregrinación.",
+    "extended": "La Conferencia Episcopal de Colombia recoge que la devoción al Señor de los Milagros de Buga se remonta a la segunda mitad del siglo XVI. La tradición cuenta que una mujer indígena que trabajaba lavando ropa había reunido dinero para adquirir un crucifijo, pero decidió entregarlo para ayudar a un hombre necesitado. Posteriormente, según el relato tradicional, encontró en el río Guadalajara una imagen de Cristo crucificado.\\n\\nLa misma fuente explica que la historia de la advocación se desarrolló alrededor de esta imagen y que la devoción se centra en el Crucificado. Los relatos sobre su origen y los acontecimientos extraordinarios asociados a la imagen pertenecen a la tradición devocional; por ello, esta novena no presenta cada detalle de esos relatos como una afirmación histórica independiente.\\n\\nLos Misioneros Redentoristas llegaron a Buga en 1884 y desde entonces tuvieron un papel importante en la atención pastoral y en el desarrollo del santuario. La Conferencia Episcopal señala también la importancia de la experiencia pastoral del santuario y de la peregrinación.\\n\\nLa celebración del Señor de los Milagros de Buga se realiza el 14 de septiembre, fecha que coincide con la Exaltación de la Santa Cruz. Esta novena pone en el centro a Jesucristo: la imagen conduce a contemplar su entrega en la cruz y a responder mediante conversión, misericordia, reconciliación y servicio."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\n\\nSeñor Jesucristo, contemplamos tu cruz y reconocemos en ella el amor con el que entregaste tu vida por nosotros. Por intercesión de María y de todos los santos, recibe nuestras intenciones durante estos nueve días. Danos un corazón dispuesto a convertirnos, perdonar, servir y confiar en tu misericordia. Que nuestra devoción nos lleve a vivir más profundamente el Evangelio. Amén.",
+  "closingPrayer": "Señor Jesucristo, gracias por este camino de oración ante tu cruz. Que lo que hemos meditado no termine con esta novena. Haznos testigos de tu misericordia en nuestra familia, trabajo y comunidad. Ayúdanos a pedir perdón, perdonar, acompañar al que sufre y servir a quienes necesitan nuestra ayuda. Que nuestra fe se traduzca en una vida nueva. Amén.",
+  "intentions": [
+    "Por los enfermos y quienes sufren física o espiritualmente, para que encuentren consuelo y acompañamiento.",
+    "Por las familias que necesitan reconciliación, diálogo y paz.",
+    "Por quienes desean comenzar una vida nueva y superar situaciones de pecado o alejamiento de Dios.",
+    "Por los peregrinos que llegan al Santuario del Señor de los Milagros de Buga.",
+    "Por quienes atraviesan dificultades económicas, soledad, duelo o incertidumbre.",
+    "Por quienes tienen heridas causadas por conflictos, violencia u ofensas y necesitan caminos de reconciliación.",
+    "Por quienes sirven en la Iglesia y acompañan pastoralmente a los peregrinos.",
+    "Por los enfermos que confían sus necesidades a Dios y por quienes los cuidan.",
+    "Por nuestras intenciones personales y para que aprendamos a vivir con mayor fidelidad el Evangelio."
+  ],
+  "resources": {
+    "devotion": "La devoción al Señor de los Milagros de Buga tiene como centro a Jesucristo crucificado. La imagen y la peregrinación deben conducir a la fe, la conversión y la vida cristiana; no sustituyen la relación con Dios ni los sacramentos.",
+    "feast": "14 de septiembre, en coincidencia con la celebración de la Exaltación de la Santa Cruz.",
+    "related": [
+      "Exaltación de la Santa Cruz",
+      "Santuario del Señor de los Milagros de Buga",
+      "Cristo crucificado",
+      "Peregrinación",
+      "Misericordia"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Historia de la advocación del Señor de los Milagros de Buga",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://www.cec.org.co/sites/default/files/Notas-ACTUALIDAD-LIT%C3%9ARGICA-74.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Boletín Notas de Actualidad Litúrgica No. 74",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://cec.org.co/noticias-de-los-departamentos-del-spec/archivo/boletin-notas-de-actualidad-liturgica-no-74",
+      "type": "official"
+    },
+    {
+      "title": "Celebración en Honor al Señor de los Milagros",
+      "organization": "Arquidiócesis de Bogotá",
+      "url": "https://www.arquibogota.org.co/centro-de-informacion/articulos/celebracion-en-honor-al-senor-de-los-milagros",
+      "type": "reference"
+    },
+    {
+      "title": "Fiesta del Señor de los Milagros",
+      "organization": "Arquidiócesis de Bogotá",
+      "url": "https://arquibogota.org.co/centro-de-informacion/eventos/fiesta-del-senor-de-los-milagros",
+      "type": "reference"
+    },
+    {
+      "title": "La experiencia redentorista desde el Santuario del Señor de los Milagros",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://cec.org.co/sites/default/files/2024-10/Notas%20de%20Actualidad%20Liturgica%2086_CEC-.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Contemplar a Cristo crucificado",
+      "title": "Mirar la cruz con fe",
+      "bible": {
+        "reference": "Juan 19,16-30",
+        "title": "Jesús entrega su vida en la cruz"
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué significa para mí contemplar a Cristo crucificado en medio de mi propia vida?",
+      "intention": "Por quienes necesitan renovar su fe en momentos de dificultad.",
+      "prayer": "Señor Jesús, al contemplar tu cruz, enséñanos a reconocer tu amor y a confiar en ti. Que no reduzcamos la cruz a una imagen, sino que aprendamos de tu entrega a amar con mayor generosidad. Amén.",
+      "action": "Dedica unos minutos a contemplar un crucifijo y agradece a Cristo por su entrega."
+    },
+    {
+      "day": 2,
+      "theme": "La conversión del corazón",
+      "title": "Comenzar una vida nueva",
+      "bible": {
+        "reference": "Marcos 1,14-15",
+        "title": "Conviértanse y crean en el Evangelio"
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué aspecto de mi vida necesita un cambio sincero?",
+      "intention": "Por quienes desean regresar a Dios y comenzar de nuevo.",
+      "prayer": "Señor de los Milagros, mueve nuestro corazón a una conversión verdadera. Danos humildad para reconocer nuestros errores, pedir perdón y tomar decisiones concretas que nos acerquen al Evangelio. Amén.",
+      "action": "Reconoce ante Dios un aspecto que necesitas cambiar y define un paso concreto para comenzar."
+    },
+    {
+      "day": 3,
+      "theme": "La misericordia recibida",
+      "title": "Confiar en el perdón de Dios",
+      "bible": {
+        "reference": "Lucas 15,11-24",
+        "title": "El Padre recibe al hijo que regresa"
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Me cuesta creer que Dios puede perdonarme y darme una nueva oportunidad?",
+      "intention": "Por quienes cargan con culpa, vergüenza o heridas del pasado.",
+      "prayer": "Jesús misericordioso, enséñanos a confiar en tu perdón y a no quedarnos encerrados en nuestras faltas. Que podamos acudir a ti con sinceridad y abrirnos a la reconciliación. Amén.",
+      "action": "Haz un examen sereno de conciencia y, si corresponde, considera acercarte al sacramento de la Reconciliación."
+    },
+    {
+      "day": 4,
+      "theme": "Perdonar como discípulos",
+      "title": "Romper el círculo de la ofensa",
+      "bible": {
+        "reference": "Mateo 18,21-35",
+        "title": "Perdonar de corazón"
+      },
+      "virtue": "Perdón",
+      "reflection": "¿Qué herida sigo llevando y qué paso responsable puedo dar hacia el perdón?",
+      "intention": "Por familias y personas enfrentadas por ofensas, conflictos o resentimientos.",
+      "prayer": "Señor Jesús, tú que nos llamas a perdonar, sana nuestras heridas y líbranos del deseo de devolver el daño. Danos prudencia para buscar reconciliación cuando sea posible y fortaleza para establecer límites sanos cuando sea necesario. Amén.",
+      "action": "Ora hoy por una persona con quien exista un conflicto, sin justificar el daño ni alimentar el resentimiento."
+    },
+    {
+      "day": 5,
+      "theme": "La cruz y el sufrimiento",
+      "title": "Acompañar al que sufre",
+      "bible": {
+        "reference": "Isaías 53,3-5",
+        "title": "Hombre de dolores"
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Cómo puedo acompañar a quien sufre sin ofrecer respuestas fáciles?",
+      "intention": "Por enfermos, personas en duelo y quienes atraviesan sufrimientos prolongados.",
+      "prayer": "Señor crucificado, permanece cerca de quienes sufren. Haznos capaces de acompañar sin juzgar, escuchar sin minimizar el dolor y ayudar de manera concreta cuando esté en nuestras manos. Amén.",
+      "action": "Acompaña hoy a una persona que esté sufriendo mediante una llamada, visita o ayuda concreta."
+    },
+    {
+      "day": 6,
+      "theme": "Esperanza en la prueba",
+      "title": "No perder la confianza",
+      "bible": {
+        "reference": "Romanos 8,31-39",
+        "title": "Nada podrá separarnos del amor de Cristo"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito poner hoy en las manos de Dios?",
+      "intention": "Por quienes viven incertidumbre económica, enfermedad, duelo o crisis familiar.",
+      "prayer": "Señor Jesús, fortalece nuestra esperanza cuando no vemos una salida. Enséñanos a pedir ayuda, actuar con responsabilidad y confiar en que tu amor puede sostenernos incluso en medio de la prueba. Amén.",
+      "action": "Presenta hoy a Dios una preocupación concreta y realiza también una acción responsable que pueda mejorar la situación."
+    },
+    {
+      "day": 7,
+      "theme": "La fe que se convierte en caridad",
+      "title": "Amar a Cristo en los hermanos",
+      "bible": {
+        "reference": "Mateo 25,35-40",
+        "title": "Lo que hicieron con uno de estos hermanos"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo servir hoy de una manera concreta?",
+      "intention": "Por las personas pobres, solas, enfermas o necesitadas de ayuda.",
+      "prayer": "Señor de los Milagros, que nuestra devoción no se quede en palabras. Abre nuestros ojos ante quien necesita ayuda y danos generosidad para servir sin buscar reconocimiento. Amén.",
+      "action": "Realiza hoy una obra concreta de misericordia."
+    },
+    {
+      "day": 8,
+      "theme": "Peregrinar hacia Cristo",
+      "title": "Caminar con esperanza",
+      "bible": {
+        "reference": "Hebreos 12,1-3",
+        "title": "Corramos con perseverancia fijando los ojos en Jesús"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué camino de fe necesito retomar con mayor constancia?",
+      "intention": "Por los peregrinos y por quienes buscan un nuevo comienzo espiritual.",
+      "prayer": "Señor Jesús, acompaña nuestros caminos. Que quienes peregrinan buscando consuelo encuentren en ti una fe más profunda y un compromiso renovado con el Evangelio. Haznos perseverantes cuando el camino sea largo. Amén.",
+      "action": "Retoma hoy una práctica sencilla de fe que hayas abandonado: oración, lectura del Evangelio, participación en la Eucaristía u otra obra de servicio."
+    },
+    {
+      "day": 9,
+      "theme": "La cruz como camino de entrega",
+      "title": "Vivir una fe que transforma",
+      "bible": {
+        "reference": "Gálatas 2,19-20",
+        "title": "Es Cristo quien vive en mí"
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué cambio concreto quiero llevar de esta novena a mi vida cotidiana?",
+      "intention": "Por todas nuestras intenciones y para que nuestra devoción al Señor de los Milagros produzca frutos de conversión y caridad.",
+      "prayer": "Señor Jesucristo, recibimos con gratitud este camino de oración. Haz que tu cruz transforme nuestra manera de vivir. Que salgamos de esta novena con más fe, más misericordia y mayor disposición para servir, perdonar y amar. Amén.",
+      "action": "Escribe un compromiso concreto que mantendrás después de esta novena y ponlo en práctica desde hoy."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La información histórica distingue entre tradición devocional y datos documentados por fuentes eclesiales. No se reproducen literalmente textos de novenas externas."
+  }
+}
