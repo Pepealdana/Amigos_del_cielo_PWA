@@ -8,11 +8,11 @@ function obtenerSantoDelDia(catalogo = []) {
         return null;
     }
 
-    const hoy = catalogo.find(novena =>
+    const hoy = catalogo.filter(novena =>
         esHoyLaFestividad(novena.feast)
     );
 
-    return hoy || obtenerNovenaDestacada(catalogo);
+    return hoy[0] || obtenerNovenaDestacada(catalogo);
 }
 
 function obtenerProgresoPrincipal(catalogo = [], progreso = {}) {
@@ -53,11 +53,40 @@ function obtenerProgresoPrincipal(catalogo = [], progreso = {}) {
     };
 }
 
+function obtenerMensajeCalendario(novena) {
+    const estado =
+        obtenerEstadoNovena(novena?.feast);
+
+    if (!estado) {
+        return "";
+    }
+
+    if (estado.estado === "en-curso") {
+        return \`Novena en curso · Día \${estado.dia} de 9\`;
+    }
+
+    if (estado.estado === "proxima") {
+        const inicio =
+            formatearFechaLiturgica({
+                day: estado.inicio.getDate(),
+                month: estado.inicio.getMonth() + 1
+            });
+
+        return \`Próximo inicio · \${inicio}\`;
+    }
+
+    return "";
+}
+
 function renderInicio(catalogo = [], progreso = {}) {
 
     const santo = obtenerSantoDelDia(catalogo);
+
     const continuidad =
-        obtenerProgresoPrincipal(catalogo, progreso);
+        obtenerProgresoPrincipal(
+            catalogo,
+            progreso
+        );
 
     if (!santo) {
         return renderEmptyState(
@@ -66,62 +95,84 @@ function renderInicio(catalogo = [], progreso = {}) {
         );
     }
 
+    const novenaContinuar =
+        continuidad?.novena || santo;
+
     const dia =
         continuidad?.progreso?.dia || 1;
 
+    const total =
+        Number(
+            continuidad?.novena?.novena?.days
+        ) || APP_CONFIG.diasNovena;
+
     const completados =
-        Array.isArray(continuidad?.progreso?.completados)
+        Array.isArray(
+            continuidad?.progreso?.completados
+        )
             ? continuidad.progreso.completados.length
             : 0;
 
     const porcentaje =
         continuidad
-            ? Math.min(100, Math.round((completados / APP_CONFIG.diasNovena) * 100))
+            ? Math.min(
+                100,
+                Math.round(
+                    (completados / total) * 100
+                )
+            )
             : 0;
 
+    const esSantoDeHoy =
+        esHoyLaFestividad(santo.feast);
+
     const tituloSanto =
-        esHoyLaFestividad(santo.feast)
+        esSantoDeHoy
             ? "Santo del día"
-            : "Santo destacado";
+            : "Santos y novenas";
 
-    const textoContinuar =
-        continuidad
-            ? `Día ${dia} de ${APP_CONFIG.diasNovena}`
-            : "Aún no has iniciado esta novena";
+    const mensajeCalendario =
+        obtenerMensajeCalendario(novenaContinuar);
 
-    return `
+    return \`
 
         <section class="dashboard">
 
             <section class="saint-of-day">
 
                 <p class="eyebrow">
-                    ${tituloSanto}
+                    \${tituloSanto}
                 </p>
 
                 <img
-                    src="${santo.image}"
-                    alt="${santo.name}"
+                    src="\${escaparHTML(santo.image)}"
+                    alt="\${escaparHTML(santo.name)}"
                     class="saint-of-day-image"
                     loading="eager">
 
                 <h2>
-                    ${santo.name}
+                    \${escaparHTML(santo.name)}
                 </h2>
 
                 <p class="saint-of-day-title">
-                    ${santo.title}
+                    \${escaparHTML(santo.title)}
                 </p>
 
                 <p class="saint-of-day-feast">
-                    ${formatearFechaLiturgica(santo.feast)}
+                    \${escaparHTML(formatearFechaLiturgica(santo.feast))}
                 </p>
+
+                \${mensajeCalendario ? \`
+                    <p class="calendar-status">
+                        \${escaparHTML(mensajeCalendario)}
+                    </p>
+                \` : ""}
 
                 <button
                     class="btn btn-primary btn-hero"
                     type="button"
                     data-action="open-novena"
-                    data-id="${santo.id}">
+                    data-id="\${escaparHTML(santo.id)}">
                     Conocer al santo
                 </button>
 
@@ -135,15 +186,19 @@ function renderInicio(catalogo = [], progreso = {}) {
 
                 <div class="search-box">
 
-                    <span class="search-box-icon" aria-hidden="true">🔎</span>
+                    <span
+                        class="search-box-icon"
+                        aria-hidden="true">
+                        🔎
+                    </span>
 
                     <input
                         id="home-search"
                         type="search"
-                        value="${state.busqueda || ""}"
-                        placeholder="Buscar una novena..."
+                        value="\${escaparHTML(state.busqueda || "")}"
+                        placeholder="Buscar una novena o un santo..."
                         autocomplete="off"
-                        aria-label="Buscar una novena">
+                        aria-label="Buscar una novena o un santo">
 
                 </div>
 
@@ -158,13 +213,13 @@ function renderInicio(catalogo = [], progreso = {}) {
             <section class="continue-section">
 
                 <p class="section-kicker">
-                    ${continuidad ? "Continuar" : "Comenzar"}
+                    \${continuidad ? "Continuar" : "Comenzar"}
                 </p>
 
                 <article class="continue-card">
 
                     <img
-                        src="${continuidad?.novena?.image || santo.image}"
+                        src="\${escaparHTML(novenaContinuar.image)}"
                         alt=""
                         class="continue-image"
                         loading="lazy">
@@ -172,23 +227,27 @@ function renderInicio(catalogo = [], progreso = {}) {
                     <div class="continue-content">
 
                         <h3>
-                            ${continuidad?.novena?.name || santo.name}
+                            \${escaparHTML(novenaContinuar.name)}
                         </h3>
 
                         <p>
-                            ${textoContinuar}
+                            \${continuidad
+                                ? \`Día \${dia} de \${total}\`
+                                : "Aún no has iniciado esta novena"}
                         </p>
 
-                        ${continuidad ? `
+                        \${continuidad ? \`
                             <div
                                 class="progress-track"
-                                aria-label="${porcentaje}% completado">
+                                aria-label="\${porcentaje}% completado">
+
                                 <div
                                     class="progress-fill"
-                                    style="width:${porcentaje}%">
+                                    style="width:\${porcentaje}%">
                                 </div>
+
                             </div>
-                        ` : ""}
+                        \` : ""}
 
                     </div>
 
@@ -196,8 +255,12 @@ function renderInicio(catalogo = [], progreso = {}) {
                         class="btn btn-primary continue-action"
                         type="button"
                         data-action="continue-novena"
-                        data-id="${continuidad?.novena?.id || santo.id}">
-                        ${continuidad ? "Continuar" : "Comenzar"}
+                        data-id="\${escaparHTML(novenaContinuar.id)}">
+
+                        \${continuidad
+                            ? "Continuar"
+                            : "Comenzar"}
+
                     </button>
 
                 </article>
@@ -206,5 +269,5 @@ function renderInicio(catalogo = [], progreso = {}) {
 
         </section>
 
-    `;
+    \`;
 }
