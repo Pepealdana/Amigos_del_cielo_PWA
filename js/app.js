@@ -1281,9 +1281,9 @@ window.addEventListener("message", evento => {
 
 function obtenerEscalaTexto(tamano) {
     const escalas = {
-        pequeno: "0.92",
-        normal: "1",
-        grande: "1.10"
+        pequeno: "0.94",
+        normal: "1.04",
+        grande: "1.12"
     };
 
     return escalas[tamano] || escalas.normal;
