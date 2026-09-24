@@ -967,6 +967,19 @@ function mostrarResultadosBusquedaPWA(texto) {
                             ${escaparHTML(novena.title)}
                         </span>
 
+                        ${obtenerEtiquetasIntervencion(novena, termino)
+                            ? `
+                                <span class="search-result-meta">
+                                    Para: ${escaparHTML(
+                                        obtenerEtiquetasIntervencion(
+                                            novena,
+                                            termino
+                                        )
+                                    )}
+                                </span>
+                            `
+                            : ""}
+
                     </span>
 
                 </button>
