@@ -5037,5 +5037,38 @@
         ]
       }
     ]
+  },
+  {
+    "id": "virgen-de-fatima",
+    "slug": "virgen-de-fatima",
+    "name": "Virgen de Fátima",
+    "title": "Novena a Nuestra Señora de Fátima",
+    "subtitle": "Oración, conversión y esperanza con María",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/virgen_fatima.webp",
+    "file": "data/virgen-de-fatima.json",
+    "description": "Nueve días para vivir el mensaje espiritual de Fátima desde la oración, la conversión, la penitencia, el Rosario, la reparación y la esperanza cristiana.",
+    "feast": {
+      "day": 13,
+      "month": 5,
+      "text": "13 de mayo",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "virgen de fatima",
+      "nuestra señora de fatima",
+      "fatima",
+      "rosario",
+      "cova da iria",
+      "lucia",
+      "francisco marto",
+      "jacinta marto",
+      "inmaculado corazon",
+      "paz",
+      "conversion"
+    ]
   }
 ]
