@@ -1,0 +1,455 @@
+{
+  "id": "san-cayetano",
+  "slug": "san-cayetano",
+  "name": "San Cayetano",
+  "title": "Presbítero y fundador de los Clérigos Regulares Teatinos",
+  "subtitle": "Servidor de los pobres y testigo de la Providencia",
+  "category": "Santos",
+  "image": "assets/images/santos/san_cayetano.webp",
+  "description": "Sacerdote italiano que buscó la reforma de la vida cristiana, sirvió a los pobres y enfermos y confió su misión a la providencia de Dios.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-cayetano"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 7,
+    "month": 8,
+    "text": "7 de agosto",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Buscad primero el Reino de Dios y su justicia.",
+    "reference": "Mateo 6,33; principio central de la espiritualidad de San Cayetano según la tradición teatina y la enseñanza de la Santa Sede."
+  },
+  "patronages": [
+    "En Argentina es venerado popularmente como patrono del pan y del trabajo; este título expresa una devoción popular particularmente arraigada y no debe confundirse con un patronazgo universal formal. "
+  ],
+  "virtues": [
+    "Fe",
+    "Providencia",
+    "Caridad",
+    "Pobreza evangélica",
+    "Servicio",
+    "Reforma interior",
+    "Oración",
+    "Humildad",
+    "Perseverancia"
+  ],
+  "search": [
+    "san cayetano",
+    "cayetano de thiene",
+    "gaetano da thiene",
+    "pan y trabajo",
+    "trabajo",
+    "desempleo",
+    "pobreza",
+    "necesitados",
+    "teatinos",
+    "providencia",
+    "oracion",
+    "caridad",
+    "sacerdote",
+    "enfermos",
+    "reforma de la iglesia"
+  ],
+  "interventions": [
+    {
+      "id": "trabajo-empleo",
+      "label": "Trabajo, empleo y sustento",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "desempleo",
+        "trabajador",
+        "sustento",
+        "pan",
+        "oficio"
+      ]
+    },
+    {
+      "id": "necesidad-pobreza",
+      "label": "Necesidad y pobreza",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "necesidad",
+        "carencia",
+        "alimento",
+        "pan",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "providencia",
+      "label": "Confianza en Dios y providencia",
+      "keywords": [
+        "providencia",
+        "confianza",
+        "dios",
+        "esperanza",
+        "angustia",
+        "necesidad"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio a los demás",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "misericordia",
+        "solidaridad",
+        "ayuda",
+        "obras de misericordia"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "peste",
+        "hospital",
+        "sufrimiento",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación sacerdotal y servicio",
+      "keywords": [
+        "vocacion",
+        "sacerdote",
+        "sacerdotal",
+        "ministerio",
+        "iglesia",
+        "llamado"
+      ]
+    },
+    {
+      "id": "reforma",
+      "label": "Conversión y renovación de la vida cristiana",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "reforma",
+        "cambio",
+        "pecado",
+        "vida cristiana"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y necesidades del hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "pan",
+        "trabajo"
+      ]
+    }
+  ],
+  "history": {
+    "short": "San Cayetano de Thiene nació en Vicenza en 1480, estudió derecho y llegó a ser sacerdote. Renunció a una vida acomodada para dedicarse al servicio de Dios, a los pobres y a la renovación de la vida eclesial. En 1524 fundó con otros compañeros los Clérigos Regulares Teatinos. Sirvió a enfermos y necesitados en Roma, Venecia y Nápoles, y murió en Nápoles el 7 de agosto de 1547.",
+    "extended": "San Cayetano de Thiene nació en Vicenza en 1480, en una familia noble. Estudió filosofía y teología y obtuvo formación en derecho civil y canónico. Su camino vocacional lo llevó al sacerdocio y, progresivamente, a una vida marcada por la pobreza evangélica, la oración y el servicio. La Santa Sede ha presentado su figura dentro del movimiento de renovación de la Iglesia de su tiempo.\\n\\nNo existe una fuente sólida que permita contar su vida como una conversión producida por un pecado personal concreto. En su caso, la transformación documentada se relaciona más bien con una opción radical por el Evangelio: dejó bienes y seguridades, buscó una reforma interior profunda y quiso que la vida sacerdotal recuperara un estilo más cercano al Evangelio y a la forma de vida apostólica.\\n\\nEn 1524, junto con Juan Pedro Carafa y otros compañeros, fundó la congregación de los Clérigos Regulares, conocidos posteriormente como Teatinos. Su propósito incluía la reforma del clero mediante una vida de oración, pobreza, disciplina comunitaria y dedicación al ministerio. Juan Pablo II explicó que Cayetano buscaba una renovación interior que se manifestara en la forma de ejercer el ministerio sacerdotal y en el seguimiento de Cristo.\\n\\nCayetano también estuvo profundamente comprometido con los pobres y enfermos. En Roma, Venecia y Nápoles ejerció obras de misericordia y atendió a personas afectadas por la pobreza y las enfermedades. El papa Francisco recordó que evangelizó esas ciudades principalmente mediante el testimonio de su vida y las obras de misericordia, poniendo en práctica la enseñanza de Mateo 25 sobre el servicio a quien tiene necesidad.\\n\\nSu confianza en la Providencia quedó vinculada a una manera concreta de vivir: renunciar a seguridades económicas para depender de Dios y de la generosidad de los fieles, sin abandonar el trabajo pastoral. Esta dimensión ayuda a comprender por qué su devoción popular se relacionó posteriormente con el pan y el trabajo. En Argentina, especialmente en torno al santuario de Liniers, se consolidó una fuerte tradición de pedir su intercesión por el pan y el trabajo. El papa Francisco ha acompañado esta devoción destacando que pedir trabajo también significa pedir dignidad.\\n\\nLa iconografía de San Cayetano suele mostrarlo como sacerdote, con vestiduras clericales y, en muchas imágenes populares, sosteniendo al Niño Jesús. También puede aparecer con lirios, cruz o elementos relacionados con la providencia. Estos signos son recursos devocionales desarrollados por la tradición iconográfica y no todos proceden de testimonios históricos sobre su vida. En la devoción argentina destaca además su representación vinculada al pan, al trabajo y a las necesidades de las familias.\\n\\nCayetano murió en Nápoles el 7 de agosto de 1547 y fue canonizado por Clemente X en 1671. Su memoria litúrgica se celebra el 7 de agosto. La Iglesia lo recuerda por su búsqueda de una vida sacerdotal renovada, su pobreza evangélica, su servicio a los enfermos y pobres y su confianza en la Providencia."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\nSan Cayetano, servidor de los pobres y testigo de la confianza en Dios, acompáñanos durante estos nueve días. Enséñanos a buscar primero el Reino de Dios, a trabajar con dignidad, a compartir con quien necesita y a confiar en la Providencia sin dejar de cumplir responsablemente nuestra parte. Presentamos ante Dios nuestras necesidades y las de quienes llevamos en el corazón. Amén.",
+  "closingPrayer": "San Cayetano, intercede por nosotros ante Dios. Acompaña a quienes buscan trabajo, a quienes no tienen lo necesario para vivir, a las familias que atraviesan dificultades y a quienes sufren enfermedad o abandono. Enséñanos a vivir con fe, trabajar con responsabilidad y compartir con generosidad. Que nunca perdamos la esperanza ni olvidemos a quien necesita nuestra ayuda. Amén.",
+  "intentions": [
+    "Por quienes buscan trabajo y no encuentran una oportunidad.",
+    "Por las familias que necesitan el sustento diario.",
+    "Por las personas que viven en pobreza o inseguridad económica.",
+    "Por trabajadores que atraviesan dificultades o condiciones injustas.",
+    "Por quienes emprenden un nuevo proyecto laboral con responsabilidad.",
+    "Por los enfermos, pobres y personas abandonadas.",
+    "Por sacerdotes y comunidades que trabajan por la renovación de la Iglesia.",
+    "Por quienes han perdido la esperanza ante sus necesidades.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 6,25-34"
+      },
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Lucas 12,22-32"
+      },
+      {
+        "reference": "Lucas 10,25-37"
+      }
+    ],
+    "documents": [
+      "Mensaje de San Juan Pablo II por el V centenario del nacimiento de San Cayetano, 7 de agosto de 1980",
+      "Carta del Papa Francisco con ocasión de la fiesta de San Cayetano, 1 de agosto de 2016"
+    ],
+    "related": [
+      "Clérigos Regulares Teatinos",
+      "Obras de misericordia",
+      "Trabajo y dignidad humana"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mensaje por el V centenario del nacimiento de San Cayetano de Thiene",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/messages/pont_messages/1980/documents/hf_jp-ii_mes_19800807_centenario-thiene.html",
+      "type": "official"
+    },
+    {
+      "title": "Carta con ocasión de la Fiesta de San Cayetano — 1 de agosto de 2016",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/letters/2016/documents/papa-francesco_20160801_san-cayetano.html",
+      "type": "official"
+    },
+    {
+      "title": "Discurso a los participantes en el Capítulo general de los Teatinos — 15 de enero de 2022",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/speeches/2022/january/documents/20220115-teatini.html",
+      "type": "official"
+    },
+    {
+      "title": "Videomensaje para la fiesta de San Cayetano en Argentina — 7 de agosto de 2013",
+      "organization": "Sala de Prensa de la Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/08/07/0517/01151.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una vocación nacida en tiempos difíciles",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cayetano nació en Vicenza en 1480, estudió derecho y recibió formación teológica. Su camino lo llevó hacia el sacerdocio y el servicio a la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dios puede orientar nuestros talentos y nuestra formación hacia el servicio de los demás."
+      },
+      "virtue": "Vocación",
+      "reflection": "¿Cómo puedo poner mis capacidades al servicio de algo que vaya más allá de mi propio beneficio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y propósito."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, ayúdanos a descubrir cómo podemos servir a Dios y a los demás con nuestros talentos. Amén."
+      },
+      "action": "Identifica una capacidad que poseas y piensa en una forma concreta de utilizarla para ayudar a alguien."
+    },
+    {
+      "day": 2,
+      "theme": "La renovación interior",
+      "title": "Cambiar desde el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cayetano buscó una renovación profunda de la vida cristiana y sacerdotal. Juan Pablo II destacó su deseo de reformar primero al hombre interior para vivir mejor el ministerio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los cambios duraderos comienzan cuando revisamos sinceramente nuestra propia vida."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué aspecto de mi vida necesita una renovación sincera?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean corregir un camino y comenzar de nuevo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, danos humildad para reconocer lo que necesitamos cambiar y valentía para comenzar ese camino. Amén."
+      },
+      "action": "Haz un examen breve de conciencia y elige un cambio concreto que puedas comenzar hoy."
+    },
+    {
+      "day": 3,
+      "theme": "La pobreza evangélica",
+      "title": "Soltar seguridades para confiar en Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cayetano y sus compañeros renunciaron a bienes y seguridades para vivir con un espíritu de pobreza evangélica y sostener su misión mediante el ministerio y las limosnas de los fieles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La confianza en Dios no elimina la responsabilidad, pero puede liberarnos de convertir las seguridades materiales en el centro de nuestra vida."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué seguridad material o preocupación ocupa demasiado espacio en mi corazón?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven incertidumbre económica y necesitan esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, enséñanos a confiar en Dios sin dejar de trabajar responsablemente por lo que necesitamos. Amén."
+      },
+      "action": "Comparte algo que tengas con una persona que lo necesite."
+    },
+    {
+      "day": 4,
+      "theme": "Los Teatinos",
+      "title": "Una comunidad para servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1524 Cayetano fundó con Juan Pedro Carafa y otros compañeros los Clérigos Regulares, conocidos como Teatinos. La comunidad buscaba vivir la oración, la pobreza, la vida común y el ministerio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una misión sostenida en comunidad puede ayudar a perseverar y a servir mejor."
+      },
+      "virtue": "Fraternidad",
+      "reflection": "¿Cómo puedo contribuir a que mi familia, comunidad o grupo sea un espacio de servicio y apoyo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras familias, comunidades y grupos de servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, enséñanos a construir comunidades donde la oración, la ayuda mutua y el servicio tengan un lugar central. Amén."
+      },
+      "action": "Realiza hoy una tarea que normalmente dejas a otra persona y hazla sin reclamar reconocimiento."
+    },
+    {
+      "day": 5,
+      "theme": "La caridad",
+      "title": "Acercarse a quien necesita ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cayetano sirvió a pobres, enfermos y personas abandonadas. Su obra no se limitó a predicar: estuvo acompañada por acciones concretas de misericordia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana se vuelve visible cuando respondemos de manera concreta ante una necesidad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad cercana estoy viendo pero todavía no he atendido?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas pobres, enfermas o abandonadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, danos ojos para reconocer a quien necesita ayuda y un corazón dispuesto a servir. Amén."
+      },
+      "action": "Haz hoy una obra de misericordia concreta y discreta."
+    },
+    {
+      "day": 6,
+      "theme": "El trabajo y el pan",
+      "title": "Pedir trabajo también es pedir dignidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción popular a San Cayetano se relacionó especialmente en Argentina con el pan y el trabajo. El papa Francisco ha explicado que pedir trabajo significa también pedir la dignidad que permite llevar el sustento al hogar."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El trabajo puede ser una forma de responsabilidad, dignidad y servicio, y quienes no lo encuentran necesitan acompañamiento y solidaridad."
+      },
+      "virtue": "Dignidad",
+      "reflection": "¿Cómo puedo valorar y respetar el trabajo de otras personas, especialmente el de quienes realizan labores poco reconocidas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan empleo y por las familias que dependen de un trabajo para sostenerse."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, acompaña a quienes buscan trabajo. Abre caminos de empleo digno y mueve nuestros corazones a ayudar a quienes atraviesan necesidad. Amén."
+      },
+      "action": "Si conoces a alguien que busca empleo, ofrece una ayuda concreta que esté a tu alcance."
+    },
+    {
+      "day": 7,
+      "theme": "La Providencia",
+      "title": "Confiar sin dejar de actuar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Cayetano estuvo marcada por la confianza en la Providencia. Su vida muestra una confianza activa: oración, trabajo pastoral, pobreza y servicio a los necesitados."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Confiar en Dios no significa permanecer pasivos; significa actuar con responsabilidad sin permitir que el miedo tenga la última palabra."
+      },
+      "virtue": "Providencia",
+      "reflection": "¿Qué preocupación necesito poner hoy en manos de Dios mientras hago responsablemente lo que sí puedo hacer?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven angustia ante necesidades económicas o familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, ayúdanos a confiar en la Providencia y a realizar con responsabilidad aquello que está en nuestras manos. Amén."
+      },
+      "action": "Escribe una preocupación concreta y, junto a ella, una acción responsable que puedas realizar."
+    },
+    {
+      "day": 8,
+      "theme": "El servicio",
+      "title": "Buscar primero el Reino de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cayetano evangelizó Roma, Venecia y Nápoles mediante el testimonio de su vida y las obras de misericordia. Su servicio unía oración, vida comunitaria, pobreza y atención a los pobres."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Buscar a Dios puede expresarse en una vida que se preocupa activamente por el bien de los demás."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué puedo hacer para que mi fe se traduzca en una ayuda concreta a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes dedican su vida al servicio de los demás."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, enséñanos a buscar primero el Reino de Dios y a convertir nuestra fe en servicio concreto. Amén."
+      },
+      "action": "Dedica parte de tu tiempo a una persona que necesite compañía, escucha o ayuda."
+    },
+    {
+      "day": 9,
+      "theme": "La perseverancia",
+      "title": "Una vida entregada hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cayetano murió en Nápoles el 7 de agosto de 1547. Su legado quedó unido a la renovación de la vida cristiana, la pobreza evangélica, la caridad y el servicio a los pobres y enfermos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia consiste en mantener el rumbo cuando una misión vale más que las dificultades del camino."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso de servicio, fe o responsabilidad quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan perseverancia para afrontar sus dificultades y por nuestra propia fidelidad a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Cayetano, intercede por nosotros. Ayúdanos a vivir con fe, trabajar con dignidad, servir con caridad y perseverar aun cuando las circunstancias sean difíciles. Amén."
+      },
+      "action": "Elige un compromiso concreto de servicio o responsabilidad que puedas mantener durante las próximas semanas."
+    }
+  ]
+}
