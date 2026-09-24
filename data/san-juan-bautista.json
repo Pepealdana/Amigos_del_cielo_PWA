@@ -1,0 +1,461 @@
+{
+  "id": "san-juan-bautista",
+  "slug": "san-juan-bautista",
+  "name": "San Juan Bautista",
+  "title": "Precursor de Jesucristo y profeta del Altísimo",
+  "subtitle": "La voz que prepara el camino del Señor",
+  "category": "Santos",
+  "image": "assets/images/santos/san_juan_bautista.webp",
+  "description": "Profeta y precursor de Jesús que llamó a la conversión, bautizó en el Jordán y señaló a Cristo como el Cordero de Dios.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-juan-bautista"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "day": 24,
+    "month": 6,
+    "text": "24 de junio",
+    "liturgicalRank": "Solemnidad",
+    "movable": false
+  },
+  "quote": {
+    "text": "Es preciso que él crezca y que yo disminuya.",
+    "reference": "Juan 3,30"
+  },
+  "patronages": [],
+  "virtues": [
+    "Conversión",
+    "Humildad",
+    "Valentía",
+    "Fidelidad",
+    "Oración",
+    "Sobriedad",
+    "Testimonio",
+    "Verdad",
+    "Perseverancia"
+  ],
+  "search": [
+    "san juan bautista",
+    "juan el bautista",
+    "juan bautista",
+    "precursor",
+    "profeta",
+    "bautismo",
+    "conversion",
+    "jordán",
+    "desierto",
+    "cordero de dios",
+    "herodes",
+    "martirio",
+    "adviento"
+  ],
+  "interventions": [
+    {
+      "id": "conversion",
+      "label": "Conversión y cambio de vida",
+      "keywords": [
+        "conversion",
+        "convertirse",
+        "arrepentimiento",
+        "pecado",
+        "cambio de vida",
+        "volver a dios"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y propósito",
+      "keywords": [
+        "vocacion",
+        "llamado",
+        "proposito",
+        "mision",
+        "camino",
+        "discernimiento"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oracion",
+        "desierto",
+        "silencio",
+        "vida interior",
+        "escuchar a dios"
+      ]
+    },
+    {
+      "id": "valentia",
+      "label": "Valentía para decir la verdad",
+      "keywords": [
+        "valentia",
+        "verdad",
+        "denunciar",
+        "coraje",
+        "fidelidad",
+        "testimonio"
+      ]
+    },
+    {
+      "id": "bautismo",
+      "label": "Bautismo y vida cristiana",
+      "keywords": [
+        "bautismo",
+        "bautizar",
+        "jordán",
+        "vida cristiana",
+        "fe"
+      ]
+    },
+    {
+      "id": "humildad",
+      "label": "Humildad y servicio",
+      "keywords": [
+        "humildad",
+        "servicio",
+        "disminuir",
+        "protagonismo",
+        "cristo"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y reconciliación",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "reconciliacion",
+        "corazones"
+      ]
+    },
+    {
+      "id": "persecucion",
+      "label": "Pruebas y perseverancia",
+      "keywords": [
+        "persecucion",
+        "prueba",
+        "sufrimiento",
+        "martirio",
+        "dificultad",
+        "perseverancia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Juan Bautista nació de Zacarías e Isabel y fue presentado por los Evangelios como el profeta que prepararía el camino del Señor. Creció en el desierto, comenzó a predicar un bautismo de conversión y llamó a sus contemporáneos a producir frutos dignos de arrepentimiento. Bautizó a Jesús en el Jordán y lo señaló como el Cordero de Dios. Su fidelidad a la verdad lo llevó a denunciar públicamente la conducta de Herodes Antipas y terminó encarcelado y ejecutado. La Iglesia celebra su nacimiento el 24 de junio y su martirio el 29 de agosto.",
+    "extended": "Juan Bautista ocupa un lugar singular en los Evangelios: es hijo de Zacarías e Isabel y, según el relato de Lucas, su nacimiento fue anunciado por el ángel Gabriel y estuvo unido desde el comienzo a una misión concreta: preparar un pueblo dispuesto para el Señor. El Evangelio lo presenta creciendo en el desierto, un lugar que la tradición cristiana ha entendido como espacio de austeridad, oración y escucha de Dios. Cuando comenzó su ministerio, recorrió la región del Jordán anunciando un bautismo de conversión y pidiendo frutos concretos de una vida renovada. Su mensaje no se quedó en palabras: invitó a compartir con quien no tenía, a evitar abusos y a actuar con justicia. En el momento en que Jesús se acercó al Jordán, Juan reconoció en él al enviado de Dios y lo señaló como el Cordero de Dios. Aquí aparece uno de los rasgos más profundos de su testimonio: su misión no consistía en ocupar el centro, sino en conducir a otros hacia Cristo. Por eso la tradición cristiana ha asociado a Juan con la humildad expresada en sus palabras de que Cristo debía crecer y él disminuir. No existe en los Evangelios una narración de una conversión de Juan provocada por un pecado personal concreto; presentarlo de esa manera sería inventar un episodio que las fuentes no cuentan. Su transformación puede entenderse más bien como el desarrollo fiel de una vocación recibida desde antes de su nacimiento y vivida mediante austeridad, oración, predicación y servicio. Su historia también quedó marcada por el enfrentamiento con Herodes Antipas. Juan denunció que Herodes tomara por mujer a Herodías, la esposa de su hermano, y fue encarcelado. Según los Evangelios sinópticos, Herodes terminó ordenando su decapitación durante un banquete, después de una petición de la hija de Herodías. Benedicto XVI presentó este episodio como el testimonio final de una fidelidad que no aceptó callar la verdad. La iconografía de San Juan Bautista recoge varios elementos directamente vinculados con los Evangelios y con la tradición cristiana: la vestidura de piel de camello recuerda su vida austera en el desierto; el bastón o cruz con la inscripción Ecce Agnus Dei alude a su misión de señalar a Cristo; el cordero representa su anuncio de Jesús como el Cordero de Dios; y en representaciones de su martirio puede aparecer la bandeja con su cabeza. Estos símbolos deben distinguirse de los datos históricos y bíblicos: la iconografía es una forma posterior de representar visualmente su misión y su testimonio. La Iglesia celebra su Natividad el 24 de junio, una de las celebraciones más antiguas dedicadas a un santo, y su martirio el 29 de agosto. Su figura queda así unida a tres palabras que atraviesan su vida: conversión, testimonio y humildad."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Juan Bautista, profeta y precursor del Señor, acompáñame durante estos nueve días. Enséñame a preparar mi corazón para Cristo, a reconocer lo que necesita cambiar en mi vida y a vivir con humildad, valentía y fidelidad. Presento ante Dios la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Juan Bautista, testigo fiel de Cristo, intercede por nosotros. Ayúdanos a vivir una conversión sincera, a buscar la verdad sin miedo y a señalar siempre hacia Jesús. Enséñanos a disminuir nuestro egoísmo para que Cristo ocupe el centro de nuestra vida. Ruega por nuestras familias, por quienes atraviesan pruebas y por todos los que necesitan volver a Dios. Amén.",
+  "intentions": [
+    "Por quienes necesitan iniciar un camino de conversión y reconciliación con Dios.",
+    "Por quienes buscan discernir su vocación y propósito.",
+    "Por familias que necesitan reconciliación y diálogo.",
+    "Por quienes tienen que defender la verdad con prudencia y valentía.",
+    "Por quienes se preparan para recibir o vivir más plenamente la gracia del Bautismo.",
+    "Por quienes atraviesan persecución, injusticia o dificultades por causa de su fe.",
+    "Por sacerdotes, catequistas y personas que anuncian el Evangelio.",
+    "Por quienes se sienten lejos de Dios y desean regresar a Él.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 1,5-25"
+      },
+      {
+        "reference": "Lucas 1,57-80"
+      },
+      {
+        "reference": "Lucas 3,1-20"
+      },
+      {
+        "reference": "Mateo 3,1-17"
+      },
+      {
+        "reference": "Juan 1,19-34"
+      },
+      {
+        "reference": "Mateo 14,1-12"
+      }
+    ],
+    "documents": [],
+    "related": [
+      "Jesucristo",
+      "Santa Isabel",
+      "San Zacarías"
+    ]
+  },
+  "sources": [
+    {
+      "title": "El martirio de san Juan Bautista — Audiencia general, 29 de agosto de 2012",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2012/documents/hf_ben-xvi_aud_20120829.html",
+      "type": "official"
+    },
+    {
+      "title": "Directorio sobre la piedad popular y la liturgia — San Juan Bautista",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 24 de junio de 1984 — Natividad de San Juan Bautista",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1984/documents/hf_jp-ii_ang_19840624.html",
+      "type": "official"
+    },
+    {
+      "title": "Evangelio según san Lucas, capítulo 3",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/bibbia/es/nuovo-testamento/vangeli/luca/capitolo-3.index.html",
+      "type": "official"
+    },
+    {
+      "title": "Solemnidad de la Natividad de San Juan Bautista",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/062426.cfm",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "El llamado",
+      "title": "Una vida marcada por una misión",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El nacimiento de Juan estuvo rodeado, según el Evangelio de Lucas, por un anuncio que señalaba su futura misión. Sería profeta del Altísimo y prepararía al pueblo para recibir al Señor."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Nuestra vida puede adquirir sentido cuando descubrimos que los dones recibidos no son solamente para nosotros, sino también para servir."
+      },
+      "virtue": "Vocación",
+      "reflection": "¿Qué capacidades y responsabilidades puedo poner al servicio de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y el propósito de su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, ayúdame a reconocer la misión que Dios me confía y a vivirla con fidelidad, sin buscar protagonismo. Amén."
+      },
+      "action": "Escribe una capacidad tuya y una forma concreta de ponerla al servicio de alguien."
+    },
+    {
+      "day": 2,
+      "theme": "El desierto",
+      "title": "Aprender a escuchar a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El Evangelio dice que Juan creció y se fortaleció en el espíritu y permaneció en lugares desiertos hasta el momento de manifestarse a Israel. Su vida pública estuvo marcada por la austeridad y la escucha."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El silencio y la sencillez pueden ayudarnos a reconocer lo que realmente importa y a escuchar antes de actuar."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacios de silencio necesito recuperar para escuchar mejor a Dios y a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven ruido, ansiedad o dispersión y necesitan recuperar espacios de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, enséñame a buscar momentos de silencio y oración para reconocer la voz de Dios y ordenar mi vida. Amén."
+      },
+      "action": "Reserva hoy al menos diez minutos sin pantallas para guardar silencio y orar."
+    },
+    {
+      "day": 3,
+      "theme": "La conversión",
+      "title": "Dar frutos de una vida nueva",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan recorrió la región del Jordán predicando un bautismo de conversión. A quienes acudían les pedía frutos concretos: compartir con quien necesitaba y actuar con justicia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cambiar no consiste solamente en reconocer un error. La conversión se expresa en decisiones y acciones nuevas."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué conducta concreta necesito revisar y qué cambio puedo comenzar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean reconciliarse con Dios y comenzar de nuevo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, ayúdame a reconocer con sinceridad lo que debo cambiar y dame fuerza para convertir mis decisiones en acciones nuevas. Amén."
+      },
+      "action": "Elige una conducta concreta que quieras corregir y realiza hoy un primer cambio verificable."
+    },
+    {
+      "day": 4,
+      "theme": "El Jordán",
+      "title": "Reconocer a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan bautizó a Jesús en el Jordán. Después dio testimonio de haber reconocido en él al enviado de Dios y lo señaló como el Cordero de Dios que quita el pecado del mundo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe cristiana no termina en nosotros. Como Juan, estamos llamados a reconocer a Cristo y orientar hacia él nuestra vida y nuestro testimonio."
+      },
+      "virtue": "Testimonio",
+      "reflection": "¿Con mis palabras y decisiones hacia qué valores estoy orientando a las personas que me rodean?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se preparan para el Bautismo y por quienes buscan renovar su vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, ayúdame a reconocer a Cristo y a dar testimonio de él con una vida coherente, humilde y servicial. Amén."
+      },
+      "action": "Realiza hoy una acción que haga visible tu fe mediante el servicio a otra persona."
+    },
+    {
+      "day": 5,
+      "theme": "La humildad",
+      "title": "Que Cristo crezca",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cuando algunos comenzaron a seguir a Jesús, Juan dejó claro que su misión no era quedarse con ellos. Su testimonio apuntaba hacia Cristo y expresó esta actitud con la frase: «Es preciso que él crezca y que yo disminuya»."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La humildad no significa despreciar lo que somos, sino reconocer que no todo debe girar alrededor de nosotros."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿En qué situación necesito dejar de buscar reconocimiento para servir mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes ejercen responsabilidades y necesitan vivirlas sin caer en el orgullo o el protagonismo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, enséñame a reconocer mis dones sin convertirlos en motivo de orgullo. Que Cristo ocupe el centro de mi vida. Amén."
+      },
+      "action": "Haz hoy un servicio útil sin buscar que otros sepan que fuiste tú quien lo hizo."
+    },
+    {
+      "day": 6,
+      "theme": "La verdad",
+      "title": "No callar ante la injusticia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan denunció públicamente la relación de Herodes Antipas con Herodías y por ello fue encarcelado. Su predicación no se acomodó al poder cuando entendió que debía señalar una conducta contraria a la Ley."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Decir la verdad requiere prudencia, pero también valentía. La fidelidad no consiste en callar siempre para evitar dificultades."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Cómo puedo defender la verdad con respeto, sin agresividad ni miedo al rechazo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren injusticias y por quienes necesitan valentía para defender la dignidad de otras personas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, dame valentía para buscar la verdad y prudencia para expresarla con respeto, sin miedo ni violencia. Amén."
+      },
+      "action": "Cuando presencies una situación injusta, evita la indiferencia y busca una forma prudente de ayudar."
+    },
+    {
+      "day": 7,
+      "theme": "La prueba",
+      "title": "Permanecer fiel en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan terminó encarcelado a causa de su testimonio. Los Evangelios relatan que Herodes ordenó su ejecución durante un banquete. La Iglesia conserva este episodio como el martirio del precursor."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad se prueba especialmente cuando mantener nuestros principios tiene un costo personal."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué convicción buena necesito mantener aunque hacerlo me resulte difícil?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren persecución, injusticia o dificultades por sus convicciones y su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, acompaña a quienes atraviesan pruebas. Ayúdanos a permanecer fieles al bien aun cuando el camino sea difícil. Amén."
+      },
+      "action": "Mantén hoy un compromiso bueno que hayas estado tentado a abandonar."
+    },
+    {
+      "day": 8,
+      "theme": "El testimonio",
+      "title": "Señalar el camino hacia Jesús",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan no se presentó como el Mesías. Su misión fue preparar el camino y dar testimonio de quien venía después de él. La tradición cristiana lo reconoce precisamente como el Precursor."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una persona puede influir mucho sin ponerse en el centro. El verdadero servicio ayuda a otros a encontrar el bien, la verdad y a Cristo."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Estoy ayudando a otros a crecer o necesito que dependan de mí para sentirme importante?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por padres, educadores, catequistas y acompañantes que ayudan a otros a crecer en libertad y responsabilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, enséñanos a acompañar sin apropiarnos de la vida de otros y a orientar siempre hacia Cristo y el bien. Amén."
+      },
+      "action": "Ayuda hoy a alguien a resolver una dificultad sin hacerte indispensable ni esperar reconocimiento."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Una vida que prepara el camino",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Iglesia celebra el nacimiento de Juan Bautista el 24 de junio y su martirio el 29 de agosto. Su vida quedó unida para siempre al anuncio de Cristo: conversión, testimonio, humildad y fidelidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El legado de una persona no se mide solamente por cuánto ocupa el centro, sino también por cuánto bien ayuda a preparar en la vida de otros."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "Después de esta novena, ¿qué cambio concreto quiero mantener para preparar mejor mi corazón y servir a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes desean acercarse nuevamente a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Bautista, precursor de Cristo, intercede por nosotros. Ayúdanos a vivir una conversión sincera, a reconocer a Jesús, a buscar la verdad con valentía y a servir con humildad. Que nuestras palabras y obras preparen caminos de reconciliación, esperanza y fe. Amén."
+      },
+      "action": "Elige un compromiso concreto de esta novena y mantenlo durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
