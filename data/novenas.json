@@ -120,5 +120,100 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-antonio-de-padua",
+    "slug": "san-antonio-de-padua",
+    "name": "San Antonio de Padua",
+    "title": "Presbítero y Doctor de la Iglesia",
+    "subtitle": "Doctor Evangélico",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/san_antonio_de_padua.webp",
+    "file": "data/san-antonio-de-padua.json",
+    "description": "Predicador franciscano, maestro de la fe y servidor de la Palabra de Dios.",
+    "feast": {
+      "day": 13,
+      "month": 6,
+      "text": "13 de junio",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san antonio",
+      "san antonio de padua",
+      "objetos perdidos",
+      "cosas perdidas",
+      "fe perdida",
+      "estudio",
+      "biblia",
+      "predicacion",
+      "oracion",
+      "franciscanos"
+    ],
+    "interventions": [
+      {
+        "id": "objetos-perdidos",
+        "label": "Objetos y documentos perdidos",
+        "keywords": [
+          "perdido",
+          "perdida",
+          "perdidos",
+          "perdidas",
+          "objetos",
+          "documentos",
+          "encontrar"
+        ]
+      },
+      {
+        "id": "fe-perdida",
+        "label": "Recuperar la fe y la vida espiritual",
+        "keywords": [
+          "fe",
+          "fe perdida",
+          "dudas de fe",
+          "conversion",
+          "volver a dios",
+          "vida espiritual"
+        ]
+      },
+      {
+        "id": "estudio-formacion",
+        "label": "Estudio y formación cristiana",
+        "keywords": [
+          "estudio",
+          "estudiantes",
+          "teologia",
+          "formacion",
+          "aprendizaje",
+          "sabiduria",
+          "biblia"
+        ]
+      },
+      {
+        "id": "predicacion-evangelizacion",
+        "label": "Predicación y evangelización",
+        "keywords": [
+          "predicacion",
+          "predicar",
+          "evangelizacion",
+          "catequesis",
+          "apostolado",
+          "mision"
+        ]
+      },
+      {
+        "id": "necesidades",
+        "label": "Necesidades y dificultades",
+        "keywords": [
+          "necesidad",
+          "dificultad",
+          "problema",
+          "ayuda",
+          "afliccion",
+          "angustia"
+        ]
+      }
+    ]
   }
 ]
