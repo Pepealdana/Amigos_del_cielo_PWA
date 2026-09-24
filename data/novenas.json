@@ -23,7 +23,8 @@
     "feast": {
       "day": 19,
       "month": 3,
-      "text": "19 de marzo"
+      "text": "19 de marzo",
+      "movable": false
     },
 
     "status": "published",
