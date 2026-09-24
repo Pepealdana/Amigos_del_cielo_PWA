@@ -1,0 +1,451 @@
+{
+  "id": "santa-margarita-maria-alacoque",
+  "slug": "santa-margarita-maria-alacoque",
+  "name": "Santa Margarita María de Alacoque",
+  "title": "Virgen y religiosa de la Visitación, apóstol del Sagrado Corazón de Jesús",
+  "subtitle": "Testigo de la misericordia de Cristo, la oración y la reparación",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_margarita_maria_de_alacoque.webp",
+  "description": "Religiosa francesa de la Visitación cuya vida de oración y sus experiencias místicas estuvieron vinculadas a la difusión de la devoción al Sagrado Corazón de Jesús.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-margarita-maria-alacoque"
+  },
+  "ui": {
+    "primaryColor": "#5B2430",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 16,
+    "month": 10,
+    "text": "16 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "patronages": [
+    "Devotos del Sagrado Corazón de Jesús"
+  ],
+  "virtues": [
+    "Amor a Cristo",
+    "Oración",
+    "Confianza",
+    "Humildad",
+    "Obediencia",
+    "Reparación",
+    "Paciencia",
+    "Caridad",
+    "Entrega"
+  ],
+  "search": [
+    "santa margarita maría alacoque",
+    "margarita maria alacoque",
+    "margarita alacoque",
+    "sagrado corazon de jesus",
+    "sagrado corazón de jesús",
+    "visitación",
+    "paray-le-monial",
+    "paray le monial",
+    "primeros viernes",
+    "hora santa",
+    "reparación",
+    "eucaristía",
+    "amor de cristo"
+  ],
+  "interventions": [
+    {
+      "id": "sagrado-corazon",
+      "label": "Sagrado Corazón de Jesús y vida espiritual",
+      "keywords": [
+        "sagrado corazon",
+        "sagrado corazón",
+        "jesus",
+        "jesús",
+        "amor de cristo",
+        "corazon de jesus",
+        "corazón de jesús"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y consagración del hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "casa",
+        "consagracion",
+        "consagración"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermedad, sufrimiento y consuelo",
+      "keywords": [
+        "enfermedad",
+        "enfermos",
+        "dolor",
+        "sufrimiento",
+        "prueba",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión, perdón y reparación",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "perdon",
+        "perdón",
+        "pecado",
+        "reparacion",
+        "reparación",
+        "arrepentimiento"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y adoración eucarística",
+      "keywords": [
+        "oracion",
+        "oración",
+        "adoracion",
+        "adoración",
+        "eucaristia",
+        "eucaristía",
+        "hora santa",
+        "silencio"
+      ]
+    },
+    {
+      "id": "confianza",
+      "label": "Confianza en Dios",
+      "keywords": [
+        "confianza",
+        "fe",
+        "esperanza",
+        "miedo",
+        "temor",
+        "abandono"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "vida religiosa",
+        "religiosa",
+        "consagracion",
+        "consagración",
+        "discernimiento"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Santa Margarita María de Alacoque nació en Francia en 1647 y entró en la Orden de la Visitación en Paray-le-Monial. Su vida espiritual estuvo marcada por la oración, la Eucaristía y experiencias místicas relacionadas con el Sagrado Corazón de Jesús. Murió en 1690 y fue canonizada por el papa Benedicto XV en 1920.",
+    "extended": "Margarita María Alacoque nació el 22 de julio de 1647 en Lautecour, en la región de Borgoña, Francia. Desde joven desarrolló una profunda vida de oración y una especial devoción a la Eucaristía. La muerte de su padre cuando era niña dejó a su familia en una situación difícil, y durante esos años conoció también enfermedad y limitaciones que marcaron su camino espiritual.\n\nDespués de una etapa en la que su familia esperaba que siguiera una vida distinta, Margarita discernió su vocación religiosa. El 25 de mayo de 1671 ingresó en la Orden de la Visitación de Santa María en Paray-le-Monial y tomó el nombre religioso de María. Allí vivió una vida marcada por la obediencia, la oración, el trabajo comunitario y una particular atención a la presencia de Cristo en la Eucaristía.\n\nEntre 1673 y 1675 relató varias experiencias místicas en las que contempló a Cristo y recibió, según su propio testimonio, una llamada a promover una devoción centrada en su Sagrado Corazón. La Iglesia presenta estas experiencias como parte de su historia espiritual; no deben confundirse con hechos históricos verificables del mismo modo que sus fechas, lugares o funciones dentro de la comunidad.\n\nEl mensaje que Margarita vinculó al Sagrado Corazón ponía en el centro el amor de Cristo y la respuesta humana de amor, confianza y reparación. Entre las prácticas asociadas a esta espiritualidad se encuentran la adoración eucarística, la comunión de los primeros viernes y la celebración del Sagrado Corazón. La devoción no nació exclusivamente con Margarita: ya existían expresiones anteriores de veneración al Corazón de Cristo, y el papa Pío XII destacó posteriormente el papel de diversos santos en su desarrollo.\n\nSu misión estuvo acompañada por el jesuita san Claudio de la Colombière, quien fue su director espiritual y ayudó a difundir y discernir el mensaje que ella comunicaba. La relación entre ambos fue importante para la expansión de la devoción al Sagrado Corazón, aunque la recepción de las experiencias de Margarita dentro de su propia comunidad fue inicialmente difícil.\n\nMargarita fue encargada de formar a otras religiosas y continuó enseñando mediante su ejemplo la oración, la humildad, la obediencia y la confianza en Cristo. Murió en Paray-le-Monial el 17 de octubre de 1690. Fue beatificada por el papa Pío IX en 1864 y canonizada por el papa Benedicto XV en 1920.\n\nLa Iglesia celebra su memoria litúrgica el 16 de octubre. Su legado está estrechamente unido a la espiritualidad del Sagrado Corazón de Jesús, entendida como contemplación del amor de Cristo y respuesta mediante la vida cristiana, la oración, la caridad y la reparación."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nSanta Margarita María de Alacoque, mujer de oración y discípula de Cristo, acompáñanos durante estos nueve días. Enséñanos a contemplar el amor de Jesús, a confiar en su misericordia y a responder a ese amor con una vida de caridad, oración y servicio. Presentamos nuestras intenciones y pedimos la gracia de acercarnos más al Corazón de Cristo. Amén.",
+  "closingPrayer": "Señor Jesús, gracias por el testimonio de Santa Margarita María. Haz que al contemplar tu Sagrado Corazón aprendamos a amar con mayor generosidad, a reparar el mal con el bien y a servir a nuestros hermanos. Danos confianza en las pruebas, humildad en nuestras tareas y perseverancia en la oración. Por intercesión de Santa Margarita María, recibe nuestras intenciones. Amén.",
+  "intentions": [
+    "Por quienes desean acercarse nuevamente a Jesús y necesitan recuperar la confianza en su misericordia.",
+    "Por las familias, para que sus hogares sean espacios de amor, perdón, oración y servicio.",
+    "Por las personas que sufren enfermedad, soledad, duelo o situaciones que ponen a prueba su esperanza.",
+    "Por quienes buscan la conversión y necesitan fuerza para comenzar una vida nueva.",
+    "Por los sacerdotes, religiosos y religiosas, para que vivan con fidelidad su vocación y sirvan con caridad.",
+    "Por quienes tienen dificultades para perdonar, para que encuentren caminos de reconciliación.",
+    "Por quienes desean fortalecer su vida de oración y su relación con la Eucaristía.",
+    "Por quienes atraviesan pruebas y necesitan aprender a confiar en Dios sin perder la esperanza.",
+    "Presenta a Dios tu intención particular y pide la gracia de responder a su amor con una obra concreta de caridad."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Romanos 5,5-8"
+      },
+      {
+        "reference": "Efesios 3,14-19"
+      },
+      {
+        "reference": "1 Juan 4,7-12"
+      }
+    ],
+    "documents": [
+      "Haurietis Aquas, de Pío XII"
+    ],
+    "related": [
+      "Sagrado Corazón de Jesús",
+      "Eucaristía",
+      "Oración",
+      "Misericordia",
+      "Reparación",
+      "Caridad"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Haurietis Aquas",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Memoria opcional de Santa Margarita María Alacoque, virgen",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/bible/readings/1016-memorial-margaret-mary-alacoque.cfm",
+      "type": "official"
+    },
+    {
+      "title": "San Claudio de la Colombière, S.I. (1641-1682) - biografía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19920531_la-colombiere_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Santa Margarita María Alacoque",
+      "organization": "EWTN",
+      "url": "https://www.ewtn.com/es/catolicismo/santos/margarita-maria-de-alacoque-14991",
+      "type": "reference"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "El amor de Cristo",
+      "title": "Dejarse amar por Jesús",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Margarita María creció en una familia católica y desde joven desarrolló una intensa vida de oración y amor a la Eucaristía. Las dificultades familiares y la enfermedad también formaron parte de sus primeros años."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dejarse amar por Jesús. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Amor a Cristo",
+      "reflection": "¿Creo realmente que Dios me ama y qué cambia ese amor en mi manera de vivir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan descubrir que son amados por Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, enséñanos a contemplar el amor de Cristo y a responderle con una vida sincera. Amén."
+      },
+      "action": "Haz hoy una oración breve dando gracias a Jesús por tres signos concretos de su amor en tu vida."
+    },
+    {
+      "day": 2,
+      "theme": "La Eucaristía y la oración",
+      "title": "Buscar a Cristo en el silencio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En la Visitación de Paray-le-Monial, Margarita vivió una vida de oración, obediencia y servicio comunitario, con especial atención a la presencia de Cristo en la Eucaristía."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Buscar a Cristo en el silencio. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio real estoy dando a la oración y a la presencia de Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar el hábito de la oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, ayúdanos a buscar a Jesús con un corazón disponible y perseverante. Amén."
+      },
+      "action": "Reserva unos minutos de silencio para orar ante el Sagrario o, si no es posible, en un lugar tranquilo."
+    },
+    {
+      "day": 3,
+      "theme": "Confiar en medio de la prueba",
+      "title": "Entregar a Dios aquello que no puedo controlar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su vida religiosa atravesó pruebas y enfermedades. Su espiritualidad estuvo marcada por la confianza en Dios y por el deseo de permanecer fiel a Cristo aun cuando las circunstancias fueran difíciles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Entregar a Dios aquello que no puedo controlar. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación necesito poner hoy en manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedad, duelo, incertidumbre o dificultades familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, acompáñanos en las pruebas y enséñanos a confiar en Cristo sin abandonar la esperanza. Amén."
+      },
+      "action": "Escribe una preocupación concreta y entrégala conscientemente a Dios en oración."
+    },
+    {
+      "day": 4,
+      "theme": "La humildad y la obediencia",
+      "title": "Servir sin buscar protagonismo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Margarita aprendió a vivir su vocación religiosa mediante la obediencia y el servicio. Su camino espiritual no consistió solamente en experiencias extraordinarias, sino también en aceptar las tareas y relaciones de la vida comunitaria."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Servir sin buscar protagonismo. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿En qué situación necesito aceptar con humildad una corrección o una tarea que no me da reconocimiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes ejercen responsabilidades dentro de la Iglesia, la familia y la sociedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, enséñanos a servir con humildad y a buscar el bien antes que nuestro propio reconocimiento. Amén."
+      },
+      "action": "Realiza hoy una tarea necesaria sin anunciarla ni esperar elogios."
+    },
+    {
+      "day": 5,
+      "theme": "Amor y reparación",
+      "title": "Responder al amor con el bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Según sus escritos y la tradición de la devoción al Sagrado Corazón, Margarita recibió de Cristo una llamada a promover una espiritualidad de amor y reparación. Estas experiencias pertenecen al ámbito de su vida mística."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Responder al amor con el bien. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Reparación",
+      "reflection": "¿Qué daño puedo ayudar a reparar mediante una acción concreta de amor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas heridas por el rechazo, la violencia, la injusticia o la indiferencia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, enséñanos a responder al amor de Cristo reparando el mal mediante el bien, el perdón y la caridad. Amén."
+      },
+      "action": "Corrige hoy una pequeña falta, pide perdón si corresponde o realiza una acción que ayude a reparar un daño."
+    },
+    {
+      "day": 6,
+      "theme": "El perdón y la misericordia",
+      "title": "No devolver el mal con el mal",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El mensaje que Margarita vinculó al Sagrado Corazón insistía en el amor de Cristo y en una respuesta humana marcada por la conversión, la confianza y la reparación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No devolver el mal con el mal. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Hay alguien a quien necesito perdonar o una herida que debo entregar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven conflictos familiares, rupturas o dificultades para perdonar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, ayúdanos a recibir la misericordia de Dios y a compartirla con quienes nos han herido. Amén."
+      },
+      "action": "Ora por una persona con la que tengas una dificultad y evita hoy cualquier palabra que aumente el conflicto."
+    },
+    {
+      "day": 7,
+      "theme": "La caridad concreta",
+      "title": "Convertir la devoción en servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Margarita enseñó a otras religiosas y difundió una espiritualidad que unía la oración con la caridad. El Sagrado Corazón no era para ella una devoción aislada, sino una invitación a responder al amor de Cristo con toda la vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Convertir la devoción en servicio. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Cómo se manifiesta mi amor a Cristo en la manera como trato a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas pobres, solas, enfermas o necesitadas de acompañamiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, haz que nuestra oración se transforme en obras de amor y servicio. Amén."
+      },
+      "action": "Haz una obra concreta de misericordia sin esperar reconocimiento."
+    },
+    {
+      "day": 8,
+      "theme": "Perseverar en la vida espiritual",
+      "title": "Continuar cuando no sentimos consuelo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida espiritual de Margarita estuvo marcada por la perseverancia. La recepción de sus experiencias místicas no fue siempre sencilla y contó con momentos de incomprensión dentro de su propia comunidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Continuar cuando no sentimos consuelo. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué práctica espiritual necesito recuperar y sostener con mayor fidelidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten cansados o desanimados en su camino de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, enséñanos a perseverar cuando la oración se hace difícil y a permanecer fieles a Cristo. Amén."
+      },
+      "action": "Elige una práctica sencilla de oración y comprométete a mantenerla durante los próximos siete días."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida centrada en Cristo",
+      "title": "Hacer del amor de Jesús una forma de vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Margarita murió en Paray-le-Monial el 17 de octubre de 1690. Fue beatificada en 1864 y canonizada en 1920. Su memoria litúrgica se celebra el 16 de octubre y su nombre permanece estrechamente unido a la difusión de la devoción al Sagrado Corazón."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Hacer del amor de Jesús una forma de vida. La espiritualidad cristiana se expresa en decisiones concretas: oración, confianza, conversión, caridad y servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué aspecto de mi vida necesita estar más orientado hacia Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por la gracia de vivir en el amor de Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Margarita María, ayúdanos a vivir con el corazón puesto en Cristo y a entregar nuestras capacidades, decisiones y relaciones al servicio del bien. Amén."
+      },
+      "action": "Elige una acción concreta que exprese tu compromiso de vivir con mayor amor, oración y servicio."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
