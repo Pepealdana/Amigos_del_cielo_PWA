@@ -1,39 +1,124 @@
 [
   {
     "id": "san-jose",
-
     "slug": "san-jose",
-
     "name": "San José",
-
     "title": "Esposo de la Virgen María y custodio de Jesús",
-
     "subtitle": "Patrono de la Iglesia Universal",
-
     "category": "Santos",
-
     "featured": true,
-
     "image": "assets/images/santos/san_jose.webp",
-
     "file": "data/san-jose.json",
-
     "description": "Modelo de fe, obediencia, trabajo y confianza en Dios.",
-
     "feast": {
       "day": 19,
       "month": 3,
       "text": "19 de marzo",
       "movable": false
     },
-
     "status": "published",
-
     "search": [
       "san jose",
       "jose",
       "trabajo",
-      "familia"
+      "familia",
+      "empleo",
+      "desempleo",
+      "hogar",
+      "migrantes",
+      "refugiados",
+      "pobreza",
+      "enfermos",
+      "moribundos",
+      "iglesia"
+    ],
+    "interventions": [
+      {
+        "id": "trabajo-empleo",
+        "label": "Trabajo y empleo",
+        "keywords": [
+          "trabajo",
+          "empleo",
+          "desempleo",
+          "trabajador",
+          "trabajadores",
+          "oficio",
+          "profesion",
+          "sustento"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "matrimonio",
+          "padres",
+          "padre",
+          "madre",
+          "hijos",
+          "sagrada familia"
+        ]
+      },
+      {
+        "id": "migrantes-refugiados",
+        "label": "Migrantes y refugiados",
+        "keywords": [
+          "migrante",
+          "migrantes",
+          "refugiado",
+          "refugiados",
+          "desplazados",
+          "exiliados"
+        ]
+      },
+      {
+        "id": "necesidad-pobreza",
+        "label": "Necesidad y pobreza",
+        "keywords": [
+          "pobreza",
+          "pobres",
+          "necesidad",
+          "indigencia",
+          "carencia",
+          "ayuda"
+        ]
+      },
+      {
+        "id": "enfermos-cuidadores",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "sufrimiento",
+          "afligidos",
+          "cuidados",
+          "cuidadores"
+        ]
+      },
+      {
+        "id": "moribundos",
+        "label": "Moribundos y buena muerte",
+        "keywords": [
+          "moribundo",
+          "moribundos",
+          "buena muerte",
+          "muerte",
+          "agonizantes"
+        ]
+      },
+      {
+        "id": "iglesia",
+        "label": "Iglesia",
+        "keywords": [
+          "iglesia",
+          "iglesia universal",
+          "pastores",
+          "vocaciones"
+        ]
+      }
     ]
   }
 ]
