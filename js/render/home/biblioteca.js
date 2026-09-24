@@ -12,7 +12,22 @@ function renderBiblioteca(catalogo = []) {
         );
     }
 
-    const categorias = obtenerCategorias(catalogo);
+    const categorias =
+        obtenerCategorias(catalogo);
+
+    let listaInicial =
+        filtrarCategoria(
+            catalogo,
+            categoriaBibliotecaPWA
+        );
+
+    if (state.busqueda.trim()) {
+        listaInicial =
+            buscarNovenas(
+                listaInicial,
+                state.busqueda
+            );
+    }
 
     return `
 
@@ -23,41 +38,55 @@ function renderBiblioteca(catalogo = []) {
                 <h2>Biblioteca</h2>
 
                 <p>
-                    Encuentra una novena y comienza tu camino de oración.
+                    Encuentra una novena o un santo
+                    y comienza tu camino de oración.
                 </p>
 
             </header>
 
             <div class="search-box">
 
-                <span class="search-box-icon" aria-hidden="true">🔎</span>
+                <span
+                    class="search-box-icon"
+                    aria-hidden="true">
+                    🔎
+                </span>
 
                 <input
                     id="library-search"
                     type="search"
-                    placeholder="Buscar una novena..."
+                    value="${escaparHTML(state.busqueda || "")}"
+                    placeholder="Buscar una novena o un santo..."
                     autocomplete="off"
-                    aria-label="Buscar una novena en la biblioteca">
+                    aria-label="Buscar una novena o un santo en la biblioteca">
 
             </div>
 
-            <div class="library-filters" aria-label="Categorías">
+            <div
+                class="library-filters"
+                aria-label="Categorías">
 
                 ${categorias.map(categoria => `
 
                     <button
                         class="library-filter ${categoria === "Todas" ? "active" : ""}"
                         type="button"
-                        data-category="${categoria}">
-                        ${categoria}
+                        data-category="${escaparHTML(categoria)}">
+
+                        ${escaparHTML(categoria)}
+
                     </button>
 
                 `).join("")}
 
             </div>
 
-            <div id="library-list" class="library-list">
-                ${renderListaBiblioteca(catalogo)}
+            <div
+                id="library-list"
+                class="library-list">
+
+                ${renderListaBiblioteca(listaInicial)}
+
             </div>
 
         </section>
@@ -67,11 +96,16 @@ function renderBiblioteca(catalogo = []) {
 
 function renderListaBiblioteca(catalogo = []) {
 
-    if (!Array.isArray(catalogo) || catalogo.length === 0) {
+    if (
+        !Array.isArray(catalogo) ||
+        catalogo.length === 0
+    ) {
         return `
             <div class="simple-panel">
-                <strong>No encontramos novenas.</strong>
-                <p>Prueba con otro término de búsqueda.</p>
+                <strong>No encontramos resultados.</strong>
+                <p>
+                    Prueba con otro término o categoría.
+                </p>
             </div>
         `;
     }
@@ -82,31 +116,39 @@ function renderListaBiblioteca(catalogo = []) {
             class="library-item"
             type="button"
             data-action="open-novena"
-            data-id="${novena.id}">
+            data-id="${escaparHTML(novena.id)}">
 
             <img
-                src="${novena.image}"
-                alt=""
+                src="${escaparHTML(novena.image)}"
+                alt="${escaparHTML(novena.name)}"
                 class="library-item-image"
                 loading="lazy">
 
             <span class="library-item-content">
 
                 <strong class="library-item-name">
-                    ${novena.name}
+                    ${escaparHTML(novena.name)}
                 </strong>
 
                 <span class="library-item-title">
-                    ${novena.title}
+                    ${escaparHTML(novena.title || "")}
                 </span>
 
                 <span class="library-item-meta">
-                    ${formatearFechaLiturgica(novena.feast)}
+                    ${escaparHTML(
+                        formatearFechaLiturgica(
+                            novena.feast
+                        )
+                    )}
                 </span>
 
             </span>
 
-            <span class="library-item-arrow" aria-hidden="true">›</span>
+            <span
+                class="library-item-arrow"
+                aria-hidden="true">
+                ›
+            </span>
 
         </button>
 
