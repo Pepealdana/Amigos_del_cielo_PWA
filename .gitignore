@@ -1,0 +1,19 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Variables y credenciales locales
+.env
+.env.*
+!.env.example
+
+# Dependencias
+node_modules/
+
+# Archivos de depuración
+*.log
+npm-debug.log*
