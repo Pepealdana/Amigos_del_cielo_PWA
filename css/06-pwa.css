@@ -810,3 +810,59 @@ body::before{
     color:var(--color-text);
     font-size:.82rem;
 }
+
+/* ==========================================================
+   CALENDARIO LITÚRGICO Y RECORDATORIOS
+========================================================== */
+
+.calendar-status{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin:.2rem 0 1rem;
+    padding:.45rem .8rem;
+    border-radius:999px;
+    background:var(--soft-gold);
+    color:var(--color-primary);
+    font-size:.78rem;
+    font-weight:700;
+}
+
+.settings-panel{
+    margin-bottom:1rem;
+}
+
+.settings-form{
+    display:flex;
+    flex-direction:column;
+    gap:.65rem;
+}
+
+.settings-form label{
+    color:var(--color-primary);
+    font-size:.86rem;
+    font-weight:700;
+}
+
+.setting-check{
+    display:flex;
+    align-items:center;
+    gap:.65rem;
+    margin:.35rem 0;
+    color:var(--color-text) !important;
+    font-weight:600 !important;
+}
+
+.setting-check input{
+    width:20px;
+    height:20px;
+    flex:0 0 20px;
+}
+
+.settings-panel .form-note{
+    margin-top:.75rem;
+}
+
+.settings-panel + .simple-panel{
+    margin-top:1rem;
+}
