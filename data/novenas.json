@@ -3840,5 +3840,108 @@
     "status": "published",
     "category": "Beatas",
     "description": "Fundadora de las Hermanas del Niño Jesús Pobre, dedicada a la educación y acompañamiento de niños y jóvenes necesitados."
+  },
+  {
+    "id": "divina-misericordia",
+    "slug": "divina-misericordia",
+    "name": "Divina Misericordia",
+    "title": "Novena de la Divina Misericordia",
+    "subtitle": "Según el Diario de Santa Faustina Kowalska",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/divina_misericordia.webp",
+    "file": "data/divina-misericordia.json",
+    "description": "Novena transmitida por Santa Faustina Kowalska, centrada en llevar ante Jesús distintos grupos de almas y pedir para ellas la misericordia del Padre.",
+    "feast": {
+      "movable": true,
+      "text": "II Domingo de Pascua — Domingo de la Divina Misericordia"
+    },
+    "status": "published",
+    "search": [
+      "divina misericordia",
+      "santa faustina",
+      "jesús misericordioso",
+      "novena",
+      "coronilla",
+      "misericordia",
+      "confianza",
+      "conversión",
+      "purgatorio"
+    ],
+    "interventions": [
+      {
+        "id": "conversion",
+        "label": "Conversión y perdón",
+        "keywords": [
+          "conversion",
+          "conversión",
+          "pecado",
+          "arrepentimiento",
+          "perdon",
+          "perdón"
+        ]
+      },
+      {
+        "id": "confianza",
+        "label": "Confianza en Dios",
+        "keywords": [
+          "confianza",
+          "fe",
+          "esperanza",
+          "miedo",
+          "angustia"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y sufrimiento",
+        "keywords": [
+          "enfermos",
+          "sufrimiento",
+          "dolor"
+        ]
+      },
+      {
+        "id": "sacerdotes-religiosos",
+        "label": "Sacerdotes y vida consagrada",
+        "keywords": [
+          "sacerdotes",
+          "religiosos",
+          "religiosas",
+          "vocacion"
+        ]
+      },
+      {
+        "id": "difuntos",
+        "label": "Difuntos y oración",
+        "keywords": [
+          "difuntos",
+          "purgatorio",
+          "duelo",
+          "muerte"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Obras de misericordia",
+        "keywords": [
+          "caridad",
+          "misericordia",
+          "servicio",
+          "pobres",
+          "ayuda"
+        ]
+      },
+      {
+        "id": "iglesia",
+        "label": "Iglesia y unidad",
+        "keywords": [
+          "iglesia",
+          "unidad",
+          "cristianos",
+          "reconciliacion"
+        ]
+      }
+    ]
   }
 ]
