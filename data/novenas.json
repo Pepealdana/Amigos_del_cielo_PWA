@@ -3768,5 +3768,23 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-laura-montoya",
+    "slug": "santa-laura-montoya",
+    "name": "Santa Laura Montoya",
+    "title": "Virgen y fundadora, misionera de los pueblos indígenas",
+    "image": "assets/images/santos/santa_laura_montoya.webp",
+    "feast": {
+      "day": 21,
+      "month": 10,
+      "text": "21 de octubre",
+      "liturgicalRank": "Fiesta en Colombia",
+      "movable": false
+    },
+    "file": "data/santa-laura-montoya.json",
+    "status": "published",
+    "category": "Santos",
+    "description": "Primera santa colombiana, educadora y misionera que dedicó su vida a anunciar el Evangelio, defender la dignidad de los pueblos indígenas y formar una familia religiosa para la misión."
   }
 ]
