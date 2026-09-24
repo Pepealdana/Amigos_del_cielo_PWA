@@ -25,7 +25,12 @@ async function cargarCatalogo() {
     }
 
     state.catalogo = catalogo.filter(
-        novena => novena && novena.status !== "draft"
+        novena =>
+            novena &&
+            novena.status !== "draft" &&
+            novena.id &&
+            novena.name &&
+            novena.file
     );
 
     return state.catalogo;
@@ -33,35 +38,20 @@ async function cargarCatalogo() {
 
 async function cargarNovena(id) {
     if (!id) {
+        throw new Error("No se indicó el identificador de la novena.");
+    }
+
+    const resumen = buscarNovenaPorId(state.catalogo, id);
+
+    if (!resumen || !resumen.file) {
         throw new Error(
-            "No se indicó el identificador de la novena."
+            "No existe una novena válida con id: " + id
         );
     }
 
-    const resumen = buscarNovenaPorId(
-        state.catalogo,
-        id
-    );
+    const ruta = "./" + resumen.file.replace(/^\.\//, "");
 
-    if (!resumen) {
-        throw new Error(
-            "No existe la novena con id: " + id
-        );
-    }
-
-    if (!resumen.file) {
-        throw new Error(
-            'La novena "' + id + '" no tiene archivo de datos.'
-        );
-    }
-
-    const ruta = "./" +
-        resumen.file.replace("./", "");
-
-    const response = await fetch(
-        ruta,
-        { cache: "no-cache" }
-    );
+    const response = await fetch(ruta, { cache: "no-cache" });
 
     if (!response.ok) {
         throw new Error(
@@ -74,13 +64,23 @@ async function cargarNovena(id) {
     const novena = await response.json();
 
     if (!novena || typeof novena !== "object") {
-        throw new Error(
-            "Los datos de la novena no son válidos."
-        );
+        throw new Error("Los datos de la novena no son válidos.");
     }
 
     if (!Array.isArray(novena.days)) {
         novena.days = [];
+    }
+
+    if (!novena.id) {
+        novena.id = resumen.id;
+    }
+
+    if (!novena.feast) {
+        novena.feast = resumen.feast || null;
+    }
+
+    if (!novena.image) {
+        novena.image = resumen.image || "";
     }
 
     state.novenaActual = novena;
@@ -144,6 +144,24 @@ function cambiarDia(numeroDia) {
     return true;
 }
 
+function obtenerDiaInicialPorCalendario(novena) {
+    if (!novena?.feast) {
+        return 1;
+    }
+
+    const estado = obtenerEstadoNovena(novena.feast);
+
+    if (
+        estado?.estado === "en-curso" &&
+        estado.dia >= 1 &&
+        estado.dia <= obtenerTotalDiasNovena()
+    ) {
+        return estado.dia;
+    }
+
+    return 1;
+}
+
 function reiniciarNovena() {
     if (!state.novenaActual) {
         return;
@@ -153,7 +171,10 @@ function reiniciarNovena() {
 
     delete state.progreso[id];
 
-    state.ultimaNovenaId = null;
+    if (state.ultimaNovenaId === id) {
+        state.ultimaNovenaId = null;
+    }
+
     state.diaActual = 1;
 
     guardarProgreso();
