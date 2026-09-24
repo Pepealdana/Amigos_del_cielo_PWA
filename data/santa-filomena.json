@@ -1,0 +1,399 @@
+{
+  "id": "santa-filomena",
+  "slug": "santa-filomena",
+  "name": "Santa Filomena",
+  "title": "Virgen y mártir",
+  "subtitle": "Testigo de la fe y de la esperanza cristiana",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_filomena.webp",
+  "description": "Joven mártir venerada desde el descubrimiento de sus restos en las catacumbas de Priscila, cuya devoción se difundió ampliamente en el siglo XIX.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 11,
+    "month": 8,
+    "text": "11 de agosto",
+    "movable": false
+  },
+  "quote": null,
+  "patronages": [
+    "Infantes",
+    "Niños",
+    "Jóvenes"
+  ],
+  "virtues": [
+    "Fe",
+    "Pureza de corazón",
+    "Fortaleza",
+    "Perseverancia",
+    "Esperanza"
+  ],
+  "search": [
+    "santa filomena",
+    "filomena",
+    "philomena",
+    "virgen y martir",
+    "virgen mártir",
+    "mártir",
+    "niños",
+    "infantes",
+    "jóvenes",
+    "juventud",
+    "pureza",
+    "fortaleza",
+    "perseverancia",
+    "esperanza",
+    "mugnano",
+    "catacumbas de priscila",
+    "martires"
+  ],
+  "interventions": [
+    {
+      "id": "ninos",
+      "label": "Niños, infantes y jóvenes",
+      "keywords": [
+        "niños",
+        "ninos",
+        "infantes",
+        "bebés",
+        "bebes",
+        "jóvenes",
+        "jovenes",
+        "juventud"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y perseverancia",
+      "keywords": [
+        "fe",
+        "perseverancia",
+        "dudas",
+        "dificultades",
+        "fidelidad"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermedad y sufrimiento",
+      "keywords": [
+        "enfermedad",
+        "enfermos",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "curacion",
+        "curación"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y seres queridos",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "niños",
+        "hogar",
+        "seres queridos"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en tiempos difíciles",
+      "keywords": [
+        "esperanza",
+        "prueba",
+        "dificultad",
+        "desanimo",
+        "desánimo",
+        "miedo",
+        "temor"
+      ]
+    },
+    {
+      "id": "pureza",
+      "label": "Pureza y vida cristiana",
+      "keywords": [
+        "pureza",
+        "castidad",
+        "virtud",
+        "tentacion",
+        "tentación",
+        "vida cristiana"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Santa Filomena es venerada como virgen y mártir a partir del descubrimiento de un sepulcro en las catacumbas de Priscila, en Roma, en 1802. Las losas del sepulcro contenían el nombre «LUMENA» y «PAX TECUM FI», que fueron interpretadas posteriormente como «Pax tecum, Filumena»; junto a ellas aparecían símbolos cristianos como una palma, un ancla y flechas. Sus restos fueron trasladados a Mugnano del Cardinale en 1805, donde comenzó a difundirse una intensa devoción. La tradición posterior presentó a Filomena como una joven mártir, pero los detalles de su biografía y martirio no pueden considerarse históricamente establecidos. Su culto se extendió especialmente durante el siglo XIX y estuvo relacionado con numerosos testimonios de favores recibidos por su intercesión.",
+    "extended": "El 25 de mayo de 1802, durante unas excavaciones en las catacumbas de Priscila, en la Vía Salaria de Roma, fue descubierto un sepulcro con los restos de una joven. Las tres losas que cerraban la tumba llevaban una inscripción que, por estar colocadas en orden incorrecto, podía leerse como «LUMENA PAX TECUM FI»; tradicionalmente se reconstruyó como «Pax tecum, Filumena», es decir, «La paz sea contigo, Filomena». También aparecían una palma, un ancla y tres flechas, símbolos cristianos que posteriormente fueron relacionados con el martirio. Sin embargo, estos elementos no permiten por sí solos reconstruir una biografía ni demostrar que la joven hubiera muerto mártir. La investigación arqueológica moderna ha cuestionado precisamente esas conclusiones iniciales. citeturn0search0\\n\\nLos restos fueron trasladados el 8 de junio de 1805 a Mugnano del Cardinale, cerca de Nápoles, y colocados en la iglesia local. La devoción se extendió rápidamente debido a los favores y curaciones atribuidos a la intercesión de Filomena. En 1837, el papa Gregorio XVI autorizó una celebración litúrgica propia en su honor. La devoción alcanzó especial difusión en Italia y posteriormente en otros países. citeturn0search0\\n\\nDurante el siglo XIX circuló una narración detallada sobre su supuesta vida: según esa tradición, Filomena habría sido una joven consagrada a Cristo que sufrió diversas torturas y finalmente fue decapitada. Estos relatos proceden principalmente de una supuesta revelación privada comunicada por una religiosa napolitana y no de documentos históricos contemporáneos al personaje. Por ello, en esta aplicación los presentamos como tradición devocional y no como una biografía comprobada. citeturn0search0turn0search6\\n\\nLa tradición iconográfica representa a Santa Filomena como una joven con palma de martirio, ancla y flechas, elementos relacionados con la interpretación devocional de su sepulcro. También puede aparecer con una flor o una corona. Estos atributos pertenecen a la iconografía desarrollada alrededor de su culto y no deben utilizarse como prueba histórica de los acontecimientos narrados sobre su vida. citeturn0search0turn0search6\\n\\nLa figura de Filomena puede contemplarse, por tanto, desde dos niveles: el dato histórico limitado del hallazgo de unos restos en las catacumbas de Priscila y la tradición devocional que se desarrolló posteriormente. Esta distinción permite conservar el valor espiritual de la devoción sin presentar como hechos comprobados detalles que las fuentes históricas no permiten establecer."
+  },
+  "openingPrayer": "Santa Filomena, virgen y mártir venerada por la Iglesia y por tantos fieles, acompáñanos en estos nueve días. Ayúdanos a vivir con fe, fortaleza y esperanza, especialmente cuando atravesamos dificultades. Que nuestra devoción se traduzca en una vida más fiel a Jesucristo y en mayor caridad hacia los demás. Amén.",
+  "closingPrayer": "Señor Jesús, gracias por este camino de oración. Por intercesión de santa Filomena, concédenos una fe perseverante, un corazón limpio y fortaleza para afrontar las pruebas. Ayúdanos a cuidar especialmente a los niños y jóvenes y a acompañar con esperanza a quienes sufren. Amén.",
+  "intentions": [
+    "Por los niños, especialmente los que viven en situaciones de vulnerabilidad.",
+    "Por los jóvenes que buscan sentido y necesitan apoyo para perseverar en la fe.",
+    "Por las familias que atraviesan dificultades o preocupaciones.",
+    "Por los enfermos y por quienes esperan una recuperación.",
+    "Por quienes sufren miedo, soledad o desánimo.",
+    "Por quienes desean fortalecer su vida espiritual y permanecer fieles a Dios.",
+    "Por las personas que enfrentan pruebas prolongadas y necesitan esperanza.",
+    "Por quienes han perdido la confianza y buscan volver a Dios.",
+    "Por nuestras intenciones personales y por las necesidades que presentamos con fe."
+  ],
+  "resources": {},
+  "sources": [
+    {
+      "title": "St. Philomena",
+      "organization": "Catholic Encyclopedia",
+      "url": "https://www.catholic.org/encyclopedia/view.php?id=9312",
+      "type": "secondary"
+    },
+    {
+      "title": "St. Philomena",
+      "organization": "Catholic Online",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=98",
+      "type": "secondary"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Lo que conocemos y lo que no sabemos",
+      "title": "Una devoción nacida de un sepulcro",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El punto de partida histórico de la devoción a santa Filomena es el descubrimiento de un sepulcro en las catacumbas de Priscila en 1802. Las inscripciones y símbolos encontrados fueron interpretados en aquel momento como pertenecientes a una virgen mártir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe también nos enseña a distinguir entre lo que conocemos con certeza y lo que pertenece a la tradición. La honestidad histórica no disminuye el valor de la oración."
+      },
+      "virtue": "Sinceridad",
+      "reflection": "¿Sé distinguir entre aquello que conozco y aquello que simplemente he escuchado?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan la verdad y por quienes necesitan una fe acompañada de honestidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, dame un corazón sincero para buscar la verdad y una fe humilde para confiar en ti incluso cuando no tenga todas las respuestas. Amén."
+      },
+      "action": "Antes de repetir hoy una afirmación sobre la fe, procura comprobar de dónde procede."
+    },
+    {
+      "day": 2,
+      "theme": "La paz en medio de la incertidumbre",
+      "title": "Pax tecum",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La inscripción encontrada en las losas del sepulcro fue reconstruida tradicionalmente como «Pax tecum, Filumena»: «La paz sea contigo, Filomena». Aunque la interpretación histórica de la inscripción es discutida, la palabra paz expresa bien una actitud cristiana ante la incertidumbre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La paz cristiana no depende de tener todo resuelto. Podemos buscar la serenidad sin negar nuestras preguntas."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué situación incierta necesito entregar hoy a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven con incertidumbre, miedo o decisiones difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Jesús, dame tu paz cuando no comprenda lo que sucede. Ayúdame a actuar con serenidad y a confiar sin abandonar la responsabilidad que me corresponde. Amén."
+      },
+      "action": "Dedica cinco minutos a respirar, guardar silencio y presentar a Dios una preocupación concreta."
+    },
+    {
+      "day": 3,
+      "theme": "Una juventud entregada a Dios",
+      "title": "Crecer en la fe",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La tradición devocional presenta a Filomena como una joven que habría permanecido fiel a su consagración a Cristo. Los detalles de esa narración no están históricamente comprobados, pero han contribuido a que sea invocada especialmente por niños y jóvenes."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La juventud no es un tiempo vacío de responsabilidad espiritual. Puede ser una etapa para construir convicciones, aprender a servir y tomar decisiones con conciencia."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué valor cristiano quiero comenzar a vivir con mayor constancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños y jóvenes, especialmente quienes atraviesan ambientes difíciles o carecen de apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, acompaña a los niños y jóvenes. Protégelos del mal, dales personas que los orienten y ayúdalos a descubrir el bien que pueden hacer. Amén."
+      },
+      "action": "Ofrece hoy una palabra de ánimo a un niño o joven que tengas cerca."
+    },
+    {
+      "day": 4,
+      "theme": "La fortaleza ante la prueba",
+      "title": "No rendirse ante la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La tradición sobre Filomena relata diversas pruebas y sufrimientos antes de su muerte. Aunque esos episodios no pueden presentarse como hechos históricos comprobados, la devoción a la santa ha quedado vinculada a la perseverancia ante la adversidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa ignorar el dolor. Significa buscar ayuda, sostener la esperanza y continuar haciendo el bien dentro de nuestras posibilidades."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad me está tentando a abandonar aquello que considero bueno?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas prolongadas y necesitan fortaleza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Dios de esperanza, fortalece a quienes sufren. Que no se sientan solos y que encuentren personas capaces de acompañarlos con paciencia y compasión. Amén."
+      },
+      "action": "Pregunta hoy a alguien que esté atravesando una dificultad cómo puedes ayudarle de manera concreta."
+    },
+    {
+      "day": 5,
+      "theme": "El cuidado de los más pequeños",
+      "title": "Proteger y acompañar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción popular ha relacionado a santa Filomena especialmente con los niños, infantes y jóvenes. Esta asociación pertenece al desarrollo de su culto y no a una biografía histórica documentada."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar a los más pequeños implica protegerlos, escucharlos, enseñarles y defender su dignidad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Hay algún niño o joven que necesite más escucha, protección o acompañamiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños que sufren violencia, abandono, enfermedad o pobreza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, protege a los niños y jóvenes que están en peligro. Suscita personas responsables que los cuiden y comunidades que defiendan su dignidad. Amén."
+      },
+      "action": "Haz hoy una acción concreta de cuidado o apoyo a un niño, joven o familia que lo necesite."
+    },
+    {
+      "day": 6,
+      "theme": "Esperanza para quien sufre",
+      "title": "Acompañar el dolor",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Desde la llegada de sus restos a Mugnano del Cardinale en 1805 se difundieron numerosos testimonios de favores y curaciones atribuidos a la intercesión de Filomena. Estos testimonios forman parte de la historia de su devoción y no deben confundirse automáticamente con hechos médicos o históricos demostrados."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuando alguien sufre, la primera respuesta cristiana no tiene que ser una explicación. Puede ser presencia, oración, escucha y ayuda concreta."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Sé acompañar a quien sufre sin intentar resolverlo todo con palabras?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos y por quienes esperan una recuperación o necesitan fortaleza para aceptar su situación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, acompaña a quienes están enfermos y a sus familias. Dales fortaleza, atención adecuada y personas que sepan permanecer cerca con amor. Amén."
+      },
+      "action": "Acompaña hoy a una persona enferma o a su cuidador mediante una llamada, una visita o una ayuda concreta."
+    },
+    {
+      "day": 7,
+      "theme": "Esperanza que persevera",
+      "title": "Seguir confiando",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La expansión de la devoción a santa Filomena durante el siglo XIX estuvo marcada por numerosos testimonios de favores recibidos por su intercesión. La tradición devocional la presenta como signo de esperanza para quienes atraviesan dificultades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no es la certeza de que todo sucederá como queremos. Es la confianza de que podemos seguir caminando con Dios incluso en medio de la dificultad."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Confundo la esperanza con obtener exactamente lo que deseo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están desanimados y sienten que ya no pueden seguir adelante."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, renueva mi esperanza. Cuando una respuesta no llegue como esperaba, ayúdame a permanecer cerca de ti y a buscar caminos concretos para continuar. Amén."
+      },
+      "action": "Escribe una razón por la que todavía vale la pena esperar y conviértela en una pequeña acción."
+    },
+    {
+      "day": 8,
+      "theme": "Una fe que se vuelve vida",
+      "title": "La devoción no sustituye el Evangelio",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a santa Filomena se desarrolló con gran fuerza después del descubrimiento de sus restos. Su valor espiritual puede orientar hacia la oración y la confianza en Dios, pero toda devoción a los santos debe conducir finalmente a Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Honrar a un santo no consiste solo en pedir favores. También implica aprender a vivir con mayor fe, caridad, fortaleza y esperanza."
+      },
+      "virtue": "Coherencia",
+      "reflection": "¿Mi oración está produciendo algún cambio concreto en mi manera de tratar a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes practican la devoción a los santos, para que esta los acerque más a Cristo y a la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Jesús, que toda devoción auténtica me lleve hacia ti. Ayúdame a convertir la oración en decisiones concretas de amor, servicio y fidelidad. Amén."
+      },
+      "action": "Elige una enseñanza del Evangelio y ponla en práctica hoy de manera concreta."
+    },
+    {
+      "day": 9,
+      "theme": "Vivir con fe y esperanza",
+      "title": "Un camino que continúa",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La historia documentada de Filomena es limitada, pero su devoción ha acompañado a generaciones de fieles. Al terminar esta novena, podemos conservar aquello que la tradición pone ante nuestros ojos: la importancia de la fe, la fortaleza, la esperanza y la confianza en Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La finalidad de una novena no es solo completar nueve días. Es permitir que la oración produzca una disposición nueva para vivir el Evangelio."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué práctica de oración, servicio o esperanza quiero mantener después de estos nueve días?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras intenciones personales y por todas las personas que hemos encomendado durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor Jesús, gracias por este camino de oración. Por intercesión de santa Filomena, ayúdame a vivir con una fe perseverante, una esperanza firme y una caridad concreta. Que mi vida te dé gloria y sea un bien para quienes me rodean. Amén."
+      },
+      "action": "Elige una práctica concreta —oración, servicio o acompañamiento— y comprométete a mantenerla durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
