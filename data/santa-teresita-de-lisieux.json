@@ -1,0 +1,479 @@
+{
+  "id": "santa-teresita-de-lisieux",
+  "slug": "santa-teresita-de-lisieux",
+  "name": "Santa Teresita de Lisieux",
+  "title": "Virgen y Doctora de la Iglesia",
+  "subtitle": "El caminito de la confianza y el amor",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_teresita_de_lisieux.webp",
+  "description": "Carmelita descalza que descubrió en la confianza filial y en el amor su pequeño camino hacia Dios y vivió un profundo deseo misionero desde la clausura.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-teresita-de-lisieux"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 1,
+    "month": 10,
+    "text": "1 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Mi vocación es el amor.",
+    "reference": "Santa Teresa del Niño Jesús, Manuscrito B, 3v; citado por san Juan Pablo II en la homilía del 19 de octubre de 1997."
+  },
+  "patronages": [
+    "Misiones y misioneros, como patrona universal junto con san Francisco Javier",
+    "Francia, como patrona secundaria"
+  ],
+  "virtues": [
+    "Confianza",
+    "Amor",
+    "Humildad",
+    "Sencillez",
+    "Perseverancia",
+    "Caridad",
+    "Oración",
+    "Abandono en Dios",
+    "Espíritu misionero"
+  ],
+  "search": [
+    "santa teresita",
+    "santa teresa de lisieux",
+    "santa teresa del niño jesus",
+    "santa teresa del niño jesús",
+    "santa teresa de la santa faz",
+    "teresita",
+    "lisieux",
+    "carmelitas",
+    "carmelo",
+    "caminito",
+    "pequeñez",
+    "confianza",
+    "amor",
+    "misiones",
+    "misionera",
+    "historia de un alma",
+    "santa faz"
+  ],
+  "interventions": [
+    {
+      "id": "confianza",
+      "label": "Confianza y abandono en Dios",
+      "keywords": [
+        "confianza",
+        "abandono",
+        "dios",
+        "temor",
+        "ansiedad",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación",
+        "evangelio",
+        "misa",
+        "eucaristia",
+        "eucaristía"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y búsqueda de sentido",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "juventud",
+        "adolescentes",
+        "vocacion",
+        "vocación",
+        "sentido"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y relaciones",
+      "keywords": [
+        "familia",
+        "padres",
+        "hermanas",
+        "hogar",
+        "perdon",
+        "perdón",
+        "convivencia"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "sufrimiento",
+        "dolor",
+        "hospital",
+        "cuidadores"
+      ]
+    },
+    {
+      "id": "mision",
+      "label": "Misión y evangelización",
+      "keywords": [
+        "mision",
+        "misión",
+        "misioneros",
+        "evangelizacion",
+        "evangelización",
+        "iglesia"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y discernimiento",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "discernimiento",
+        "servicio",
+        "iglesia"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en tiempos de prueba",
+      "keywords": [
+        "esperanza",
+        "prueba",
+        "dificultad",
+        "desanimo",
+        "desánimo",
+        "sequedad",
+        "fe"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Teresa Martin nació en Alençon, Francia, en 1873. Tras la muerte de su madre se trasladó con su familia a Lisieux y desde joven sintió el deseo de entrar en el Carmelo. Ingresó en el Carmelo de Lisieux en 1888, a los quince años, y allí vivió una vida oculta de oración, trabajo comunitario y caridad. En sus escritos desarrolló el «caminito» de confianza y amor, y expresó un profundo deseo de ser misionera. Murió de tuberculosis en 1897, a los 24 años. Fue canonizada en 1925, proclamada patrona universal de las misiones en 1927 y Doctora de la Iglesia en 1997.",
+    "extended": "Teresa Martin nació en Alençon el 2 de enero de 1873, última de los nueve hijos de Louis y Zélie Martin. Cuatro de sus hermanos habían muerto antes de que ella naciera. Sus padres vivían una profunda fe cristiana y la familia cultivaba la oración y la vida sacramental. Teresa fue bautizada el 4 de enero de 1873.\n\nEn 1877 murió su madre, Zélie, cuando Teresa tenía cuatro años y medio. La familia se trasladó ese mismo año a Lisieux. Teresa eligió a su hermana Pauline como una segunda madre y sufrió profundamente cuando Pauline ingresó en el Carmelo. Durante su infancia y adolescencia atravesó momentos de enfermedad y fragilidad. En 1883, mientras padecía una grave enfermedad, relató una curación que atribuyó a la intercesión de Nuestra Señora de las Victorias; este episodio pertenece a su testimonio espiritual y a la tradición de su vida.\n\nEn la Navidad de 1886 Teresa describió una experiencia de maduración interior que llamó su «conversión». No se trata de una conversión desde una vida alejada de la fe, sino de un cambio en su manera de afrontar el sufrimiento y de salir de una sensibilidad que ella misma consideraba excesivamente centrada en sí misma. Poco después creció en ella el deseo de entrar en el Carmelo. Durante una peregrinación a Italia en 1887 llegó a pedir al papa León XIII permiso para ingresar a los quince años.\n\nEl 9 de abril de 1888 entró en el Carmelo de Lisieux. Recibió el hábito en enero de 1889 y realizó su profesión religiosa el 8 de septiembre de 1890. Su vida conventual estuvo compuesta por oración, trabajo, vida comunitaria y pequeños servicios cotidianos. No ocupó cargos de gran relevancia externa; su camino consistió precisamente en buscar a Dios en las tareas ordinarias y en las relaciones concretas con sus hermanas.\n\nTeresa desarrolló progresivamente lo que llamó su «caminito». Al descubrir sus propios límites, comprendió que no podía apoyarse en grandes obras personales y quiso avanzar mediante la confianza filial, la pequeñez espiritual y el amor. Su enseñanza no consiste en hacer cosas extraordinarias, sino en recibir con confianza la misericordia de Dios y responder con amor en las circunstancias concretas de cada día.\n\nEn 1894, tras la muerte de su padre, Louis Martin, Teresa comenzó a escribir recuerdos de su vida a petición de sus superioras. Estos textos formarían después Historia de un alma, obra que difundió ampliamente su espiritualidad. También escribió cartas, poesías y oraciones, muchas de ellas dirigidas a sus hermanas y a sacerdotes que tenía encomendados como hermanos espirituales.\n\nAunque vivió siempre en clausura, Teresa tuvo un fuerte deseo misionero. Acompañó espiritualmente a dos sacerdotes destinados a la misión y comprendió que podía participar en la misión de la Iglesia mediante la oración y el amor. En 1896 escribió que había encontrado su vocación: el amor, porque entendió que el amor es el principio que anima los distintos servicios y vocaciones dentro de la Iglesia.\n\nEn 1896 aparecieron los primeros signos de tuberculosis. Al mismo tiempo atravesó una profunda prueba de fe, descrita en sus escritos como una experiencia de oscuridad interior. En lugar de presentar esa prueba como ausencia absoluta de fe, sus textos muestran su decisión de seguir confiando y de ofrecer su sufrimiento por quienes no creen. Esta etapa ocupa un lugar importante en la comprensión de su espiritualidad.\n\nTeresa murió en el Carmelo de Lisieux el 30 de septiembre de 1897, a los 24 años. Fue beatificada en 1923 y canonizada por Pío XI en 1925. En 1927 fue proclamada, junto con san Francisco Javier, patrona universal de las misiones. En 1997 san Juan Pablo II la proclamó Doctora de la Iglesia. Su enseñanza sobre la confianza, la pequeñez, el amor y la misión desde la oración continúa siendo una referencia central de la espiritualidad carmelita.\n\nSu iconografía suele mostrarla con el hábito carmelita y un crucifijo rodeado de rosas, aludiendo a su espiritualidad y a la imagen que empleó para expresar su deseo de derramar gracias sobre el mundo. La rosa es también un símbolo tradicional de su devoción. Estos elementos pertenecen a la tradición iconográfica y no deben interpretarse como objetos históricos presentes en cada momento de su vida."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nSanta Teresita del Niño Jesús, acompáñanos durante estos nueve días. Enséñanos a confiar en Dios con sencillez, a amar en las pequeñas cosas y a descubrir que también podemos servir a la Iglesia mediante la oración y la caridad. Presentamos nuestras intenciones y pedimos la gracia de caminar con humildad, esperanza y amor. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de Santa Teresita. Enséñanos a confiar en tu misericordia, a vivir con sencillez y a amar en nuestras circunstancias concretas. Haznos instrumentos de oración, esperanza y servicio para quienes nos rodean. Amén.",
+  "intentions": [
+    "Por quienes tienen dificultad para confiar en Dios y necesitan esperanza.",
+    "Por los niños y jóvenes que buscan descubrir su vocación y sentido de vida.",
+    "Por las familias que viven pérdidas, enfermedades o dificultades.",
+    "Por quienes atraviesan pruebas de fe, dudas o sequedad espiritual.",
+    "Por los enfermos y quienes los cuidan.",
+    "Por los misioneros y por quienes anuncian el Evangelio.",
+    "Por quienes desean servir a la Iglesia desde la oración y la vida cotidiana.",
+    "Por quienes viven con miedo, soledad o desánimo.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 11,25-30"
+      },
+      {
+        "reference": "Mateo 18,1-5"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "1 Corintios 13,1-13"
+      },
+      {
+        "reference": "Salmo 131,1-3"
+      }
+    ],
+    "documents": [
+      "Historia de un alma",
+      "Manuscritos autobiográficos",
+      "Divini Amoris Scientia"
+    ],
+    "related": [
+      "Carmelo de Lisieux",
+      "Santa Teresa de Ávila",
+      "San Francisco Javier",
+      "Misiones"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Teresa de Lisieux — vida y doctrina",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19101997_stherese_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Divini Amoris Scientia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1997/documents/hf_jp-ii_apl_19101997_divini-amoris.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía en la proclamación de Santa Teresa de Lisieux como Doctora de la Iglesia",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1997/documents/hf_jp-ii_hom_19101997.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 19 de octubre de 1997",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1997/documents/hf_jp-ii_ang_19971019.html",
+      "type": "official"
+    },
+    {
+      "title": "Biografía de Santa Teresa de Lisieux",
+      "organization": "Archivos del Carmelo de Lisieux",
+      "url": "https://archives.carmeldelisieux.fr/es/la-vie-de-sainte-therese-de-lisieux/sainte-therese-de-lisieux/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una niña que aprende a confiar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa nació en Alençon en 1873, en una familia profundamente cristiana. La muerte de su madre cuando tenía cuatro años y medio marcó su infancia. Después, la familia se trasladó a Lisieux, donde Teresa creció junto a sus hermanas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual no elimina las heridas. Podemos aprender a atravesarlas buscando apoyo, oración y confianza."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué situación de mi historia necesito aprender a entregar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que han vivido pérdidas familiares durante la infancia o juventud."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, acompaña a quienes llevan heridas de su historia familiar. Enséñanos a confiar en Dios aun cuando no comprendamos todo. Amén."
+      },
+      "action": "Identifica una preocupación de tu historia y preséntala hoy a Dios en oración."
+    },
+    {
+      "day": 2,
+      "theme": "El crecimiento",
+      "title": "Madurar en el amor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su infancia y adolescencia Teresa atravesó momentos de enfermedad, sensibilidad y sufrimiento. En la Navidad de 1886 describió una experiencia de maduración interior que la ayudó a salir de una forma de sensibilidad que ella misma consideraba excesivamente centrada en sí misma."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Madurar también significa aprender a mirar más allá de uno mismo y responder con mayor libertad y generosidad."
+      },
+      "virtue": "Madurez",
+      "reflection": "¿En qué aspecto necesito dejar de centrarme solamente en mí?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que están creciendo y necesitan aprender a afrontar sus emociones y responsabilidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, ayúdanos a crecer en libertad y generosidad. Enséñanos a transformar nuestras dificultades en oportunidades para amar. Amén."
+      },
+      "action": "Haz hoy una acción de servicio sin buscar reconocimiento."
+    },
+    {
+      "day": 3,
+      "theme": "La vocación",
+      "title": "Un deseo que se convierte en camino",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa sintió desde joven el deseo de entrar en el Carmelo. En 1887, durante una peregrinación a Italia, pidió al papa León XIII poder ingresar a los quince años. El 9 de abril de 1888 entró finalmente en el Carmelo de Lisieux."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación necesita deseo, paciencia y discernimiento. No todo se realiza de inmediato ni exactamente como imaginamos."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué deseo importante necesita de mí paciencia y perseverancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y por quienes esperan una respuesta que todavía no llega."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, acompaña a quienes buscan su camino. Danos paciencia para esperar y valentía para responder cuando llegue el momento. Amén."
+      },
+      "action": "Dedica unos minutos a pedir luz sobre tu vocación o propósito actual."
+    },
+    {
+      "day": 4,
+      "theme": "La vida cotidiana",
+      "title": "La santidad en las cosas pequeñas",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En el Carmelo, Teresa vivió una vida sencilla de oración, trabajo y convivencia comunitaria. Sus tareas no eran extraordinarias; precisamente allí aprendió a ofrecer a Dios las pequeñas acciones realizadas con amor."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cotidiana tiene valor espiritual. La paciencia, el trabajo bien hecho y los pequeños servicios pueden convertirse en expresiones concretas del amor."
+      },
+      "virtue": "Sencillez",
+      "reflection": "¿Qué tarea pequeña puedo realizar hoy con verdadero amor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras familias, comunidades y lugares de estudio o trabajo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, enséñanos a amar en las cosas pequeñas y a vivir nuestras responsabilidades con sencillez y generosidad. Amén."
+      },
+      "action": "Realiza hoy una tarea cotidiana con especial cuidado, sin quejarte ni buscar reconocimiento."
+    },
+    {
+      "day": 5,
+      "theme": "El caminito",
+      "title": "Pequeños pasos de confianza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa comprendió que no podía realizar grandes obras por sus propias fuerzas. Descubrió un camino de confianza filial, pequeñez espiritual y amor, que después sería conocido como su «caminito»."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No necesitamos hacer cosas extraordinarias para comenzar a crecer. La fidelidad en pequeños pasos puede formar una vida entera."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Qué pequeño paso de bien puedo dar hoy sin esperar resultados extraordinarios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten insuficientes o creen que no pueden hacer nada valioso."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, enséñanos a confiar en Dios desde nuestra pequeñez y a hacer con amor aquello que sí está en nuestras manos. Amén."
+      },
+      "action": "Elige una acción pequeña y buena que puedas realizar hoy con constancia."
+    },
+    {
+      "day": 6,
+      "theme": "La misión",
+      "title": "Ser misionera desde la oración",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Aunque nunca salió del Carmelo para realizar una misión en tierras lejanas, Teresa deseaba profundamente ser misionera. Acompañó espiritualmente a sacerdotes destinados a la misión y comprendió que podía participar en la misión de la Iglesia mediante la oración y el amor."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misión no depende solamente del lugar donde estamos. Cada persona puede sostener el bien mediante la oración, el testimonio y el servicio."
+      },
+      "virtue": "Espíritu misionero",
+      "reflection": "¿Cómo puedo contribuir hoy al bien de otras personas desde mi situación concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los misioneros, sacerdotes, religiosos y laicos que anuncian el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, acompaña a quienes anuncian el Evangelio. Enséñanos a comprender que nuestra oración y nuestro amor también pueden servir a la misión de la Iglesia. Amén."
+      },
+      "action": "Ora hoy por una persona que esté sirviendo a otros y, si puedes, ofrécele una palabra de ánimo."
+    },
+    {
+      "day": 7,
+      "theme": "La prueba de la fe",
+      "title": "Seguir confiando en la oscuridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su última enfermedad Teresa atravesó una profunda prueba interior relacionada con la fe. Sus escritos muestran que experimentó oscuridad y tentaciones contra la fe, pero decidió permanecer confiada y ofrecer su sufrimiento por quienes no creen."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe también puede atravesar períodos de oscuridad. Pedir ayuda, perseverar y seguir buscando la verdad son formas concretas de vivir esa prueba."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué hago cuando no siento claridad o consuelo en mi vida espiritual?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven dudas de fe, oscuridad interior o momentos de profundo sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, acompaña a quienes atraviesan dudas y oscuridad. Ayúdanos a perseverar en la búsqueda de Dios y a pedir ayuda cuando lo necesitemos. Amén."
+      },
+      "action": "Habla hoy con una persona de confianza sobre una preocupación que hayas estado llevando en silencio."
+    },
+    {
+      "day": 8,
+      "theme": "El amor",
+      "title": "Mi vocación es el amor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En sus escritos, Teresa llegó a comprender que el amor debía estar en el centro de todas las vocaciones de la Iglesia. Escribió: «Mi vocación es el amor». Para ella, amar no era una emoción pasajera, sino una forma concreta de vivir y servir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El amor cristiano se expresa en acciones concretas: paciencia, servicio, perdón, cuidado y entrega."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona necesita hoy de mí una muestra concreta de amor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras familias, amigos, comunidades y por quienes se sienten solos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita, enséñanos a amar con hechos. Que nuestra fe se traduzca en paciencia, servicio, perdón y cuidado de quienes tenemos cerca. Amén."
+      },
+      "action": "Haz hoy una obra concreta de amor que no hayas planeado previamente."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Una pequeña vida con una misión universal",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa murió en el Carmelo de Lisieux el 30 de septiembre de 1897, a los 24 años. Fue canonizada en 1925, proclamada patrona universal de las misiones en 1927 y Doctora de la Iglesia en 1997. Su enseñanza sobre el amor, la confianza y la pequeñez se extendió mucho más allá de su breve vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vida no necesita ser larga ni estar llena de acontecimientos visibles para producir frutos. La fidelidad cotidiana puede convertirse en un testimonio que llegue mucho más lejos de lo que imaginamos."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué práctica de confianza, oración o servicio quiero conservar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por la misión de la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresita del Niño Jesús, acompáñanos en nuestro camino. Enséñanos a confiar en Dios, a amar en las pequeñas cosas y a servir desde nuestras circunstancias. Que podamos llevar esperanza a quienes nos rodean y permanecer fieles al bien. Amén."
+      },
+      "action": "Elige una práctica sencilla de oración y una obra de amor que quieras mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
