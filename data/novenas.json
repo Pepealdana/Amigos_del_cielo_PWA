@@ -2873,14 +2873,14 @@
   {
     "id": "santa-teresa-de-avila",
     "slug": "santa-teresa-de-avila",
-    "name": "Santa Teresa de Ávila",
+    "name": "Santa Teresa de Ávila (Santa Teresa de Jesús)",
     "title": "Virgen y Doctora de la Iglesia",
     "subtitle": "Maestra de oración y reformadora del Carmelo",
     "category": "Santos",
     "featured": false,
     "image": "assets/images/santos/santa_teresa_de_avila.webp",
     "file": "data/santa-teresa-de-avila.json",
-    "description": "Mística, escritora y reformadora del Carmelo, cuya vida une oración, amistad con Cristo, discernimiento y servicio a la Iglesia.",
+    "description": "Mística, escritora y reformadora del Carmelo, conocida también como Santa Teresa de Jesús.",
     "feast": {
       "day": 15,
       "month": 10,
@@ -2904,7 +2904,8 @@
       "camino de perfeccion",
       "castillo interior",
       "libro de la vida",
-      "san juan de la cruz"
+      "san juan de la cruz",
+      "santa teresa de ávila"
     ],
     "interventions": [
       {
