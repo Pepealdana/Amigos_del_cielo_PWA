@@ -3,334 +3,248 @@
    Amigos del Cielo
 ========================================== */
 
-/* ==========================================
-   FECHA ACTUAL
-========================================== */
-
 function obtenerFechaActual() {
-
     return new Date();
-
 }
-
-/* ==========================================
-   DÍA ACTUAL
-========================================== */
 
 function obtenerDiaActual() {
-
-    return obtenerFechaActual()
-
-        .getDate();
-
+    return obtenerFechaActual().getDate();
 }
-
-/* ==========================================
-   MES ACTUAL
-========================================== */
 
 function obtenerMesActual() {
-
-    return obtenerFechaActual()
-
-        .getMonth() + 1;
-
+    return obtenerFechaActual().getMonth() + 1;
 }
 
-/* ==========================================
-   PARSEAR FESTIVIDAD
-
-   Acepta:
-
-   "19-03"
-
-   "19/03"
-
-   {
-      day:19,
-      month:3,
-      text:"19 de marzo"
-   }
-========================================== */
-
 function parsearFestividad(fecha) {
-
     if (!fecha) {
-
         return null;
-
     }
 
-    /* --------------------------
-       Nuevo formato
-    -------------------------- */
+    if (typeof fecha === "object") {
+        const dia = Number(fecha.day);
+        const mes = Number(fecha.month);
 
-    if (
+        if (!Number.isInteger(dia) || !Number.isInteger(mes)) {
+            return null;
+        }
 
-        typeof fecha === "object"
-
-    ) {
-
-        return {
-
-            dia:
-
-                Number(fecha.day),
-
-            mes:
-
-                Number(fecha.month)
-
-        };
-
+        return { dia, mes };
     }
 
-    /* --------------------------
-       Formato texto
-    -------------------------- */
+    if (typeof fecha === "string") {
+        const partes = fecha.replace(/\//g, "-").split("-");
 
-    if (
+        const dia = Number(partes[0]);
+        const mes = Number(partes[1]);
 
-        typeof fecha === "string"
+        if (!Number.isInteger(dia) || !Number.isInteger(mes)) {
+            return null;
+        }
 
-    ) {
-
-        const partes =
-
-            fecha
-
-                .replace(/\//g, "-")
-
-                .split("-");
-
-        return {
-
-            dia:
-
-                Number(partes[0]),
-
-            mes:
-
-                Number(partes[1])
-
-        };
-
+        return { dia, mes };
     }
 
     return null;
-
 }
-
-/* ==========================================
-   FORMATEAR FECHA LITÚRGICA
-========================================== */
 
 function formatearFechaLiturgica(fecha) {
-
     if (!fecha) {
-
         return "";
-
     }
 
-    /* --------------------------
-       Nuevo JSON
-    -------------------------- */
-
-    if (
-
-        typeof fecha === "object"
-
-    ) {
-
-        if (
-
-            fecha.text
-
-        ) {
-
-            return fecha.text;
-
-        }
-
-        if (
-
-            fecha.day &&
-
-            fecha.month
-
-        ) {
-
-            return `${fecha.day} de ${MONTHS[fecha.month - 1]}`;
-
-        }
-
+    if (typeof fecha === "object" && fecha.text) {
+        return fecha.text;
     }
 
-    /* --------------------------
-       Formato antiguo
-    -------------------------- */
+    const datos = parsearFestividad(fecha);
 
-    const datos =
-
-        parsearFestividad(fecha);
-
-    if (
-
-        !datos ||
-
-        isNaN(datos.dia) ||
-
-        isNaN(datos.mes)
-
-    ) {
-
+    if (!datos) {
         return "";
-
     }
 
-    return `${datos.dia} de ${MONTHS[datos.mes - 1]}`;
-
+    return `${datos.dia} de ${MONTHS[datos.mes - 1] || ""}`.trim();
 }
-
-/* ==========================================
-   FORMATO CORTO
-========================================== */
 
 function formatearFechaCorta(fecha) {
-
-    return formatearFechaLiturgica(
-
-        fecha
-
-    );
-
+    return formatearFechaLiturgica(fecha);
 }
-
-/* ==========================================
-   FESTIVIDAD DEL MES
-========================================== */
 
 function esDelMesActual(fecha) {
+    const datos = parsearFestividad(fecha);
 
-    const datos =
-
-        parsearFestividad(fecha);
-
-    if (!datos) {
-
-        return false;
-
-    }
-
-    return (
-
-        datos.mes ===
-
-        obtenerMesActual()
-
+    return Boolean(
+        datos &&
+        datos.mes === obtenerMesActual()
     );
-
 }
-
-/* ==========================================
-   COMPARAR FESTIVIDAD
-
-   ¿Es hoy la festividad?
-========================================== */
 
 function esHoyLaFestividad(fecha) {
-
-    const datos =
-
-        parsearFestividad(fecha);
+    const datos = parsearFestividad(fecha);
 
     if (!datos) {
-
         return false;
-
     }
+
+    const hoy = obtenerFechaActual();
 
     return (
-
-        datos.dia === obtenerDiaActual()
-
-        &&
-
-        datos.mes === obtenerMesActual()
-
+        datos.dia === hoy.getDate() &&
+        datos.mes === hoy.getMonth() + 1
     );
-
 }
 
-/* ==========================================
-   DÍAS HASTA LA FESTIVIDAD
+/* ==========================================================
+   FECHAS DE LA NOVENA
+   Una novena de 9 días que termina en la festividad
+   comienza 8 días calendario antes del día de la fiesta.
+========================================================== */
 
-   (Se usará para las notificaciones)
-========================================== */
+function crearFechaLocal(anio, mes, dia) {
+    return new Date(anio, mes - 1, dia, 12, 0, 0, 0);
+}
 
-function diasHastaFestividad(fecha) {
-
-    const datos =
-
-        parsearFestividad(fecha);
-
-    if (!datos) {
-
-        return null;
-
+function formatearFechaISO(fecha) {
+    if (!(fecha instanceof Date) || Number.isNaN(fecha.getTime())) {
+        return "";
     }
 
-    const hoy =
+    const anio = fecha.getFullYear();
+    const mes = String(fecha.getMonth() + 1).padStart(2, "0");
+    const dia = String(fecha.getDate()).padStart(2, "0");
 
-        obtenerFechaActual();
+    return `${anio}-${mes}-${dia}`;
+}
 
-    let anio =
+function sumarDias(fecha, cantidad) {
+    const resultado = new Date(fecha.getTime());
+    resultado.setDate(resultado.getDate() + cantidad);
+    return resultado;
+}
 
-        hoy.getFullYear();
+function obtenerFechaFestividad(fecha, anio = obtenerFechaActual().getFullYear()) {
+    const datos = parsearFestividad(fecha);
 
-    let festividad =
+    if (!datos || datos.mes < 1 || datos.mes > 12) {
+        return null;
+    }
 
-        new Date(
+    const resultado = crearFechaLocal(
+        anio,
+        datos.mes,
+        datos.dia
+    );
 
-            anio,
-
-            datos.mes - 1,
-
-            datos.dia
-
-        );
-
+    /* Las festividades móviles requieren una fecha anual concreta. */
     if (
-
-        festividad < hoy
-
+        typeof fecha === "object" &&
+        fecha.movable === true
     ) {
+        return null;
+    }
 
-        festividad =
+    return resultado;
+}
 
-            new Date(
+function obtenerFechaInicioNovena(fecha, anio = obtenerFechaActual().getFullYear()) {
+    const festividad = obtenerFechaFestividad(fecha, anio);
 
-                anio + 1,
+    if (!festividad) {
+        return null;
+    }
 
-                datos.mes - 1,
+    return sumarDias(festividad, -8);
+}
 
-                datos.dia
+function obtenerFechaFinNovena(fecha, anio = obtenerFechaActual().getFullYear()) {
+    return obtenerFechaFestividad(fecha, anio);
+}
 
-            );
+function obtenerDiaProgramadoNovena(fecha, fechaActual = obtenerFechaActual()) {
+    const anioActual = fechaActual.getFullYear();
 
+    let inicio = obtenerFechaInicioNovena(fecha, anioActual);
+    let fin = obtenerFechaFinNovena(fecha, anioActual);
+
+    if (!inicio || !fin) {
+        return null;
+    }
+
+    if (fechaActual < inicio) {
+        return {
+            estado: "proxima",
+            dia: 0,
+            inicio,
+            fin
+        };
+    }
+
+    if (fechaActual > fin) {
+        inicio = obtenerFechaInicioNovena(fecha, anioActual + 1);
+        fin = obtenerFechaFinNovena(fecha, anioActual + 1);
+
+        if (!inicio || !fin) {
+            return null;
+        }
+
+        return {
+            estado: "proxima",
+            dia: 0,
+            inicio,
+            fin
+        };
     }
 
     const diferencia =
+        Math.floor(
+            (
+                fechaActual.getTime() -
+                inicio.getTime()
+            ) /
+            (1000 * 60 * 60 * 24)
+        );
 
-        festividad - hoy;
+    return {
+        estado: "en-curso",
+        dia: Math.min(9, diferencia + 1),
+        inicio,
+        fin
+    };
+}
 
-    return Math.ceil(
+function obtenerEstadoNovena(fecha) {
+    return obtenerDiaProgramadoNovena(
+        fecha,
+        obtenerFechaActual()
+    );
+}
 
-        diferencia /
+function diasHastaFestividad(fecha) {
+    const datos = parsearFestividad(fecha);
 
-        (1000 * 60 * 60 * 24)
+    if (!datos) {
+        return null;
+    }
 
+    const hoy = obtenerFechaActual();
+    let festividad = crearFechaLocal(
+        hoy.getFullYear(),
+        datos.mes,
+        datos.dia
     );
 
+    if (festividad < hoy) {
+        festividad = crearFechaLocal(
+            hoy.getFullYear() + 1,
+            datos.mes,
+            datos.dia
+        );
+    }
+
+    return Math.ceil(
+        (
+            festividad.getTime() -
+            hoy.getTime()
+        ) /
+        (1000 * 60 * 60 * 24)
+    );
 }
