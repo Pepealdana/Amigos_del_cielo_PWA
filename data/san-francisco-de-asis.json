@@ -1,0 +1,472 @@
+{
+  "id": "san-francisco-de-asis",
+  "slug": "san-francisco-de-asis",
+  "name": "San Francisco de Asís",
+  "title": "Fundador de los Frailes Menores",
+  "subtitle": "Patrono de la ecología",
+  "category": "Santos",
+  "image": "assets/images/santos/san_francisco_de_asis.webp",
+  "description": "Hijo de Asís que dejó una vida acomodada para seguir a Cristo en pobreza, fraternidad, servicio y alabanza de la creación.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-francisco-de-asis"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "☀️"
+  },
+  "feast": {
+    "day": 4,
+    "month": 10,
+    "text": "4 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Es esto lo que quiero, esto lo que busco, esto lo que deseo de todo corazón.",
+    "reference": "San Francisco de Asís, Testamento, 14"
+  },
+  "patronages": [
+    "Ecología",
+    "Medio ambiente",
+    "Animales",
+    "Italia"
+  ],
+  "virtues": [
+    "Conversión",
+    "Pobreza evangélica",
+    "Humildad",
+    "Fraternidad",
+    "Caridad",
+    "Paz",
+    "Alegría",
+    "Alabanza",
+    "Cuidado de la creación"
+  ],
+  "search": [
+    "san francisco",
+    "francisco de asis",
+    "asís",
+    "franciscanos",
+    "pobreza",
+    "pobres",
+    "leprosos",
+    "enfermos",
+    "paz",
+    "ecologia",
+    "naturaleza",
+    "animales",
+    "creacion",
+    "cantico de las criaturas",
+    "estigmas",
+    "vocacion",
+    "vocaciones",
+    "familia",
+    "juventud"
+  ],
+  "interventions": [
+    {
+      "id": "conversion",
+      "label": "Conversión y cambio de vida",
+      "keywords": [
+        "conversion",
+        "cambio de vida",
+        "volver a dios",
+        "vocacion",
+        "discernimiento",
+        "proposito"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza y necesidades materiales",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "necesidad",
+        "carencia",
+        "sencillez",
+        "desprendimiento"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "leprosos",
+        "sufrimiento",
+        "dolor",
+        "acompañamiento"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "conflicto",
+        "perdon",
+        "dialogo",
+        "unidad"
+      ]
+    },
+    {
+      "id": "creacion",
+      "label": "Cuidado de la creación",
+      "keywords": [
+        "ecologia",
+        "naturaleza",
+        "creacion",
+        "medio ambiente",
+        "animales",
+        "casa comun"
+      ]
+    },
+    {
+      "id": "familia-comunidad",
+      "label": "Familia y fraternidad",
+      "keywords": [
+        "familia",
+        "hermanos",
+        "fraternidad",
+        "comunidad",
+        "convivencia",
+        "amistad"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "fraile",
+        "religioso",
+        "religiosa",
+        "franciscano",
+        "consagracion",
+        "servicio"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "silencio",
+        "contemplacion",
+        "evangelio",
+        "cruz",
+        "adoracion"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Francisco nació en Asís entre 1181 y 1182, en una familia acomodada dedicada al comercio de telas. Durante su juventud soñó con la vida caballeresca, pero una experiencia de cautiverio y un progresivo proceso interior cambiaron sus prioridades. Tras acercarse a los pobres y a los leprosos, comenzó a vivir el Evangelio con mayor radicalidad. Reunió compañeros y fundó la fraternidad de los Frailes Menores. Murió en Asís en 1226 y fue canonizado en 1228.",
+    "extended": "Francisco nació en Asís a finales de 1181 o comienzos de 1182. Su padre era comerciante de telas y el joven Francisco creció en una situación económica acomodada. En su juventud buscó prestigio, diversión y los ideales caballerescos de su tiempo. Participó en una campaña militar y fue hecho prisionero; después de regresar a Asís continuó buscando el sentido de su vida. La transformación fue gradual. Las fuentes franciscanas y la catequesis de Benedicto XVI presentan como experiencias decisivas su encuentro con personas pobres y, especialmente, con los leprosos, a quienes antes había sentido rechazo. Francisco comenzó a acercarse a ellos y a servirlos, viendo en ese encuentro un giro profundo de su vida. Otro momento formativo fue su oración ante el Crucifijo de San Damián, desde donde la tradición franciscana conserva la llamada a reparar la Iglesia. Francisco entendió progresivamente que su camino consistía en vivir el Evangelio con sencillez y pobreza, siguiendo a Cristo y sirviendo a los demás. Renunció públicamente a los bienes de su padre y comenzó una vida de pobreza voluntaria. Poco a poco se unieron compañeros y nació la fraternidad que recibiría la aprobación de la Regla de los Frailes Menores. Francisco no buscó solamente retirarse del mundo: predicó, sirvió a enfermos y pobres, promovió la paz y viajó incluso hasta Egipto, donde se encontró con el sultán al-Malik al-Kamil durante la Quinta Cruzada. En sus últimos años vivió períodos de intensa oración y sufrimiento. En el monte Alverna, en septiembre de 1224, recibió los estigmas según la tradición y las fuentes franciscanas. La experiencia del Crucificado quedó así profundamente unida a su vida espiritual. En 1225 compuso el Cántico de las criaturas, una alabanza a Dios que llama hermano y hermana a distintos elementos de la creación. Murió en Asís el 3 de octubre de 1226 y fue canonizado por Gregorio IX el 16 de julio de 1228. En la iconografía aparece habitualmente con el hábito franciscano, por su pertenencia a la fraternidad que fundó; con las llagas de los estigmas, por la experiencia del Alverna; con un crucifijo o en actitud de contemplación, por su centralidad de Cristo crucificado; y en numerosas representaciones con aves o animales, vinculados a episodios de su vida y a su relación con la creación. El lobo de Gubbio y la predicación a las aves pertenecen a la tradición hagiográfica y a las fuentes sobre Francisco, mientras que el vínculo con la ecología tiene también una base institucional posterior: Juan Pablo II lo proclamó patrono de los cultivadores de la ecología en 1979. Por ello, estos símbolos no deben reducir a Francisco a un simple amante de la naturaleza: expresan una espiritualidad centrada en Dios, la fraternidad, la pobreza evangélica y la alabanza de toda la creación."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Francisco de Asís, hermano de los pobres y discípulo de Cristo, acompáñame durante estos nueve días. Enséñame a vivir con sencillez, a reconocer a Cristo en quienes sufren, a buscar la paz y a cuidar con responsabilidad la creación. Ayúdame a escuchar el Evangelio y a convertirlo en decisiones concretas de amor y servicio. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Francisco de Asís, gracias por acompañarme durante esta novena. Intercede por quienes sufren, por los pobres, por las familias y comunidades, por quienes buscan la paz y por quienes trabajan por el cuidado de la creación. Ayúdame a conservar un corazón sencillo, fraterno y agradecido, capaz de reconocer a Dios en sus criaturas y de servir a los demás con alegría. Que Cristo sea siempre el centro de mi vida. Amén.",
+  "intentions": [
+    "Por quienes desean cambiar de vida y descubrir una vocación de servicio.",
+    "Por las personas que viven pobreza, carencias materiales o exclusión.",
+    "Por enfermos, personas que sufren y quienes los cuidan.",
+    "Por las familias y comunidades que necesitan crecer en fraternidad.",
+    "Por quienes trabajan por la paz y la reconciliación.",
+    "Por quienes protegen la creación y buscan formas responsables de cuidar la casa común.",
+    "Por sacerdotes, religiosos, religiosas y quienes viven una vocación de servicio.",
+    "Por quienes necesitan aprender a vivir con mayor sencillez y desprendimiento.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 5,1-12"
+      },
+      {
+        "reference": "Mateo 10,7-10"
+      },
+      {
+        "reference": "Romanos 8,18-25"
+      }
+    ],
+    "documents": [
+      "Testamento de San Francisco",
+      "Regla bulada de los Frailes Menores",
+      "Cántico de las criaturas"
+    ],
+    "related": [
+      "Santa Clara de Asís",
+      "Orden de Frailes Menores",
+      "San Buenaventura"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general del 27 de enero de 2010: San Francisco de Asís",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2010/documents/hf_ben-xvi_aud_20100127.html",
+      "type": "official"
+    },
+    {
+      "title": "San Francisco de Asís como Patrono de la Ecología — Inter sanctos",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1979/documents/hf_jp-ii_apl_19791129_inter-sanctos.html",
+      "type": "official"
+    },
+    {
+      "title": "Audiencia a la Comunidad de los Frailes Menores de La Verna",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2024/04/05/050424B.html",
+      "type": "official"
+    },
+    {
+      "title": "Celebrar el don de los estigmas (1224-2024)",
+      "organization": "Orden de Frailes Menores",
+      "url": "https://ofm.org/es/celebrar-el-don-de-los-estigmas-1224-2024.html",
+      "type": "official"
+    },
+    {
+      "title": "Memoria de San Francisco de Asís",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://bible.usccb.org/es/bible/lecturas/100423.cfm",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La búsqueda",
+      "title": "Un joven que buscaba su camino",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco creció en una familia acomodada de Asís y durante su juventud soñó con la vida caballeresca. Después de participar en una campaña militar y pasar un tiempo como prisionero, comenzó un proceso interior que lo llevó a preguntarse qué quería hacer con su vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No todas las etapas de nuestra vida tienen una respuesta inmediata. Las preguntas sobre el futuro pueden convertirse en una oportunidad para buscar a Dios y discernir con paciencia."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Qué decisión importante de mi vida necesito poner delante de Dios antes de actuar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes y adultos que buscan su camino, una vocación o una decisión importante."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, acompaña mis búsquedas y mis dudas. Ayúdame a escuchar a Dios y a reconocer el camino que conduce al bien. Amén."
+      },
+      "action": "Escribe una decisión que estés tratando de tomar y dedica unos minutos a pedir luz antes de buscar respuestas."
+    },
+    {
+      "day": 2,
+      "theme": "La conversión",
+      "title": "Aprender a mirar de otra manera",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Uno de los cambios más importantes en Francisco fue su relación con los pobres y los leprosos. Lo que antes podía producirle rechazo comenzó a convertirse en una oportunidad de encuentro y servicio. Las fuentes franciscanas presentan este cambio como parte decisiva de su conversión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión no consiste solamente en dejar algo. También implica aprender a mirar de otra manera a las personas que antes evitábamos y reconocer su dignidad."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿A qué persona o situación suelo mirar con rechazo y cómo podría acercarme con mayor humanidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, personas vulnerables, pobres y quienes viven situaciones de exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, enséñame a no apartarme de quien sufre. Dame un corazón capaz de acercarse con respeto, compasión y servicio. Amén."
+      },
+      "action": "Realiza hoy una acción concreta de ayuda hacia alguien que normalmente no recibe mucha atención."
+    },
+    {
+      "day": 3,
+      "theme": "El Evangelio",
+      "title": "Reconstruir la vida desde Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco encontró un momento formativo importante al orar ante el Crucifijo de San Damián. La tradición franciscana relaciona este episodio con una llamada a reparar la Iglesia. Con el tiempo, Francisco comprendió esa llamada de manera más profunda: vivir el Evangelio y ayudar a renovarlo mediante su propia vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "A veces entendemos una llamada de Dios de manera progresiva. Lo importante es permanecer disponibles para descubrir qué significa realmente."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué llamada al bien estoy percibiendo, aunque todavía no tenga claro cómo responder?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan una vocación cristiana y por quienes necesitan descubrir un nuevo propósito."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, enséñame a escuchar la llamada de Cristo sin querer controlar de antemano todo el camino. Hazme disponible para servir. Amén."
+      },
+      "action": "Lee hoy un pasaje del Evangelio y pregúntate qué acción concreta te invita a realizar."
+    },
+    {
+      "day": 4,
+      "theme": "La pobreza evangélica",
+      "title": "Elegir la sencillez",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco renunció públicamente a los bienes de su padre y comenzó a vivir en pobreza. No entendió la pobreza simplemente como carencia, sino como una forma de seguir a Cristo con libertad, desprendimiento y confianza."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La sencillez puede liberarnos de la necesidad de poseer o aparentar. También nos ayuda a distinguir entre lo que necesitamos y aquello que simplemente deseamos."
+      },
+      "virtue": "Desprendimiento",
+      "reflection": "¿Qué cosa material, hábito o necesidad de aparentar ocupa demasiado espacio en mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven necesidades materiales y por quienes desean aprender a vivir con mayor sencillez."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, enséñame a valorar lo esencial. Que no permita que las cosas materiales ocupen el lugar que corresponde a Dios y al amor a los demás. Amén."
+      },
+      "action": "Elige algo que puedas dejar de comprar, acumular o usar innecesariamente y destina ese recurso a una necesidad real."
+    },
+    {
+      "day": 5,
+      "theme": "La fraternidad",
+      "title": "Hermanos que caminan juntos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Francisco atrajo compañeros y dio origen a una fraternidad. Los Frailes Menores buscaron vivir el Evangelio mediante la pobreza, la predicación, el trabajo y el servicio. Francisco llamó hermanos a quienes compartían este camino."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fraternidad exige más que estar juntos. Implica aprender a compartir, corregir con caridad, perdonar y poner los dones personales al servicio de la comunidad."
+      },
+      "virtue": "Fraternidad",
+      "reflection": "¿Qué puedo hacer para mejorar hoy la convivencia con las personas que forman parte de mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras familias, comunidades, grupos de estudio y trabajo, para que crezcan el respeto y la fraternidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, ayúdame a tratar a los demás como hermanos. Líbrame del egoísmo y enséñame a construir unidad con paciencia y caridad. Amén."
+      },
+      "action": "Haz hoy una tarea que beneficie a tu familia o comunidad sin esperar que alguien te la reconozca."
+    },
+    {
+      "day": 6,
+      "theme": "La paz",
+      "title": "Encontrar caminos de encuentro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco tuvo un fuerte deseo de paz y llegó a encontrarse con el sultán al-Malik al-Kamil durante la Quinta Cruzada. Las fuentes presentan este encuentro como parte de su búsqueda de diálogo y testimonio cristiano en un contexto de conflicto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Buscar la paz no significa ignorar las diferencias. Significa aprender a acercarnos al otro sin convertir el desacuerdo en enemistad."
+      },
+      "virtue": "Paz",
+      "reflection": "¿En qué relación de mi vida necesito dejar de alimentar el conflicto y buscar un camino de diálogo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas, familias y comunidades que viven conflictos y necesitan reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, intercede por quienes buscan la paz. Enséñame a responder al conflicto con verdad, respeto y deseo sincero de reconciliación. Amén."
+      },
+      "action": "Da hoy un paso concreto hacia la reconciliación: una conversación respetuosa, una disculpa o una decisión de dejar de alimentar un conflicto."
+    },
+    {
+      "day": 7,
+      "theme": "La creación",
+      "title": "Alabar al Creador en sus criaturas",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco compuso el Cántico de las criaturas, una alabanza a Dios que nombra al sol, la luna, el agua, el fuego, la tierra y otros elementos como hermanos y hermanas. Su relación con la creación nace de una mirada dirigida primero al Creador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar la creación puede comenzar por reconocerla como un don y asumir responsabilidades concretas. La admiración también puede llevarnos a una mayor responsabilidad."
+      },
+      "virtue": "Gratitud",
+      "reflection": "¿Qué aspecto de la creación recibo habitualmente como un don y cómo puedo cuidarlo mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan por el cuidado del medio ambiente y por comunidades afectadas por el deterioro de la naturaleza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, enséñame a contemplar la creación con gratitud y responsabilidad. Que mi manera de vivir contribuya al cuidado de nuestra casa común. Amén."
+      },
+      "action": "Realiza hoy una acción concreta para reducir desperdicios o cuidar un espacio natural o comunitario."
+    },
+    {
+      "day": 8,
+      "theme": "La cruz",
+      "title": "Un amor que se entrega",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1224 Francisco se retiró al monte Alverna para un tiempo intenso de oración y ayuno. La tradición y las fuentes franciscanas relacionan esta experiencia con la recepción de los estigmas, signos de su profunda identificación con Cristo crucificado."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El seguimiento de Cristo no elimina el sufrimiento, pero puede transformar la manera de atravesarlo. Francisco buscó responder al dolor desde la oración, la entrega y la confianza."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué sufrimiento o dificultad necesito vivir hoy con mayor confianza y acompañamiento de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, personas que sufren y quienes atraviesan momentos de dolor físico o espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco, acompaña a quienes sufren. Enséñanos a permanecer cerca de Cristo en las dificultades y a no cerrar el corazón ante el dolor de los demás. Amén."
+      },
+      "action": "Acompaña hoy a una persona que esté pasando por una dificultad, aunque sea mediante una llamada o un mensaje."
+    },
+    {
+      "day": 9,
+      "theme": "La alegría y el legado",
+      "title": "Vivir el Evangelio con sencillez",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco murió en Asís el 3 de octubre de 1226 y fue canonizado en 1228. Su vida dejó una fraternidad que se extendió por distintos lugares y un testimonio marcado por la pobreza, la paz, el servicio y la alabanza. En 1979 Juan Pablo II lo proclamó patrono de los cultivadores de la ecología."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La sencillez no significa una vida sin responsabilidades. Francisco muestra un camino en el que la oración, el servicio, la fraternidad, la paz y el cuidado de la creación pueden formar una misma respuesta al Evangelio."
+      },
+      "virtue": "Alegría",
+      "reflection": "¿Qué decisión concreta quiero mantener después de esta novena para vivir con mayor sencillez, fraternidad y servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante estos nueve días y por quienes buscan vivir el Evangelio con mayor fidelidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco de Asís, intercede por nosotros. Ayúdanos a vivir con sencillez, a servir a quienes sufren, a buscar la paz y a cuidar la creación. Que Cristo sea el centro de nuestra vida y que sepamos alabar a Dios con alegría. Amén."
+      },
+      "action": "Elige una práctica concreta de sencillez, servicio, oración o cuidado de la creación y mantenla durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
