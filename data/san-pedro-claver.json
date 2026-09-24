@@ -1,0 +1,462 @@
+{
+  "id": "san-pedro-claver",
+  "slug": "san-pedro-claver",
+  "name": "San Pedro Claver",
+  "title": "Presbítero y misionero jesuita",
+  "subtitle": "Servidor de los esclavizados en Cartagena de Indias",
+  "category": "Santos",
+  "image": "assets/images/santos/san_pedro_claver.webp",
+  "description": "Jesuita que dedicó su vida en Cartagena al cuidado, acompañamiento y evangelización de los africanos esclavizados que llegaban al puerto.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-pedro-claver"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 9,
+    "month": 9,
+    "text": "9 de septiembre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "Esclavo de los negros para siempre.",
+    "reference": "Fórmula de su profesión religiosa, citada por san Juan Pablo II en Cartagena, 6 de julio de 1986"
+  },
+  "patronages": [
+    "Colombia y Cartagena de Indias",
+    "Derechos humanos",
+    "Personas marginadas y víctimas de la esclavitud"
+  ],
+  "virtues": [
+    "Caridad",
+    "Dignidad humana",
+    "Servicio",
+    "Compasión",
+    "Fe",
+    "Perseverancia",
+    "Valentía",
+    "Humildad",
+    "Misericordia"
+  ],
+  "search": [
+    "san pedro claver",
+    "pedro claver",
+    "cartagena",
+    "jesuita",
+    "esclavos",
+    "esclavizados",
+    "africa",
+    "caridad",
+    "dignidad",
+    "derechos humanos",
+    "mision",
+    "enfermos",
+    "pobres",
+    "colombia"
+  ],
+  "interventions": [
+    {
+      "id": "dignidad",
+      "label": "Dignidad humana e igualdad",
+      "keywords": [
+        "dignidad",
+        "igualdad",
+        "discriminacion",
+        "racismo",
+        "derechos humanos",
+        "persona"
+      ]
+    },
+    {
+      "id": "marginados",
+      "label": "Personas marginadas y excluidas",
+      "keywords": [
+        "marginados",
+        "excluidos",
+        "rechazo",
+        "abandono",
+        "soledad",
+        "pobres"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "heridas",
+        "dolor",
+        "hospital",
+        "sufrimiento"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "ayudar",
+        "acompañar",
+        "misericordia",
+        "solidaridad"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y evangelización",
+      "keywords": [
+        "fe",
+        "evangelizacion",
+        "bautismo",
+        "catequesis",
+        "mision",
+        "sacerdote"
+      ]
+    },
+    {
+      "id": "valentia",
+      "label": "Valentía para defender al vulnerable",
+      "keywords": [
+        "valentia",
+        "defender",
+        "abusos",
+        "injusticia",
+        "coraje",
+        "verdad"
+      ]
+    },
+    {
+      "id": "perseverancia",
+      "label": "Perseverancia en la misión",
+      "keywords": [
+        "perseverancia",
+        "fidelidad",
+        "dificultad",
+        "paciencia",
+        "constancia"
+      ]
+    },
+    {
+      "id": "reconciliacion",
+      "label": "Reconciliación y convivencia",
+      "keywords": [
+        "reconciliacion",
+        "perdon",
+        "convivencia",
+        "paz",
+        "unidad"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Pedro Claver nació en Verdú, Cataluña, en 1580. Ingresó en la Compañía de Jesús, llegó a Cartagena de Indias en 1610 y fue ordenado sacerdote allí en 1616. Durante casi cuarenta años atendió a los africanos esclavizados que llegaban al puerto, especialmente a los enfermos y heridos, y los acompañó en su formación cristiana. Murió en Cartagena en 1654 y fue canonizado por León XIII en 1888.",
+    "extended": "Pedro Claver nació en Verdú, Cataluña, en 1580. Mientras estudiaba en Barcelona conoció a los jesuitas y posteriormente ingresó en la Compañía de Jesús en 1602. Durante su formación recibió la influencia del hermano Alonso Rodríguez, quien alentó en él el deseo de servir como misionero. En 1610 fue enviado al Nuevo Reino de Granada y llegó a Cartagena de Indias, donde completó su formación y fue ordenado sacerdote en 1616.\n\nCartagena era entonces un puerto por el que llegaban personas africanas sometidas a esclavitud. Claver hizo de su atención una misión central: acudía a los barcos, descendía a las bodegas, atendía heridas y enfermedades, llevaba alimentos y se servía de intérpretes que conocían las lenguas de quienes llegaban. También visitó hospitales y atendió a otras personas enfermas o privadas de libertad. Su servicio no se limitó a la asistencia material; procuró acompañar espiritualmente a quienes encontraba y prepararlos para el bautismo, dentro de las condiciones de su tiempo.\n\nNo existe en las fuentes consultadas una base suficiente para presentar su vida como una conversión provocada por un pecado concreto. La transformación que las fuentes permiten reconocer es la maduración de una vocación misionera: el encuentro con Alonso Rodríguez y después la realidad de Cartagena orientaron de manera decisiva su vida hacia el servicio de los más vulnerables. Su propia fórmula religiosa, según la cita conservada por san Juan Pablo II, expresó esa entrega con las palabras «Esclavo de los negros para siempre».\n\nLa vida de Claver también estuvo marcada por la perseverancia. Durante décadas mantuvo una tarea exigente en un contexto de enfermedad, pobreza, violencia y esclavitud. En 1650 atendió a personas afectadas por una epidemia de peste y posteriormente quedó enfermo. Murió en Cartagena el 9 de septiembre de 1654. Fue beatificado en 1850 y canonizado por León XIII en 1888.\n\nEn la iconografía suele aparecer con el hábito negro de los jesuitas, una cruz y acompañado de personas africanas, imágenes que recuerdan su ministerio en Cartagena. También puede representarse atendiendo a enfermos o llevando ayuda a quienes llegaban a los barcos. Estos atributos se relacionan con hechos centrales de su vida y con la memoria de su servicio. San Juan Pablo II presentó su testimonio como una referencia para la defensa de la dignidad y los derechos humanos, mientras que la tradición jesuita conserva su figura como servidor de los esclavizados de Cartagena. Por eso, en esta novena no se debe reducir su historia a una imagen piadosa: su testimonio se entiende a partir de la caridad cristiana expresada mediante acciones concretas de cuidado, acompañamiento y defensa del vulnerable."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nSan Pedro Claver, servidor de los más olvidados, acompáñame durante estos nueve días. Enséñame a reconocer la dignidad de cada persona, a acercarme a quien sufre y a convertir mi fe en servicio. Presento ante Dios la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Pedro Claver, misionero de Cristo y servidor de los más vulnerables, intercede por nosotros. Ayúdanos a reconocer la dignidad de toda persona, a rechazar la indiferencia ante el sufrimiento y a servir con humildad y perseverancia. Que nuestra fe se traduzca en obras de caridad, misericordia y verdad. Amén.",
+  "intentions": [
+    "Por las personas que sufren discriminación, exclusión o desprecio.",
+    "Por quienes son víctimas de trata, explotación o cualquier forma de esclavitud.",
+    "Por enfermos, heridos y personas que viven en abandono.",
+    "Por quienes trabajan en la defensa de la dignidad y los derechos humanos.",
+    "Por misioneros, sacerdotes y agentes pastorales que sirven en contextos difíciles.",
+    "Por comunidades marcadas por la división, el racismo o la violencia.",
+    "Por quienes han sido marginados y necesitan ser acogidos.",
+    "Por quienes desean aprender a servir con mayor generosidad.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Lucas 10,25-37"
+      },
+      {
+        "reference": "Filipenses 2,1-5"
+      },
+      {
+        "reference": "Gálatas 3,26-28"
+      }
+    ],
+    "documents": [
+      "Fórmula de la profesión religiosa de San Pedro Claver"
+    ],
+    "related": [
+      "San Ignacio de Loyola",
+      "Compañía de Jesús"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Pedro Claver",
+      "organization": "Compañía de Jesús",
+      "url": "https://www.jesuits.global/es/saint-blessed/san-pedro-claver/",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus en Cartagena de Indias — 9 de febrero de 1992",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/1992/documents/hf_jp-ii_ang_19920209.html",
+      "type": "official"
+    },
+    {
+      "title": "Mensaje a los colombianos en el IV aniversario del nacimiento de San Pedro Claver — 26 de junio de 1980",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1980/june/documents/hf_jp-ii_spe_19800626_pedro-claver.html",
+      "type": "official"
+    },
+    {
+      "title": "Coronación de la imagen de Nuestra Señora de la Candelaria en Cartagena — 6 de julio de 1986",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1986/documents/hf_jp-ii_hom_19860706_cartagena.html",
+      "type": "official"
+    },
+    {
+      "title": "Santa Misa en Cartagena de Indias — 10 de septiembre de 2017",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2017/documents/papa-francesco_20170910_omelia-viaggioapostolico-colombiacartagena.html",
+      "type": "official"
+    },
+    {
+      "title": "San Pedro Claver: darse totalmente acogiendo con generosidad",
+      "organization": "Compañía de Jesús",
+      "url": "https://www.jesuits.global/es/2021/09/09/san-pedro-claver-darse-totalmente-acogiendo-con-generosidad/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Los comienzos",
+      "title": "Una vocación que fue tomando forma",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pedro Claver nació en Verdú en 1580. Durante sus estudios en Barcelona conoció la Compañía de Jesús y recibió el impulso de Alonso Rodríguez para considerar la misión en el Nuevo Mundo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación puede crecer cuando prestamos atención a las personas y experiencias que nos orientan hacia el bien."
+      },
+      "virtue": "Vocación",
+      "reflection": "¿Qué experiencias y personas han ayudado a orientar mi vida hacia el bien?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y el sentido de su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Claver, ayúdame a escuchar las llamadas al bien que aparecen en mi camino y a responder con generosidad. Amén."
+      },
+      "action": "Escribe una experiencia o una persona que haya influido positivamente en tu camino y agradece a Dios por ella."
+    },
+    {
+      "day": 2,
+      "theme": "La llamada a servir",
+      "title": "Dejar que la fe oriente las decisiones",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Claver ingresó en la Compañía de Jesús en 1602 y se ofreció para las misiones. En 1610 fue enviado al Nuevo Reino de Granada, donde su camino lo llevó a Cartagena."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La generosidad se demuestra también en decisiones concretas y responsables."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué decisión concreta puedo orientar hoy hacia el servicio de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes deben tomar decisiones importantes sobre su futuro."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, por intercesión de San Pedro Claver, enséñame a tomar decisiones responsables y generosas, buscando el bien de los demás. Amén."
+      },
+      "action": "Haz hoy una acción de servicio que no esperabas recibir de nadie."
+    },
+    {
+      "day": 3,
+      "theme": "Cartagena",
+      "title": "Encontrarse con una realidad que interpela",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Cartagena, Claver se encontró con las personas africanas esclavizadas que llegaban al puerto. Según las fuentes jesuitas, acudía a los barcos, llevaba alimentos y atendía especialmente a los enfermos y heridos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La compasión comienza cuando dejamos de mirar el sufrimiento como algo ajeno."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿A qué sufrimiento cercano me estoy acostumbrando sin detenerme a ayudar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven situaciones de abandono, exclusión o sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Claver, abre mis ojos ante el sufrimiento de quienes tengo cerca y enséñame a responder con compasión. Amén."
+      },
+      "action": "Observa hoy una necesidad concreta a tu alrededor y responde con una ayuda posible y respetuosa."
+    },
+    {
+      "day": 4,
+      "theme": "La dignidad",
+      "title": "Ver a la persona antes que la condición",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Claver procuró acercarse a quienes eran tratados como mercancía y atenderlos como personas. San Juan Pablo II destacó que les ayudaba a reconocer su dignidad y el valor de su persona."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dignidad de una persona no depende de su origen, condición social o circunstancias."
+      },
+      "virtue": "Dignidad",
+      "reflection": "¿Cómo trato a las personas que tienen menos oportunidades o que son diferentes de mí?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren discriminación, racismo o desprecio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Claver, ayúdame a reconocer la dignidad de toda persona y a rechazar palabras o acciones que humillen o excluyan. Amén."
+      },
+      "action": "Evita hoy una expresión, broma o comentario que pueda menospreciar a otra persona."
+    },
+    {
+      "day": 5,
+      "theme": "Servir con las manos",
+      "title": "La caridad también se vuelve acción",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Claver limpiaba heridas, aplicaba remedios, llevaba alimentos y acompañaba a enfermos. Su testimonio muestra una caridad que no se quedó en palabras, sino que buscó aliviar sufrimientos concretos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana puede expresarse mediante acciones sencillas y concretas."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué puedo hacer hoy para aliviar de manera concreta una necesidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, heridos, cuidadores y personas que sufren."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, enséñame a servir con mis manos, mi tiempo y mis capacidades, como lo hizo San Pedro Claver con quienes sufrían. Amén."
+      },
+      "action": "Dedica tiempo a ayudar a una persona que necesite apoyo práctico."
+    },
+    {
+      "day": 6,
+      "theme": "Fe y acompañamiento",
+      "title": "Anunciar a Cristo con paciencia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Claver también acompañó espiritualmente a las personas que encontraba y las preparaba para el bautismo. Su misión unía la atención material con el anuncio de la fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe se comunica mejor cuando está acompañada por respeto, paciencia y servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Cómo puedo compartir mi fe sin imponerla y mostrando primero respeto y servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros, catequistas, sacerdotes y personas que acompañan procesos de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Claver, enséñame a vivir mi fe con respeto, paciencia y coherencia, para que mis obras hagan visible el amor de Cristo. Amén."
+      },
+      "action": "Realiza una obra de caridad sin convertirla en ocasión para presumir o exigir reconocimiento."
+    },
+    {
+      "day": 7,
+      "theme": "Valentía ante la injusticia",
+      "title": "No permanecer indiferente",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Juan Pablo II presentó a Claver como un testimonio de defensa de la dignidad humana. Su servicio se desarrolló en una sociedad donde la esclavitud estaba integrada en las estructuras de su tiempo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La valentía cristiana no significa violencia, sino capacidad de actuar responsablemente frente al mal."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Ante qué situación de injusticia o maltrato puedo actuar de forma responsable y prudente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren abusos, explotación o formas de esclavitud contemporánea."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Claver, danos valentía para no ser indiferentes ante el sufrimiento y sabiduría para actuar sin violencia, odio ni desprecio. Amén."
+      },
+      "action": "Si presencias una situación de maltrato o discriminación, busca una forma segura y responsable de pedir ayuda o proteger a la persona afectada."
+    },
+    {
+      "day": 8,
+      "theme": "Perseverar",
+      "title": "Servir durante años sin abandonar la misión",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Claver permaneció en Cartagena durante décadas. Visitó hospitales y atendió también a otras personas enfermas y privadas de libertad. Su servicio se mantuvo a pesar de las dificultades y del desgaste."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia permite mantener el bien incluso cuando los resultados tardan en aparecer."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso bueno necesito retomar o sostener aunque no vea resultados inmediatos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven durante largos períodos en contextos difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Claver, ayúdame a perseverar en el bien cuando aparezcan el cansancio, la frustración o la falta de reconocimiento. Amén."
+      },
+      "action": "Retoma hoy un compromiso de servicio que hayas dejado de lado y establece un pequeño paso para mantenerlo."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida entregada",
+      "title": "La caridad que permanece",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pedro Claver murió en Cartagena en 1654. La Iglesia lo canonizó en 1888. Su memoria permanece especialmente vinculada a Cartagena y a la defensa de la dignidad de las personas marginadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vida entregada al servicio puede dejar una memoria que inspire a otros a hacer el bien."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué huella quiero dejar en las personas que encuentro cada día?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan recuperar la esperanza y por nuestra intención particular."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Claver, ayúdame a vivir una caridad concreta, humilde y perseverante. Que mi vida pueda ser para otros un lugar de acogida, respeto y esperanza. Amén."
+      },
+      "action": "Elige una obra de servicio que puedas mantener durante las próximas semanas y conviértela en un compromiso real."
+    }
+  ]
+}
