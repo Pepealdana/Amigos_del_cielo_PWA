@@ -1,0 +1,465 @@
+{
+  "id": "santa-rita-de-casia",
+  "slug": "santa-rita-de-casia",
+  "name": "Santa Rita de Casia",
+  "title": "Religiosa agustina y mujer de paz",
+  "subtitle": "Testigo de perdón, oración, esperanza y reconciliación",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_rita_de_casia.webp",
+  "description": "Religiosa agustina cuya vida estuvo marcada por la familia, el perdón, la oración, la caridad y la búsqueda de la paz.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-rita-de-casia"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 22,
+    "month": 5,
+    "text": "22 de mayo",
+    "liturgicalRank": "Memoria opcional",
+    "movable": false
+  },
+  "patronages": [
+    "Mujeres y familias que buscan reconciliación, según la devoción popular",
+    "Causas difíciles o imposibles, según la devoción popular",
+    "Personas que buscan paz y perdón"
+  ],
+  "virtues": [
+    "Fe",
+    "Perdón",
+    "Oración",
+    "Paciencia",
+    "Perseverancia",
+    "Fortaleza",
+    "Paz",
+    "Esperanza",
+    "Caridad"
+  ],
+  "search": [
+    "santa rita",
+    "santa rita de casia",
+    "rita de casia",
+    "casia",
+    "roccaporena",
+    "agustinas",
+    "agustiniana",
+    "perdon",
+    "perdón",
+    "paz",
+    "reconciliacion",
+    "reconciliación",
+    "causas imposibles",
+    "causas dificiles",
+    "causas difíciles",
+    "familia",
+    "viudas",
+    "enfermos",
+    "oracion",
+    "oración",
+    "espina",
+    "rosa"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia, matrimonio y conflictos familiares",
+      "keywords": [
+        "familia",
+        "matrimonio",
+        "esposos",
+        "esposa",
+        "marido",
+        "hijos",
+        "hogar",
+        "conflicto familiar"
+      ]
+    },
+    {
+      "id": "perdon",
+      "label": "Perdón y reconciliación",
+      "keywords": [
+        "perdon",
+        "perdón",
+        "resentimiento",
+        "reconciliacion",
+        "reconciliación",
+        "venganza",
+        "odio",
+        "heridas"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y resolución de conflictos",
+      "keywords": [
+        "paz",
+        "conflicto",
+        "violencia",
+        "guerra",
+        "dialogo",
+        "diálogo",
+        "reconciliar"
+      ]
+    },
+    {
+      "id": "causas-dificiles",
+      "label": "Situaciones difíciles y causas urgentes",
+      "keywords": [
+        "dificil",
+        "difícil",
+        "imposible",
+        "urgente",
+        "problema",
+        "necesidad",
+        "desesperanza"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "cuidadores"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "misa",
+        "rosario",
+        "cristo",
+        "dios",
+        "fe",
+        "silencio"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en tiempos de prueba",
+      "keywords": [
+        "esperanza",
+        "desanimo",
+        "desánimo",
+        "prueba",
+        "dificultad",
+        "futuro",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "mujeres",
+      "label": "Mujeres y situaciones de vida",
+      "keywords": [
+        "mujer",
+        "mujeres",
+        "viuda",
+        "viudas",
+        "esposa",
+        "madre",
+        "familia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Santa Rita de Casia fue una religiosa agustina italiana cuya vida atravesó el matrimonio, la viudez, la pérdida de sus hijos y la vida religiosa. Es recordada especialmente por su oración, su perdón y su búsqueda de la paz.",
+    "extended": "Rita Lotti nació en 1381 en Roccaporena, cerca de Cascia, en Italia. Desde joven deseó una vida consagrada, pero contrajo matrimonio con Paolo Mancini y tuvo dos hijos. Su historia muestra que su camino de santidad se desarrolló primero dentro de la vida familiar y después en la vida religiosa. No es necesario atribuir su transformación a un pecado concreto: su testimonio se fue formando a través de la fe, las responsabilidades familiares y las pruebas que afrontó.\\n\\nSu matrimonio estuvo marcado por un contexto de rivalidad entre familias. Después del asesinato de su esposo, Rita afrontó el duelo y, según la tradición agustiniana, procuró evitar que sus hijos buscaran venganza. Esta experiencia es fundamental para comprender su asociación posterior con el perdón y la paz. Sus dos hijos murieron antes de llevar a cabo la venganza que habían considerado.\\n\\nDespués de quedar viuda y perder a sus hijos, Rita buscó ingresar en el monasterio de las monjas agustinas de Cascia. La tradición de la Orden señala que realizó varias solicitudes antes de ser admitida. Allí vivió aproximadamente cuarenta años dedicados a la oración y a sencillas obras de caridad. Esta etapa muestra una nueva forma de entrega: su vida religiosa nació después de una serie de pérdidas profundas, pero no quedó definida por ellas.\\n\\nUna experiencia particularmente asociada a su espiritualidad ocurrió, según la tradición, mientras oraba ante una imagen de Cristo coronado de espinas. Rita habría recibido una herida en la frente semejante a una espina. Este episodio forma parte de la tradición hagiográfica y explica uno de sus principales atributos iconográficos. No debe presentarse como un dato histórico del mismo nivel que su nacimiento, matrimonio, ingreso en el monasterio o muerte.\\n\\nSanta Rita también está relacionada con la tradición de la rosa. Según una conocida tradición, poco antes de morir pidió a una pariente que le llevara una rosa y dos higos de la casa familiar durante el invierno. La tradición cuenta que encontró una rosa y los higos. Por eso la rosa se convirtió en uno de sus símbolos más conocidos. Es un elemento devocional y tradicional, no un hecho biográfico que deba separarse de esa tradición.\\n\\nRita murió en Cascia el 22 de mayo de 1457. Fue canonizada por el papa León XIII el 24 de mayo de 1900. Su cuerpo es venerado en la Basílica de Santa Rita de Cascia. La liturgia católica la celebra el 22 de mayo como memoria opcional en el calendario romano, y la Orden de San Agustín la reconoce dentro de su tradición propia.\\n\\nSu iconografía suele mostrarla con el hábito agustiniano, un crucifijo, una espina en la frente y una rosa. El hábito identifica su pertenencia a la vida religiosa agustiniana; el crucifijo expresa su unión espiritual con Cristo; la espina remite a la tradición de la herida recibida durante la oración; y la rosa recuerda la tradición vinculada a sus últimos días. La representación de estos elementos debe distinguir siempre entre historia documentada y tradición devocional.\\n\\nSu devoción popular la ha relacionado especialmente con causas difíciles o imposibles, con el perdón y con la reconciliación. Esta asociación pertenece al desarrollo de la piedad cristiana y no significa que una oración garantice un resultado concreto. Su testimonio invita más bien a presentar las dificultades ante Dios, buscar caminos responsables y perseverar en el bien, especialmente cuando están en juego el perdón, la paz y la esperanza."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\nSeñor Jesús, durante estos nueve días queremos caminar junto a Santa Rita de Casia. Enséñanos a confiar en Ti, a perdonar con sabiduría, a buscar la paz y a permanecer firmes en medio de las dificultades. Por su intercesión, recibe nuestras intenciones y ayúdanos a responder al sufrimiento con fe, esperanza y caridad. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de Santa Rita de Casia. Ayúdanos a vivir con un corazón dispuesto al perdón, a buscar la reconciliación cuando sea posible y a no perder la esperanza en las pruebas. Que nuestra oración se transforme en decisiones concretas de paz, servicio y caridad. Amén.",
+  "intentions": [
+    "Por las familias que atraviesan cambios, conflictos o situaciones que no habían previsto.",
+    "Por los matrimonios y familias que atraviesan conflictos, violencia, duelo o dificultades para perdonarse.",
+    "Por las personas y familias afectadas por violencia, venganza, conflictos prolongados o resentimientos.",
+    "Por quienes esperan una oportunidad, una respuesta o un cambio y necesitan fortaleza para perseverar.",
+    "Por quienes se sienten agotados, angustiados o lejos de Dios y necesitan recuperar un espacio de oración.",
+    "Por los enfermos, las personas que sufren y quienes acompañan a familiares en situaciones difíciles.",
+    "Por quienes trabajan por la reconciliación en sus familias y comunidades y por quienes viven conflictos prolongados.",
+    "Por las personas que enfrentan situaciones que parecen no tener salida y por quienes necesitan recuperar la esperanza.",
+    "Presenta a Dios tu intención particular y pide también por las personas con las que necesitas vivir una relación más pacífica."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 6,27-38"
+      },
+      {
+        "reference": "Mateo 5,9"
+      },
+      {
+        "reference": "Mateo 5,43-48"
+      },
+      {
+        "reference": "Filipenses 4,4-9"
+      }
+    ],
+    "documents": [
+      "Memoria opcional de Santa Rita de Casia, 22 de mayo."
+    ],
+    "related": [
+      "Perdón",
+      "Paz",
+      "Reconciliación",
+      "Esperanza",
+      "Familia",
+      "Oración"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Rita de Casia, religiosa",
+      "organization": "Orden de San Agustín",
+      "url": "https://www.augustinianorder.org/saints-and-blessed/saint-rita-of-cascia%2C-religious",
+      "type": "official"
+    },
+    {
+      "title": "Memoria opcional de Santa Rita de Casia, religiosa",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/0522-memoria.cfm",
+      "type": "official"
+    },
+    {
+      "title": "Santos y Beatos — Santa Rita de Casia",
+      "organization": "Orden de San Agustín",
+      "url": "https://www.augustinianorder.org/saints-and-blesseds?lang=es",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Una mujer de fe",
+      "title": "Aprender a confiar en Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rita Lotti nació en 1381 en Roccaporena, cerca de Cascia, Italia, en una familia cristiana. Desde joven deseó una vida consagrada, pero contrajo matrimonio con Paolo Mancini y formó una familia. La tradición agustiniana recuerda que vivió su fe dentro de las responsabilidades familiares y que, después de las tragedias que marcaron su vida, mantuvo la esperanza. No es necesario atribuirle una conversión provocada por un pecado concreto: su camino fue más bien una profundización de la fe ante circunstancias difíciles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La confianza en Dios también se construye en la vida cotidiana, en las responsabilidades familiares y cuando nuestros planes no coinciden con lo que finalmente sucede."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué situación de mi vida necesito poner hoy con mayor confianza en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que atraviesan cambios, conflictos o situaciones que no habían previsto."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, mujer de fe, enséñanos a confiar en Dios cuando no comprendemos el camino. Ayúdanos a vivir nuestras responsabilidades con amor y a conservar la esperanza en las pruebas. Amén."
+      },
+      "action": "Presenta hoy a Dios una preocupación concreta y evita durante el día alimentar pensamientos de desesperanza."
+    },
+    {
+      "day": 2,
+      "theme": "La vida familiar",
+      "title": "Amar en medio de las dificultades",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rita estuvo casada con Paolo Mancini y tuvieron dos hijos. Su matrimonio estuvo marcado por un ambiente de rivalidad familiar. La tradición sobre su vida destaca su esfuerzo por mantener la paz y su fidelidad a sus convicciones cristianas. Después del asesinato de su esposo, Rita afrontó el dolor sin abandonar el deseo de reconciliación. Su historia muestra una santidad vivida también en las relaciones familiares, con sus alegrías y heridas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida familiar requiere paciencia, diálogo, perdón y capacidad para buscar la paz incluso cuando existen heridas profundas."
+      },
+      "virtue": "Paciencia",
+      "reflection": "¿Hay una relación familiar que necesita de mi paciencia, mi oración o una palabra de reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los matrimonios y familias que atraviesan conflictos, violencia, duelo o dificultades para perdonarse."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, acompaña a nuestras familias. Ruega por quienes viven conflictos y enséñanos a responder al dolor sin alimentar el odio. Danos paciencia y sabiduría para buscar caminos de paz. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de respeto o reconciliación hacia un familiar, siempre que sea seguro y prudente hacerlo."
+    },
+    {
+      "day": 3,
+      "theme": "El perdón",
+      "title": "Romper el ciclo de la violencia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Paolo Mancini fue asesinado en el contexto de una antigua rivalidad entre familias. Rita quedó viuda y sus hijos, todavía adolescentes, deseaban vengar la muerte de su padre. La tradición agustiniana presenta a Rita orando para que sus hijos no siguieran el camino de la violencia. Ambos murieron antes de llevar a cabo esa venganza. La experiencia del perdón se convirtió así en uno de los rasgos más conocidos de su testimonio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perdonar no significa negar el daño ni justificar una injusticia. Puede significar decidir que el dolor no será motivo para continuar la violencia o el odio."
+      },
+      "virtue": "Perdón",
+      "reflection": "¿Qué herida necesito entregar a Dios para no permitir que se convierta en resentimiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas y familias afectadas por violencia, venganza, conflictos prolongados o resentimientos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, intercede por quienes han sido heridos y por quienes tienen dificultad para perdonar. Danos un corazón capaz de buscar la paz sin negar la verdad ni la justicia. Amén."
+      },
+      "action": "Evita hoy una palabra, mensaje o reacción que pueda reabrir un conflicto; elige en su lugar una respuesta serena."
+    },
+    {
+      "day": 4,
+      "theme": "La perseverancia",
+      "title": "No abandonar el camino del bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de la muerte de su esposo y de sus hijos, Rita quedó sola. Según la tradición de la Orden de San Agustín, después de varios intentos y solicitudes consiguió ser admitida en el monasterio de las monjas agustinas de Cascia. Allí vivió aproximadamente los últimos cuarenta años de su vida, dedicada a la oración y a obras sencillas de caridad. Su ingreso al monasterio representa una nueva etapa de su vocación, no una huida de las dificultades, sino una forma diferente de entregarse a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Algunos caminos necesitan tiempo. Perseverar puede significar continuar buscando el bien aunque una puerta se cierre varias veces."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué aspecto bueno de mi vida estoy a punto de abandonar demasiado pronto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes esperan una oportunidad, una respuesta o un cambio y necesitan fortaleza para perseverar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, ayúdanos a perseverar en el bien cuando los resultados tardan en llegar. Enséñanos a buscar caminos nuevos sin abandonar la confianza en Dios. Amén."
+      },
+      "action": "Retoma hoy una tarea buena que hayas abandonado y da un paso concreto para continuarla."
+    },
+    {
+      "day": 5,
+      "theme": "La vida de oración",
+      "title": "Buscar a Dios en el silencio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En el monasterio de Cascia, Rita dedicó su vida a la oración y a obras sencillas de caridad. La espiritualidad agustiniana subraya la búsqueda de Dios en el interior del corazón y en la vida comunitaria. La tradición de Rita la presenta profundamente unida a la pasión de Cristo y a la oración perseverante. Su vida religiosa no consistió únicamente en apartarse del mundo, sino en transformar el dolor vivido en una entrega más profunda a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración permite detenernos, reconocer nuestras heridas y ponerlas delante de Dios para que no gobiernen nuestras decisiones."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Tengo un momento del día en el que pueda estar en silencio y presentar a Dios lo que estoy viviendo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten agotados, angustiados o lejos de Dios y necesitan recuperar un espacio de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, mujer de oración, acompáñanos cuando nos cueste encontrar palabras. Enséñanos a permanecer ante Dios con sinceridad y confianza. Amén."
+      },
+      "action": "Reserva hoy diez minutos de silencio para orar sin teléfono ni otras distracciones."
+    },
+    {
+      "day": 6,
+      "theme": "La cruz y el sufrimiento",
+      "title": "Permanecer unidos a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Una de las tradiciones más conocidas sobre Santa Rita cuenta que, durante una oración ante una imagen de Cristo coronado de espinas, recibió una herida en la frente semejante a una espina. La Orden de San Agustín conserva este episodio como parte de la tradición de su vida y de su iconografía. No se debe presentar este fenómeno extraordinario como el único centro de su santidad: su testimonio también estuvo marcado por la vida familiar, el perdón, la oración y la caridad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El sufrimiento puede llevarnos a buscar acompañamiento, oración y esperanza. La fe no exige negar el dolor, sino atravesarlo sin perder la dignidad ni la confianza."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué sufrimiento estoy llevando solo y a quién podría pedir ayuda o acompañamiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, las personas que sufren y quienes acompañan a familiares en situaciones difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, acompaña a quienes sufren. Ruega por los enfermos y por quienes los cuidan, para que reciban fortaleza, atención, consuelo y esperanza. Amén."
+      },
+      "action": "Acompaña hoy a una persona que esté pasando por una dificultad; si no puedes estar físicamente, llámala o escríbele."
+    },
+    {
+      "day": 7,
+      "theme": "La reconciliación",
+      "title": "Ser constructores de paz",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición de Cascia relaciona la vida de Rita con la reconciliación entre la familia de su esposo y la familia de quienes participaron en su asesinato. Este episodio forma parte de la tradición hagiográfica que acompaña su reconocimiento como mujer de paz. Por ello se la venera como pacificadora: su testimonio se asocia a la decisión de no perpetuar el ciclo de violencia y a la búsqueda de reconciliación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La paz no siempre aparece de inmediato. Puede comenzar cuando alguien decide dejar de alimentar el conflicto y busca condiciones para el diálogo y la reconciliación."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué conflicto cercano a mí necesita menos reacción y más prudencia, escucha o acompañamiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan por la reconciliación en sus familias y comunidades y por quienes viven conflictos prolongados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, pacificadora, ruega por quienes viven enfrentamientos. Danos prudencia para hablar, humildad para escuchar y valentía para buscar la reconciliación cuando sea posible. Amén."
+      },
+      "action": "Antes de responder hoy a un conflicto, detente, escucha y considera cuál respuesta puede contribuir realmente a la paz."
+    },
+    {
+      "day": 8,
+      "theme": "La esperanza",
+      "title": "Confiar cuando parece imposible",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Rita es conocida popularmente como la santa de las causas imposibles por las dificultades extraordinarias que atravesó y por la devoción desarrollada después de su muerte. Esta denominación pertenece a la piedad popular y no significa que la oración garantice un resultado determinado. Su historia puede ayudarnos a presentar a Dios aquello que parece imposible mientras buscamos también caminos responsables para afrontar la situación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no consiste en exigir un resultado concreto. Consiste en confiar en Dios, pedir ayuda, discernir y continuar haciendo el bien aun cuando no vemos una solución inmediata."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación considero imposible y necesito presentar a Dios sin dejar de hacer lo que está a mi alcance?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que enfrentan situaciones que parecen no tener salida y por quienes necesitan recuperar la esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita, intercede por nuestras situaciones difíciles. Enséñanos a confiar en Dios sin caer en la desesperanza y a buscar con prudencia los caminos que sí podemos recorrer. Amén."
+      },
+      "action": "Escribe tu intención principal y, junto a ella, anota una acción concreta que puedas realizar responsablemente."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida de caridad",
+      "title": "Seguir sembrando paz y esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Rita murió el 22 de mayo de 1457 en Cascia, después de una larga vida religiosa. Fue canonizada por el papa León XIII el 24 de mayo de 1900. Su cuerpo es venerado en la Basílica de Santa Rita de Cascia. La tradición cristiana continúa recordándola como mujer de oración, perdón, paz y caridad. En su iconografía aparece habitualmente con el hábito agustiniano, un crucifijo o una espina en la frente y, con frecuencia, una rosa. La espina recuerda la tradición de su participación en la pasión de Cristo; la rosa se relaciona con una tradición sobre su petición de una rosa y dos higos durante el invierno, por lo que debe entenderse como un signo devocional, no como un dato histórico independiente."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Santa Rita muestra que una persona puede atravesar pérdidas y conflictos sin renunciar al amor, la oración y la búsqueda de la paz."
+      },
+      "virtue": "Caridad",
+      "reflection": "Después de estos nueve días, ¿qué actitud quiero conservar: perdón, oración, esperanza, paz o servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Presenta a Dios tu intención particular y pide también por las personas con las que necesitas vivir una relación más pacífica."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Rita de Casia, mujer de oración, perdón y esperanza, acompaña nuestras necesidades y ayúdanos a vivir con un corazón dispuesto a buscar la paz. Enséñanos a confiar en Dios, a perdonar con prudencia, a servir a quienes sufren y a perseverar en el bien. Ruega por nosotros y presenta ante el Señor nuestras intenciones. Amén."
+      },
+      "action": "Elige un compromiso concreto que puedas mantener después de la novena para vivir con más paz, oración y caridad."
+    }
+  ]
+}
