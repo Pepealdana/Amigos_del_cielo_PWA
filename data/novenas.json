@@ -4491,5 +4491,143 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santos-cosme-y-damian",
+    "slug": "santos-cosme-y-damian",
+    "name": "Santos Cosme y Damián",
+    "title": "Novena a los Santos Cosme y Damián",
+    "subtitle": "Servir con caridad y aliviar el sufrimiento",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santos_cosme_y_damian.webp",
+    "file": "data/santos-cosme-y-damian.json",
+    "description": "Nueve días para contemplar el testimonio de los santos Cosme y Damián, médicos cristianos que, según la tradición, atendían gratuitamente a los enfermos y dieron testimonio de Cristo hasta el martirio.",
+    "feast": {
+      "day": 26,
+      "month": 9,
+      "text": "26 de septiembre",
+      "liturgicalRank": "Memoria opcional",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san cosme",
+      "san damián",
+      "san damian",
+      "cosme y damian",
+      "médicos",
+      "medicos",
+      "cirujanos",
+      "farmacéuticos",
+      "enfermos",
+      "salud",
+      "sanación",
+      "caridad",
+      "profesionales de la salud"
+    ],
+    "interventions": [
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "salud"
+        ]
+      },
+      {
+        "id": "profesionales-salud",
+        "label": "Médicos y profesionales de la salud",
+        "keywords": [
+          "médico",
+          "medico",
+          "médicos",
+          "medicos",
+          "cirujano",
+          "cirujanos",
+          "enfermería",
+          "enfermeria",
+          "farmacéutico",
+          "farmaceutico",
+          "salud"
+        ]
+      },
+      {
+        "id": "familiares-cuidadores",
+        "label": "Familiares y cuidadores",
+        "keywords": [
+          "cuidador",
+          "cuidadores",
+          "familia",
+          "familiares",
+          "acompañamiento",
+          "acompanamiento"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio gratuito",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "ayuda",
+          "generosidad",
+          "pobreza",
+          "necesidad"
+        ]
+      },
+      {
+        "id": "fortaleza",
+        "label": "Fortaleza en la enfermedad",
+        "keywords": [
+          "fortaleza",
+          "miedo",
+          "angustia",
+          "dolor",
+          "prueba",
+          "esperanza"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe y testimonio cristiano",
+        "keywords": [
+          "fe",
+          "evangelio",
+          "cristo",
+          "conversion",
+          "conversión",
+          "testimonio"
+        ]
+      },
+      {
+        "id": "martirio",
+        "label": "Perseverancia y fidelidad",
+        "keywords": [
+          "martirio",
+          "persecución",
+          "persecucion",
+          "fidelidad",
+          "perseverancia"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación al servicio",
+        "keywords": [
+          "vocación",
+          "vocacion",
+          "llamado",
+          "servicio",
+          "profesion",
+          "profesión"
+        ]
+      }
+    ]
   }
 ]
