@@ -77,6 +77,12 @@ const router = {
 
                 break;
 
+            case "participa":
+
+                mostrarParticipa();
+
+                break;
+
             case "acerca":
 
                 mostrarAcerca();
