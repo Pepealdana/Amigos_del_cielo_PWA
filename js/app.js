@@ -375,7 +375,14 @@ function iniciarNovena() {
         return;
     }
 
-    mostrarDia(1);
+    const diaInicial =
+        obtenerDiaInicialPorCalendario(
+            state.novenaActual
+        );
+
+    mostrarDia(
+        diaInicial || 1
+    );
 
 }
 /* ==========================================
@@ -925,10 +932,10 @@ function mostrarResultadosBusquedaPWA(texto) {
                     class="search-result"
                     type="button"
                     data-action="open-novena"
-                    data-id="${novena.id}">
+                    data-id="${escaparHTML(novena.id)}">
 
                     <img
-                        src="${novena.image}"
+                        src="${escaparHTML(novena.image)}"
                         alt=""
                         class="search-result-image"
                         loading="lazy">
@@ -936,11 +943,11 @@ function mostrarResultadosBusquedaPWA(texto) {
                     <span class="search-result-text">
 
                         <strong class="search-result-name">
-                            ${novena.name}
+                            ${escaparHTML(novena.name)}
                         </strong>
 
                         <span class="search-result-subtitle">
-                            ${novena.title}
+                            ${escaparHTML(novena.title)}
                         </span>
 
                     </span>
@@ -1035,7 +1042,11 @@ function continuarNovena(id) {
             }
 
             const dia =
-                state.progreso[novenaId]?.dia || 1;
+                state.progreso[novenaId]?.dia ||
+                obtenerDiaInicialPorCalendario(
+                    state.novenaActual
+                ) ||
+                1;
 
             mostrarDia(dia);
         });
