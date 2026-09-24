@@ -1,0 +1,466 @@
+{
+  "id": "santa-laura-montoya",
+  "slug": "santa-laura-montoya",
+  "name": "Santa Laura Montoya",
+  "title": "Virgen y fundadora, misionera de los pueblos indígenas",
+  "subtitle": "Educadora, misionera y fundadora de las Misioneras de María Inmaculada y Santa Catalina de Siena",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_laura_montoya.webp",
+  "description": "Primera santa colombiana, educadora y misionera que dedicó su vida a anunciar el Evangelio, defender la dignidad de los pueblos indígenas y formar una familia religiosa para la misión.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-laura-montoya"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 21,
+    "month": 10,
+    "text": "21 de octubre",
+    "liturgicalRank": "Fiesta en Colombia",
+    "movable": false
+  },
+  "patronages": [
+    "Magisterio y educadores en Colombia",
+    "Misioneros y evangelizadores",
+    "Pueblos indígenas y personas en situación de exclusión"
+  ],
+  "virtues": [
+    "Fe",
+    "Oración",
+    "Servicio",
+    "Respeto",
+    "Discernimiento",
+    "Valentía",
+    "Caridad",
+    "Perseverancia",
+    "Entrega"
+  ],
+  "search": [
+    "santa laura montoya",
+    "madre laura",
+    "laura montoya",
+    "laura de santa catalina de siena",
+    "maria laura de jesus",
+    "jerico",
+    "dabeiba",
+    "misioneras de maria inmaculada",
+    "santa catalina de siena",
+    "educadora",
+    "maestra",
+    "misionera",
+    "indigenas",
+    "evangelizacion"
+  ],
+  "interventions": [
+    {
+      "id": "educacion",
+      "label": "Educación, maestros y estudiantes",
+      "keywords": [
+        "educacion",
+        "educación",
+        "maestro",
+        "maestros",
+        "docente",
+        "docentes",
+        "estudiante",
+        "escuela",
+        "colegio"
+      ]
+    },
+    {
+      "id": "mision",
+      "label": "Misión y evangelización",
+      "keywords": [
+        "mision",
+        "misión",
+        "misionero",
+        "misioneros",
+        "evangelizacion",
+        "evangelización",
+        "catequesis",
+        "iglesia"
+      ]
+    },
+    {
+      "id": "indigenas",
+      "label": "Pueblos indígenas y comunidades excluidas",
+      "keywords": [
+        "indigena",
+        "indígena",
+        "indigenas",
+        "indígenas",
+        "afrodescendiente",
+        "exclusion",
+        "exclusión",
+        "discriminacion",
+        "discriminación"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y cuidadores",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "discapacidad",
+        "cuidador",
+        "cuidadores",
+        "dolor"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y discernimiento",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "discernimiento",
+        "camino",
+        "decision",
+        "decisión",
+        "futuro"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza y perseverancia",
+      "keywords": [
+        "esperanza",
+        "perseverancia",
+        "dificultad",
+        "prueba",
+        "desanimo",
+        "desánimo"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "eucaristia",
+        "eucaristía",
+        "biblia",
+        "evangelio",
+        "dios",
+        "jesus",
+        "jesús"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Santa Laura Montoya Upegui nació en Jericó, Antioquia, en 1874. Fue educadora, misionera y fundadora de las Misioneras de María Inmaculada y Santa Catalina de Siena. Dedicó su vida a la oración, la educación y la evangelización, con especial atención a los pueblos indígenas. Murió en Medellín en 1949 y fue canonizada por el papa Francisco en 2013.",
+    "extended": "María Laura de Jesús Montoya Upegui nació en Jericó, Antioquia, el 26 de mayo de 1874, en una familia profundamente cristiana. Cuando tenía dos años murió su padre en medio de la guerra civil y la familia quedó en una situación de pobreza. Su madre, Dolores Upegui, transmitió a sus hijos una enseñanza que Laura recordaría durante toda su vida: aprender a perdonar y a mantener la fortaleza cristiana ante las dificultades.\n\nA causa de las circunstancias familiares, Laura tuvo una infancia con desplazamientos y limitaciones educativas. A los dieciséis años ingresó a la Escuela Normal de Institutoras de Medellín para formarse como maestra. Ejerció la docencia en diferentes poblaciones de Antioquia y entendió la educación como una forma de servicio. No se limitaba a transmitir conocimientos: buscaba formar a sus alumnas en la fe y en los valores cristianos.\n\nAl mismo tiempo crecía en ella una intensa vida espiritual. La oración, la Sagrada Escritura y la Eucaristía ocuparon un lugar central en su camino. Durante un tiempo pensó en la vida contemplativa carmelita, pero progresivamente descubrió una inquietud misionera hacia los pueblos indígenas que vivían alejados de los centros urbanos. Laura comprendió que su vocación podía exigirle abandonar el proyecto personal que había imaginado para responder a una necesidad concreta.\n\nSu preocupación por los indígenas estuvo unida a una defensa de su dignidad humana. En el contexto social de su época existían fuertes prejuicios y formas de discriminación. Laura quiso acercarse a estas comunidades desde la pobreza, la sencillez y el respeto, buscando anunciar el Evangelio mediante la presencia, la educación y el testimonio.\n\nEl 5 de mayo de 1914 salió de Medellín hacia Dabeiba con varias compañeras para comenzar la obra misionera. Con el apoyo de monseñor Maximiliano Crespo, obispo de Santa Fe de Antioquia, aquella experiencia dio origen a la Congregación de las Misioneras de María Inmaculada y Santa Catalina de Siena. La nueva comunidad asumió una forma de vida misionera adaptada a lugares difíciles y a las necesidades de las personas a las que servía.\n\nLaura desarrolló una pedagogía que puede resumirse como una pedagogía del amor: acercarse a las personas, conocer su realidad, respetar su dignidad y procurar que el anuncio cristiano estuviera acompañado por una vida coherente. Su obra misionera se extendió a diferentes comunidades y con el tiempo la congregación continuó este servicio en varios países.\n\nLos últimos años de Laura estuvieron marcados por una enfermedad que la dejó en silla de ruedas durante aproximadamente nueve años. Aun así, continuó su apostolado mediante la palabra y la escritura. Su fragilidad física no puso fin a su entrega. Murió en Medellín el 21 de octubre de 1949.\n\nFue beatificada por san Juan Pablo II el 25 de abril de 2004. El 12 de mayo de 2013, el papa Francisco la canonizó en la Plaza de San Pedro junto con otros nuevos santos. La Iglesia la reconoce como una mujer de profunda vida espiritual, educadora, misionera y fundadora. En Colombia su fiesta se celebra el 21 de octubre y su testimonio continúa especialmente vinculado a la educación, la misión y el respeto por la dignidad de los pueblos indígenas."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nSanta Laura Montoya, mujer de oración, educadora y misionera, acompáñanos durante estos nueve días. Enséñanos a confiar en Dios, a reconocer la dignidad de cada persona y a poner nuestros dones al servicio de los demás. Presentamos nuestras intenciones y pedimos la gracia de vivir una fe que se transforme en caridad y servicio. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de Santa Laura Montoya. Ayúdanos a unir la oración con el servicio, la fe con la caridad y el conocimiento con el compromiso por la dignidad humana. Danos valentía para servir, humildad para aprender y perseverancia para hacer el bien. Por intercesión de Santa Laura, recibe nuestras intenciones y acompáñanos cada día. Amén.",
+  "intentions": [
+    "Por los educadores, maestros, estudiantes y familias que forman parte de las comunidades educativas.",
+    "Por los pueblos indígenas y por quienes trabajan por su dignidad, derechos, cultura y bienestar.",
+    "Por las personas que sufren discriminación, exclusión, pobreza o abandono.",
+    "Por los misioneros y evangelizadores que anuncian el Evangelio mediante el servicio y el testimonio.",
+    "Por quienes están discerniendo su vocación y buscan descubrir cómo servir a Dios y a los demás.",
+    "Por los enfermos, las personas con discapacidad y quienes los cuidan y acompañan.",
+    "Por las familias que atraviesan duelo, dificultades económicas o situaciones que ponen a prueba su esperanza.",
+    "Por quienes trabajan por una educación que forme personas responsables, solidarias y respetuosas de la dignidad humana.",
+    "Presenta a Dios tu intención particular y pide la gracia de convertir tu fe en una obra concreta de amor."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 5,13-16"
+      },
+      {
+        "reference": "Mateo 25,31-40"
+      },
+      {
+        "reference": "Marcos 16,15-20"
+      },
+      {
+        "reference": "1 Corintios 13,1-13"
+      }
+    ],
+    "documents": [
+      "Autobiografía de Santa Laura Montoya"
+    ],
+    "related": [
+      "Educación",
+      "Misión",
+      "Dignidad humana",
+      "Pueblos indígenas",
+      "Oración",
+      "Servicio"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Laura Montoya (1874-1949), biografía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20040425_montoya_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Santa Misa y canonización de los beatos Antonio Primaldo y compañeros, Laura de Santa Catalina de Siena y María Guadalupe García Zavala",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2013/documents/papa-francesco_20130512_omelia-canonizzazioni.html",
+      "type": "official"
+    },
+    {
+      "title": "Santo del día: Santa Laura Montoya",
+      "organization": "Arquidiócesis de Bogotá",
+      "url": "https://arquibogota.org.co/centro-de-informacion/noticias/santo-del-dia-santa-laura-montoya",
+      "type": "official"
+    },
+    {
+      "title": "La Embajada de Colombia ante la Santa Sede conmemoró la Fiesta de Santa Laura Montoya",
+      "organization": "Cancillería de Colombia",
+      "url": "https://www.cancilleria.gov.co/en/sala-de-prensa/noticias/la-embajada-de-colombia-ante-la-santa-sede-conmemoro-la-fiesta-de-santa-laura-montoya",
+      "type": "official"
+    },
+    {
+      "title": "Notas de Actualidad Litúrgica — Santa Laura Montoya, 21 de octubre",
+      "organization": "Conferencia Episcopal de Colombia",
+      "url": "https://www.cec.org.co/sites/default/files/2024-11/boletin-notas-actualidad-liturgica-cec-88_2024.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Una infancia marcada por la fe",
+      "title": "Aprender a confiar en Dios desde la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "María Laura de Jesús Montoya Upegui nació en Jericó, Antioquia, el 26 de mayo de 1874. Cuando tenía dos años murió su padre en medio de la guerra civil y su familia quedó en una situación de pobreza. Su madre le enseñó a perdonar y a mantener la fortaleza cristiana. Desde muy joven Laura fue descubriendo que la fe podía sostenerla en medio de circunstancias que no había elegido."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las dificultades de los primeros años no tienen que determinar toda nuestra vida. La fe puede ayudarnos a transformar las heridas en una oportunidad para crecer en confianza, perdón y esperanza."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué situación de mi historia necesito entregar hoy a Dios para aprender a vivirla con mayor esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que atraviesan pobreza, duelo, conflictos o situaciones que afectan especialmente a los niños y jóvenes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura Montoya, acompáñanos cuando la vida se vuelve difícil. Enséñanos a confiar en Dios, a no dejar que el dolor cierre nuestro corazón y a descubrir caminos de esperanza. Amén."
+      },
+      "action": "Presenta a Dios una dificultad concreta de tu historia y agradece por una persona que te haya ayudado a seguir adelante."
+    },
+    {
+      "day": 2,
+      "theme": "La vocación de educadora",
+      "title": "Educar también es servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "A los dieciséis años Laura ingresó a la Escuela Normal de Institutoras de Medellín para formarse como maestra. Enseñó en distintos lugares de Antioquia y comprendió su profesión como una oportunidad para formar no solamente la inteligencia, sino también el corazón. Su tarea educativa estuvo profundamente unida al Evangelio y al servicio de los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El conocimiento adquiere un sentido más profundo cuando se pone al servicio de las personas. Educar, acompañar y enseñar pueden convertirse en formas concretas de caridad."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué conocimiento, habilidad o experiencia puedo poner hoy al servicio de otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los maestros, estudiantes, familias y comunidades educativas, para que la educación ayude a construir una sociedad más humana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura, maestra y servidora, ayúdanos a comprender que enseñar y aprender pueden ser caminos de entrega. Ruega por quienes educan y por quienes buscan crecer en sabiduría. Amén."
+      },
+      "action": "Ayuda hoy a alguien a aprender algo que conozcas, con paciencia y sin buscar reconocimiento."
+    },
+    {
+      "day": 3,
+      "theme": "El encuentro con Dios",
+      "title": "Buscar a Dios con un corazón sincero",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida interior de Laura se profundizó mediante la oración, la Sagrada Escritura y la Eucaristía. En sus escritos relata experiencias espirituales que marcaron su camino y despertaron en ella un deseo cada vez mayor de pertenecer a Dios. Su espiritualidad no quedó separada de la realidad: la oración fue dando forma a su vocación y a sus decisiones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual necesita espacios reales de silencio, oración y escucha. No se trata de buscar experiencias extraordinarias, sino de permitir que la relación con Dios oriente nuestras decisiones y nuestra manera de tratar a los demás."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar ocupa realmente la oración en mis decisiones y responsabilidades cotidianas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean acercarse nuevamente a Dios y por quienes atraviesan períodos de sequedad, dudas o cansancio espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura, enséñanos a buscar a Dios con un corazón sincero. Ayúdanos a escuchar su Palabra, a participar con fe en la Eucaristía y a convertir nuestra oración en servicio. Amén."
+      },
+      "action": "Reserva hoy un momento de silencio para leer un breve pasaje del Evangelio y presentarlo a Dios en oración."
+    },
+    {
+      "day": 4,
+      "theme": "Una llamada misionera",
+      "title": "Descubrir dónde podemos servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura había pensado durante un tiempo en la vida contemplativa carmelita, pero fue creciendo en ella un fuerte deseo de llevar el Evangelio a pueblos indígenas que vivían alejados de los centros urbanos. Comprendió que su vocación debía responder a una necesidad concreta y que Dios podía llamarla a servir de una manera diferente a la que había imaginado."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Discernir una vocación implica estar dispuestos a revisar nuestros propios planes. La pregunta cristiana no es solamente qué quiero hacer, sino dónde puedo amar y servir mejor."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Hay algún plan personal que necesito poner ante Dios con mayor libertad para descubrir cómo servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan su vocación, especialmente jóvenes que están tomando decisiones importantes sobre su futuro."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura, ayúdanos a escuchar la llamada de Dios con libertad y valentía. Danos sabiduría para discernir nuestro camino y generosidad para poner nuestros dones al servicio de los demás. Amén."
+      },
+      "action": "Escribe una capacidad que tengas y una necesidad de tu entorno en la que esa capacidad podría convertirse en servicio."
+    },
+    {
+      "day": 5,
+      "theme": "La dignidad de cada persona",
+      "title": "Mirar al otro con respeto",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura comprendió que las comunidades indígenas debían ser tratadas con dignidad y que la evangelización no podía reducirse a palabras. En su misión buscó acercarse a las personas, conocer su realidad y compartir con ellas desde la pobreza y la sencillez. Su trabajo cuestionó prejuicios de su época y puso en el centro la dignidad de quienes eran marginados."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dignidad humana no depende de la cultura, condición social, origen o situación de una persona. El servicio cristiano comienza cuando aprendemos a mirar al otro como alguien amado por Dios."
+      },
+      "virtue": "Respeto",
+      "reflection": "¿Qué prejuicio o actitud de indiferencia necesito revisar para tratar mejor a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pueblos indígenas, las comunidades afrodescendientes y todas las personas que experimentan discriminación o exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura, ayúdanos a reconocer la dignidad de cada persona. Líbranos de los prejuicios y enséñanos a acercarnos a quienes sufren exclusión con respeto, humildad y caridad. Amén."
+      },
+      "action": "Haz hoy un esfuerzo consciente por escuchar a una persona cuya realidad sea diferente de la tuya, sin juzgarla."
+    },
+    {
+      "day": 6,
+      "theme": "La misión en Dabeiba",
+      "title": "Servir con valentía y sencillez",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El 5 de mayo de 1914 Laura salió de Medellín hacia Dabeiba con un grupo de compañeras para iniciar una obra misionera entre los indígenas. La empresa exigió sacrificios, adaptación y perseverancia. Con el apoyo del obispo Maximiliano Crespo, aquel camino dio origen a la Congregación de las Misioneras de María Inmaculada y Santa Catalina de Siena."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una misión importante suele comenzar con pasos pequeños y con personas dispuestas a servir. La valentía cristiana no consiste en ignorar las dificultades, sino en afrontarlas con humildad, preparación y confianza en Dios."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué bien puedo hacer aunque implique salir de mi comodidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes realizan trabajos misioneros y por las personas que sirven en lugares donde existen grandes necesidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura, misionera de Cristo, danos valentía para salir de nuestra comodidad y servir donde haga falta. Que nunca confundamos la misión con imponernos sobre otros, sino que sepamos acercarnos con amor y respeto. Amén."
+      },
+      "action": "Realiza hoy un servicio concreto que requiera tiempo, esfuerzo o renunciar a una comodidad."
+    },
+    {
+      "day": 7,
+      "theme": "La pedagogía del amor",
+      "title": "Evangelizar con la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura llamó a su manera de acercarse a las personas una pedagogía del amor. Para ella, enseñar la fe implicaba presencia, testimonio, paciencia y cercanía. Su misión buscó que las personas descubrieran a Cristo desde una relación humana y respetuosa, y no solamente mediante explicaciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las palabras tienen más fuerza cuando están acompañadas por una vida coherente. En la familia, la escuela, la comunidad y el trabajo, también podemos transmitir el bien mediante la forma en que tratamos a las personas."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué mensaje estoy comunicando a los demás con mi manera de vivir y de tratar a las personas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades cristianas, para que anuncien el Evangelio principalmente mediante la caridad y el testimonio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura, enséñanos a anunciar el bien con nuestras palabras y, sobre todo, con nuestras obras. Haz que nuestra manera de vivir pueda acercar a otros al amor de Cristo. Amén."
+      },
+      "action": "Elige hoy una persona a la que puedas hacer sentir valorada mediante una palabra sincera o un gesto de servicio."
+    },
+    {
+      "day": 8,
+      "theme": "Perseverar en la enfermedad",
+      "title": "Seguir sirviendo en medio de la fragilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante los últimos nueve años de su vida Laura permaneció en silla de ruedas debido a una enfermedad prolongada. A pesar de sus limitaciones físicas continuó su apostolado mediante la palabra y la escritura. Su vida muestra que una persona puede seguir entregándose incluso cuando sus capacidades cambian y necesita depender de otros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fragilidad no elimina la dignidad ni el valor de una vida. También podemos servir desde nuestras limitaciones, aceptando la ayuda de otros y descubriendo nuevas formas de entrega."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Cómo puedo afrontar una limitación actual sin dejar de reconocer aquello que todavía puedo ofrecer?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, las personas con discapacidad, los cuidadores y quienes atraviesan procesos largos de enfermedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura, acompaña a quienes viven enfermedad y fragilidad. Enséñanos a aceptar nuestros límites con esperanza y a reconocer que una vida puede seguir dando fruto incluso en medio de la debilidad. Amén."
+      },
+      "action": "Pregunta a una persona enferma, mayor o que necesite apoyo cómo puedes ayudarla concretamente."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida entregada a Dios",
+      "title": "Convertir la fe en misión",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura Montoya murió en Medellín el 21 de octubre de 1949. Fue beatificada por san Juan Pablo II el 25 de abril de 2004 y canonizada por el papa Francisco el 12 de mayo de 2013. Su legado continúa en la congregación que fundó y en el testimonio de una mujer que unió educación, oración, misión y servicio a personas que sufrían exclusión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no consiste en realizar grandes cosas para ser admirados. Consiste en permitir que la fe transforme nuestras decisiones y nos lleve a amar y servir de manera concreta y perseverante."
+      },
+      "virtue": "Entrega",
+      "reflection": "Después de esta novena, ¿qué compromiso concreto puedo mantener para que mi fe se traduzca en servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Presenta a Dios tu intención particular y pide por todas las personas y comunidades que necesitan esperanza, dignidad, educación y acompañamiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Laura Montoya, mujer de oración, educadora y misionera, acompáñanos en nuestro camino. Enséñanos a amar a Dios, respetar la dignidad de cada persona y poner nuestros dones al servicio de los demás. Intercede por nuestras intenciones y ayúdanos a vivir una fe que se convierta en obras de caridad. Amén."
+      },
+      "action": "Elige un compromiso concreto de servicio para mantener durante las próximas semanas y ponle una fecha para comenzar."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
