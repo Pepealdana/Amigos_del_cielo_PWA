@@ -1,0 +1,469 @@
+{
+  "id": "san-ignacio-de-loyola",
+  "slug": "san-ignacio-de-loyola",
+  "name": "San Ignacio de Loyola",
+  "title": "Presbítero y fundador de la Compañía de Jesús",
+  "subtitle": "Peregrino y maestro del discernimiento",
+  "category": "Santos",
+  "image": "assets/images/santos/san_ignacio_de_loyola.webp",
+  "description": "Caballero convertido en peregrino de Cristo, fundador de la Compañía de Jesús y autor de los Ejercicios Espirituales.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-ignacio-de-loyola"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝️"
+  },
+  "feast": {
+    "day": 31,
+    "month": 7,
+    "text": "31 de julio",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "En todo amar y servir.",
+    "reference": "San Ignacio de Loyola, Ejercicios Espirituales, 233"
+  },
+  "patronages": [
+    "Ejercicios Espirituales",
+    "Compañía de Jesús",
+    "Retiros espirituales"
+  ],
+  "virtues": [
+    "Conversión",
+    "Discernimiento",
+    "Generosidad",
+    "Humildad",
+    "Obediencia",
+    "Servicio",
+    "Perseverancia",
+    "Oración",
+    "Magis"
+  ],
+  "search": [
+    "san ignacio",
+    "ignacio de loyola",
+    "jesuitas",
+    "compañía de jesus",
+    "ejercicios espirituales",
+    "discernimiento",
+    "vocacion",
+    "retiros",
+    "oracion",
+    "conversion",
+    "pamplona",
+    "manresa",
+    "paris",
+    "roma",
+    "servicio",
+    "estudio",
+    "jovenes"
+  ],
+  "interventions": [
+    {
+      "id": "conversion",
+      "label": "Conversión y cambio de vida",
+      "keywords": [
+        "conversion",
+        "cambio de vida",
+        "pecado",
+        "recomenzar",
+        "volver a dios"
+      ]
+    },
+    {
+      "id": "discernimiento",
+      "label": "Discernimiento y toma de decisiones",
+      "keywords": [
+        "discernimiento",
+        "decisiones",
+        "decidir",
+        "dudas",
+        "vocacion",
+        "eleccion",
+        "orientacion"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y servicio",
+      "keywords": [
+        "vocacion",
+        "llamado",
+        "servicio",
+        "mision",
+        "religioso",
+        "sacerdote",
+        "jesuita"
+      ]
+    },
+    {
+      "id": "estudio",
+      "label": "Estudio y formación",
+      "keywords": [
+        "estudio",
+        "estudiantes",
+        "universidad",
+        "formacion",
+        "aprendizaje",
+        "educacion"
+      ]
+    },
+    {
+      "id": "retiro-oracion",
+      "label": "Retiros y vida de oración",
+      "keywords": [
+        "retiro",
+        "ejercicios espirituales",
+        "oracion",
+        "meditacion",
+        "silencio",
+        "vida interior"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y búsqueda de propósito",
+      "keywords": [
+        "jovenes",
+        "juventud",
+        "proposito",
+        "sentido",
+        "futuro",
+        "camino"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio a los demás",
+      "keywords": [
+        "servicio",
+        "ayudar",
+        "pobres",
+        "necesitados",
+        "justicia",
+        "reconciliacion"
+      ]
+    },
+    {
+      "id": "iglesia",
+      "label": "Iglesia y misión",
+      "keywords": [
+        "iglesia",
+        "mision",
+        "evangelizacion",
+        "papa",
+        "apostolado",
+        "comunidad"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Íñigo López de Loyola nació en 1491 en el País Vasco. Fue criado en un ambiente noble y pasó su juventud al servicio de la corte y de las armas. En 1521, una bala de cañón lo hirió gravemente durante la defensa de Pamplona. Durante su convalecencia leyó la vida de Cristo y de los santos, experiencia que inició una profunda transformación. Después de años de peregrinación, oración y estudios, reunió compañeros en París y fundó la Compañía de Jesús, aprobada por el papa Pablo III en 1540. Murió en Roma en 1556.",
+    "extended": "Íñigo López de Loyola nació en 1491 en Loyola, en el País Vasco, dentro de una familia de la nobleza menor. En su juventud buscó honor, reconocimiento y una carrera vinculada a la corte y a las armas. En 1521 participó en la defensa de Pamplona y fue gravemente herido por una bala de cañón. La larga convalecencia en su casa natal se convirtió en la experiencia formativa que cambió el rumbo de su vida. Como no tenía a su disposición las novelas caballerescas que deseaba leer, leyó una Vida de Cristo y relatos de santos. Al comparar lo que sentía después de imaginar hazañas mundanas con lo que experimentaba al pensar en imitar a Cristo y a los santos, comenzó a prestar atención a sus movimientos interiores. No se trató simplemente de abandonar un pecado concreto, sino de una transformación de deseos, prioridades y propósito. Tras esta experiencia inició un camino de penitencia, oración y peregrinación. En Montserrat hizo una vigilia ante la Virgen y después pasó un tiempo en Manresa, donde vivió una etapa intensa de oración, pobreza y discernimiento. Allí tuvo experiencias espirituales que contribuyeron a la formación de los Ejercicios Espirituales. Ignacio comprendió progresivamente que no bastaba con una conversión personal: quería ayudar a otros a encontrar y servir a Dios. Viajó a Tierra Santa, pero las circunstancias le impidieron permanecer allí. Entonces decidió estudiar, primero en España y después en París. En la Universidad de París reunió a un pequeño grupo de compañeros con quienes compartió oración, estudios y el deseo de servir a la Iglesia. Entre ellos estuvieron Pedro Fabro y Francisco Javier. En 1534 hicieron votos en Montmartre. Tras nuevas dificultades y el fracaso de sus planes de ir a Tierra Santa, el grupo se dirigió a Roma. En 1540 Pablo III aprobó la Compañía de Jesús. Ignacio permaneció en Roma y dedicó sus últimos años a gobernar la nueva comunidad, escribir las Constituciones y acompañar la expansión de las misiones. Su espiritualidad quedó especialmente asociada al discernimiento, los Ejercicios Espirituales y el deseo de buscar a Dios en todas las cosas. En la iconografía suele aparecer con sotana negra o vestimenta clerical y el monograma IHS, que identifica a Jesús y está estrechamente vinculado a la Compañía que fundó. También puede aparecer con un libro, asociado a los Ejercicios y a sus escritos, o con un corazón y rayos, elementos de la iconografía posterior que expresan su amor a Cristo. Debe evitarse convertir estos símbolos en atributos históricos rígidos: parte de la iconografía se desarrolló después de su muerte. Ignacio murió en Roma el 31 de julio de 1556 y fue canonizado en 1622. Su legado quedó unido a una espiritualidad que busca reconocer los movimientos interiores, discernir las decisiones y poner los propios dones al servicio de Dios y de los demás."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Ignacio de Loyola, peregrino y buscador de Dios, acompáñame durante estos nueve días. Enséñame a reconocer aquello que mueve mi corazón, a discernir con sinceridad y a poner mis capacidades al servicio de los demás. Ayúdame a buscar a Dios en todas las cosas y a vivir con generosidad aquello que Él me confíe. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Ignacio de Loyola, gracias por acompañarme durante esta novena. Intercede por quienes necesitan tomar decisiones, por los jóvenes que buscan su camino, por quienes estudian, por quienes viven una vocación de servicio y por quienes desean profundizar en la oración. Enséñanos a discernir con humildad y a vivir buscando a Dios en todas las cosas. Que nuestros dones se conviertan en servicio y que podamos, como tú, poner a Cristo en el centro de nuestra vida. Amén.",
+  "intentions": [
+    "Por quienes necesitan tomar una decisión importante y buscan luz para discernir.",
+    "Por jóvenes que buscan su vocación, propósito o camino de vida.",
+    "Por quienes desean cambiar de vida y comenzar nuevamente su camino con Dios.",
+    "Por estudiantes, docentes e instituciones dedicadas a la formación.",
+    "Por sacerdotes, religiosos, religiosas y personas llamadas al servicio.",
+    "Por quienes realizan retiros o atraviesan un proceso de discernimiento espiritual.",
+    "Por quienes trabajan por la justicia, la reconciliación y el servicio a los demás.",
+    "Por la Compañía de Jesús y todas sus obras apostólicas.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Romanos 12,1-2"
+      },
+      {
+        "reference": "Filipenses 3,7-14"
+      },
+      {
+        "reference": "1 Reyes 3,5-12"
+      }
+    ],
+    "documents": [
+      "Ejercicios Espirituales",
+      "Autobiografía de San Ignacio",
+      "Constituciones de la Compañía de Jesús"
+    ],
+    "related": [
+      "San Francisco Javier",
+      "San Pedro Fabro",
+      "Compañía de Jesús"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Ignacio de Loyola",
+      "organization": "Compañía de Jesús",
+      "url": "https://www.jesuits.global/es/saint-blessed/saint-ignatius-of-loyola/",
+      "type": "official"
+    },
+    {
+      "title": "San Ignacio",
+      "organization": "Compañía de Jesús",
+      "url": "https://www.jesuits.global/es/espiritualidad/san-ignacio/",
+      "type": "official"
+    },
+    {
+      "title": "Fiesta de San Ignacio de Loyola — Homilía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2013/documents/papa-francesco_20130731_omelia-sant-ignazio.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 31 de julio de 2011",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/angelus/2011/documents/hf_ben-xvi_ang_20110731.html",
+      "type": "official"
+    },
+    {
+      "title": "Radiomensaje con motivo del IV centenario de la muerte de San Ignacio",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/pius-xii/es/speeches/1956/documents/hf_p-xii_spe_19560731_centenario-ignacio.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "El deseo de una vida grande",
+      "title": "Un joven que buscaba honor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Ignacio creció en una familia de la nobleza menor y durante su juventud buscó prestigio, honor y una vida ligada a la corte y a las armas. Sus primeros sueños estaban orientados hacia la gloria personal."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Nuestros primeros sueños no determinan necesariamente el destino de nuestra vida. Dios puede ayudarnos a descubrir un propósito más profundo incluso cuando comenzamos buscando otras cosas."
+      },
+      "virtue": "Sinceridad",
+      "reflection": "¿Qué deseo de reconocimiento o éxito ocupa demasiado espacio en mis decisiones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que buscan su camino y por quienes necesitan descubrir un propósito más profundo para su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, ayúdame a mirar con sinceridad mis deseos y ambiciones. Enséñame a descubrir qué conduce verdaderamente al bien. Amén."
+      },
+      "action": "Escribe tres cosas que actualmente buscas y pregúntate cuáles de ellas te acercan realmente al propósito que quieres vivir."
+    },
+    {
+      "day": 2,
+      "theme": "La herida",
+      "title": "Cuando los planes cambian",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1521 Ignacio fue gravemente herido por una bala de cañón durante la defensa de Pamplona. La recuperación fue larga y dolorosa, y lo obligó a detener los proyectos que tenía para su vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una situación que rompe nuestros planes también puede convertirse en un momento de revisión. No todo lo que interrumpe nuestra vida carece de sentido."
+      },
+      "virtue": "Paciencia",
+      "reflection": "¿Qué cambio inesperado de mi vida todavía me cuesta aceptar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedad, accidentes, pérdidas o cambios que no habían elegido."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, acompaña a quienes atraviesan una etapa difícil. Ayúdame a vivir las interrupciones de mi vida con paciencia y a buscar en ellas un camino de esperanza. Amén."
+      },
+      "action": "Ante una dificultad que no puedes cambiar, identifica una respuesta que sí esté en tus manos."
+    },
+    {
+      "day": 3,
+      "theme": "La conversión",
+      "title": "Descubrir otros deseos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su convalecencia, Ignacio leyó sobre la vida de Cristo y de los santos. Al comparar sus sentimientos después de imaginar una vida de honor con los que experimentaba al pensar en seguir a Cristo, comenzó a reconocer diferencias que marcaron su conversión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El discernimiento comienza aprendiendo a observar qué nos deja cada deseo. No todo lo que promete satisfacción produce el mismo fruto interior."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Qué deseos me dejan una paz profunda y cuáles me dejan vacío o inquietud?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan distinguir entre deseos pasajeros y decisiones que conducen al bien."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, enséñame a observar con honestidad lo que ocurre en mi interior. Dame sabiduría para reconocer aquello que conduce hacia Dios y hacia el bien. Amén."
+      },
+      "action": "Al final del día, anota una experiencia que te haya dejado paz y otra que te haya dejado inquietud, sin juzgarte."
+    },
+    {
+      "day": 4,
+      "theme": "El peregrino",
+      "title": "Manresa y una nueva manera de vivir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de su convalecencia, Ignacio comenzó un camino de penitencia, oración y peregrinación. En Manresa vivió una etapa especialmente intensa de oración y experiencias interiores que contribuyeron a la formación de su espiritualidad y de los Ejercicios Espirituales."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los procesos espirituales necesitan tiempo. La claridad puede crecer mediante la oración, el silencio, la revisión de la propia vida y la disposición para aprender."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Estoy dispuesto a dar tiempo a las decisiones importantes en lugar de exigir respuestas inmediatas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están atravesando procesos de discernimiento y necesitan paciencia para encontrar claridad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, acompáñame en mis procesos. Enséñame a esperar, orar y revisar mi camino con paciencia antes de tomar decisiones importantes. Amén."
+      },
+      "action": "Dedica hoy un tiempo de silencio para revisar una decisión que tengas pendiente."
+    },
+    {
+      "day": 5,
+      "theme": "Los Ejercicios",
+      "title": "Aprender a discernir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las experiencias espirituales de Ignacio dieron origen a los Ejercicios Espirituales, una propuesta de oración y discernimiento destinada a ayudar a la persona a ordenar su vida y buscar la voluntad de Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Discernir no significa esperar una señal extraordinaria para cada decisión. Implica oración, conocimiento interior, libertad frente a los propios apegos y atención a los movimientos que surgen durante el proceso."
+      },
+      "virtue": "Libertad interior",
+      "reflection": "¿Qué apego o miedo puede estar influyendo demasiado en una decisión que debo tomar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan orientación espiritual y por quienes realizan retiros o ejercicios de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, ayúdame a vivir con libertad interior. Que mis decisiones no estén dominadas por el miedo, el orgullo o el apego, sino orientadas hacia el bien. Amén."
+      },
+      "action": "Antes de una decisión importante, escribe qué ganarías y qué tendrías que dejar atrás si eligieras cada alternativa."
+    },
+    {
+      "day": 6,
+      "theme": "Los compañeros",
+      "title": "Amigos en el Señor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante sus estudios en París, Ignacio reunió compañeros que compartían el deseo de servir a Dios. Entre ellos estuvieron Pedro Fabro y Francisco Javier. En 1534 hicieron votos en Montmartre y comenzaron a caminar juntos hacia una misión común."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una misión puede fortalecerse cuando encontramos personas con las que compartir ideales, responsabilidades y oración. La amistad también puede ser una forma de acompañamiento espiritual."
+      },
+      "virtue": "Fraternidad",
+      "reflection": "¿Quiénes son las personas que me ayudan a crecer y hacia quién puedo ser yo una ayuda?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras amistades, familias, comunidades y grupos de estudio o trabajo, para que sean espacios de crecimiento y apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, enséñame a construir amistades que ayuden a crecer en el bien. Que sepa recibir apoyo y también ofrecerlo con generosidad. Amén."
+      },
+      "action": "Agradece hoy a una persona que haya sido una influencia positiva en tu vida."
+    },
+    {
+      "day": 7,
+      "theme": "La misión",
+      "title": "Poner los dones al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de que sus planes de llegar a Tierra Santa no pudieron realizarse, Ignacio y sus compañeros fueron a Roma. En 1540 Pablo III aprobó la Compañía de Jesús. Ignacio dedicó sus últimos años a gobernarla, formar a sus miembros y acompañar la expansión de sus misiones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No siempre el camino que imaginamos es el que termina abriéndose. La misión puede requerir adaptar nuestros planes sin abandonar el propósito de servir."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué plan necesito entregar para estar disponible a una posibilidad de servicio diferente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan una vocación de servicio y por quienes necesitan adaptarse a nuevos caminos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, dame disponibilidad para aceptar los caminos que se abren cuando mis propios planes cambian. Que mis capacidades estén al servicio del bien. Amén."
+      },
+      "action": "Haz hoy algo útil para otra persona que no estuviera originalmente en tus planes."
+    },
+    {
+      "day": 8,
+      "theme": "Encontrar a Dios en todas las cosas",
+      "title": "Una vida orientada al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad ignaciana quedó marcada por el deseo de buscar a Dios en todas las cosas. La oración no se separa de la acción: el conocimiento interior debe conducir al servicio, la misión y el amor concreto a los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual no tiene que quedar aislada de nuestras responsabilidades. Podemos aprender a vivir la oración, el estudio, el trabajo y las relaciones como espacios donde también buscamos a Dios."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo convertir una tarea ordinaria de hoy en una oportunidad de amar y servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan, estudian, cuidan a otros o desempeñan responsabilidades que desean vivir con sentido cristiano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio, enséñame a buscar a Dios en mi vida cotidiana. Que mis tareas, relaciones y decisiones estén orientadas al amor y al servicio. Amén."
+      },
+      "action": "Realiza una tarea cotidiana con especial atención y ofrécela a Dios como servicio."
+    },
+    {
+      "day": 9,
+      "theme": "En todo amar y servir",
+      "title": "Una vida entregada a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Ignacio murió en Roma el 31 de julio de 1556. Hasta el final permaneció dedicado a la Compañía de Jesús, a la oración, al gobierno de la comunidad y al servicio de la Iglesia. Fue canonizado en 1622."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión no termina cuando tomamos una primera decisión. Ignacio muestra un camino de búsqueda continua, discernimiento y servicio, en el que los dones recibidos se ponen cada vez más al servicio de los demás."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué don, capacidad o tiempo quiero poner más claramente al servicio de Dios y de otras personas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes desean vivir con mayor generosidad su vocación y servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Ignacio de Loyola, intercede por nosotros. Enséñanos a discernir con libertad, a buscar a Dios en todas las cosas y a poner nuestros dones al servicio de los demás. Que aprendamos a amar y servir con generosidad y perseverancia. Amén."
+      },
+      "action": "Elige un servicio concreto que puedas mantener durante las próximas semanas y conviértelo en un compromiso personal."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
