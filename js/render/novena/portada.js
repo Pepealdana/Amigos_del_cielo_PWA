@@ -90,6 +90,16 @@ function renderPortadaNovena(novena) {
             )}
 
             <div class="button-group">
+                <button
+                    class="btn btn-secondary"
+                    type="button"
+                    data-action="favorite-novena"
+                    data-id="${novena.id}">
+                    ${esFavorita(novena.id)
+                        ? "Quitar de favoritas"
+                        : "Agregar a favoritas"}
+                </button>
+
 
                 ${crearBotonSecundario(
 
