@@ -33,7 +33,7 @@ function eliminarDeStorage(clave) {
 
 function limpiarStorage() {
     try {
-        localStorage.clear();
+        Object.values(STORAGE_KEYS).forEach(clave => localStorage.removeItem(clave));
     } catch (error) {
         console.error("Error limpiando almacenamiento:", error);
     }
