@@ -1669,5 +1669,142 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-cayetano",
+    "slug": "san-cayetano",
+    "name": "San Cayetano",
+    "title": "Presbítero y fundador de los Clérigos Regulares Teatinos",
+    "subtitle": "Servidor de los pobres y testigo de la Providencia",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/san_cayetano.webp",
+    "file": "data/san-cayetano.json",
+    "description": "Sacerdote italiano que buscó la reforma de la vida cristiana, sirvió a los pobres y enfermos y confió su misión a la providencia de Dios.",
+    "feast": {
+      "day": 7,
+      "month": 8,
+      "text": "7 de agosto",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "san cayetano",
+      "cayetano de thiene",
+      "gaetano da thiene",
+      "pan y trabajo",
+      "trabajo",
+      "desempleo",
+      "pobreza",
+      "necesitados",
+      "teatinos",
+      "providencia",
+      "oracion",
+      "caridad",
+      "sacerdote",
+      "enfermos",
+      "reforma de la iglesia"
+    ],
+    "interventions": [
+      {
+        "id": "trabajo-empleo",
+        "label": "Trabajo, empleo y sustento",
+        "keywords": [
+          "trabajo",
+          "empleo",
+          "desempleo",
+          "trabajador",
+          "sustento",
+          "pan",
+          "oficio"
+        ]
+      },
+      {
+        "id": "necesidad-pobreza",
+        "label": "Necesidad y pobreza",
+        "keywords": [
+          "pobreza",
+          "pobres",
+          "necesidad",
+          "carencia",
+          "alimento",
+          "pan",
+          "ayuda"
+        ]
+      },
+      {
+        "id": "providencia",
+        "label": "Confianza en Dios y providencia",
+        "keywords": [
+          "providencia",
+          "confianza",
+          "dios",
+          "esperanza",
+          "angustia",
+          "necesidad"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio a los demás",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "misericordia",
+          "solidaridad",
+          "ayuda",
+          "obras de misericordia"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "peste",
+          "hospital",
+          "sufrimiento",
+          "cuidado"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación sacerdotal y servicio",
+        "keywords": [
+          "vocacion",
+          "sacerdote",
+          "sacerdotal",
+          "ministerio",
+          "iglesia",
+          "llamado"
+        ]
+      },
+      {
+        "id": "reforma",
+        "label": "Conversión y renovación de la vida cristiana",
+        "keywords": [
+          "conversion",
+          "conversión",
+          "reforma",
+          "cambio",
+          "pecado",
+          "vida cristiana"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y necesidades del hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "pan",
+          "trabajo"
+        ]
+      }
+    ]
   }
 ]
