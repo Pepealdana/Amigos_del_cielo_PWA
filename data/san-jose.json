@@ -63,7 +63,7 @@
   ],
   "history": {
     "short": "San José fue el esposo de la Virgen María y estuvo al servicio de Jesús como padre en la familia de Nazaret. Los Evangelios lo presentan como un hombre justo que acogió la misión recibida de Dios y protegió a María y a Jesús.",
-    "extended": "La Sagrada Escritura presenta a José como descendiente de David y esposo de María. Ante el misterio del embarazo de María, recibió en sueños la orientación de Dios y la acogió en su casa. Después de la llegada de Jesús, cuidó de él y de María, huyendo a Egipto cuando fue necesario y estableciéndose finalmente en Nazaret. Mateo lo relaciona con el oficio de artesano, mientras que Lucas muestra a la Sagrada Familia viviendo en Nazaret y presenta a José como responsable de llevar a Jesús al templo. La tradición de la Iglesia ha profundizado en su papel como esposo de María, padre de Jesús según la ley y custodio de la Sagrada Familia. En 1870 fue proclamado Patrono de la Iglesia Universal."
+    "extended": "La historia de san José que conocemos procede principalmente de los primeros capítulos de Mateo y Lucas. Era descendiente de David, estaba desposado con María y ejercía el oficio de artesano. El Evangelio lo presenta como un hombre justo. Su vida dio un giro decisivo cuando descubrió que María estaba embarazada y todavía no conocía el origen del misterio. José atravesó una situación de angustia y pensó en separarse de ella en secreto para no exponerla públicamente. En ese momento recibió en sueños la explicación de Dios y decidió acoger a María y asumir la misión de ser el padre legal de Jesús. No tenemos base en los Evangelios para hablar de una conversión de José provocada por un pecado concreto; su transformación se entiende más bien como un proceso de confianza y obediencia ante acontecimientos que superaban sus propios planes. La Iglesia ha destacado precisamente que, a través de sus sueños y de sus decisiones, José aprendió a confiar en Dios incluso cuando no podía controlar el camino. Después del nacimiento de Jesús, volvió a responder con prontitud cuando recibió el aviso de huir a Egipto para proteger al niño. Vivió allí como extranjero y, cuando recibió una nueva indicación, regresó con María y Jesús y se estableció en Nazaret. La experiencia de la incertidumbre, el desplazamiento y la responsabilidad de proteger a su familia quedó así vinculada a su imagen como custodio. En Nazaret desarrolló su trabajo de artesano y participó en la vida cotidiana de la Sagrada Familia. Los Evangelios no registran palabras pronunciadas por él; su testimonio aparece sobre todo en sus decisiones y en su servicio silencioso. Por eso la tradición cristiana ha visto en él un modelo de obediencia, trabajo, paternidad y custodia. Las representaciones de san José también expresan esta historia. El ramo de nardo o lirio que suele llevar en la mano se relaciona con su pureza y con su esposo de María dentro de la tradición iconográfica; las herramientas de carpintero recuerdan su oficio y el valor del trabajo; y el Niño Jesús en sus brazos expresa su misión de custodiar y cuidar al Hijo que Dios le confió. En la tradición hispánica también es frecuente representarlo con un ramo de nardo. En 1870 fue proclamado Patrono de la Iglesia Universal, título que recoge y prolonga la imagen de José como custodio fiel de Jesús y, en sentido espiritual, de la Iglesia."
   },
   "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San José, esposo de la Virgen María y custodio de Jesús, acompáñame durante estos nueve días. Enséñame a escuchar a Dios, a acoger con responsabilidad las personas que me ha confiado y a cumplir con fidelidad mis deberes cotidianos. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Ayúdame a vivir esta novena con fe, esperanza y caridad. Amén.",
   "closingPrayer": "San José, custodio fiel de Jesús y esposo de María, gracias por acompañarme en esta novena. Ayúdame a conservar en mi vida aquello que he aprendido de tu ejemplo: la fe que escucha, la obediencia que actúa, la acogida que protege, el trabajo realizado con amor y la confianza en Dios aun cuando no conozca todo el camino. Presenta ante el Señor mis necesidades y las de quienes amo. Que, siguiendo tu ejemplo, pueda acercarme cada día más a Jesús. Amén.",
@@ -130,6 +130,12 @@
       "title": "Litany of Saint Joseph",
       "organization": "United States Conference of Catholic Bishops",
       "url": "https://www.usccb.org/prayers/litany-saint-joseph",
+      "type": "official"
+    },
+    {
+      "title": "Escudo del Papa Francisco — símbolos de María y San José",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/elezione/stemma-papa-francesco.html",
       "type": "official"
     }
   ],
@@ -365,7 +371,7 @@
     }
   ],
   "metadata": {
-    "version": "3.1",
+    "version": "3.2",
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
