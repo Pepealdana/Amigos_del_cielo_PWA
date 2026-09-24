@@ -30,6 +30,8 @@ async function iniciarApp() {
 
         await cargarCatalogo();
 
+        iniciarMonitorRecordatorios();
+
         mostrarInicio();
 
     }
