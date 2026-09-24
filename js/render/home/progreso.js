@@ -5,14 +5,24 @@
 
 function renderProgreso(catalogo = [], progreso = {}) {
 
-    const entradas = Object.entries(progreso || {})
-        .map(([id, datos]) => ({
-            novena: buscarNovenaPorId(catalogo, id),
-            datos
-        }))
-        .filter(item => item.novena);
+    const entradas =
+        Object.entries(progreso || {})
+            .map(([id, datos]) => ({
+                novena: buscarNovenaPorId(catalogo, id),
+                datos
+            }))
+            .filter(item => item.novena)
+            .sort((a, b) => {
+                const fechaA =
+                    new Date(a.datos?.fecha || 0).getTime();
 
-    return `
+                const fechaB =
+                    new Date(b.datos?.fecha || 0).getTime();
+
+                return fechaB - fechaA;
+            });
+
+    return \`
 
         <section class="page-shell">
 
@@ -28,37 +38,55 @@ function renderProgreso(catalogo = [], progreso = {}) {
 
             </header>
 
-            ${entradas.length === 0 ? `
+            \${entradas.length === 0 ? \`
+
                 <div class="simple-panel">
-                    <strong>Todavía no has iniciado ninguna novena.</strong>
+
+                    <strong>
+                        Todavía no has iniciado ninguna novena.
+                    </strong>
+
                     <p>
                         Cuando comiences una novena, aparecerá aquí.
                     </p>
+
                 </div>
-            ` : `
+
+            \` : \`
+
                 <div class="library-list">
 
-                    ${entradas.map(item => {
+                    \${entradas.map(item => {
 
-                        const dia = Number(item.datos?.dia) || 1;
+                        const dia =
+                            Number(item.datos?.dia) || 1;
+
+                        const total =
+                            Number(
+                                item.novena?.novena?.days
+                            ) || APP_CONFIG.diasNovena;
 
                         const completados =
-                            Array.isArray(item.datos?.completados)
+                            Array.isArray(
+                                item.datos?.completados
+                            )
                                 ? item.datos.completados.length
                                 : 0;
 
                         const porcentaje =
                             Math.min(
                                 100,
-                                Math.round((completados / 9) * 100)
+                                Math.round(
+                                    (completados / total) * 100
+                                )
                             );
 
-                        return `
+                        return \`
 
                             <article class="continue-card">
 
                                 <img
-                                    src="${item.novena.image}"
+                                    src="\${escaparHTML(item.novena.image)}"
                                     alt=""
                                     class="continue-image"
                                     loading="lazy">
@@ -66,18 +94,21 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 <div class="continue-content">
 
                                     <h3>
-                                        ${item.novena.name}
+                                        \${escaparHTML(item.novena.name)}
                                     </h3>
 
                                     <p>
-                                        Día ${dia} de 9
+                                        Día \${dia} de \${total}
                                     </p>
 
-                                    <div class="progress-track">
+                                    <div class="progress-track"
+                                         aria-label="\${porcentaje}% completado">
+
                                         <div
                                             class="progress-fill"
-                                            style="width:${porcentaje}%">
+                                            style="width:\${porcentaje}%">
                                         </div>
+
                                     </div>
 
                                 </div>
@@ -86,20 +117,21 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                     class="btn btn-primary continue-action"
                                     type="button"
                                     data-action="continue-novena"
-                                    data-id="${item.novena.id}">
+                                    data-id="\${escaparHTML(item.novena.id)}">
                                     Continuar
                                 </button>
 
                             </article>
 
-                        `;
+                        \`;
 
                     }).join("")}
 
                 </div>
-            `}
+
+            \`}
 
         </section>
 
-    `;
+    \`;
 }
