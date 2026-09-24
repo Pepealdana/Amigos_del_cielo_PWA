@@ -28,6 +28,8 @@ async function iniciarApp() {
 
         inicializarStorage();
 
+        solicitarPersistenciaStorage();
+
         await cargarCatalogo();
 
         iniciarMonitorRecordatorios();
@@ -1187,4 +1189,30 @@ function mostrarAvisoRecordatorio(mensaje) {
 
     aviso.textContent = mensaje;
     aviso.hidden = false;
+}
+
+
+/* ==========================================
+   PERSISTENCIA DEL ALMACENAMIENTO
+========================================== */
+
+async function solicitarPersistenciaStorage() {
+
+    if (
+        !navigator.storage ||
+        !navigator.storage.persist
+    ) {
+        return false;
+    }
+
+    try {
+        return await navigator.storage.persist();
+    } catch (error) {
+        console.warn(
+            "No fue posible solicitar almacenamiento persistente:",
+            error
+        );
+
+        return false;
+    }
 }
