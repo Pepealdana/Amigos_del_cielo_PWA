@@ -162,24 +162,6 @@ function obtenerDiaInicialPorCalendario(novena) {
     return 1;
 }
 
-function reiniciarNovena() {
-    if (!state.novenaActual) {
-        return;
-    }
-
-    const id = state.novenaActual.id;
-
-    delete state.progreso[id];
-
-    if (state.ultimaNovenaId === id) {
-        state.ultimaNovenaId = null;
-    }
-
-    state.diaActual = 1;
-
-    guardarProgreso();
-}
-
 function cerrarNovenaActual() {
     state.novenaActual = null;
     state.diaActual = 1;
