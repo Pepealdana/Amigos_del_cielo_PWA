@@ -1,0 +1,414 @@
+{
+  "id": "santa-eduviges",
+  "slug": "santa-eduviges",
+  "name": "Santa Eduviges de Silesia",
+  "title": "Duquesa y religiosa cisterciense",
+  "subtitle": "Mujer de fe, caridad y reconciliación",
+  "category": "Santos",
+  "featured": false,
+  "image": "assets/images/santos/santa_eduviges.webp",
+  "description": "Duquesa de Silesia que vivió la fe mediante la oración, la caridad y el servicio, y que después de enviudar consagró el resto de su vida a Dios en la abadía de Trzebnica.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "data/santa-eduviges"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 16,
+    "month": 10,
+    "text": "16 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "patronages": [
+    "Silesia",
+    "Polonia",
+    "Reconciliación entre pueblos, según la tradición devocional"
+  ],
+  "virtues": [
+    "Fe",
+    "Caridad",
+    "Humildad",
+    "Oración",
+    "Servicio",
+    "Fortaleza",
+    "Reconciliación"
+  ],
+  "search": [
+    "santa eduviges",
+    "santa eduvigis",
+    "eduviges de silesia",
+    "eduvigis de silesia",
+    "hedwig",
+    "silesia",
+    "trzebnica",
+    "polonia",
+    "duquesa",
+    "cistercienses",
+    "caridad",
+    "pobres",
+    "enfermos",
+    "reconciliacion",
+    "reconciliación",
+    "familia",
+    "viudas",
+    "oracion",
+    "oración"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia y dificultades familiares",
+      "keywords": [
+        "familia",
+        "matrimonio",
+        "esposos",
+        "hijos",
+        "hogar",
+        "viuda",
+        "viudas"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza y necesidades materiales",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "necesidad",
+        "necesitados",
+        "caridad",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "paz-reconciliacion",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "reconciliación",
+        "conflicto",
+        "division",
+        "división",
+        "unidad"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "silencio",
+        "contemplacion",
+        "contemplación",
+        "fe"
+      ]
+    },
+    {
+      "id": "viudez",
+      "label": "Viudez y pérdida de seres queridos",
+      "keywords": [
+        "viuda",
+        "viudez",
+        "perdida",
+        "pérdida",
+        "duelo",
+        "muerte"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio y obras de misericordia",
+      "keywords": [
+        "servicio",
+        "caridad",
+        "misericordia",
+        "ayudar",
+        "pobres",
+        "enfermos"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Santa Eduviges nació en Baviera hacia 1174, en la familia de los Andechs. Se casó con Enrique el Barbudo, duque de Silesia, y tuvo una familia numerosa. Junto con su esposo apoyó la fundación de instituciones religiosas y obras de ayuda a personas necesitadas. Después de la muerte de su esposo en 1238, Eduviges consagró el resto de su vida a Dios y se estableció en la abadía de Trzebnica, fundada por ella y su esposo. Allí murió en 1243. Fue canonizada en 1267 y su memoria se celebra el 16 de octubre.",
+    "extended": "Eduviges nació hacia 1174 en el entorno de la familia bávara de los Andechs. Su vida quedó vinculada a Silesia después de su matrimonio con Enrique el Barbudo, de la dinastía de los Piast. Como duquesa, participó en la vida de su tiempo y acompañó a su esposo en el gobierno de sus territorios. La vida de Eduviges estuvo marcada por la fe y por las obras de misericordia. Las fuentes sobre su culto y su vida destacan su preocupación por personas pobres, enfermas y necesitadas. Junto con Enrique impulsó la fundación de la abadía cisterciense de Trzebnica, que se convirtió en un importante centro religioso de Silesia. Eduviges mantuvo además una estrecha relación con la comunidad religiosa y favoreció distintas obras de asistencia. La familia ocupó un lugar importante en su vida. Tuvo varios hijos y sufrió la muerte de algunos de ellos. Uno de sus hijos, Enrique el Pío, murió en la batalla de Legnica en 1241 durante la invasión mongola. Juan Pablo II recordó que Eduviges, ya viuda, acompañó aquellos acontecimientos con la oración y puso su confianza en Cristo crucificado. Después de la muerte de su esposo en 1238, Eduviges se retiró progresivamente de la vida pública. Entró en la abadía de Trzebnica que había fundado, aunque no se la debe presentar simplemente como una religiosa de clausura desde el comienzo de su vida: su consagración en los últimos años estuvo unida a una trayectoria previa de matrimonio, maternidad, gobierno y servicio. La tradición de su vida destaca su austeridad, oración y caridad. En Trzebnica permaneció dedicada a Dios hasta su muerte en 1243. Fue canonizada en 1267, apenas unas décadas después de su muerte. Su culto se extendió especialmente por Silesia y Polonia. La Santa Sede ha presentado a Eduviges como una figura relacionada con la reconciliación y la unión entre pueblos. Juan Pablo II recordó en 1979 su papel histórico en Silesia y señaló el valor de su testimonio para la reconciliación entre naciones. Su memoria litúrgica se celebra el 16 de octubre. En la iconografía suele representarse con elementos asociados a su condición de noble, a su vida religiosa y a la caridad. Estos elementos pertenecen a la tradición artística y devocional y no deben interpretarse todos como objetos cuya posesión histórica esté documentada."
+  },
+  "openingPrayer": "Santa Eduviges de Silesia, mujer de fe, oración y caridad, acompáñanos durante estos nueve días. Enséñanos a confiar en Dios en las alegrías y en las pérdidas, a servir a quienes necesitan ayuda y a buscar la reconciliación allí donde existen divisiones. Presenta ante el Señor nuestras intenciones y ayúdanos a vivir con un corazón generoso. Amén.",
+  "closingPrayer": "Santa Eduviges de Silesia, intercede por nuestras familias, por quienes sufren pérdidas y dificultades, por los enfermos y por quienes trabajan por la paz. Ayúdanos a transformar nuestra fe en obras de caridad y a permanecer unidos a Cristo en toda circunstancia. Ruega por nuestras intenciones y enséñanos a ser instrumentos de reconciliación. Amén.",
+  "intentions": [
+    "Por las familias que atraviesan conflictos o dificultades.",
+    "Por quienes viven el duelo por la pérdida de un ser querido.",
+    "Por las viudas y quienes afrontan solos grandes responsabilidades.",
+    "Por las personas que viven en pobreza o necesidad.",
+    "Por los enfermos y quienes los cuidan.",
+    "Por la reconciliación entre personas, comunidades y pueblos.",
+    "Por quienes ejercen responsabilidades de servicio y gobierno.",
+    "Por nuestras necesidades personales y las de quienes llevamos en el corazón."
+  ],
+  "resources": {},
+  "sources": [
+    {
+      "title": "Santa Misa para los peregrinos de Baja Silesia y Silesia de Opole, 5 de junio de 1979",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1979/documents/hf_jp-ii_hom_19790605_polonia-jasna-gora-slesia.html",
+      "type": "official"
+    },
+    {
+      "title": "En el XX aniversario de Pontificado, 16 de octubre de 1998",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1998/october/documents/hf_jp-ii_spe_19981016_xx-pontificate.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Una vida recibida como llamada",
+      "title": "Aprender a reconocer la presencia de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Eduviges nació hacia 1174 en Baviera, en la familia de los Andechs. Su vida la llevó a Silesia, donde se casó con Enrique el Barbudo. Allí comenzó una historia marcada por la familia, la fe y el servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Reconozco a Dios presente en las responsabilidades que forman parte de mi vida cotidiana?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y por quienes buscan descubrir cómo vivir su fe en sus responsabilidades diarias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ayúdanos a descubrir tu presencia en nuestra vida cotidiana. Danos una fe que no separe la oración de nuestras responsabilidades y relaciones. Amén."
+      },
+      "action": "Realiza hoy una tarea cotidiana con especial atención, paciencia y espíritu de servicio."
+    },
+    {
+      "day": 2,
+      "theme": "La fe en la familia",
+      "title": "Construir un hogar desde la fe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Eduviges formó una familia numerosa junto a Enrique el Barbudo. Su vida familiar estuvo vinculada también a la vida religiosa de Silesia y al apoyo de obras de servicio y asistencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué puedo hacer hoy para que mi familia sea un espacio de respeto, escucha y ayuda mutua?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los matrimonios, padres, hijos y familias que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Dios de amor, bendice nuestras familias. Ayúdanos a escucharnos, perdonarnos y apoyarnos en las dificultades. Que nuestros hogares sean espacios de paz y servicio. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de atención hacia alguien de tu familia."
+    },
+    {
+      "day": 3,
+      "theme": "La caridad que se hace obra",
+      "title": "Servir a quienes necesitan ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición histórica de Eduviges destaca su preocupación por las personas pobres, enfermas y necesitadas. Su vida estuvo vinculada a obras de asistencia y a la fundación de la abadía de Trzebnica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Quién necesita hoy de mi ayuda y qué puedo hacer concretamente por esa persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que viven pobreza, enfermedad, soledad o abandono."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, abre nuestros ojos ante las necesidades de quienes nos rodean. Danos generosidad para compartir nuestro tiempo y nuestros bienes con quienes necesitan ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia."
+    },
+    {
+      "day": 4,
+      "theme": "Cuando llega la pérdida",
+      "title": "Permanecer en la fe en medio del dolor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Eduviges sufrió pérdidas familiares importantes. Su hijo Enrique el Pío murió en la batalla de Legnica en 1241. Juan Pablo II recordó que, ante aquellos acontecimientos, Eduviges encomendaba a Cristo crucificado la situación de su pueblo y de su familia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué pérdida o dolor necesito presentar hoy ante Dios sin ocultar lo que siento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven un duelo y por quienes han perdido recientemente a alguien que aman."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, acompaña a quienes lloran una pérdida. Recibe nuestro dolor y danos la fortaleza necesaria para continuar caminando con esperanza. Amén."
+      },
+      "action": "Dedica unos minutos a orar por una persona fallecida y por quienes la lloran."
+    },
+    {
+      "day": 5,
+      "theme": "La reconciliación",
+      "title": "Buscar la paz en medio de las divisiones",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de Eduviges quedó vinculada a Silesia y a la relación entre pueblos de Europa central. Juan Pablo II destacó su figura como referencia de reconciliación entre naciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Existe una relación en la que podría dar un primer paso hacia la paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, comunidades y pueblos que viven conflictos o divisiones."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor de la paz, enséñanos a buscar la reconciliación. Danos humildad para reconocer nuestros errores y valentía para dar pasos hacia el encuentro. Amén."
+      },
+      "action": "Evita hoy una palabra que pueda aumentar una división y busca una forma concreta de favorecer la paz."
+    },
+    {
+      "day": 6,
+      "theme": "Entregar la vida después de una pérdida",
+      "title": "Descubrir un nuevo camino",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de la muerte de su esposo en 1238, Eduviges consagró el resto de su vida a Dios y se estableció en la abadía de Trzebnica, que había sido fundada por ella y su esposo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué cambio de mi vida necesito aceptar y presentar a Dios con confianza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes deben comenzar una nueva etapa después de una pérdida o un cambio inesperado."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Padre bueno, acompaña a quienes deben comenzar de nuevo. Danos confianza para aceptar los cambios y sabiduría para descubrir nuevas formas de servir. Amén."
+      },
+      "action": "Escribe una dificultad que estás viviendo y una manera concreta de afrontarla con esperanza."
+    },
+    {
+      "day": 7,
+      "theme": "La oración sostenida",
+      "title": "Hacer de la oración un apoyo cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los relatos sobre Eduviges destacan su vida de oración y su relación con la comunidad de Trzebnica. En sus últimos años permaneció vinculada a la abadía y dedicada a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué momento del día puedo reservar de manera estable para encontrarme con Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan cansancio espiritual, dudas o dificultades para mantener una vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, enséñanos a permanecer contigo. Haz constante nuestra oración y ayúdanos a buscarte tanto en la alegría como en el sufrimiento. Amén."
+      },
+      "action": "Reserva hoy diez minutos de silencio para la oración."
+    },
+    {
+      "day": 8,
+      "theme": "Servir desde la responsabilidad",
+      "title": "Poner nuestras capacidades al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Como duquesa, esposa y madre, Eduviges vivió responsabilidades familiares y sociales. Su testimonio posterior fue recordado por su servicio a la Iglesia y a las personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué capacidad, recurso o experiencia puedo poner hoy al servicio de otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen responsabilidades de liderazgo, administración o servicio a otras personas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ayúdanos a utilizar nuestras capacidades para servir y no solo para nuestro beneficio. Danos humildad y responsabilidad en todo lo que se nos confía. Amén."
+      },
+      "action": "Pon hoy una habilidad tuya al servicio de alguien que la necesite."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida entregada a Dios",
+      "title": "Convertir la fe en servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Eduviges murió en Trzebnica en 1243. Fue canonizada en 1267 y su memoria se celebra el 16 de octubre. Su figura quedó especialmente vinculada a la vida cristiana de Silesia y Polonia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida de Eduviges nos invita a descubrir cómo la fe puede expresarse en la familia, la caridad, la oración, la fortaleza ante el sufrimiento y la búsqueda de la paz."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué virtud de Santa Eduviges quiero llevar conmigo después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Presenta al Señor tu intención personal y todas las personas por las que has rezado durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Eduviges, acompáñanos ante el Señor. Enséñanos a vivir con fe, servir con generosidad, afrontar las pérdidas con esperanza y buscar la paz con quienes nos rodean. Intercede por nuestras intenciones. Amén."
+      },
+      "action": "Elige una virtud de esta novena y conviértela en un compromiso concreto para los próximos días."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24"
+  }
+}
