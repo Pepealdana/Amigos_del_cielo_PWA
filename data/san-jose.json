@@ -1,37 +1,25 @@
 {
   "id": "san-jose",
-
   "slug": "san-jose",
-
   "name": "San José",
-
   "title": "Esposo de la Virgen María y custodio de Jesús",
-
   "subtitle": "Patrono de la Iglesia Universal",
-
   "category": "Santos",
-
   "image": "assets/images/santos/san_jose.webp",
-
-  "description": "Novena dedicada a San José, modelo de fe, obediencia, trabajo y confianza en Dios.",
-
+  "description": "Novena dedicada a San José, modelo de fe, obediencia, trabajo, acogida y confianza en Dios.",
   "novena": {
     "days": 9
   },
-
   "status": "published",
-
   "content": {
     "mode": "inline",
     "folder": "san-jose"
   },
-
   "ui": {
     "primaryColor": "#2C4A6B",
     "secondaryColor": "#D9B66B",
     "icon": "🪵"
   },
-
   "feast": {
     "day": 19,
     "month": 3,
@@ -39,12 +27,10 @@
     "liturgicalRank": "Solemnidad",
     "movable": false
   },
-
   "quote": {
     "text": "José hizo lo que el ángel del Señor le había mandado.",
     "reference": "Mateo 1,24"
   },
-
   "patronages": [
     "Iglesia Universal",
     "Familias",
@@ -52,16 +38,15 @@
     "Padres de familia",
     "Buena muerte"
   ],
-
   "virtues": [
     "Justicia",
     "Obediencia",
     "Humildad",
+    "Acogida",
     "Confianza en Dios",
     "Trabajo",
     "Silencio interior"
   ],
-
   "search": [
     "san jose",
     "jose",
@@ -72,93 +57,318 @@
     "obediencia",
     "justicia",
     "nazaret",
+    "sagrada familia",
+    "custodio",
     "novena"
   ],
-
   "history": {
-    "short": "San José fue el esposo de la Virgen María y el padre adoptivo de Jesús. Elegido por Dios para custodiar la Sagrada Familia, vivió con humildad, trabajo y obediencia. Aunque los Evangelios no conservan ninguna palabra suya, sus acciones revelan una fe profunda y una confianza absoluta en la voluntad divina.",
-
-    "extended": "Descendiente de la casa de David, San José ejercía el oficio de carpintero en Nazaret. Dios lo eligió para ser esposo de María y custodio de Jesús. Aceptó con fe cada misión encomendada por el Señor, protegiendo a la Sagrada Familia durante la huida a Egipto y educando a Jesús con el ejemplo del trabajo, el silencio y la fidelidad. La Iglesia lo reconoce como Patrono Universal y modelo de vida cristiana."
+    "short": "San José fue el esposo de la Virgen María y estuvo al servicio de Jesús como padre en la familia de Nazaret. Los Evangelios lo presentan como un hombre justo que acogió la misión recibida de Dios y protegió a María y a Jesús.",
+    "extended": "La Sagrada Escritura presenta a José como descendiente de David y esposo de María. Ante el misterio del embarazo de María, recibió en sueños la orientación de Dios y la acogió en su casa. Después de la llegada de Jesús, cuidó de él y de María, huyendo a Egipto cuando fue necesario y estableciéndose finalmente en Nazaret. Mateo lo relaciona con el oficio de artesano, mientras que Lucas muestra a la Sagrada Familia viviendo en Nazaret y presenta a José como responsable de llevar a Jesús al templo. La tradición de la Iglesia ha profundizado en su papel como esposo de María, padre de Jesús según la ley y custodio de la Sagrada Familia. En 1870 fue proclamado Patrono de la Iglesia Universal."
   },
-
-  "openingPrayer": "Glorioso San José, esposo fiel de la Virgen María y custodio amoroso de Jesús, acudo a ti con confianza y humildad. Tú que supiste escuchar la voz de Dios y cumplir su voluntad con generosidad, ayúdame a caminar con fe en medio de las dificultades, a vivir con rectitud en mis responsabilidades y a buscar siempre aquello que agrada al Señor. Intercede por mí y por mis seres queridos. Durante esta novena pongo en tus manos las intenciones que llevo en mi corazón. Si son para mi bien espiritual y para mayor gloria de Dios, alcánzame el favor que con fe te presento. Amén.",
-
-  "closingPrayer": "San José, modelo de los justos y protector de la Sagrada Familia, gracias por acompañarme durante este momento de oración. Enséñame a conservar en mi corazón las enseñanzas recibidas, a confiar más en Dios, a trabajar con amor, a servir con humildad y a permanecer fiel en cada circunstancia de mi vida. Que siguiendo tu ejemplo pueda acercarme cada día más a Jesús y a María. Amén.",
-
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San José, esposo de la Virgen María y custodio de Jesús, acompáñame durante estos nueve días. Enséñame a escuchar a Dios, a acoger con responsabilidad las personas que me ha confiado y a cumplir con fidelidad mis deberes cotidianos. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Ayúdame a vivir esta novena con fe, esperanza y caridad. Amén.",
+  "closingPrayer": "San José, custodio fiel de Jesús y esposo de María, gracias por acompañarme en esta novena. Ayúdame a conservar en mi vida aquello que he aprendido de tu ejemplo: la fe que escucha, la obediencia que actúa, la acogida que protege, el trabajo realizado con amor y la confianza en Dios aun cuando no conozca todo el camino. Presenta ante el Señor mis necesidades y las de quienes amo. Que, siguiendo tu ejemplo, pueda acercarme cada día más a Jesús. Amén.",
   "intentions": [
     "Por la Iglesia Universal.",
-    "Por el Papa, los obispos y los sacerdotes.",
-    "Por las familias.",
-    "Por los padres de familia.",
-    "Por quienes buscan empleo.",
-    "Por los trabajadores.",
-    "Por los enfermos.",
-    "Por quienes agonizan.",
+    "Por el Papa, los obispos, los sacerdotes y las vocaciones.",
+    "Por las familias y los matrimonios.",
+    "Por los padres y madres que tienen responsabilidades familiares.",
+    "Por quienes buscan empleo y por los trabajadores.",
+    "Por las personas migrantes, refugiadas y quienes atraviesan dificultades.",
+    "Por los enfermos y quienes los cuidan.",
+    "Por quienes se encuentran en situaciones de soledad, pobreza o abandono.",
     "Por la intención particular con la que realizo esta novena."
   ],
-
   "resources": {
     "bible": [
       {
-        "reference": "Mateo 1,18-25"
+        "reference": "Mateo 1,1-25"
       },
       {
-        "reference": "Lucas 2,1-20"
+        "reference": "Mateo 2,13-23"
       },
       {
-        "reference": "Lucas 2,22-52"
+        "reference": "Lucas 2,1-52"
       }
     ],
-
     "documents": [
       "Patris Corde",
-      "Redemptoris Custos"
+      "Redemptoris Custos",
+      "Quamquam Pluries"
     ],
-
     "related": [
-      "San José Obrero",
       "Sagrada Familia",
-      "Santos Esposos María y José"
+      "San José Obrero",
+      "Iglesia Universal"
     ]
   },
-
+  "sources": [
+    {
+      "title": "Carta apostólica Patris corde",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html",
+      "type": "official"
+    },
+    {
+      "title": "Exhortación apostólica Redemptoris Custos",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html",
+      "type": "official"
+    },
+    {
+      "title": "Novena para la Solemnidad de San José",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/prayer-and-worship/prayers-and-devotions/prayers/novena-for-the-solemnity-of-saint-joseph",
+      "type": "official"
+    },
+    {
+      "title": "Oración a San José después del Rosario",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/prayers/prayer-st-joseph-after-rosary",
+      "type": "official"
+    },
+    {
+      "title": "Litany of Saint Joseph",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/prayers/litany-saint-joseph",
+      "type": "official"
+    }
+  ],
   "audio": {
     "opening": "",
     "closing": ""
   },
-
   "days": [
     {
       "day": 1,
-
       "theme": "La justicia",
-
-      "title": "Hombre justo ante Dios",
-
-      "virtue": "Justicia",
-
-      "quote": {
-        "text": "José, su esposo, que era un hombre justo...",
-        "reference": "Mateo 1,19"
+      "title": "Un hombre justo ante Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El Evangelio llama a José un hombre justo cuando narra su reacción ante el embarazo de María. Antes de recibir la explicación del ángel, José buscaba actuar sin exponerla a la vergüenza pública. Después, al recibir la orientación de Dios en sueños, acogió a María como esposa."
       },
-
-      "reflection": "El Evangelio presenta a San José como un hombre justo. Su justicia no consistía solamente en cumplir normas, sino en mantener un corazón dispuesto a actuar según la voluntad de Dios. Cuando enfrentó situaciones difíciles, eligió la misericordia, la prudencia y la confianza. Su ejemplo nos recuerda que la verdadera justicia nace de una relación sincera con Dios y se manifiesta en nuestras acciones cotidianas.",
-
-      "meditation": "Hoy estoy llamado a revisar si mis decisiones nacen únicamente de mis intereses o si realmente busco la voluntad de Dios.",
-
-      "prayer": "San José, hombre justo y fiel, enséñame a actuar con rectitud en cada decisión de mi vida. Ayúdame a ser honesto, misericordioso y coherente con mi fe. Que mis palabras y acciones reflejen el amor de Dios hacia quienes me rodean. Amén.",
-
-      "action": "Realiza hoy un acto concreto de honestidad, reconciliación o servicio desinteresado.",
-
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La justicia cristiana no consiste solamente en exigir lo que corresponde. También implica mirar a la otra persona con respeto y actuar buscando el bien. José nos enseña a detenernos ante las situaciones difíciles, evitar decisiones impulsivas y permanecer disponibles para escuchar a Dios."
+      },
+      "virtue": "Justicia",
+      "reflection": "¿Hay alguna situación en la que necesito actuar con más verdad, prudencia y misericordia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que atraviesan conflictos familiares, laborales o personales y necesitan tomar decisiones con prudencia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, hombre justo y fiel, enséñame a tratar a los demás con respeto y misericordia. Ayúdame a no actuar movido por la ira o el orgullo y a buscar con sinceridad aquello que agrada a Dios. Amén."
+      },
+      "action": "Antes de tomar hoy una decisión difícil, dedica unos minutos a la oración y evita responder impulsivamente.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "La vocación",
+      "title": "Llamado a una misión",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José estaba desposado con María. El Evangelio de Mateo presenta su descendencia de David y muestra cómo Dios lo llamó a participar de una misión singular: recibir a María y asumir ante Jesús una verdadera responsabilidad paterna dentro de la familia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Nuestra vida también está formada por responsabilidades concretas: familia, trabajo, servicio y cuidado de otras personas. La vocación cristiana no se limita a momentos extraordinarios; se descubre también en la fidelidad con que respondemos a las responsabilidades que Dios permite que formen parte de nuestra vida."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué responsabilidades concretas puedo vivir hoy como una oportunidad de servir a Dios y a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo su vocación, por los matrimonios y por quienes tienen responsabilidades familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, ayúdame a reconocer las responsabilidades que Dios pone ante mí y a vivirlas con generosidad. Enséñame a responder con fidelidad cuando se me pide servir y cuidar. Amén."
+      },
+      "action": "Cumple hoy con especial atención una responsabilidad que normalmente realizas de manera rutinaria.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "La obediencia",
+      "title": "Escuchar y actuar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mientras José pensaba cómo proceder, un ángel del Señor se le apareció en sueños y le pidió que no temiera recibir a María. Mateo relata que, al despertar, José hizo lo que el ángel le había mandado y recibió a María en su casa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "José no se quedó solamente en una intención interior: convirtió lo que había comprendido en una decisión concreta. La fe también se expresa en acciones. Escuchar a Dios implica estar dispuesto a cambiar nuestros planes cuando reconocemos un camino coherente con su voluntad."
+      },
+      "virtue": "Obediencia",
+      "reflection": "¿Qué enseñanza del Evangelio conozco pero todavía me cuesta llevar a la práctica?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan orientación para tomar decisiones importantes y por quienes desean vivir con mayor fidelidad su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, enséñame a escuchar antes de actuar y a actuar cuando he reconocido el camino del bien. Dame humildad para revisar mis planes y fortaleza para cumplir con responsabilidad aquello que debo hacer. Amén."
+      },
+      "action": "Pon en práctica hoy una enseñanza del Evangelio que hayas reconocido como importante para tu vida.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "La acogida",
+      "title": "Recibir y proteger",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de recibir el mensaje del ángel, José acogió a María en su casa. Más adelante, cuando nació Jesús, asumió la responsabilidad de cuidarlo junto con María. Su presencia silenciosa aparece vinculada al cuidado concreto de la familia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acoger significa abrir espacio para otra persona con respeto y responsabilidad. San José nos recuerda que cuidar no siempre requiere grandes discursos: muchas veces se expresa mediante presencia, protección, paciencia y servicio cotidiano."
+      },
+      "virtue": "Acogida",
+      "reflection": "¿Quién necesita hoy de mi presencia, escucha o ayuda concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que reciben un nuevo miembro, por quienes acogen a niños y por las personas que necesitan encontrar un hogar seguro."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, enséñame a recibir a los demás con respeto y a cuidar con responsabilidad a quienes me han sido confiados. Hazme atento a las necesidades de quienes viven cerca de mí. Amén."
+      },
+      "action": "Realiza hoy un gesto concreto de acogida: escucha a alguien, ofrece ayuda o dedica tiempo a una persona que lo necesite.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "La protección",
+      "title": "Custodiar en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de la visita de los sabios, un ángel avisó a José en sueños del peligro que amenazaba al niño y le indicó que huyera a Egipto con María y Jesús. José se levantó, tomó al niño y a su madre y partió durante la noche. Más adelante recibió nuevas indicaciones y regresó con ellos hasta establecerse en Nazaret."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La custodia implica estar atento a los riesgos y actuar para proteger la vida y la dignidad de quienes dependen de nosotros. El ejemplo de José invita a no permanecer indiferentes ante situaciones que requieren cuidado, acompañamiento o protección."
+      },
+      "virtue": "Custodia",
+      "reflection": "¿Hay alguna persona o responsabilidad que necesita de mi atención y protección en este momento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños, las familias desplazadas, los migrantes y refugiados, y todas las personas que necesitan protección."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, custodio de Jesús y de María, acompaña a quienes viven situaciones de peligro, desplazamiento o incertidumbre. Enséñame a proteger la vida, la dignidad y el bienestar de quienes están bajo mi responsabilidad. Amén."
+      },
+      "action": "Identifica una necesidad concreta de alguien cercano y busca una manera responsable de ayudar.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "La vida cotidiana",
+      "title": "La familia de Nazaret",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de regresar de Egipto, José se estableció con María y Jesús en Nazaret. Lucas presenta allí la vida cotidiana de la Sagrada Familia y relata que Jesús crecía en sabiduría, edad y gracia ante Dios y ante los hombres."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad también se construye en lo cotidiano. Las tareas familiares, el cuidado de los demás, el trabajo y las responsabilidades ordinarias pueden convertirse en espacios de fidelidad, servicio y crecimiento."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Estoy valorando las pequeñas tareas y responsabilidades que sostienen mi vida y la de quienes me rodean?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que buscan crecer en unidad, por los hogares que atraviesan dificultades y por quienes trabajan cada día por el bienestar de los suyos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, acompaña a nuestras familias y enséñanos a descubrir a Dios en las tareas sencillas de cada día. Ayúdanos a cultivar la paciencia, el respeto, el diálogo y el servicio. Amén."
+      },
+      "action": "Haz hoy una tarea doméstica o familiar que beneficie a los demás sin esperar reconocimiento.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "El trabajo",
+      "title": "Trabajar con dignidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El Evangelio de Mateo identifica a José como artesano. La reflexión de la Iglesia ha destacado el trabajo de José en Nazaret como parte de la vida cotidiana de la Sagrada Familia. En esa vida sencilla, el trabajo aparece unido al cuidado de la familia y a la dignidad de la persona."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El trabajo puede ser una forma concreta de responsabilidad y servicio. San José invita a realizar las tareas con honestidad y dedicación, sin despreciar los trabajos sencillos ni separar la vida espiritual de las obligaciones cotidianas."
+      },
+      "virtue": "Diligencia",
+      "reflection": "¿Cómo puedo realizar mi trabajo o mis estudios con mayor responsabilidad y sentido de servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan empleo, por los trabajadores, por quienes sostienen económicamente a sus familias y por quienes sufren condiciones laborales difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José trabajador, enséñame a realizar mis tareas con honestidad, paciencia y responsabilidad. Acompaña a quienes buscan empleo y a quienes encuentran dificultades en su trabajo. Que nuestro esfuerzo contribuya al bien de nuestras familias y de la sociedad. Amén."
+      },
+      "action": "Realiza tu principal tarea de hoy con especial cuidado, evitando la negligencia y ofreciendo ese esfuerzo a Dios.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "El silencio y la búsqueda de Dios",
+      "title": "Guardar y meditar en el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los Evangelios no conservan palabras pronunciadas por José. Sí muestran sus decisiones y su presencia en momentos importantes de la infancia de Jesús. Lucas también relata que María conservaba en su corazón los acontecimientos vividos, mientras la Sagrada Familia permanecía unida y regresaba a Nazaret."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El silencio no significa ausencia de acción. Puede ser un espacio para escuchar, discernir y responder con mayor libertad. La vida de José invita a reducir el ruido interior y exterior para reconocer qué merece nuestra atención y cómo podemos servir mejor."
+      },
+      "virtue": "Silencio interior",
+      "reflection": "¿Qué ruido, preocupación o distracción necesito poner hoy en silencio para escuchar mejor a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven ansiedad, incertidumbre o confusión y necesitan encontrar espacios de paz, orientación y esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, enséñame el valor del silencio que escucha y del corazón que discierne. Ayúdame a apartar aquello que me distrae del bien y a buscar momentos de oración en los que pueda reconocer la presencia de Dios. Amén."
+      },
+      "action": "Reserva hoy al menos diez minutos sin pantallas ni distracciones para permanecer en silencio y orar.",
+      "closing": "San José, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "La custodia y la esperanza",
+      "title": "Confiar nuestras necesidades a San José",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La historia evangélica de José está marcada por el cuidado de Jesús y María. La Iglesia ha reconocido en él al esposo de la Virgen, al custodio del Redentor y al Patrono de la Iglesia Universal. Al terminar esta novena, contemplamos su vida como una invitación a custodiar aquello que Dios nos confía."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción a San José no termina en pedir favores. Su ejemplo orienta hacia Jesús y nos invita a vivir con fe, responsabilidad, trabajo, acogida y confianza en Dios. Podemos presentar nuestras necesidades a su intercesión y, al mismo tiempo, preguntarnos qué podemos hacer nosotros por el bien de los demás."
+      },
+      "virtue": "Confianza en Dios",
+      "reflection": "Después de estos nueve días, ¿qué actitud concreta de San José quiero incorporar a mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia Universal, por nuestras familias y por todas las intenciones personales que hemos presentado durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José, custodio del Redentor y Patrono de la Iglesia Universal, recibe nuestras intenciones y preséntalas ante Dios. Ayúdanos a confiar en su providencia, a cuidar a quienes nos han sido confiados y a vivir con fidelidad nuestra vocación. Guíanos siempre hacia Jesús y acompaña nuestros hogares. Amén."
+      },
+      "action": "Elige una virtud de esta novena y establece una acción concreta para mantenerla durante las próximas semanas.",
       "closing": "San José, ruega por nosotros."
     }
   ],
-
   "metadata": {
-    "version": "2.0",
+    "version": "3.0",
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-06-25"
+    "updated": "2026-09-23"
   }
 }
