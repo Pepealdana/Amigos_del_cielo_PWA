@@ -1,0 +1,351 @@
+{
+  "id": "virgen-de-fatima",
+  "slug": "virgen-de-fatima",
+  "name": "Virgen de Fátima",
+  "title": "Novena a Nuestra Señora de Fátima",
+  "subtitle": "Oración, conversión y esperanza con María",
+  "category": "Devociones",
+  "image": "assets/images/santos/virgen_fatima.webp",
+  "description": "Nueve días para vivir el mensaje espiritual de Fátima desde la oración, la conversión, la penitencia, el Rosario, la reparación y la esperanza cristiana.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline"
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "day": 13,
+    "month": 5,
+    "text": "13 de mayo",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "patronages": [
+    "Peregrinos",
+    "Familias",
+    "Conversión",
+    "Paz",
+    "Rosario"
+  ],
+  "virtues": [
+    "Oración",
+    "Conversión",
+    "Penitencia",
+    "Esperanza",
+    "Paz",
+    "Reparación",
+    "Confianza",
+    "Perseverancia",
+    "Caridad"
+  ],
+  "search": [
+    "virgen de fatima",
+    "nuestra señora de fatima",
+    "fatima",
+    "rosario",
+    "cova da iria",
+    "lucia",
+    "francisco marto",
+    "jacinta marto",
+    "inmaculado corazon",
+    "paz",
+    "conversion"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz",
+      "keywords": [
+        "paz",
+        "guerra",
+        "conflicto",
+        "violencia"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y reconciliación",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "pecado",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y sufrientes",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "dolor",
+        "sufrimiento",
+        "hospital"
+      ]
+    },
+    {
+      "id": "difuntos",
+      "label": "Difuntos",
+      "keywords": [
+        "difunto",
+        "difuntos",
+        "fallecido",
+        "fallecidos",
+        "muertos"
+      ]
+    },
+    {
+      "id": "rosario",
+      "label": "Rosario y vida de oración",
+      "keywords": [
+        "rosario",
+        "oracion",
+        "oración",
+        "rezar",
+        "rezando"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocaciones y jóvenes",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "joven",
+        "jóvenes",
+        "sacerdote",
+        "religiosa"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza",
+      "keywords": [
+        "esperanza",
+        "miedo",
+        "angustia",
+        "desanimo",
+        "desánimo"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción a Nuestra Señora de Fátima está vinculada a las apariciones que, según el testimonio de los tres pastorcitos, tuvieron lugar en Cova da Iria entre mayo y octubre de 1917. El mensaje espiritual asociado a Fátima pone el acento en la oración, la conversión, la penitencia, el Rosario y la esperanza.",
+    "extended": "Según la documentación conservada por el Santuario de Fátima y las Memorias de la Hermana Lucía, los acontecimientos comenzaron con las apariciones del Ángel en 1916 y con las apariciones de la Señora del Rosario a Lucía dos Santos y a sus primos Francisco y Jacinta Marto en 1917. La primera tuvo lugar el 13 de mayo en Cova da Iria. El ciclo de apariciones continuó hasta octubre.\\n\\nLa Iglesia ha reconocido el valor espiritual de Fátima y ha promovido su mensaje como llamado a la oración, la conversión, la penitencia y la paz. Benedicto XVI resumió este mensaje destacando precisamente la oración, la penitencia, la conversión, la confianza y la esperanza.\\n\\nFrancisco y Jacinta Marto fueron beatificados por Juan Pablo II en 2000 y canonizados por el papa Francisco el 13 de mayo de 2017. Lucía ingresó posteriormente en la vida religiosa y murió en Coimbra en 2005.\\n\\nEsta novena no reproduce una novena externa ni pretende presentar como cita literal todos los textos atribuidos a las apariciones. Las reflexiones y oraciones son adaptaciones originales de Amigos del Cielo, inspiradas en el mensaje espiritual documentado por el Santuario de Fátima y la Santa Sede."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\n\\nNuestra Señora de Fátima, Madre que nos conduce hacia Jesús, acompáñanos durante estos nueve días. Enséñanos a orar con perseverancia, a reconocer aquello que necesita conversión en nuestra vida y a confiar en la misericordia de Dios. Ayúdanos a buscar la paz, a vivir con esperanza y a ofrecer nuestras dificultades con amor. Amén.",
+  "closingPrayer": "Nuestra Señora de Fátima, gracias por acompañarnos durante esta novena. Llévanos siempre hacia Jesucristo. Que el Rosario, la oración, la conversión y la caridad no sean solo prácticas de estos nueve días, sino caminos permanentes de nuestra vida cristiana. Intercede por nuestras familias, por quienes sufren y por la paz del mundo. Amén.",
+  "intentions": [
+    "Por la conversión de nuestros corazones y por quienes están alejados de Dios.",
+    "Por las familias, para que encuentren en la oración un camino de unidad y esperanza.",
+    "Por la paz del mundo y por quienes sufren las consecuencias de la guerra y la violencia.",
+    "Por los enfermos y por quienes los acompañan.",
+    "Por los niños y jóvenes, para que crezcan en la fe y el bien.",
+    "Por los sacerdotes, religiosos y religiosas, y por las vocaciones cristianas.",
+    "Por quienes han perdido la esperanza o atraviesan momentos de angustia.",
+    "Por nuestros familiares y amigos difuntos, confiándolos a la misericordia de Dios.",
+    "Por nuestras intenciones personales y para que aprendamos a vivir con una fe perseverante."
+  ],
+  "resources": {
+    "devotion": "El mensaje espiritual de Fátima se presenta en esta aplicación desde sus ejes centrales: oración, conversión, penitencia, Rosario, reparación, paz y esperanza. La devoción mariana debe conducir siempre a Cristo.",
+    "feast": "13 de mayo.",
+    "related": [
+      "Cova da Iria",
+      "Rosario",
+      "Inmaculado Corazón de María",
+      "Beato Francisco Marto",
+      "Santa Jacinta Marto",
+      "Venerable Lucía de Jesús"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Cronología de Fátima",
+      "organization": "Santuario de Fátima",
+      "url": "https://www.fatima.pt/es/pages/cronologia",
+      "type": "official"
+    },
+    {
+      "title": "Narrativa de las apariciones de Fátima",
+      "organization": "Santuario de Fátima",
+      "url": "https://www.fatima.pt/es/pages/narrativa-de-las-apariciones-de-fatima",
+      "type": "official"
+    },
+    {
+      "title": "Audiencia general del 19 de mayo de 2010",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2010/documents/hf_ben-xvi_aud_20100519.html",
+      "type": "official"
+    },
+    {
+      "title": "Mensaje de Fátima",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20000626_message-fatima_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Canonización de Francisco y Jacinta Marto",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/events/event.dir.html/content/vaticanevents/es/2017/5/13/omelia-pellegrinaggio-fatima.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Oración",
+      "title": "Aprender a orar con confianza",
+      "bible": {
+        "reference": "Lucas 11,1-4",
+        "title": "Señor, enséñanos a orar"
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar ocupa realmente la oración en mi vida diaria?",
+      "intention": "Por quienes desean volver a Dios y comenzar una vida de oración.",
+      "prayer": "Nuestra Señora de Fátima, enséñanos a acercarnos a Dios con confianza. Que nuestra oración no sea una costumbre vacía, sino un encuentro sincero que transforme nuestro corazón. Amén.",
+      "action": "Dedica hoy un momento concreto al Rosario o a una oración pausada."
+    },
+    {
+      "day": 2,
+      "theme": "Conversión",
+      "title": "Dejar que Dios transforme el corazón",
+      "bible": {
+        "reference": "Marcos 1,14-15",
+        "title": "Conviértanse y crean en el Evangelio"
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué actitud necesito reconocer y cambiar delante de Dios?",
+      "intention": "Por quienes necesitan reconciliarse con Dios y por nosotros mismos.",
+      "prayer": "María, Madre que nos conduce a Jesús, ayúdanos a reconocer nuestros errores sin desesperarnos. Danos humildad para pedir perdón y valentía para comenzar de nuevo. Amén.",
+      "action": "Haz hoy un examen sincero de conciencia y, si corresponde, busca reconciliación."
+    },
+    {
+      "day": 3,
+      "theme": "Rosario",
+      "title": "Contemplar a Cristo con María",
+      "bible": {
+        "reference": "Lucas 2,19",
+        "title": "María conservaba estas cosas y las meditaba"
+      },
+      "virtue": "Contemplación",
+      "reflection": "¿Rezo de manera que mi corazón se acerque realmente a Cristo?",
+      "intention": "Por nuestras familias y por quienes buscan recuperar la vida de oración.",
+      "prayer": "Nuestra Señora del Rosario, acompáñanos mientras contemplamos los misterios de Cristo. Que cada oración nos haga más atentos a su vida, a su palabra y a las necesidades de nuestros hermanos. Amén.",
+      "action": "Reza hoy un misterio del Rosario lentamente, procurando meditarlo."
+    },
+    {
+      "day": 4,
+      "theme": "Penitencia",
+      "title": "Ofrecer el sacrificio con amor",
+      "bible": {
+        "reference": "Romanos 12,1-2",
+        "title": "Ofrezcan sus cuerpos como sacrificio vivo"
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué sacrificio pequeño puedo ofrecer hoy por amor?",
+      "intention": "Por quienes sufren y por la conversión de los corazones.",
+      "prayer": "María, ayúdanos a comprender que la penitencia cristiana no busca el sufrimiento por sí mismo. Enséñanos a ofrecer con amor nuestras dificultades y a renunciar libremente a aquello que nos aleja del bien. Amén.",
+      "action": "Realiza hoy una renuncia concreta y conviértela en una oportunidad de caridad."
+    },
+    {
+      "day": 5,
+      "theme": "Reparación",
+      "title": "Responder al mal con amor",
+      "bible": {
+        "reference": "Romanos 12,21",
+        "title": "Vence el mal con el bien"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Cómo puedo responder al mal sin reproducirlo?",
+      "intention": "Por la paz, por las víctimas de la violencia y por quienes necesitan perdonar.",
+      "prayer": "Nuestra Señora de Fátima, enséñanos a reparar el daño mediante el bien. Danos un corazón capaz de perdonar, pedir perdón y trabajar por la paz sin alimentar el odio. Amén.",
+      "action": "Busca hoy una forma concreta de reparar una ofensa o hacer el bien a alguien."
+    },
+    {
+      "day": 6,
+      "theme": "Inmaculado Corazón",
+      "title": "Guardar a Dios en el corazón",
+      "bible": {
+        "reference": "Filipenses 4,8-9",
+        "title": "Piensen en todo lo verdadero y bueno"
+      },
+      "virtue": "Pureza de corazón",
+      "reflection": "¿Qué estoy dejando entrar en mi mente y en mi corazón?",
+      "intention": "Por niños, jóvenes y adultos que necesitan ambientes sanos y una vida interior firme.",
+      "prayer": "María, Madre de corazón entregado a Dios, ayúdanos a cuidar nuestros pensamientos, palabras y decisiones. Que sepamos elegir aquello que construye la verdad, la bondad y la paz. Amén.",
+      "action": "Haz hoy una pausa de aquello que te dispersa y dedica ese tiempo a algo que fortalezca tu vida interior."
+    },
+    {
+      "day": 7,
+      "theme": "Esperanza",
+      "title": "Confiar en medio de las dificultades",
+      "bible": {
+        "reference": "Romanos 5,3-5",
+        "title": "La esperanza no defrauda"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito colocar hoy en las manos de Dios?",
+      "intention": "Por quienes viven enfermedad, duelo, ansiedad, pobreza o incertidumbre.",
+      "prayer": "Nuestra Señora de Fátima, acompaña a quienes sufren. Ayúdanos a no confundir esperanza con ausencia de problemas. Que aprendamos a confiar en Dios y a sostenernos unos a otros en las dificultades. Amén.",
+      "action": "Llama o visita a alguien que esté pasando por una dificultad y ofrécele compañía."
+    },
+    {
+      "day": 8,
+      "theme": "Paz",
+      "title": "Ser constructores de paz",
+      "bible": {
+        "reference": "Mateo 5,9",
+        "title": "Bienaventurados los que trabajan por la paz"
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué conflicto cercano puedo ayudar a sanar?",
+      "intention": "Por la paz del mundo, por las víctimas de la guerra y por nuestras comunidades.",
+      "prayer": "María, Reina de la paz, haznos instrumentos de reconciliación. Que sepamos escuchar, evitar palabras que dividen y trabajar por la justicia y el respeto. Que la paz comience también en nuestros hogares. Amén.",
+      "action": "Evita hoy una palabra que pueda generar división y reemplázala por una palabra de paz."
+    },
+    {
+      "day": 9,
+      "theme": "Perseverancia",
+      "title": "Caminar con esperanza hacia Cristo",
+      "bible": {
+        "reference": "Hebreos 12,1-3",
+        "title": "Corramos con perseverancia fijando los ojos en Jesús"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso quiero mantener después de terminar esta novena?",
+      "intention": "Por todas nuestras intenciones y para que perseveremos en la fe, la oración y la caridad.",
+      "prayer": "Nuestra Señora de Fátima, acompáñanos más allá de estos nueve días. Ayúdanos a perseverar en la oración, la conversión, el servicio y la esperanza. Que toda nuestra vida conduzca hacia Jesucristo. Amén.",
+      "action": "Escribe un compromiso concreto de oración, caridad o reconciliación para continuar después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-24",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La información histórica se fundamenta en fuentes oficiales del Santuario de Fátima y de la Santa Sede."
+  }
+}
