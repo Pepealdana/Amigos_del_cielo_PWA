@@ -3640,5 +3640,132 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-gemma-galgani",
+    "slug": "santa-gemma-galgani",
+    "name": "Santa Gemma Galgani",
+    "title": "Virgen y mística pasionista",
+    "subtitle": "Testigo de la Pasión de Cristo y de la vida de oración",
+    "category": "Santos",
+    "featured": false,
+    "image": "assets/images/santos/santa_gelma_galgani.webp",
+    "file": "data/santa-gemma-galgani.json",
+    "description": "Joven laica de Lucca cuya vida espiritual estuvo marcada por la Eucaristía, la contemplación de la Pasión de Cristo, la oración y una profunda entrega por la conversión de los pecadores.",
+    "feast": {
+      "day": 16,
+      "month": 5,
+      "text": "16 de mayo",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santa gema",
+      "gema galgani",
+      "gemma galgani",
+      "gema de lucca",
+      "lucca",
+      "pasionistas",
+      "pasión de cristo",
+      "eucaristía",
+      "oración",
+      "estigmas",
+      "mística",
+      "conversión",
+      "pecadores",
+      "sufrimiento",
+      "jóvenes"
+    ],
+    "interventions": [
+      {
+        "id": "oracion",
+        "label": "Oración y vida interior",
+        "keywords": [
+          "oración",
+          "oracion",
+          "vida interior",
+          "contemplación",
+          "contemplacion",
+          "silencio",
+          "meditación",
+          "meditacion"
+        ]
+      },
+      {
+        "id": "eucaristia",
+        "label": "Eucaristía y adoración",
+        "keywords": [
+          "eucaristía",
+          "eucaristia",
+          "misa",
+          "comunión",
+          "comunion",
+          "adoración",
+          "adoracion"
+        ]
+      },
+      {
+        "id": "sufrimiento",
+        "label": "Sufrimiento y enfermedad",
+        "keywords": [
+          "sufrimiento",
+          "dolor",
+          "enfermedad",
+          "enfermos",
+          "prueba",
+          "cruz"
+        ]
+      },
+      {
+        "id": "conversion",
+        "label": "Conversión y lucha espiritual",
+        "keywords": [
+          "conversión",
+          "conversion",
+          "pecado",
+          "pecadores",
+          "arrepentimiento",
+          "cambio de vida"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y entrega a Dios",
+        "keywords": [
+          "vocación",
+          "vocacion",
+          "llamado",
+          "consagración",
+          "consagracion",
+          "virginidad",
+          "vida religiosa"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y búsqueda de santidad",
+        "keywords": [
+          "jóvenes",
+          "jovenes",
+          "juventud",
+          "santidad",
+          "propósito",
+          "proposito"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y seres queridos",
+        "keywords": [
+          "familia",
+          "padres",
+          "madre",
+          "padre",
+          "seres queridos",
+          "duelo"
+        ]
+      }
+    ]
   }
 ]
