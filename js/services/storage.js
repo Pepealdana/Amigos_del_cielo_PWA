@@ -121,6 +121,7 @@ function actualizarProgreso(novenaId, dia) {
         ...anterior,
         dia: numeroDia,
         completados,
+        completada: Boolean(anterior.completada),
         fecha: new Date().toISOString()
     };
 
@@ -229,4 +230,50 @@ function inicializarStorage() {
     cargarConfiguracion();
     cargarIntenciones();
     cargarRecordatorios();
+}
+
+
+/* ==========================================
+   FINALIZAR Y REINICIAR NOVENA
+========================================== */
+
+function finalizarNovena(novenaId) {
+    if (!novenaId) return false;
+
+    const anterior = state.progreso[novenaId] || {};
+    const completados = Array.isArray(anterior.completados)
+        ? [...new Set(anterior.completados.map(Number))]
+        : [];
+
+    if (!completados.includes(9)) {
+        completados.push(9);
+        completados.sort((a, b) => a - b);
+    }
+
+    state.progreso[novenaId] = {
+        ...anterior,
+        dia: 9,
+        completados,
+        completada: true,
+        fecha: new Date().toISOString(),
+        fechaFinalizacion: new Date().toISOString()
+    };
+
+    state.ultimaNovenaId = novenaId;
+    return guardarProgreso();
+}
+
+function reiniciarNovena(novenaId) {
+    if (!novenaId) return false;
+
+    state.progreso[novenaId] = {
+        dia: 0,
+        completados: [],
+        completada: false,
+        fecha: new Date().toISOString(),
+        fechaFinalizacion: null
+    };
+
+    state.ultimaNovenaId = novenaId;
+    return guardarProgreso();
 }
