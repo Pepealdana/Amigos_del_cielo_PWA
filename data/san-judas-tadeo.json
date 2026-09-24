@@ -1,0 +1,466 @@
+{
+  "id": "san-judas-tadeo",
+  "slug": "san-judas-tadeo",
+  "name": "San Judas Tadeo",
+  "title": "Apóstol y mártir",
+  "subtitle": "Testigo de Cristo y servidor de la esperanza",
+  "category": "Santos",
+  "image": "assets/images/santos/san_judas_tadeo.webp",
+  "description": "Uno de los Doce Apóstoles, recordado por su pregunta a Jesús durante la última Cena y por la tradición cristiana como testigo de la fe hasta el martirio.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-judas-tadeo"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 28,
+    "month": 10,
+    "text": "28 de octubre",
+    "liturgicalRank": "Fiesta",
+    "movable": false
+  },
+  "quote": {
+    "text": "Señor, ¿qué pasa para que te vayas a manifestar a nosotros y no al mundo?",
+    "reference": "Juan 14,22; pregunta de Judas Tadeo a Jesús durante la última Cena, conservada en el Evangelio según san Juan."
+  },
+  "patronages": [
+    "Causas difíciles y desesperadas, según la devoción popular extendida en torno a San Judas Tadeo.",
+    "Personas que atraviesan situaciones difíciles y buscan perseverancia en la fe, dentro de la devoción popular."
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Perseverancia",
+    "Caridad",
+    "Fidelidad",
+    "Humildad",
+    "Valentía",
+    "Confianza en Dios",
+    "Testimonio"
+  ],
+  "search": [
+    "san judas tadeo",
+    "judas tadeo",
+    "apostol",
+    "apóstol",
+    "martir",
+    "mártir",
+    "causas dificiles",
+    "causas difíciles",
+    "causas desesperadas",
+    "esperanza",
+    "fe",
+    "perseverancia",
+    "doce apostoles",
+    "doce apóstoles",
+    "ultima cena",
+    "última cena",
+    "carta de judas"
+  ],
+  "interventions": [
+    {
+      "id": "causas-dificiles",
+      "label": "Situaciones difíciles y causas urgentes",
+      "keywords": [
+        "difícil",
+        "dificil",
+        "desesperada",
+        "desesperado",
+        "urgente",
+        "problema",
+        "necesidad",
+        "imposible"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en tiempos de dificultad",
+      "keywords": [
+        "esperanza",
+        "desanimo",
+        "desánimo",
+        "angustia",
+        "tribulacion",
+        "tribulación",
+        "prueba",
+        "sufrimiento"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y perseverancia cristiana",
+      "keywords": [
+        "fe",
+        "dudas",
+        "creer",
+        "perseverancia",
+        "fidelidad",
+        "cristo",
+        "jesus",
+        "Jesús"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y necesidades del hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio",
+        "problemas familiares"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "hospital",
+        "dolor",
+        "sufrimiento"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y dificultades económicas",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "desempleo",
+        "negocio",
+        "economia",
+        "economía",
+        "deudas"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y decisiones importantes",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "decisión",
+        "decision",
+        "discernimiento",
+        "futuro"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y búsqueda de orientación",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "juventud",
+        "estudiantes",
+        "futuro",
+        "orientacion",
+        "orientación"
+      ]
+    }
+  ],
+  "history": {
+    "short": "San Judas Tadeo fue uno de los Doce Apóstoles de Jesús. El Nuevo Testamento lo identifica como Judas de Santiago o Tadeo y lo distingue de Judas Iscariote. Se sabe poco de su vida, pero el Evangelio de san Juan conserva una pregunta que dirigió a Jesús durante la última Cena. La tradición cristiana lo venera como apóstol y mártir.",
+    "extended": "San Judas Tadeo pertenece al grupo de los Doce Apóstoles elegidos por Jesús. Los Evangelios y los Hechos lo nombran de distintas maneras: Mateo y Marcos utilizan el nombre Tadeo, mientras Lucas habla de «Judas de Santiago». El Papa Benedicto XVI explicó que se trata del mismo apóstol y que no debe confundirse con Judas Iscariote. El sobrenombre Tadeo tiene un origen discutido y puede relacionarse con una palabra aramea interpretada como «magnánimo», aunque su etimología no puede establecerse con certeza.\\n\\nA diferencia de otros apóstoles, las fuentes del Nuevo Testamento ofrecen muy pocos datos biográficos sobre él. Por eso no es posible reconstruir una infancia, una profesión anterior o una conversión provocada por un pecado concreto. En esta novena evitamos completar esos vacíos con relatos que no puedan distinguirse claramente de la tradición posterior. Su experiencia formativa fundamental que sí podemos señalar es la llamada de Jesús y su incorporación al grupo de los Doce.\\n\\nEl momento más personal que conocemos aparece en el Evangelio según san Juan. Durante la última Cena, después de que Jesús hablara de manifestarse a quienes lo aman, Judas Tadeo preguntó: «Señor, ¿qué pasa para que te vayas a manifestar a nosotros y no al mundo?». La pregunta revela el deseo de comprender cómo se manifestaría Jesús y abre una enseñanza sobre una presencia de Dios que no se impone exteriormente, sino que encuentra morada en quien acoge su palabra. Benedicto XVI utilizó precisamente este pasaje para explicar que el Resucitado debe ser percibido también con el corazón.\\n\\nLa Carta de Judas forma parte del Nuevo Testamento y lleva el nombre de Judas. Desde antiguo se ha relacionado con Judas Tadeo, pero la atribución de autoría no permite reconstruir por sí sola todos los detalles de su vida. La carta exhorta a los cristianos a permanecer firmes en la fe recibida y a evitar enseñanzas que dividan o deformen el Evangelio. Este llamado a conservar la fe resulta especialmente apropiado para una novena dedicada a la perseverancia.\\n\\nLa tradición cristiana posterior relaciona a Judas Tadeo con la predicación del Evangelio y con el martirio. Las fuentes antiguas no permiten establecer con seguridad todos los lugares y circunstancias de su misión. Una tradición muy extendida lo vincula con Simón el Cananeo y sitúa su martirio en Oriente. La liturgia romana celebra conjuntamente a ambos apóstoles el 28 de octubre. El Papa Juan XXIII recordó que sus restos, según la tradición recibida por la Iglesia, reposan en la Basílica de San Pedro.\\n\\nSu iconografía se desarrolló a partir de elementos bíblicos y de tradiciones posteriores. Suele representarse como apóstol con un libro o rollo, signos de su misión de anunciar la Palabra. En muchas imágenes lleva una medalla o representación del rostro de Cristo sobre el pecho; esta imagen está relacionada con una tradición antigua que vinculó a Judas Tadeo con el rey Abgar de Edesa y con la imagen milagrosa de Cristo. Sin embargo, esa tradición no debe presentarse como un hecho histórico demostrado. También puede aparecer con una cruz, símbolo de su martirio, o con instrumentos asociados a las tradiciones sobre su muerte.\\n\\nLa devoción popular lo convirtió especialmente en intercesor de las causas difíciles y desesperadas. Este aspecto pertenece al desarrollo de la piedad cristiana alrededor del santo y explica su presencia en numerosas comunidades y santuarios. La Iglesia celebra litúrgicamente su memoria junto con san Simón como apóstoles y mártires, mientras que la devoción popular ha encontrado en él un signo de esperanza para quienes atraviesan situaciones que parecen no tener salida.\\n\\nEl mensaje de San Judas Tadeo para esta novena no consiste en prometer soluciones inmediatas. Su testimonio puede ayudarnos a llevar las situaciones difíciles a la oración, conservar la fe, buscar responsablemente los medios necesarios y perseverar cuando el resultado todavía no es visible. Su pregunta a Jesús durante la última Cena nos recuerda que incluso quien busca comprender puede permanecer cerca del Señor y seguir aprendiendo de Él."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\nSeñor Jesús, por intercesión de San Judas Tadeo, apóstol y mártir, acompaña a quienes atraviesan dificultades y ayúdanos a mantener viva la esperanza. Danos una fe perseverante, prudencia para actuar y confianza para entregarte aquello que no podemos resolver por nuestras propias fuerzas. Amén.",
+  "closingPrayer": "Señor, gracias por el testimonio de San Judas Tadeo. Cuando las dificultades parezcan grandes, ayúdanos a no abandonar la esperanza. Enséñanos a orar, discernir, actuar responsablemente y perseverar en el bien. Que nuestra devoción nos acerque más a Cristo y nos haga también instrumentos de ayuda para quienes sufren. Amén.",
+  "intentions": [
+    "Por quienes enfrentan situaciones difíciles o aparentemente sin salida.",
+    "Por enfermos y familias que viven momentos de sufrimiento.",
+    "Por quienes atraviesan dificultades económicas o laborales.",
+    "Por jóvenes que necesitan orientación para tomar decisiones importantes.",
+    "Por familias que necesitan reconciliación y esperanza.",
+    "Por quienes han perdido la confianza y desean volver a Dios.",
+    "Por quienes perseveran en una dificultad que lleva mucho tiempo.",
+    "Por quienes buscan una solución justa a un problema complejo.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Juan 14,22-23"
+      },
+      {
+        "reference": "Efesios 2,19-22"
+      },
+      {
+        "reference": "Judas 1,20-23"
+      },
+      {
+        "reference": "Lucas 6,12-16"
+      }
+    ],
+    "documents": [
+      "Audiencia general de Benedicto XVI sobre Simón el Cananeo y Judas Tadeo, 11 de octubre de 2006."
+    ],
+    "related": [
+      "Esperanza",
+      "Perseverancia",
+      "Fe",
+      "Causas difíciles",
+      "Apostolado"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general: Simón el Cananeo y Judas Tadeo",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2006/documents/hf_ben-xvi_aud_20061011.html",
+      "type": "official"
+    },
+    {
+      "title": "Fiesta de los Santos Simón y Judas, Apóstoles",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/102826.cfm",
+      "type": "official"
+    },
+    {
+      "title": "Homilía en la parroquia romana de San Judas Tadeo",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1997/documents/hf_jp-ii_hom_19970406.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía del 28 de octubre de 1960",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-xxiii/es/homilies/1960/documents/hf_j-xxiii_hom_19601028_consacr-otto-presuli.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La llamada",
+      "title": "Ser elegido para seguir a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Judas Tadeo formó parte de los Doce que Jesús eligió para acompañarlo y participar en su misión. Los Evangelios lo presentan dentro de este grupo apostólico."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana comienza con una llamada. Cada persona puede preguntarse cómo está respondiendo hoy a aquello que Dios le pide."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué significa para mí seguir a Jesús en las circunstancias concretas de mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan descubrir su vocación y su camino de vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ayúdanos a reconocer tu llamada y a responderte con libertad, confianza y fidelidad. Amén."
+      },
+      "action": "Dedica hoy unos minutos a identificar una responsabilidad concreta que puedas vivir con mayor fidelidad."
+    },
+    {
+      "day": 2,
+      "theme": "Una pregunta",
+      "title": "Buscar comprender la voluntad de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante la última Cena, Judas Tadeo preguntó a Jesús por qué se manifestaría a sus discípulos y no al mundo. Es la única intervención personal de Judas Tadeo conservada en el Evangelio de san Juan."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Preguntar no significa falta de fe. Podemos llevar nuestras dudas a Jesús y aprender a buscar respuestas desde la oración y su Palabra."
+      },
+      "virtue": "Búsqueda de la verdad",
+      "reflection": "¿Qué pregunta importante necesito presentar a Dios en lugar de quedarme solo con mi preocupación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dudas, incertidumbre o decisiones difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, recibe nuestras preguntas y enséñanos a buscar la verdad con humildad y confianza. Amén."
+      },
+      "action": "Escribe una preocupación que tengas y acompáñala hoy con una breve oración antes de buscar una solución."
+    },
+    {
+      "day": 3,
+      "theme": "La presencia de Dios",
+      "title": "Dejar que Cristo habite en nosotros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La respuesta de Jesús a Judas Tadeo habla de quien lo ama y guarda su palabra: «vendremos a él, y haremos morada en él». Benedicto XVI relacionó este pasaje con la necesidad de percibir a Cristo también con el corazón."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no consiste solamente en buscar señales externas. También implica abrir interiormente nuestra vida a la presencia de Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio real estoy dejando en mi día para escuchar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar una vida de oración y cercanía con Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor Jesús, haz de nuestro corazón un lugar donde puedas habitar. Enséñanos a escucharte y guardar tu palabra. Amén."
+      },
+      "action": "Reserva hoy diez minutos de silencio para leer y meditar Juan 14,22-23."
+    },
+    {
+      "day": 4,
+      "theme": "La fe",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Carta de Judas exhorta a los cristianos a permanecer firmes en la fe recibida y a cuidar la unidad de la comunidad. La tradición cristiana ha relacionado esta carta con Judas Tadeo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar en la fe implica conocer lo que creemos, vivirlo con coherencia y evitar aquello que divide o nos aleja del Evangelio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué práctica concreta puede ayudarme a fortalecer mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan crisis de fe o desean volver a acercarse a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, fortalece nuestra fe y ayúdanos a permanecer unidos a Ti cuando aparezcan dudas o dificultades. Amén."
+      },
+      "action": "Lee hoy un pasaje del Evangelio y elige una enseñanza que quieras aplicar."
+    },
+    {
+      "day": 5,
+      "theme": "La esperanza",
+      "title": "Cuando una situación parece imposible",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción popular convirtió a San Judas Tadeo en intercesor de las causas difíciles y desesperadas. Esta asociación se desarrolló a lo largo de la tradición cristiana y explica muchas de las oraciones dirigidas a él."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no significa esperar pasivamente un resultado. Significa confiar en Dios mientras hacemos responsablemente lo que está a nuestro alcance."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación estoy considerando sin salida y necesito entregar a Dios mientras busco caminos concretos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan situaciones que consideran especialmente difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, cuando no veamos una salida, conserva viva nuestra esperanza y muéstranos el siguiente paso que sí podemos dar. Amén."
+      },
+      "action": "Divide hoy un problema grande en un pequeño paso concreto que puedas realizar."
+    },
+    {
+      "day": 6,
+      "theme": "El servicio",
+      "title": "La fe que se convierte en ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los Doce fueron llamados para estar con Jesús y participar en su misión. La tradición apostólica recuerda a Judas Tadeo como testigo que llevó el anuncio cristiano más allá de la comunidad inicial."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración por nuestras necesidades puede abrirnos también a las necesidades de otras personas. La fe madura cuando se transforma en servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Quién necesita hoy de mi ayuda más que de mis palabras?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven en necesidad, soledad o sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, no permitas que nuestra oración nos haga indiferentes al dolor de los demás. Enséñanos a servir con generosidad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de ayuda sin esperar reconocimiento."
+    },
+    {
+      "day": 7,
+      "theme": "El martirio",
+      "title": "Permanecer fiel hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cristiana venera a Judas Tadeo como mártir. Los datos históricos disponibles no permiten reconstruir con seguridad todos los detalles de su muerte, pero la liturgia lo celebra como apóstol y mártir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad se demuestra también cuando seguir el bien cuesta. El testimonio de los mártires recuerda que la fe puede exigir perseverancia y valentía."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué convicción buena necesito defender con mayor coherencia, sin perder el respeto por los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren persecución o dificultades por causa de su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, fortalece a quienes sufren por su fe y danos valentía para vivir nuestras convicciones con humildad y caridad. Amén."
+      },
+      "action": "Haz hoy una elección coherente con tus valores cristianos, aunque nadie la vea."
+    },
+    {
+      "day": 8,
+      "theme": "La intercesión",
+      "title": "Presentar nuestras necesidades a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción a San Judas Tadeo se extendió especialmente entre personas que buscaban ayuda en circunstancias difíciles. La intercesión de los santos no sustituye la confianza en Dios: orienta nuestra oración hacia Él."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Podemos presentar nuestras necesidades a Dios con confianza y, al mismo tiempo, actuar con prudencia, buscar ayuda y asumir nuestras responsabilidades."
+      },
+      "virtue": "Confianza en Dios",
+      "reflection": "¿Estoy buscando solamente una solución inmediata o también estoy dispuesto a recibir orientación y hacer mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestra intención particular y por quienes necesitan ayuda para afrontar una dificultad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, recibe nuestras necesidades. Por intercesión de San Judas Tadeo, danos confianza, sabiduría y fortaleza para actuar correctamente. Amén."
+      },
+      "action": "Además de orar por tu intención, identifica hoy una persona o recurso que pueda ayudarte responsablemente."
+    },
+    {
+      "day": 9,
+      "theme": "La perseverancia",
+      "title": "Seguir esperando y haciendo el bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La fiesta de San Judas Tadeo se celebra el 28 de octubre junto con san Simón. La tradición apostólica lo conserva como testigo de Cristo y mártir. Su devoción continúa siendo para muchas personas un camino de esperanza en medio de las dificultades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una novena no es una garantía de que todo sucederá como esperamos. Es un camino para confiar más profundamente en Dios, discernir mejor y perseverar en el bien."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso quiero mantener después de terminar esta novena, incluso si mi situación todavía no ha cambiado?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la intención particular con la que realizo esta novena y por nuestra perseverancia en la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, por intercesión de San Judas Tadeo, conserva nuestra esperanza y danos perseverancia. Que sepamos confiar en Ti, buscar soluciones responsables y continuar haciendo el bien. Amén."
+      },
+      "action": "Escribe un compromiso concreto para afrontar tu situación con fe, prudencia y perseverancia, y comienza a cumplirlo hoy."
+    }
+  ]
+}
