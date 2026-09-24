@@ -1,0 +1,452 @@
+{
+  "id": "san-expedito",
+  "slug": "san-expedito",
+  "name": "San Expedito",
+  "title": "Mártir venerado en la tradición cristiana",
+  "subtitle": "Testimonio de decisión y fidelidad en la urgencia",
+  "category": "Devociones",
+  "image": "assets/images/santos/san_expedito.webp",
+  "description": "Figura de devoción popular asociada al martirio, a la decisión de no aplazar el bien y a las causas que requieren atención urgente.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-expedito"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 19,
+    "month": 4,
+    "text": "19 de abril",
+    "movable": false
+  },
+  "quote": {
+    "text": "Hodie.",
+    "reference": "Tradición iconográfica y devocional de San Expedito; la palabra latina significa «hoy»."
+  },
+  "patronages": [
+    "Causas justas y urgentes, según la devoción popular.",
+    "No se presenta como patronazgo litúrgico universal vigente; la figura no aparece en el Martirologio Romano de 2001."
+  ],
+  "virtues": [
+    "Prontitud para el bien",
+    "Decisión",
+    "Fidelidad",
+    "Valentía",
+    "Perseverancia",
+    "Fe",
+    "Responsabilidad",
+    "Esperanza",
+    "Servicio"
+  ],
+  "search": [
+    "san expedito",
+    "expedito",
+    "causas urgentes",
+    "causas justas",
+    "hoy",
+    "hodie",
+    "cras",
+    "mañana",
+    "procrastinacion",
+    "procrastinación",
+    "estudiantes",
+    "trabajo",
+    "enfermos",
+    "familia",
+    "juventud",
+    "juicios"
+  ],
+  "interventions": [
+    {
+      "id": "urgencias",
+      "label": "Necesidades urgentes y decisiones",
+      "keywords": [
+        "urgente",
+        "urgencia",
+        "urgencias",
+        "necesidad",
+        "decisión",
+        "decisiones",
+        "problema",
+        "hoy"
+      ]
+    },
+    {
+      "id": "procrastinacion",
+      "label": "Superar la postergación",
+      "keywords": [
+        "procrastinacion",
+        "procrastinación",
+        "postergar",
+        "aplazar",
+        "mañana",
+        "demora",
+        "pereza"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y dificultades laborales",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "desempleo",
+        "laboral",
+        "negocio",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "estudio",
+      "label": "Estudio y responsabilidades",
+      "keywords": [
+        "estudio",
+        "estudiante",
+        "estudiantes",
+        "examen",
+        "tareas",
+        "universidad",
+        "colegio"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y necesidades del hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio",
+        "problemas familiares"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "salud",
+        "dolor",
+        "hospital",
+        "sufrimiento"
+      ]
+    },
+    {
+      "id": "justicia",
+      "label": "Causas justas y conflictos",
+      "keywords": [
+        "justicia",
+        "juicio",
+        "juicios",
+        "proceso",
+        "conflicto",
+        "derechos",
+        "abogado"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y toma de decisiones",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "juventud",
+        "decisión",
+        "vocación",
+        "futuro"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La figura de San Expedito está vinculada a una antigua tradición que lo presenta como mártir de Melitene, en Armenia, el 19 de abril. Sin embargo, la historicidad de su biografía ha sido discutida y su nombre no aparece en el Martirologio Romano de 2001. Su devoción popular lo representa como soldado romano y lo relaciona con la decisión de elegir el bien sin aplazarlo.",
+    "extended": "San Expedito ocupa un lugar particular dentro de la devoción católica popular. Tradiciones hagiográficas lo presentan como un mártir cristiano de Melitene, en la antigua Armenia, y sitúan su martirio el 19 de abril. Se le representa como soldado romano y se le relaciona con un grupo de mártires de la misma ciudad. Sin embargo, las fuentes contemporáneas de referencia advierten que los datos biográficos son muy escasos y que la historicidad concreta de la figura ha sido discutida durante siglos.\\n\\nPor esta razón, en esta novena distinguimos cuidadosamente entre historia, tradición y devoción. No existe una biografía histórica suficientemente documentada que permita narrar una conversión personal detallada, una vida familiar o una trayectoria militar concreta como hechos comprobados. Tampoco debemos presentar como hecho histórico la conocida escena del cuervo.\\n\\nLa tradición devocional cuenta que, al decidir hacerse cristiano, Expedito habría sido tentado por un cuervo que gritaba «Cras» —mañana—. Él habría respondido «Hodie» —hoy—, aplastando al ave y tomando la decisión de seguir a Cristo sin aplazarla. Esta escena es una tradición hagiográfica, no un episodio históricamente comprobado. Se convirtió, sin embargo, en el núcleo de la iconografía y del significado espiritual popular de San Expedito.\\n\\nSu nombre latino, expeditus, puede asociarse con aquello que está libre de obstáculos o preparado para actuar. Sobre esa base se desarrolló una devoción especialmente vinculada a las causas urgentes y a la necesidad de actuar con decisión. En distintos países de América Latina se consolidaron templos, celebraciones y peregrinaciones dedicados a él. En Argentina, por ejemplo, la devoción tiene una presencia pública importante y el 19 de abril reúne a numerosos fieles.\\n\\nLa imagen tradicional explica por qué aparece como soldado con una cruz que lleva la palabra «HODIE», mientras un cuervo situado a sus pies lleva «CRAS». La palma representa el martirio. Estos símbolos pertenecen a la tradición iconográfica de la devoción y, precisamente por la incertidumbre histórica sobre su biografía, deben presentarse como símbolos devocionales y no como fotografías de acontecimientos comprobados.\\n\\nUn punto importante para esta aplicación es su situación eclesial actual: San Expedito no figura en el Martirologio Romano promulgado en 2001. Por ello, Amigos del Cielo lo presenta como una figura de devoción popular y no como un santo incluido actualmente en el calendario universal de la Iglesia. Esto no elimina el valor que muchas comunidades atribuyen a su devoción, pero permite al usuario distinguir entre veneración popular y reconocimiento litúrgico oficial.\\n\\nLa enseñanza espiritual que puede extraerse de esta tradición es sencilla: cuando sabemos que algo bueno, justo o necesario debe hacerse, no conviene convertir la postergación en una forma de evitar nuestra responsabilidad. «Hoy» puede significar comenzar, pedir ayuda, reconciliarnos, cumplir un deber o tomar una decisión prudente. La devoción puede orientarse así hacia la responsabilidad personal, la oración y el servicio, sin atribuir a San Expedito datos biográficos que no podemos verificar."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\\nSeñor, por la intercesión de quienes dieron testimonio de la fe y de quienes la tradición cristiana recuerda como mártires, ayúdanos a no aplazar el bien que podemos hacer hoy. Que aprendamos a decidir con prudencia, actuar con responsabilidad y confiar en Ti cuando enfrentamos necesidades urgentes. Amén.",
+  "closingPrayer": "Señor, acompáñanos cuando tengamos que tomar decisiones difíciles o responder ante necesidades urgentes. Danos sabiduría para distinguir lo importante, valentía para actuar y paciencia para aceptar aquello que requiere tiempo. Que nuestra devoción se traduzca siempre en responsabilidad, servicio y confianza en Ti. Amén.",
+  "intentions": [
+    "Por quienes enfrentan una necesidad urgente.",
+    "Por quienes tienen decisiones importantes que tomar.",
+    "Por quienes luchan contra la postergación y la falta de disciplina.",
+    "Por estudiantes que necesitan perseverancia en sus responsabilidades.",
+    "Por quienes buscan trabajo o atraviesan dificultades económicas.",
+    "Por enfermos y familias que enfrentan situaciones difíciles.",
+    "Por quienes atraviesan procesos judiciales o conflictos que requieren justicia.",
+    "Por jóvenes que buscan orientación para su futuro.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 6,33-34"
+      },
+      {
+        "reference": "Efesios 5,15-17"
+      },
+      {
+        "reference": "Santiago 1,22-25"
+      },
+      {
+        "reference": "Romanos 12,11-12"
+      }
+    ],
+    "documents": [
+      "Tradición hagiográfica y devoción popular de San Expedito"
+    ],
+    "related": [
+      "Discernimiento",
+      "Responsabilidad personal",
+      "Perseverancia"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Expedito: devoción popular y tradición sobre el 19 de abril",
+      "organization": "ACI Prensa",
+      "url": "https://www.aciprensa.com/noticias/55205/cada-19-de-abril-se-celebra-a-san-expedito-que-nos-ensena-a-no-dejar-lo-importante-para-despues",
+      "type": "reference"
+    },
+    {
+      "title": "San Expedito: análisis de la historicidad y la devoción",
+      "organization": "Universidad Nacional de San Martín",
+      "url": "https://ri.unsam.edu.ar/bitstream/123456789/151/1/TMAG_IDAES_2012_LMR.pdf",
+      "type": "academic"
+    },
+    {
+      "title": "Celebración de San Expedito en Buenos Aires",
+      "organization": "ACI Prensa / Arquidiócesis de Buenos Aires",
+      "url": "https://www.aciprensa.com/noticias/99168/con-un-llamado-a-la-unidad-buenos-aires-celebro-a-san-expedito",
+      "type": "reference"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La urgencia",
+      "title": "Reconocer lo que no puede seguir esperando",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La devoción a San Expedito se relaciona especialmente con las necesidades urgentes. Su figura recuerda, según la tradición, la importancia de no aplazar indefinidamente una decisión necesaria."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No todo puede resolverse inmediatamente, pero algunas responsabilidades sí necesitan que demos hoy el primer paso."
+      },
+      "virtue": "Prontitud para el bien",
+      "reflection": "¿Qué asunto importante estoy evitando o aplazando sin una razón válida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan una necesidad urgente."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, danos claridad para reconocer lo que debemos atender hoy y fortaleza para comenzar. Amén."
+      },
+      "action": "Elige una tarea importante que has postergado y da hoy un primer paso concreto."
+    },
+    {
+      "day": 2,
+      "theme": "Hoy",
+      "title": "Hodie: comenzar sin aplazar",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La escena tradicional del cuervo que dice «Cras» y la respuesta «Hodie» es una narración hagiográfica. Su mensaje devocional es elegir el bien hoy, no mañana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El tiempo presente es el único momento en el que podemos convertir una buena intención en una acción real."
+      },
+      "virtue": "Decisión",
+      "reflection": "¿Qué buena decisión sé que debo tomar y sigo retrasando?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan valentía para tomar una decisión responsable."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, ayúdanos a no escondernos detrás del mañana cuando sabemos que hoy podemos hacer el bien. Amén."
+      },
+      "action": "Haz hoy una llamada, petición, trámite o conversación que llevas tiempo aplazando."
+    },
+    {
+      "day": 3,
+      "theme": "La disciplina",
+      "title": "Vencer la postergación",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La asociación popular entre San Expedito y la rapidez de respuesta se desarrolló a partir de su nombre y de la tradición del «Hodie». Con el tiempo se convirtió también en una referencia para quienes luchan contra la postergación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La disciplina no consiste en hacerlo todo rápido, sino en distinguir prioridades y cumplirlas a tiempo."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué hábito de postergación está afectando mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan recuperar orden y disciplina."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Danos, Señor, constancia para cumplir nuestras responsabilidades y sabiduría para ordenar nuestras prioridades. Amén."
+      },
+      "action": "Trabaja durante 20 minutos en una tarea pendiente sin revisar redes sociales ni otras distracciones."
+    },
+    {
+      "day": 4,
+      "theme": "El trabajo",
+      "title": "Responder con responsabilidad",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La devoción popular a San Expedito se extendió también a necesidades relacionadas con el trabajo y los negocios. Esta aplicación no debe entenderse como una promesa de resultados rápidos, sino como una invitación a orar y actuar responsablemente."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración puede acompañar nuestra búsqueda de trabajo, pero también necesitamos preparación, perseverancia y acciones concretas."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué paso concreto puedo dar para mejorar mi situación laboral?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan empleo y por quienes atraviesan dificultades en su trabajo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, acompaña a quienes buscan trabajo y dales fortaleza para perseverar, prepararse y aprovechar las oportunidades que encuentren. Amén."
+      },
+      "action": "Realiza hoy una acción concreta relacionada con tu situación laboral: actualizar tu hoja de vida, estudiar, contactar a alguien o mejorar una habilidad."
+    },
+    {
+      "day": 5,
+      "theme": "El estudio",
+      "title": "Cumplir hoy con nuestros deberes",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "San Expedito es invocado popularmente por estudiantes. Más allá de cualquier atribución de resultados extraordinarios, esta devoción puede recordar que la ayuda que pedimos debe acompañarse de estudio y disciplina."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Pedir ayuda no sustituye nuestro esfuerzo: la responsabilidad personal forma parte del camino."
+      },
+      "virtue": "Constancia",
+      "reflection": "¿Qué responsabilidad académica necesito atender antes de distraerme con otras cosas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes que enfrentan exámenes, tareas o decisiones sobre su futuro."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, concede a los estudiantes serenidad, claridad y constancia para cumplir sus responsabilidades. Amén."
+      },
+      "action": "Dedica hoy un bloque de estudio sin interrupciones a la tarea que más has estado evitando."
+    },
+    {
+      "day": 6,
+      "theme": "Las causas justas",
+      "title": "Actuar sin perder la prudencia",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La devoción popular también relaciona a San Expedito con causas judiciales y conflictos que requieren una solución. En estas situaciones, la oración no sustituye el asesoramiento ni los procedimientos que correspondan."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Buscar justicia exige actuar con verdad, prudencia y respeto por los derechos de los demás."
+      },
+      "virtue": "Justicia",
+      "reflection": "¿Estoy buscando solamente que se resuelva mi problema o también procuro actuar justamente con los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan procesos, conflictos o situaciones en las que necesitan justicia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, acompaña a quienes buscan justicia. Ayúdalos a actuar con verdad, prudencia y respeto. Amén."
+      },
+      "action": "Antes de responder a un conflicto, verifica los hechos y evita actuar impulsivamente."
+    },
+    {
+      "day": 7,
+      "theme": "La familia",
+      "title": "Atender lo importante en casa",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La devoción popular a San Expedito incluye peticiones relacionadas con las familias. Esta dimensión puede llevarnos a mirar las necesidades cercanas que a veces dejamos para después."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El cuidado de nuestras relaciones también requiere decisiones concretas y oportunas."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué relación necesita hoy una conversación, una disculpa o un gesto de cuidado?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, fortalece nuestras familias y enséñanos a cuidar hoy los vínculos que nos has confiado. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de reconciliación o cuidado hacia alguien de tu familia."
+    },
+    {
+      "day": 8,
+      "theme": "La valentía",
+      "title": "Dar el paso que corresponde",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La figura tradicional del soldado que decide seguir a Cristo ha hecho de San Expedito un símbolo popular de valentía y decisión. No contamos con fuentes históricas suficientes para verificar los detalles de esa escena."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La valentía no consiste en actuar impulsivamente, sino en hacer lo correcto después de discernirlo."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué acción correcta estoy evitando por miedo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan valor para enfrentar una situación difícil."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, danos valentía para hacer el bien y prudencia para distinguir una decisión responsable de una reacción impulsiva. Amén."
+      },
+      "action": "Después de discernirlo con calma, realiza hoy una acción que sabes que es necesaria."
+    },
+    {
+      "day": 9,
+      "theme": "El compromiso",
+      "title": "No dejar para mañana el bien posible",
+      "life": {
+        "title": "Conozcamos su tradición",
+        "text": "La devoción a San Expedito ha sobrevivido y se ha extendido ampliamente pese a las dudas históricas sobre los detalles de su biografía. Su símbolo más conocido, «Hodie», puede leerse como una invitación a convertir la oración en responsabilidad concreta."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una novena no termina con una petición: debe ayudarnos a transformar nuestras decisiones y acciones."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué compromiso concreto voy a comenzar hoy y mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestra propia fidelidad al bien que Dios nos invita a realizar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Señor, que nuestra oración no se quede solamente en palabras. Ayúdanos a hacer hoy el bien que está en nuestras manos y a perseverar en él. Amén."
+      },
+      "action": "Escribe un compromiso concreto para las próximas semanas y comienza a cumplirlo hoy."
+    }
+  ]
+}
