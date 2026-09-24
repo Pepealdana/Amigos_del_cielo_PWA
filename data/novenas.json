@@ -4766,5 +4766,138 @@
         ]
       }
     ]
+  },
+  {
+    "id": "virgen-de-guadalupe",
+    "slug": "virgen-de-guadalupe",
+    "name": "Virgen de Guadalupe",
+    "title": "Novena a Nuestra Señora de Guadalupe",
+    "subtitle": "Caminar con María hacia Cristo con confianza, humildad y amor",
+    "category": "Devociones",
+    "featured": false,
+    "image": "assets/images/santos/virgen_de_guadalupe.webp",
+    "file": "data/virgen-de-guadalupe.json",
+    "description": "Nueve días para contemplar a Santa María de Guadalupe como Madre que conduce a Cristo y aprender de ella confianza, escucha, humildad, servicio y esperanza.",
+    "feast": {
+      "day": 12,
+      "month": 12,
+      "text": "12 de diciembre",
+      "liturgicalRank": "Fiesta",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "virgen de guadalupe",
+      "nuestra señora de guadalupe",
+      "guadalupe",
+      "santa maria de guadalupe",
+      "juan diego",
+      "tepeyac",
+      "méxico",
+      "mexico",
+      "américa",
+      "america",
+      "tilma",
+      "madre de dios",
+      "madre de américa"
+    ],
+    "interventions": [
+      {
+        "id": "familia",
+        "label": "Familia y hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "matrimonio"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y quienes sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "hospital",
+          "consuelo"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza y dificultades",
+        "keywords": [
+          "esperanza",
+          "angustia",
+          "miedo",
+          "crisis",
+          "dificultad",
+          "incertidumbre"
+        ]
+      },
+      {
+        "id": "peregrinos",
+        "label": "Peregrinos y caminos",
+        "keywords": [
+          "peregrino",
+          "peregrinos",
+          "viaje",
+          "camino",
+          "santuario"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y discernimiento",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "llamado",
+          "discernimiento",
+          "decisión",
+          "decision"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "pobres",
+          "necesitados",
+          "ayuda",
+          "misericordia"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe y vida cristiana",
+        "keywords": [
+          "fe",
+          "oracion",
+          "oración",
+          "evangelio",
+          "cristo",
+          "jesus",
+          "Jesús"
+        ]
+      },
+      {
+        "id": "familias-america",
+        "label": "Pueblos y familias de América",
+        "keywords": [
+          "america",
+          "américa",
+          "pueblos",
+          "latinoamerica",
+          "latinoamérica",
+          "comunidad"
+        ]
+      }
+    ]
   }
 ]
