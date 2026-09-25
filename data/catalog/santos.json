@@ -542,10 +542,10 @@
     {
       "id": "santa-mariana-de-jesus",
       "name": "Santa Mariana de Jesús",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/santa-mariana-de-jesus.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "EC"
