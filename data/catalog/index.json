@@ -16,6 +16,12 @@
       "rule": "Advocaciones marianas; una misma María, distintos títulos y tradiciones"
     },
     {
+      "id": "paises",
+      "label": "Países",
+      "path": "data/catalog/paises.json",
+      "rule": "Filtro transversal para contenidos asociados a países hispanohablantes"
+    },
+    {
       "id": "novenas",
       "label": "Novenas",
       "path": "data/novenas.json",
