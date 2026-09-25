@@ -268,14 +268,6 @@ function registrarEventos() {
 
     registrarEvento(
 
-        "menu-biblioteca",
-
-        () => navegar("biblioteca")
-
-    );
-
-    registrarEvento(
-
         "menu-santos",
 
         () => navegar("santos")
