@@ -76,10 +76,10 @@
     {
       "id": "virgen-de-lujan",
       "name": "Nuestra Señora de Luján",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-lujan.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
