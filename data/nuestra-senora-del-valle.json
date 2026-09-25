@@ -1,0 +1,288 @@
+{
+  "id": "nuestra-senora-del-valle",
+  "name": "Nuestra Señora del Valle",
+  "title": "Nuestra Señora del Valle",
+  "subtitle": "Patrona del Oriente venezolano y protectora de pescadores y marineros",
+  "image": null,
+  "feast": {
+    "text": "8 de septiembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad local",
+  "quote": null,
+  "patronages": [
+    "Oriente de Venezuela",
+    "Nueva Esparta",
+    "Pescadores y marineros"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Confianza",
+    "Perseverancia",
+    "Protección",
+    "Caridad"
+  ],
+  "history": {
+    "short": "Nuestra Señora del Valle es una de las advocaciones marianas más arraigadas de Venezuela, venerada especialmente en la isla de Margarita y en el Oriente del país.",
+    "extended": "La devoción a Nuestra Señora del Valle está vinculada a la isla de Margarita y a la antigua presencia de una imagen de la Inmaculada Concepción en la isla de Cubagua. La Conferencia Episcopal Venezolana explica que la imagen llegó a Cubagua durante los primeros tiempos de la evangelización y que, después de la destrucción de Nueva Cádiz por un huracán en 1541, fue trasladada a Margarita, donde comenzó a ser venerada en El Valle del Espíritu Santo. Algunos detalles de este traslado pertenecen a la tradición devocional y no deben confundirse con hechos históricos documentados. La devoción se extendió por el Oriente venezolano y recibió reconocimiento eclesial. En 1910 fue concedida la coronación canónica y el acto de coronación se realizó el 8 de septiembre de 1911. En 1921 fue proclamada patrona de la diócesis de Santo Tomás de Guayana, entonces de gran extensión territorial, y en 2021 la Iglesia en Venezuela conmemoró el centenario de su patronazgo sobre el Oriente venezolano. San Juan Pablo II también la mencionó públicamente como Nuestra Señora del Valle durante su visita a Venezuela en 1985. Su santuario principal se encuentra en El Valle del Espíritu Santo, en la isla de Margarita."
+  },
+  "openingPrayer": "Nuestra Señora del Valle, Madre cercana y protectora, acompáñanos en esta novena. Enséñanos a confiar en Dios, a perseverar en las dificultades y a cuidar con caridad a quienes necesitan nuestra ayuda. Amén.",
+  "closingPrayer": "Nuestra Señora del Valle, intercede por nosotros y conduce nuestras vidas hacia Jesucristo. Protege a nuestras familias, acompaña a quienes trabajan en el mar y ayúdanos a vivir con fe, esperanza y caridad. Amén.",
+  "intentions": [
+    "Por Venezuela y especialmente por el Oriente venezolano.",
+    "Por los pescadores, marineros y sus familias.",
+    "Por los peregrinos que acuden al santuario de Margarita.",
+    "Por las familias y comunidades.",
+    "Por quienes atraviesan dificultades y necesitan esperanza."
+  ],
+  "bibleReferences": [
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Lc 2,19",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito poner hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Mirar el futuro con confianza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una palabra de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven incertidumbre o tristeza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Protección",
+      "title": "Cuidar a quienes amamos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Protección",
+      "reflection": "¿Cómo puedo proteger y acompañar hoy a alguien que lo necesita?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pescadores, marineros y sus familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Perseverancia",
+      "title": "Mantenerse firme",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Fortalecer los vínculos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto concreto puede unir más a mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias venezolanas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Confianza",
+      "title": "Entregar las preocupaciones",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación puedo confiar hoy al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven situaciones difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Caridad",
+      "title": "Servir al prójimo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Peregrinación",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso espiritual quiero dar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y comunidades de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Poner la vida en manos de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Valle se desarrolló en Margarita y se extendió por el Oriente venezolano, donde se convirtió en un importante signo de identidad cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios y a acompañar con esperanza a quienes atraviesan dificultades."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero entregar definitivamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Venezuela, el Oriente venezolano y todos los devotos de María."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Valle, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Valle, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "Conferencia Episcopal Venezolana, Virgen del Valle: 100 años como Patrona del Oriente venezolano, 8 de septiembre de 2021.",
+    "Conferencia Episcopal Venezolana, Carta Pastoral conjunta con motivo del centenario de la proclamación de Nuestra Señora del Valle como patrona del Oriente, 27 de julio de 2021.",
+    "Basílica Santuario de Nuestra Señora del Valle, historia de la parroquia y de la advocación.",
+    "San Juan Pablo II, Liturgia eucarística con los trabajadores en Ciudad Guayana, Venezuela, 29 de enero de 1985.",
+    "Pío XII, Radiomensaje a los fieles de Venezuela con motivo de la coronación de Nuestra Señora de Coromoto, 12 de septiembre de 1952."
+  ]
+}
