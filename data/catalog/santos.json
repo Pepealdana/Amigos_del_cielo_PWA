@@ -523,10 +523,10 @@
     {
       "id": "san-oscar-romero",
       "name": "San Óscar Arnulfo Romero",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/san-oscar-romero.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "SV"
