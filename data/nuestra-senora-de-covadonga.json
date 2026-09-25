@@ -1,0 +1,288 @@
+{
+  "id": "nuestra-senora-de-covadonga",
+  "name": "Nuestra Señora de Covadonga",
+  "title": "Nuestra Señora de Covadonga",
+  "subtitle": "La Santina, Madre y Reina de Asturias",
+  "image": null,
+  "feast": {
+    "text": "8 de septiembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad local",
+  "quote": null,
+  "patronages": [
+    "Asturias",
+    "Principado de Asturias",
+    "Peregrinos y emigrantes asturianos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Perseverancia",
+    "Unidad",
+    "Evangelización"
+  ],
+  "history": {
+    "short": "Nuestra Señora de Covadonga, conocida afectuosamente como la Santina, es la principal advocación mariana de Asturias y se venera en la Santa Cueva de Covadonga.",
+    "extended": "La devoción a Nuestra Señora de Covadonga está estrechamente vinculada a la Santa Cueva de Covadonga, en Asturias, y cuenta con una veneración documentada desde hace siglos. El santuario está también relacionado con la memoria histórica de la resistencia cristiana iniciada en Asturias en el siglo VIII, asociada tradicionalmente a don Pelayo. Estos acontecimientos históricos y su interpretación posterior deben distinguirse de las tradiciones religiosas que rodean el origen de la imagen. El santuario mariano se convirtió en un importante centro de peregrinación y en un símbolo de la fe de Asturias. San Juan Pablo II peregrinó a Covadonga el 21 de agosto de 1989 y describió el santuario como un lugar donde generaciones de cristianos se reúnen con María. En su homilía destacó la continuidad de la oración mariana y presentó a Covadonga como un lugar de peregrinación y evangelización. La imagen venerada en la Cueva es conocida popularmente como la Santina y la tradición asturiana la invoca como Madre y Reina de la montaña. El santuario forma parte de la identidad religiosa y cultural de Asturias y recibe peregrinos de España y de otros lugares."
+  },
+  "openingPrayer": "Nuestra Señora de Covadonga, Santina de Asturias, acompáñanos en esta novena. Enséñanos a vivir la fe con esperanza, caridad y perseverancia, y a acercarnos siempre más a Jesucristo. Amén.",
+  "closingPrayer": "Nuestra Señora de Covadonga, Madre y Reina de nuestra montaña, intercede por nosotros. Protege a nuestras familias, acompaña a quienes peregrinan y ayúdanos a vivir unidos en la fe y en la caridad. Amén.",
+  "intentions": [
+    "Por Asturias y toda España.",
+    "Por las familias y comunidades asturianas.",
+    "Por los peregrinos que llegan a Covadonga.",
+    "Por los emigrantes y quienes viven lejos de su tierra.",
+    "Por quienes necesitan esperanza, consuelo y reconciliación."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Creer como María",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué me invita Dios a confiar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Mirar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una palabra de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven incertidumbre o tristeza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Caridad",
+      "title": "Servir al hermano",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad en mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Asturias y sus comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Perseverancia",
+      "title": "Mantenerse en el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Familia",
+      "title": "Cuidar los vínculos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto puede fortalecer hoy mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar testimonio del Evangelio con mis obras?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, consagrados y misioneros."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Peregrinación",
+      "title": "Caminar con María",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso espiritual quiero dar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y quienes buscan a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Confiar la vida a Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Covadonga se desarrolló alrededor de la Santa Cueva y se convirtió en un importante centro de peregrinación y vida cristiana en Asturias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a vivir la fe, la esperanza y la caridad, permaneciendo cerca de Cristo y de nuestros hermanos."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero poner definitivamente en manos del Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Asturias, España y todos los devotos de la Santina."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Covadonga, acompáñanos y muéstranos siempre a Jesús, fruto bendito de tu vientre. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Covadonga, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Homilía en la Basílica de Covadonga, 21 de agosto de 1989.",
+    "San Juan Pablo II, Oración a la Santina de Covadonga, 21 de agosto de 1989.",
+    "San Juan Pablo II, Audiencia general del 23 de agosto de 1989.",
+    "Real Sitio de Covadonga, documentación histórica y pastoral del santuario.",
+    "Archidiócesis de Oviedo, documentación sobre el Santuario de Covadonga."
+  ]
+}
