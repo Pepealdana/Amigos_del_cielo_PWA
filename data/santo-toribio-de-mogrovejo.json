@@ -1,0 +1,444 @@
+{
+  "id": "santo-toribio-de-mogrovejo",
+  "slug": "santo-toribio-de-mogrovejo",
+  "name": "Santo Toribio de Mogrovejo",
+  "title": "Pastor y evangelizador del Perú",
+  "subtitle": "Arzobispo de Lima y patrono de los obispos de América Latina",
+  "category": "Santos",
+  "image": null,
+  "description": "Santo Toribio de Mogrovejo fue arzobispo de Lima y una figura destacada de la Iglesia en el Perú del siglo XVI. Su ministerio se caracterizó por las visitas pastorales, la formación del clero, la evangelización, la cercanía a los pobres y la defensa de la dignidad de los indígenas. Es patrono de los obispos de América Latina.",
+  "feast": {
+    "day": 23,
+    "month": 3,
+    "text": "23 de marzo",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santo-toribio-de-mogrovejo"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "quote": {
+    "text": "«Los obispos pasan; Cristo permanece.»",
+    "reference": "Papa León XIV, Carta a los obispos de América Latina y el Caribe con motivo del tercer centenario de la canonización de Santo Toribio de Mogrovejo, 8 de septiembre de 2026. Se conserva como cita del Papa, no como palabras de Santo Toribio."
+  },
+  "patronages": [
+    "Obispos de América Latina",
+    "Arquidiócesis de Lima",
+    "Evangelizadores y pastores"
+  ],
+  "virtues": [
+    "Caridad pastoral",
+    "Celo evangelizador",
+    "Fortaleza",
+    "Humildad",
+    "Servicio",
+    "Perseverancia",
+    "Cuidado de los pobres",
+    "Respeto por la dignidad humana"
+  ],
+  "search": [
+    "santo toribio de mogrovejo",
+    "toribio de mogrovejo",
+    "arzobispo de lima",
+    "lima",
+    "perú",
+    "peru",
+    "patrono de los obispos de américa latina",
+    "evangelización",
+    "pastor",
+    "indígenas",
+    "catequesis",
+    "concilio de lima",
+    "novena"
+  ],
+  "history": {
+    "short": "Santo Toribio de Mogrovejo nació en España en el siglo XVI y llegó al Perú para ejercer como arzobispo de Lima. Recorrió extensamente su enorme jurisdicción pastoral, promovió la formación del clero, impulsó la catequesis y se preocupó especialmente por los pobres y por los pueblos indígenas. Murió en 1606 y fue canonizado en 1726. En 1983, san Juan Pablo II lo declaró patrono de los obispos de América Latina.",
+    "extended": "Toribio Alfonso de Mogrovejo nació en Mayorga, España, en 1538. Estudió Derecho y desarrolló una trayectoria como jurista antes de ser llamado al servicio de la Iglesia. En 1579 fue nombrado arzobispo de Lima y recibió la ordenación episcopal antes de partir hacia el Perú. Llegó a una extensa arquidiócesis que comprendía territorios muy amplios y una población diversa. Su ministerio episcopal estuvo marcado por la decisión de recorrer personalmente las comunidades confiadas a su cuidado. Realizó numerosas visitas pastorales y procuró conocer de cerca las condiciones de vida de las personas, especialmente de quienes tenían menos posibilidades de acercarse a las autoridades eclesiales. La Santa Sede ha destacado su esfuerzo por aprender lenguas locales para poder anunciar el Evangelio a quienes estaban bajo su responsabilidad y su preocupación por la dignidad de toda persona. Toribio impulsó la organización y renovación de la vida eclesial. Convocó el III Concilio Provincial de Lima, celebrado entre 1582 y 1583, cuyos trabajos tuvieron una influencia importante en la catequesis y en la organización pastoral de la Iglesia de la región. También promovió la formación del clero y fundó el Seminario Conciliar de Lima. Su actividad debe comprenderse dentro del contexto histórico de la evangelización del Perú colonial, un período marcado también por profundas desigualdades y abusos. La memoria eclesial de Santo Toribio destaca precisamente su empeño pastoral ante esas realidades, incluyendo su defensa de los indígenas y su cercanía a los pobres y vulnerables. En su ministerio buscó que la fe fuera anunciada y enseñada de manera comprensible para las comunidades que encontraba en sus visitas. Murió el 23 de marzo de 1606 en Zaña, durante una visita pastoral. Fue beatificado en 1679 y canonizado por el papa Benedicto XIII en 1726. En 1983, san Juan Pablo II lo declaró patrono de los obispos de América Latina. En 2026, con motivo del tercer centenario de su canonización, el papa León XIV volvió a presentar su figura ante los obispos latinoamericanos y caribeños como un modelo de caridad pastoral, evangelización, cercanía a los pobres y servicio a las comunidades. Santo Toribio es recordado especialmente en el Perú y en toda América Latina como pastor que entendió el ministerio episcopal como un servicio que exige presencia, formación, oración y entrega."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santo Toribio de Mogrovejo, pastor incansable y servidor del pueblo de Dios, enséñame a vivir mi fe con responsabilidad, caridad y perseverancia. Ayúdame a acercarme a quienes necesitan acompañamiento, a escuchar antes de hablar y a poner mis dones al servicio del Evangelio. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "Santo Toribio de Mogrovejo, gracias por acompañarme durante esta novena. Ruega por la Iglesia del Perú y por todas las Iglesias de América Latina. Intercede especialmente por los obispos, sacerdotes, religiosos, catequistas y laicos que sirven a sus comunidades. Ayúdanos a vivir una fe que se traduzca en caridad, servicio, oración y respeto por la dignidad de cada persona. Presenta nuestras intenciones ante Cristo y enséñanos a permanecer fieles a Él. Amén.",
+  "intentions": [
+    "Por los obispos de América Latina y por quienes tienen responsabilidades pastorales.",
+    "Por los sacerdotes, seminaristas, religiosos y religiosas.",
+    "Por los catequistas y evangelizadores.",
+    "Por las comunidades indígenas y por el respeto de su dignidad y cultura.",
+    "Por los pobres y personas en situación de vulnerabilidad.",
+    "Por quienes tienen dificultades para acercarse a la Iglesia.",
+    "Por las vocaciones al sacerdocio y a la vida consagrada.",
+    "Por la unidad y la comunión de las Iglesias particulares de América Latina.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 9,35-38"
+      },
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Juan 10,11-18"
+      },
+      {
+        "reference": "Hechos 6,1-7"
+      },
+      {
+        "reference": "2 Timoteo 1,13-14"
+      }
+    ],
+    "documents": [
+      "Carta del papa León XIV a los obispos de América Latina y el Caribe con motivo del tercer centenario de la canonización de Santo Toribio de Mogrovejo, 8 de septiembre de 2026",
+      "Mensaje de Benedicto XVI con motivo del IV centenario de la muerte de Santo Toribio de Mogrovejo, 23 de marzo de 2006",
+      "Encuentro de san Juan Pablo II con el episcopado peruano, 2 de febrero de 1985"
+    ],
+    "related": [
+      "Iglesia en el Perú",
+      "Arquidiócesis de Lima",
+      "Evangelización",
+      "Catequesis",
+      "Pastoral"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Carta a los obispos latinoamericanos y del Caribe con motivo del tercer centenario de la canonización de Santo Toribio de Mogrovejo",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/leo-xiv/es/letters/2026/documents/20260908-lettera-san-toribio-di-mogrovejo.html",
+      "type": "official"
+    },
+    {
+      "title": "Mensaje con motivo de las celebraciones del IV Centenario de la muerte de Santo Toribio de Mogrovejo",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/messages/pont-messages/2006/documents/hf_ben-xvi_mes_20060323_toribio-mogrovejo.html",
+      "type": "official"
+    },
+    {
+      "title": "Encuentro con el episcopado peruano",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1985/february/documents/hf_jp-ii_spe_19850202_episcopato.html",
+      "type": "official"
+    },
+    {
+      "title": "Memoria opcional de Santo Toribio de Mogrovejo, obispo",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://bible.usccb.org/es/bible/lecturas/0323-memoria-toribio-mogrovejo.cfm",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Caridad pastoral",
+      "title": "Servir con un corazón de pastor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Toribio entendió su ministerio episcopal como un servicio concreto a las comunidades que le habían sido confiadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Servir cristianamente significa asumir responsabilidades buscando el bien de las personas y no solo el cumplimiento de tareas."
+      },
+      "virtue": "Caridad pastoral",
+      "reflection": "¿A quién puedo servir hoy de una manera concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen responsabilidades pastorales, familiares o comunitarias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, enséñame a servir con un corazón atento a las necesidades de quienes me rodean. Amén."
+      },
+      "action": "Realiza hoy un servicio concreto sin esperar reconocimiento.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Evangelización",
+      "title": "Anunciar a Cristo con la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su ministerio estuvo marcado por las visitas pastorales, la catequesis y el esfuerzo por anunciar el Evangelio a comunidades diversas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La evangelización comienza por dejar que el Evangelio transforme nuestra propia vida antes de intentar comunicarlo a otros."
+      },
+      "virtue": "Celo evangelizador",
+      "reflection": "¿Mi manera de vivir ayuda a otros a acercarse a Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros, catequistas, evangelizadores y comunidades que anuncian el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, ayúdame a vivir de manera coherente aquello que creo y a anunciar a Cristo con caridad. Amén."
+      },
+      "action": "Comparte hoy una palabra de esperanza o una enseñanza del Evangelio con alguien que pueda necesitarla.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Visita y escucha",
+      "title": "Acercarse a las personas",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Toribio recorrió extensamente su jurisdicción y buscó conocer directamente las realidades de las comunidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No siempre podemos comprender una necesidad desde lejos. La escucha y la presencia ayudan a servir mejor."
+      },
+      "virtue": "Cercanía",
+      "reflection": "¿A quién necesito escuchar con más atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que se sienten solas, ignoradas o poco escuchadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, dame un corazón dispuesto a escuchar y una presencia capaz de acompañar a quienes sufren. Amén."
+      },
+      "action": "Escucha hoy a una persona sin interrumpirla ni convertir inmediatamente su problema en un consejo.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Dignidad",
+      "title": "Reconocer el valor de cada persona",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las fuentes de la Iglesia destacan su preocupación por la dignidad de los indígenas y de las personas vulnerables."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dignidad humana no depende de la condición social, origen, cultura o situación de una persona."
+      },
+      "virtue": "Respeto por la dignidad humana",
+      "reflection": "¿Trato con el mismo respeto a quienes tienen una vida muy diferente de la mía?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por pueblos indígenas, migrantes, pobres y personas que sufren discriminación o exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, ayúdame a reconocer la dignidad que Dios ha dado a cada persona y a rechazar toda forma de desprecio. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de respeto hacia alguien que suele pasar desapercibido.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Formación",
+      "title": "Crecer para servir mejor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Toribio impulsó la formación del clero y promovió la organización pastoral de la Iglesia, incluida la fundación del Seminario Conciliar de Lima."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La buena formación nos permite servir con mayor responsabilidad, discernimiento y fidelidad."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué conocimiento o habilidad necesito fortalecer para servir mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por seminaristas, sacerdotes, catequistas, docentes y quienes se preparan para servir a otros."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, acompaña a quienes se están formando para servir a la Iglesia y a la sociedad. Ayúdanos también a buscar la verdad con humildad. Amén."
+      },
+      "action": "Dedica un tiempo hoy a aprender algo que pueda ayudarte a servir mejor.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Comunión",
+      "title": "Construir una Iglesia unida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El III Concilio Provincial de Lima y su trabajo pastoral buscaron fortalecer la vida eclesial y la transmisión de la fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La comunión no significa que todos sean iguales; significa buscar la unidad en Cristo respetando la diversidad legítima."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para construir unidad en mi familia, parroquia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias, parroquias y comunidades cristianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, intercede para que aprendamos a trabajar unidos, superar divisiones y poner a Cristo en el centro. Amén."
+      },
+      "action": "Da hoy un paso concreto para reparar una división o mejorar una relación.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Pobres y vulnerables",
+      "title": "Acercarse a quienes sufren",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Iglesia recuerda especialmente su cercanía a los pobres y vulnerables y su defensa de personas que sufrían abusos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana pide mirar las necesidades reales de las personas y actuar con respeto."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué sufrimiento cercano estoy dejando de ver?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven pobreza, enfermedad, abandono o vulnerabilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, enséñame a acercarme a quienes sufren sin indiferencia y a convertir la compasión en servicio. Amén."
+      },
+      "action": "Realiza hoy una obra de misericordia corporal o espiritual.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Oración",
+      "title": "Poner a Cristo en el centro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El testimonio de Toribio estuvo unido a la oración, a la Eucaristía y a la celebración de los sacramentos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La actividad cristiana necesita una fuente interior: la oración y la relación con Cristo."
+      },
+      "virtue": "Vida de oración",
+      "reflection": "¿Qué actividad ocupa tanto espacio en mi vida que está desplazando la oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a los demás y necesitan renovar su vida interior."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, ayúdame a poner a Cristo en el centro de mis decisiones y de mi servicio. Enséñame a reservar tiempo para la oración. Amén."
+      },
+      "action": "Dedica hoy un tiempo de silencio ante el Señor o a la adoración eucarística, si tienes esa posibilidad.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Perseverar hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Toribio murió durante una visita pastoral en 1606. La Iglesia lo recuerda como un pastor que permaneció cercano a su pueblo hasta el final de su vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se construye mediante una fidelidad perseverante en las responsabilidades cotidianas."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso de fe y servicio quiero conservar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia del Perú, por América Latina y por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Toribio, presenta nuestras intenciones ante Cristo y ayúdanos a permanecer fieles en el servicio, la oración y la caridad. Amén."
+      },
+      "action": "Elige una práctica de oración o servicio de esta novena y comprométete a mantenerla durante las próximas semanas.",
+      "closing": "Santo Toribio de Mogrovejo, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "pastoral",
+      "label": "Obispos, sacerdotes y pastoral",
+      "keywords": [
+        "obispos",
+        "sacerdotes",
+        "pastoral",
+        "iglesia",
+        "ministerio"
+      ]
+    },
+    {
+      "id": "evangelizacion",
+      "label": "Evangelización y catequesis",
+      "keywords": [
+        "evangelización",
+        "evangelizacion",
+        "catequesis",
+        "mision",
+        "misión"
+      ]
+    },
+    {
+      "id": "pueblos-indigenas",
+      "label": "Pueblos indígenas y dignidad",
+      "keywords": [
+        "indígenas",
+        "indigenas",
+        "pueblos originarios",
+        "dignidad",
+        "cultura"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza y vulnerabilidad",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "vulnerabilidad",
+        "necesidad",
+        "caridad"
+      ]
+    },
+    {
+      "id": "vocaciones",
+      "label": "Vocaciones y formación",
+      "keywords": [
+        "vocaciones",
+        "seminario",
+        "seminaristas",
+        "formación",
+        "sacerdocio"
+      ]
+    },
+    {
+      "id": "unidad",
+      "label": "Unidad y comunión",
+      "keywords": [
+        "unidad",
+        "comunión",
+        "comunidad",
+        "reconciliación",
+        "reconciliacion"
+      ]
+    }
+  ]
+}
