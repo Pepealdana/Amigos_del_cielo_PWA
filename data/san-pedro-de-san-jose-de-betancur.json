@@ -1,0 +1,457 @@
+{
+  "id": "san-pedro-de-san-jose-de-betancur",
+  "slug": "san-pedro-de-san-jose-de-betancur",
+  "name": "San Pedro de San José de Betancur",
+  "title": "Apóstol de la caridad en América Central",
+  "subtitle": "Hermano Pedro, terciario franciscano y servidor de los pobres",
+  "category": "Santos",
+  "image": null,
+  "description": "Novena dedicada a San Pedro de San José de Betancur, conocido como el Hermano Pedro, testigo de la misericordia de Cristo y servidor de pobres, enfermos, huérfanos y personas abandonadas.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-pedro-de-san-jose-de-betancur"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "🕊️"
+  },
+  "feast": {
+    "day": 25,
+    "month": 4,
+    "text": "25 de abril",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "«Cuando se os presente un pobre, recibidlo como si fueseis a recibir a Jesucristo.»",
+    "reference": "Frase atribuida tradicionalmente al Hermano Pedro; se conserva en la tradición devocional, pero no se presenta aquí como cita documentalmente verificada."
+  },
+  "patronages": [
+    "Pobres y personas en situación de abandono",
+    "Enfermos y convalecientes",
+    "Huérfanos y niños vulnerables",
+    "Obras de misericordia",
+    "Hospitalidad y servicio",
+    "Guatemala y América Central"
+  ],
+  "virtues": [
+    "Caridad",
+    "Humildad",
+    "Misericordia",
+    "Servicio",
+    "Pobreza evangélica",
+    "Oración",
+    "Compasión",
+    "Perseverancia"
+  ],
+  "search": [
+    "san pedro de san jose de betancur",
+    "hermano pedro",
+    "pedro betancur",
+    "san pedro de betancur",
+    "guatemala",
+    "tanzania",
+    "tierra prometida",
+    "betlemitas",
+    "orden de belen",
+    "pobres",
+    "enfermos",
+    "hospital de convalecientes",
+    "terciario franciscano",
+    "novena"
+  ],
+  "history": {
+    "short": "Pedro de San José de Betancur nació en Vilaflor de Tenerife, Islas Canarias, en 1626. En 1651 llegó a Guatemala, donde dedicó su vida a la oración, la evangelización y el servicio de los más pobres. Como terciario franciscano impulsó una obra de atención a enfermos, huérfanos, personas sin hogar y otros necesitados, y promovió una comunidad que dio origen a la familia betlemita. Murió en Antigua Guatemala el 25 de abril de 1667 y fue canonizado por san Juan Pablo II el 30 de julio de 2002.",
+    "extended": "Pedro de San José de Betancur nació en Vilaflor, Tenerife, en 1626, en una familia dedicada al pastoreo y la agricultura y formada en la fe cristiana. Desde joven manifestó interés por la vida de oración y por la misión evangelizadora que se desarrollaba en América. En 1651 llegó a Guatemala con el deseo de servir a Dios. Una enfermedad grave que sufrió poco después de su llegada lo puso en contacto cercano con la fragilidad humana y con personas pobres que necesitaban atención. Al recuperar la salud, intentó prepararse para el sacerdocio, pero no pudo continuar por esa vía. Ingresó entonces como terciario franciscano y asumió una vida marcada por la humildad, la penitencia, la oración y el servicio. En la ciudad de Santiago de los Caballeros de Guatemala, la actual Antigua Guatemala, comenzó una intensa labor de misericordia. Visitaba hospitales, cárceles y hogares de personas necesitadas; atendía a enfermos y moribundos; acogía a personas sin recursos y prestaba especial atención a niños y jóvenes abandonados. También impulsó una escuela y un hospital para convalecientes, procurando que quienes habían sido dados de alta pero todavía necesitaban cuidados no quedaran desamparados. Su espiritualidad estuvo profundamente marcada por los misterios de Belén y de la Cruz. La contemplación del Niño Jesús y de Cristo entregado por amor se convirtió para él en una fuente de servicio concreto. Su obra atrajo a otras personas que quisieron colaborar con él y dio origen a la familia betlemita, dedicada a continuar su espíritu de oración, educación y atención a los necesitados. El papa Juan Pablo II destacó durante su canonización que el Hermano Pedro cruzó el Atlántico con la fe como único equipaje para servir a los pobres y a los indígenas de América, primero en Cuba, después en Honduras y finalmente en Guatemala. Murió en 1667, a los cuarenta y un años. Fue beatificado por Juan Pablo II en 1980 y canonizado por el mismo papa en Ciudad de Guatemala el 30 de julio de 2002. La Iglesia lo propone como testigo de una caridad que reconoce a Cristo en la persona necesitada y transforma la oración en servicio."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Pedro de San José de Betancur, Hermano Pedro, servidor humilde de los pobres, acompáñame durante estos nueve días. Enséñame a reconocer a Cristo en quien sufre, a vivir con un corazón compasivo y a convertir mi oración en servicio. Presento al Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Pedro de San José de Betancur, gracias por acompañarme durante esta novena. Pide al Señor que nos conceda un corazón atento a las necesidades de los demás, especialmente de quienes viven en pobreza, enfermedad, abandono o soledad. Ayúdanos a servir con humildad y perseverancia y a reconocer en cada persona la dignidad de un hijo de Dios. Presenta ante Cristo nuestras intenciones y las necesidades de nuestras familias, comunidades y pueblos. Amén.",
+  "intentions": [
+    "Por las personas que viven en pobreza, abandono o exclusión.",
+    "Por los enfermos, convalecientes y quienes los cuidan.",
+    "Por los niños y jóvenes que carecen de protección, educación o acompañamiento.",
+    "Por quienes viven en situación de calle o no tienen un hogar seguro.",
+    "Por quienes trabajan en hospitales, hogares de acogida y obras sociales.",
+    "Por Guatemala, las Islas Canarias y los pueblos de América Central.",
+    "Por las vocaciones al servicio de los pobres y de los más vulnerables.",
+    "Por las personas privadas de la libertad y sus familias.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,31-40"
+      },
+      {
+        "reference": "Lucas 10,25-37"
+      },
+      {
+        "reference": "Filipenses 2,1-8"
+      },
+      {
+        "reference": "1 Juan 3,16-18"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización del Hermano Pedro — San Juan Pablo II (2002)",
+      "Biografía de Pedro de San José Betancur — Santa Sede"
+    ],
+    "related": [
+      "Obras de misericordia",
+      "Familia Betlemita",
+      "Nuestra Señora de Belén",
+      "Franciscanos",
+      "Antigua Guatemala"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Biografía del Hermano Pedro de San José Betancur",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020730_betancurt_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía de canonización del Hermano Pedro de San José de Betancurt",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2002/documents/hf_jp-ii_hom_20020730_canonization-guatemala.html",
+      "type": "official"
+    },
+    {
+      "title": "Pedro de San José Betancur — Memoria litúrgica",
+      "organization": "Dicasterio para las Causas de los Santos",
+      "url": "https://www.causesanti.va/it/santi-e-beati/pedro-de-san-jose-betancurt.html",
+      "type": "official"
+    },
+    {
+      "title": "Santo Hermano Pedro",
+      "organization": "Orden de Frailes Menores",
+      "url": "https://ofm.org/es/santo-hermano-pedro.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La caridad",
+      "title": "Reconocer a Cristo en quien necesita ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida del Hermano Pedro estuvo marcada por una atención constante a las personas necesitadas. La caridad ocupó un lugar central en su misión en Guatemala."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana empieza por reconocer la dignidad de quien tenemos delante y responder con una ayuda concreta cuando está a nuestro alcance."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Estoy atento a las necesidades de las personas que encuentro?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven pobreza, abandono o exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, enséñame a mirar con compasión y a reconocer a Cristo en cada persona que necesita ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de ayuda sin buscar reconocimiento.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "La humildad",
+      "title": "Servir sin colocarse en el centro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pedro de San José de Betancur eligió una vida sencilla como terciario franciscano y puso su servicio por encima de la búsqueda de reconocimiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La humildad permite servir sin convertir la ayuda en una forma de poder o reconocimiento personal."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Busco reconocimiento cuando ayudo a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a otros de manera silenciosa."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Hermano Pedro, ayúdame a servir con humildad y a dejar que el bien realizado sea más importante que mi propio reconocimiento. Amén."
+      },
+      "action": "Haz hoy un servicio que nadie tenga que conocer.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "La misericordia",
+      "title": "Convertir la compasión en acciones",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El Hermano Pedro no se limitó a sentir compasión. Visitó y atendió a personas enfermas, pobres, encarceladas y abandonadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misericordia exige pasar de la intención a la acción. A veces una presencia, una escucha o una ayuda sencilla puede aliviar una situación difícil."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Qué necesidad cercana estoy viendo pero todavía no he atendido?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, convalecientes y personas que viven solas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, pide para mí un corazón misericordioso que no se quede solamente en buenos deseos. Amén."
+      },
+      "action": "Contacta o visita, si es posible, a una persona que necesite compañía o ayuda.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "El servicio a los pobres",
+      "title": "Poner los dones al servicio de los más vulnerables",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su obra incluyó atención a pobres, enfermos, niños y personas sin recursos. Su ejemplo muestra que la fe puede expresarse mediante capacidades y recursos puestos al servicio de otros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Todos tenemos capacidades que pueden convertirse en servicio. La pregunta cristiana no es solamente qué poseemos, sino para quién podemos ponerlo a disposición."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo usar mis capacidades para ayudar a alguien que lo necesita?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que trabajan con comunidades vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Hermano Pedro, enséñame a poner mi tiempo, mis capacidades y mis recursos al servicio de quienes más lo necesitan. Amén."
+      },
+      "action": "Comparte hoy tiempo, alimento, conocimiento o una ayuda concreta con alguien que lo necesite.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "La oración",
+      "title": "Encontrar en Dios la fuerza para servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Santa Sede destaca la profunda vida de oración del Hermano Pedro. Para él, la contemplación de Cristo alimentaba su entrega apostólica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no sustituye la acción, pero puede darle sentido, perseverancia y dirección. La vida del Hermano Pedro une contemplación y servicio."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Mi oración me lleva a amar y servir mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten lejos de Dios o atraviesan una crisis espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, ayúdame a unir oración y servicio, para que mi relación con Dios transforme también mi manera de tratar a los demás. Amén."
+      },
+      "action": "Reserva unos minutos de silencio para orar por una persona que sufre.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "La atención a los enfermos",
+      "title": "Acompañar la fragilidad con dignidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Una parte importante de su obra estuvo dedicada a personas enfermas y convalecientes. Impulsó un hospital para quienes todavía necesitaban cuidados después de salir de otros centros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar a una persona enferma implica reconocer su dignidad y acompañarla con paciencia, respeto y ternura."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Cómo trato a las personas enfermas o dependientes que necesitan paciencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, cuidadores y trabajadores de la salud."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, acompaña a quienes sufren enfermedad y danos paciencia para cuidar con respeto y ternura a quienes dependen de nosotros. Amén."
+      },
+      "action": "Ofrece una ayuda concreta a un enfermo o a quien cuida de uno.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "La educación y la infancia",
+      "title": "Proteger y acompañar a los más pequeños",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El Hermano Pedro promovió la educación y prestó especial atención a niños y jóvenes necesitados de acogida y formación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Proteger y educar a los niños y jóvenes es una forma concreta de construir una sociedad más humana y de practicar la caridad."
+      },
+      "virtue": "Protección",
+      "reflection": "¿Qué niños o jóvenes necesitan hoy más acompañamiento y oportunidades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños y jóvenes en situación de vulnerabilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, intercede por los niños y jóvenes que necesitan protección, educación y oportunidades para crecer con dignidad. Amén."
+      },
+      "action": "Apoya una iniciativa educativa, social o parroquial que beneficie a niños o jóvenes.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "La perseverancia",
+      "title": "Continuar haciendo el bien aunque el camino sea difícil",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su misión no estuvo libre de dificultades. Sin embargo, continuó sirviendo y organizando una obra que después sería continuada por la familia betlemita."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia cristiana consiste en continuar el bien con prudencia y fidelidad, incluso cuando los resultados tardan en aparecer."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué obra buena necesito sostener con mayor constancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan durante años en obras de servicio y misericordia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Hermano Pedro, ayúdame a perseverar en el bien cuando aparezcan el cansancio, la frustración o las dificultades. Amén."
+      },
+      "action": "Retoma una obra buena que hayas abandonado y da hoy un pequeño paso.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Una vida hecha caridad",
+      "title": "Hacer de la fe un servicio cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El testimonio del Hermano Pedro fue reconocido por la Iglesia como una vida en la que la oración, la misericordia y el servicio permanecieron unidos hasta su muerte."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se expresa también en decisiones cotidianas: servir, compartir, acompañar, perdonar y atender al que necesita ayuda."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué compromiso concreto quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Guatemala, América Central, nuestras familias y todas las intenciones presentadas durante la novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro de San José de Betancur, presenta nuestras intenciones ante el Señor y enséñanos a vivir una fe que se haga caridad. Que sepamos reconocer a Cristo en los necesitados y servir con humildad hasta el final. Amén."
+      },
+      "action": "Elige una obra de misericordia que puedas convertir en un compromiso estable.",
+      "closing": "San Pedro de San José de Betancur, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "pobreza",
+      "label": "Pobreza y vulnerabilidad",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "vulnerabilidad",
+        "necesidad",
+        "exclusion",
+        "exclusión"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y cuidadores",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "hospital",
+        "convalecientes",
+        "cuidadores",
+        "salud"
+      ]
+    },
+    {
+      "id": "infancia",
+      "label": "Niños y jóvenes",
+      "keywords": [
+        "niños",
+        "niñez",
+        "jóvenes",
+        "juventud",
+        "orfandad",
+        "huérfanos"
+      ]
+    },
+    {
+      "id": "obras-misericordia",
+      "label": "Obras de misericordia",
+      "keywords": [
+        "misericordia",
+        "caridad",
+        "servicio",
+        "ayuda",
+        "acompañamiento"
+      ]
+    },
+    {
+      "id": "vocaciones",
+      "label": "Vocaciones de servicio",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "vocaciones",
+        "religiosos",
+        "sacerdotes",
+        "mision"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "guatemala",
+      "label": "Guatemala y América Central",
+      "keywords": [
+        "guatemala",
+        "centroamerica",
+        "centroamérica",
+        "antigua guatemala"
+      ]
+    }
+  ]
+}
