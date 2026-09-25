@@ -23,7 +23,7 @@ function renderHistoria(novena) {
 
     return `
 
-        <section class="home">
+        <section class="home saint-history-page">
 
             ${renderCabeceraNovena(
 
