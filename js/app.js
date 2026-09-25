@@ -5,6 +5,156 @@
 ========================================== */
 
 /* ==========================================
+   INSTALACIÓN PWA
+========================================== */
+
+let eventoInstalacionPWA = null;
+
+window.addEventListener(
+    "beforeinstallprompt",
+    evento => {
+
+        evento.preventDefault();
+
+        eventoInstalacionPWA = evento;
+
+        actualizarBotonInstalacion();
+
+    }
+);
+
+window.addEventListener(
+    "appinstalled",
+    () => {
+
+        eventoInstalacionPWA = null;
+
+        actualizarBotonInstalacion();
+
+        cerrarMenu();
+
+    }
+);
+
+function actualizarBotonInstalacion() {
+
+    const boton =
+        document.getElementById("menu-instalar");
+
+    if (!boton) {
+        return;
+    }
+
+    boton.hidden =
+        !eventoInstalacionPWA;
+
+}
+
+async function instalarAplicacion() {
+
+    if (eventoInstalacionPWA) {
+
+        const evento =
+            eventoInstalacionPWA;
+
+        eventoInstalacionPWA = null;
+
+        actualizarBotonInstalacion();
+
+        try {
+
+            await evento.prompt();
+
+        } catch (error) {
+
+            console.warn(
+                "No fue posible mostrar el aviso de instalación:",
+                error
+            );
+
+        }
+
+        return;
+
+    }
+
+    mostrarInstruccionesInstalacion();
+
+}
+
+function mostrarInstruccionesInstalacion() {
+
+    const agente =
+        navigator.userAgent || "";
+
+    const esIOS =
+        /iPad|iPhone|iPod/i.test(agente);
+
+    const esAndroid =
+        /Android/i.test(agente);
+
+    let contenido = "";
+
+    if (esIOS) {
+
+        contenido = `
+            <p>
+                En iPhone o iPad, abre el menú
+                <strong>Compartir</strong> del navegador.
+            </p>
+
+            <p>
+                Selecciona
+                <strong>Agregar a pantalla de inicio</strong>
+                y confirma.
+            </p>
+        `;
+
+    } else if (esAndroid) {
+
+        contenido = `
+            <p>
+                En Android, abre el menú del navegador.
+            </p>
+
+            <p>
+                Busca
+                <strong>Instalar aplicación</strong>,
+                <strong>Instalar app</strong> o
+                <strong>Agregar a pantalla de inicio</strong>,
+                según el navegador.
+            </p>
+        `;
+
+    } else {
+
+        contenido = `
+            <p>
+                En un navegador compatible, busca la opción
+                <strong>Instalar Amigos del Cielo</strong>
+                en el menú del navegador o el icono de instalación
+                de la barra de direcciones.
+            </p>
+        `;
+
+    }
+
+    contenido += `
+        <p>
+            Una vez instalada, aparecerá un icono de
+            <strong>Amigos del Cielo</strong> en el dispositivo
+            y podrás abrirla como una aplicación.
+        </p>
+    `;
+
+    mostrarModal(
+        "Instalar Amigos del Cielo",
+        contenido
+    );
+
+}
+
+/* ==========================================
    INICIALIZACIÓN
 ========================================== */
 
@@ -38,6 +188,8 @@ async function iniciarApp() {
         solicitarPersistenciaStorage();
 
         await cargarCatalogo();
+
+        actualizarBotonInstalacion();
 
         const novenaSolicitada =
             new URLSearchParams(
@@ -137,6 +289,22 @@ function registrarEventos() {
         "menu-configuracion",
 
         () => navegar("configuracion")
+
+    );
+
+    registrarEvento(
+
+        "menu-compartir",
+
+        () => compartirAplicacion()
+
+    );
+
+    registrarEvento(
+
+        "menu-instalar",
+
+        instalarAplicacion
 
     );
 
@@ -895,6 +1063,16 @@ function manejarClicksPWA(evento) {
             alternarFavorita(id);
             mostrarPortadaNovena();
             return;
+        }
+
+        if (tipo === "share-novena") {
+
+            compartirNovena(
+                state.novenaActual
+            );
+
+            return;
+
         }
 
         if (tipo === "start-novena") {
