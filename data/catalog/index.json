@@ -1,7 +1,7 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "name": "Amigos del Cielo",
-  "description": "Índice del catálogo maestro de Amigos del Cielo v2.",
+  "description": "Índice del catálogo maestro de Amigos del Cielo v2.1, con relaciones territoriales que contextualizan sin limitar la devoción.",
   "sections": [
     {
       "id": "santos",
