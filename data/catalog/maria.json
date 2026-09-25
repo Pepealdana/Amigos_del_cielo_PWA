@@ -490,10 +490,10 @@
     {
       "id": "virgen-de-andacollo",
       "name": "Nuestra Señora de Andacollo",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-del-rosario-de-andacollo.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
