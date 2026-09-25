@@ -216,10 +216,10 @@
     {
       "id": "virgen-de-la-altagracia",
       "name": "Nuestra Señora de la Altagracia",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-la-altagracia.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
