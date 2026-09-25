@@ -267,10 +267,10 @@
     {
       "id": "nuestra-senora-reina-de-la-paz",
       "name": "Nuestra Señora Reina de la Paz",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-reina-de-la-paz.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
