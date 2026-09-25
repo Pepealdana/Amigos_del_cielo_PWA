@@ -14,7 +14,8 @@
       "day": 19,
       "month": 3,
       "text": "19 de marzo",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Solemnidad"
     },
     "status": "published",
     "search": [
@@ -136,7 +137,8 @@
       "day": 13,
       "month": 6,
       "text": "13 de junio",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Memoria"
     },
     "status": "published",
     "search": [
@@ -231,7 +233,8 @@
       "day": 28,
       "month": 8,
       "text": "28 de agosto",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Memoria"
     },
     "status": "published",
     "search": [
@@ -348,7 +351,8 @@
       "day": 11,
       "month": 7,
       "text": "11 de julio",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Memoria"
     },
     "status": "published",
     "search": [
@@ -760,7 +764,8 @@
       "day": 24,
       "month": 6,
       "text": "24 de junio",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Solemnidad"
     },
     "status": "published",
     "search": [
@@ -1025,7 +1030,8 @@
       "day": 3,
       "month": 11,
       "text": "3 de noviembre",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Memoria"
     },
     "status": "published",
     "search": [
@@ -1152,7 +1158,8 @@
       "day": 23,
       "month": 9,
       "text": "23 de septiembre",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Memoria obligatoria"
     },
     "status": "published",
     "search": [
@@ -1280,7 +1287,8 @@
       "day": 9,
       "month": 9,
       "text": "9 de septiembre",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Memoria obligatoria en Colombia"
     },
     "status": "published",
     "search": [
@@ -1411,7 +1419,8 @@
       "day": 14,
       "month": 7,
       "text": "14 de julio",
-      "movable": false
+      "movable": false,
+      "liturgicalRank": "Memoria"
     },
     "status": "published",
     "search": [
@@ -3779,7 +3788,7 @@
       "day": 21,
       "month": 10,
       "text": "21 de octubre",
-      "liturgicalRank": "Fiesta en Colombia",
+      "liturgicalRank": "Memoria obligatoria en Colombia",
       "movable": false
     },
     "file": "data/santa-laura-montoya.json",
