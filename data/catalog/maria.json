@@ -250,10 +250,10 @@
     {
       "id": "santa-maria-la-antigua",
       "name": "Santa María la Antigua",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/santa-maria-la-antigua.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
