@@ -4,7 +4,7 @@
 ========================================== */
 
 function obtenerPrioridadLiturgica(novena) {
-    const rango = String(novena?.feast?.liturgicalRank || "").toLowerCase();
+    const rango = String(novena?.liturgicalRank || novena?.feast?.liturgicalRank || "").toLowerCase();
 
     if (rango.includes("solemnidad")) return 4;
     if (rango.includes("fiesta")) return 3;
