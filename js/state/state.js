@@ -5,6 +5,11 @@
 
 const state = {
     catalogo: [],
+    catalogosV2: {
+        santos: [],
+        maria: [],
+        devociones: []
+    },
     novenaActual: null,
     diaActual: 1,
     ultimaNovenaId: null,
