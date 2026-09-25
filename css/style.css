@@ -353,3 +353,15 @@ body.dark .catalog-country-chip.active:hover {
         gap: .15rem;
     }
 }
+
+
+.catalog-country-note {
+    margin: .35rem 0 .65rem;
+    color: var(--color-text-light);
+    font-size: .84rem;
+    line-height: 1.45;
+}
+
+body.dark .catalog-country-note {
+    color: var(--color-text-light);
+}
