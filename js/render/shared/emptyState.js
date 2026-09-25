@@ -24,11 +24,16 @@ function renderEmptyState(
 
     return `
 
-        <section class="empty-state">
+        <section
+            class="empty-state"
+            role="status"
+            aria-live="polite">
 
-            <div class="empty-state-icon">
+            <div
+                class="empty-state-icon"
+                aria-hidden="true">
 
-                ${icono}
+                ${escaparHTML(icono)}
 
             </div>
 
