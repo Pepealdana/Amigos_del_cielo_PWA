@@ -1,0 +1,453 @@
+{
+  "id": "san-juan-diego",
+  "slug": "san-juan-diego",
+  "name": "San Juan Diego",
+  "title": "Mensajero de la Virgen de Guadalupe",
+  "subtitle": "Primer santo indígena canonizado del continente americano",
+  "category": "Santos",
+  "image": null,
+  "description": "Novena dedicada a San Juan Diego Cuauhtlatoatzin, testigo de las apariciones de Nuestra Señora de Guadalupe y ejemplo de humildad, confianza, servicio y fidelidad.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-juan-diego"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "🌹"
+  },
+  "feast": {
+    "day": 9,
+    "month": 12,
+    "text": "9 de diciembre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "No se conserva una frase escrita por Juan Diego cuya autoría pueda verificarse. Para la ficha se utiliza un texto bíblico asociado a la humildad que la Iglesia destacó en su canonización.",
+    "reference": "Mateo 11,25"
+  },
+  "patronages": [
+    "Pueblos indígenas",
+    "Evangelización",
+    "Laicos",
+    "Familias",
+    "Personas que buscan vivir la fe con sencillez"
+  ],
+  "virtues": [
+    "Humildad",
+    "Sencillez",
+    "Confianza en Dios",
+    "Fidelidad",
+    "Servicio",
+    "Perseverancia",
+    "Devoción a María"
+  ],
+  "search": [
+    "san juan diego",
+    "juan diego",
+    "cuauhtlatoatzin",
+    "guadalupe",
+    "virgen de guadalupe",
+    "tepeyac",
+    "mexico",
+    "indigenas",
+    "tilma",
+    "rosas",
+    "evangelizacion",
+    "novena"
+  ],
+  "history": {
+    "short": "Juan Diego Cuauhtlatoatzin nació en Cuautitlán, en el territorio de la actual Ciudad de México, hacia 1474. Ya adulto recibió el bautismo y adoptó el nombre cristiano de Juan Diego. Según la tradición guadalupana recogida en el Nican Mopohua y asumida por la tradición de la Iglesia, en diciembre de 1531 recibió en el Tepeyac el mensaje de la Virgen María, quien lo envió como mensajero ante el obispo. Su testimonio quedó estrechamente unido a la historia de Nuestra Señora de Guadalupe. Murió en 1548 y fue canonizado por san Juan Pablo II el 31 de julio de 2002.",
+    "extended": "La información histórica sobre Juan Diego anterior a su conversión es limitada. La Santa Sede señala que nació hacia 1474 con el nombre indígena Cuauhtlatoatzin y que pertenecía al pueblo chichimeca. Ya adulto recibió el bautismo y comenzó una vida cristiana marcada por la oración y la práctica de las virtudes. El relato de las apariciones de Nuestra Señora de Guadalupe se conserva principalmente en la tradición guadalupana y en el Nican Mopohua, texto indígena escrito en náhuatl con caracteres latinos durante el siglo XVI. El 9 de diciembre de 1531, mientras se dirigía a la celebración de la Misa, Juan Diego llegó al Tepeyac y, según el relato, encontró allí a la Virgen María. Ella le pidió que acudiera ante el obispo para solicitar la construcción de un templo en el lugar. Juan Diego cumplió el encargo, aunque encontró dificultades para ser escuchado y tuvo que regresar varias veces. En uno de esos momentos llevó al obispo la señal que se le había pedido: flores que encontró en el cerro y que presentó en su tilma. El relato guadalupano vincula este acontecimiento con la aparición de la imagen de la Virgen en la tilma. La Iglesia no presenta a Juan Diego como protagonista por sus propios méritos extraordinarios, sino como un hombre sencillo que respondió a una misión que consideró recibida de Dios por medio de María. El papa Francisco, al hablar de él en 2023, destacó precisamente su condición de hombre humilde, mensajero de la Virgen y persona que llegó a la fe ya adulto. Después de los acontecimientos del Tepeyac, la tradición sostiene que Juan Diego permaneció cerca del santuario, dedicado a la oración, al servicio y a comunicar el mensaje recibido. Murió en 1548. Fue beatificado por san Juan Pablo II el 6 de mayo de 1990 y canonizado por el mismo papa el 31 de julio de 2002 en la Basílica de Guadalupe. En su homilía de canonización, Juan Pablo II lo presentó como un hombre sencillo y humilde y como testigo de una fe que no exigió abandonar su identidad indígena. La vida de Juan Diego puede contemplarse como un camino de disponibilidad: escuchar, aceptar una misión, perseverar ante las dificultades y servir sin buscar protagonismo. Su relación con la Virgen de Guadalupe tampoco termina en él mismo; su testimonio conduce hacia Cristo y hacia una evangelización que reconoce la dignidad de los pueblos y sus culturas."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Juan Diego Cuauhtlatoatzin, mensajero de la Virgen de Guadalupe, acompáñame durante estos nueve días. Enséñame a vivir la fe con humildad, a escuchar a Dios con un corazón sencillo y a servir con perseverancia. Presento al Señor, por tu intercesión, la intención que llevo en mi corazón. Ayúdame a caminar hacia Jesús de la mano de María. Amén.",
+  "closingPrayer": "San Juan Diego, fiel mensajero de la Virgen de Guadalupe, gracias por acompañarme durante esta novena. Ayúdame a conservar una fe sencilla y perseverante, a reconocer la dignidad de cada persona y a responder con generosidad cuando Dios me llame a servir. Presenta ante el Señor mis intenciones y las necesidades de mi familia, de mi comunidad y de todos los pueblos. Que María de Guadalupe nos conduzca siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por los pueblos indígenas y por el respeto de su dignidad, cultura y derechos.",
+    "Por la Iglesia en México y en toda América.",
+    "Por los misioneros, catequistas y agentes de evangelización.",
+    "Por las familias y por quienes buscan fortalecer su vida de fe.",
+    "Por quienes sufren pobreza, marginación o soledad.",
+    "Por quienes buscan reconciliación entre pueblos y culturas.",
+    "Por los jóvenes que buscan su vocación y su lugar en la Iglesia.",
+    "Por los enfermos y quienes los acompañan.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 11,25-30"
+      },
+      {
+        "reference": "Lucas 1,46-55"
+      },
+      {
+        "reference": "Juan 2,1-11"
+      },
+      {
+        "reference": "1 Corintios 1,26-31"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización de Juan Diego — San Juan Pablo II (2002)",
+      "Catequesis sobre San Juan Diego — Papa Francisco (2023)"
+    ],
+    "related": [
+      "Nuestra Señora de Guadalupe",
+      "Tepeyac",
+      "Evangelización de América"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Canonización de Juan Diego Cuauhtlatoatzin",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2002/documents/hf_jp-ii_hom_20020731_canonization-mexico.html",
+      "type": "official"
+    },
+    {
+      "title": "Biografía de Juan Diego Cuauhtlatoatzin",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020731_juan-diego_en.html",
+      "type": "official"
+    },
+    {
+      "title": "Catequesis: San Juan Diego, mensajero de la Virgen de Guadalupe",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/audiences/2023/documents/20230823-udienza-generale.html",
+      "type": "official"
+    },
+    {
+      "title": "St. Juan Diego — Memorial December 9",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/sites/default/files/2021-09/Booklet-of-Prayers-2_0.pdf",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La sencillez",
+      "title": "Dios mira el corazón sencillo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Diego pertenecía a un pueblo indígena del valle de México. La Iglesia ha destacado su sencillez y humildad como rasgos centrales de su testimonio. No fue elegido por ocupar una posición de poder, sino presentado como un hombre dispuesto a escuchar y servir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana no depende de reconocimiento social. Dios puede servirse de personas sencillas para realizar obras importantes. La humildad permite recibir la gracia sin convertir el servicio en una búsqueda de protagonismo."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Busco servir por amor o necesito que los demás reconozcan lo que hago?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que se sienten pequeñas, ignoradas o poco valoradas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, enséñame a vivir con sencillez y a reconocer que todo bien procede de Dios. Líbrame del orgullo y ayúdame a servir sin buscar reconocimiento. Amén."
+      },
+      "action": "Realiza hoy un servicio sencillo sin anunciarlo ni esperar agradecimiento.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "La escucha",
+      "title": "Un corazón dispuesto a escuchar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El relato de Guadalupe presenta a Juan Diego como alguien que recibió un mensaje y aceptó llevarlo al obispo. Su misión comenzó con la escucha: atender una llamada que no había planeado y tratar de responder a ella."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Escuchar a Dios requiere silencio interior y disposición. También exige escuchar a las personas, especialmente cuando atraviesan necesidades que no siempre expresan con facilidad."
+      },
+      "virtue": "Escucha",
+      "reflection": "¿Qué persona necesita hoy que la escuche sin interrumpir ni juzgar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que necesitan ser escuchadas y acompañadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, enséñame a escuchar con paciencia y a reconocer las llamadas de Dios en medio de mis ocupaciones. Que mi corazón esté disponible para servir. Amén."
+      },
+      "action": "Dedica hoy tiempo a escuchar atentamente a una persona sin mirar el teléfono ni preparar tu respuesta mientras habla.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "La confianza",
+      "title": "Confiar aun cuando aparecen dificultades",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Diego acudió al obispo para transmitir el encargo recibido en el Tepeyac. La primera respuesta no fue inmediata. El relato muestra que tuvo que perseverar y volver a intentarlo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una dificultad no siempre significa que debamos abandonar una misión buena. La confianza cristiana no elimina los obstáculos, pero ayuda a atravesarlos sin perder la esperanza ni actuar con resentimiento."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué dificultad me está haciendo abandonar demasiado pronto algo que considero bueno?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan obstáculos en su familia, trabajo, estudios o vida de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, acompáñame cuando las dificultades me hagan dudar. Pide para mí una confianza paciente, capaz de continuar haciendo el bien sin perder la esperanza. Amén."
+      },
+      "action": "Retoma hoy una tarea buena que hayas dejado pendiente por desánimo.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "El servicio",
+      "title": "Ser mensajero sin buscar protagonismo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Diego recibió una misión relacionada con la solicitud de la Virgen ante el obispo. Su papel fue el de mensajero. La tradición cristiana lo recuerda precisamente por haber cumplido un servicio que no estaba centrado en sí mismo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Servir significa poner nuestras capacidades al servicio de un bien que nos supera. Un mensajero fiel no altera el mensaje para hacerlo más conveniente ni convierte la misión en una oportunidad personal."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué capacidad o tiempo puedo poner hoy al servicio de otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los voluntarios, catequistas, servidores parroquiales y todos quienes ayudan a otros."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, ayúdame a servir con generosidad y sin buscar ocupar el centro. Que mis palabras y acciones conduzcan siempre hacia Cristo. Amén."
+      },
+      "action": "Haz hoy un servicio concreto que facilite la vida de otra persona.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "La dignidad",
+      "title": "Una fe que no borra la identidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En la canonización de Juan Diego, san Juan Pablo II destacó que acogió el mensaje cristiano sin renunciar a su identidad indígena. Su testimonio quedó vinculado a la historia religiosa y cultural de México."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe cristiana no exige despreciar la propia historia, lengua o cultura. La dignidad de cada pueblo debe ser reconocida y protegida, evitando tanto la discriminación como la idea de que una cultura necesita desaparecer para vivir la fe."
+      },
+      "virtue": "Dignidad",
+      "reflection": "¿Trato con respeto las diferencias culturales, sociales y personales de quienes me rodean?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pueblos indígenas y por todas las comunidades que buscan conservar su identidad y vivir su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, acompaña a los pueblos que buscan vivir su identidad con dignidad. Enséñanos a reconocer en cada persona un hijo de Dios y a rechazar toda forma de desprecio o discriminación. Amén."
+      },
+      "action": "Busca hoy una oportunidad para conocer o valorar respetuosamente una tradición cultural distinta de la tuya.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "La perseverancia",
+      "title": "Volver a intentarlo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El relato de Guadalupe presenta varias dificultades en el camino de Juan Diego. A pesar de ellas, regresó al Tepeyac y continuó realizando el encargo recibido. Su perseverancia forma parte esencial de su testimonio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa insistir ciegamente en cualquier cosa. Significa continuar en el bien cuando existen razones para hacerlo, revisando el camino con prudencia y manteniendo la confianza en Dios."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué aspecto de mi vida necesito paciencia para continuar haciendo el bien?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan procesos largos, enfermedades, dificultades familiares o búsquedas vocacionales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, dame perseverancia para no abandonar el bien ante el primer obstáculo. Ayúdame a caminar con paciencia y a confiar en Dios cuando el resultado no sea inmediato. Amén."
+      },
+      "action": "Divide hoy una dificultad grande en un pequeño paso que puedas realizar con responsabilidad.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "María conduce a Cristo",
+      "title": "El mensajero señala a la Madre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La misión de Juan Diego está inseparablemente relacionada con Nuestra Señora de Guadalupe. La Iglesia presenta su testimonio unido a la evangelización y a una devoción mariana que conduce hacia Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La verdadera devoción a María no termina en María. Ella orienta hacia Jesús. El ejemplo de Juan Diego invita a vivir una relación con la Virgen que nos lleve a escuchar el Evangelio y a ponerlo en práctica."
+      },
+      "virtue": "Devoción",
+      "reflection": "¿Mi devoción mariana me está ayudando realmente a acercarme más a Jesús?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan a Dios y por quienes necesitan descubrir a Cristo en medio de sus circunstancias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, enséñame a acercarme a Jesús con María. Que toda devoción mariana en mi vida produzca mayor fe, caridad, servicio y obediencia al Evangelio. Amén."
+      },
+      "action": "Reza hoy un misterio del Rosario meditando especialmente en un pasaje del Evangelio.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "La evangelización",
+      "title": "Llevar una buena noticia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La figura de Juan Diego quedó vinculada a la expansión de la fe cristiana en México y al mensaje de Guadalupe. San Juan Pablo II lo presentó como un hombre que podía seguir ayudando a la Iglesia a ser evangelizadora y misionera."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar no consiste solamente en hablar. También significa vivir de manera que nuestras acciones hagan visible la esperanza, la misericordia y la dignidad que anuncia el Evangelio."
+      },
+      "virtue": "Testimonio",
+      "reflection": "¿Qué aspecto de mi manera de vivir podría comunicar mejor la esperanza cristiana?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los misioneros, sacerdotes, religiosos, catequistas y laicos que anuncian el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, acompaña a quienes anuncian el Evangelio. Haz que también mi vida sea un testimonio sencillo de esperanza, servicio y amor a Cristo. Amén."
+      },
+      "action": "Comparte hoy una palabra de esperanza o realiza una obra de misericordia concreta.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "La fidelidad",
+      "title": "Permanecer cerca de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de los acontecimientos de Guadalupe, la tradición recuerda a Juan Diego dedicado a la oración, al servicio y al cuidado del santuario. Murió en 1548 y fue canonizado en 2002. Su vida quedó como testimonio de fidelidad hasta el final."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no se reduce a un acontecimiento extraordinario. También consiste en permanecer fieles en el tiempo, cultivar la oración, servir a los demás y dejar que la fe transforme la vida cotidiana."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué compromiso concreto quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por México, por América y por todas las intenciones personales presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Diego, fiel mensajero de la Virgen de Guadalupe, acompaña nuestras familias y nuestras comunidades. Presenta ante Dios nuestras intenciones y ayúdanos a permanecer fieles a Cristo, con humildad, esperanza y amor. Amén."
+      },
+      "action": "Elige una práctica de oración o servicio de esta novena y comprométete a mantenerla durante las próximas semanas.",
+      "closing": "San Juan Diego, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "pueblos-indigenas",
+      "label": "Pueblos indígenas",
+      "keywords": [
+        "indigenas",
+        "indígenas",
+        "pueblos originarios",
+        "comunidades indígenas",
+        "cultura"
+      ]
+    },
+    {
+      "id": "evangelizacion",
+      "label": "Evangelización y misión",
+      "keywords": [
+        "evangelizacion",
+        "evangelización",
+        "mision",
+        "misión",
+        "catequesis",
+        "catequistas"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "matrimonio",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "pobreza-marginacion",
+      "label": "Pobreza y marginación",
+      "keywords": [
+        "pobreza",
+        "marginacion",
+        "marginación",
+        "soledad",
+        "abandono",
+        "necesidad"
+      ]
+    },
+    {
+      "id": "vocaciones",
+      "label": "Vocaciones",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "vocaciones",
+        "sacerdote",
+        "sacerdotes",
+        "religiosos"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y quienes sufren",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "sufrimiento",
+        "dolor",
+        "hospital"
+      ]
+    },
+    {
+      "id": "reconciliacion",
+      "label": "Reconciliación y unidad",
+      "keywords": [
+        "reconciliacion",
+        "reconciliación",
+        "unidad",
+        "paz",
+        "pueblos",
+        "culturas"
+      ]
+    }
+  ]
+}
