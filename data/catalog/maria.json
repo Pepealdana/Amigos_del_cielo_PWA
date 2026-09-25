@@ -456,10 +456,10 @@
     {
       "id": "virgen-de-chiquinquira-de-maracaibo",
       "name": "Nuestra Señora del Rosario de Chiquinquirá de Maracaibo",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-del-rosario-de-chiquinquira-de-maracaibo.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
