@@ -29,8 +29,8 @@
     "icon": "✝"
   },
   "quote": {
-    "text": "«¡Sólo Dios basta!»",
-    "reference": "Expresión presentada por san Juan Pablo II en su homilía de canonización de 1993 al resumir el testimonio espiritual de Teresa; no se presenta aquí como una cita literal de una obra concreta de la santa."
+    "text": "«Solo Dios basta»",
+    "reference": "Expresión que Santa Teresa de Jesús de Los Andes hizo suya. En una carta a su hermana Rebeca, fechada el 12 de julio de 1919, escribió: «Cada día que pasa, hermanita, comprendo mejor que “solo Dios basta”. Esa es la máxima que tengo sobre mi cruz». La misma expresión aparece también en una carta a su padre del 8 de mayo de 1919: «Me siento feliz en medio de tanta pobreza, porque tengo a Dios, y Él solo me basta»."
   },
   "patronages": [
     "Juventud",
@@ -100,6 +100,8 @@
       }
     ],
     "documents": [
+      "Carta a su hermana Rebeca, 12 de julio de 1919 (Carta 114)",
+      "Carta a su padre, 8 de mayo de 1919 (Carta 94)",
       "Homilía de canonización de Teresa de Jesús de Los Andes, san Juan Pablo II, 21 de marzo de 1993",
       "Biografía oficial de Teresa de Jesús de Los Andes, Santa Sede",
       "Decreto y homilía de beatificación, san Juan Pablo II, 3 de abril de 1987"
