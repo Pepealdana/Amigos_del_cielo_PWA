@@ -485,10 +485,10 @@
     {
       "id": "san-jose-sanchez-del-rio",
       "name": "San José Sánchez del Río",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/san-jose-sanchez-del-rio.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "MX"
