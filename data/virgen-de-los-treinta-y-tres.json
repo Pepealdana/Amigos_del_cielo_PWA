@@ -1,0 +1,286 @@
+{
+  "id": "virgen-de-los-treinta-y-tres",
+  "name": "Virgen de los Treinta y Tres",
+  "title": "Virgen de los Treinta y Tres",
+  "subtitle": "Patrona del Uruguay",
+  "image": null,
+  "feast": {
+    "text": "Segundo domingo de noviembre",
+    "movable": true
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Uruguay",
+    "Pueblo uruguayo",
+    "Familias y comunidades"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Unidad",
+    "Libertad",
+    "Caridad",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "La Virgen de los Treinta y Tres es una de las principales advocaciones marianas del Uruguay y fue proclamada Patrona del país por san Juan XXIII en 1961.",
+    "extended": "La imagen venerada como Virgen de los Treinta y Tres se encuentra en el Santuario Nacional de la ciudad de Florida, Uruguay. Su nombre está relacionado tradicionalmente con los Treinta y Tres Orientales y con la historia de la independencia uruguaya. La pequeña imagen de la Virgen, tallada en madera, fue venerada durante generaciones en la región de Florida. En 1961, san Juan XXIII proclamó a la Virgen de los Treinta y Tres como Patrona del Uruguay. San Juan Pablo II visitó el santuario en 1988 y volvió a referirse a ella como Patrona del Uruguay durante su visita al país. La fiesta se celebra tradicionalmente el segundo domingo de noviembre y reúne a numerosos peregrinos en Florida. La devoción mariana se encuentra vinculada en Uruguay con la historia nacional, la vida familiar, la oración y la búsqueda de la paz."
+  },
+  "openingPrayer": "Virgen de los Treinta y Tres, Patrona del Uruguay, acompáñanos en esta novena. Condúcenos siempre hacia Jesucristo y enséñanos a vivir con fe, esperanza, unidad y caridad. Amén.",
+  "closingPrayer": "Virgen de los Treinta y Tres, Madre y Patrona del Uruguay, intercede por nosotros y acompaña a tu pueblo en su camino de fe, esperanza y paz. Amén.",
+  "intentions": [
+    "Por Uruguay y todos sus habitantes.",
+    "Por las familias y comunidades uruguayas.",
+    "Por la Iglesia que peregrina en Uruguay.",
+    "Por quienes sufren, están enfermos o viven dificultades.",
+    "Por la paz, la unidad y el bien común del pueblo uruguayo."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Uruguay y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Mirar el futuro con confianza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito entregar hoy a Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para fortalecer la unidad en mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias y del pueblo uruguayo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Libertad",
+      "title": "Vivir la libertad con responsabilidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Libertad",
+      "reflection": "¿Cómo puedo usar mejor mi libertad para buscar el bien?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan por la paz y el bien común."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué persona de mi familia necesita hoy mi presencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias uruguayas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Caridad",
+      "title": "Servir al necesitado",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo ayudar concretamente hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y personas necesitadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso cristiano necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas prolongadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Paz",
+      "title": "Ser instrumentos de reconciliación",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué paso puedo dar hoy para favorecer la paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la paz y la reconciliación en Uruguay y en el mundo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar con María hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Virgen de los Treinta y Tres ocupa un lugar especial en la historia religiosa del Uruguay y tiene su principal santuario en Florida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Uruguay, su Iglesia y todos sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de los Treinta y Tres, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Virgen de los Treinta y Tres, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan XXIII, Carta Apostólica por la que se proclama a la Virgen de los Treinta y Tres Patrona del Uruguay, 1961.",
+    "San Juan Pablo II, Homilía en el Santuario de la Virgen de los Treinta y Tres, Florida, 8 de mayo de 1988.",
+    "San Juan Pablo II, Discurso a los obispos del Uruguay en visita ad limina, 1989.",
+    "Conferencia Episcopal del Uruguay, información sobre el Santuario Nacional de la Virgen de los Treinta y Tres."
+  ]
+}
