@@ -1142,3 +1142,47 @@ body.dark .appearance-option.active{
         min-height:64px;
     }
 }
+
+
+/* ==========================================================
+   HISTORIA DEL SANTO — COMPOSICIÓN EN MODO OSCURO
+========================================================== */
+
+body.dark .saint-history-page{
+    background:transparent;
+    box-shadow:none;
+}
+
+body.dark .saint-history-page .list-section{
+    margin-top:2.75rem;
+    margin-bottom:2.75rem;
+    padding:1.25rem 1rem;
+    border-top:1px solid rgba(127,178,214,.16);
+    border-bottom:1px solid rgba(127,178,214,.10);
+    border-radius:16px;
+    background:rgba(127,178,214,.035);
+}
+
+body.dark .saint-history-page .list-section + .divider{
+    margin-top:2.75rem;
+}
+
+body.dark .saint-history-page .list-title{
+    margin-bottom:1rem;
+    text-align:center;
+    color:var(--color-primary);
+}
+
+body.dark .saint-history-page .list{
+    margin-bottom:0;
+}
+
+body.dark .saint-history-page .saint-quote{
+    margin-bottom:2.75rem;
+}
+
+@media (max-width:420px){
+    body.dark .saint-history-page .list-section{
+        padding:1.15rem .85rem;
+    }
+}
