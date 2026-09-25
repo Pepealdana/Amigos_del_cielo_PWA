@@ -3,7 +3,7 @@
     "name": "Amigos del Cielo",
     "short_name": "Amigos del Cielo",
     "description": "Novenas, santos y oración diaria.",
-    "lang": "es-CO",
+    "lang": "es",
     "dir": "ltr",
     "start_url": "./",
     "scope": "./",
