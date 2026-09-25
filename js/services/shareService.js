@@ -93,9 +93,7 @@ async function compartirContenido({
         url
     ]
         .filter(Boolean)
-        .join("
-
-");
+        .join("\n\n");
 
     const copiado =
         await copiarTexto(contenido);
