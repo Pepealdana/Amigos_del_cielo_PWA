@@ -41,7 +41,7 @@ function formatearPorcentaje(valor) {
 }
 
 function formatearNumero(numero) {
-    return Number(numero).toLocaleString("es-CO");
+    return Number(numero).toLocaleString(APP_CONFIG.formatoFecha || "es");
 }
 
 function escaparHTML(valor) {
