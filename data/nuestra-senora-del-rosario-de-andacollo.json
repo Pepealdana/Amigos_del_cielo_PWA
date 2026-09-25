@@ -1,0 +1,288 @@
+{
+  "id": "nuestra-senora-del-rosario-de-andacollo",
+  "name": "Nuestra Señora del Rosario de Andacollo",
+  "title": "Nuestra Señora del Rosario de Andacollo",
+  "subtitle": "La Chinita, Reina de la Montaña y Madre de los peregrinos",
+  "image": null,
+  "feast": {
+    "text": "26 de diciembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad local",
+  "quote": null,
+  "patronages": [
+    "Andacollo",
+    "Arquidiócesis de La Serena",
+    "Peregrinos del Norte Chico de Chile"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Perseverancia",
+    "Peregrinación",
+    "Caridad",
+    "Confianza"
+  ],
+  "history": {
+    "short": "Nuestra Señora del Rosario de Andacollo es una de las principales advocaciones marianas del norte de Chile, venerada en el santuario de Andacollo, en la Región de Coquimbo.",
+    "extended": "La devoción a Nuestra Señora del Rosario de Andacollo está vinculada a una imagen que, según la tradición conservada por la Iglesia en Chile, fue llevada a la región y comenzó a ser venerada en Andacollo a finales del siglo XVI. La Conferencia Episcopal de Chile recoge esta tradición y señala que la imagen que actualmente se venera fue traída desde Perú en 1676. Algunos detalles del relato sobre el origen de la imagen pertenecen a la tradición secular y se presentan como tales. La devoción se consolidó en torno al santuario del Norte Chico y adquirió una gran importancia en la religiosidad popular chilena, especialmente mediante las peregrinaciones y los bailes religiosos. La imagen fue coronada solemnemente en 1901; en 2021 la Iglesia de La Serena conmemoró los 120 años de aquella coronación. El santuario celebra dos grandes momentos durante el año: la Fiesta Chica, tradicionalmente el primer domingo de octubre, y la Fiesta Grande, cuya jornada central es el 26 de diciembre. En 1987, durante su visita a Chile, san Juan Pablo II mencionó expresamente la venerada imagen de la Virgen de Andacollo entre las representaciones marianas llevadas para su bendición en La Serena. En 2026 la Iglesia de La Serena conmemora 350 años de la llegada de la sagrada imagen a estas tierras."
+  },
+  "openingPrayer": "Nuestra Señora del Rosario de Andacollo, Madre y Reina de la Montaña, acompáñanos en esta novena. Enséñanos a caminar con fe, perseverancia y esperanza, y a llevar a Cristo en nuestras obras y palabras. Amén.",
+  "closingPrayer": "Nuestra Señora del Rosario de Andacollo, intercede por nosotros y acompaña a todos los peregrinos. Guíanos hacia Jesucristo y ayúdanos a vivir con fe, caridad y esperanza. Amén.",
+  "intentions": [
+    "Por Chile y especialmente por la Región de Coquimbo.",
+    "Por los peregrinos que llegan al santuario.",
+    "Por los bailes religiosos y quienes mantienen esta tradición de fe.",
+    "Por las familias y comunidades.",
+    "Por quienes necesitan esperanza y consuelo."
+  ],
+  "bibleReferences": [
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Lc 2,19",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Caminar con María hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito confiar hoy al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Renovar la esperanza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una palabra de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven tristeza o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Perseverancia",
+      "title": "Mantenerse en el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso espiritual necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Peregrinación",
+      "title": "Caminar hacia Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso concreto quiero dar en mi vida de fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos que llegan a Andacollo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Caminar juntos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto puede fortalecer hoy mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias chilenas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Caridad",
+      "title": "Servir al hermano",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Comunidad",
+      "title": "Vivir la fe unidos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Comunidad",
+      "reflection": "¿Cómo puedo aportar hoy a la unidad de mi comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las comunidades cristianas y los bailes religiosos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Confianza",
+      "title": "Entregar nuestras preocupaciones",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación puedo poner hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades personales o familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Poner nuestra vida en manos de Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Andacollo se desarrolló en el Norte Chico de Chile y convirtió su santuario en un importante lugar de peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y perseverancia, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero confiar definitivamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Chile, Andacollo y todos los devotos de Nuestra Señora del Rosario."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Andacollo, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Andacollo, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "Conferencia Episcopal de Chile, Nuestra Señora del Rosario de Andacollo, Mes de María 2021.",
+    "Conferencia Episcopal de Chile, Fiesta Chica y Fiesta Grande de Andacollo.",
+    "Conferencia Episcopal de Chile, Conmemoran 120° aniversario de la Coronación de Nuestra Señora del Rosario de Andacollo, 26 de diciembre de 2021.",
+    "San Juan Pablo II, Celebración de la Palabra sobre religiosidad popular, La Serena, 5 de abril de 1987.",
+    "Iglesia de La Serena, Fiesta Grande de Andacollo 2025 y conmemoración de los 350 años de la llegada de la imagen en 2026."
+  ]
+}
