@@ -1,0 +1,336 @@
+{
+  "id": "virgen-de-coromoto",
+  "name": "Nuestra Señora de Coromoto",
+  "title": "Nuestra Señora de Coromoto",
+  "subtitle": "Patrona de Venezuela y signo de fe, conversión y esperanza para su pueblo",
+  "image": null,
+  "feast": {
+    "text": "11 de septiembre",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta patronal",
+  "quote": null,
+  "patronages": [
+    "Venezuela",
+    "Familias",
+    "Pueblo venezolano",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Conversión",
+    "Esperanza",
+    "Unidad",
+    "Caridad",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora de Coromoto es venerada como Patrona de Venezuela. La tradición sitúa su manifestación al cacique Coromoto y a su esposa en la región de Guanare, y la Iglesia venezolana ha mantenido desde entonces esta advocación como un importante centro de evangelización y peregrinación.",
+    "extended": "La tradición de Nuestra Señora de Coromoto está vinculada a Guanare, en el actual estado Portuguesa, Venezuela. Según la tradición conservada por la Iglesia, la Virgen María se manifestó al cacique Coromoto y a su esposa en la región. San Juan Pablo II señaló en 1992 que la manifestación a los indígenas coromotos tuvo lugar el 8 de septiembre de 1652 y que, desde entonces, comenzó la veneración de la Virgen bajo este título. La devoción se consolidó en Guanare y pasó a formar parte de la identidad católica del pueblo venezolano. En 1944, Pío XII confirmó y declaró a Nuestra Señora de Coromoto Patrona de la República de Venezuela. En 1952 se realizó la solemne coronación canónica de su imagen. San Juan Pablo II visitó Venezuela en 1985 y coronó canónicamente la imagen, y en 1996 inauguró el Santuario Nacional de Nuestra Señora de Coromoto en Guanare, construido en el lugar vinculado a la tradición de las apariciones. La devoción coromotana invita a mirar a María como Madre que conduce hacia Jesucristo, a fortalecer la fe, a vivir la conversión y a construir unidad y caridad en la familia y en la comunidad."
+  },
+  "openingPrayer": "Nuestra Señora de Coromoto, Patrona de Venezuela, acompáñanos en esta novena. Ayúdanos a acercarnos más a Jesucristo, a vivir nuestra fe con perseverancia y a servir con caridad a quienes nos rodean. Amén.",
+  "closingPrayer": "Nuestra Señora de Coromoto, Madre y Patrona de Venezuela, intercede por nosotros, por nuestras familias y por todos los pueblos de nuestra tierra. Llévanos siempre hacia Jesucristo y ayúdanos a vivir en fe, esperanza, caridad y unidad. Amén.",
+  "intentions": [
+    "Por Venezuela y todos sus habitantes.",
+    "Por las familias venezolanas y por quienes viven lejos de su tierra.",
+    "Por la unidad, la paz y la reconciliación.",
+    "Por los pueblos indígenas y por quienes trabajan en la evangelización.",
+    "Por los enfermos, pobres, migrantes y personas que atraviesan dificultades."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14",
+    "Jn 19,25-27"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Acoger a Dios con confianza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Coromoto nació en Guanare y se convirtió con el tiempo en una expresión central de la fe católica venezolana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios y a responderle con una fe disponible y confiada."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito confiar más en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dudas, dificultades o crisis de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Coromoto, ayúdanos a confiar en Dios y a permanecer firmes en la fe. Amén."
+      },
+      "action": "Presenta hoy a Dios una preocupación concreta y entrégasela mediante una oración confiada.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Conversión",
+      "title": "Abrir el corazón a Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La tradición coromotana está vinculada a un llamado a acercarse a la fe cristiana y a recibir el bautismo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión no es solamente un momento del pasado: es una respuesta cotidiana al amor de Dios."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué aspecto de mi vida necesita ser renovado por el Evangelio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan a Dios y por quienes desean comenzar de nuevo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Coromoto, ayúdanos a reconocer aquello que debemos cambiar y a acercarnos con sinceridad a Jesucristo. Amén."
+      },
+      "action": "Reconoce hoy una actitud que necesites corregir y da un paso concreto para cambiarla.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Durante siglos, los fieles han acudido a Coromoto para pedir consuelo, protección y fortaleza en las dificultades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana nos permite afrontar las pruebas sin perder de vista la fidelidad de Dios."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito colocar hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, las familias en crisis y quienes viven situaciones de incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Coromoto, acompaña a quienes sufren y ayúdanos a mantener viva la esperanza. Amén."
+      },
+      "action": "Llama o escribe hoy a una persona que necesite una palabra de ánimo.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a la Patrona de Venezuela se vive también en hogares que recurren a María para pedir protección, consuelo y ayuda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La familia se fortalece mediante la oración, el diálogo, el perdón, la paciencia y el servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona de mi familia necesita hoy una atención especial de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, especialmente las que viven enfermedad, separación, pobreza o conflictos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Coromoto, protege nuestros hogares y enséñanos a vivir el amor con paciencia y respeto. Amén."
+      },
+      "action": "Realiza hoy un gesto concreto de cuidado o reconciliación dentro de tu familia.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Coromoto ha reunido a generaciones de venezolanos en torno a la oración, la peregrinación y la celebración de la fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe cristiana nos llama a superar divisiones y a reconocer la dignidad de cada persona."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer hoy para acercarme a alguien con quien existe distancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias, comunidades y de todo el pueblo venezolano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Coromoto, ayúdanos a superar divisiones y a trabajar por la fraternidad. Amén."
+      },
+      "action": "Da hoy un paso concreto para reconciliarte o acercarte a alguien.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Servicio",
+      "title": "Servir con caridad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El Santuario Nacional de Coromoto se ha convertido en lugar de peregrinación, oración y evangelización para numerosos fieles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción a María debe conducirnos a una vida cristiana concreta, marcada por la caridad y el servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de mi entorno puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a la Iglesia y por quienes acompañan a personas vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Coromoto, haznos disponibles para servir con humildad y generosidad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de servicio sin buscar reconocimiento.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Pueblos y culturas",
+      "title": "Reconocer la dignidad de cada pueblo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La tradición de Coromoto está profundamente vinculada a la memoria de los pueblos indígenas de la región de Guanare y a la historia de la evangelización de Venezuela."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe cristiana nos llama a reconocer la dignidad de cada pueblo y a promover el encuentro respetuoso entre personas y culturas."
+      },
+      "virtue": "Respeto",
+      "reflection": "¿Cómo puedo valorar mejor a las personas y culturas presentes en mi comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pueblos indígenas y por quienes trabajan por su dignidad y bienestar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Coromoto, acompaña a los pueblos de nuestra tierra y ayúdanos a vivir el respeto y la fraternidad. Amén."
+      },
+      "action": "Escucha hoy con respeto la historia o experiencia de una persona cuya realidad sea diferente de la tuya.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Los Papas han presentado la devoción a Coromoto dentro de la misión evangelizadora de la Iglesia venezolana y han recordado que María conduce a Jesucristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar también significa dar testimonio de Cristo mediante la vida, la palabra, la misericordia y el servicio."
+      },
+      "virtue": "Misión",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, religiosos, catequistas, misioneros y familias evangelizadoras."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Coromoto, ayúdanos a mostrar a Cristo con nuestra vida y nuestras obras. Amén."
+      },
+      "action": "Comparte hoy una palabra de esperanza o una experiencia de fe con alguien que la necesite.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El Santuario Nacional de Coromoto recuerda una tradición mariana que ha acompañado durante siglos la vida de fe del pueblo venezolano."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción a María alcanza su sentido pleno cuando nos lleva a Jesucristo y nos impulsa a vivir el Evangelio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso de oración o servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena, por Venezuela y por sus hijos dentro y fuera del país."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Coromoto, Madre y Patrona de Venezuela, acompáñanos siempre hacia Jesús. Intercede por nuestro pueblo y enséñanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o reconciliación que mantendrás durante las próximas semanas.",
+      "closing": "Nuestra Señora de Coromoto, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "venezuela",
+      "label": "Venezuela",
+      "keywords": [
+        "Venezuela",
+        "venezolano",
+        "venezolana"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliación",
+        "unidad"
+      ]
+    },
+    {
+      "id": "migrantes",
+      "label": "Migrantes y venezolanos fuera del país",
+      "keywords": [
+        "migrante",
+        "migrantes",
+        "emigrante",
+        "venezolanos"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y fe",
+      "keywords": [
+        "oración",
+        "fe",
+        "conversión",
+        "Cristo"
+      ]
+    }
+  ],
+  "sources": [
+    "San Juan Pablo II, Regina Caeli, 31 de mayo de 1992.",
+    "Pío XII, Radiomensaje a los fieles de Venezuela con motivo de la coronación de Nuestra Señora de Coromoto, 12 de septiembre de 1952.",
+    "San Juan Pablo II, Homilía en la inauguración del nuevo Santuario de Nuestra Señora de Coromoto, Guanare, 10 de febrero de 1996.",
+    "San Juan Pablo II, Homilía en la celebración eucarística en Caracas, 27 de enero de 1985."
+  ]
+}
