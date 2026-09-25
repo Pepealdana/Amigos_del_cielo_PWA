@@ -29,7 +29,9 @@
   },
   "quote": {
     "text": "Buscad primero el Reino de Dios y su justicia.",
-    "reference": "Mateo 6,33; principio central de la espiritualidad de San Cayetano según la tradición teatina y la enseñanza de la Santa Sede."
+    "reference": "Evangelio según san Mateo 6,33",
+    "type": "biblical",
+    "attribution": "Jesús"
   },
   "patronages": [
     "En Argentina es venerado popularmente como patrono del pan y del trabajo; este título expresa una devoción popular particularmente arraigada y no debe confundirse con un patronazgo universal formal. "
