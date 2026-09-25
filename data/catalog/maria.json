@@ -301,10 +301,10 @@
     {
       "id": "la-purisima",
       "name": "La Purísima / Inmaculada Concepción",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/la-purisima.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
