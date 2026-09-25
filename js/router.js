@@ -31,6 +31,8 @@ const router = {
 
             datos;
 
+        actualizarNavegacionInferior(ruta);
+
         cerrarMenu();
 
         switch (ruta) {
@@ -125,4 +127,25 @@ function navegar(
 
     );
 
+}
+
+/* ==========================================
+   NAVEGACIÓN INFERIOR
+========================================== */
+
+function actualizarNavegacionInferior(ruta) {
+
+    document
+        .querySelectorAll(".bottom-nav-item")
+        .forEach(boton => {
+
+            const activo =
+                boton.dataset.route === ruta;
+
+            boton.classList.toggle(
+                "active",
+                activo
+            );
+
+        });
 }
