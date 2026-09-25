@@ -1,0 +1,439 @@
+{
+  "id": "san-juan-macias",
+  "slug": "san-juan-macias",
+  "name": "San Juan Macías",
+  "title": "Padre de los pobres",
+  "subtitle": "Religioso dominico, servidor de los pobres y hombre de oración",
+  "category": "Santos",
+  "image": null,
+  "description": "San Juan Macías fue un religioso dominico español que llegó al Perú como emigrante y dedicó su vida a la oración, la caridad y el servicio de los pobres. Durante más de veinte años fue portero del convento de la Magdalena en Lima, desde donde atendió a personas necesitadas y unió la contemplación con una caridad concreta.",
+  "feast": {
+    "day": 16,
+    "month": 9,
+    "text": "16 de septiembre",
+    "liturgicalRank": "Memoria",
+    "movable": false,
+    "note": "En el Perú y en la tradición dominicana su celebración litúrgica se conmemora el 18 de septiembre."
+  },
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-juan-macias"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "quote": {
+    "text": "«Cada vez que lo hicisteis con uno de estos, mis hermanos más pequeños, conmigo lo hicisteis.»",
+    "reference": "Mateo 25,40. Texto del Evangelio, no una frase atribuida a San Juan Macías."
+  },
+  "patronages": [
+    "Pobres y necesitados",
+    "Emigrantes y personas que viven lejos de su tierra",
+    "Personas que buscan trabajo",
+    "Almas del purgatorio"
+  ],
+  "virtues": [
+    "Caridad",
+    "Humildad",
+    "Oración",
+    "Pobreza evangélica",
+    "Servicio",
+    "Compasión",
+    "Perseverancia",
+    "Confianza en Dios"
+  ],
+  "search": [
+    "san juan macias",
+    "san juan macías",
+    "juan macias",
+    "juan de macias",
+    "dominico",
+    "padre de los pobres",
+    "lima",
+    "perú",
+    "peru",
+    "cartagena",
+    "colombia",
+    "emigrantes",
+    "pobres",
+    "almas del purgatorio",
+    "rosario",
+    "novena"
+  ],
+  "history": {
+    "short": "San Juan Macías nació en Ribera del Fresno, España, en 1585. Emigró a América y llegó al Perú, donde ingresó en la Orden de Predicadores como hermano cooperador. Durante más de veinte años sirvió como portero del convento de la Magdalena en Lima y convirtió aquella tarea sencilla en un espacio de acogida, oración y ayuda a los pobres. Fue canonizado por Pablo VI en 1975.",
+    "extended": "Juan Macías nació el 2 de marzo de 1585 en Ribera del Fresno, en Extremadura, España. Quedó huérfano siendo niño y pasó parte de su juventud dedicado al pastoreo y al trabajo. Las fuentes dominicanas destacan desde esos años su vida de oración y su devoción a la Virgen María, especialmente mediante el Rosario. En 1616 emprendió el viaje hacia América. Llegó a Cartagena de Indias y posteriormente recorrió territorios de Nueva Granada y Quito antes de establecerse en el Perú. Esta experiencia como emigrante forma parte importante de su historia y ayuda a comprender su cercanía posterior con quienes vivían necesidades materiales o se encontraban lejos de su tierra. En Lima pidió ingresar en la vida religiosa y en 1622 tomó el hábito como hermano cooperador en el convento dominico de Santa María Magdalena. Desde 1623 ejerció durante más de veinte años el servicio de portero. Una tarea aparentemente humilde se convirtió en un verdadero ministerio de acogida: atendía a pobres y enfermos, distribuía ayudas y alimentos, escuchaba a quienes acudían a él y los acompañaba con oración. El papa Pablo VI, en la homilía de su canonización, presentó a Juan Macías como un hombre que unió una intensa vida interior con la atención concreta a los necesitados. Su caridad no consistía solamente en dar bienes; también buscaba orientar a las personas hacia Dios y promover relaciones marcadas por la dignidad y la fraternidad. San Juan Macías vivió en el mismo contexto histórico que San Martín de Porres y Santa Rosa de Lima, y las fuentes dominicanas señalan su cercanía con ambos. La tradición también conserva un fuerte vínculo entre su vida de oración y su preocupación por las almas del purgatorio, especialmente mediante el rezo del Rosario. Algunas narraciones devocionales sobre experiencias místicas, milagros o intervenciones sobrenaturales pertenecen a la tradición hagiográfica y no deben presentarse como hechos históricos demostrados sin matización. Murió en Lima el 16 de septiembre de 1645. Fue beatificado por el papa Gregorio XVI en el siglo XIX y canonizado por el papa Pablo VI el 28 de septiembre de 1975. Su figura sigue siendo especialmente significativa en el Perú, donde se le recuerda como servidor de los pobres y como ejemplo de cómo una vida sencilla puede convertirse en servicio cristiano. Su testimonio une oración, trabajo, acogida del migrante y caridad activa."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Juan Macías, servidor humilde de Cristo y amigo de los pobres, enséñame a descubrir a Jesús en quienes necesitan ayuda, escucha y consuelo. Dame un corazón generoso, una fe perseverante y una vida de oración que se traduzca en obras de caridad. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Juan Macías, gracias por acompañarme durante esta novena. Ruega por los pobres, los enfermos, los desempleados, los emigrantes y todos quienes viven situaciones de necesidad. Intercede también por quienes buscan trabajo lejos de su tierra y por las almas de nuestros difuntos. Ayúdanos a unir la oración con el servicio y a reconocer a Cristo en nuestros hermanos. Lleva nuestras intenciones ante el Señor y enséñanos a vivir con humildad, confianza y caridad. Amén.",
+  "intentions": [
+    "Por las personas que viven en pobreza o necesidad.",
+    "Por quienes buscan trabajo y por quienes han tenido que emigrar.",
+    "Por los enfermos, ancianos y personas que viven solas.",
+    "Por quienes trabajan al servicio de los pobres y vulnerables.",
+    "Por las familias que atraviesan dificultades económicas.",
+    "Por las almas de nuestros familiares y amigos difuntos.",
+    "Por quienes se sienten lejos de su tierra y de sus seres queridos.",
+    "Por la Iglesia y sus obras de misericordia.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Mateo 6,25-34"
+      },
+      {
+        "reference": "Lucas 4,16-21"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Santiago 2,14-17"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización de San Juan Macías, Pablo VI, 28 de septiembre de 1975",
+      "Biografía de San Juan Macías, Frailes Dominicos",
+      "Material litúrgico dominicano sobre San Juan Macías"
+    ],
+    "related": [
+      "Orden de Predicadores",
+      "Iglesia en el Perú",
+      "San Martín de Porres",
+      "Santa Rosa de Lima",
+      "Obras de misericordia",
+      "Emigrantes"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Canonización de Juan Macías — Homilía del Santo Padre Pablo VI",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/paul-vi/es/homilies/1975/documents/hf_p-vi_hom_19750928.html",
+      "type": "official"
+    },
+    {
+      "title": "San Juan Macías — Grandes figuras",
+      "organization": "Orden de Predicadores",
+      "url": "https://www.dominicos.org/quienes-somos/grandes-figuras/san-juan-macias/",
+      "type": "institutional"
+    },
+    {
+      "title": "San Juan Macías — Recursos",
+      "organization": "Orden de Predicadores",
+      "url": "https://www.dominicos.org/estudio/recurso/san-juan-macias/",
+      "type": "institutional"
+    },
+    {
+      "title": "San Juan Macías, hermano",
+      "organization": "Frailes Dominicos de Argentina",
+      "url": "https://www.op.org.ar/san-juan-macias-hermano/",
+      "type": "institutional"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Caridad",
+      "title": "Abrir el corazón a quien necesita ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Juan Macías convirtió una tarea humilde en un servicio constante a las personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana comienza cuando dejamos de mirar la necesidad de otros como un problema ajeno."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de otra persona puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven pobreza o necesidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, enséñame a servir con generosidad y sin buscar reconocimiento. Amén."
+      },
+      "action": "Realiza hoy un acto concreto de ayuda a una persona que lo necesite.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Oración",
+      "title": "Unir oración y servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su vida en el convento estuvo marcada por una intensa oración que no lo alejaba de las necesidades de los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración auténtica puede transformar nuestra manera de mirar y servir a los demás."
+      },
+      "virtue": "Vida de oración",
+      "reflection": "¿Mi oración me lleva a una mayor caridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a los demás y necesitan renovar su vida interior."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, enséñame a buscar a Cristo en la oración y a encontrarlo también en mis hermanos. Amén."
+      },
+      "action": "Reserva hoy un momento de silencio para orar por una persona que atraviesa una dificultad.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Humildad",
+      "title": "Servir desde lo pequeño",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Macías eligió la vida de hermano cooperador y ejerció durante años un servicio sencillo como portero."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dios puede hacer fecundo un servicio que el mundo considera pequeño cuando se realiza con amor."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Acepto con paz las tareas sencillas que puedo hacer por otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes realizan trabajos humildes y por quienes sienten que su esfuerzo no es valorado."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, ayúdame a servir con humildad y alegría en las tareas de cada día. Amén."
+      },
+      "action": "Haz una tarea sencilla que beneficie a otra persona sin anunciar que la hiciste.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Acogida",
+      "title": "Abrir la puerta al que llega",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La portería del convento fue para Juan Macías un lugar de encuentro con personas necesitadas de ayuda, consejo y consuelo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acoger significa reconocer que la otra persona merece tiempo, respeto y atención."
+      },
+      "virtue": "Acogida",
+      "reflection": "¿Hay alguien cercano que necesite sentirse escuchado o recibido?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por emigrantes, personas solas y quienes se sienten excluidos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, dame un corazón dispuesto a recibir al que llega y a acompañarlo con respeto. Amén."
+      },
+      "action": "Escucha hoy a alguien sin interrumpirlo y sin convertir inmediatamente su experiencia en un consejo.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Pobreza evangélica",
+      "title": "Compartir con generosidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pablo VI presentó a Juan Macías como testigo de una pobreza vivida con dignidad y puesta al servicio de los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La pobreza evangélica no consiste en despreciar a quien necesita ayuda, sino en aprender a vivir sin convertir los bienes en el centro de la existencia."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué puedo compartir de mis bienes, tiempo o capacidades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias que atraviesan dificultades económicas y por quienes carecen de lo necesario."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, enséñame a compartir lo que tengo y a confiar en la providencia de Dios. Amén."
+      },
+      "action": "Comparte hoy alimento, tiempo o una ayuda concreta con quien la necesite.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Emigrantes",
+      "title": "Acompañar a quien está lejos de su tierra",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Macías vivió personalmente la experiencia de emigrar desde España hacia América antes de establecerse en el Perú."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Quien ha tenido que dejar su tierra necesita no solo ayuda material, sino también acogida, vínculos y esperanza."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Cómo puedo hacer más acogedora mi comunidad para quien viene de otro lugar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por migrantes y emigrantes, especialmente quienes buscan trabajo o viven separados de sus familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, acompaña a quienes viven lejos de su tierra y ayúdanos a recibirlos con fraternidad. Amén."
+      },
+      "action": "Haz un gesto de acogida hacia una persona que haya llegado recientemente a tu comunidad.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Trabajo",
+      "title": "Santificar las responsabilidades cotidianas",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Antes y después de su vida religiosa, Juan Macías realizó trabajos sencillos y procuró cumplirlos con responsabilidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El trabajo cotidiano puede convertirse en servicio cuando se realiza con honestidad, responsabilidad y atención al bien de otros."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Estoy realizando mis responsabilidades con la actitud de quien sirve?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan empleo, por los trabajadores y por quienes viven precariedad laboral."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, acompaña a quienes trabajan y a quienes buscan una oportunidad digna para sostener a sus familias. Amén."
+      },
+      "action": "Cumple hoy una responsabilidad pendiente con especial cuidado y sin quejarte.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Intercesión",
+      "title": "Orar por los demás",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición dominicana conserva una fuerte memoria de la oración de Juan Macías por otras personas y por las almas del purgatorio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Interceder es presentar ante Dios las necesidades de otros y recordar que nadie está solo cuando la comunidad cristiana ora por él."
+      },
+      "virtue": "Intercesión",
+      "reflection": "¿Por quién necesito orar hoy de manera especial?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestros familiares y amigos difuntos y por quienes no tienen quien rece por ellos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, presenta ante el Señor nuestras súplicas y enséñanos a sostener a los demás con la oración. Amén."
+      },
+      "action": "Reza hoy un misterio del Rosario o una oración por una persona fallecida.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Perseverancia",
+      "title": "Permanecer fiel en el servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Macías permaneció durante años en un servicio sencillo, convirtiendo la constancia cotidiana en camino de santidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad no siempre se manifiesta en grandes acciones; muchas veces consiste en seguir haciendo el bien cuando nadie nos ve."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué obra buena necesito mantener aunque no vea resultados inmediatos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por la perseverancia en la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Macías, ayúdame a perseverar en la oración, el trabajo y la caridad, aun cuando no vea frutos inmediatos. Amén."
+      },
+      "action": "Elige una práctica de oración o servicio de esta novena y comprométete a mantenerla durante las próximas semanas.",
+      "closing": "San Juan Macías, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "pobreza",
+      "label": "Pobreza y obras de misericordia",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "misericordia",
+        "necesidad",
+        "caridad"
+      ]
+    },
+    {
+      "id": "migrantes",
+      "label": "Migrantes y emigrantes",
+      "keywords": [
+        "migrantes",
+        "emigrantes",
+        "trabajo",
+        "tierra",
+        "familia"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y almas del purgatorio",
+      "keywords": [
+        "oración",
+        "oracion",
+        "rosario",
+        "purgatorio",
+        "difuntos"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y búsqueda de empleo",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "desempleo",
+        "familia",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio y acogida",
+      "keywords": [
+        "servicio",
+        "acogida",
+        "escucha",
+        "humildad",
+        "comunidad"
+      ]
+    }
+  ]
+}
