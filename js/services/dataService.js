@@ -6,22 +6,47 @@
 const DATA_PATH = "./data/novenas.json";
 
 async function cargarCatalogo() {
-    const response = await fetch(DATA_PATH, { cache: "no-cache" });
+    let response;
+
+    try {
+        response = await fetch(DATA_PATH, { cache: "no-cache" });
+    } catch (error) {
+        const fallo = new Error("No fue posible conectar con el catálogo.");
+        fallo.code = "CATALOG_NETWORK";
+        fallo.cause = error;
+        throw fallo;
+    }
 
     if (!response.ok) {
-        throw new Error(
+        const error = new Error(
             "No fue posible cargar el catálogo (" +
             response.status +
             ")."
         );
+        error.code = response.status === 404
+            ? "CATALOG_NOT_FOUND"
+            : "CATALOG_HTTP";
+        error.status = response.status;
+        throw error;
     }
 
-    const catalogo = await response.json();
+    let catalogo;
+
+    try {
+        catalogo = await response.json();
+    } catch (error) {
+        const fallo = new Error("El catálogo contiene datos que no se pueden interpretar.");
+        fallo.code = "CATALOG_INVALID_JSON";
+        fallo.cause = error;
+        throw fallo;
+    }
 
     if (!Array.isArray(catalogo)) {
-        throw new Error(
+        const error = new Error(
             "El catálogo de novenas no tiene un formato válido."
         );
+        error.code = "CATALOG_INVALID";
+        throw error;
     }
 
     state.catalogo = catalogo.filter(
@@ -38,15 +63,19 @@ async function cargarCatalogo() {
 
 async function cargarNovena(id) {
     if (!id) {
-        throw new Error("No se indicó el identificador de la novena.");
+        const error = new Error("No se indicó el identificador de la novena.");
+        error.code = "NOVENA_ID_MISSING";
+        throw error;
     }
 
     const resumen = buscarNovenaPorId(state.catalogo, id);
 
     if (!resumen || !resumen.file) {
-        throw new Error(
+        const error = new Error(
             "No existe una novena válida con id: " + id
         );
+        error.code = "NOVENA_NOT_FOUND";
+        throw error;
     }
 
     const ruta = "./" + resumen.file.replace(/^\.\//, "");
@@ -54,11 +83,15 @@ async function cargarNovena(id) {
     const novena = await cargarJSONConRecuperacion(ruta);
 
     if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
-        throw new Error("Los datos de la novena no son válidos.");
+        const error = new Error("Los datos de la novena no son válidos.");
+        error.code = "NOVENA_INVALID";
+        throw error;
     }
 
     if (!Array.isArray(novena.days) || novena.days.length === 0) {
-        throw new Error("La novena no contiene días válidos.");
+        const error = new Error("La novena no contiene días válidos.");
+        error.code = "NOVENA_EMPTY";
+        throw error;
     }
 
     if (!novena.id) {
@@ -101,14 +134,27 @@ async function cargarJSONConRecuperacion(ruta) {
         );
 
         if (!response.ok) {
-            throw new Error(
+            const error = new Error(
                 "No fue posible cargar la novena (" +
                 response.status +
                 ")."
             );
+            error.code =
+                response.status === 404
+                    ? "NOVENA_NOT_FOUND"
+                    : "NOVENA_HTTP";
+            error.status = response.status;
+            throw error;
         }
 
-        return await response.json();
+        try {
+            return await response.json();
+        } catch (error) {
+            const fallo = new Error("El archivo de la novena no contiene JSON válido.");
+            fallo.code = "NOVENA_INVALID_JSON";
+            fallo.cause = error;
+            throw fallo;
+        }
 
     } catch (error) {
         ultimoError = error;
@@ -137,22 +183,45 @@ async function cargarJSONConRecuperacion(ruta) {
             );
 
             if (!response.ok) {
-                throw new Error(
+                const error = new Error(
                     "No fue posible actualizar la novena (" +
                     response.status +
                     ")."
                 );
+                error.code =
+                    response.status === 404
+                        ? "NOVENA_NOT_FOUND"
+                        : "NOVENA_HTTP";
+                error.status = response.status;
+                throw error;
             }
 
-            return await response.json();
+            try {
+                return await response.json();
+            } catch (error) {
+                const fallo = new Error("El archivo actualizado de la novena no contiene JSON válido.");
+                fallo.code = "NOVENA_INVALID_JSON";
+                fallo.cause = error;
+                throw fallo;
+            }
 
         } catch (error) {
             ultimoError = error;
         }
     }
 
+    if (ultimoError && !ultimoError.code) {
+        ultimoError.code =
+            navigator.onLine
+                ? "NOVENA_LOAD_FAILED"
+                : "NOVENA_OFFLINE";
+    }
+
     throw ultimoError ||
-        new Error("No fue posible cargar los datos de la novena.");
+        Object.assign(
+            new Error("No fue posible cargar los datos de la novena."),
+            { code: "NOVENA_LOAD_FAILED" }
+        );
 }
 
 function obtenerDia(numeroDia) {
