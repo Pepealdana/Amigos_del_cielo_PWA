@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v68";
+const CACHE_NAME = "amigos-del-cielo-v69";
 
 const APP_SHELL = [
     "./",
