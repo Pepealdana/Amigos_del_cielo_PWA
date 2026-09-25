@@ -118,11 +118,17 @@ function renderListaBiblioteca(catalogo = []) {
             data-action="open-novena"
             data-id="${escaparHTML(novena.id)}">
 
-            <img
-                src="${escaparHTML(novena.image)}"
-                alt="${escaparHTML(novena.name)}"
-                class="library-item-image"
-                loading="lazy">
+            ${novena.image ? `
+                <img
+                    src="${escaparHTML(novena.image)}"
+                    alt="${escaparHTML(novena.name)}"
+                    class="library-item-image"
+                    loading="lazy">
+            ` : `
+                <span
+                    class="library-item-image library-item-image-placeholder"
+                    aria-hidden="true">✦</span>
+            `}
 
             <span class="library-item-content">
 
