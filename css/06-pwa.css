@@ -1067,6 +1067,48 @@ body.dark .simple-panel{
 
 
 /* ==========================================================
+   CONTEXTO REGIONAL
+========================================================== */
+
+.region-panel{
+    margin-top:1rem;
+}
+
+.region-panel label{
+    display:block;
+    margin-top:.85rem;
+    color:var(--color-primary);
+    font-size:.86rem;
+    font-weight:700;
+}
+
+.settings-select{
+    width:100%;
+    min-height:48px;
+    margin-top:.4rem;
+    padding:.7rem .85rem;
+    border:1px solid var(--color-border);
+    border-radius:12px;
+    background:var(--color-surface);
+    color:var(--color-text);
+    font:inherit;
+    font-size:.92rem;
+}
+
+.settings-select:focus-visible{
+    outline:3px solid var(--color-secondary);
+    outline-offset:2px;
+    border-color:var(--color-primary);
+}
+
+.settings-help{
+    margin:.65rem 0 0;
+    color:var(--color-text-light);
+    font-size:.78rem;
+    line-height:1.5;
+}
+
+/* ==========================================================
    OPCIONES DE APARIENCIA
 ========================================================== */
 
