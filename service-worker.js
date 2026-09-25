@@ -61,6 +61,7 @@ const APP_SHELL = [
     "./data/santa-laura-montoya.json",
     "./data/san-juan-macias.json",
     "./data/santa-teresa-de-jesus-de-los-andes.json",
+    "./data/san-alberto-hurtado.json",
     "./css/style.css",
     "./css/01-base.css",
     "./css/02-layout.css",
