@@ -14,7 +14,6 @@ const STORAGE_KEYS = {
     PROGRESS: "adc-progress",
     SETTINGS: "adc-settings",
     INTENTIONS: "adc-intentions",
-    REMINDERS: "adc-reminders"
 };
 
 const ROUTES = {
