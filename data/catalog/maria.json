@@ -93,12 +93,14 @@
     {
       "id": "virgen-de-chiquinquira",
       "name": "Nuestra Señora del Rosario de Chiquinquirá",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-chiquinquira.json",
+      "priority": "existente",
       "territorial": {
-        "origin": [],
+        "origin": [
+          "CO"
+        ],
         "historicalLinks": [
           "CO"
         ],
