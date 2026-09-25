@@ -1445,3 +1445,57 @@
     text-align:center;
 
 }
+
+/* ==========================================================
+   ACCESIBILIDAD — ESTADOS Y CONTROLES
+========================================================== */
+
+.empty-state-icon{
+    margin-bottom:1rem;
+    font-size:2rem;
+    line-height:1;
+}
+
+.error-state .empty-state-icon{
+    color:var(--color-error);
+}
+
+.empty-state-actions{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:.65rem;
+    margin-top:1.25rem;
+}
+
+.empty-state-actions .btn{
+    width:auto;
+    min-width:150px;
+}
+
+@media (max-width:480px){
+    .empty-state-actions{
+        flex-direction:column;
+    }
+
+    .empty-state-actions .btn{
+        width:100%;
+    }
+}
+
+.btn:focus-visible,
+.bottom-nav-item:focus-visible,
+.side-menu > button:focus-visible,
+.appearance-option:focus-visible,
+.library-filter:focus-visible{
+    outline:3px solid var(--color-secondary);
+    outline-offset:2px;
+}
+
+@media (prefers-reduced-motion:reduce){
+    .btn:hover,
+    .novena-card:hover,
+    .dashboard-card:hover{
+        transform:none;
+    }
+}
