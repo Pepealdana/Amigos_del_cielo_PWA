@@ -31,6 +31,10 @@ async function iniciarApp() {
         aplicarPreferenciasVisuales();
         escucharPreferenciaSistema();
 
+        if (!navigator.onLine) {
+            mostrarEstadoConexion(false);
+        }
+
         solicitarPersistenciaStorage();
 
         await cargarCatalogo();
