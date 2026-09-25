@@ -147,5 +147,16 @@ function actualizarNavegacionInferior(ruta) {
                 activo
             );
 
+            if (activo) {
+                boton.setAttribute(
+                    "aria-current",
+                    "page"
+                );
+            } else {
+                boton.removeAttribute(
+                    "aria-current"
+                );
+            }
+
         });
 }
