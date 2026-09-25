@@ -1,0 +1,289 @@
+{
+  "id": "nuestra-senora-del-pilar",
+  "name": "Nuestra Señora del Pilar",
+  "title": "Nuestra Señora del Pilar",
+  "subtitle": "Patrona de la Hispanidad y advocación mariana vinculada a Zaragoza",
+  "image": null,
+  "feast": {
+    "text": "12 de octubre",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "Hispanidad",
+    "Aragón",
+    "Zaragoza",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Perseverancia",
+    "Evangelización",
+    "Confianza"
+  ],
+  "history": {
+    "short": "Nuestra Señora del Pilar es una de las advocaciones marianas más antiguas y veneradas de España. Su santuario se encuentra en Zaragoza, junto al río Ebro.",
+    "extended": "La devoción a Nuestra Señora del Pilar está vinculada a la ciudad de Zaragoza y a una antigua tradición cristiana según la cual la Virgen María se manifestó al apóstol Santiago a orillas del río Ebro para animarlo en la predicación del Evangelio y le dejó como signo una columna. El relato escrito más antiguo conocido de esta tradición se conserva en un códice relacionado con el archivo del Pilar y fue puesto por escrito a finales del siglo XIII. San Juan Pablo II describió en 1987 esta tradición como una tradición local muy antigua y señaló la columna venerada en la Santa Capilla. La basílica del Pilar se convirtió en uno de los principales centros de peregrinación mariana de España. San Juan Pablo II la presentó en 1982 como símbolo de la devoción mariana de España y en 1984 se refirió a Nuestra Señora del Pilar como Patrona de la Hispanidad. La fiesta se celebra el 12 de octubre y tiene una particular proyección en España y en numerosos países de tradición hispánica."
+  },
+  "openingPrayer": "Nuestra Señora del Pilar, acompáñanos en esta novena. Fortalece nuestra fe y enséñanos, como Madre de la Iglesia, a llevar a Jesucristo a nuestra vida y a nuestro mundo. Amén.",
+  "closingPrayer": "Nuestra Señora del Pilar, Madre de Cristo y de la Iglesia, intercede por nosotros y ayúdanos a permanecer firmes en la fe, la esperanza y la caridad. Amén.",
+  "intentions": [
+    "Por España, Aragón y la ciudad de Zaragoza.",
+    "Por los pueblos de tradición hispánica y sus familias.",
+    "Por la Iglesia y la evangelización.",
+    "Por los peregrinos que acuden al Santuario del Pilar.",
+    "Por quienes necesitan fortaleza, esperanza y consuelo."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,8",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Permanecer firmes en la fe",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué aspecto de mi vida necesita una fe más firme?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por España, Aragón y Zaragoza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Confiar en la ayuda de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito entregar hoy a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan momentos de incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Evangelización",
+      "title": "Anunciar a Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo del Evangelio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la evangelización de los pueblos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Perseverancia",
+      "title": "No abandonar el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Cuidar a quienes amamos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Cómo puedo fortalecer hoy la unidad de mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y sus necesidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Caridad",
+      "title": "Servir al hermano",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo ayudar concretamente hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y personas necesitadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Unidad",
+      "title": "Construir comunión",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de la Iglesia y de las comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Confianza",
+      "title": "Poner nuestra vida en manos de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación necesito confiar plenamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan consuelo y fortaleza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Pilar está profundamente vinculada a Zaragoza y a una antigua tradición sobre los primeros tiempos de la evangelización en la Península Ibérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a permanecer firmes en la fe, la esperanza, la caridad y el servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por España, los pueblos hispánicos, la Iglesia y todos sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Pilar, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Pilar, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Ángelus, 15 de noviembre de 1987.",
+    "San Juan Pablo II, Celebración de la Palabra y Acto Mariano Nacional en Zaragoza, 6 de noviembre de 1982.",
+    "San Juan Pablo II, Ceremonia de bienvenida en Zaragoza, 10 de octubre de 1984.",
+    "Pío XII, Radiomensaje al Congreso Mariano Nacional de España, 12 de octubre de 1954.",
+    "Archidiócesis de Zaragoza, El Pilar: historia y venerable tradición."
+  ]
+}
