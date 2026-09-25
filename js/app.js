@@ -226,9 +226,9 @@ async function iniciarApp() {
         );
 
         mostrarError(
-
-            "No fue posible iniciar la aplicación."
-
+            obtenerMensajeErrorInicio(error),
+            obtenerTituloErrorInicio(error),
+            "reload"
         );
 
     }
@@ -392,53 +392,75 @@ function registrarEvento(
    MENÚ LATERAL
 ========================================== */
 
+let elementoConFocoAntesDelMenu = null;
+
+function actualizarEstadoMenu(abierto) {
+    const boton = document.getElementById("btn-menu");
+    const menu = document.getElementById("side-menu");
+
+    boton?.setAttribute("aria-expanded", String(abierto));
+    menu?.setAttribute("aria-hidden", String(!abierto));
+}
+
 function alternarMenu() {
+    const menu =
+        document.getElementById("side-menu");
 
-    document
-
-        .getElementById("side-menu")
-
-        ?.classList.toggle("open");
-
-    document
-
-        .getElementById("menu-overlay")
-
-        ?.classList.toggle("show");
-
+    if (menu?.classList.contains("open")) {
+        cerrarMenu();
+    } else {
+        abrirMenu();
+    }
 }
 
 function abrirMenu() {
+    elementoConFocoAntesDelMenu =
+        document.activeElement;
 
     document
-
         .getElementById("side-menu")
-
         ?.classList.add("open");
 
     document
-
         .getElementById("menu-overlay")
-
         ?.classList.add("show");
 
+    actualizarEstadoMenu(true);
+
+    window.setTimeout(() => {
+        document
+            .getElementById("menu-inicio")
+            ?.focus();
+    }, 0);
 }
 
 function cerrarMenu() {
-
     document
-
         .getElementById("side-menu")
-
         ?.classList.remove("open");
 
     document
-
         .getElementById("menu-overlay")
-
         ?.classList.remove("show");
 
+    actualizarEstadoMenu(false);
+
+    if (
+        elementoConFocoAntesDelMenu &&
+        document.contains(elementoConFocoAntesDelMenu)
+    ) {
+        elementoConFocoAntesDelMenu.focus();
+    }
+
+    elementoConFocoAntesDelMenu = null;
 }
+
+document.addEventListener("keydown", evento => {
+    if (evento.key === "Escape") {
+        cerrarMenu();
+        cerrarModal();
+    }
+});
 function mostrarResultadoCompartir(resultado) {
 
     if (!resultado?.compartido) {
@@ -592,9 +614,9 @@ async function abrirNovena(id) {
         console.error(error);
 
         mostrarError(
-
-            "No fue posible cargar la novena."
-
+            obtenerMensajeErrorNovena(error),
+            obtenerTituloErrorNovena(error),
+            "biblioteca"
         );
 
     }
@@ -847,9 +869,9 @@ function mostrarDia(numeroDia) {
     if (!dia) {
 
         mostrarError(
-
-            "No existe ese día de la novena."
-
+            "El día solicitado no está disponible en esta novena.",
+            "Día no disponible",
+            "portada"
         );
 
         return;
@@ -922,6 +944,10 @@ function renderizar(html) {
 
     view.innerHTML = html;
 
+    window.requestAnimationFrame(() => {
+        view.focus();
+    });
+
 }
 
 /* ==========================================
@@ -957,55 +983,111 @@ function obtenerView() {
 ========================================== */
 
 function mostrarError(
-
     mensaje,
-
-    titulo = "Error"
-
+    titulo = "Error",
+    accion = null
 ) {
 
-    if (
+    const tituloSeguro =
+        escaparHTML(titulo);
 
-        typeof renderEmptyState === "function"
+    const mensajeSeguro =
+        escaparHTML(mensaje);
 
-    ) {
+    const botones = [];
 
-        renderizar(
-
-            renderEmptyState(
-
-                titulo,
-
-                mensaje
-
-            )
-
+    if (accion === "reload") {
+        botones.push(
+            '<button class="btn btn-primary" type="button" data-action="retry-app">Reintentar</button>'
         );
-
-        return;
-
     }
 
-    renderizar(`
+    if (accion === "biblioteca") {
+        botones.push(
+            '<button class="btn btn-primary" type="button" data-action="go-library">Ir a la biblioteca</button>'
+        );
+    }
 
-        <section class="home">
+    if (accion === "portada") {
+        botones.push(
+            '<button class="btn btn-primary" type="button" data-action="go-novena">Volver a la novena</button>'
+        );
+    }
 
-            <h2>
+    const acciones =
+        botones.length
+            ? '<div class="empty-state-actions">' +
+              botones.join("") +
+              '</div>'
+            : "";
 
-                ${titulo}
+    renderizar(
+        '<section class="empty-state error-state" role="alert" aria-live="assertive">' +
+        '<div class="empty-state-icon" aria-hidden="true">!</div>' +
+        '<h2>' + tituloSeguro + '</h2>' +
+        '<p>' + mensajeSeguro + '</p>' +
+        acciones +
+        '</section>'
+    );
+}
 
-            </h2>
+function obtenerTituloErrorInicio(error) {
+    switch (error?.code) {
+        case "CATALOG_NOT_FOUND":
+            return "Catálogo no disponible";
+        case "CATALOG_INVALID":
+        case "CATALOG_INVALID_JSON":
+            return "Catálogo no válido";
+        case "CATALOG_NETWORK":
+            return "Sin conexión";
+        default:
+            return "No fue posible iniciar la aplicación";
+    }
+}
 
-            <p>
+function obtenerMensajeErrorInicio(error) {
+    switch (error?.code) {
+        case "CATALOG_NETWORK":
+            return "No pudimos conectar con el catálogo de novenas. Comprueba tu conexión e inténtalo nuevamente.";
+        case "CATALOG_NOT_FOUND":
+            return "El catálogo de novenas no está disponible en este momento.";
+        case "CATALOG_INVALID":
+        case "CATALOG_INVALID_JSON":
+            return "El catálogo no pudo interpretarse correctamente. Puedes intentar cargarlo nuevamente.";
+        default:
+            return "Ocurrió un problema al iniciar Amigos del Cielo. Puedes intentar nuevamente.";
+    }
+}
 
-                ${mensaje}
+function obtenerTituloErrorNovena(error) {
+    switch (error?.code) {
+        case "NOVENA_NOT_FOUND":
+            return "Novena no disponible";
+        case "NOVENA_INVALID":
+        case "NOVENA_INVALID_JSON":
+        case "NOVENA_EMPTY":
+            return "Contenido no válido";
+        case "NOVENA_OFFLINE":
+            return "Sin conexión";
+        default:
+            return "No fue posible cargar la novena";
+    }
+}
 
-            </p>
-
-        </section>
-
-    `);
-
+function obtenerMensajeErrorNovena(error) {
+    switch (error?.code) {
+        case "NOVENA_NOT_FOUND":
+            return "No encontramos el contenido de esta novena. Puede que el enlace sea incorrecto o que el contenido ya no esté disponible.";
+        case "NOVENA_INVALID":
+        case "NOVENA_INVALID_JSON":
+            return "El contenido de esta novena no pudo interpretarse correctamente.";
+        case "NOVENA_EMPTY":
+            return "Esta novena no contiene días disponibles para comenzar.";
+        case "NOVENA_OFFLINE":
+            return "Estás sin conexión y el contenido de esta novena no está disponible en el dispositivo.";
+        default:
+            return "Ocurrió un problema al cargar esta novena. Puedes volver a la biblioteca.";
+    }
 }
 
 /* ==========================================
@@ -1161,6 +1243,21 @@ function manejarClicksPWA(evento) {
 
         if (tipo === "theme" && accion.dataset.theme) {
             cambiarTema(accion.dataset.theme);
+            return;
+        }
+
+        if (tipo === "retry-app") {
+            window.location.reload();
+            return;
+        }
+
+        if (tipo === "go-library") {
+            navegar("biblioteca");
+            return;
+        }
+
+        if (tipo === "go-novena" && state.novenaActual) {
+            mostrarPortadaNovena();
             return;
         }
     }
