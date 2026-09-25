@@ -8,8 +8,7 @@
       "name": "San José",
       "countries": [
         "CO",
-        "MX",
-        "AMERICA"
+        "MX"
       ],
       "status": "published",
       "category": "santos",
@@ -97,8 +96,7 @@
       "id": "san-martin-de-porres",
       "name": "San Martín de Porres",
       "countries": [
-        "PE",
-        "AMERICA"
+        "PE"
       ],
       "status": "published",
       "category": "santos",
@@ -120,8 +118,7 @@
       "id": "san-pedro-claver",
       "name": "San Pedro Claver",
       "countries": [
-        "CO",
-        "AMERICA"
+        "CO"
       ],
       "status": "published",
       "category": "santos",
@@ -154,8 +151,7 @@
       "id": "san-cayetano",
       "name": "San Cayetano",
       "countries": [
-        "AR",
-        "AMERICA"
+        "AR"
       ],
       "status": "published",
       "category": "santos",
@@ -166,8 +162,7 @@
       "id": "san-jose-gregorio-hernandez",
       "name": "San José Gregorio Hernández",
       "countries": [
-        "VE",
-        "AMERICA"
+        "VE"
       ],
       "status": "published",
       "category": "santos",
@@ -222,8 +217,7 @@
       "id": "santa-rosa-de-lima",
       "name": "Santa Rosa de Lima",
       "countries": [
-        "PE",
-        "AMERICA"
+        "PE"
       ],
       "status": "published",
       "category": "santos",
@@ -311,8 +305,7 @@
       "id": "santa-laura-montoya",
       "name": "Santa Laura Montoya",
       "countries": [
-        "CO",
-        "AMERICA"
+        "CO"
       ],
       "status": "published",
       "category": "santos",
@@ -356,8 +349,7 @@
       "id": "san-juan-diego",
       "name": "San Juan Diego",
       "countries": [
-        "MX",
-        "AMERICA"
+        "MX"
       ],
       "status": "pending",
       "category": "santos",
@@ -368,8 +360,7 @@
       "id": "san-jose-sanchez-del-rio",
       "name": "San José Sánchez del Río",
       "countries": [
-        "MX",
-        "AMERICA"
+        "MX"
       ],
       "status": "pending",
       "category": "santos",
@@ -380,8 +371,7 @@
       "id": "san-pedro-de-san-jose-de-betancur",
       "name": "San Pedro de San José de Betancur",
       "countries": [
-        "GT",
-        "AMERICA"
+        "GT"
       ],
       "status": "pending",
       "category": "santos",
@@ -392,8 +382,7 @@
       "id": "san-oscar-romero",
       "name": "San Óscar Arnulfo Romero",
       "countries": [
-        "SV",
-        "AMERICA"
+        "SV"
       ],
       "status": "pending",
       "category": "santos",
@@ -404,8 +393,7 @@
       "id": "santa-mariana-de-jesus",
       "name": "Santa Mariana de Jesús",
       "countries": [
-        "EC",
-        "AMERICA"
+        "EC"
       ],
       "status": "pending",
       "category": "santos",
@@ -416,8 +404,7 @@
       "id": "santo-toribio-de-mogrovejo",
       "name": "Santo Toribio de Mogrovejo",
       "countries": [
-        "PE",
-        "AMERICA"
+        "PE"
       ],
       "status": "pending",
       "category": "santos",
@@ -428,8 +415,7 @@
       "id": "san-juan-macias",
       "name": "San Juan Macías",
       "countries": [
-        "PE",
-        "AMERICA"
+        "PE"
       ],
       "status": "pending",
       "category": "santos",
@@ -440,8 +426,7 @@
       "id": "santa-teresa-de-jesus-de-los-andes",
       "name": "Santa Teresa de Jesús de los Andes",
       "countries": [
-        "CL",
-        "AMERICA"
+        "CL"
       ],
       "status": "pending",
       "category": "santos",
@@ -452,8 +437,7 @@
       "id": "san-alberto-hurtado",
       "name": "San Alberto Hurtado",
       "countries": [
-        "CL",
-        "AMERICA"
+        "CL"
       ],
       "status": "pending",
       "category": "santos",
@@ -464,8 +448,7 @@
       "id": "san-jose-gabriel-del-rosario-brochero",
       "name": "San José Gabriel del Rosario Brochero",
       "countries": [
-        "AR",
-        "AMERICA"
+        "AR"
       ],
       "status": "pending",
       "category": "santos",
@@ -476,8 +459,7 @@
       "id": "santa-carmen-rendiles",
       "name": "Santa Carmen Rendiles Martínez",
       "countries": [
-        "VE",
-        "AMERICA"
+        "VE"
       ],
       "status": "pending",
       "category": "santos",
