@@ -507,10 +507,10 @@
     {
       "id": "nuestra-senora-de-covadonga",
       "name": "Nuestra Señora de Covadonga",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-de-covadonga.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
