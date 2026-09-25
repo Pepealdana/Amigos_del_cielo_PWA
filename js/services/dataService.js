@@ -97,6 +97,39 @@ async function cargarCatalogosV2() {
 
     state.catalogosV2 = Object.fromEntries(entradas);
 
+    /*
+     * Unificar el catálogo legado con los catálogos v2.
+     * Esto permite que Favoritas, Mi progreso, búsqueda,
+     * enlaces directos y la sección "Novenas" trabajen
+     * también con los contenidos incorporados en v2.
+     */
+    const catalogoUnificado = new Map(
+        (Array.isArray(state.catalogo) ? state.catalogo : [])
+            .map(item => [item.id, { ...item }])
+    );
+
+    for (const clave of ["santos", "maria", "devociones"]) {
+        const items = Array.isArray(state.catalogosV2[clave])
+            ? state.catalogosV2[clave]
+            : [];
+
+        items
+            .filter(item => item && item.status === "published" && item.id)
+            .forEach(item => {
+                const anterior = catalogoUnificado.get(item.id) || {};
+
+                catalogoUnificado.set(item.id, {
+                    ...anterior,
+                    ...item,
+                    file: anterior.file || item.sourceFile || null,
+                    image: anterior.image || item.image || "",
+                    feast: anterior.feast || item.feast || null
+                });
+            });
+    }
+
+    state.catalogo = Array.from(catalogoUnificado.values());
+
     return state.catalogosV2;
 }
 
