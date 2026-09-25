@@ -567,3 +567,27 @@ blockquote{
     }
 
 }
+
+/* ==========================================================
+   ACCESIBILIDAD — SALTAR AL CONTENIDO
+========================================================== */
+
+.skip-link{
+    position:fixed;
+    top:.75rem;
+    left:.75rem;
+    z-index:3000;
+    padding:.7rem 1rem;
+    border-radius:10px;
+    background:var(--color-primary);
+    color:var(--color-text-inverse);
+    font-weight:700;
+    transform:translateY(-180%);
+    transition:transform .2s ease;
+}
+
+.skip-link:focus{
+    transform:translateY(0);
+    outline:3px solid var(--color-secondary);
+    outline-offset:2px;
+}
