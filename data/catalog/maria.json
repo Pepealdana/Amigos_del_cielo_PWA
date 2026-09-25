@@ -163,10 +163,10 @@
     {
       "id": "virgen-de-el-quinche",
       "name": "Nuestra Señora de El Quinche",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-el-quinche.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
