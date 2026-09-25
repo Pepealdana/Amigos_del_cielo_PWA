@@ -193,6 +193,7 @@ async function iniciarApp() {
         solicitarPersistenciaStorage();
 
         await cargarCatalogo();
+        await cargarCatalogosV2();
 
         actualizarBotonInstalacion();
 
@@ -270,6 +271,38 @@ function registrarEventos() {
         "menu-biblioteca",
 
         () => navegar("biblioteca")
+
+    );
+
+    registrarEvento(
+
+        "menu-santos",
+
+        () => navegar("santos")
+
+    );
+
+    registrarEvento(
+
+        "menu-maria",
+
+        () => navegar("maria")
+
+    );
+
+    registrarEvento(
+
+        "menu-novenas",
+
+        () => navegar("novenas")
+
+    );
+
+    registrarEvento(
+
+        "menu-devociones",
+
+        () => navegar("devociones")
 
     );
 
@@ -556,6 +589,41 @@ function mostrarInicio() {
 
     );
 
+}
+
+function mostrarCatalogoV2(seccion) {
+    cerrarMenu();
+
+    const titulos = {
+        santos: "Santos",
+        maria: "María",
+        novenas: "Novenas",
+        devociones: "Devociones"
+    };
+
+    actualizarTituloPagina(
+        titulos[seccion] || "Explorar"
+    );
+
+    renderizar(
+        renderCatalogoV2(seccion)
+    );
+}
+
+function mostrarSantos() {
+    mostrarCatalogoV2("santos");
+}
+
+function mostrarMaria() {
+    mostrarCatalogoV2("maria");
+}
+
+function mostrarNovenas() {
+    mostrarCatalogoV2("novenas");
+}
+
+function mostrarDevociones() {
+    mostrarCatalogoV2("devociones");
 }
 
 function mostrarBiblioteca() {
