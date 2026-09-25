@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "name": "Amigos del Cielo",
+  "description": "Índice del catálogo maestro de Amigos del Cielo v2.",
+  "sections": [
+    {
+      "id": "santos",
+      "label": "Santos",
+      "path": "data/catalog/santos.json",
+      "rule": "Santos canonizados"
+    },
+    {
+      "id": "maria",
+      "label": "María",
+      "path": "data/catalog/maria.json",
+      "rule": "Advocaciones marianas; una misma María, distintos títulos y tradiciones"
+    },
+    {
+      "id": "novenas",
+      "label": "Novenas",
+      "path": "data/novenas.json",
+      "rule": "Contenido de oración de nueve días"
+    },
+    {
+      "id": "devociones",
+      "label": "Devociones",
+      "path": "data/catalog/devociones.json",
+      "rule": "Devociones y expresiones de oración"
+    }
+  ],
+  "beatos": {
+    "policy": "No ampliar en v2",
+    "exception": "Beata Clara Fey"
+  }
+}
