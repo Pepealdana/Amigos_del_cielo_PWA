@@ -146,10 +146,10 @@
     {
       "id": "virgen-de-la-caridad-del-cobre",
       "name": "Nuestra Señora de la Caridad del Cobre",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-la-caridad-del-cobre.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
