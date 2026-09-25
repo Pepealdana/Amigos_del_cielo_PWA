@@ -1,0 +1,287 @@
+{
+  "id": "santa-maria-la-antigua",
+  "name": "Santa María la Antigua",
+  "title": "Santa María la Antigua",
+  "subtitle": "Patrona de Panamá y Madre del pueblo panameño",
+  "image": null,
+  "feast": {
+    "text": "9 de septiembre",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "Panamá",
+    "Pueblo panameño",
+    "Familias",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Unidad",
+    "Servicio",
+    "Evangelización"
+  ],
+  "history": {
+    "short": "Santa María la Antigua es la advocación mariana que dio nombre a la primera diócesis establecida en tierra firme del continente americano y es venerada como Patrona de Panamá.",
+    "extended": "La devoción a Santa María la Antigua está vinculada a los primeros tiempos de la presencia cristiana en el istmo de Panamá. La advocación dio nombre a Santa María la Antigua del Darién, sede de la primera diócesis establecida en tierra firme del continente americano, creada en 1513. Con el traslado de la población y de la sede episcopal hacia Panamá, la devoción continuó y quedó profundamente vinculada a la historia religiosa del país. La Conferencia Episcopal Panameña reconoce a Santa María la Antigua como Patrona de Panamá. San Juan Pablo II, durante su visita al país en 1983, puso de relieve la tradición mariana de la Iglesia panameña y la importancia de la evangelización iniciada en el istmo. En 2013, con motivo del quinto centenario de la diócesis de Santa María la Antigua del Darién, Benedicto XVI y posteriormente Francisco recordaron la importancia histórica de aquella primera sede episcopal. La advocación continúa siendo un referente de identidad católica y de oración por Panamá, sus familias y su misión evangelizadora."
+  },
+  "openingPrayer": "Santa María la Antigua, Patrona de Panamá, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo, fortalece nuestra fe y enséñanos a vivir con caridad, unidad y esperanza. Amén.",
+  "closingPrayer": "Santa María la Antigua, Madre y Patrona de Panamá, intercede por tu pueblo. Protege nuestras familias, acompaña a quienes anuncian el Evangelio y ayúdanos a caminar siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por Panamá y todos sus habitantes.",
+    "Por las familias panameñas.",
+    "Por la Iglesia y la evangelización de Panamá.",
+    "Por los jóvenes y quienes sirven a la comunidad.",
+    "Por los pobres, enfermos y personas que sufren."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Panamá y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito entregar hoy a Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué persona de mi familia necesita hoy mi atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias panameñas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Caridad",
+      "title": "Servir al prójimo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de caridad puedo realizar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad del pueblo panameño."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Evangelización",
+      "title": "Anunciar a Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la evangelización de Panamá."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Juventud",
+      "title": "Acompañar a los jóvenes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Juventud",
+      "reflection": "¿Cómo puedo apoyar hoy a un joven que necesite orientación o esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes de Panamá."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Servicio",
+      "title": "Poner la fe en obras",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué necesidad concreta de mi comunidad puedo atender?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a los demás."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Santa María la Antigua está profundamente vinculada a los primeros tiempos de la evangelización del istmo y a la historia de la Iglesia en Panamá."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, unidad y servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Panamá, su Iglesia y todas sus familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa María la Antigua, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Santa María la Antigua, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Homilía en la Santa Misa en Panamá, 5 de marzo de 1983.",
+    "San Juan Pablo II, Discurso a los obispos de Panamá, 4 de marzo de 1983.",
+    "Benedicto XVI, Mensaje con motivo del V centenario de la diócesis de Santa María la Antigua del Darién, 2013.",
+    "Conferencia Episcopal Panameña, información sobre Santa María la Antigua, Patrona de Panamá."
+  ]
+}
