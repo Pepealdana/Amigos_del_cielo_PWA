@@ -335,10 +335,10 @@
     {
       "id": "virgen-de-los-treinta-y-tres",
       "name": "Virgen de los Treinta y Tres",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/virgen-de-los-treinta-y-tres.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
