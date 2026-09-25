@@ -69,10 +69,6 @@ const APP_CONFIG = {
 
     permitirBusqueda: true,
 
-    permitirNotificaciones: true,
-
-    permitirRecordatoriosNovena: true,
-
     permitirAudio: false,
 
     /* ==========================
