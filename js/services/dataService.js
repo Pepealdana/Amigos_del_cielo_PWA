@@ -65,7 +65,8 @@ async function cargarCatalogosV2() {
     const rutas = {
         santos: "./data/catalog/santos.json",
         maria: "./data/catalog/maria.json",
-        devociones: "./data/catalog/devociones.json"
+        devociones: "./data/catalog/devociones.json",
+        paises: "./data/catalog/paises.json"
     };
 
     const entradas = await Promise.all(
