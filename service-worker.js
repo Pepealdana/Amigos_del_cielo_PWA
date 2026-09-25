@@ -65,7 +65,6 @@ const APP_SHELL = [
     "./data/san-jose-gabriel-del-rosario-brochero.json",
     "./data/santa-carmen-rendiles-martinez.json",
     "./data/virgen-de-lujan.json",
-    "./data/santa-carmen-rendiles-martinez.json",
     "./css/style.css",
     "./css/01-base.css",
     "./css/02-layout.css",
