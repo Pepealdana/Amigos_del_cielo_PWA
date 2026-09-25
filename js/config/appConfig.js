@@ -13,7 +13,7 @@ const APP_CONFIG = {
     descripcion:
         "Novenas, santos y oración diaria.",
 
-    version: "1.1.0",
+    version: "1.2.0",
 
     autor: "Peter Aldana",
 
@@ -23,6 +23,32 @@ const APP_CONFIG = {
     licencia: "MIT",
 
     idioma: "es",
+
+    regionDefault: "CO",
+
+    regionesHispanohablantes: [
+        { codigo: "AR", nombre: "Argentina" },
+        { codigo: "BO", nombre: "Bolivia" },
+        { codigo: "CL", nombre: "Chile" },
+        { codigo: "CO", nombre: "Colombia" },
+        { codigo: "CR", nombre: "Costa Rica" },
+        { codigo: "CU", nombre: "Cuba" },
+        { codigo: "DO", nombre: "República Dominicana" },
+        { codigo: "EC", nombre: "Ecuador" },
+        { codigo: "ES", nombre: "España" },
+        { codigo: "GT", nombre: "Guatemala" },
+        { codigo: "HN", nombre: "Honduras" },
+        { codigo: "MX", nombre: "México" },
+        { codigo: "NI", nombre: "Nicaragua" },
+        { codigo: "PA", nombre: "Panamá" },
+        { codigo: "PE", nombre: "Perú" },
+        { codigo: "PR", nombre: "Puerto Rico" },
+        { codigo: "PY", nombre: "Paraguay" },
+        { codigo: "SV", nombre: "El Salvador" },
+        { codigo: "UY", nombre: "Uruguay" },
+        { codigo: "VE", nombre: "Venezuela" },
+        { codigo: "OT", nombre: "Otro país hispanohablante" }
+    ],
 
     /* ==========================
        NOVENAS
@@ -75,7 +101,7 @@ const APP_CONFIG = {
        FECHAS
     ========================== */
 
-    formatoFecha: "es-CO",
+    formatoFecha: "es",
 
     /* ==========================
        REPOSITORIO
