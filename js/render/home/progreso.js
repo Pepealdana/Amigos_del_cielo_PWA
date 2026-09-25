@@ -90,11 +90,15 @@ function renderProgreso(catalogo = [], progreso = {}) {
 
                             <article class="continue-card">
 
-                                <img
-                                    src="${escaparHTML(item.novena.image)}"
-                                    alt=""
-                                    class="continue-image"
-                                    loading="lazy">
+                                ${item.novena.image ? `
+                                    <img
+                                        src="${escaparHTML(item.novena.image)}"
+                                        alt=""
+                                        class="continue-image"
+                                        loading="lazy">
+                                ` : `
+                                    <span class="continue-image continue-image-placeholder" aria-hidden="true">✦</span>
+                                `}
 
                                 <div class="continue-content">
 
