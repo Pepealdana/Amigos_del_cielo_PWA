@@ -1179,12 +1179,7 @@ body.dark .home .list-section .list{
     background:transparent;
 }
 
-/* Separación equilibrada entre la cita y los patronazgos. */
-.novena-page .saint-quote + .list-section{
-    margin-top:1.75rem;
-}
-
-/* Evita que la cita deje un espacio irregular antes de la siguiente sección. */
+/* Ritmo vertical de las secciones de la portada de cada novena. */
 .novena-page .saint-quote{
     margin:1.5rem 0 0;
 }
@@ -1197,6 +1192,16 @@ body.dark .home .list-section .list{
     margin-top:.75rem;
     color:var(--color-text-light);
     line-height:1.6;
+}
+
+/* Separa claramente la cita de Patronazgos. */
+.novena-page .saint-quote + .list-section{
+    margin-top:2.5rem;
+}
+
+/* Separa Patronazgos de Virtudes sin crear un vacío excesivo. */
+.novena-page .list-section + .list-section{
+    margin-top:2.5rem;
 }
 
 body.dark .saint-history-page .list-section{
