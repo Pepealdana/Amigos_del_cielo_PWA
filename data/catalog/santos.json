@@ -1,0 +1,488 @@
+{
+  "version": "2.0",
+  "category": "santos",
+  "description": "Catálogo maestro de santos canonizados. Los registros pending son candidatos de alta prioridad para incorporación.",
+  "items": [
+    {
+      "id": "san-jose",
+      "name": "San José",
+      "countries": [
+        "CO",
+        "MX",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-jose.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-antonio-de-padua",
+      "name": "San Antonio de Padua",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-antonio-de-padua.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-agustin-de-hipona",
+      "name": "San Agustín de Hipona",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-agustin-de-hipona.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-benito-abad",
+      "name": "San Benito Abad",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-benito-abad.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-francisco-de-asis",
+      "name": "San Francisco de Asís",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-francisco-de-asis.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-ignacio-de-loyola",
+      "name": "San Ignacio de Loyola",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-ignacio-de-loyola.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-juan-bautista",
+      "name": "San Juan Bautista",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-juan-bautista.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-juan-bosco",
+      "name": "San Juan Bosco",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-juan-bosco.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-martin-de-porres",
+      "name": "San Martín de Porres",
+      "countries": [
+        "PE",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-martin-de-porres.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-pio-de-pietrelcina",
+      "name": "San Pío de Pietrelcina",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pio-de-pietrelcina.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-pedro-claver",
+      "name": "San Pedro Claver",
+      "countries": [
+        "CO",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pedro-claver.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-camilo-de-lelis",
+      "name": "San Camilo de Lelis",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-camilo-de-lelis.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-carlo-acutis",
+      "name": "San Carlo Acutis",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-carlo-acutis.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-cayetano",
+      "name": "San Cayetano",
+      "countries": [
+        "AR",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-cayetano.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-jose-gregorio-hernandez",
+      "name": "San José Gregorio Hernández",
+      "countries": [
+        "VE",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-jose-gregorio-hernandez.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-josemaria-escriva",
+      "name": "San Josemaría Escrivá",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-josemaria-escriva.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-judas-tadeo",
+      "name": "San Judas Tadeo",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-judas-tadeo.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-pier-giorgio-frassati",
+      "name": "San Pier Giorgio Frassati",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pier-giorgio-frassati.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-rita-de-casia",
+      "name": "Santa Rita de Casia",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-rita-de-casia.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-rosa-de-lima",
+      "name": "Santa Rosa de Lima",
+      "countries": [
+        "PE",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-rosa-de-lima.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-teresa-de-avila",
+      "name": "Santa Teresa de Ávila",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-teresa-de-avila.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-teresita-de-lisieux",
+      "name": "Santa Teresita de Lisieux",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-teresita-de-lisieux.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-catalina-de-siena",
+      "name": "Santa Catalina de Siena",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-catalina-de-siena.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-eduviges",
+      "name": "Santa Eduviges de Silesia",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-eduviges.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-faustina-kowalska",
+      "name": "Santa Faustina Kowalska",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-faustina-kowalska.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-filomena",
+      "name": "Santa Filomena",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-filomena.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-gemma-galgani",
+      "name": "Santa Gemma Galgani",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-gemma-galgani.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-laura-montoya",
+      "name": "Santa Laura Montoya",
+      "countries": [
+        "CO",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-laura-montoya.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santa-margarita-maria-alacoque",
+      "name": "Santa Margarita María de Alacoque",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-margarita-maria-alacoque.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santo-tomas-de-aquino",
+      "name": "Santo Tomás de Aquino",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santo-tomas-de-aquino.json",
+      "priority": "existente"
+    },
+    {
+      "id": "santos-cosme-y-damian",
+      "name": "Santos Cosme y Damián",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santos-cosme-y-damian.json",
+      "priority": "existente"
+    },
+    {
+      "id": "san-juan-diego",
+      "name": "San Juan Diego",
+      "countries": [
+        "MX",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "san-jose-sanchez-del-rio",
+      "name": "San José Sánchez del Río",
+      "countries": [
+        "MX",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "san-pedro-de-san-jose-de-betancur",
+      "name": "San Pedro de San José de Betancur",
+      "countries": [
+        "GT",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "san-oscar-romero",
+      "name": "San Óscar Arnulfo Romero",
+      "countries": [
+        "SV",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "santa-mariana-de-jesus",
+      "name": "Santa Mariana de Jesús",
+      "countries": [
+        "EC",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "santo-toribio-de-mogrovejo",
+      "name": "Santo Toribio de Mogrovejo",
+      "countries": [
+        "PE",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "san-juan-macias",
+      "name": "San Juan Macías",
+      "countries": [
+        "PE",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "santa-teresa-de-jesus-de-los-andes",
+      "name": "Santa Teresa de Jesús de los Andes",
+      "countries": [
+        "CL",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "san-alberto-hurtado",
+      "name": "San Alberto Hurtado",
+      "countries": [
+        "CL",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "san-jose-gabriel-del-rosario-brochero",
+      "name": "San José Gabriel del Rosario Brochero",
+      "countries": [
+        "AR",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "santa-carmen-rendiles",
+      "name": "Santa Carmen Rendiles Martínez",
+      "countries": [
+        "VE",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": null,
+      "priority": "alta"
+    }
+  ]
+}
