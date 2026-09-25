@@ -1,0 +1,336 @@
+{
+  "id": "virgen-de-suyapa",
+  "name": "Nuestra Señora de Suyapa",
+  "title": "Nuestra Señora de Suyapa",
+  "subtitle": "Patrona de Honduras y Madre del pueblo hondureño",
+  "image": null,
+  "feast": {
+    "text": "3 de febrero",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Honduras",
+    "Familias hondureñas",
+    "Pueblo hondureño",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Misericordia",
+    "Unidad",
+    "Caridad",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora de Suyapa es venerada como Patrona de Honduras. La tradición sitúa el hallazgo de una pequeña imagen de la Virgen de la Concepción en las cercanías de Suyapa en 1747. La devoción creció alrededor de su santuario en Tegucigalpa, convertido en uno de los principales centros marianos de Centroamérica.",
+    "extended": "La tradición de Nuestra Señora de Suyapa se remonta a 1747, cuando un joven labrador encontró inesperadamente una pequeña imagen de la Virgen de la Concepción cerca de la aldea de Suyapa, en las cercanías de Tegucigalpa. San Juan Pablo II recordó esta tradición en el Ángelus de 1992 y señaló que el hecho fue considerado milagroso y que los habitantes construyeron una sencilla ermita, que pronto se convirtió en centro de piedad popular. Con el tiempo, Suyapa se transformó en uno de los grandes santuarios de Centroamérica. Pío XII declaró a Nuestra Señora de Suyapa Patrona de Honduras. San Juan Pablo II peregrinó al santuario el 8 de marzo de 1983 y la presentó como Patrona de Honduras y Madre de quienes profesan la fe en Jesucristo. La celebración de su fiesta se realiza el 3 de febrero. La devoción a Suyapa invita a vivir la fe recibida, acoger a María como Madre y dirigir la vida hacia Jesucristo, fortaleciendo la unidad, la esperanza, la caridad y la paz."
+  },
+  "openingPrayer": "Nuestra Señora de Suyapa, Patrona de Honduras, acompáñanos en esta novena. Ayúdanos a acercarnos a Jesucristo, a vivir nuestra fe con perseverancia y a servir con caridad a nuestras familias y comunidades. Amén.",
+  "closingPrayer": "Nuestra Señora de Suyapa, Madre y Patrona de Honduras, intercede por nosotros, por nuestras familias y por todos los hijos de nuestra tierra. Llévanos siempre hacia Jesucristo y ayúdanos a vivir en fe, esperanza, caridad y unidad. Amén.",
+  "intentions": [
+    "Por Honduras y todos sus habitantes.",
+    "Por las familias hondureñas y quienes viven lejos de su tierra.",
+    "Por la unidad, la paz y la reconciliación.",
+    "Por sacerdotes, religiosos, catequistas y agentes de evangelización.",
+    "Por pobres, enfermos, migrantes y personas que sufren."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14",
+    "Jn 19,25-27"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Suyapa nació alrededor de una pequeña imagen de la Virgen de la Concepción hallada en 1747 y se convirtió en una expresión central de la fe hondureña."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios y responderle con una fe confiada."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito confiar más en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dudas o dificultades de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Suyapa, ayúdanos a confiar en Dios y a permanecer firmes en la fe. Amén."
+      },
+      "action": "Entrega hoy a Dios una preocupación concreta mediante una oración confiada.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Misericordia",
+      "title": "Acoger el amor de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El pueblo hondureño ha acudido a Suyapa reconociendo en María un signo de la misericordia y de la cercanía maternal de Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misericordia recibida de Dios nos mueve a tratar a los demás con compasión."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿A quién puedo ofrecer hoy una muestra concreta de misericordia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, personas solas y quienes necesitan experimentar misericordia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Suyapa, enséñanos a recibir la misericordia de Dios y a compartirla con nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy un gesto concreto de misericordia con una persona que lo necesite.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Suyapa se vive también en hogares que recurren a María para pedir protección, consuelo y ayuda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La familia necesita oración, diálogo, paciencia, perdón y servicio cotidiano."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué persona de mi familia necesita hoy una atención especial de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, especialmente las que viven enfermedad, separación o conflictos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Suyapa, protege nuestros hogares y enséñanos a vivir el amor con paciencia y respeto. Amén."
+      },
+      "action": "Haz hoy un gesto de cuidado o reconciliación dentro de tu familia.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El santuario de Suyapa ha reunido durante generaciones a fieles de Honduras y de otros lugares de Centroamérica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede ayudarnos a superar divisiones cuando ponemos a Cristo en el centro."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para fortalecer la unidad en mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias, comunidades y del pueblo hondureño."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Suyapa, ayúdanos a superar divisiones y a trabajar por la fraternidad. Amén."
+      },
+      "action": "Da hoy un paso concreto para acercarte a alguien con quien exista distancia.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Los peregrinos acuden a Suyapa para pedir fortaleza ante las dificultades y renovar su confianza en Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana permite afrontar las pruebas sin perder la confianza en Dios."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito presentar hoy ante Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven enfermedad, pobreza, duelo o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Suyapa, acompaña a quienes sufren y ayúdanos a mantener viva la esperanza. Amén."
+      },
+      "action": "Llama o escribe hoy a una persona que necesite una palabra de ánimo.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Caridad",
+      "title": "Servir a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La vida de fe que se reúne en torno al santuario está llamada a traducirse en servicio y caridad hacia los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción mariana auténtica nos impulsa a vivir el Evangelio mediante el servicio concreto."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de mi entorno puedo atender?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a la Iglesia y acompañan a personas vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Suyapa, haznos disponibles para servir con humildad y generosidad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de servicio sin buscar reconocimiento.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Los Papas han presentado Suyapa dentro de la misión evangelizadora de la Iglesia y han recordado que María conduce hacia Jesucristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar también significa dar testimonio de Cristo mediante la vida, la palabra y las obras."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, religiosos, catequistas, misioneros y familias evangelizadoras."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Suyapa, ayúdanos a mostrar a Cristo con nuestra vida y nuestras obras. Amén."
+      },
+      "action": "Comparte hoy una palabra de esperanza o una experiencia de fe con alguien que la necesite.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Paz",
+      "title": "Ser instrumentos de reconciliación",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La intercesión de María puede acompañar a quienes buscan reconciliación, paz y fraternidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración por la paz debe acompañarse de decisiones concretas de reconciliación y respeto."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Dónde puedo ser hoy un instrumento de paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Honduras y por todos los lugares donde existen violencia, división o conflicto."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Suyapa, intercede por la paz y enséñanos a responder al conflicto con verdad, respeto y caridad. Amén."
+      },
+      "action": "Renuncia hoy a una respuesta agresiva y busca una forma concreta de reconciliación.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Durante generaciones, la devoción a Suyapa ha ayudado a los fieles a mantener la mirada puesta en Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción a María alcanza su sentido pleno cuando nos lleva a Jesucristo y nos hace servidores del Evangelio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso de oración o servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por Honduras."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Suyapa, Madre y Patrona de Honduras, acompáñanos siempre hacia Jesús y ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o reconciliación que mantendrás durante las próximas semanas.",
+      "closing": "Nuestra Señora de Suyapa, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "honduras",
+      "label": "Honduras",
+      "keywords": [
+        "Honduras",
+        "hondureño",
+        "hondureña"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliación",
+        "unidad"
+      ]
+    },
+    {
+      "id": "migrantes",
+      "label": "Migrantes y hondureños fuera del país",
+      "keywords": [
+        "migrante",
+        "migrantes",
+        "emigrante",
+        "hondureños"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y fe",
+      "keywords": [
+        "oración",
+        "fe",
+        "Cristo",
+        "María"
+      ]
+    }
+  ],
+  "sources": [
+    "San Juan Pablo II, Ángelus, 5 de julio de 1992.",
+    "San Juan Pablo II, Santa Misa en el Santuario de Nuestra Señora de Suyapa, Tegucigalpa, 8 de marzo de 1983.",
+    "San Juan Pablo II, discurso a los obispos de Honduras en visita ad limina, 4 de febrero de 1994.",
+    "Santa Sede, homilía en la Basílica de Suyapa, 14 de julio de 2024."
+  ]
+}
