@@ -82,10 +82,10 @@ function mostrarModal(
 
 ) {
 
+    cerrarModal();
+
     elementoConFocoAntesDelModal =
         document.activeElement;
-
-    cerrarModal();
 
     document.body.insertAdjacentHTML(
         "beforeend",
