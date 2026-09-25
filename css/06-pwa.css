@@ -1179,6 +1179,26 @@ body.dark .home .list-section .list{
     background:transparent;
 }
 
+/* Separación equilibrada entre la cita y los patronazgos. */
+.novena-page .saint-quote + .list-section{
+    margin-top:1.75rem;
+}
+
+/* Evita que la cita deje un espacio irregular antes de la siguiente sección. */
+.novena-page .saint-quote{
+    margin:1.5rem 0 0;
+}
+
+.novena-page .saint-quote p{
+    margin-bottom:.85rem;
+}
+
+.novena-page .saint-quote footer{
+    margin-top:.75rem;
+    color:var(--color-text-light);
+    line-height:1.6;
+}
+
 body.dark .saint-history-page .list-section{
     margin-top:2.75rem;
     margin-bottom:2.75rem;
