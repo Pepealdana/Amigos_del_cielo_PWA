@@ -1,0 +1,64 @@
+{
+  "version": "2.0",
+  "category": "devociones",
+  "description": "Devociones y otras expresiones de oración conservadas del catálogo actual.",
+  "items": [
+    {
+      "id": "san-expedito",
+      "name": "San Expedito",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/san-expedito.json"
+    },
+    {
+      "id": "divina-misericordia",
+      "name": "Divina Misericordia",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/divina-misericordia.json"
+    },
+    {
+      "id": "espiritu-santo",
+      "name": "Espíritu Santo",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/espiritu-santo.json"
+    },
+    {
+      "id": "sagrado-corazon-de-jesus",
+      "name": "Sagrado Corazón de Jesús",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/sagrado-corazon-de-jesus.json"
+    },
+    {
+      "id": "divino-nino-jesus",
+      "name": "Divino Niño Jesús",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/divino-nino-jesus.json"
+    },
+    {
+      "id": "santos-arcangeles",
+      "name": "Santos Arcángeles Miguel, Gabriel y Rafael",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/santos-arcangeles.json"
+    },
+    {
+      "id": "senor-de-los-milagros-de-buga",
+      "name": "Señor de los Milagros de Buga",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/senor-de-los-milagros-de-buga.json"
+    },
+    {
+      "id": "beata-clara-fey",
+      "name": "Beata Clara Fey",
+      "category": "beatas",
+      "status": "published",
+      "sourceFile": "data/beata-clara-fey.json",
+      "note": "Excepción mantenida en v2; no ampliar esta categoría por ahora."
+    }
+  ]
+}
