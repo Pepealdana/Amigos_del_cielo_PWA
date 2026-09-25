@@ -34,8 +34,6 @@ async function iniciarApp() {
 
         await cargarCatalogo();
 
-        iniciarMonitorRecordatorios();
-
         const novenaSolicitada =
             new URLSearchParams(
                 window.location.search
@@ -867,11 +865,6 @@ function manejarClicksPWA(evento) {
 
         if (tipo === "restart-novena" && id) {
             reiniciarYComenzarNovena(id);
-            return;
-        }
-
-        if (tipo === "remove-reminder") {
-            desactivarRecordatorioDesdeUI();
             return;
         }
 
