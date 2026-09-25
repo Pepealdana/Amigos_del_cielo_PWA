@@ -70,6 +70,9 @@ function renderPortadaNovena(novena) {
                     </p>
 
                     <footer>
+                        ${novena.quote.attribution
+                            ? `${escaparHTML(novena.quote.attribution)} · `
+                            : ""}
                         ${escaparHTML(
                             novena.quote.reference || ""
                         )}
