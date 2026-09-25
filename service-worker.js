@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v61";
+const CACHE_NAME = "amigos-del-cielo-v62";
 
 const APP_SHELL = [
     "./",
@@ -174,23 +174,64 @@ self.addEventListener("fetch", event => {
 
     if (url.origin !== self.location.origin) return;
 
+    /*
+     * Los JSON son contenido de datos. Cuando hay Internet,
+     * se consulta primero la versión actual y se actualiza
+     * el caché. Sin conexión se utiliza la copia almacenada.
+     */
+    if (url.pathname.endsWith(".json")) {
+
+        event.respondWith(
+            fetch(event.request)
+                .then(response => {
+
+                    if (response && response.ok) {
+                        const clone = response.clone();
+
+                        caches.open(CACHE_NAME)
+                            .then(cache =>
+                                cache.put(event.request, clone)
+                            );
+                    }
+
+                    return response;
+
+                })
+                .catch(() =>
+                    caches.match(event.request)
+                )
+        );
+
+        return;
+    }
+
+    /*
+     * Para HTML, CSS, JS e imágenes mantenemos cache-first:
+     * la aplicación sigue siendo rápida y disponible offline.
+     */
     event.respondWith(
         caches.match(event.request)
             .then(cached => {
+
                 const network = fetch(event.request)
                     .then(response => {
+
                         if (response && response.ok) {
                             const clone = response.clone();
 
                             caches.open(CACHE_NAME)
-                                .then(cache => cache.put(event.request, clone));
+                                .then(cache =>
+                                    cache.put(event.request, clone)
+                                );
                         }
 
                         return response;
+
                     })
                     .catch(() => cached);
 
                 return cached || network;
+
             })
     );
 });
