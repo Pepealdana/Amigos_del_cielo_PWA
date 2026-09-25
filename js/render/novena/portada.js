@@ -110,6 +110,15 @@ function renderPortadaNovena(novena) {
                 <button
                     class="btn btn-secondary"
                     type="button"
+                    data-action="share-novena">
+
+                    Compartir novena
+
+                </button>
+
+                <button
+                    class="btn btn-secondary"
+                    type="button"
                     data-route="historia">
 
                     Historia
