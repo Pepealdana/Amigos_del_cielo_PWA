@@ -27,10 +27,7 @@
     "liturgicalRank": "Memoria",
     "movable": false
   },
-  "quote": {
-    "text": "Servir a los enfermos es servir a Cristo.",
-    "reference": "Tradición espiritual camiliana; formulación difundida por la Orden de los Ministros de los Enfermos"
-  },
+  "quote": null,
   "patronages": [
     "Enfermos",
     "Hospitales",
