@@ -1,0 +1,287 @@
+{
+  "id": "nuestra-senora-reina-de-la-paz",
+  "name": "Nuestra Señora Reina de la Paz",
+  "title": "Nuestra Señora Reina de la Paz",
+  "subtitle": "Patrona de El Salvador y Madre de la paz",
+  "image": null,
+  "feast": {
+    "text": "21 de noviembre",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "El Salvador",
+    "Pueblo salvadoreño",
+    "Familias",
+    "Constructores de paz"
+  ],
+  "virtues": [
+    "Paz",
+    "Fe",
+    "Esperanza",
+    "Reconciliación",
+    "Caridad",
+    "Unidad"
+  ],
+  "history": {
+    "short": "Nuestra Señora Reina de la Paz es una de las principales advocaciones marianas de El Salvador y es venerada como Patrona del país.",
+    "extended": "La devoción a Nuestra Señora Reina de la Paz está profundamente vinculada a la ciudad de San Miguel y a la historia religiosa de El Salvador. La tradición local relata que en 1682 una caja encontrada en la costa fue llevada a San Miguel; al abrirla se descubrió una imagen de la Virgen, y el pueblo interpretó su llegada como un signo de paz en un contexto de enfrentamientos. La imagen comenzó a ser venerada bajo el título de Reina de la Paz. El patronazgo nacional fue reconocido por la Santa Sede en el siglo XX, y la imagen recibió la coronación pontificia en 1921. San Juan Pablo II visitó El Salvador en 1983 y confió al pueblo salvadoreño a la protección de la Virgen, vinculando la devoción mariana con la búsqueda de reconciliación, justicia y paz. La celebración de la advocación se realiza el 21 de noviembre y el santuario de San Miguel continúa siendo un centro importante de peregrinación y oración."
+  },
+  "openingPrayer": "Nuestra Señora Reina de la Paz, Patrona de El Salvador, acompáñanos en esta novena. Enséñanos a recibir la paz de Cristo y a llevarla a nuestras familias, comunidades y pueblos. Amén.",
+  "closingPrayer": "Nuestra Señora Reina de la Paz, intercede por El Salvador y por todos los que buscan la reconciliación. Ayúdanos a construir la paz, perdonar las ofensas y caminar siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por El Salvador y todos sus habitantes.",
+    "Por las familias y comunidades que necesitan reconciliación.",
+    "Por quienes sufren violencia, injusticia o división.",
+    "Por quienes trabajan por la paz y la dignidad humana.",
+    "Por la Iglesia y todos los peregrinos del Santuario de San Miguel."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 14,27",
+    "Jn 20,19-21"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Paz",
+      "title": "Recibir la paz de Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué inquietud necesito entregar hoy al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por El Salvador y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué situación necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Reconciliación",
+      "title": "Dar pasos hacia el perdón",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Qué primer paso puedo dar hacia la reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades divididas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Familia",
+      "title": "Construir paz en el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Cómo puedo ser hoy instrumento de paz en mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias salvadoreñas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "Servir al que sufre",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren pobreza, enfermedad o abandono."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Justicia",
+      "title": "Defender la dignidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Justicia",
+      "reflection": "¿Cómo puedo respetar y defender la dignidad de otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren injusticia y violencia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Esperanza",
+      "title": "No abandonar la esperanza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación difícil necesito poner hoy en manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes han perdido la esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad en mi entorno?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad del pueblo salvadoreño."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Ser instrumento de paz",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora Reina de la Paz está vinculada a la historia de San Miguel y ocupa un lugar destacado en la vida religiosa de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a recibir su paz y a convertirnos en servidores de la reconciliación."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por El Salvador, su Iglesia y todos sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora Reina de la Paz, acompáñanos y llévanos hacia Jesucristo. Haznos instrumentos de paz, reconciliación y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de paz, reconciliación o servicio.",
+      "closing": "Nuestra Señora Reina de la Paz, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Homilía en la Santa Misa celebrada en San Salvador, 6 de marzo de 1983.",
+    "San Juan Pablo II, Discurso a los obispos de El Salvador, 6 de marzo de 1983.",
+    "Conferencia Episcopal de El Salvador, información sobre Nuestra Señora Reina de la Paz.",
+    "Santuario de Nuestra Señora Reina de la Paz, San Miguel, El Salvador."
+  ]
+}
