@@ -439,10 +439,10 @@
     {
       "id": "virgen-del-valle",
       "name": "Nuestra Señora del Valle",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-del-valle.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
