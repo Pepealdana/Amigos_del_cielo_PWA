@@ -51,24 +51,14 @@ async function cargarNovena(id) {
 
     const ruta = "./" + resumen.file.replace(/^\.\//, "");
 
-    const response = await fetch(ruta, { cache: "no-cache" });
+    const novena = await cargarJSONConRecuperacion(ruta);
 
-    if (!response.ok) {
-        throw new Error(
-            "No fue posible cargar la novena (" +
-            response.status +
-            ")."
-        );
-    }
-
-    const novena = await response.json();
-
-    if (!novena || typeof novena !== "object") {
+    if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
         throw new Error("Los datos de la novena no son válidos.");
     }
 
-    if (!Array.isArray(novena.days)) {
-        novena.days = [];
+    if (!Array.isArray(novena.days) || novena.days.length === 0) {
+        throw new Error("La novena no contiene días válidos.");
     }
 
     if (!novena.id) {
@@ -98,6 +88,71 @@ async function cargarNovena(id) {
     }
 
     return novena;
+}
+
+async function cargarJSONConRecuperacion(ruta) {
+
+    let ultimoError = null;
+
+    try {
+        const response = await fetch(
+            ruta,
+            { cache: "no-cache" }
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                "No fue posible cargar la novena (" +
+                response.status +
+                ")."
+            );
+        }
+
+        return await response.json();
+
+    } catch (error) {
+        ultimoError = error;
+    }
+
+    /*
+     * Si el Service Worker conserva una copia antigua o
+     * dañada, se fuerza una segunda solicitud con una URL
+     * diferente. Esto permite obtener la versión actual
+     * de GitHub Pages y actualizar el caché.
+     */
+    if (navigator.onLine) {
+
+        try {
+            const separador =
+                ruta.includes("?") ? "&" : "?";
+
+            const rutaActualizada =
+                ruta +
+                separador +
+                "refresh=1";
+
+            const response = await fetch(
+                rutaActualizada,
+                { cache: "reload" }
+            );
+
+            if (!response.ok) {
+                throw new Error(
+                    "No fue posible actualizar la novena (" +
+                    response.status +
+                    ")."
+                );
+            }
+
+            return await response.json();
+
+        } catch (error) {
+            ultimoError = error;
+        }
+    }
+
+    throw ultimoError ||
+        new Error("No fue posible cargar los datos de la novena.");
 }
 
 function obtenerDia(numeroDia) {
