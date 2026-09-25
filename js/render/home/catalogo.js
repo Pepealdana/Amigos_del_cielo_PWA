@@ -137,7 +137,7 @@ function renderFiltrosPais(paisSeleccionado) {
                     class="catalog-country-chip ${paisSeleccionado === "ALL" ? "active" : ""}"
                     type="button"
                     data-country-filter="ALL">
-                    Hispanoamérica
+                    Todos
                 </button>
 
                 ${paises.map(pais => `
