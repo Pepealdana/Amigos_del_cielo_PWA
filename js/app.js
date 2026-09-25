@@ -1163,6 +1163,7 @@ function existeCatalogo() {
 
 document.addEventListener("click", manejarClicksPWA);
 document.addEventListener("input", manejarInputsPWA);
+document.addEventListener("change", manejarCambiosPWA);
 
 function manejarClicksPWA(evento) {
 
@@ -1334,6 +1335,32 @@ function mostrarAvisoParticipa(mensaje) {
 }
 
 document.addEventListener("submit", manejarFormularioParticipa);
+
+function manejarCambiosPWA(evento) {
+
+    if (evento.target.id === "region-preferida") {
+        cambiarRegion(evento.target.value);
+    }
+
+}
+
+function cambiarRegion(region) {
+
+    const regionesValidas =
+        APP_CONFIG.regionesHispanohablantes.map(item => item.codigo);
+
+    if (!regionesValidas.includes(region)) {
+        return;
+    }
+
+    state.configuracion = {
+        ...state.configuracion,
+        region
+    };
+
+    guardarConfiguracion();
+    mostrarConfiguracion();
+}
 
 function manejarInputsPWA(evento) {
 
