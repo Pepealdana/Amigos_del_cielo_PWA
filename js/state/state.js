@@ -8,7 +8,8 @@ const state = {
     catalogosV2: {
         santos: [],
         maria: [],
-        devociones: []
+        devociones: [],
+        paises: []
     },
     novenaActual: null,
     diaActual: 1,
@@ -22,5 +23,6 @@ const state = {
         region: "CO",
         tamanoTexto: "normal"
     },
-    busqueda: ""
+    busqueda: "",
+    paisCatalogo: "ALL"
 };
