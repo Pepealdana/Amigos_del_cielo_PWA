@@ -124,7 +124,7 @@ function renderFiltrosPais(paisSeleccionado) {
             <div class="catalog-country-label">
                 <span>Explorar vínculos por país</span>
                 <small>${paisSeleccionado === "ALL"
-                    ? "Toda Hispanoamérica"
+                    ? "Todo el catálogo"
                     : escaparHTML(
                         paises.find(p => p.id === paisSeleccionado)?.name ||
                         "País seleccionado"
