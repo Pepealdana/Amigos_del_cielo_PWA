@@ -583,7 +583,9 @@ function mostrarInicio() {
 
 }
 
-function mostrarCatalogoV2(seccion) {
+function mostrarCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
+
+    state.paisCatalogo = pais;
     cerrarMenu();
 
     const titulos = {
@@ -1324,6 +1326,20 @@ function manejarClicksPWA(evento) {
 
     if (ruta) {
         navegar(ruta.dataset.route);
+        return;
+    }
+
+    const filtroPais = evento.target.closest("[data-country-filter]");
+
+    if (filtroPais) {
+        const seccionActual = ["santos", "maria"].includes(router.rutaActual)
+            ? router.rutaActual
+            : "santos";
+
+        mostrarCatalogoV2(
+            seccionActual,
+            filtroPais.dataset.countryFilter || "ALL"
+        );
         return;
     }
 
