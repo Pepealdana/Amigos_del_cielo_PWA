@@ -228,3 +228,128 @@ body.dark .catalog-section-chip.active:hover {
     border-color: var(--color-primary-light);
     color: #111827;
 }
+
+
+/* ==========================================
+   CATÁLOGO V2 — FILTRO POR PAÍS
+========================================== */
+
+.catalog-country-filter {
+    margin: .75rem 0 1rem;
+}
+
+.catalog-country-label {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: .55rem;
+}
+
+.catalog-country-label span {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.catalog-country-label small {
+    color: var(--color-text-light);
+}
+
+.catalog-country-nav {
+    display: flex;
+    gap: .45rem;
+    overflow-x: auto;
+    padding: .15rem 0 .65rem;
+    scrollbar-width: thin;
+}
+
+.catalog-country-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .35rem;
+    min-height: 38px;
+    padding: .45rem .75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-text);
+    white-space: nowrap;
+    box-shadow: var(--shadow-xs);
+    transition:
+        background .25s,
+        border-color .25s,
+        color .25s,
+        transform .15s;
+}
+
+.catalog-country-chip:hover {
+    background: rgba(44, 74, 107, .08);
+    border-color: rgba(44, 74, 107, .40);
+    color: var(--color-primary);
+}
+
+.catalog-country-chip.active {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-text-inverse);
+}
+
+.catalog-country-chip.active:hover {
+    background: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+    color: var(--color-text-inverse);
+}
+
+.catalog-empty {
+    grid-column: 1 / -1;
+    padding: 2rem 1rem;
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius);
+    text-align: center;
+    color: var(--color-text-light);
+}
+
+.catalog-empty > span {
+    display: block;
+    margin-bottom: .5rem;
+    color: var(--color-accent);
+    font-size: 1.5rem;
+}
+
+.catalog-empty p {
+    margin: 0;
+    color: var(--color-text-light);
+}
+
+body.dark .catalog-country-chip {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+    color: var(--color-text);
+}
+
+body.dark .catalog-country-chip:hover {
+    background: rgba(127, 178, 214, .14);
+    border-color: rgba(127, 178, 214, .55);
+    color: #FFFFFF;
+}
+
+body.dark .catalog-country-chip.active {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #111827;
+}
+
+body.dark .catalog-country-chip.active:hover {
+    background: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+    color: #111827;
+}
+
+@media (max-width: 560px) {
+    .catalog-country-label {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: .15rem;
+    }
+}
