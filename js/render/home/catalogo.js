@@ -3,19 +3,21 @@
    Amigos del Cielo
 ========================================== */
 
-function renderCatalogoV2(seccion) {
+function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
     const configuracion = {
         santos: {
             titulo: "Santos",
             descripcion: "Santos canonizados y testimonios de santidad para conocer, orar y seguir.",
             catalogo: state.catalogosV2.santos || [],
-            icono: "✦"
+            icono: "✦",
+            permitePais: true
         },
         maria: {
             titulo: "María",
             descripcion: "Advocaciones marianas de Hispanoamérica y otras tradiciones de la Iglesia.",
             catalogo: state.catalogosV2.maria || [],
-            icono: "✧"
+            icono: "✧",
+            permitePais: true
         },
         novenas: {
             titulo: "Novenas",
@@ -25,19 +27,35 @@ function renderCatalogoV2(seccion) {
                 status: item.status === "draft" ? "pending" : "published",
                 sourceFile: item.file
             })),
-            icono: "☼"
+            icono: "☼",
+            permitePais: false
         },
         devociones: {
             titulo: "Devociones",
             descripcion: "Devociones y celebraciones de oración conservadas en Amigos del Cielo.",
             catalogo: state.catalogosV2.devociones || [],
-            icono: "♡"
+            icono: "♡",
+            permitePais: false
         }
     };
 
     const datos = configuracion[seccion] || configuracion.novenas;
-    const publicados = datos.catalogo.filter(item => item.status === "published");
-    const pendientes = datos.catalogo.filter(item => item.status === "pending");
+    const filtroPais = datos.permitePais ? pais : "ALL";
+
+    const catalogoFiltrado = datos.catalogo.filter(item => {
+        if (!datos.permitePais || filtroPais === "ALL") {
+            return true;
+        }
+
+        const paises = Array.isArray(item.countries)
+            ? item.countries
+            : [];
+
+        return paises.includes(filtroPais) || paises.includes("AMERICA");
+    });
+
+    const publicados = catalogoFiltrado.filter(item => item.status === "published");
+    const pendientes = catalogoFiltrado.filter(item => item.status === "pending");
 
     return `
         <section class="catalog-page page-shell">
@@ -65,13 +83,17 @@ function renderCatalogoV2(seccion) {
                 `).join("")}
             </nav>
 
+            ${datos.permitePais ? renderFiltrosPais(filtroPais) : ""}
+
             <div class="catalog-summary">
                 <span>${publicados.length} disponibles</span>
                 ${pendientes.length ? `<span>${pendientes.length} planificados</span>` : ""}
             </div>
 
             <div class="catalog-grid">
-                ${publicados.map(item => renderTarjetaCatalogoV2(item, seccion)).join("")}
+                ${publicados.length
+                    ? publicados.map(item => renderTarjetaCatalogoV2(item, seccion)).join("")
+                    : renderCatalogoVacio(filtroPais)}
             </div>
 
             ${pendientes.length ? `
@@ -91,6 +113,60 @@ function renderCatalogoV2(seccion) {
     `;
 }
 
+function renderFiltrosPais(paisSeleccionado) {
+    const paises = state.catalogosV2.paises || [];
+
+    return `
+        <div class="catalog-country-filter">
+            <div class="catalog-country-label">
+                <span>Explorar por país</span>
+                <small>${paisSeleccionado === "ALL"
+                    ? "Toda Hispanoamérica"
+                    : escaparHTML(
+                        paises.find(p => p.id === paisSeleccionado)?.name ||
+                        "País seleccionado"
+                    )}</small>
+            </div>
+
+            <div class="catalog-country-nav" role="group" aria-label="Filtrar por país">
+                <button
+                    class="catalog-country-chip ${paisSeleccionado === "ALL" ? "active" : ""}"
+                    type="button"
+                    data-country-filter="ALL">
+                    Hispanoamérica
+                </button>
+
+                ${paises.map(pais => `
+                    <button
+                        class="catalog-country-chip ${pais.id === paisSeleccionado ? "active" : ""}"
+                        type="button"
+                        data-country-filter="${escaparHTML(pais.id)}"
+                        title="${escaparHTML(pais.name)}">
+                        <span aria-hidden="true">${pais.bandera}</span>
+                        ${escaparHTML(pais.name)}
+                    </button>
+                `).join("")}
+            </div>
+        </div>
+    `;
+}
+
+function renderCatalogoVacio(pais) {
+    const nombrePais = (state.catalogosV2.paises || [])
+        .find(item => item.id === pais)?.name;
+
+    const texto = nombrePais
+        ? `Todavía no hay contenidos publicados específicamente asociados a ${nombrePais} en esta sección.`
+        : "Todavía no hay contenidos publicados en esta sección.";
+
+    return `
+        <div class="catalog-empty">
+            <span aria-hidden="true">✦</span>
+            <p>${escaparHTML(texto)}</p>
+        </div>
+    `;
+}
+
 function renderTarjetaCatalogoV2(item, seccion) {
     const imagen = item.image ||
         (item.sourceFile
@@ -100,6 +176,15 @@ function renderTarjetaCatalogoV2(item, seccion) {
     const accion = item.sourceFile
         ? `data-action="open-novena" data-id="${escaparHTML(item.id)}"`
         : "";
+
+    const paises = Array.isArray(item.countries)
+        ? item.countries.filter(c => c !== "AMERICA")
+        : [];
+
+    const paisesDisponibles = (state.catalogosV2.paises || []);
+    const etiquetasPais = paises
+        .map(codigo => paisesDisponibles.find(p => p.id === codigo)?.name)
+        .filter(Boolean);
 
     return `
         <button
@@ -120,8 +205,10 @@ function renderTarjetaCatalogoV2(item, seccion) {
                 <strong>${escaparHTML(item.name)}</strong>
                 <small>
                     ${seccion === "maria"
-                        ? escaparHTML((item.countries || []).filter(c => c !== "AMERICA").join(" · "))
-                        : item.status === "published" ? "Disponible" : "Próximamente"}
+                        ? escaparHTML(etiquetasPais.join(" · ") || "Tradición mariana")
+                        : item.status === "published"
+                            ? "Disponible"
+                            : "Próximamente"}
                 </small>
             </span>
         </button>
