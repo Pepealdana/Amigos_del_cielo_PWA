@@ -1,0 +1,287 @@
+{
+  "id": "nuestra-senora-de-la-almudena",
+  "name": "Nuestra Señora de la Almudena",
+  "title": "Nuestra Señora de la Almudena",
+  "subtitle": "Patrona de Madrid",
+  "image": null,
+  "feast": {
+    "text": "9 de noviembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Madrid",
+    "Ciudad de Madrid",
+    "Familias y comunidades"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Fidelidad",
+    "Perseverancia",
+    "Unidad"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Almudena es la patrona de Madrid y una de las advocaciones marianas más vinculadas a la historia religiosa de la capital española.",
+    "extended": "La devoción a Nuestra Señora de la Almudena está estrechamente vinculada a Madrid. La tradición cuenta que la imagen de la Virgen habría sido escondida durante la conquista musulmana y posteriormente encontrada en las proximidades de la muralla de la ciudad tras siglos de ocultamiento. El nombre «Almudena» se relaciona tradicionalmente con el término árabe al-mudayna, asociado a la ciudadela o recinto fortificado. La imagen venerada actualmente es una talla medieval y su culto se consolidó a lo largo de la historia de Madrid. En 1908, san Pío X concedió la coronación canónica de la imagen. La Virgen de la Almudena fue proclamada patrona de Madrid y su fiesta se celebra el 9 de noviembre. San Juan Pablo II dedicó la catedral de Madrid a Nuestra Señora de la Almudena el 15 de junio de 1993, durante su visita a España."
+  },
+  "openingPrayer": "Nuestra Señora de la Almudena, Patrona de Madrid, acompáñanos en esta novena. Ayúdanos a permanecer firmes en la fe y a caminar siempre hacia Jesucristo con esperanza y caridad. Amén.",
+  "closingPrayer": "Nuestra Señora de la Almudena, Madre y Patrona de Madrid, intercede por nosotros y acompaña a nuestras familias y comunidades en el camino hacia Cristo. Amén.",
+  "intentions": [
+    "Por Madrid y todos sus habitantes.",
+    "Por las familias y comunidades de Madrid.",
+    "Por la Iglesia que peregrina en Madrid.",
+    "Por los pobres, enfermos, ancianos y personas necesitadas.",
+    "Por quienes buscan a Dios y necesitan esperanza."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué aspecto de mi vida necesita una fe más firme?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Madrid y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué preocupación necesito poner hoy en las manos del Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Cómo puedo fortalecer hoy la unidad de mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares de Madrid."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Fidelidad",
+      "title": "Ser constantes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿En qué compromiso cristiano necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan permanecer fieles a su vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "Servir al necesitado",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo ayudar concretamente hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y personas necesitadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Unidad",
+      "title": "Construir comunión",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias y comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "Seguir caminando",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué dificultad estoy llamado a afrontar con perseverancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven pruebas prolongadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Evangelización",
+      "title": "Dar testimonio de Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo transmitir hoy la esperanza del Evangelio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia y la evangelización en Madrid."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar hacia Jesucristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Almudena está profundamente vinculada a la historia cristiana de Madrid y a su catedral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir con fe, fidelidad, esperanza, caridad y espíritu de servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Madrid, su Iglesia y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Almudena, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Almudena, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Homilía en la dedicación de la Catedral de la Almudena, Madrid, 15 de junio de 1993.",
+    "San Juan Pablo II, Discurso durante la dedicación de la Catedral de la Almudena, 15 de junio de 1993.",
+    "Archidiócesis de Madrid, información histórica sobre Nuestra Señora de la Almudena y su catedral.",
+    "Catedral de Santa María la Real de la Almudena, historia y devoción mariana.",
+    "San Pío X, concesión de la coronación canónica de Nuestra Señora de la Almudena, 1908."
+  ]
+}
