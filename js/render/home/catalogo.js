@@ -1,0 +1,129 @@
+/* ==========================================
+   CATÁLOGO V2
+   Amigos del Cielo
+========================================== */
+
+function renderCatalogoV2(seccion) {
+    const configuracion = {
+        santos: {
+            titulo: "Santos",
+            descripcion: "Santos canonizados y testimonios de santidad para conocer, orar y seguir.",
+            catalogo: state.catalogosV2.santos || [],
+            icono: "✦"
+        },
+        maria: {
+            titulo: "María",
+            descripcion: "Advocaciones marianas de Hispanoamérica y otras tradiciones de la Iglesia.",
+            catalogo: state.catalogosV2.maria || [],
+            icono: "✧"
+        },
+        novenas: {
+            titulo: "Novenas",
+            descripcion: "Novenas disponibles para comenzar o continuar tu camino de oración.",
+            catalogo: (state.catalogo || []).map(item => ({
+                ...item,
+                status: item.status === "draft" ? "pending" : "published",
+                sourceFile: item.file
+            })),
+            icono: "☼"
+        },
+        devociones: {
+            titulo: "Devociones",
+            descripcion: "Devociones y celebraciones de oración conservadas en Amigos del Cielo.",
+            catalogo: state.catalogosV2.devociones || [],
+            icono: "♡"
+        }
+    };
+
+    const datos = configuracion[seccion] || configuracion.novenas;
+    const publicados = datos.catalogo.filter(item => item.status === "published");
+    const pendientes = datos.catalogo.filter(item => item.status === "pending");
+
+    return `
+        <section class="catalog-page page-shell">
+            <header class="catalog-head">
+                <span class="catalog-kicker" aria-hidden="true">${datos.icono}</span>
+                <div>
+                    <h2>${escaparHTML(datos.titulo)}</h2>
+                    <p>${escaparHTML(datos.descripcion)}</p>
+                </div>
+            </header>
+
+            <nav class="catalog-section-nav" aria-label="Explorar">
+                ${[
+                    ["santos", "Santos"],
+                    ["maria", "María"],
+                    ["novenas", "Novenas"],
+                    ["devociones", "Devociones"]
+                ].map(([ruta, label]) => `
+                    <button
+                        class="catalog-section-chip ${ruta === seccion ? "active" : ""}"
+                        type="button"
+                        data-route="${ruta}">
+                        ${label}
+                    </button>
+                `).join("")}
+            </nav>
+
+            <div class="catalog-summary">
+                <span>${publicados.length} disponibles</span>
+                ${pendientes.length ? `<span>${pendientes.length} planificados</span>` : ""}
+            </div>
+
+            <div class="catalog-grid">
+                ${publicados.map(item => renderTarjetaCatalogoV2(item, seccion)).join("")}
+            </div>
+
+            ${pendientes.length ? `
+                <details class="catalog-pending">
+                    <summary>Próximamente · ${pendientes.length}</summary>
+                    <div class="catalog-pending-list">
+                        ${pendientes.map(item => `
+                            <span class="catalog-pending-item">
+                                ${escaparHTML(item.name)}
+                                <small>Prioridad alta</small>
+                            </span>
+                        `).join("")}
+                    </div>
+                </details>
+            ` : ""}
+        </section>
+    `;
+}
+
+function renderTarjetaCatalogoV2(item, seccion) {
+    const imagen = item.image ||
+        (item.sourceFile
+            ? state.catalogo.find(n => n.id === item.id)?.image
+            : "");
+
+    const accion = item.sourceFile
+        ? `data-action="open-novena" data-id="${escaparHTML(item.id)}"`
+        : "";
+
+    return `
+        <button
+            class="catalog-card"
+            type="button"
+            ${accion}
+            ${item.sourceFile ? "" : "disabled"}>
+            ${imagen ? `
+                <img
+                    src="${escaparHTML(imagen)}"
+                    alt=""
+                    class="catalog-card-image"
+                    loading="lazy">
+            ` : `
+                <span class="catalog-card-placeholder" aria-hidden="true">✦</span>
+            `}
+            <span class="catalog-card-body">
+                <strong>${escaparHTML(item.name)}</strong>
+                <small>
+                    ${seccion === "maria"
+                        ? escaparHTML((item.countries || []).filter(c => c !== "AMERICA").join(" · "))
+                        : item.status === "published" ? "Disponible" : "Próximamente"}
+                </small>
+            </span>
+        </button>
+    `;
+}
