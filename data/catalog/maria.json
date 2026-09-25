@@ -170,7 +170,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "santa-maria-la-antigua",
@@ -182,7 +182,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-reina-de-la-paz",
@@ -194,7 +194,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-de-los-angeles",
@@ -206,7 +206,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "la-purisima",
@@ -218,7 +218,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-de-la-divina-providencia",
@@ -230,7 +230,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "virgen-de-los-treinta-y-tres",
@@ -242,7 +242,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-del-pilar",
@@ -266,7 +266,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-de-los-desamparados",
@@ -278,7 +278,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-de-la-candelaria",
@@ -290,7 +290,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-de-las-lajas",
@@ -302,7 +302,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "virgen-del-valle",
@@ -314,7 +314,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "virgen-de-chiquinquira-de-maracaibo",
@@ -326,7 +326,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "virgen-del-cisne",
@@ -338,7 +338,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "virgen-de-andacollo",
@@ -350,7 +350,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "nuestra-senora-de-covadonga",
@@ -362,7 +362,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "virgen-de-montserrat",
@@ -374,7 +374,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     },
     {
       "id": "virgen-del-rocio",
@@ -386,7 +386,7 @@
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "media"
     }
   ]
 }
