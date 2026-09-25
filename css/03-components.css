@@ -509,7 +509,7 @@
 
     margin:
 
-        2rem 0;
+        1.25rem 0;
 
 }
 
@@ -517,7 +517,7 @@
 
     margin-bottom:
 
-        .85rem;
+        .5rem;
 
     color:
 
@@ -525,13 +525,15 @@
 
     font-weight:600;
 
+    line-height:1.3;
+
 }
 
 .list{
 
     padding-left:
 
-        1.5rem;
+        1.35rem;
 
 }
 
@@ -539,15 +541,21 @@
 
     margin-bottom:
 
-        .65rem;
+        .45rem;
 
     line-height:
 
-        1.7;
+        1.55;
 
     color:
 
         var(--color-text);
+
+}
+
+.list li:last-child{
+
+    margin-bottom:0;
 
 }
 
