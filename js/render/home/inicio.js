@@ -3,16 +3,113 @@
    Amigos del Cielo
 ========================================== */
 
-function obtenerSantoDelDia(catalogo = []) {
-    if (!Array.isArray(catalogo) || catalogo.length === 0) {
-        return null;
+function obtenerPrioridadLiturgica(novena) {
+    const rango = String(novena?.feast?.liturgicalRank || "").toLowerCase();
+
+    if (rango.includes("solemnidad")) return 4;
+    if (rango.includes("fiesta")) return 3;
+    if (rango.includes("memoria")) return 2;
+    if (rango.includes("feria")) return 1;
+
+    return 0;
+}
+
+function obtenerCandidatosCalendario(catalogo = []) {
+    if (!Array.isArray(catalogo)) {
+        return [];
     }
 
-    const hoy = catalogo.filter(novena =>
-        esHoyLaFestividad(novena.feast)
+    const publicados = catalogo.filter(
+        novena => novena?.status === "published" || !novena?.status
     );
 
-    return hoy[0] || obtenerNovenaDestacada(catalogo);
+    return publicados
+        .map(novena => {
+            const estado = obtenerEstadoNovena(novena.feast);
+
+            if (!estado) {
+                return null;
+            }
+
+            const fechaRelevante =
+                estado.estado === "en-curso"
+                    ? estado.fin
+                    : estado.inicio;
+
+            return {
+                novena,
+                estado,
+                fechaRelevante
+            };
+        })
+        .filter(item => item?.fechaRelevante instanceof Date);
+}
+
+function obtenerNovenaCalendarioPrincipal(catalogo = []) {
+    const candidatos = obtenerCandidatosCalendario(catalogo);
+
+    if (!candidatos.length) {
+        return obtenerNovenaDestacada(catalogo);
+    }
+
+    const enCurso = candidatos
+        .filter(item => item.estado.estado === "en-curso")
+        .sort((a, b) => {
+            const fechaA = a.estado.fin.getTime();
+            const fechaB = b.estado.fin.getTime();
+
+            if (fechaA !== fechaB) {
+                return fechaA - fechaB;
+            }
+
+            const prioridadA = obtenerPrioridadLiturgica(a.novena);
+            const prioridadB = obtenerPrioridadLiturgica(b.novena);
+
+            if (prioridadA !== prioridadB) {
+                return prioridadB - prioridadA;
+            }
+
+            return String(a.novena.name || "")
+                .localeCompare(String(b.novena.name || ""), "es");
+        });
+
+    if (enCurso.length) {
+        return enCurso[0].novena;
+    }
+
+    const proximas = candidatos
+        .filter(item => item.estado.estado === "proxima")
+        .sort((a, b) => {
+            const fechaA = a.estado.inicio.getTime();
+            const fechaB = b.estado.inicio.getTime();
+
+            if (fechaA !== fechaB) {
+                return fechaA - fechaB;
+            }
+
+            const prioridadA = obtenerPrioridadLiturgica(a.novena);
+            const prioridadB = obtenerPrioridadLiturgica(b.novena);
+
+            if (prioridadA !== prioridadB) {
+                return prioridadB - prioridadA;
+            }
+
+            const destacadaA = a.novena.featured === true ? 1 : 0;
+            const destacadaB = b.novena.featured === true ? 1 : 0;
+
+            if (destacadaA !== destacadaB) {
+                return destacadaB - destacadaA;
+            }
+
+            return String(a.novena.name || "")
+                .localeCompare(String(b.novena.name || ""), "es");
+        });
+
+    return proximas[0]?.novena || obtenerNovenaDestacada(catalogo);
+}
+
+function obtenerSantoDelDia(catalogo = []) {
+    return obtenerNovenaCalendarioPrincipal(catalogo);
 }
 
 function obtenerProgresoPrincipal(catalogo = [], progreso = {}) {
@@ -78,6 +175,22 @@ function obtenerMensajeCalendario(novena) {
     return "";
 }
 
+function obtenerTituloPrincipal(novena) {
+    const estado = obtenerEstadoNovena(novena?.feast);
+
+    if (!estado) {
+        return "Santos y novenas";
+    }
+
+    if (estado.estado === "en-curso") {
+        return esHoyLaFestividad(novena.feast)
+            ? "Santo del día"
+            : "Novena en curso";
+    }
+
+    return "Próxima novena";
+}
+
 function renderInicio(catalogo = [], progreso = {}) {
 
     const santo = obtenerSantoDelDia(catalogo);
@@ -126,13 +239,8 @@ function renderInicio(catalogo = [], progreso = {}) {
             )
             : 0;
 
-    const esSantoDeHoy =
-        esHoyLaFestividad(santo.feast);
-
     const tituloSanto =
-        esSantoDeHoy
-            ? "Santo del día"
-            : "Santos y novenas";
+        obtenerTituloPrincipal(santo);
 
     const mensajeCalendario =
         obtenerMensajeCalendario(santo);
