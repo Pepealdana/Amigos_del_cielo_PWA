@@ -1,0 +1,336 @@
+{
+  "id": "virgen-de-la-caridad-del-cobre",
+  "name": "Nuestra Señora de la Caridad del Cobre",
+  "title": "Nuestra Señora de la Caridad del Cobre",
+  "subtitle": "Reina y Patrona de Cuba, Madre de todos los cubanos",
+  "image": null,
+  "feast": {
+    "text": "8 de septiembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Cuba",
+    "Familias cubanas",
+    "Pueblo cubano",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Caridad",
+    "Esperanza",
+    "Unidad",
+    "Reconciliación",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Caridad del Cobre es venerada como Reina y Patrona de Cuba. La tradición cuenta que su imagen fue encontrada en el mar por dos indígenas y un esclavo negro, y desde entonces la devoción se extendió por la isla alrededor del santuario de El Cobre.",
+    "extended": "La tradición cubana sitúa el hallazgo de la imagen de Nuestra Señora de la Caridad en los inicios del siglo XVII, en la región minera de El Cobre. San Juan Pablo II recordó que dos indígenas y un esclavo negro encontraron la imagen flotando en el mar y la llevaron al poblado, donde se levantó un templo en su honor. La advocación pasó a ocupar un lugar central en la historia religiosa de Cuba. Benedicto XV la declaró Patrona de Cuba en 1916, y el centenario de aquella declaración fue recordado por el papa Francisco en 2015. En 1998, San Juan Pablo II visitó el santuario, coronó la imagen y la presentó como Reina y Madre de todos los cubanos, sin distinción de razas, opciones políticas o ideologías. También pidió que reuniera a sus hijos mediante la reconciliación y la fraternidad. La devoción a la Virgen de la Caridad se vive en Cuba y entre los cubanos que residen fuera de la isla, y está vinculada a la oración por la fe, la esperanza, la paz, la libertad, la reconciliación y la dignidad humana."
+  },
+  "openingPrayer": "Nuestra Señora de la Caridad del Cobre, Reina y Patrona de Cuba, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo y enséñanos a vivir con fe, caridad, esperanza y fraternidad. Amén.",
+  "closingPrayer": "Nuestra Señora de la Caridad del Cobre, Madre de todos los cubanos, intercede por Cuba y por sus hijos dentro y fuera de la patria. Reúnenos en la reconciliación, fortalece nuestra esperanza y llévanos siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por Cuba y todos sus habitantes.",
+    "Por las familias cubanas y quienes viven lejos de su tierra.",
+    "Por la paz, la reconciliación y la unidad.",
+    "Por los enfermos, pobres, migrantes y personas que sufren.",
+    "Por la Iglesia y por todos quienes anuncian y viven el Evangelio."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14",
+    "Jn 19,25-27"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Creer y confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito confiar más en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Caridad",
+      "title": "Vivir el amor al prójimo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Cómo puedo practicar hoy una caridad concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué persona de mi familia necesita hoy una atención especial?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para fortalecer la unidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito presentar hoy ante Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Reconciliación",
+      "title": "Sanar heridas y buscar la paz",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Hay alguna herida que deba comenzar a sanar mediante el perdón?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Servicio",
+      "title": "Servir a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué necesidad concreta de mi entorno puedo atender?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Caridad del Cobre ha acompañado durante siglos la vida de fe del pueblo cubano y permanece también entre los cubanos que viven fuera de la isla."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe mediante la caridad, la esperanza y el servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cuba, sus familias y las personas que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Caridad del Cobre, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Caridad del Cobre, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "cuba",
+      "label": "Cuba",
+      "keywords": [
+        "Cuba",
+        "cubano",
+        "cubana"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar"
+      ]
+    },
+    {
+      "id": "reconciliacion",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliación",
+        "unidad"
+      ]
+    },
+    {
+      "id": "migrantes",
+      "label": "Cubanos fuera del país",
+      "keywords": [
+        "migrante",
+        "migrantes",
+        "emigrante",
+        "cubanos"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y fe",
+      "keywords": [
+        "oración",
+        "fe",
+        "Cristo",
+        "María"
+      ]
+    }
+  ],
+  "sources": [
+    "San Juan Pablo II, Ángelus, 9 de agosto de 1992.",
+    "San Juan Pablo II, Homilía en Santiago de Cuba, 24 de enero de 1998.",
+    "San Juan Pablo II, Ángelus en La Habana, 25 de enero de 1998.",
+    "Francisco, ceremonia de bienvenida en Cuba, 19 de septiembre de 2015."
+  ]
+}
