@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v59";
+const CACHE_NAME = "amigos-del-cielo-v60";
 
 const APP_SHELL = [
     "./",
@@ -63,7 +63,6 @@ const APP_SHELL = [
     "./js/state/state.js",
     "./js/services/storage.js",
     "./js/services/dataService.js",
-    "./js/services/reminderService.js",
     "./js/utils/constants.js",
     "./js/utils/dateUtils.js",
     "./js/utils/domUtils.js",
@@ -164,39 +163,6 @@ self.addEventListener("activate", event => {
                     .map(key => caches.delete(key))
             ))
             .then(() => self.clients.claim())
-    );
-});
-
-self.addEventListener("notificationclick", event => {
-    const novenaId = event.notification?.data?.novenaId;
-
-    event.notification.close();
-
-    if (!novenaId) {
-        return;
-    }
-
-    event.waitUntil(
-        self.clients.matchAll({
-            type: "window",
-            includeUncontrolled: true
-        }).then(clients => {
-            const cliente = clients[0];
-
-            if (cliente) {
-                cliente.postMessage({
-                    type: "open-novena",
-                    novenaId
-                });
-
-                return cliente.focus();
-            }
-
-            return self.clients.openWindow(
-                "./?novena=" +
-                encodeURIComponent(novenaId)
-            );
-        })
     );
 });
 
