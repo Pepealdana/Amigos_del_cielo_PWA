@@ -656,10 +656,10 @@
     {
       "id": "santa-carmen-rendiles",
       "name": "Santa Carmen Rendiles Martínez",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/santa-carmen-rendiles-martinez.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "VE"
