@@ -580,10 +580,10 @@
     {
       "id": "san-juan-macias",
       "name": "San Juan Macías",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/san-juan-macias.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "ES"
