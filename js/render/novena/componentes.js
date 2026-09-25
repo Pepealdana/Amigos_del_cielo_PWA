@@ -61,9 +61,9 @@ function renderImagenNovena(
 
         <img
 
-            src="${novena.image}"
+            src="${escaparHTML(novena.image)}"
 
-            alt="${novena.name}"
+            alt="${escaparHTML(novena.name)}"
 
             class="saint-image">
 
@@ -89,13 +89,13 @@ function renderCabeceraNovena(
 
         <h2>
 
-            ${novena.name}
+            ${escaparHTML(novena.name)}
 
         </h2>
 
         <p class="saint-title">
 
-            ${novena.title}
+            ${escaparHTML(novena.title)}
 
         </p>
 
