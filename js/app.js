@@ -29,6 +29,7 @@ async function iniciarApp() {
         inicializarStorage();
 
         aplicarPreferenciasVisuales();
+        escucharPreferenciaSistema();
 
         solicitarPersistenciaStorage();
 
@@ -879,6 +880,11 @@ function manejarClicksPWA(evento) {
             cambiarTamanoTexto(accion.dataset.size);
             return;
         }
+
+        if (tipo === "theme" && accion.dataset.theme) {
+            cambiarTema(accion.dataset.theme);
+            return;
+        }
     }
 
     const ruta = evento.target.closest("[data-route]");
@@ -1354,6 +1360,54 @@ function aplicarPreferenciasVisuales() {
     );
 
     document.documentElement.dataset.textSize = tamano;
+
+    aplicarTema();
+}
+
+function obtenerTemaEfectivo() {
+    const tema =
+        state.configuracion?.tema || "claro";
+
+    if (tema === "automatico") {
+        return window.matchMedia?.("(prefers-color-scheme: dark)").matches
+            ? "oscuro"
+            : "claro";
+    }
+
+    return tema === "oscuro" ? "oscuro" : "claro";
+}
+
+function aplicarTema() {
+    const oscuro = obtenerTemaEfectivo() === "oscuro";
+
+    document.body.classList.toggle("dark", oscuro);
+    document.documentElement.dataset.theme =
+        oscuro ? "oscuro" : "claro";
+
+    const metaThemeColor =
+        document.querySelector('meta[name="theme-color"]');
+
+    if (metaThemeColor) {
+        metaThemeColor.setAttribute(
+            "content",
+            oscuro ? "#111827" : "#2C4A6B"
+        );
+    }
+}
+
+function cambiarTema(tema) {
+    if (!["claro", "oscuro", "automatico"].includes(tema)) {
+        return;
+    }
+
+    state.configuracion = {
+        ...state.configuracion,
+        tema
+    };
+
+    guardarConfiguracion();
+    aplicarTema();
+    mostrarConfiguracion();
 }
 
 function cambiarTamanoTexto(tamano) {
@@ -1369,6 +1423,26 @@ function cambiarTamanoTexto(tamano) {
     guardarConfiguracion();
     aplicarPreferenciasVisuales();
     mostrarConfiguracion();
+}
+
+function escucharPreferenciaSistema() {
+    const media = window.matchMedia?.("(prefers-color-scheme: dark)");
+
+    if (!media) {
+        return;
+    }
+
+    const actualizar = () => {
+        if (state.configuracion?.tema === "automatico") {
+            aplicarTema();
+        }
+    };
+
+    if (typeof media.addEventListener === "function") {
+        media.addEventListener("change", actualizar);
+    } else if (typeof media.addListener === "function") {
+        media.addListener(actualizar);
+    }
 }
 
 
