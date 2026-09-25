@@ -1,0 +1,310 @@
+{
+  "titulo": "Catálogo propuesto para expansión hispanohablante",
+  "criterio": "Selección inicial para futuras novenas e imágenes. No implica que todas deban incorporarse en una sola versión.",
+  "fuenteMarco": "Selección orientada por la tradición católica hispanoamericana y por referencias de la Santa Sede sobre santos, beatos y santuarios marianos de América.",
+  "santos": [
+    {
+      "nombre": "San Juan Diego",
+      "paises": [
+        "MX"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San José Sánchez del Río",
+      "paises": [
+        "MX"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San Cristóbal Magallanes y compañeros mártires",
+      "paises": [
+        "MX"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Pedro de San José de Betancur",
+      "paises": [
+        "GT"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San Óscar Arnulfo Romero",
+      "paises": [
+        "SV"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Santa Mariana de Jesús",
+      "paises": [
+        "EC"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San Miguel Febres Cordero",
+      "paises": [
+        "EC"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Santo Toribio de Mogrovejo",
+      "paises": [
+        "PE"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San Juan Macías",
+      "paises": [
+        "PE"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Santa Teresa de Jesús de los Andes",
+      "paises": [
+        "CL"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San Alberto Hurtado",
+      "paises": [
+        "CL"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San José Gabriel del Rosario Brochero",
+      "paises": [
+        "AR"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "San Roque González de Santa Cruz",
+      "paises": [
+        "PY"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Francisco Solano",
+      "paises": [
+        "AR",
+        "BO",
+        "PY"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Ezequiel Moreno",
+      "paises": [
+        "ES",
+        "CO",
+        "PE"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Francisco Febres Cordero",
+      "paises": [
+        "EC"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Isidro Labrador",
+      "paises": [
+        "ES"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Juan de Ávila",
+      "paises": [
+        "ES"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Juan de la Cruz",
+      "paises": [
+        "ES"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "San Manuel González García",
+      "paises": [
+        "ES"
+      ],
+      "prioridad": "media"
+    }
+  ],
+  "advocacionesMarianas": [
+    {
+      "nombre": "Nuestra Señora de Guadalupe",
+      "paises": [
+        "MX",
+        "AMERICA"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de Luján",
+      "paises": [
+        "AR"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de Chiquinquirá",
+      "paises": [
+        "CO"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de Coromoto",
+      "paises": [
+        "VE"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de Suyapa",
+      "paises": [
+        "HN"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de la Caridad del Cobre",
+      "paises": [
+        "CU"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de El Quinche",
+      "paises": [
+        "EC"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de Caacupé",
+      "paises": [
+        "PY"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de la Merced",
+      "paises": [
+        "PE",
+        "DO"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de la Providencia",
+      "paises": [
+        "PR"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Virgen de los Treinta y Tres",
+      "paises": [
+        "UY"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Virgen del Carmen",
+      "paises": [
+        "CL",
+        "CO",
+        "ES",
+        "AMERICA"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de Copacabana",
+      "paises": [
+        "BO"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Nuestra Señora de la Altagracia",
+      "paises": [
+        "DO"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de la Antigua",
+      "paises": [
+        "PA"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Nuestra Señora Reina de la Paz",
+      "paises": [
+        "SV"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Nuestra Señora de los Ángeles",
+      "paises": [
+        "CR"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "La Purísima / Inmaculada Concepción",
+      "paises": [
+        "NI"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Nuestra Señora del Pilar",
+      "paises": [
+        "ES"
+      ],
+      "prioridad": "alta"
+    },
+    {
+      "nombre": "Nuestra Señora de la Almudena",
+      "paises": [
+        "ES"
+      ],
+      "prioridad": "media"
+    },
+    {
+      "nombre": "Nuestra Señora de los Desamparados",
+      "paises": [
+        "ES"
+      ],
+      "prioridad": "media"
+    }
+  ],
+  "notas": [
+    "Las advocaciones marianas no deben presentarse como advocaciones distintas de María en sentido doctrinal; son títulos, invocaciones o formas de veneración vinculadas a lugares y tradiciones concretas.",
+    "Antes de publicar una novena se verificará su reconocimiento eclesial, festividad, contexto regional y fuentes de referencia.",
+    "Las prioridades son de planificación interna y no constituyen una valoración de importancia religiosa."
+  ]
+}
