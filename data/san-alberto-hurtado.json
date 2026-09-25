@@ -1,0 +1,438 @@
+{
+  "id": "san-alberto-hurtado",
+  "slug": "san-alberto-hurtado",
+  "name": "San Alberto Hurtado",
+  "title": "Apóstol de los pobres",
+  "subtitle": "Jesuita chileno, fundador del Hogar de Cristo y servidor de los más necesitados",
+  "category": "Santos",
+  "image": null,
+  "description": "San Alberto Hurtado fue un sacerdote jesuita chileno que unió una profunda vida de oración con el servicio a los pobres, la formación de jóvenes y la promoción de la doctrina social de la Iglesia. Fundó el Hogar de Cristo y dedicó buena parte de su ministerio a quienes vivían en pobreza y sin hogar.",
+  "feast": {
+    "day": 18,
+    "month": 8,
+    "text": "18 de agosto",
+    "liturgicalRank": "Memoria",
+    "movable": false,
+    "note": "La Iglesia celebra la memoria litúrgica de San Alberto Hurtado el 18 de agosto, aniversario de su muerte."
+  },
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-alberto-hurtado"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "quote": {
+    "text": "«Contento, Señor, contento»",
+    "reference": "Expresión atribuida a San Alberto Hurtado y recogida por la biografía oficial de la Santa Sede como palabras que repetía durante su enfermedad y sufrimiento final."
+  },
+  "patronages": [
+    "Chile",
+    "Personas en situación de pobreza y exclusión",
+    "Obras de servicio a los más necesitados",
+    "Juventud y formación cristiana"
+  ],
+  "virtues": [
+    "Caridad",
+    "Oración",
+    "Servicio",
+    "Humildad",
+    "Justicia",
+    "Generosidad",
+    "Compromiso social cristiano",
+    "Confianza en Dios"
+  ],
+  "search": [
+    "san alberto hurtado",
+    "alberto hurtado",
+    "padre hurtado",
+    "hogar de cristo",
+    "jesuita",
+    "chile",
+    "pobres",
+    "sin techo",
+    "jóvenes",
+    "justicia social",
+    "doctrina social de la iglesia",
+    "oración",
+    "contento señor contento",
+    "novena"
+  ],
+  "history": {
+    "short": "Alberto Hurtado Cruchaga nació en Viña del Mar, Chile, el 22 de enero de 1901. Ingresó a la Compañía de Jesús en 1923 y fue ordenado sacerdote en Lovaina en 1933. Al regresar a Chile en 1936 desarrolló un intenso apostolado con jóvenes, pobres y trabajadores. En 1944 impulsó la creación del Hogar de Cristo para acoger a personas sin hogar y, en 1947, fundó la Asociación Sindical Chilena. Murió el 18 de agosto de 1952 y fue canonizado por Benedicto XVI el 23 de octubre de 2005.",
+    "extended": "Alberto Hurtado Cruchaga nació en Viña del Mar, Chile, el 22 de enero de 1901. Perdió a su padre cuando tenía cuatro años y, después de que su madre tuviera que vender la propiedad familiar para afrontar las deudas, vivió junto con su hermano con distintos parientes. La experiencia de la pobreza y de la falta de estabilidad familiar marcó su sensibilidad hacia las personas que carecían de hogar. Gracias a una beca estudió en el Colegio San Ignacio de Santiago, donde participó en la Congregación Mariana y comenzó a dedicar parte de su tiempo al servicio de los pobres. Terminada la enseñanza secundaria quiso ingresar a la Compañía de Jesús, pero inicialmente postergó su decisión para ayudar a su madre y a su hermano. Estudió Derecho en la Universidad Católica y trabajó para sostener a su familia. Después de cumplir el servicio militar, obtuvo su título de abogado en agosto de 1923 y el 14 de agosto de ese mismo año ingresó al noviciado jesuita de Chillán. Continuó su formación en Argentina, España y Bélgica. Fue ordenado sacerdote en Lovaina el 24 de agosto de 1933 y en 1935 obtuvo un doctorado en Pedagogía y Psicología. Regresó a Chile en enero de 1936 y ejerció como profesor, director espiritual y formador de jóvenes. También acompañó vocaciones sacerdotales y promovió la participación de laicos en la catequesis y en la vida de la Iglesia. En 1941 publicó ¿Es Chile un país católico? y asumió responsabilidades en la Acción Católica juvenil. Su preocupación por la pobreza se concretó de manera especialmente visible en 1944. Durante un retiro hizo un llamado a responder ante la situación de las personas sin hogar de Santiago, especialmente de los niños. De esa iniciativa nació el Hogar de Cristo, obra destinada no solamente a proporcionar alojamiento, sino también un ambiente de acogida y familia. Con el tiempo la obra incorporó distintas formas de atención y promoción humana. En 1945 viajó a Estados Unidos para conocer la experiencia de Boys Town y estudiar posibles adaptaciones para Chile. En 1947 fundó la Asociación Sindical Chilena, vinculada a su interés por una organización del trabajo inspirada en la doctrina social de la Iglesia. Entre 1947 y 1950 escribió sobre sindicalismo, humanismo social y orden social cristiano. En 1951 fundó la revista Mensaje, dedicada a la difusión y explicación de la doctrina de la Iglesia. Su actividad social estuvo unida a una intensa vida espiritual y a una relación personal con Cristo. Benedicto XVI, durante la canonización, presentó su vida como una síntesis de oración, adoración eucarística y acción apostólica al servicio de los pobres. En los últimos meses padeció un cáncer de páncreas. La biografía oficial de la Santa Sede recoge que, en medio del dolor, repetía con frecuencia «Contento, Señor, contento». Murió el 18 de agosto de 1952. Fue beatificado por san Juan Pablo II el 16 de octubre de 1994 y canonizado por Benedicto XVI el 23 de octubre de 2005. Su memoria permanece especialmente vinculada al servicio de las personas pobres y sin hogar, a la formación de los jóvenes, a la vida espiritual y a la aplicación de la doctrina social de la Iglesia."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Alberto Hurtado, sacerdote de oración y servidor de los pobres, ayúdame a mirar a cada persona con la dignidad que tiene ante Dios. Enséñame a unir la fe con el servicio, la oración con la acción y el amor a Cristo con la preocupación por quienes sufren. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Alberto Hurtado, gracias por acompañarme durante esta novena. Intercede por las personas que viven en pobreza, por quienes no tienen hogar, por los niños y jóvenes, por las familias que sufren y por quienes trabajan al servicio de los demás. Ayúdanos a vivir una fe concreta, generosa y comprometida con el bien del prójimo. Que, aun en las dificultades, aprendamos a confiar en Dios y a servir con alegría. Amén.",
+  "intentions": [
+    "Por las personas que viven en pobreza, abandono o falta de vivienda.",
+    "Por quienes trabajan en obras de servicio social y caridad.",
+    "Por los niños y jóvenes que carecen de oportunidades y protección.",
+    "Por las familias que atraviesan dificultades económicas o sociales.",
+    "Por los trabajadores y por quienes buscan empleo digno.",
+    "Por sacerdotes, religiosos, catequistas y laicos comprometidos con el servicio.",
+    "Por quienes desean descubrir una vocación de entrega a Dios y al prójimo.",
+    "Por Chile y por los pueblos que enfrentan pobreza y exclusión.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Mateo 22,34-40"
+      },
+      {
+        "reference": "Marcos 10,42-45"
+      },
+      {
+        "reference": "Lucas 4,16-21"
+      },
+      {
+        "reference": "1 Juan 3,16-18"
+      }
+    ],
+    "documents": [
+      "Biografía oficial de San Alberto Hurtado, Santa Sede",
+      "Homilía de canonización de San Alberto Hurtado, Benedicto XVI, 23 de octubre de 2005",
+      "Homilía de beatificación, san Juan Pablo II, 16 de octubre de 1994"
+    ],
+    "related": [
+      "Compañía de Jesús",
+      "Hogar de Cristo",
+      "Doctrina Social de la Iglesia",
+      "Juventud",
+      "Servicio a los pobres",
+      "Chile"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Alberto Hurtado Cruchaga (1901-1952) — Biografía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20051023_cruchaga_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "23 de octubre de 2005 — Canonización de cinco beatos",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/homilies/2005/documents/hf_ben-xvi_hom_20051023_canonizations.html",
+      "type": "official"
+    },
+    {
+      "title": "Beatificación de cinco religiosos — Alberto Hurtado",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1994/documents/hf_jp-ii_hom_19941016_beatificazione.html",
+      "type": "official"
+    },
+    {
+      "title": "San Alberto Hurtado",
+      "organization": "Jesuitas Chile",
+      "url": "https://jesuitas.cl/la-compania-de-jesus/san-alberto-hurtado/",
+      "type": "institutional"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Amor a Cristo",
+      "title": "Encontrar en Jesús el centro de la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Alberto Hurtado estuvo marcada por una profunda relación con Cristo, alimentada por la oración y la Eucaristía."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio cristiano nace de una relación viva con Jesús y no se separa de la vida espiritual."
+      },
+      "virtue": "Amor a Cristo",
+      "reflection": "¿Qué lugar ocupa Jesús en mis decisiones y prioridades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean renovar su relación personal con Cristo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto Hurtado, ayúdame a poner a Cristo en el centro de mi vida y de mis decisiones. Amén."
+      },
+      "action": "Reserva hoy un momento concreto para la oración personal.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Caridad",
+      "title": "Reconocer a Cristo en quien sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Hurtado dedicó buena parte de su ministerio a las personas pobres, abandonadas y sin hogar."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana nos lleva a mirar las necesidades concretas de las personas y responder con respeto y generosidad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo mirar hoy con mayor atención y compasión?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que viven pobreza, abandono o soledad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto, enséñame a reconocer la dignidad de cada persona y a servir con un corazón generoso. Amén."
+      },
+      "action": "Realiza hoy un gesto concreto de ayuda sin buscar reconocimiento.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Servicio",
+      "title": "La fe que se convierte en acción",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1944 impulsó el Hogar de Cristo para ofrecer acogida a personas sin hogar, especialmente a quienes vivían en mayor vulnerabilidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede expresarse en obras concretas de servicio, acogida y acompañamiento."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué necesidad concreta de mi entorno estoy dispuesto a atender?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven en instituciones, parroquias, familias y comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto, ayúdame a pasar de las buenas intenciones a un servicio concreto y perseverante. Amén."
+      },
+      "action": "Ofrece hoy tiempo, trabajo o ayuda concreta a una persona que lo necesite.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Dignidad humana",
+      "title": "Mirar al otro como hijo de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su experiencia de pobreza en la infancia y su trabajo pastoral lo llevaron a prestar especial atención a quienes carecían de hogar y oportunidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dignidad de una persona no depende de sus bienes, posición social o circunstancias."
+      },
+      "virtue": "Respeto y dignidad",
+      "reflection": "¿Hay personas a las que tiendo a ignorar o juzgar por su situación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren discriminación, exclusión o abandono."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto, enséñame a mirar a cada persona con respeto y a reconocer en ella la dignidad que Dios le ha dado. Amén."
+      },
+      "action": "Trata hoy con especial atención y respeto a una persona que suele pasar desapercibida.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Justicia social",
+      "title": "Servir también significa transformar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Hurtado promovió la formación social cristiana y en 1947 fundó la Asociación Sindical Chilena para impulsar un sindicalismo inspirado en la doctrina social de la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana incluye atender necesidades inmediatas y también trabajar responsablemente por condiciones más humanas y justas."
+      },
+      "virtue": "Justicia",
+      "reflection": "¿Cómo puedo contribuir de manera responsable al bien común?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por trabajadores, empleadores, organizaciones sociales y quienes buscan condiciones laborales dignas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto, ayúdame a comprender y vivir la responsabilidad cristiana ante las necesidades de la sociedad. Amén."
+      },
+      "action": "Infórmate hoy sobre una necesidad social concreta de tu comunidad y piensa en una forma responsable de colaborar.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Juventud",
+      "title": "Acompañar y formar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Hurtado dedicó una parte importante de su ministerio a la formación espiritual de jóvenes, al acompañamiento vocacional y a la educación cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acompañar a los jóvenes requiere escucha, formación, confianza y disposición para ayudarles a descubrir su vocación."
+      },
+      "virtue": "Acompañamiento",
+      "reflection": "¿Cómo puedo apoyar a un joven que busca orientación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por niños, adolescentes y jóvenes, especialmente quienes carecen de apoyo familiar o educativo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto, intercede por los jóvenes y ayúdales a descubrir su dignidad, sus talentos y su vocación. Amén."
+      },
+      "action": "Escucha hoy con atención a un joven sin apresurarte a darle respuestas.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Vocación",
+      "title": "Entregar la vida al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Hurtado postergó inicialmente su ingreso a la Compañía de Jesús para ayudar a su familia y después respondió a su vocación sacerdotal."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Discernir una vocación implica escuchar a Dios, considerar las responsabilidades concretas y responder con generosidad."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué capacidades y responsabilidades puedo poner al servicio de Dios y de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las vocaciones sacerdotales, religiosas y por quienes buscan su camino de vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto, acompaña a quienes disciernen su vocación y ayúdalos a responder con libertad y generosidad. Amén."
+      },
+      "action": "Ora hoy por una persona que esté discerniendo una decisión importante de vida.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Confianza",
+      "title": "Permanecer en Dios en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su enfermedad final, Hurtado afrontó un cáncer de páncreas y, según la biografía oficial de la Santa Sede, repetía: «Contento, Señor, contento»."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La confianza cristiana no niega el sufrimiento; busca vivirlo sin perder la esperanza en Dios."
+      },
+      "virtue": "Confianza en Dios",
+      "reflection": "¿Qué dificultad necesito entregar hoy a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, cuidadores y familias que atraviesan situaciones de sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto, enséñame a confiar en Dios incluso cuando atravieso momentos que no comprendo. Amén."
+      },
+      "action": "Presenta hoy ante Dios una preocupación concreta y termina tu oración con un acto de confianza.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Santidad en el servicio",
+      "title": "Vivir una fe que transforma la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Iglesia reconoció en Hurtado un testimonio que unió oración, ministerio sacerdotal, formación y servicio a los pobres."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se expresa en la manera concreta de amar a Dios y servir al prójimo según la propia vocación."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso concreto de servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Alberto Hurtado, ayúdame a vivir una fe concreta, perseverante y unida al servicio del prójimo. Amén."
+      },
+      "action": "Elige una obra concreta de oración o servicio y comprométete a mantenerla durante las próximas semanas.",
+      "closing": "San Alberto Hurtado, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "pobreza",
+      "label": "Pobreza y exclusión",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "sin hogar",
+        "sin techo",
+        "exclusión",
+        "abandono"
+      ]
+    },
+    {
+      "id": "juventud",
+      "label": "Juventud y formación",
+      "keywords": [
+        "jóvenes",
+        "juventud",
+        "niños",
+        "formación",
+        "educación"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y justicia social",
+      "keywords": [
+        "trabajo",
+        "trabajadores",
+        "sindicalismo",
+        "justicia social",
+        "doctrina social"
+      ]
+    },
+    {
+      "id": "vocaciones",
+      "label": "Vocaciones y vida consagrada",
+      "keywords": [
+        "vocación",
+        "sacerdote",
+        "jesuita",
+        "religioso",
+        "consagrada"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y sufrimiento",
+      "keywords": [
+        "enfermos",
+        "cáncer",
+        "sufrimiento",
+        "confianza",
+        "esperanza"
+      ]
+    }
+  ]
+}
