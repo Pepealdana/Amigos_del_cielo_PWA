@@ -70,6 +70,8 @@ function renderModal(
  * en la aplicación.
  */
 
+let elementoConFocoAntesDelModal = null;
+
 function mostrarModal(
 
     titulo,
@@ -79,6 +81,9 @@ function mostrarModal(
     textoBoton = "Cerrar"
 
 ) {
+
+    elementoConFocoAntesDelModal =
+        document.activeElement;
 
     cerrarModal();
 
@@ -104,15 +109,17 @@ function mostrarModal(
 function cerrarModal() {
 
     document
-
-        .querySelector(
-
-            ".modal"
-
-        )
-
+        .querySelector(".modal")
         ?.remove();
 
+    if (
+        elementoConFocoAntesDelModal &&
+        document.contains(elementoConFocoAntesDelModal)
+    ) {
+        elementoConFocoAntesDelModal.focus();
+    }
+
+    elementoConFocoAntesDelModal = null;
 }
 
 /**
