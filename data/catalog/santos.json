@@ -504,10 +504,10 @@
     {
       "id": "san-pedro-de-san-jose-de-betancur",
       "name": "San Pedro de San José de Betancur",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/san-pedro-de-san-jose-de-betancur.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "ES"
