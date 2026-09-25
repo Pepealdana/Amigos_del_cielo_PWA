@@ -296,7 +296,14 @@ function registrarEventos() {
 
         "menu-compartir",
 
-        () => compartirAplicacion()
+        () => {
+
+            compartirAplicacion()
+                .then(
+                    mostrarResultadoCompartir
+                );
+
+        }
 
     );
 
@@ -427,6 +434,49 @@ function cerrarMenu() {
         ?.classList.remove("show");
 
 }
+function mostrarResultadoCompartir(resultado) {
+
+    if (!resultado?.compartido) {
+        return;
+    }
+
+    if (
+        resultado.metodo === "portapapeles"
+    ) {
+
+        const indicador =
+            document.getElementById(
+                "connection-status"
+            );
+
+        if (!indicador) {
+            return;
+        }
+
+        indicador.textContent =
+            "Enlace copiado al portapapeles";
+
+        indicador.classList.remove(
+            "online",
+            "offline"
+        );
+
+        indicador.hidden = false;
+        indicador.classList.add("show");
+
+        window.clearTimeout(
+            mostrarResultadoCompartir.temporizador
+        );
+
+        mostrarResultadoCompartir.temporizador =
+            window.setTimeout(() => {
+                indicador.classList.remove("show");
+            }, 2500);
+
+    }
+
+}
+
 function mostrarEstadoConexion(online) {
     const indicador =
         document.getElementById("connection-status");
@@ -1069,6 +1119,8 @@ function manejarClicksPWA(evento) {
 
             compartirNovena(
                 state.novenaActual
+            ).then(
+                mostrarResultadoCompartir
             );
 
             return;
