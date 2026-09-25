@@ -1,0 +1,287 @@
+{
+  "id": "nuestra-senora-de-la-divina-providencia",
+  "name": "Nuestra Señora de la Divina Providencia",
+  "title": "Nuestra Señora de la Divina Providencia",
+  "subtitle": "Madre y Patrona principal de Puerto Rico",
+  "image": null,
+  "feast": {
+    "text": "19 de noviembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Puerto Rico",
+    "Familias y comunidades",
+    "Pueblo puertorriqueño"
+  ],
+  "virtues": [
+    "Confianza en Dios",
+    "Esperanza",
+    "Fe",
+    "Caridad",
+    "Familia",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Divina Providencia es la advocación mariana proclamada por san Pablo VI como Patrona principal de Puerto Rico en 1969.",
+    "extended": "La devoción a Nuestra Señora de la Divina Providencia llegó a Puerto Rico a mediados del siglo XIX, vinculada al obispo Gil Esteve y Tomás, quien había conocido esta advocación durante su formación en España. El obispo promovió su culto en San Juan y encargó una imagen en Barcelona para la catedral. La devoción, que tiene antecedentes históricos en Italia y España, quedó profundamente vinculada a la vida religiosa del pueblo puertorriqueño. En 1969, san Pablo VI declaró oficialmente a Nuestra Señora de la Divina Providencia Patrona principal de toda la nación puertorriqueña y trasladó su celebración del 2 de enero al 19 de noviembre. San Juan Pablo II, durante su visita a Puerto Rico en 1984, destacó la devoción a María como Madre de la Divina Providencia y explicó su relación con la confianza cristiana en el cuidado providente de Dios. La imagen venerada representa a María sentada, contemplando y sosteniendo al Niño Jesús, que descansa sobre su regazo."
+  },
+  "openingPrayer": "Nuestra Señora de la Divina Providencia, Madre y Patrona de Puerto Rico, acompáñanos en esta novena. Enséñanos a confiar en Dios y a caminar siempre hacia Jesucristo con fe, esperanza y caridad. Amén.",
+  "closingPrayer": "Nuestra Señora de la Divina Providencia, Madre de Puerto Rico, intercede por nosotros y ayúdanos a confiar siempre en el amor providente de Dios. Amén.",
+  "intentions": [
+    "Por Puerto Rico y todos sus habitantes.",
+    "Por las familias y comunidades puertorriqueñas.",
+    "Por quienes viven dificultades económicas, familiares o personales.",
+    "Por la Iglesia y la evangelización de Puerto Rico.",
+    "Por quienes han emigrado y por sus familias."
+  ],
+  "bibleReferences": [
+    "Mt 6,25-34",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Confianza",
+      "title": "Confiar en la Providencia",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación necesito poner hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Puerto Rico y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Esperar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Dónde necesito recuperar la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Cómo puedo servir mejor a mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares puertorriqueños."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Fe",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué aspecto de mi fe necesita fortalecerse?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia que peregrina en Puerto Rico."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "Ayudar al necesitado",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y personas necesitadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Trabajo",
+      "title": "Confiar mientras actuamos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Trabajo",
+      "reflection": "¿Cómo puedo unir mi trabajo y mis responsabilidades con la confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan empleo y por quienes sostienen a sus familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias y comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Perseverancia",
+      "title": "Seguir caminando",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan pruebas prolongadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Ponerse en las manos de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Divina Providencia ocupa un lugar especial en la historia religiosa de Puerto Rico y se celebra especialmente el 19 de noviembre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a confiar en Dios, a acoger su voluntad y a acompañar a los demás con esperanza y caridad."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero entregar definitivamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Puerto Rico, su Iglesia y todos sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Divina Providencia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Divina Providencia, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Pablo VI, Letras Apostólicas por las que se declara a la Bienaventurada Virgen María de la Divina Providencia Patrona principal de Puerto Rico, 19 de noviembre de 1969.",
+    "San Juan Pablo II, Homilía en San Juan de Puerto Rico, 12 de octubre de 1984.",
+    "San Juan Pablo II, Ángelus, 8 de noviembre de 1992.",
+    "San Juan Pablo II, Discurso a los obispos de Puerto Rico en visita ad limina, 11 de septiembre de 1999."
+  ]
+}
