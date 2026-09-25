@@ -39,13 +39,13 @@ function renderEmptyState(
 
             <h2>
 
-                ${titulo}
+                ${escaparHTML(titulo)}
 
             </h2>
 
             <p>
 
-                ${mensaje}
+                ${escaparHTML(mensaje)}
 
             </p>
 
