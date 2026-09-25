@@ -109,7 +109,17 @@ async function cargarNovena(id) {
 
     const resumen = buscarNovenaPorId(state.catalogo, id);
 
-    if (!resumen || !resumen.file) {
+    /*
+     * V2 separa los catálogos temáticos de data/novenas.json.
+     * Las nuevas fichas (Santos, María y Devociones) guardan
+     * su archivo en sourceFile, por lo que también debemos
+     * resolverlas desde catalogosV2.
+     */
+    const resumenV2 = buscarContenidoCatalogoV2(id);
+
+    const archivo = resumen?.file || resumenV2?.sourceFile;
+
+    if (!archivo) {
         const error = new Error(
             "No existe una novena válida con id: " + id
         );
@@ -117,7 +127,7 @@ async function cargarNovena(id) {
         throw error;
     }
 
-    const ruta = "./" + resumen.file.replace(/^\.\//, "");
+    const ruta = "./" + archivo.replace(/^\.\//, "");
 
     const novena = await cargarJSONConRecuperacion(ruta);
 
@@ -160,6 +170,24 @@ async function cargarNovena(id) {
     }
 
     return novena;
+}
+
+function buscarContenidoCatalogoV2(id) {
+    const catalogos = state.catalogosV2 || {};
+
+    for (const clave of ["santos", "maria", "devociones"]) {
+        const items = Array.isArray(catalogos[clave])
+            ? catalogos[clave]
+            : [];
+
+        const encontrado = items.find(item => item?.id === id);
+
+        if (encontrado) {
+            return encontrado;
+        }
+    }
+
+    return null;
 }
 
 async function cargarJSONConRecuperacion(ruta) {
