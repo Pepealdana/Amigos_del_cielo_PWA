@@ -1001,7 +1001,6 @@ function mostrarAvisoParticipa(mensaje) {
 }
 
 document.addEventListener("submit", manejarFormularioParticipa);
-document.addEventListener("submit", manejarFormularioRecordatorio);
 
 function manejarInputsPWA(evento) {
 
@@ -1207,124 +1206,6 @@ document.addEventListener(
         }
     }
 );
-
-
-/* ==========================================
-   RECORDATORIOS
-========================================== */
-
-async function manejarFormularioRecordatorio(evento) {
-
-    if (evento.target.id !== "recordatorio-form") {
-        return;
-    }
-
-    evento.preventDefault();
-
-    const novenaId =
-        document.getElementById("recordatorio-novena")?.value;
-
-    const hora =
-        document.getElementById("recordatorio-hora")?.value;
-
-    const activo =
-        document.getElementById("recordatorio-activo")?.checked;
-
-    const aviso =
-        document.getElementById("recordatorio-aviso");
-
-    if (!novenaId || !hora) {
-        mostrarAvisoRecordatorio(
-            "Selecciona una novena y una hora."
-        );
-        return;
-    }
-
-    if (!activo) {
-        eliminarRecordatorio(novenaId);
-        mostrarAvisoRecordatorio(
-            "El recordatorio quedó desactivado."
-        );
-        return;
-    }
-
-    const permiso =
-        await solicitarPermisoNotificaciones();
-
-    if (permiso !== "granted") {
-        mostrarAvisoRecordatorio(
-            permiso === "denied"
-                ? "El navegador bloqueó las notificaciones. Puedes habilitarlas desde los permisos del sitio."
-                : "Este navegador no permite notificaciones."
-        );
-        return;
-    }
-
-    /*
-     * Solo mantenemos un recordatorio activo por dispositivo
-     * para evitar notificaciones duplicadas.
-     */
-    Object.keys(state.recordatorios || {}).forEach(id => {
-        state.recordatorios[id] = {
-            ...state.recordatorios[id],
-            activo: false
-        };
-    });
-
-    guardarRecordatorio(
-        novenaId,
-        hora,
-        true
-    );
-
-    state.configuracion = {
-        ...state.configuracion,
-        notificaciones: true,
-        horaRecordatorio: hora
-    };
-
-    guardarConfiguracion();
-
-    mostrarAvisoRecordatorio(
-        "Recordatorio guardado. Se avisará durante los nueve días de la novena."
-    );
-}
-
-function desactivarRecordatorioDesdeUI() {
-
-    const novenaId =
-        document.getElementById("recordatorio-novena")?.value;
-
-    if (novenaId) {
-        eliminarRecordatorio(novenaId);
-    }
-
-    mostrarAvisoRecordatorio(
-        "El recordatorio quedó desactivado."
-    );
-
-    const check =
-        document.getElementById("recordatorio-activo");
-
-    if (check) {
-        check.checked = false;
-    }
-}
-
-function mostrarAvisoRecordatorio(mensaje) {
-
-    const aviso =
-        document.getElementById(
-            "recordatorio-aviso"
-        );
-
-    if (!aviso) {
-        return;
-    }
-
-    aviso.textContent = mensaje;
-    aviso.hidden = false;
-}
 
 
 /* ==========================================
