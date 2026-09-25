@@ -352,10 +352,10 @@
     {
       "id": "nuestra-senora-del-pilar",
       "name": "Nuestra Señora del Pilar",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/nuestra-senora-del-pilar.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "ES"
