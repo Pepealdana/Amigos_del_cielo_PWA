@@ -233,10 +233,10 @@
     {
       "id": "virgen-de-copacabana",
       "name": "Nuestra Señora de Copacabana",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/virgen-de-copacabana.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
