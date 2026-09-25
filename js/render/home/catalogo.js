@@ -51,7 +51,7 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
             ? item.countries
             : [];
 
-        return paises.includes(filtroPais) || paises.includes("AMERICA");
+        return paises.includes(filtroPais);
     });
 
     const publicados = catalogoFiltrado.filter(item => item.status === "published");
