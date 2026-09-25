@@ -14,6 +14,7 @@ const state = {
     configuracion: {
         tema: "claro",
         idioma: "es",
+        region: "CO",
         tamanoTexto: "normal"
     },
     busqueda: ""
