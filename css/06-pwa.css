@@ -814,7 +814,7 @@ body::before{
 }
 
 /* ==========================================================
-   CALENDARIO LITÚRGICO Y RECORDATORIOS
+   CALENDARIO LITÚRGICO
 ========================================================== */
 
 .calendar-status{
@@ -859,10 +859,6 @@ body::before{
     width:20px;
     height:20px;
     flex:0 0 20px;
-}
-
-.settings-panel .form-note{
-    margin-top:.75rem;
 }
 
 .settings-panel + .simple-panel{
