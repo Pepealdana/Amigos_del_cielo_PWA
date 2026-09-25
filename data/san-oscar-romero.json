@@ -1,0 +1,442 @@
+{
+  "id": "san-oscar-romero",
+  "slug": "san-oscar-romero",
+  "name": "San Óscar Arnulfo Romero",
+  "title": "Pastor y mártir de la Iglesia en El Salvador",
+  "subtitle": "Arzobispo de San Salvador y testigo del Evangelio hasta el final",
+  "category": "Santos",
+  "image": null,
+  "description": "Novena dedicada a San Óscar Arnulfo Romero, arzobispo de San Salvador y mártir, cuyo ministerio estuvo marcado por la defensa de la dignidad humana, la cercanía a los pobres y el anuncio del Evangelio en medio de la violencia.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-oscar-romero"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "🕊️"
+  },
+  "feast": {
+    "day": 24,
+    "month": 3,
+    "text": "24 de marzo",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "«La Iglesia sería traicionar su propio amor a Dios y su fidelidad al Evangelio si dejara de preocuparse por los pobres.»",
+    "reference": "Homilía de San Óscar Romero, 11 de noviembre de 1979. Se conserva aquí como cita documentada de una homilía."
+  },
+  "patronages": [
+    "El Salvador",
+    "Personas perseguidas por causa de la fe",
+    "Pobres y personas vulnerables",
+    "Pastores y agentes de pastoral",
+    "Comunicadores y evangelizadores",
+    "Defensores de la dignidad humana"
+  ],
+  "virtues": [
+    "Fidelidad al Evangelio",
+    "Caridad pastoral",
+    "Fortaleza",
+    "Compasión",
+    "Oración",
+    "Perseverancia",
+    "Esperanza",
+    "Amor a la Iglesia"
+  ],
+  "search": [
+    "san oscar romero",
+    "san óscar romero",
+    "oscar arnolfo romero",
+    "monseñor romero",
+    "arzobispo de san salvador",
+    "el salvador",
+    "mártir",
+    "pobres",
+    "justicia",
+    "paz",
+    "evangelio",
+    "homilias",
+    "novena"
+  ],
+  "history": {
+    "short": "Óscar Arnulfo Romero nació en Ciudad Barrios, El Salvador, el 15 de agosto de 1917. Fue ordenado sacerdote en 1942 y posteriormente ejerció diversos ministerios pastorales. En 1977 fue nombrado arzobispo de San Salvador. Durante un período de creciente violencia y conflicto en El Salvador, acompañó especialmente a los pobres y denunció desde su ministerio pastoral los abusos y la violencia. Fue asesinado el 24 de marzo de 1980 mientras celebraba la Eucaristía en la capilla del Hospital de la Divina Providencia. Fue beatificado en 2015 y canonizado por el papa Francisco el 14 de octubre de 2018.",
+    "extended": "Óscar Arnulfo Romero Galdámez nació en Ciudad Barrios, El Salvador, el 15 de agosto de 1917, en una familia modesta. Desde joven sintió la llamada al sacerdocio y entró en el seminario menor de San Miguel. Continuó su formación en Roma y fue ordenado sacerdote en 1942. A su regreso a El Salvador desarrolló diversos servicios pastorales, entre ellos el ministerio parroquial, la dirección del seminario de San Salvador y responsabilidades dentro de la Iglesia local. En 1970 fue nombrado obispo auxiliar de San Salvador y en 1974 obispo de Santiago de María. En febrero de 1977 fue nombrado arzobispo de San Salvador. Su ministerio como arzobispo coincidió con un período de fuerte tensión social y política y con una violencia que afectaba especialmente a la población más vulnerable. Romero comenzó a acompañar de manera cada vez más cercana a campesinos, comunidades, sacerdotes y familias afectadas por la violencia. Desde sus homilías y otros espacios pastorales llamó a respetar la vida, la dignidad humana y la misión de la Iglesia, y denunció hechos de violencia y atropellos que llegaban a su conocimiento. La Santa Sede presenta su testimonio como el de un pastor que defendió a los pobres y dio su vida en el cumplimiento de su ministerio. Su asesinato ocurrió el 24 de marzo de 1980, cuando celebraba la Eucaristía en la capilla del Hospital de la Divina Providencia, en San Salvador. La Iglesia reconoció su muerte como martirio por la fe y fue beatificado en San Salvador el 23 de mayo de 2015. El 6 de marzo de 2018, el papa Francisco autorizó la promulgación del decreto relativo al milagro atribuido a su intercesión. Fue canonizado el 14 de octubre de 2018 en la Plaza de San Pedro. En el encuentro con peregrinos salvadoreños celebrado al día siguiente, Francisco presentó a Romero como un buen pastor que dio la vida por sus ovejas y destacó su predilección por quienes necesitaban especialmente la misericordia de Dios. La vida de San Óscar Romero puede contemplarse como un testimonio de fidelidad pastoral: permanecer junto a la comunidad, anunciar el Evangelio, defender la dignidad de cada persona y mantener la esperanza cristiana incluso en circunstancias de violencia. Su memoria no debe reducirse a un símbolo político; la Iglesia lo venera como pastor y mártir cuya vida y muerte estuvieron vinculadas a su ministerio sacerdotal y episcopal."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Óscar Romero, pastor y mártir, acompáñame durante estos nueve días. Enséñame a permanecer fiel al Evangelio, a respetar la dignidad de cada persona y a vivir una caridad que no sea indiferente ante el sufrimiento. Presento al Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Óscar Romero, pastor fiel de la Iglesia, gracias por acompañarme durante esta novena. Pide al Señor por El Salvador, por toda América y por quienes sufren violencia, pobreza, persecución o injusticia. Ayúdanos a vivir la fe con valentía, caridad y prudencia, buscando siempre la paz y respetando la dignidad de cada persona. Presenta ante Cristo nuestras intenciones y enséñanos a permanecer fieles al Evangelio. Amén.",
+  "intentions": [
+    "Por El Salvador y por quienes trabajan por la paz y la reconciliación.",
+    "Por las víctimas de la violencia y por sus familias.",
+    "Por los pobres, excluidos y quienes sufren vulnerabilidad.",
+    "Por los sacerdotes, obispos, religiosos y agentes de pastoral.",
+    "Por los cristianos perseguidos y quienes sufren por causa de su fe.",
+    "Por los comunicadores y evangelizadores que anuncian el Evangelio.",
+    "Por quienes tienen responsabilidades públicas y sociales, para que respeten la dignidad humana.",
+    "Por la reconciliación de pueblos y comunidades heridas por la violencia.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 5,1-12"
+      },
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Juan 10,11-18"
+      },
+      {
+        "reference": "Juan 15,18-21"
+      },
+      {
+        "reference": "Romanos 12,9-21"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización de San Óscar Romero — Papa Francisco (2018)",
+      "Discurso del Papa Francisco a peregrinos de El Salvador con ocasión de la canonización de Romero (2018)"
+    ],
+    "related": [
+      "Iglesia en El Salvador",
+      "Hospital de la Divina Providencia",
+      "Evangelización",
+      "Paz y reconciliación"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Misa con el rito de canonización de los beatos, 14 de octubre de 2018",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2018/documents/papa-francesco_20181014_omelia-canonizzazione.html",
+      "type": "official"
+    },
+    {
+      "title": "A los peregrinos de El Salvador con ocasión de la canonización de Monseñor Romero",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/speeches/2018/october/documents/papa-francesco_20181015_pellegrini-elsalvador.html",
+      "type": "official"
+    },
+    {
+      "title": "Decretos de la Congregación para las Causas de los Santos, 7 de marzo de 2018",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2018/03/07/cong.html",
+      "type": "official"
+    },
+    {
+      "title": "Statement on the 25th Anniversary of Bishop Romero's Death",
+      "organization": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/resources/statement-25th-anniversary-bishop-romeros-death-march-24-2005",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fidelidad",
+      "title": "Permanecer fiel al Evangelio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Romero fue ante todo un sacerdote y pastor. Su ministerio estuvo centrado en anunciar el Evangelio y acompañar a la Iglesia de El Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad cristiana comienza por escuchar a Jesús y procurar que la fe transforme nuestras decisiones."
+      },
+      "virtue": "Fidelidad al Evangelio",
+      "reflection": "¿Qué enseñanza del Evangelio necesito vivir con mayor coherencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan permanecer fieles a Cristo en circunstancias difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, ayúdame a escuchar el Evangelio y a vivirlo con fidelidad, sin separar la fe de la vida cotidiana. Amén."
+      },
+      "action": "Lee hoy un pasaje del Evangelio y elige una enseñanza concreta para poner en práctica.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Caridad pastoral",
+      "title": "Acompañar a quienes sufren",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Como arzobispo, estuvo cerca de comunidades y personas afectadas por la violencia y el sufrimiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad pastoral implica acercarse a quienes sufren y no reducir la fe a palabras."
+      },
+      "virtue": "Caridad pastoral",
+      "reflection": "¿A quién necesito acompañar con mayor cercanía?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, familias heridas y personas que atraviesan momentos de sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, enséñame a no ser indiferente ante quien sufre y a ofrecer una presencia que ayude y consuele. Amén."
+      },
+      "action": "Llama o visita a una persona que necesite compañía, si las circunstancias lo permiten.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Dignidad humana",
+      "title": "Reconocer el valor de cada persona",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su ministerio estuvo marcado por la defensa de la dignidad de las personas, especialmente de quienes sufrían mayor vulnerabilidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cada persona posee una dignidad que merece respeto, incluso en medio de desacuerdos profundos."
+      },
+      "virtue": "Respeto",
+      "reflection": "¿Trato a todas las personas con la misma dignidad, incluso cuando pienso diferente de ellas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren discriminación, exclusión o desprecio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, ayúdame a reconocer la dignidad de cada persona y a rechazar toda forma de desprecio. Amén."
+      },
+      "action": "Evita hoy una palabra o actitud que pueda humillar a otra persona y reemplázala por respeto.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Paz",
+      "title": "Buscar la reconciliación",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En medio de un contexto de violencia, Romero llamó a la paz y a la reconciliación desde su ministerio pastoral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La paz cristiana no es indiferencia ante el mal; busca caminos de verdad, justicia, reconciliación y respeto."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué conflicto cercano podría abordar con una actitud más pacífica?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las comunidades y familias heridas por la violencia y la división."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, intercede por quienes viven conflictos y ayúdanos a construir caminos de diálogo, perdón y reconciliación. Amén."
+      },
+      "action": "Da hoy un paso concreto para reducir una tensión o reconciliarte con alguien.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Fortaleza",
+      "title": "Mantenerse firme sin perder la caridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El testimonio de Romero estuvo acompañado por riesgos y dificultades, pero continuó ejerciendo su ministerio hasta su muerte."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fortaleza cristiana puede convivir con la prudencia, la caridad y el rechazo de la violencia."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Cómo reacciono cuando defender lo correcto me genera dificultades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan amenazas, presión o incomprensión por vivir sus convicciones."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, dame fortaleza para hacer el bien con prudencia, sin odio y sin devolver violencia por violencia. Amén."
+      },
+      "action": "Ante una dificultad, responde hoy con firmeza y respeto en lugar de agresividad.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Los pobres",
+      "title": "Hacer visible la caridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las necesidades de los pobres ocuparon un lugar importante en su predicación y en su acompañamiento pastoral."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La atención a los pobres debe expresarse en acciones concretas y respetuosas de su dignidad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad de mi entorno estoy ignorando?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven pobreza, exclusión o falta de oportunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, enséñame a mirar a los pobres con respeto y a transformar la compasión en ayuda concreta. Amén."
+      },
+      "action": "Comparte hoy alimento, tiempo, conocimiento o recursos con una persona que los necesite.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "La verdad",
+      "title": "Hablar con responsabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Sus homilías fueron un medio importante para anunciar el Evangelio y orientar pastoralmente a la comunidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Comunicar la verdad requiere responsabilidad, prudencia y caridad, especialmente cuando las palabras pueden afectar a otras personas."
+      },
+      "virtue": "Verdad",
+      "reflection": "¿Uso mis palabras para construir o para aumentar conflictos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por comunicadores, periodistas, catequistas y evangelizadores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, ayúdame a hablar con verdad, prudencia y caridad, evitando rumores y palabras que dañen injustamente. Amén."
+      },
+      "action": "Antes de compartir una noticia o comentario, verifica su origen y piensa en sus consecuencias.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "El pastor",
+      "title": "Servir a la comunidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Romero entendió el ministerio episcopal como servicio a la comunidad cristiana y acompañamiento de su pueblo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio pastoral consiste en acompañar, enseñar, consolar y orientar hacia Cristo."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo contribuir al bien de mi comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, obispos, religiosos, catequistas y servidores de la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, intercede por quienes tienen responsabilidades pastorales y enséñanos a servir a nuestras comunidades con humildad. Amén."
+      },
+      "action": "Ofrece hoy una ayuda concreta a tu comunidad parroquial, familiar o vecinal.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "La entrega",
+      "title": "Dar la vida en el servicio cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Murió mientras celebraba la Eucaristía. La Iglesia reconoció su muerte como martirio y lo canonizó en 2018."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad también consiste en perseverar en el bien cotidiano y entregar la propia vida al servicio de Dios y de los demás."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué compromiso de fe quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por El Salvador, por América y por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Óscar Romero, pastor fiel, presenta nuestras intenciones ante Cristo. Enséñanos a vivir una fe comprometida con la caridad, la paz y la esperanza. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o reconciliación de esta novena y mantenla durante las próximas semanas.",
+      "closing": "San Óscar Romero, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "paz-reconciliacion",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "reconciliación",
+        "dialogo",
+        "diálogo"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza y vulnerabilidad",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "vulnerabilidad",
+        "exclusion",
+        "exclusión"
+      ]
+    },
+    {
+      "id": "persecucion-fe",
+      "label": "Persecución por la fe",
+      "keywords": [
+        "persecucion",
+        "persecución",
+        "cristianos perseguidos",
+        "fe"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y comunidad",
+      "keywords": [
+        "familia",
+        "hogar",
+        "comunidad"
+      ]
+    },
+    {
+      "id": "pastoral",
+      "label": "Sacerdotes y pastoral",
+      "keywords": [
+        "sacerdotes",
+        "obispos",
+        "pastoral",
+        "catequistas",
+        "religiosos"
+      ]
+    },
+    {
+      "id": "comunicacion",
+      "label": "Comunicación y evangelización",
+      "keywords": [
+        "comunicadores",
+        "periodistas",
+        "evangelizacion",
+        "evangelización",
+        "catequesis"
+      ]
+    }
+  ]
+}
