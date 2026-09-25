@@ -1,0 +1,287 @@
+{
+  "id": "nuestra-senora-de-montserrat",
+  "name": "Nuestra Señora de Montserrat",
+  "title": "Nuestra Señora de Montserrat",
+  "subtitle": "La Moreneta, Patrona de las diócesis catalanas",
+  "image": null,
+  "feast": {
+    "text": "27 de abril",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad local",
+  "quote": null,
+  "patronages": [
+    "Cataluña",
+    "Diócesis catalanas",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Peregrinación",
+    "Caridad",
+    "Perseverancia",
+    "Evangelización"
+  ],
+  "history": {
+    "short": "Nuestra Señora de Montserrat, conocida popularmente como la Moreneta, es venerada en el monasterio y santuario de Montserrat, en Cataluña.",
+    "extended": "La devoción a Santa María de Montserrat se desarrolló alrededor de la montaña y del monasterio benedictino. La Abadía de Montserrat sitúa hacia el año 1025 la fundación del monasterio por el abad Oliba, obispo de Vic, en una montaña que ya contaba con antiguas ermitas habitadas por eremitas. La tradición sobre el hallazgo de la imagen en el año 880 forma parte de la memoria devocional del santuario y se presenta como leyenda, no como un hecho histórico demostrado. La devoción se extendió por Cataluña y más allá. El papa León XIII declaró a la Virgen de Montserrat patrona de las diócesis catalanas en 1880, en el contexto de las celebraciones del supuesto milenario del hallazgo, y la imagen fue solemnemente coronada en 1881. La fiesta litúrgica quedó fijada el 27 de abril en 1914. San Juan Pablo II visitó el santuario el 7 de noviembre de 1982 y destacó el carácter de Montserrat como lugar de peregrinación, oración y anuncio cristiano. La imagen, conocida popularmente como la Moreneta, presenta a María sentada con el Niño Jesús sobre sus rodillas y forma parte central de la identidad espiritual del santuario."
+  },
+  "openingPrayer": "Nuestra Señora de Montserrat, Madre y Señora nuestra, acompáñanos en esta novena. Enséñanos a caminar hacia Cristo con esperanza, a perseverar en la fe y a servir con caridad a nuestros hermanos. Amén.",
+  "closingPrayer": "Nuestra Señora de Montserrat, intercede por nosotros y conduce nuestros pasos hacia Jesucristo. Protege a nuestras familias, acompaña a los peregrinos y ayúdanos a vivir en esperanza y caridad. Amén.",
+  "intentions": [
+    "Por Cataluña y todas sus diócesis.",
+    "Por las familias y comunidades.",
+    "Por los peregrinos que acuden a Montserrat.",
+    "Por quienes anuncian el Evangelio.",
+    "Por quienes necesitan esperanza, consuelo y paz."
+  ],
+  "bibleReferences": [
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14",
+    "Sal 121,1-4"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Peregrinación",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso espiritual necesito dar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y quienes buscan a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Perseverar en el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Dónde necesito renovar hoy la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven incertidumbre o tristeza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito poner en las manos del Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Caridad",
+      "title": "Servir al hermano",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Construir unidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto puede fortalecer hoy mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Evangelización",
+      "title": "Dar testimonio",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo llevar hoy el Evangelio a los demás con mis obras?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes anuncian y sirven a la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "No abandonar el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Oración",
+      "title": "Permanecer cerca de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio necesito reservar hoy para la oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las comunidades contemplativas y todos los que rezan."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Confiar nuestra vida a Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Montserrat se desarrolló alrededor del monasterio benedictino y convirtió la montaña en un importante lugar de peregrinación y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con esperanza, oración, perseverancia y caridad."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero poner definitivamente en manos del Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cataluña, España y todos los devotos de Nuestra Señora de Montserrat."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Montserrat, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Montserrat, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "Abadía de Montserrat, historia del monasterio y de la Virgen de Montserrat.",
+    "Abadía de Montserrat, festividad de la Mare de Déu de Montserrat, 27 de abril.",
+    "San Juan Pablo II, Celebración de la Palabra en el Santuario de Montserrat, 7 de noviembre de 1982.",
+    "San Juan Pablo II, Ángelus en Barcelona, 7 de noviembre de 1982."
+  ]
+}
