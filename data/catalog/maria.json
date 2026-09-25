@@ -422,10 +422,10 @@
     {
       "id": "nuestra-senora-de-las-lajas",
       "name": "Nuestra Señora de Las Lajas",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-del-rosario-de-las-lajas.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
