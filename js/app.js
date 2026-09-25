@@ -396,10 +396,7 @@ let elementoConFocoAntesDelMenu = null;
 
 function actualizarEstadoMenu(abierto) {
     const boton = document.getElementById("btn-menu");
-    const menu = document.getElementById("side-menu");
-
     boton?.setAttribute("aria-expanded", String(abierto));
-    menu?.setAttribute("aria-hidden", String(!abierto));
 }
 
 function alternarMenu() {
