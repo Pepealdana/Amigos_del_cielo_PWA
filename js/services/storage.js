@@ -102,8 +102,16 @@ function actualizarProgreso(novenaId, dia) {
     if (!novenaId) return;
 
     const numeroDia = Number(dia);
+    const totalDias =
+        state.novenaActual?.id === novenaId
+            ? obtenerTotalDiasNovena()
+            : APP_CONFIG.diasNovena;
 
-    if (!Number.isInteger(numeroDia) || numeroDia < 1 || numeroDia > 9) {
+    if (
+        !Number.isInteger(numeroDia) ||
+        numeroDia < 1 ||
+        numeroDia > totalDias
+    ) {
         return;
     }
 
@@ -240,19 +248,33 @@ function inicializarStorage() {
 function finalizarNovena(novenaId) {
     if (!novenaId) return false;
 
+    const totalDias =
+        state.novenaActual?.id === novenaId
+            ? obtenerTotalDiasNovena()
+            : APP_CONFIG.diasNovena;
+
     const anterior = state.progreso[novenaId] || {};
     const completados = Array.isArray(anterior.completados)
-        ? [...new Set(anterior.completados.map(Number))]
+        ? [...new Set(
+            anterior.completados
+                .map(Number)
+                .filter(
+                    dia =>
+                        Number.isInteger(dia) &&
+                        dia >= 1 &&
+                        dia <= totalDias
+                )
+        )]
         : [];
 
-    if (!completados.includes(9)) {
-        completados.push(9);
+    if (!completados.includes(totalDias)) {
+        completados.push(totalDias);
         completados.sort((a, b) => a - b);
     }
 
     state.progreso[novenaId] = {
         ...anterior,
-        dia: 9,
+        dia: totalDias,
         completados,
         completada: true,
         fecha: new Date().toISOString(),
