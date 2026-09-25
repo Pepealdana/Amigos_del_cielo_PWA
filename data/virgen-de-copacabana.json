@@ -1,0 +1,289 @@
+{
+  "id": "virgen-de-copacabana",
+  "name": "Nuestra Señora de Copacabana",
+  "title": "Nuestra Señora de Copacabana",
+  "subtitle": "Patrona de Bolivia y Madre del pueblo boliviano",
+  "image": null,
+  "feast": {
+    "text": "5 de agosto",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "Bolivia",
+    "Pueblo boliviano",
+    "Familias",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Justicia",
+    "Amor",
+    "Unidad",
+    "Servicio"
+  ],
+  "history": {
+    "short": "Nuestra Señora de Copacabana es la principal advocación mariana vinculada al santuario nacional de Copacabana, junto al lago Titicaca, y una de las expresiones más importantes de la piedad mariana boliviana.",
+    "extended": "La veneración de Nuestra Señora de Copacabana se desarrolló en el altiplano boliviano durante los primeros tiempos de la evangelización. San Juan Pablo II explicó en 1992 que la imagen, obra de un indígena, fue entronizada en una pequeña iglesia de Copacabana en 1583 por los padres agustinos. El actual templo comenzó a construirse en 1605 y el santuario recibió durante siglos a numerosos peregrinos de Bolivia y de otros lugares de la región. La tradición identifica al escultor como Francisco Tito Yupanqui, cuya obra llegó a convertirse en el centro de esta devoción mariana. La Santa Sede ha reconocido la importancia del santuario y de la advocación: Pío XI concedió la coronación de la imagen y Pío XII elevó el templo a Basílica Menor; en 1968 san Pablo VI declaró a Nuestra Señora de Copacabana Patrona principal de la Armada Boliviana. San Juan Pablo II la llamó Madre y Patrona de Bolivia y en 1988 confió a su protección a las familias bolivianas. El papa Francisco también se refirió a ella como Patrona de Bolivia y Madre de la nación. El santuario, situado junto al lago Titicaca, continúa siendo un lugar de peregrinación y oración."
+  },
+  "openingPrayer": "Nuestra Señora de Copacabana, Madre y Patrona de Bolivia, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo, fortalece nuestra fe y enséñanos a vivir con esperanza, amor y servicio. Amén.",
+  "closingPrayer": "Nuestra Señora de Copacabana, Madre de Bolivia, intercede por tu pueblo. Protege nuestras familias, fortalece nuestra esperanza y ayúdanos a caminar siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por Bolivia y todos sus habitantes.",
+    "Por las familias bolivianas.",
+    "Por los pueblos indígenas y comunidades del altiplano.",
+    "Por los pobres, enfermos y quienes sufren.",
+    "Por los peregrinos que acuden al Santuario de Copacabana."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Bolivia y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito entregar hoy a Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan momentos difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué persona de mi familia necesita hoy mi atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias bolivianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Amor",
+      "title": "Servir con generosidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Amor",
+      "reflection": "¿Qué obra concreta de amor puedo realizar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Justicia",
+      "title": "Defender la dignidad humana",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Justicia",
+      "reflection": "¿Cómo puedo respetar y defender mejor la dignidad de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren injusticia o exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad en mi entorno?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad del pueblo boliviano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Peregrinación",
+      "title": "Caminar con perseverancia",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso necesito dar hoy para acercarme más a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los peregrinos de Copacabana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Servicio",
+      "title": "Poner la fe en obras",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué necesidad concreta puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a los más vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Copacabana ha acompañado durante siglos la vida de fe del pueblo boliviano y continúa reuniendo a peregrinos en torno al santuario del lago Titicaca."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, amor, justicia, unidad y servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Bolivia, su Iglesia y todas sus familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Copacabana, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de Copacabana, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Ángelus, 29 de marzo de 1992.",
+    "San Juan Pablo II, Consagración a la Virgen de Copacabana, La Paz, 10 de mayo de 1988.",
+    "San Juan Pablo II, Radiomensaje al pueblo boliviano, 14 de mayo de 1988.",
+    "San Pablo VI, Carta apostólica Maria, Mater, 4 de noviembre de 1968.",
+    "Francisco, Palabras con ocasión de la entrega de dos condecoraciones a la Virgen de Copacabana, 10 de julio de 2015.",
+    "Vatican News, Comunidad boliviana celebra Virgen de Copacabana en Roma, 4 de febrero de 2019."
+  ]
+}
