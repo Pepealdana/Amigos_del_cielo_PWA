@@ -45,8 +45,13 @@ function actualizarBotonInstalacion() {
         return;
     }
 
-    boton.hidden =
-        !eventoInstalacionPWA;
+    const instalada =
+        window.matchMedia?.(
+            "(display-mode: standalone)"
+        ).matches ||
+        window.navigator.standalone === true;
+
+    boton.hidden = instalada;
 
 }
 
