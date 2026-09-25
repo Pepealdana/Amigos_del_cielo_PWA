@@ -197,10 +197,10 @@
     {
       "id": "virgen-de-la-merced",
       "name": "Nuestra Señora de la Merced",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-la-merced.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
