@@ -1,0 +1,288 @@
+{
+  "id": "nuestra-senora-del-rosario-de-chiquinquira-de-maracaibo",
+  "name": "Nuestra Señora del Rosario de Chiquinquirá de Maracaibo",
+  "title": "Nuestra Señora del Rosario de Chiquinquirá de Maracaibo",
+  "subtitle": "La Chinita, Patrona de Maracaibo y del Zulia",
+  "image": null,
+  "feast": {
+    "text": "18 de noviembre",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "Maracaibo",
+    "Estado Zulia",
+    "Familias y comunidades",
+    "Pueblo zuliano"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Paz",
+    "Unidad",
+    "Caridad",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora del Rosario de Chiquinquirá de Maracaibo, conocida afectuosamente como La Chinita, es una de las principales advocaciones marianas del Zulia y tiene su santuario en la Basílica de Nuestra Señora de Chiquinquirá de Maracaibo.",
+    "extended": "La devoción mariana de Chiquinquirá en Maracaibo tiene una historia propia, vinculada a una imagen sobre una tabla que la tradición popular sitúa en el año 1709. La Arquidiócesis de Maracaibo ha señalado expresamente que los documentos disponibles no permiten dar certeza histórica al relato del hallazgo de la tabla a orillas del lago, por lo que este episodio se presenta en la ficha como tradición devocional y no como un hecho históricamente demostrado. La imagen fue venerada posteriormente en la iglesia de San Juan de Dios y la devoción fue creciendo hasta convertirse en una expresión central de la identidad religiosa del pueblo zuliano. El templo dedicado a Nuestra Señora del Rosario de Chiquinquirá recibió posteriormente importantes reconocimientos eclesiales y en 1920 fue elevado a basílica menor por el papa Benedicto XV. La coronación canónica de la imagen se celebró en Maracaibo el 18 de noviembre de 1942. Actualmente la Basílica y el santuario mariano de Chiquinquirá constituyen un importante centro de peregrinación. Cada 18 de noviembre se celebra su fiesta con Eucaristías, procesiones y diversas expresiones de la tradición zuliana."
+  },
+  "openingPrayer": "Nuestra Señora del Rosario de Chiquinquirá, Madre de los zulianos, acompáñanos en esta novena. Enséñanos a vivir nuestra fe con esperanza, a buscar la paz y a permanecer unidos como hermanos. Amén.",
+  "closingPrayer": "Nuestra Señora del Rosario de Chiquinquirá, intercede por nosotros y conduce nuestras vidas hacia Jesucristo. Protege a nuestras familias, acompaña a quienes sufren y ayúdanos a vivir en paz y caridad. Amén.",
+  "intentions": [
+    "Por Maracaibo, el Zulia y toda Venezuela.",
+    "Por las familias y comunidades zulianas.",
+    "Por quienes sufren pobreza, enfermedad o soledad.",
+    "Por la paz y la reconciliación.",
+    "Por los peregrinos y servidores del santuario."
+  ],
+  "bibleReferences": [
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Lc 2,19",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito poner hoy en las manos del Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Mirar el futuro con confianza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una palabra de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven tristeza o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Paz",
+      "title": "Ser instrumento de reconciliación",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué puedo hacer hoy para favorecer la paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Venezuela y especialmente por el pueblo zuliano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué relación necesita hoy un gesto de reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades divididas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "Servir al necesitado",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Familia",
+      "title": "Cuidar a los nuestros",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto puede fortalecer hoy mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias de Maracaibo y Venezuela."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "Permanecer en la fe",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso espiritual necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Peregrinación",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso quiero dar para acercarme más a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y servidores del santuario."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Confiar nuestra vida a Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Chiquinquirá de Maracaibo se desarrolló alrededor de la imagen venerada en la ciudad y se convirtió en una expresión central de la fe zuliana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a vivir la fe con esperanza, paz, unidad y caridad."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero entregar definitivamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Maracaibo, el Zulia, Venezuela y todos los devotos de María."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "Arquidiócesis de Maracaibo, Carta Pastoral por los 300 años de la renovación de la Chinita, 2009.",
+    "Arquidiócesis de Maracaibo, documentación sobre la fiesta y devoción a Nuestra Señora del Rosario de Chiquinquirá.",
+    "Benedicto XV, decreto de elevación de la iglesia de Nuestra Señora de Chiquinquirá a basílica menor, 1920.",
+    "Documentación histórica y eclesial sobre la coronación canónica de Nuestra Señora de Chiquinquirá de Maracaibo, 18 de noviembre de 1942."
+  ]
+}
