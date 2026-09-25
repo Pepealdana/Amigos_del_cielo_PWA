@@ -1,0 +1,336 @@
+{
+  "id": "virgen-de-chiquinquira",
+  "name": "Nuestra Señora del Rosario de Chiquinquirá",
+  "title": "Nuestra Señora del Rosario de Chiquinquirá",
+  "subtitle": "Reina y Patrona de Colombia, venerada en el Santuario Mariano Nacional de Chiquinquirá",
+  "image": null,
+  "feast": {
+    "text": "9 de julio",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Colombia",
+    "Familias",
+    "Pueblo colombiano",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Perseverancia",
+    "Oración",
+    "Unidad"
+  ],
+  "history": {
+    "short": "La devoción a Nuestra Señora del Rosario de Chiquinquirá se remonta al siglo XVI. La tradición colombiana relata que el lienzo de la Virgen, deteriorado con el paso del tiempo, se renovó milagrosamente el 26 de diciembre de 1586. Desde entonces el lugar se convirtió en centro de peregrinación. La imagen fue coronada canónicamente en 1919 como Reina y Patrona de Colombia. El santuario de Chiquinquirá es hoy uno de los principales centros marianos del país.",
+    "extended": "La historia de Nuestra Señora del Rosario de Chiquinquirá está vinculada a un lienzo de la Virgen del Rosario realizado en el siglo XVI. Según la tradición conservada por la Iglesia colombiana, la imagen había quedado deteriorada y fue colocada nuevamente en un oratorio de la región de Chiquinquirá. El 26 de diciembre de 1586, la tradición relata que el lienzo se renovó y recuperó su color y claridad. Este acontecimiento dio impulso a una devoción que se extendió por Colombia y convirtió el lugar en destino de peregrinaciones. Con el tiempo se levantó el santuario que actualmente custodian los frailes de la Orden de Predicadores. La imagen fue coronada canónicamente en 1919 como Reina y Patrona de Colombia. En 1986, durante su visita apostólica al país, san Juan Pablo II celebró la Eucaristía ante el santuario y destacó que María conduce a los fieles hacia Jesucristo y que el Rosario anuncia los misterios de Cristo. La Conferencia Episcopal de Colombia continúa presentando a Chiquinquirá como Santuario Mariano Nacional y a la Virgen bajo esta advocación como Patrona de Colombia. La devoción se expresa mediante peregrinaciones, Rosario, celebraciones eucarísticas, consagración a María y obras de evangelización y servicio."
+  },
+  "openingPrayer": "Nuestra Señora del Rosario de Chiquinquirá, Reina y Patrona de Colombia, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo, enséñanos a vivir con fe y esperanza y ayúdanos a servir a nuestros hermanos con caridad. Amén.",
+  "closingPrayer": "Nuestra Señora del Rosario de Chiquinquirá, acompaña a nuestras familias y a nuestro pueblo. Intercede por Colombia y enséñanos a buscar siempre a Cristo, fuente de unidad, justicia, paz y esperanza. Amén.",
+  "intentions": [
+    "Por Colombia y todos sus habitantes.",
+    "Por las familias colombianas y por quienes atraviesan dificultades.",
+    "Por la paz, la reconciliación y la unidad.",
+    "Por sacerdotes, religiosos, catequistas y agentes de evangelización.",
+    "Por los enfermos, pobres, desplazados, migrantes y personas que sufren."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14",
+    "Jn 19,25-27"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Creer y confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción de Chiquinquirá nació y se fortaleció alrededor de una imagen de María que generaciones de colombianos han venerado como signo de su fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a responder a Dios con confianza y a permanecer disponibles para su voluntad."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito confiar más en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan una crisis de fe o necesitan recuperar la esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Chiquinquirá, ayúdame a confiar en Dios y a permanecer fiel en las dificultades. Amén."
+      },
+      "action": "Entrega hoy a Dios una preocupación concreta mediante una oración confiada.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Rosario",
+      "title": "Contemplar a Cristo con María",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Chiquinquirá está vinculada al Rosario y a una tradición mariana que presenta a María conduciendo al pueblo hacia su Hijo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El Rosario puede ayudarnos a contemplar los misterios de Cristo y a llevar el Evangelio a la vida cotidiana."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Cómo puedo recuperar o profundizar mi oración del Rosario?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que rezan el Rosario y por quienes desean aprender a orar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Chiquinquirá, enséñanos a contemplar a Jesús y a guardar su Palabra en el corazón. Amén."
+      },
+      "action": "Reza hoy un misterio del Rosario con atención y presenta una intención concreta.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "A lo largo de siglos, los peregrinos han acudido a Chiquinquirá buscando consuelo, esperanza y fortaleza en medio de sus necesidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana permite afrontar las dificultades sin perder la confianza en Dios."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito presentar hoy ante Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, familias en crisis y personas que viven situaciones de incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Chiquinquirá, acompaña a quienes sufren y ayúdanos a mantener viva la esperanza. Amén."
+      },
+      "action": "Visita, llama o escribe hoy a una persona que necesite ánimo.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Construir comunión",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Chiquinquirá ha reunido a generaciones de colombianos en torno a la oración, la Eucaristía y la peregrinación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede ayudarnos a superar divisiones cuando ponemos a Cristo en el centro y buscamos el bien común."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para fortalecer la unidad en mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias, comunidades y de todo el pueblo colombiano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Chiquinquirá, ayúdanos a superar divisiones y a trabajar por la unidad y la fraternidad. Amén."
+      },
+      "action": "Da hoy un paso concreto para acercarte a alguien con quien exista distancia.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Paz",
+      "title": "Ser instrumentos de reconciliación",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La Iglesia colombiana ha acudido repetidamente a la Virgen de Chiquinquirá para pedir por la paz, la reconciliación y el bien del país."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración por la paz debe acompañarse de decisiones concretas que respeten la dignidad y la vida de los demás."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Dónde puedo ser hoy un instrumento de paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Colombia y por todos los lugares donde existen violencia, división o conflicto."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Chiquinquirá, intercede por la paz y enséñanos a responder al conflicto con verdad, respeto y caridad. Amén."
+      },
+      "action": "Renuncia hoy a una respuesta agresiva y busca una forma concreta de reconciliación.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Servicio",
+      "title": "Servir a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El santuario mariano de Chiquinquirá desarrolla una vida pastoral centrada en la evangelización, la oración y el acompañamiento de peregrinos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción mariana auténtica nos impulsa a vivir el Evangelio mediante el servicio concreto."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de mi entorno puedo atender?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan al servicio de la Iglesia y por quienes ayudan a personas vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Chiquinquirá, hazme disponible para servir con humildad y generosidad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de servicio sin buscar reconocimiento.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción mariana colombiana se vive también en hogares que recurren a María para pedir protección, consuelo y ayuda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La familia necesita oración, diálogo, paciencia, perdón y servicio cotidiano."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona de mi familia necesita hoy una atención especial de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, especialmente aquellas que viven enfermedad, pobreza, separación o conflictos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Chiquinquirá, protege nuestros hogares y enséñanos a amarnos con paciencia y respeto. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de cuidado o reconciliación dentro de tu familia.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "San Juan Pablo II recordó en Chiquinquirá que María conduce hacia Jesús y es modelo para la vida evangelizadora de la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misión cristiana consiste en anunciar y vivir el Evangelio con palabras, obras y testimonio."
+      },
+      "virtue": "Misión",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, religiosos, catequistas, misioneros y familias evangelizadoras."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Chiquinquirá, ayúdanos a mostrar a Cristo con nuestra vida y nuestras obras. Amén."
+      },
+      "action": "Comparte hoy una palabra de esperanza o una experiencia de fe con alguien que la necesite.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La historia de Chiquinquirá ha convertido este santuario en un lugar de encuentro con María y, por medio de ella, con Jesucristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La finalidad de la devoción a María es llevarnos a su Hijo, fortalecer nuestra fe y hacernos servidores del Evangelio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso de oración o servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por Colombia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Chiquinquirá, Reina y Patrona de Colombia, acompáñanos siempre hacia Jesús. Intercede por nuestro pueblo y enséñanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o reconciliación que mantendrás durante las próximas semanas.",
+      "closing": "Nuestra Señora del Rosario de Chiquinquirá, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "colombia",
+      "label": "Colombia",
+      "keywords": [
+        "Colombia",
+        "colombiano",
+        "colombiana"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliación",
+        "unidad",
+        "violencia"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinación",
+      "keywords": [
+        "peregrinación",
+        "peregrinos",
+        "santuario",
+        "Chiquinquirá"
+      ]
+    },
+    {
+      "id": "rosario",
+      "label": "Rosario y oración",
+      "keywords": [
+        "Rosario",
+        "oración",
+        "mariana",
+        "Virgen"
+      ]
+    }
+  ],
+  "sources": [
+    "Conferencia Episcopal de Colombia, Diócesis de Chiquinquirá.",
+    "Conferencia Episcopal de Colombia, historia y celebración de Nuestra Señora del Rosario de Chiquinquirá.",
+    "San Juan Pablo II, Homilía ante el Santuario Mariano de Chiquinquirá, 3 de julio de 1986."
+  ]
+}
