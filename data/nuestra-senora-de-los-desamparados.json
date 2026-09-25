@@ -1,0 +1,288 @@
+{
+  "id": "nuestra-senora-de-los-desamparados",
+  "name": "Nuestra Señora de los Desamparados",
+  "title": "Nuestra Señora de los Desamparados",
+  "subtitle": "Patrona de Valencia y Madre de los que sufren",
+  "image": null,
+  "feast": {
+    "text": "Segundo sábado de mayo",
+    "movable": true
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Valencia",
+    "Comunidad Valenciana",
+    "Personas desamparadas"
+  ],
+  "virtues": [
+    "Caridad",
+    "Misericordia",
+    "Compasión",
+    "Esperanza",
+    "Servicio",
+    "Protección"
+  ],
+  "history": {
+    "short": "Nuestra Señora de los Desamparados es la patrona de Valencia y una advocación profundamente vinculada a la atención de los pobres, enfermos, huérfanos y personas necesitadas.",
+    "extended": "La devoción a Nuestra Señora de los Desamparados nació en Valencia en el contexto de una obra de caridad dedicada a atender a personas sin recursos y, especialmente, a quienes morían abandonados. A comienzos del siglo XV se fundó el Hospital de los Inocentes, antecedente de una institución vinculada a la atención de personas con enfermedad mental y de otros necesitados. La imagen de la Virgen fue venerada bajo el título de Nuestra Señora de los Inocentes y Desamparados. La tradición valenciana conserva una especial relación entre la advocación y las obras de misericordia. El santuario y basílica de la Virgen de los Desamparados se encuentran en el centro histórico de Valencia, junto a la catedral. La imagen fue coronada canónicamente en 1923 y la Virgen es reconocida como patrona de Valencia. San Juan Pablo II visitó el santuario durante su visita a Valencia en 1982 y destacó la importancia de la caridad cristiana y del servicio a los más necesitados."
+  },
+  "openingPrayer": "Nuestra Señora de los Desamparados, Madre de misericordia, acompáñanos en esta novena. Enséñanos a reconocer a Cristo en quienes sufren y a servir con generosidad a nuestros hermanos. Amén.",
+  "closingPrayer": "Nuestra Señora de los Desamparados, Madre y Patrona de Valencia, intercede por nosotros y enséñanos a vivir la misericordia, la caridad y el servicio. Amén.",
+  "intentions": [
+    "Por Valencia y todos sus habitantes.",
+    "Por las personas pobres, enfermas, solas o abandonadas.",
+    "Por los niños y adultos que necesitan protección y cuidado.",
+    "Por las familias y comunidades.",
+    "Por quienes trabajan al servicio de los más vulnerables."
+  ],
+  "bibleReferences": [
+    "Mt 5,7",
+    "Mt 25,35-40",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 13,34-35",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Misericordia",
+      "title": "Tener un corazón compasivo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Ante qué necesidad concreta puedo mostrar hoy misericordia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que sufren y se sienten abandonadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Caridad",
+      "title": "Servir al hermano",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo ayudar concretamente hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Compasión",
+      "title": "Acercarse al que sufre",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿A quién puedo escuchar y acompañar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, ancianos y personas solas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Protección",
+      "title": "Cuidar a los más vulnerables",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Protección",
+      "reflection": "¿Cómo puedo proteger y defender la dignidad de quien necesita ayuda?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños y personas vulnerables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Esperanza",
+      "title": "Acompañar en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué palabra o gesto puede devolver esperanza a alguien?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan situaciones difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Familia",
+      "title": "Ser refugio para los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Cómo puedo hacer de mi hogar un espacio de acogida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y quienes viven solos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Servicio",
+      "title": "Poner la fe en obras",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué servicio concreto puedo realizar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan por los más necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Unidad",
+      "title": "Construir una comunidad que cuida",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para que nadie cercano se sienta abandonado?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad y solidaridad de nuestras comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Reconocer a Cristo en el necesitado",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de los Desamparados nació en Valencia estrechamente vinculada a obras de caridad y atención a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos recuerda que la fe cristiana se expresa también en la misericordia, la caridad y el servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso de servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Valencia, su Iglesia y todos los que necesitan ayuda."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Desamparados, acompáñanos y enséñanos a reconocer y servir a Cristo en nuestros hermanos. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Desamparados, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Homilía durante la visita a Valencia, 8 de noviembre de 1982.",
+    "San Juan Pablo II, Discurso en Valencia, 8 de noviembre de 1982.",
+    "Arzobispado de Valencia, Basílica de la Virgen de los Desamparados.",
+    "Generalitat Valenciana, historia y patrimonio de la Basílica de la Virgen de los Desamparados.",
+    "Real Basílica de Nuestra Señora de los Desamparados, historia de la advocación y del santuario."
+  ]
+}
