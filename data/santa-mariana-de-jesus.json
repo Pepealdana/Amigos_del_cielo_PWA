@@ -1,0 +1,429 @@
+{
+  "id": "santa-mariana-de-jesus",
+  "name": "Santa Mariana de Jesús",
+  "title": "La Azucena de Quito",
+  "subtitle": "Virgen y terciaria franciscana, ejemplo de oración, caridad y entrega",
+  "description": "Santa Mariana de Jesús Paredes, conocida como la Azucena de Quito, vivió en Quito en el siglo XVII una vida de oración, penitencia, caridad y entrega a Dios. La Iglesia la canonizó en 1950.",
+  "feast": {
+    "day": 26,
+    "month": 5,
+    "text": "26 de mayo",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "image": null,
+  "status": "published",
+  "novena": {
+    "days": 9
+  },
+  "content": {
+    "mode": "inline",
+    "folder": "santa-mariana-de-jesus"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "🌸"
+  },
+  "quote": {
+    "text": "«Permanezcan en mi amor.»",
+    "reference": "Juan 15,9. Texto bíblico usado como lema de oración; no se presenta como una cita de Santa Mariana de Jesús."
+  },
+  "patronages": [
+    "Ecuador",
+    "Quito"
+  ],
+  "virtues": [
+    "Oración",
+    "Caridad",
+    "Humildad",
+    "Pureza",
+    "Penitencia",
+    "Fortaleza",
+    "Entrega a Dios",
+    "Amor al prójimo"
+  ],
+  "search": [
+    "santa mariana de jesús",
+    "mariana de jesús paredes",
+    "azucena de quito",
+    "quito",
+    "ecuador",
+    "oración",
+    "caridad",
+    "penitencia",
+    "tercera orden franciscana",
+    "novena"
+  ],
+  "history": {
+    "short": "Mariana de Jesús Paredes nació en Quito en 1618 y murió el 26 de mayo de 1645, a los veintiséis años. Vivió en medio del mundo una intensa vida de oración, penitencia y caridad, vinculada a la espiritualidad franciscana. La Iglesia la beatificó en 1853 y la canonizó el 4 de junio de 1950 bajo el pontificado de Pío XII.",
+    "extended": "Mariana de Jesús Paredes nació en Quito en 1618, en el contexto de la sociedad colonial de la Real Audiencia de Quito. Quedó huérfana siendo niña y fue acogida por familiares, dentro de un ambiente de profunda formación cristiana. Desde temprana edad mostró una inclinación marcada hacia la oración, la catequesis, la vida sacramental y la ayuda a los necesitados. Su camino espiritual no se desarrolló dentro de un convento. Vivió en medio de la sociedad, pero buscó una entrega radical a Jesucristo mediante la oración, la penitencia, la virginidad consagrada y las obras de caridad. Recibió acompañamiento espiritual de sacerdotes, entre ellos jesuitas, y posteriormente se vinculó a la Tercera Orden de San Francisco. Su vida estuvo caracterizada por una intensa disciplina espiritual y por una preocupación constante por los pobres y enfermos. La tradición ecuatoriana conserva numerosos relatos sobre sus sacrificios, dones espirituales y acciones de intercesión. Estos elementos deben distinguirse de los hechos biográficos mejor documentados, pero forman parte de la memoria devocional con la que la Iglesia y el pueblo ecuatoriano han recordado a la santa. En 1645 Quito sufrió terremotos y una epidemia. La tradición relata que Mariana ofreció su vida por el bien de su pueblo y que su salud se deterioró posteriormente. Murió el 26 de mayo de 1645, a los veintiséis años. El papa Pío IX la beatificó en 1853 y el papa Pío XII la canonizó en 1950. En su alocución a los peregrinos ecuatorianos, Pío XII la presentó como una figura de santidad nacida en Quito y destacó en ella la oración, el sacrificio, la caridad y la entrega a Dios. Juan Pablo II recordó posteriormente que su vida unió oración contemplativa, acción misionera y caritativa y espíritu de penitencia. Santa Mariana de Jesús es recordada especialmente en Ecuador y en Quito, donde su memoria permanece estrechamente vinculada a la historia religiosa de la ciudad."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Mariana de Jesús, Azucena de Quito, enséñame a buscar a Cristo con un corazón sincero. Ayúdame a crecer en la oración, a servir con caridad y a ofrecer a Dios las dificultades de cada día sin perder la esperanza. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "Santa Mariana de Jesús, gracias por acompañarme durante esta novena. Ruega por Ecuador, por Quito y por todos los pueblos de América. Enséñanos a vivir una fe profunda, una caridad concreta y una esperanza firme. Que nuestra oración no nos aparte de quienes sufren, sino que nos impulse a servirlos con humildad. Presenta ante Cristo nuestras intenciones y ayúdanos a permanecer fieles a Él. Amén.",
+  "intentions": [
+    "Por Ecuador y por la ciudad de Quito.",
+    "Por las familias y los hogares que atraviesan dificultades.",
+    "Por los enfermos y quienes necesitan consuelo.",
+    "Por quienes buscan crecer en la oración y en la vida espiritual.",
+    "Por los jóvenes que desean descubrir su vocación y servir a Dios.",
+    "Por quienes viven pobreza, soledad o abandono.",
+    "Por la Iglesia en Ecuador y sus comunidades.",
+    "Por quienes desean aprender a ofrecer sus dificultades a Dios con esperanza.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 6,5-15"
+      },
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Lucas 10,25-37"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Romanos 12,9-21"
+      }
+    ],
+    "documents": [
+      "Alocución de Pío XII a los peregrinos con ocasión de la canonización de la beata Mariana de Jesús Paredes, 10 de julio de 1950",
+      "Discurso de Juan Pablo II a las religiosas de Ecuador, 30 de enero de 1985",
+      "Discurso de Juan Pablo II al mundo de la cultura en Quito, 30 de enero de 1985"
+    ],
+    "related": [
+      "Iglesia en Ecuador",
+      "Quito",
+      "Espiritualidad franciscana",
+      "Oración",
+      "Caridad"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia a los peregrinos que participaron en la canonización de la beata Mariana de Jesús Paredes",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/pius-xii/es/speeches/1950/documents/hf_p-xii_spe_19500710_mariana-paredes.html",
+      "type": "official"
+    },
+    {
+      "title": "Viaje apostólico a Ecuador: alocución a las religiosas de Ecuador",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1985/january/documents/hf_jp-ii_spe_19850130_voto-nacional.html",
+      "type": "official"
+    },
+    {
+      "title": "Viaje apostólico a Ecuador: encuentro con el mundo de la cultura",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1985/january/documents/hf_jp-ii_spe_19850130_mondo-cultura.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Oración",
+      "title": "Buscar a Dios con un corazón sincero",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Desde niña, Mariana mostró una profunda inclinación hacia la oración y la vida cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no consiste solo en pedir; también es aprender a escuchar a Dios y orientar la vida hacia Él."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio real ocupa la oración en mi día?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar o fortalecer su vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana de Jesús, enséñame a buscar a Dios con sinceridad y constancia. Ayúdame a hacer de la oración un encuentro verdadero con Cristo. Amén."
+      },
+      "action": "Reserva hoy unos minutos de silencio para orar sin teléfono ni distracciones.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Caridad",
+      "title": "Servir a quien necesita ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Mariana estuvo acompañada por la atención a pobres, enfermos y personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración cristiana encuentra una expresión concreta cuando nos hace más atentos al sufrimiento de los demás."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de alguien cercano puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos, ancianos y personas que viven solas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana, intercede para que mi fe no sea indiferente ante el sufrimiento. Enséñame a servir con respeto y generosidad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, según tus posibilidades.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Humildad",
+      "title": "Reconocer que todo bien viene de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mariana buscó una vida escondida y entregada a Dios, sin convertir sus prácticas espirituales en una búsqueda de reconocimiento personal."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La humildad permite reconocer nuestros dones sin convertirlos en motivo de orgullo y nos ayuda a servir mejor."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿En qué situaciones busco más reconocimiento que servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes ejercen responsabilidades y necesitan sabiduría y humildad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana de Jesús, ayúdame a vivir con sencillez y a poner mis capacidades al servicio de Dios y de los demás. Amén."
+      },
+      "action": "Haz hoy un servicio que probablemente nadie llegue a reconocer.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Pureza",
+      "title": "Cuidar el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mariana consagró su virginidad a Dios y buscó vivir con una entrega profunda a Jesucristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La pureza cristiana implica cuidar el corazón, las relaciones y las decisiones, tratando a cada persona con dignidad."
+      },
+      "virtue": "Pureza",
+      "reflection": "¿Qué necesito ordenar para vivir mis relaciones con mayor respeto y libertad interior?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes y por quienes buscan vivir su vocación con fidelidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana, ayúdame a cuidar mi corazón y a tratar a cada persona con respeto, dignidad y caridad. Amén."
+      },
+      "action": "Revisa hoy una costumbre, contenido o relación que pueda estar afectando tu vida interior y toma una decisión concreta.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Penitencia",
+      "title": "Ofrecer las dificultades con esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las fuentes sobre Mariana destacan una vida marcada por la penitencia y la disciplina espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La penitencia cristiana no busca el sufrimiento por sí mismo, sino la conversión del corazón y una mayor unión con Cristo. No debemos imitar prácticas físicas extremas sin orientación adecuada."
+      },
+      "virtue": "Penitencia",
+      "reflection": "¿Qué cambio interior necesito ofrecer hoy a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedad, dolor o pruebas difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana, enséñame a vivir las dificultades con fe y a convertirlas en ocasión de crecimiento, sin buscar el sufrimiento por sí mismo. Amén."
+      },
+      "action": "Elige una pequeña renuncia saludable y ofrécela por una intención concreta.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Entrega",
+      "title": "Poner la vida en manos de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Mariana estuvo marcada por una entrega profunda a Dios y por el deseo de ofrecer su vida por el bien de los demás."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La entrega cristiana consiste en poner nuestros proyectos, capacidades y dificultades al servicio de Dios y del prójimo."
+      },
+      "virtue": "Entrega a Dios",
+      "reflection": "¿Qué aspecto de mi vida me cuesta más confiar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes deben tomar decisiones importantes y buscan hacerlo con fe y prudencia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana de Jesús, ayúdame a confiar en Dios y a poner mi vida al servicio del bien. Que mis decisiones nazcan del amor y no del miedo. Amén."
+      },
+      "action": "Entrega a Dios mediante una oración una preocupación que hayas estado intentando controlar solo.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Fortaleza",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mariana vivió su vocación en medio de las dificultades de su época y mantuvo su compromiso espiritual hasta su muerte en 1645."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fortaleza cristiana no elimina el miedo o el cansancio; ayuda a perseverar en el bien con prudencia y esperanza."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué bien necesito seguir haciendo aunque me resulte difícil?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedades, crisis familiares o momentos de incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana, intercede por quienes están cansados o desanimados. Ayúdanos a perseverar en el bien y a confiar en Dios. Amén."
+      },
+      "action": "Anima hoy a una persona que esté atravesando una dificultad.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Amor al prójimo",
+      "title": "Convertir la oración en servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de Mariana une su vida contemplativa con la preocupación por los necesitados y con una entrega generosa por su pueblo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual madura cuando la oración nos lleva a amar de manera concreta a las personas que tenemos cerca."
+      },
+      "virtue": "Amor al prójimo",
+      "reflection": "¿Qué persona cercana necesita hoy una palabra, un tiempo o una ayuda concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, comunidades y personas que necesitan reconciliación y apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana, haz que mi oración produzca frutos de caridad. Enséñame a reconocer a Cristo en quienes necesitan mi ayuda. Amén."
+      },
+      "action": "Dedica tiempo de calidad a una persona que necesite ser escuchada.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Esperanza",
+      "title": "Entregar nuestra vida a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mariana murió el 26 de mayo de 1645 y fue canonizada por Pío XII en 1950. Su memoria permanece especialmente unida a Quito y al Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no consiste en reproducir literalmente la vida de otra persona, sino en dejar que su testimonio nos acerque a Cristo y nos impulse a amar mejor."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué compromiso concreto quiero conservar después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Ecuador, por Quito y por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mariana de Jesús, presenta nuestras intenciones ante Cristo. Ayúdanos a vivir con oración, caridad, fortaleza y esperanza, buscando siempre la voluntad de Dios. Amén."
+      },
+      "action": "Elige una práctica de oración o servicio de esta novena y mantenla durante las próximas semanas.",
+      "closing": "Santa Mariana de Jesús, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia y hogares",
+      "keywords": [
+        "familia",
+        "hogar",
+        "matrimonio",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "enfermedad",
+      "label": "Enfermedad y consuelo",
+      "keywords": [
+        "enfermedad",
+        "enfermos",
+        "salud",
+        "consuelo",
+        "dolor"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza y necesidad",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "necesidad",
+        "caridad",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "vida espiritual",
+        "fe"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y entrega a Dios",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "consagración",
+        "entrega"
+      ]
+    },
+    {
+      "id": "ecuador",
+      "label": "Ecuador y Quito",
+      "keywords": [
+        "ecuador",
+        "quito",
+        "pueblo",
+        "comunidad"
+      ]
+    }
+  ]
+}
