@@ -130,6 +130,7 @@ function renderFiltrosPais(paisSeleccionado) {
                         "País seleccionado"
                     )}</small>
             </div>
+            <p class="catalog-country-note">El país indica un vínculo histórico, de origen o de devoción; no limita la devoción a ese país.</p>
 
             <div class="catalog-country-nav" role="group" aria-label="Filtrar por país">
                 <button
@@ -180,9 +181,12 @@ function renderTarjetaCatalogoV2(item, seccion) {
         ? `data-action="open-novena" data-id="${escaparHTML(item.id)}"`
         : "";
 
-    const paises = Array.isArray(item.countries)
-        ? item.countries.filter(c => c !== "AMERICA")
-        : [];
+    const territorial = item.territorial || {};
+    const paises = [
+        ...(territorial.origin || []),
+        ...(territorial.historicalLinks || []),
+        ...(territorial.specialDevotion || [])
+    ].filter((codigo, index, lista) => lista.indexOf(codigo) === index);
 
     const paisesDisponibles = (state.catalogosV2.paises || []);
     const etiquetasPais = paises
