@@ -74,6 +74,50 @@ function renderAcerca() {
             <div class="divider"></div>
 
             <h3>
+                Una comunidad católica hispanohablante
+            </h3>
+
+            <p>
+                <strong>Amigos del Cielo está pensada para personas de habla
+                española, sin limitarse a un solo país.</strong> Colombia
+                forma parte de su historia y de su contenido inicial, pero
+                la aplicación está evolucionando para integrar santos,
+                beatos y advocaciones marianas de toda Hispanoamérica y
+                España.
+            </p>
+
+            <p>
+                Cuando una celebración o una devoción tenga características
+                propias de un país o región, procuraremos distinguirlas de
+                la información universal de la Iglesia. Así, una persona
+                puede compartir la aplicación con familiares, parroquias y
+                grupos de oración de distintos países sin perder el contexto
+                local.
+            </p>
+
+            <div class="divider"></div>
+
+            <h3>Hoja de ruta</h3>
+
+            <ol class="feature-list">
+                <li><strong>V1.0</strong> — Aplicación funcional y catálogo inicial.</li>
+                <li><strong>V1.1</strong> — Revisión y mejora del contenido.</li>
+                <li><strong>V1.2</strong> — Internacionalización para la comunidad católica hispanohablante.</li>
+                <li><strong>V1.3</strong> — Ampliación de santos, beatos y advocaciones de Hispanoamérica y España.</li>
+                <li><strong>V1.4</strong> — Calendario y celebraciones con contexto regional.</li>
+                <li><strong>V1.5</strong> — Mejoras de experiencia, compartir y participación.</li>
+                <li><strong>V2.0</strong> — Expansión multilingüe, comenzando por inglés y portugués.</li>
+            </ol>
+
+            <p>
+                Esta hoja de ruta es progresiva: primero buscamos una
+                experiencia sólida y útil en español antes de ampliar
+                idiomas o funciones más complejas.
+            </p>
+
+            <div class="divider"></div>
+
+            <h3>
                 Una aplicación gratuita
             </h3>
 
