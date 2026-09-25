@@ -1,0 +1,392 @@
+{
+  "version": "2.0",
+  "category": "maria",
+  "description": "Catálogo maestro de advocaciones marianas. Cada registro representa una advocación de María, no una persona distinta.",
+  "items": [
+    {
+      "id": "virgen-de-guadalupe",
+      "name": "Nuestra Señora de Guadalupe",
+      "countries": [
+        "MX",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "maria",
+      "sourceFile": "data/virgen-de-guadalupe.json",
+      "priority": "existente"
+    },
+    {
+      "id": "virgen-del-carmen",
+      "name": "Nuestra Señora del Carmen",
+      "countries": [
+        "CO",
+        "CL",
+        "PE",
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "maria",
+      "sourceFile": "data/virgen-del-carmen.json",
+      "priority": "existente"
+    },
+    {
+      "id": "virgen-de-fatima",
+      "name": "Nuestra Señora de Fátima",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "maria",
+      "sourceFile": "data/virgen-de-fatima.json",
+      "priority": "existente"
+    },
+    {
+      "id": "virgen-de-lourdes",
+      "name": "Nuestra Señora de Lourdes",
+      "countries": [
+        "AMERICA"
+      ],
+      "status": "published",
+      "category": "maria",
+      "sourceFile": "data/virgen-de-lourdes.json",
+      "priority": "existente"
+    },
+    {
+      "id": "virgen-de-lujan",
+      "name": "Nuestra Señora de Luján",
+      "countries": [
+        "AR",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-chiquinquira",
+      "name": "Nuestra Señora del Rosario de Chiquinquirá",
+      "countries": [
+        "CO",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-coromoto",
+      "name": "Nuestra Señora de Coromoto",
+      "countries": [
+        "VE",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-suyapa",
+      "name": "Nuestra Señora de Suyapa",
+      "countries": [
+        "HN",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-la-caridad-del-cobre",
+      "name": "Nuestra Señora de la Caridad del Cobre",
+      "countries": [
+        "CU",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-el-quinche",
+      "name": "Nuestra Señora de El Quinche",
+      "countries": [
+        "EC",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-caacupe",
+      "name": "Nuestra Señora de Caacupé",
+      "countries": [
+        "PY",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-la-merced",
+      "name": "Nuestra Señora de la Merced",
+      "countries": [
+        "PE",
+        "DO",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-la-altagracia",
+      "name": "Nuestra Señora de la Altagracia",
+      "countries": [
+        "DO",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-copacabana",
+      "name": "Nuestra Señora de Copacabana",
+      "countries": [
+        "BO",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "santa-maria-la-antigua",
+      "name": "Santa María la Antigua",
+      "countries": [
+        "PA",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-reina-de-la-paz",
+      "name": "Nuestra Señora Reina de la Paz",
+      "countries": [
+        "SV",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-de-los-angeles",
+      "name": "Nuestra Señora de los Ángeles",
+      "countries": [
+        "CR",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "la-purisima",
+      "name": "La Purísima / Inmaculada Concepción",
+      "countries": [
+        "NI",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-de-la-divina-providencia",
+      "name": "Nuestra Señora de la Divina Providencia",
+      "countries": [
+        "PR",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-los-treinta-y-tres",
+      "name": "Virgen de los Treinta y Tres",
+      "countries": [
+        "UY",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-del-pilar",
+      "name": "Nuestra Señora del Pilar",
+      "countries": [
+        "ES",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-de-la-almudena",
+      "name": "Nuestra Señora de la Almudena",
+      "countries": [
+        "ES",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-de-los-desamparados",
+      "name": "Nuestra Señora de los Desamparados",
+      "countries": [
+        "ES",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-de-la-candelaria",
+      "name": "Nuestra Señora de la Candelaria",
+      "countries": [
+        "CO",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-de-las-lajas",
+      "name": "Nuestra Señora de Las Lajas",
+      "countries": [
+        "CO",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-del-valle",
+      "name": "Nuestra Señora del Valle",
+      "countries": [
+        "VE",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-chiquinquira-de-maracaibo",
+      "name": "Nuestra Señora del Rosario de Chiquinquirá de Maracaibo",
+      "countries": [
+        "VE",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-del-cisne",
+      "name": "Nuestra Señora de El Cisne",
+      "countries": [
+        "EC",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-andacollo",
+      "name": "Nuestra Señora de Andacollo",
+      "countries": [
+        "CL",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "nuestra-senora-de-covadonga",
+      "name": "Nuestra Señora de Covadonga",
+      "countries": [
+        "ES",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-de-montserrat",
+      "name": "Nuestra Señora de Montserrat",
+      "countries": [
+        "ES",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    },
+    {
+      "id": "virgen-del-rocio",
+      "name": "Nuestra Señora del Rocío",
+      "countries": [
+        "ES",
+        "AMERICA"
+      ],
+      "status": "pending",
+      "category": "maria",
+      "sourceFile": null,
+      "priority": "alta"
+    }
+  ]
+}
