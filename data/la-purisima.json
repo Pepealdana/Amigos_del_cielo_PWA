@@ -1,0 +1,291 @@
+{
+  "id": "la-purisima",
+  "name": "La Purísima / Inmaculada Concepción",
+  "title": "La Purísima",
+  "subtitle": "Patrona de Nicaragua y expresión de la profunda devoción mariana de su pueblo",
+  "image": null,
+  "feast": {
+    "text": "8 de diciembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": {
+    "text": "«¿Quién causa tanta alegría? ¡La Concepción de María!»",
+    "reference": "Grito tradicional de la devoción a la Inmaculada Concepción en Nicaragua. El papa Francisco lo recogió expresamente en su carta al pueblo nicaragüense con motivo de la novena de 2024; no se presenta como una frase pronunciada por la Virgen."
+  },
+  "patronages": [
+    "Nicaragua",
+    "Pueblo nicaragüense",
+    "Familias y comunidades"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Confianza en Dios",
+    "Alegría",
+    "Pureza",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "La Purísima es la advocación con la que Nicaragua honra de manera especial a la Inmaculada Concepción de María. La devoción ocupa un lugar central en la vida religiosa y cultural del pueblo nicaragüense.",
+    "extended": "La devoción a la Inmaculada Concepción tiene una presencia profundamente arraigada en Nicaragua, donde la Virgen es venerada afectuosamente como «La Purísima». San Juan Pablo II señaló en 1992 que Nicaragua se honra de tenerla como Patrona. La celebración de la novena y las expresiones populares de piedad mariana forman parte de una tradición religiosa que se transmite de generación en generación. En su carta al pueblo de Nicaragua de 2024, el papa Francisco recordó especialmente la novena de la Inmaculada y el tradicional grito «¿Quién causa tanta alegría? ¡La Concepción de María!», junto con la expresión «María de Nicaragua, Nicaragua de María». En 1996, San Juan Pablo II elevó al rango de basílica el templo de la Inmaculada Concepción de El Viejo, destacándolo como lugar de veneración a María, la Purísima Inmaculada. La solemnidad de la Inmaculada Concepción se celebra el 8 de diciembre en toda la Iglesia."
+  },
+  "openingPrayer": "La Purísima, Madre y Patrona de Nicaragua, acompáñanos en esta novena. Enséñanos a confiar en Dios, a vivir con esperanza y a caminar siempre hacia Jesucristo. Amén.",
+  "closingPrayer": "La Purísima Inmaculada, Madre de Dios y Patrona de Nicaragua, intercede por nosotros y ayúdanos a vivir con fe, esperanza, pureza y caridad. Amén.",
+  "intentions": [
+    "Por Nicaragua y todos sus habitantes.",
+    "Por las familias y comunidades nicaragüenses.",
+    "Por la Iglesia que peregrina en Nicaragua.",
+    "Por quienes sufren, están enfermos o viven dificultades.",
+    "Por la paz, la reconciliación y la esperanza del pueblo nicaragüense."
+  ],
+  "bibleReferences": [
+    "Gn 3,15",
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Ef 1,3-5"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Creer en el amor de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Nicaragua y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Esperar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué preocupación necesito poner hoy en las manos del Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven dificultades, incertidumbre o sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Pureza",
+      "title": "Cuidar el corazón",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Pureza",
+      "reflection": "¿Qué puedo hacer para vivir con mayor rectitud y sinceridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes y por todas las familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Alegría",
+      "title": "Reconocer los dones recibidos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Alegría",
+      "reflection": "¿Qué motivo de gratitud puedo reconocer hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades nicaragüenses."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Confianza",
+      "title": "Abandonarse en la Providencia",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué temor necesito entregar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan momentos de angustia o necesidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Familia",
+      "title": "Construir hogares de fe",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Cómo puedo fortalecer hoy la unidad de mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares de Nicaragua."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso cristiano necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan mantenerse fieles a su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Caridad",
+      "title": "Servir al hermano",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo ayudar concretamente hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos, ancianos y personas necesitadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar con María hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a La Purísima ocupa un lugar central en la vida de fe del pueblo nicaragüense y se expresa especialmente durante la novena de la Inmaculada Concepción."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a responder a Dios con fe, confianza, humildad y amor."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Nicaragua, su Iglesia y todos sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "La Purísima, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "La Purísima Inmaculada, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Ángelus, 13 de septiembre de 1992.",
+    "Francisco, Carta al Pueblo de Dios que peregrina en Nicaragua con motivo de la celebración de la Novena de la Inmaculada Concepción, 2 de diciembre de 2024.",
+    "Francisco, Ángelus, 8 de diciembre de 2024.",
+    "San Juan Pablo II, Misa para las familias en Managua, 7 de febrero de 1996.",
+    "San Juan Pablo II, Ángelus, 8 de diciembre de 1993.",
+    "Código de Derecho Canónico, canon 1246, sobre la solemnidad de la Inmaculada Concepción."
+  ]
+}
