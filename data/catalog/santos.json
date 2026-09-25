@@ -561,10 +561,10 @@
     {
       "id": "santo-toribio-de-mogrovejo",
       "name": "Santo Toribio de Mogrovejo",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/santo-toribio-de-mogrovejo.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "ES"
