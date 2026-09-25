@@ -61,6 +61,44 @@ async function cargarCatalogo() {
     return state.catalogo;
 }
 
+async function cargarCatalogosV2() {
+    const rutas = {
+        santos: "./data/catalog/santos.json",
+        maria: "./data/catalog/maria.json",
+        devociones: "./data/catalog/devociones.json"
+    };
+
+    const entradas = await Promise.all(
+        Object.entries(rutas).map(async ([clave, ruta]) => {
+            const response = await fetch(ruta, { cache: "no-cache" });
+
+            if (!response.ok) {
+                throw new Error(
+                    "No fue posible cargar el catálogo v2 de " +
+                    clave +
+                    " (" +
+                    response.status +
+                    ")."
+                );
+            }
+
+            const datos = await response.json();
+
+            if (!datos || !Array.isArray(datos.items)) {
+                throw new Error(
+                    "El catálogo v2 de " + clave + " no tiene un formato válido."
+                );
+            }
+
+            return [clave, datos.items];
+        })
+    );
+
+    state.catalogosV2 = Object.fromEntries(entradas);
+
+    return state.catalogosV2;
+}
+
 async function cargarNovena(id) {
     if (!id) {
         const error = new Error("No se indicó el identificador de la novena.");
