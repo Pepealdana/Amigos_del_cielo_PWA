@@ -52,6 +52,7 @@ const APP_SHELL = [
     "./data/santa-faustina-kowalska.json",
     "./data/santa-filomena.json",
     "./data/santa-gemma-galgani.json",
+    "./data/santa-laura-montoya.json",
     "./css/style.css",
     "./css/01-base.css",
     "./css/02-layout.css",
