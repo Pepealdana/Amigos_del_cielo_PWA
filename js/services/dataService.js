@@ -85,10 +85,17 @@ async function cargarNovena(id) {
 
     state.novenaActual = novena;
 
+    const totalDias = obtenerTotalDiasNovena();
     const progreso = state.progreso[id];
+    const diaGuardado = Number(progreso?.dia);
 
-    state.diaActual =
-        Number(progreso?.dia) || 1;
+    if (Number.isInteger(diaGuardado) && diaGuardado >= 1 && diaGuardado <= totalDias) {
+        state.diaActual = diaGuardado;
+    } else if (progreso?.completada) {
+        state.diaActual = totalDias;
+    } else {
+        state.diaActual = 1;
+    }
 
     return novena;
 }
