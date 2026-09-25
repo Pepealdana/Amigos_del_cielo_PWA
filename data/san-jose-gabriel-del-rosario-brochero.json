@@ -1,0 +1,459 @@
+{
+  "id": "san-jose-gabriel-del-rosario-brochero",
+  "slug": "san-jose-gabriel-del-rosario-brochero",
+  "name": "San José Gabriel del Rosario Brochero",
+  "title": "El Cura Brochero",
+  "subtitle": "Sacerdote argentino, misionero de las sierras y servidor de los más necesitados",
+  "category": "Santos",
+  "image": null,
+  "description": "Sacerdote diocesano argentino que recorrió incansablemente las sierras de Córdoba para anunciar el Evangelio, acercar a las personas a los Ejercicios Espirituales y servir especialmente a los pobres y enfermos.",
+  "feast": {
+    "day": 16,
+    "month": 3,
+    "text": "16 de marzo",
+    "liturgicalRank": "Memoria",
+    "movable": false,
+    "note": "La fiesta litúrgica de San José Gabriel del Rosario Brochero se celebra el 16 de marzo."
+  },
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-jose-gabriel-del-rosario-brochero"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "quote": {
+    "text": "«No hay gloria cumplida en esta vida.»",
+    "reference": "Frase atribuida a San José Gabriel del Rosario Brochero y citada por el papa Francisco en la meditación del Jubileo de los sacerdotes del 2 de junio de 2016. La misma fuente recoge sus palabras sobre su ceguera y su deseo de servir mientras pudo hacerlo."
+  },
+  "patronages": [
+    "Argentina",
+    "Sacerdotes y pastores",
+    "Personas que realizan apostolado misionero",
+    "Pobres y personas vulnerables",
+    "Enfermos"
+  ],
+  "virtues": [
+    "Caridad pastoral",
+    "Oración",
+    "Misericordia",
+    "Cercanía",
+    "Servicio",
+    "Fortaleza",
+    "Humildad",
+    "Perseverancia"
+  ],
+  "search": [
+    "san brochero",
+    "cura brochero",
+    "josé gabriel brochero",
+    "brochero",
+    "sacerdote argentino",
+    "córdoba",
+    "argentina",
+    "sierras",
+    "ejercicios espirituales",
+    "misionero",
+    "pobres",
+    "enfermos",
+    "misericordia",
+    "oración",
+    "sacerdotes",
+    "evangelización",
+    "novena"
+  ],
+  "history": {
+    "short": "José Gabriel del Rosario Brochero nació en Santa Rosa de Río Primero, Córdoba, Argentina, el 16 de marzo de 1840. Fue ordenado sacerdote en 1866 y en 1869 recibió el encargo pastoral de la extensa región de San Alberto. Recorrió sus sierras a caballo, acercó a miles de personas a los Ejercicios Espirituales, promovió obras para mejorar la vida de sus comunidades y dedicó especial atención a pobres y enfermos. Contrajo lepra mientras asistía a personas enfermas, quedó ciego y murió en Villa del Tránsito el 26 de enero de 1914. Fue beatificado en 2013 y canonizado por el papa Francisco el 16 de octubre de 2016.",
+    "extended": "José Gabriel del Rosario Brochero nació en Santa Rosa de Río Primero, en la provincia de Córdoba, Argentina, el 16 de marzo de 1840, en una familia cristiana. Ingresó al Colegio Seminario de Nuestra Señora de Loreto en 1856 y fue ordenado sacerdote el 4 de noviembre de 1866. Durante sus primeros años de ministerio colaboró en la pastoral de la catedral de Córdoba y atendió a personas durante la epidemia de cólera. También obtuvo formación filosófica en la Universidad de Córdoba y ejerció como prefecto de estudios del seminario mayor. En 1869 fue enviado como párroco a la extensa región de San Alberto, en las Sierras Grandes de Córdoba, un territorio con grandes dificultades de comunicación, escasez de caminos y escuelas y una población dispersa. Brochero recorrió personalmente la zona, visitando familias y comunidades y anunciando el Evangelio con un lenguaje cercano. Promovió la práctica de los Ejercicios Espirituales de san Ignacio de Loyola y en 1877 inauguró una casa de ejercicios espirituales que llegó a recibir a más de cuarenta mil personas. Su acción pastoral también incluyó iniciativas educativas y comunitarias y gestiones para mejorar caminos, comunicaciones y otras condiciones de vida de los habitantes. El papa Francisco destacó que Brochero no permaneció encerrado en la sacristía, sino que salió al encuentro de las personas y buscó llevarlas a Cristo mediante la oración, los sacramentos y los Ejercicios Espirituales. En 1908 tuvo que dejar el cargo de párroco a causa de la lepra que había contraído durante su atención pastoral a personas enfermas. Continuó su ministerio dentro de sus posibilidades y regresó posteriormente a Villa del Tránsito a petición de sus antiguos feligreses. La enfermedad le produjo ceguera y murió el 26 de enero de 1914. Fue beatificado el 14 de septiembre de 2013 y canonizado por el papa Francisco el 16 de octubre de 2016. Su testimonio quedó especialmente vinculado a la caridad pastoral, la cercanía con la gente, la oración, la misericordia y la búsqueda del bien espiritual y humano de las comunidades que atendió."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San José Gabriel Brochero, sacerdote misionero y servidor de tu pueblo, enséñame a salir al encuentro de quienes necesitan una palabra, una ayuda, una oración o una presencia cercana. Ayúdame a buscar a Cristo en la oración y a llevar su misericordia a los demás. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San José Gabriel Brochero, gracias por acompañarme durante esta novena. Intercede por los sacerdotes, por quienes anuncian el Evangelio, por los pobres, los enfermos, las familias y las comunidades que necesitan esperanza. Ayúdanos a vivir una fe cercana, misericordiosa y perseverante, capaz de salir al encuentro del prójimo. Que sepamos confiar en Dios también cuando nuestra obra quede incompleta y ofrecerle con humildad lo que podamos hacer. Amén.",
+  "intentions": [
+    "Por los sacerdotes y por quienes ejercen responsabilidades pastorales.",
+    "Por las personas que viven en pobreza, aislamiento o vulnerabilidad.",
+    "Por los enfermos y por quienes los acompañan y cuidan.",
+    "Por los misioneros, catequistas y agentes de evangelización.",
+    "Por las comunidades rurales y las personas que viven en lugares de difícil acceso.",
+    "Por quienes buscan reconciliarse con Dios y retomar la vida de fe.",
+    "Por las familias que necesitan apoyo, esperanza y acompañamiento.",
+    "Por Argentina y por todos los pueblos que necesitan servidores comprometidos con el bien común.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 10,1-9"
+      },
+      {
+        "reference": "Mateo 25,31-46"
+      },
+      {
+        "reference": "Lucas 6,36-38"
+      },
+      {
+        "reference": "Marcos 6,7-13"
+      },
+      {
+        "reference": "Juan 13,34-35"
+      }
+    ],
+    "documents": [
+      "Biografía oficial de San José Gabriel del Rosario Brochero, Santa Sede",
+      "Carta del papa Francisco con motivo de la beatificación de Padre José Gabriel Brochero, 14 de septiembre de 2013",
+      "Meditación del papa Francisco en el Jubileo de los sacerdotes, 2 de junio de 2016",
+      "Homilía de canonización, papa Francisco, 16 de octubre de 2016"
+    ],
+    "related": [
+      "Iglesia en Argentina",
+      "Córdoba",
+      "Ejercicios Espirituales de san Ignacio de Loyola",
+      "Evangelización",
+      "Caridad pastoral"
+    ]
+  },
+  "sources": [
+    {
+      "title": "José Gabriel del Rosario Brochero — Biografía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/libretti/2016/20161016-libretto-canonizzazione.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Carta con motivo de la beatificación del Padre José Gabriel Brochero",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/letters/2013/documents/papa-francesco_20130914_beatificazione-brochero.html",
+      "type": "official"
+    },
+    {
+      "title": "El receptáculo de la Misericordia es nuestro pecado — segunda meditación del Jubileo de los sacerdotes",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2016/06/02/segunda.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía de canonización, 16 de octubre de 2016",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2016/documents/papa-francesco_20161016_omelia-canonizzazione.html",
+      "type": "official"
+    },
+    {
+      "title": "Casa Natal del Presbítero José G. R. Brochero",
+      "organization": "Gobierno de Argentina",
+      "url": "https://www.argentina.gob.ar/node/417278",
+      "type": "government"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Caridad pastoral",
+      "title": "Salir al encuentro del prójimo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Brochero recorrió las sierras de Córdoba para visitar a las personas y llevarles el Evangelio, acercándose a sus necesidades concretas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad pastoral comienza cuando dejamos de esperar que los demás vengan y aprendemos a salir a su encuentro."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo acercarme hoy con una actitud de servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten solos, olvidados o alejados de la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, enséñame a salir de mí mismo y acercarme con caridad a quien necesita ayuda. Amén."
+      },
+      "action": "Visita, llama o escribe hoy a una persona que pueda necesitar compañía.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Oración",
+      "title": "Buscar a Dios antes de servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Brochero promovió los Ejercicios Espirituales y llevó a numerosas personas a espacios de oración, conversión y encuentro con Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio cristiano necesita una fuente interior: la oración ayuda a ordenar el corazón y orientar la acción hacia Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué lugar real ocupa la oración en mi vida cotidiana?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean volver a una vida de oración y por quienes buscan a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, ayúdame a buscar a Dios con perseverancia y a dejar que la oración transforme mi manera de servir. Amén."
+      },
+      "action": "Dedica hoy un tiempo sin distracciones a la oración.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Evangelización",
+      "title": "Llevar el Evangelio con un lenguaje cercano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Brochero buscaba hacerse entender por las personas de su comunidad y anunciaba a Cristo desde su realidad cotidiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar también significa aprender a escuchar, comprender el contexto de las personas y comunicar la fe de manera clara y cercana."
+      },
+      "virtue": "Celo apostólico",
+      "reflection": "¿Cómo puedo comunicar mi fe sin imponerla y con respeto por quien tengo delante?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros, catequistas, evangelizadores y familias que transmiten la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, ayúdame a comunicar el Evangelio con claridad, respeto, alegría y caridad. Amén."
+      },
+      "action": "Comparte hoy una palabra de esperanza con alguien que la necesite.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Misericordia",
+      "title": "Acercarse a quien sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Brochero atendió pastoralmente a personas enfermas y contrajo lepra durante su servicio a quienes padecían esta enfermedad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misericordia cristiana no se limita a sentir compasión: implica acercarse al sufrimiento y acompañar a la persona con dignidad."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Hay alguna persona que sufra a la que pueda acompañar mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, cuidadores y familias que atraviesan situaciones de sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, intercede por los enfermos y enséñame a acompañar el sufrimiento con respeto y misericordia. Amén."
+      },
+      "action": "Ofrece hoy una ayuda concreta a una persona enferma o a quien la cuida.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Servicio",
+      "title": "Trabajar por el bien de la comunidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Además de su ministerio espiritual, Brochero promovió caminos, escuelas, comunicaciones y otras iniciativas destinadas a mejorar las condiciones de las comunidades de su territorio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Servir al prójimo también puede significar trabajar responsablemente por condiciones que favorezcan la educación, la convivencia y el desarrollo de una comunidad."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué necesidad de mi comunidad puedo ayudar a mejorar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las comunidades con necesidades materiales, educativas o de infraestructura."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, enséñame a poner mis capacidades al servicio del bien de los demás. Amén."
+      },
+      "action": "Identifica una necesidad concreta de tu comunidad y piensa en una forma realista de colaborar.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Cercanía",
+      "title": "Conocer a las personas por su nombre y su historia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El papa Francisco destacó que Brochero recorría su parroquia y buscaba a las personas casa por casa, permaneciendo cerca de su pueblo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La cercanía permite comprender mejor las necesidades de los demás y evita que el servicio se convierta en una ayuda distante."
+      },
+      "virtue": "Cercanía",
+      "reflection": "¿Escucho realmente las necesidades de las personas que tengo cerca?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, vecinos y comunidades que necesitan acompañamiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, enséñame a estar presente, escuchar y acompañar con paciencia y respeto. Amén."
+      },
+      "action": "Escucha hoy a alguien durante unos minutos sin interrumpirlo ni apresurarte a aconsejar.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Fortaleza",
+      "title": "Perseverar en medio de la enfermedad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de contraer lepra y perder la vista, Brochero continuó viviendo su ministerio dentro de sus posibilidades y permaneció unido a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fortaleza cristiana no significa negar la fragilidad, sino permanecer confiados y fieles en medio de ella."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito afrontar hoy con mayor confianza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven enfermedades prolongadas, discapacidad o situaciones que limitan su vida cotidiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, acompaña a quienes sufren y ayúdame a permanecer firme cuando aparezcan la enfermedad o el cansancio. Amén."
+      },
+      "action": "Ora hoy por una persona que atraviese una dificultad prolongada.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Humildad",
+      "title": "Aceptar que la obra también pertenece a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En sus últimos años Brochero reconoció sus límites y habló de la ausencia de una gloria definitiva en esta vida, poniendo la mirada más allá de sus propios logros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La humildad permite servir sin convertir nuestros resultados en la medida de nuestro valor y confiar a Dios aquello que no podemos terminar."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Qué resultado necesito aprender a entregar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan mucho y se sienten frustrados porque no ven terminada su obra."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Brochero, ayúdame a servir con fidelidad sin buscar reconocimiento y a confiar a Dios aquello que no puedo completar. Amén."
+      },
+      "action": "Haz hoy una tarea de servicio sin buscar que otros conozcan lo que hiciste.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Perseverancia",
+      "title": "Seguir caminando con Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Brochero estuvo marcada por largos caminos, dificultades, enfermedad y servicio constante a su pueblo hasta el final."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia cristiana consiste en continuar amando, orando y sirviendo incluso cuando el camino se vuelve difícil."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso de fe y servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes necesitan renovar su esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Gabriel Brochero, acompáñame para que siga caminando con Cristo y sirviendo al prójimo con perseverancia. Amén."
+      },
+      "action": "Elige un compromiso concreto de oración o servicio para mantener durante las próximas semanas.",
+      "closing": "San José Gabriel Brochero, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "sacerdotes",
+      "label": "Sacerdotes y pastoral",
+      "keywords": [
+        "sacerdote",
+        "sacerdotes",
+        "párroco",
+        "pastoral",
+        "vocación"
+      ]
+    },
+    {
+      "id": "mision",
+      "label": "Evangelización y misión",
+      "keywords": [
+        "evangelización",
+        "evangelizacion",
+        "misión",
+        "mision",
+        "catequesis",
+        "ejercicios espirituales"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y cuidadores",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "lepra",
+        "cuidadores",
+        "sufrimiento"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza y vulnerabilidad",
+      "keywords": [
+        "pobreza",
+        "pobres",
+        "vulnerabilidad",
+        "necesitados",
+        "marginados"
+      ]
+    },
+    {
+      "id": "comunidades",
+      "label": "Comunidades y servicio",
+      "keywords": [
+        "comunidad",
+        "escuelas",
+        "caminos",
+        "servicio",
+        "bien común"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oración",
+        "oracion",
+        "retiro",
+        "ejercicios",
+        "conversión"
+      ]
+    }
+  ]
+}
