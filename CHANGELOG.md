@@ -29,3 +29,14 @@
 ## [1.0.0]
 
 Primera versión estable de Amigos del Cielo.
+
+
+## V1.2.0 — Internacionalización hispanohablante
+
+Inicio de la transición de Amigos del Cielo hacia una aplicación católica dirigida a personas de habla española, sin limitarse a Colombia.
+
+- Se separa idioma español de región o país.
+- Se incorpora selección de país o región hispanohablante en Configuración.
+- Se documenta la hoja de ruta hacia un catálogo de santos, beatos y advocaciones marianas de Hispanoamérica y España.
+- Se mantiene la distinción entre información universal de la Iglesia e información propia de un contexto local.
+- Se prepara el catálogo futuro para una ampliación regional antes de incorporar otros idiomas.
