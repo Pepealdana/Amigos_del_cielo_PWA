@@ -1,0 +1,287 @@
+{
+  "id": "nuestra-senora-de-el-cisne",
+  "name": "Nuestra Señora de El Cisne",
+  "title": "Nuestra Señora de El Cisne",
+  "subtitle": "La Churona, Madre de los peregrinos y Reina de Loja",
+  "image": null,
+  "feast": {
+    "text": "15 de agosto",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad local",
+  "quote": null,
+  "patronages": [
+    "Loja",
+    "El Cisne",
+    "Peregrinos del Ecuador y del norte del Perú"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Perseverancia",
+    "Confianza",
+    "Caridad",
+    "Peregrinación"
+  ],
+  "history": {
+    "short": "Nuestra Señora de El Cisne es una antigua advocación mariana de la provincia de Loja, Ecuador, cuyo santuario es uno de los principales centros de peregrinación mariana del país.",
+    "extended": "La devoción a Nuestra Señora de El Cisne se remonta a finales del siglo XVI. Las fuentes locales conservan distintas tradiciones sobre el origen de la advocación. Una relación histórica atribuida a los Anales de Montesinos sitúa una manifestación de la Virgen en 1594, mientras que una crónica de 1651 recoge un testimonio según el cual una imagen fue llevada desde Quito por indígenas y ya era venerada en El Cisne. Por esta razón, estos relatos se presentan como tradición histórica y devocional, sin confundirlos con hechos cuya documentación permita establecer todos sus detalles con certeza. La imagen que se venera actualmente fue tallada en cedro por el escultor Diego de Robles a finales del siglo XVI, según las fuentes del santuario y del municipio de Loja. El culto se consolidó en la región y el santuario pasó a estar atendido también por los franciscanos durante un largo período. El actual templo fue construido entre 1934 y 1978 y fue elevado a basílica por san Juan Pablo II en 1980, según la documentación del municipio de Loja. La fiesta principal se celebra el 15 de agosto. A partir del 17 de agosto comienza la tradicional romería de la imagen desde El Cisne hacia Loja, una peregrinación que congrega cada año a numerosos fieles."
+  },
+  "openingPrayer": "Nuestra Señora de El Cisne, Madre de los peregrinos, acompáñanos en esta novena. Enséñanos a caminar con fe, a perseverar en las dificultades y a acercarnos cada día más a Jesucristo. Amén.",
+  "closingPrayer": "Nuestra Señora de El Cisne, acompaña nuestros pasos y llévanos hacia Cristo. Protege a nuestras familias, recibe nuestras súplicas y ayúdanos a vivir con fe, esperanza y caridad. Amén.",
+  "intentions": [
+    "Por Loja y todo el Ecuador.",
+    "Por los peregrinos que caminan hacia el santuario.",
+    "Por las familias y comunidades.",
+    "Por quienes atraviesan dificultades y necesitan esperanza.",
+    "Por la Iglesia y la evangelización en Ecuador."
+  ],
+  "bibleReferences": [
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Lc 2,19",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Caminar confiando en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito confiar hoy al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Seguir adelante",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una palabra de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven tristeza o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Perseverancia",
+      "title": "No abandonar el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y quienes están cansados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Confianza",
+      "title": "Entregar nuestras preocupaciones",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación puedo poner hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven dificultades familiares o personales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Caminar juntos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto puede fortalecer hoy mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias ecuatorianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Caridad",
+      "title": "Ayudar al que camina conmigo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Peregrinación",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso espiritual quiero dar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los peregrinos y servidores del santuario."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Evangelización",
+      "title": "Llevar la fe a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio cristiano con mis obras?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia y quienes anuncian el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Poner nuestra vida en manos de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Cisne se desarrolló en Loja desde finales del siglo XVI y dio origen a una de las grandes peregrinaciones marianas del Ecuador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, perseverancia y esperanza, acompañando también a nuestros hermanos."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero confiar definitivamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Ecuador, Loja y todos los devotos de Nuestra Señora de El Cisne."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Cisne, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Cisne, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "Santuario Nacional de El Cisne, historia del santuario y programa oficial de fiestas 2026.",
+    "Municipio de Loja, información histórica y turística sobre El Cisne y su santuario.",
+    "Diócesis de Loja, documentación sobre la devoción y la tradición de Nuestra Señora de El Cisne.",
+    "Santa Sede, documentación sobre la visita y ministerio de san Juan Pablo II."
+  ]
+}
