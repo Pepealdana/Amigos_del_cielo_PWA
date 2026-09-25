@@ -405,10 +405,10 @@
     {
       "id": "nuestra-senora-de-la-candelaria",
       "name": "Nuestra Señora de la Candelaria",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-de-la-candelaria.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
