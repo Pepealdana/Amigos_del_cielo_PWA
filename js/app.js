@@ -160,6 +160,16 @@ function registrarEventos() {
 
     );
 
+    window.addEventListener(
+        "online",
+        () => mostrarEstadoConexion(true)
+    );
+
+    window.addEventListener(
+        "offline",
+        () => mostrarEstadoConexion(false)
+    );
+
 }
 
 /* ==========================================
@@ -245,6 +255,35 @@ function cerrarMenu() {
         ?.classList.remove("show");
 
 }
+function mostrarEstadoConexion(online) {
+    const indicador =
+        document.getElementById("connection-status");
+
+    if (!indicador) {
+        return;
+    }
+
+    indicador.textContent = online
+        ? "Con conexión"
+        : "Sin conexión · contenido disponible";
+
+    indicador.classList.toggle("online", online);
+    indicador.classList.toggle("offline", !online);
+    indicador.hidden = false;
+    indicador.classList.add("show");
+
+    window.clearTimeout(
+        mostrarEstadoConexion.temporizador
+    );
+
+    if (online) {
+        mostrarEstadoConexion.temporizador =
+            window.setTimeout(() => {
+                indicador.classList.remove("show");
+            }, 2200);
+    }
+}
+
 /* ==========================================
    NAVEGACIÓN PRINCIPAL
 ========================================== */
