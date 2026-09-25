@@ -81,7 +81,7 @@ function renderCatalogoV2(seccion) {
                         ${pendientes.map(item => `
                             <span class="catalog-pending-item">
                                 ${escaparHTML(item.name)}
-                                <small>Prioridad alta</small>
+                                <small>Prioridad ${escaparHTML(item.priority || "media")}</small>
                             </span>
                         `).join("")}
                     </div>
