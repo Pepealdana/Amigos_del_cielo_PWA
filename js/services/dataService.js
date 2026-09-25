@@ -144,15 +144,15 @@ async function cargarNovena(id) {
     }
 
     if (!novena.id) {
-        novena.id = resumen.id;
+        novena.id = resumen?.id || resumenV2?.id || id;
     }
 
     if (!novena.feast) {
-        novena.feast = resumen.feast || null;
+        novena.feast = resumen?.feast || resumenV2?.feast || null;
     }
 
     if (!novena.image) {
-        novena.image = resumen.image || "";
+        novena.image = resumen?.image || resumenV2?.image || "";
     }
 
     state.novenaActual = novena;
