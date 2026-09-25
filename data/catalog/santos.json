@@ -618,10 +618,10 @@
     {
       "id": "san-alberto-hurtado",
       "name": "San Alberto Hurtado",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/san-alberto-hurtado.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "CL"
