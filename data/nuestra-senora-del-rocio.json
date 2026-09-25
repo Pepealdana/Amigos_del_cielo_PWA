@@ -1,0 +1,287 @@
+{
+  "id": "nuestra-senora-del-rocio",
+  "name": "Nuestra Señora del Rocío",
+  "title": "Nuestra Señora del Rocío",
+  "subtitle": "La Blanca Paloma, Patrona de Almonte y Madre de los peregrinos",
+  "image": null,
+  "feast": {
+    "text": "Lunes de Pentecostés",
+    "movable": true
+  },
+  "liturgicalRank": "Solemnidad local",
+  "quote": null,
+  "patronages": [
+    "Almonte",
+    "Peregrinos",
+    "Hermandades rocieras"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Peregrinación",
+    "Unidad",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora del Rocío es venerada en el Santuario Nacional del Rocío, en la aldea de El Rocío, Almonte, Huelva, y su devoción se expresa especialmente en la romería de Pentecostés.",
+    "extended": "La devoción a Nuestra Señora del Rocío está vinculada históricamente a Almonte y al santuario situado en la aldea de El Rocío. La Hermandad Matriz de Nuestra Señora del Rocío de Almonte documenta que la Virgen es patrona de Almonte desde 1653 y que la devoción se extendió mediante las hermandades filiales y otros grupos de devotos. La tradición rociera se expresa de manera especial en la peregrinación anual de Pentecostés, en la que participan numerosas hermandades. Algunos relatos sobre el origen medieval de la imagen pertenecen a la tradición devocional y no se presentan aquí como hechos históricos demostrados. La imagen recibió la coronación canónica en 1919. San Juan Pablo II peregrinó al Santuario del Rocío el 14 de junio de 1993, donde oró ante la imagen y destacó la dimensión evangelizadora de la peregrinación y la devoción popular. La fiesta principal de la Virgen está vinculada al Lunes de Pentecostés, después de la celebración de Pentecostés. La Hermandad Matriz organiza además una novena solemne previa a la romería."
+  },
+  "openingPrayer": "Nuestra Señora del Rocío, Madre de los peregrinos, acompáñanos en esta novena. Enséñanos a caminar con fe, a vivir unidos y a llevar la esperanza de Cristo a quienes encontramos en nuestro camino. Amén.",
+  "closingPrayer": "Nuestra Señora del Rocío, Blanca Paloma y Madre nuestra, intercede por nosotros. Acompaña nuestros caminos, protege a nuestras familias y llévanos siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por Almonte y toda la Iglesia en España.",
+    "Por los peregrinos y las hermandades rocieras.",
+    "Por las familias y comunidades.",
+    "Por quienes viven lejos de sus hogares.",
+    "Por quienes necesitan esperanza, consuelo y paz."
+  ],
+  "bibleReferences": [
+    "Hch 2,1-4",
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Peregrinación",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso espiritual necesito dar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos que buscan a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Fe",
+      "title": "Confiar en el Señor",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito poner hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Esperanza",
+      "title": "Llevar alegría al camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una palabra de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven tristeza o desesperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Caminar como hermanos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad en mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las hermandades y comunidades cristianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "Servir al hermano",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Perseverancia",
+      "title": "Mantenerse en el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Familia",
+      "title": "Compartir la fe en casa",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto puede fortalecer hoy mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Evangelización",
+      "title": "Dar testimonio de Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo anunciar hoy el Evangelio con mis obras?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia y quienes sirven en la evangelización."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Confiar nuestro camino a Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rocío se desarrolló en Almonte y se extendió por medio de peregrinaciones y hermandades, convirtiendo el santuario en un importante centro de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a caminar hacia Cristo con fe, esperanza y caridad, permaneciendo unidos como comunidad."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero entregar definitivamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Almonte, España y todos los devotos de Nuestra Señora del Rocío."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rocío, acompáñanos en nuestro camino y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rocío, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "Pontificia, Real e Ilustre Hermandad Matriz de Nuestra Señora del Rocío de Almonte, documentación oficial del santuario y de la devoción.",
+    "Hermandad Matriz de Nuestra Señora del Rocío, programa oficial de cultos y romería 2026.",
+    "San Juan Pablo II, homilía durante la visita al Santuario del Rocío, 14 de junio de 1993.",
+    "San Juan Pablo II, oración y encuentro con los fieles en El Rocío, 14 de junio de 1993."
+  ]
+}
