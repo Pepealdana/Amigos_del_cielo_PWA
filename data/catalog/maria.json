@@ -7,8 +7,7 @@
       "id": "virgen-de-guadalupe",
       "name": "Nuestra Señora de Guadalupe",
       "countries": [
-        "MX",
-        "AMERICA"
+        "MX"
       ],
       "status": "published",
       "category": "maria",
@@ -21,8 +20,7 @@
       "countries": [
         "CO",
         "CL",
-        "PE",
-        "AMERICA"
+        "PE"
       ],
       "status": "published",
       "category": "maria",
@@ -55,8 +53,7 @@
       "id": "virgen-de-lujan",
       "name": "Nuestra Señora de Luján",
       "countries": [
-        "AR",
-        "AMERICA"
+        "AR"
       ],
       "status": "pending",
       "category": "maria",
@@ -67,8 +64,7 @@
       "id": "virgen-de-chiquinquira",
       "name": "Nuestra Señora del Rosario de Chiquinquirá",
       "countries": [
-        "CO",
-        "AMERICA"
+        "CO"
       ],
       "status": "pending",
       "category": "maria",
@@ -79,8 +75,7 @@
       "id": "virgen-de-coromoto",
       "name": "Nuestra Señora de Coromoto",
       "countries": [
-        "VE",
-        "AMERICA"
+        "VE"
       ],
       "status": "pending",
       "category": "maria",
@@ -91,8 +86,7 @@
       "id": "virgen-de-suyapa",
       "name": "Nuestra Señora de Suyapa",
       "countries": [
-        "HN",
-        "AMERICA"
+        "HN"
       ],
       "status": "pending",
       "category": "maria",
@@ -103,8 +97,7 @@
       "id": "virgen-de-la-caridad-del-cobre",
       "name": "Nuestra Señora de la Caridad del Cobre",
       "countries": [
-        "CU",
-        "AMERICA"
+        "CU"
       ],
       "status": "pending",
       "category": "maria",
@@ -115,8 +108,7 @@
       "id": "virgen-de-el-quinche",
       "name": "Nuestra Señora de El Quinche",
       "countries": [
-        "EC",
-        "AMERICA"
+        "EC"
       ],
       "status": "pending",
       "category": "maria",
@@ -127,8 +119,7 @@
       "id": "virgen-de-caacupe",
       "name": "Nuestra Señora de Caacupé",
       "countries": [
-        "PY",
-        "AMERICA"
+        "PY"
       ],
       "status": "pending",
       "category": "maria",
@@ -140,8 +131,7 @@
       "name": "Nuestra Señora de la Merced",
       "countries": [
         "PE",
-        "DO",
-        "AMERICA"
+        "DO"
       ],
       "status": "pending",
       "category": "maria",
@@ -152,8 +142,7 @@
       "id": "virgen-de-la-altagracia",
       "name": "Nuestra Señora de la Altagracia",
       "countries": [
-        "DO",
-        "AMERICA"
+        "DO"
       ],
       "status": "pending",
       "category": "maria",
@@ -164,8 +153,7 @@
       "id": "virgen-de-copacabana",
       "name": "Nuestra Señora de Copacabana",
       "countries": [
-        "BO",
-        "AMERICA"
+        "BO"
       ],
       "status": "pending",
       "category": "maria",
@@ -176,8 +164,7 @@
       "id": "santa-maria-la-antigua",
       "name": "Santa María la Antigua",
       "countries": [
-        "PA",
-        "AMERICA"
+        "PA"
       ],
       "status": "pending",
       "category": "maria",
@@ -188,8 +175,7 @@
       "id": "nuestra-senora-reina-de-la-paz",
       "name": "Nuestra Señora Reina de la Paz",
       "countries": [
-        "SV",
-        "AMERICA"
+        "SV"
       ],
       "status": "pending",
       "category": "maria",
@@ -200,8 +186,7 @@
       "id": "nuestra-senora-de-los-angeles",
       "name": "Nuestra Señora de los Ángeles",
       "countries": [
-        "CR",
-        "AMERICA"
+        "CR"
       ],
       "status": "pending",
       "category": "maria",
@@ -212,8 +197,7 @@
       "id": "la-purisima",
       "name": "La Purísima / Inmaculada Concepción",
       "countries": [
-        "NI",
-        "AMERICA"
+        "NI"
       ],
       "status": "pending",
       "category": "maria",
@@ -224,8 +208,7 @@
       "id": "nuestra-senora-de-la-divina-providencia",
       "name": "Nuestra Señora de la Divina Providencia",
       "countries": [
-        "PR",
-        "AMERICA"
+        "PR"
       ],
       "status": "pending",
       "category": "maria",
@@ -236,8 +219,7 @@
       "id": "virgen-de-los-treinta-y-tres",
       "name": "Virgen de los Treinta y Tres",
       "countries": [
-        "UY",
-        "AMERICA"
+        "UY"
       ],
       "status": "pending",
       "category": "maria",
@@ -248,8 +230,7 @@
       "id": "nuestra-senora-del-pilar",
       "name": "Nuestra Señora del Pilar",
       "countries": [
-        "ES",
-        "AMERICA"
+        "ES"
       ],
       "status": "pending",
       "category": "maria",
@@ -260,8 +241,7 @@
       "id": "nuestra-senora-de-la-almudena",
       "name": "Nuestra Señora de la Almudena",
       "countries": [
-        "ES",
-        "AMERICA"
+        "ES"
       ],
       "status": "pending",
       "category": "maria",
@@ -272,8 +252,7 @@
       "id": "nuestra-senora-de-los-desamparados",
       "name": "Nuestra Señora de los Desamparados",
       "countries": [
-        "ES",
-        "AMERICA"
+        "ES"
       ],
       "status": "pending",
       "category": "maria",
@@ -284,8 +263,7 @@
       "id": "nuestra-senora-de-la-candelaria",
       "name": "Nuestra Señora de la Candelaria",
       "countries": [
-        "CO",
-        "AMERICA"
+        "CO"
       ],
       "status": "pending",
       "category": "maria",
@@ -296,8 +274,7 @@
       "id": "nuestra-senora-de-las-lajas",
       "name": "Nuestra Señora de Las Lajas",
       "countries": [
-        "CO",
-        "AMERICA"
+        "CO"
       ],
       "status": "pending",
       "category": "maria",
@@ -308,8 +285,7 @@
       "id": "virgen-del-valle",
       "name": "Nuestra Señora del Valle",
       "countries": [
-        "VE",
-        "AMERICA"
+        "VE"
       ],
       "status": "pending",
       "category": "maria",
@@ -320,8 +296,7 @@
       "id": "virgen-de-chiquinquira-de-maracaibo",
       "name": "Nuestra Señora del Rosario de Chiquinquirá de Maracaibo",
       "countries": [
-        "VE",
-        "AMERICA"
+        "VE"
       ],
       "status": "pending",
       "category": "maria",
@@ -332,8 +307,7 @@
       "id": "virgen-del-cisne",
       "name": "Nuestra Señora de El Cisne",
       "countries": [
-        "EC",
-        "AMERICA"
+        "EC"
       ],
       "status": "pending",
       "category": "maria",
@@ -344,8 +318,7 @@
       "id": "virgen-de-andacollo",
       "name": "Nuestra Señora de Andacollo",
       "countries": [
-        "CL",
-        "AMERICA"
+        "CL"
       ],
       "status": "pending",
       "category": "maria",
@@ -356,8 +329,7 @@
       "id": "nuestra-senora-de-covadonga",
       "name": "Nuestra Señora de Covadonga",
       "countries": [
-        "ES",
-        "AMERICA"
+        "ES"
       ],
       "status": "pending",
       "category": "maria",
@@ -368,8 +340,7 @@
       "id": "virgen-de-montserrat",
       "name": "Nuestra Señora de Montserrat",
       "countries": [
-        "ES",
-        "AMERICA"
+        "ES"
       ],
       "status": "pending",
       "category": "maria",
@@ -380,8 +351,7 @@
       "id": "virgen-del-rocio",
       "name": "Nuestra Señora del Rocío",
       "countries": [
-        "ES",
-        "AMERICA"
+        "ES"
       ],
       "status": "pending",
       "category": "maria",
