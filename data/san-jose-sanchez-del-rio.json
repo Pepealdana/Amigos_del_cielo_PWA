@@ -1,0 +1,439 @@
+{
+  "id": "san-jose-sanchez-del-rio",
+  "slug": "san-jose-sanchez-del-rio",
+  "name": "San José Sánchez del Río",
+  "title": "Mártir joven de Cristo Rey",
+  "subtitle": "Laico mexicano y mártir de la fe",
+  "category": "Santos",
+  "image": null,
+  "description": "Novena dedicada a San José Sánchez del Río, joven laico mexicano y mártir, ejemplo de fidelidad a Cristo, fortaleza, oración y esperanza.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-juan-diego"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "🌹"
+  },
+  "feast": {
+    "day": 20,
+    "month": 11,
+    "text": "20 de noviembre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "¡Viva Cristo Rey!",
+    "reference": "Últimas palabras atribuidas tradicionalmente a San José Sánchez del Río; la expresión debe entenderse como testimonio de su fe, no como lema político."
+  },
+  "patronages": [
+    "Jóvenes",
+    "Niños y adolescentes",
+    "Mártires",
+    "Laicos",
+    "Defensores de la fe"
+  ],
+  "virtues": [
+    "Fe",
+    "Fortaleza",
+    "Perseverancia",
+    "Oración",
+    "Fidelidad",
+    "Esperanza",
+    "Amor a Cristo"
+  ],
+  "search": [
+    "san jose sanchez del rio",
+    "jose sanchez del rio",
+    "joselito",
+    "cristo rey",
+    "martir mexicano",
+    "cristeros",
+    "mexico",
+    "jovenes",
+    "martir",
+    "novena"
+  ],
+  "history": {
+    "short": "José Sánchez del Río nació en Sahuayo, Michoacán, México, el 28 de marzo de 1913. Siendo adolescente se unió al movimiento cristero durante la persecución religiosa de la década de 1920. Fue capturado en 1928 y, tras negarse a renunciar a su fe, fue torturado y asesinado el 10 de febrero de 1928, a los catorce años. Fue beatificado en 2005 y canonizado por el papa Francisco el 16 de octubre de 2016.",
+    "extended": "José Sánchez del Río nació en Sahuayo, Michoacán, el 28 de marzo de 1913, en una familia católica. Durante su adolescencia vivió en el contexto de la persecución religiosa que afectó a la Iglesia en México en la década de 1920. Según la documentación de su causa, José manifestó el deseo de incorporarse a los cristeros y terminó acompañando a las tropas como joven voluntario. Su participación debe situarse dentro de un periodo histórico de conflicto armado y persecución religiosa; la Iglesia lo venera por su fidelidad cristiana y por el martirio sufrido, no como una aprobación general de la violencia o de la guerra. En febrero de 1928 fue capturado. La tradición de su causa relata que fue sometido a presiones para que renunciara a su fe, pero permaneció firme. Durante su cautiverio pudo recibir la Eucaristía de manera clandestina. Finalmente fue asesinado el 10 de febrero de 1928 en Sahuayo, cuando tenía catorce años. La Iglesia reconoció su martirio y lo beatificó el 20 de noviembre de 2005. El 16 de octubre de 2016, el papa Francisco lo canonizó en la Plaza de San Pedro junto con otros seis nuevos santos. En la homilía de aquella celebración, Francisco presentó a los nuevos santos como testigos de una vida sostenida por la oración, la perseverancia y la fidelidad. La figura de José Sánchez del Río tiene una especial resonancia entre los jóvenes. Su testimonio invita a considerar la fe no como una identidad superficial, sino como una relación con Cristo que puede requerir decisiones difíciles. Al mismo tiempo, su historia debe presentarse con responsabilidad histórica: fue un adolescente que vivió y murió en un contexto concreto de conflicto religioso y político. La devoción a este santo se centra en su martirio, su amor a Cristo, su confianza en Dios y su perseverancia, evitando convertir su memoria en una exaltación de la violencia."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San José Sánchez del Río, joven testigo de Cristo, acompáñame durante estos nueve días. Enséñame a vivir mi fe con sinceridad, fortaleza y esperanza. Ayúdame a permanecer fiel a Jesús en las decisiones difíciles y a buscar siempre la paz y el bien. Presento al Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San José Sánchez del Río, joven mártir de Cristo, gracias por acompañarme durante esta novena. Pide para mí un corazón firme en la fe, prudente en las decisiones y dispuesto al bien. Intercede por los jóvenes, por las familias y por quienes sufren persecución o discriminación por su fe. Que tu testimonio me conduzca siempre hacia Cristo y hacia una vida de paz, caridad y esperanza. Amén.",
+  "intentions": [
+    "Por los jóvenes y adolescentes.",
+    "Por los niños que sufren violencia o persecución.",
+    "Por las familias y padres que acompañan a sus hijos en la fe.",
+    "Por quienes sufren persecución religiosa.",
+    "Por las víctimas de violencia y por la paz en los lugares de conflicto.",
+    "Por quienes deben tomar decisiones difíciles por fidelidad a sus principios.",
+    "Por la Iglesia en México y en toda América.",
+    "Por quienes han perdido la esperanza.",
+    "Por la intención particular de esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "2 Timoteo 4,7-8"
+      },
+      {
+        "reference": "Mateo 5,10-12"
+      },
+      {
+        "reference": "Juan 15,18-21"
+      },
+      {
+        "reference": "Apocalipsis 2,10"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización — 16 de octubre de 2016"
+    ],
+    "related": [
+      "Cristo Rey",
+      "Iglesia en México",
+      "Jóvenes y fe"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Canonización de los nuevos santos — 16 de octubre de 2016",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2016/10/16/santos.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía de canonización — 16 de octubre de 2016",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2016/documents/papa-francesco_20161016_omelia-canonizzazione.html",
+      "type": "official"
+    },
+    {
+      "title": "Consistorio para la canonización — 15 de marzo de 2016",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2016/03/15/santos.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La fe",
+      "title": "Una fe que se vuelve vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José creció en una familia católica y vivió su fe en un periodo de intensa persecución religiosa en México."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no es solamente una costumbre heredada. Se convierte en vida cuando orienta nuestras decisiones, prioridades y forma de tratar a los demás."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué lugar ocupa realmente mi relación con Cristo en mis decisiones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes que buscan vivir su fe en medio de presiones sociales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, ayúdame a vivir una fe auténtica, no solamente de palabras. Que Cristo sea el centro de mis decisiones. Amén."
+      },
+      "action": "Haz hoy una acción concreta que exprese tu fe mediante el servicio.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "La oración",
+      "title": "Permanecer unido a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de José estuvo marcada por la oración y por su deseo de permanecer cerca de Cristo, incluso en circunstancias difíciles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no elimina automáticamente las dificultades. Nos ayuda a atravesarlas con una mirada puesta en Dios y no solamente en nuestros temores."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué necesito confiar hoy a Dios en lugar de cargarlo solamente con mis propias fuerzas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan momentos de miedo, incertidumbre o soledad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, enséñame a buscar a Dios en la oración, especialmente cuando tengo miedo o no encuentro respuestas. Amén."
+      },
+      "action": "Reserva hoy diez minutos de oración sin teléfono ni distracciones.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "La fortaleza",
+      "title": "Mantenerse firme ante la presión",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José fue sometido a presiones para abandonar su fe y, según el testimonio de su causa, permaneció firme."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fortaleza cristiana no significa buscar el sufrimiento. Significa permanecer en la verdad y el bien cuando hacerlo resulta difícil, sin responder al mal con odio."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué presión me está alejando de aquello que considero correcto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren presión, discriminación o persecución por sus convicciones religiosas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, dame fortaleza para mantenerme firme en el bien y prudencia para responder sin odio. Amén."
+      },
+      "action": "Identifica una presión negativa y decide una respuesta concreta, serena y coherente.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "La juventud",
+      "title": "Un joven con propósito",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José tenía catorce años cuando murió. Su juventud no impidió que tomara en serio su vida de fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los jóvenes tienen capacidad real de tomar decisiones responsables, servir y construir el bien. La Iglesia debe acompañarlos sin tratarlos como espectadores pasivos."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué bien concreto puedo comenzar a construir desde mi edad y circunstancias?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los adolescentes y jóvenes que buscan sentido, propósito y una comunidad que los acompañe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, acompaña a los jóvenes. Ayúdalos a descubrir su dignidad, sus capacidades y el camino de servicio al que Dios los llama. Amén."
+      },
+      "action": "Anima hoy a un joven o compañero reconociendo una cualidad concreta que tenga.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "La paz",
+      "title": "La fe no es violencia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José vivió dentro de un conflicto armado. La Iglesia recuerda su martirio por su fidelidad a Cristo, no como una exaltación de la guerra."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La memoria de un mártir puede ayudarnos a distinguir entre defender una convicción y alimentar el odio. La fe cristiana llama a buscar la paz y la dignidad de toda persona."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Hay algún conflicto en el que necesito dejar de alimentar la confrontación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las víctimas de violencia y por quienes trabajan por la reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, ayúdame a vivir mi fe sin odio. Que nunca use mis convicciones como excusa para despreciar o dañar a otra persona. Amén."
+      },
+      "action": "Evita hoy una discusión innecesaria y busca una forma concreta de promover la paz.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "La perseverancia",
+      "title": "No abandonar el bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su cautiverio, José permaneció firme en su fe según los testimonios de su causa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa buscar problemas ni exponerse imprudentemente. Significa mantener un compromiso bueno con prudencia, paciencia y confianza en Dios."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso bueno estoy a punto de abandonar por cansancio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan procesos largos y necesitan fortaleza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, ayúdame a perseverar en el bien sin desesperarme ante los obstáculos. Amén."
+      },
+      "action": "Completa hoy una tarea buena que hayas estado posponiendo por desánimo.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "La Eucaristía",
+      "title": "Cristo, alimento de la fe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La documentación sobre su vida señala que José pudo recibir la Eucaristía durante su cautiverio. Para un cristiano, la Eucaristía es fuente de comunión con Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual necesita alimento. La participación en la Eucaristía y la oración ayudan a fortalecer una fe que después debe expresarse en la caridad cotidiana."
+      },
+      "virtue": "Comunión",
+      "reflection": "¿Cómo puedo participar con mayor atención y fe en la Eucaristía?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes no pueden participar libremente de los sacramentos y por quienes buscan regresar a la vida de la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, ayúdame a acercarme a Jesús con fe y reverencia. Que la Eucaristía transforme mi manera de vivir y servir. Amén."
+      },
+      "action": "Si puedes, participa hoy en la Eucaristía o dedica un tiempo a la adoración.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "El testimonio",
+      "title": "Vivir sin avergonzarse de Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de José terminó convirtiéndose en testimonio público de una fe que no quiso abandonar."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dar testimonio no significa imponer la fe. Significa vivirla con coherencia, respeto y caridad, dejando que nuestras acciones hagan visible aquello que creemos."
+      },
+      "virtue": "Testimonio",
+      "reflection": "¿Qué aspecto de mi vida necesita mayor coherencia con mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los cristianos que viven su fe en ambientes donde son discriminados o incomprendidos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, ayúdame a dar testimonio de Cristo con respeto, humildad y caridad. Que mis acciones hablen antes que mis palabras. Amén."
+      },
+      "action": "Realiza una obra de misericordia sin convertirla en una oportunidad para presumir.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Fidelidad",
+      "title": "Hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "José murió el 10 de febrero de 1928 y fue canonizado el 16 de octubre de 2016. Su memoria permanece especialmente vinculada a los jóvenes y al testimonio de fidelidad a Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no consiste en imitar literalmente las circunstancias de un mártir. Consiste en aprender de su fidelidad y vivir nuestra propia vocación con responsabilidad, paz y amor."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué compromiso concreto con Cristo quiero conservar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, la Iglesia en México y todas las intenciones presentadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San José Sánchez del Río, intercede por nosotros. Ayúdanos a permanecer fieles a Cristo, a buscar la paz y a vivir con esperanza. Amén."
+      },
+      "action": "Elige una práctica de oración o servicio y mantenla durante las próximas semanas.",
+      "closing": "San José Sánchez del Río, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y adolescentes",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "adolescentes",
+        "juventud",
+        "niños"
+      ]
+    },
+    {
+      "id": "persecucion-religiosa",
+      "label": "Persecución religiosa",
+      "keywords": [
+        "persecucion",
+        "persecución",
+        "persecución religiosa",
+        "discriminacion",
+        "discriminación",
+        "fe"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "violencia",
+        "conflicto",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "eucaristia",
+      "label": "Eucaristía",
+      "keywords": [
+        "eucaristia",
+        "eucaristía",
+        "sacramento",
+        "comunion",
+        "comunión"
+      ]
+    },
+    {
+      "id": "vocaciones",
+      "label": "Vocaciones",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "vocaciones",
+        "discernimiento"
+      ]
+    }
+  ],
+  "territorial": {
+    "origin": [
+      "MX"
+    ],
+    "historicalLinks": [
+      "MX"
+    ],
+    "specialDevotion": [
+      "MX"
+    ]
+  }
+}
