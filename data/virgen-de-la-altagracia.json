@@ -1,0 +1,287 @@
+{
+  "id": "virgen-de-la-altagracia",
+  "name": "Nuestra Señora de la Altagracia",
+  "title": "Nuestra Señora de la Altagracia",
+  "subtitle": "Patrona y Protectora del pueblo dominicano",
+  "image": null,
+  "feast": {
+    "text": "21 de enero",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "República Dominicana",
+    "Pueblo dominicano",
+    "Familias",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Familia",
+    "Comunión",
+    "Evangelización"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Altagracia es la principal advocación mariana de la República Dominicana y su santuario de Higüey constituye uno de los grandes centros de peregrinación mariana del Caribe.",
+    "extended": "La devoción a Nuestra Señora de la Altagracia está documentada en la antigua isla Española desde los primeros tiempos de la evangelización. San Juan Pablo II recordó en 1992 que desde 1514 la presencia de la Virgen de la Altagracia ha acompañado al pueblo dominicano y señaló que el santuario de Higüey es un lugar donde generaciones de dominicanos han acudido para buscar fuerza, consuelo, perdón y gracia. La documentación histórica recoge distintas tradiciones sobre la llegada de la imagen a Higüey; una de ellas relaciona su presencia con los hermanos Alonso y Antonio de Trejo, procedentes de Extremadura, mientras otras tradiciones populares narran acontecimientos posteriores relacionados con la familia que veneró la imagen. Por esta diversidad de relatos, la ficha distingue la documentación histórica de las tradiciones devocionales. La imagen fue coronada canónicamente en 1922 y nuevamente coronada por san Juan Pablo II durante su visita de 1992. La fiesta se celebra el 21 de enero y la advocación es reconocida como Patrona y Protectora de la República Dominicana. El santuario continúa siendo un lugar de peregrinación, oración y encuentro para el pueblo dominicano."
+  },
+  "openingPrayer": "Nuestra Señora de la Altagracia, Patrona y Protectora del pueblo dominicano, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo, fortalece nuestra fe y enséñanos a vivir con esperanza, caridad y unidad. Amén.",
+  "closingPrayer": "Nuestra Señora de la Altagracia, Madre amorosa de los dominicanos, intercede por nuestras familias y por todo tu pueblo. Ayúdanos a permanecer unidos en la fe y a caminar siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por la República Dominicana y todos sus habitantes.",
+    "Por las familias dominicanas y quienes viven lejos de su patria.",
+    "Por los enfermos, pobres, afligidos y quienes necesitan esperanza.",
+    "Por la Iglesia y la evangelización del pueblo dominicano.",
+    "Por todos los peregrinos que acuden al Santuario de Higüey."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la República Dominicana y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito entregar hoy a Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan momentos de dificultad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué persona de mi familia necesita hoy una atención especial?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias dominicanas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Caridad",
+      "title": "Amar y servir al prójimo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de caridad puedo realizar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y afligidos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Comunión",
+      "title": "Construir unidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Comunión",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad en mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad del pueblo dominicano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la evangelización de la República Dominicana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "Seguir caminando con María",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué dificultad estoy llamado a afrontar con mayor perseverancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes peregrinan y buscan renovar su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Reconciliación",
+      "title": "Buscar la paz",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Hay alguna relación en la que pueda dar un primer paso hacia la reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades divididas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Jesucristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Altagracia ha acompañado durante siglos la vida de fe del pueblo dominicano y continúa reuniendo a peregrinos en el Santuario de Higüey."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, caridad, comunión y servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia, las familias y todo el pueblo dominicano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Altagracia, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Altagracia, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Santa Misa en el Santuario de Nuestra Señora de la Altagracia, Higüey, 12 de octubre de 1992.",
+    "San Juan Pablo II, Acto de consagración de la República Dominicana a la Virgen de la Altagracia, 12 de octubre de 1992.",
+    "Vatican News, República Dominicana: Centenario de la Virgen de la Altagracia, 2021.",
+    "Vatican News, Dominicanos esperan al Papa en el Centenario de la Coronación de Altagracia, 2022."
+  ]
+}
