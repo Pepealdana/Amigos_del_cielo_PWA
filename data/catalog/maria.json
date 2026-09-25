@@ -180,10 +180,10 @@
     {
       "id": "virgen-de-caacupe",
       "name": "Nuestra Señora de Caacupé",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-caacupe.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
