@@ -120,9 +120,7 @@ async function compartirNovena(novena) {
     const texto = [
         `Te comparto la Novena a ${novena.name} en Amigos del Cielo.`,
         "Camina junto a los santos cada día."
-    ].join("
-
-");
+    ].join("\n\n");
 
     return compartirContenido({
         titulo: `Novena a ${novena.name}`,
