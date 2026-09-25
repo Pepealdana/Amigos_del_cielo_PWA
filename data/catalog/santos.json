@@ -599,10 +599,10 @@
     {
       "id": "santa-teresa-de-jesus-de-los-andes",
       "name": "Santa Teresa de Jesús de los Andes",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/santa-teresa-de-jesus-de-los-andes.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "CL"
