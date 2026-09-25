@@ -1,0 +1,335 @@
+{
+  "id": "virgen-de-el-quinche",
+  "name": "Nuestra Señora de El Quinche",
+  "title": "Nuestra Señora de la Presentación de El Quinche",
+  "subtitle": "Patrona y Reina del Ecuador",
+  "image": null,
+  "feast": {
+    "text": "21 de noviembre",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "Ecuador",
+    "Pueblo ecuatoriano",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Perseverancia",
+    "Servicio",
+    "Esperanza",
+    "Comunión",
+    "Evangelización"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Presentación de El Quinche es una de las advocaciones marianas más veneradas del Ecuador y su santuario es un centro nacional de peregrinación, reconciliación y piedad popular.",
+    "extended": "La devoción a Nuestra Señora de la Presentación de El Quinche se remonta al siglo XVI. San Juan Pablo II recordó en 1992 que la imagen de madera fue tallada en 1591 por el artista español Diego de Robles en la cercana localidad de Oyacachi y trasladada posteriormente a El Quinche, donde el santuario se convirtió en un centro de fe, reconciliación y piedad popular para el pueblo ecuatoriano. La tradición de la advocación conserva además el relato de que Diego de Robles llevó la imagen a Oyacachi y, ante distintas circunstancias, terminó realizando el pie de la imagen; el papa Francisco recogió esta tradición durante su visita al Santuario Nacional Mariano de El Quinche en 2015. En 1931 la imagen fue coronada como Patrona y Reina del Ecuador, según la documentación difundida por Vatican News. La fiesta se celebra cada 21 de noviembre y reúne a numerosos peregrinos que llegan al santuario. La devoción se encuentra vinculada especialmente con la fe, la perseverancia, la comunión, la reconciliación y el anuncio del Evangelio."
+  },
+  "openingPrayer": "Nuestra Señora de El Quinche, Madre y Patrona del Ecuador, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo, fortalece nuestra fe y enséñanos a perseverar con esperanza y caridad. Amén.",
+  "closingPrayer": "Nuestra Señora de El Quinche, Patrona y Reina del Ecuador, intercede por tu pueblo. Ayúdanos a caminar hacia Jesucristo, a servir con generosidad y a construir comunión, paz y esperanza. Amén.",
+  "intentions": [
+    "Por Ecuador y todos sus habitantes.",
+    "Por las familias y comunidades que peregrinan con fe.",
+    "Por quienes buscan reconciliación, consuelo y esperanza.",
+    "Por los pueblos indígenas y por quienes anuncian el Evangelio.",
+    "Por la Iglesia y por todos los peregrinos del Santuario de El Quinche."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Ecuador y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Perseverancia",
+      "title": "Caminar sin abandonar la misión",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué dificultad estoy llamado a afrontar con mayor perseverancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades que peregrinan con fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Servicio",
+      "title": "Poner nuestros dones al servicio de los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué don puedo ofrecer hoy para ayudar a otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan reconciliación, consuelo y esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Comunión",
+      "title": "Construir una Iglesia que acoge",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Comunión",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad en mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia y sus comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Esperanza",
+      "title": "Mantener la esperanza en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito entregar hoy a Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan momentos de sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Reconciliación",
+      "title": "Buscar la paz y sanar heridas",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Hay alguna relación en la que pueda dar un primer paso hacia la reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades divididas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes anuncian el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Misión",
+      "title": "Salir al encuentro de los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Misión",
+      "reflection": "¿A quién puedo acompañar hoy con una palabra, una oración o un servicio concreto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pueblos indígenas y por quienes viven en las periferias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Jesucristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de El Quinche ha acompañado durante siglos la vida de fe del pueblo ecuatoriano y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a perseverar en la fe, servir a los demás y caminar en comunión."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Ecuador, sus peregrinos y toda la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de El Quinche, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza, caridad y perseverancia. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de El Quinche, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "ecuador",
+      "label": "Ecuador",
+      "keywords": [
+        "Ecuador",
+        "ecuatoriano",
+        "ecuatoriana"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinos",
+      "keywords": [
+        "peregrino",
+        "peregrinos",
+        "peregrinación",
+        "santuario"
+      ]
+    },
+    {
+      "id": "reconciliacion",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliación",
+        "unidad"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y fe",
+      "keywords": [
+        "oración",
+        "fe",
+        "Cristo",
+        "María"
+      ]
+    }
+  ],
+  "sources": [
+    "San Juan Pablo II, Ángelus, 12 de julio de 1992.",
+    "Francisco, encuentro con el clero, religiosos, religiosas y seminaristas en el Santuario Nacional Mariano de El Quinche, 8 de julio de 2015.",
+    "Vatican News, La imagen de la Virgen de El Quinche en los Jardines Vaticanos, 17 de mayo de 2019.",
+    "Ministerio de Relaciones Exteriores y Movilidad Humana del Ecuador, celebración de la fiesta de Nuestra Señora de la Presentación del Quinche, 3 de diciembre de 2015."
+  ]
+}
