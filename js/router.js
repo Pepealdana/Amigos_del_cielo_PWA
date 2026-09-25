@@ -45,7 +45,31 @@ const router = {
 
             case "biblioteca":
 
-                mostrarBiblioteca();
+                mostrarNovenas();
+
+                break;
+
+            case "santos":
+
+                mostrarSantos();
+
+                break;
+
+            case "maria":
+
+                mostrarMaria();
+
+                break;
+
+            case "novenas":
+
+                mostrarNovenas();
+
+                break;
+
+            case "devociones":
+
+                mostrarDevociones();
 
                 break;
 
