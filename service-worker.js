@@ -10,6 +10,8 @@ const APP_SHELL = [
     "./index.html",
     "./manifest.json",
     "./data/novenas.json",
+    "./data/roadmap-hispanohablante.json",
+    "./data/catalogo-expansion-hispanohablante.json",
     "./data/beata-clara-fey.json",
     "./data/divina-misericordia.json",
     "./data/espiritu-santo.json",
