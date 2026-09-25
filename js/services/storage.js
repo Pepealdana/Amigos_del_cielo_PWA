@@ -177,58 +177,6 @@ function guardarIntenciones() {
 }
 
 /* ==========================================
-   RECORDATORIOS
-========================================== */
-
-function cargarRecordatorios() {
-    state.recordatorios = leerDeStorage(STORAGE_KEYS.REMINDERS, {});
-
-    if (
-        !state.recordatorios ||
-        typeof state.recordatorios !== "object" ||
-        Array.isArray(state.recordatorios)
-    ) {
-        state.recordatorios = {};
-    }
-}
-
-function guardarRecordatorios() {
-    return guardarEnStorage(STORAGE_KEYS.REMINDERS, state.recordatorios);
-}
-
-function obtenerRecordatorio(novenaId) {
-    return state.recordatorios[novenaId] || null;
-}
-
-function guardarRecordatorio(novenaId, hora, activo = true) {
-    if (
-        !novenaId ||
-        !/^([01]\d|2[0-3]):[0-5]\d$/.test(hora)
-    ) {
-        return false;
-    }
-
-    const anterior = state.recordatorios[novenaId] || {};
-
-    state.recordatorios[novenaId] = {
-        ...anterior,
-        novenaId,
-        hora,
-        activo: Boolean(activo),
-        ultimaNotificacion: anterior.ultimaNotificacion || null
-    };
-
-    return guardarRecordatorios();
-}
-
-function eliminarRecordatorio(novenaId) {
-    if (!novenaId) return;
-
-    delete state.recordatorios[novenaId];
-    guardarRecordatorios();
-}
-
-/* ==========================================
    INICIALIZAR STORAGE
 ========================================== */
 
@@ -237,7 +185,6 @@ function inicializarStorage() {
     cargarProgreso();
     cargarConfiguracion();
     cargarIntenciones();
-    cargarRecordatorios();
 }
 
 
