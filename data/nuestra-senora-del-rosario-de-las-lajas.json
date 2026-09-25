@@ -1,0 +1,287 @@
+{
+  "id": "nuestra-senora-del-rosario-de-las-lajas",
+  "name": "Nuestra Señora del Rosario de Las Lajas",
+  "title": "Nuestra Señora del Rosario de Las Lajas",
+  "subtitle": "Madre y Patrona de la diócesis de Ipiales",
+  "image": null,
+  "feast": {
+    "text": "15 de septiembre",
+    "movable": false
+  },
+  "liturgicalRank": "Memoria",
+  "quote": null,
+  "patronages": [
+    "Diócesis de Ipiales",
+    "Peregrinos",
+    "Familias y comunidades"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Confianza",
+    "Perseverancia",
+    "Paz"
+  ],
+  "history": {
+    "short": "Nuestra Señora del Rosario de Las Lajas es una advocación mariana venerada en el santuario de Las Lajas, en Ipiales, Nariño, junto al cañón del río Guáitara.",
+    "extended": "La devoción a Nuestra Señora del Rosario de Las Lajas está vinculada a una imagen mariana representada sobre la roca en el lugar donde se encuentra el santuario de Las Lajas, cerca de Ipiales, en Nariño. La tradición local sitúa el origen de la devoción en 1754 y relaciona el hallazgo con María Mueses de Quiñónez y su hija Rosa. Esta narración pertenece a la tradición devocional del santuario y debe distinguirse de la documentación histórica sobre su desarrollo posterior. Con el paso del tiempo el lugar se convirtió en un importante centro de peregrinación de Colombia y de la región fronteriza con Ecuador. En 1965, san Pablo VI proclamó a Nuestra Señora del Rosario de Las Lajas patrona principal de la diócesis de Ipiales, reconociendo la devoción extendida entre los habitantes de la región. La Conferencia Episcopal de Colombia señala el 15 de septiembre como fecha tradicional de la fiesta patronal y destaca la llegada de peregrinos de distintas regiones y del Ecuador."
+  },
+  "openingPrayer": "Nuestra Señora del Rosario de Las Lajas, acompáñanos en esta novena. Ayúdanos a crecer en la fe, a confiar en Dios en las dificultades y a llevar esperanza y paz a quienes encontramos en el camino. Amén.",
+  "closingPrayer": "Nuestra Señora del Rosario de Las Lajas, Madre de Dios y Madre nuestra, intercede por nosotros y enséñanos a permanecer cerca de Cristo con fe, esperanza y caridad. Amén.",
+  "intentions": [
+    "Por la diócesis de Ipiales y la Iglesia en Colombia.",
+    "Por los peregrinos que acuden al santuario.",
+    "Por Colombia y Ecuador, unidos también por la devoción mariana.",
+    "Por las familias y comunidades.",
+    "Por quienes necesitan esperanza, consuelo y paz."
+  ],
+  "bibleReferences": [
+    "Lc 1,39-45",
+    "Lc 1,46-49",
+    "Lc 2,19",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito confiar hoy a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Caminar con confianza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una palabra de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven tristeza o desesperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Caridad",
+      "title": "Servir al prójimo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de otra persona puedo atender?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Confianza",
+      "title": "Entregar las preocupaciones",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación puedo poner hoy en las manos del Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven ansiedad o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Cuidar los vínculos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué gesto puede fortalecer hoy mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Perseverancia",
+      "title": "No abandonar el camino",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Paz",
+      "title": "Ser instrumento de reconciliación",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Paz",
+      "reflection": "¿Qué puedo hacer para favorecer la paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Colombia, Ecuador y todos los pueblos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Peregrinación",
+      "title": "Caminar hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Peregrinación",
+      "reflection": "¿Qué paso espiritual quiero dar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y quienes buscan a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Poner la vida en manos de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Rosario de Las Lajas nació en la región de Ipiales y se desarrolló alrededor del santuario construido junto al río Guáitara."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a escuchar a Dios, confiar en su acción y acompañar a quienes necesitan esperanza."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero confiar definitivamente al Señor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la diócesis de Ipiales, Colombia y todos los devotos de María."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Rosario de Las Lajas, acompáñanos y llévanos siempre hacia Jesucristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora del Rosario de Las Lajas, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Pablo VI, carta apostólica Tutela caelestis, 26 de abril de 1965.",
+    "Conferencia Episcopal de Colombia, Fiesta Patronal en honor a Nuestra Señora del Rosario de Las Lajas.",
+    "San Juan Pablo II, audiencia del 16 de julio de 1986, sobre su peregrinación a Colombia y los santuarios marianos.",
+    "Santa Sede, documentación sobre la visita apostólica de san Juan Pablo II a Colombia en 1986."
+  ]
+}
