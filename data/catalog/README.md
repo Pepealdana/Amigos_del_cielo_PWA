@@ -34,3 +34,25 @@ Esto evita que un santo o una advocación de alcance universal aparezca artifici
 
 Los vínculos territoriales deben incorporarse de forma conservadora: origen, patronazgo, título mariano, santuario, celebración o tradición especialmente documentada. La existencia de devoción popular en un país, por sí sola, no debe convertirlo automáticamente en una asociación territorial del registro.
 
+## Modelo territorial v2.1
+
+La dimensión territorial **contextualiza y no limita la devoción**. Un santo o una advocación no pertenece exclusivamente a un país por aparecer asociado a él.
+
+Cada registro de Santos, María y Devociones utiliza:
+
+- `territorial.origin`: lugar o país de origen de la persona, tradición o advocación, cuando corresponde.
+- `territorial.historicalLinks`: países con un vínculo histórico relevante.
+- `territorial.specialDevotion`: países donde existe una relación devocional o reconocimiento particular que se ha decidido registrar.
+
+Los campos pueden contener códigos ISO de países que no forman parte del filtro hispanohablante; por ejemplo, el origen histórico de un santo puede estar fuera de Hispanoamérica.
+
+El filtro por país consulta las tres relaciones territoriales. Por tanto, **Colombia** significa «contenidos con algún vínculo territorial registrado con Colombia», no «santos colombianos».
+
+La vista **Todos** continúa mostrando el catálogo completo. Una persona puede tener devoción por cualquier santo o advocación independientemente de su país de origen o de los vínculos territoriales registrados.
+
+Los vínculos territoriales deben incorporarse de forma conservadora y documentable. No se debe convertir automáticamente la popularidad de una devoción en una relación territorial sin fundamento.
+
+### Compatibilidad
+
+El campo antiguo `countries` queda eliminado del modelo v2.1. No debe volver a utilizarse para expresar pertenencia o exclusividad territorial.
+
