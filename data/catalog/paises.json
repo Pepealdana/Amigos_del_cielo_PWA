@@ -1,0 +1,107 @@
+{
+  "version": "2.0",
+  "category": "paises",
+  "description": "Países de referencia para organizar el catálogo de Amigos del Cielo dentro del ámbito hispanohablante.",
+  "items": [
+    {
+      "id": "AR",
+      "name": "Argentina",
+      "bandera": "🇦🇷"
+    },
+    {
+      "id": "BO",
+      "name": "Bolivia",
+      "bandera": "🇧🇴"
+    },
+    {
+      "id": "CL",
+      "name": "Chile",
+      "bandera": "🇨🇱"
+    },
+    {
+      "id": "CO",
+      "name": "Colombia",
+      "bandera": "🇨🇴"
+    },
+    {
+      "id": "CR",
+      "name": "Costa Rica",
+      "bandera": "🇨🇷"
+    },
+    {
+      "id": "CU",
+      "name": "Cuba",
+      "bandera": "🇨🇺"
+    },
+    {
+      "id": "DO",
+      "name": "República Dominicana",
+      "bandera": "🇩🇴"
+    },
+    {
+      "id": "EC",
+      "name": "Ecuador",
+      "bandera": "🇪🇨"
+    },
+    {
+      "id": "SV",
+      "name": "El Salvador",
+      "bandera": "🇸🇻"
+    },
+    {
+      "id": "ES",
+      "name": "España",
+      "bandera": "🇪🇸"
+    },
+    {
+      "id": "GT",
+      "name": "Guatemala",
+      "bandera": "🇬🇹"
+    },
+    {
+      "id": "HN",
+      "name": "Honduras",
+      "bandera": "🇭🇳"
+    },
+    {
+      "id": "MX",
+      "name": "México",
+      "bandera": "🇲🇽"
+    },
+    {
+      "id": "NI",
+      "name": "Nicaragua",
+      "bandera": "🇳🇮"
+    },
+    {
+      "id": "PA",
+      "name": "Panamá",
+      "bandera": "🇵🇦"
+    },
+    {
+      "id": "PE",
+      "name": "Perú",
+      "bandera": "🇵🇪"
+    },
+    {
+      "id": "PY",
+      "name": "Paraguay",
+      "bandera": "🇵🇾"
+    },
+    {
+      "id": "PR",
+      "name": "Puerto Rico",
+      "bandera": "🇵🇷"
+    },
+    {
+      "id": "UY",
+      "name": "Uruguay",
+      "bandera": "🇺🇾"
+    },
+    {
+      "id": "VE",
+      "name": "Venezuela",
+      "bandera": "🇻🇪"
+    }
+  ]
+}
