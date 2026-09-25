@@ -1,0 +1,342 @@
+{
+  "id": "virgen-de-lujan",
+  "name": "Nuestra Señora de Luján",
+  "title": "Nuestra Señora de Luján",
+  "subtitle": "Patrona de Argentina y advocación mariana profundamente vinculada a la historia de la fe del pueblo argentino",
+  "image": null,
+  "feast": {
+    "text": "8 de mayo",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Argentina",
+    "Familias",
+    "Peregrinos",
+    "Pueblo argentino"
+  ],
+  "virtues": [
+    "Fe",
+    "Confianza en Dios",
+    "Perseverancia",
+    "Esperanza",
+    "Oración",
+    "Caridad"
+  ],
+  "history": {
+    "short": "La devoción a Nuestra Señora de Luján nació en el siglo XVII alrededor de una pequeña imagen de la Inmaculada Concepción que, según la tradición conservada en Argentina, permaneció en un lugar de la actual provincia de Buenos Aires cuando era trasladada hacia Santiago del Estero. Con el tiempo el lugar se convirtió en centro de peregrinación y se levantaron sucesivos templos hasta la actual Basílica Nacional de Luján. La Santa Sede reconoce a Nuestra Señora de Luján como Patrona de Argentina y su fiesta se celebra el 8 de mayo.",
+    "extended": "La historia de Nuestra Señora de Luján se sitúa en el siglo XVII. Según la tradición histórica conservada por el santuario y por fuentes oficiales argentinas, Antonio Farías de Saá había encargado en Brasil una imagen de la Inmaculada Concepción. Durante el traslado hacia Santiago del Estero, la caravana se detuvo en la zona de Zelaya y la imagen permaneció allí pese a los intentos de continuar el viaje. Este hecho dio origen a la veneración de la imagen en la región. Con el paso del tiempo se levantaron capillas y el culto se consolidó en torno al lugar que hoy ocupa la ciudad de Luján. Entre las personas que impulsaron de manera decisiva la construcción del santuario estuvo el sacerdote Jorge María Salvaire. La actual Basílica Nacional de Nuestra Señora de Luján fue inaugurada y bendecida en 1910 y recibió el título de basílica menor en 1930. La devoción adquirió una dimensión nacional y Nuestra Señora de Luján es venerada como Patrona de Argentina. La Santa Sede la presenta como una presencia maternal muy vinculada a la vida y a las peregrinaciones del pueblo argentino. El papa Francisco recordó en 2021 que generaciones de personas han acudido a Luján en peregrinación y destacó la memoria de lo que la Virgen ha realizado en esa tierra. La devoción continúa expresándose en peregrinaciones, oración, celebraciones litúrgicas y obras de caridad."
+  },
+  "openingPrayer": "Nuestra Señora de Luján, Madre de Dios y Madre nuestra, acompáñanos en esta novena. Enséñanos a confiar en Dios, a caminar con perseverancia y a poner nuestras preocupaciones en sus manos. Intercede por nuestras familias, por quienes sufren y por todos los que buscan a Dios. Amén.",
+  "closingPrayer": "Nuestra Señora de Luján, acompáñanos en nuestro camino de fe. Ayúdanos a mirar siempre hacia Cristo, a servir con amor y a mantener viva la esperanza. Ruega por nosotros y por nuestras familias. Amén.",
+  "intentions": [
+    "Por Argentina y por todos sus habitantes.",
+    "Por las familias y por quienes atraviesan dificultades.",
+    "Por los peregrinos y quienes buscan a Dios.",
+    "Por los enfermos, pobres, migrantes y personas que viven situaciones de soledad.",
+    "Por la paz, la reconciliación y el bien común."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14",
+    "Jn 19,25-27"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Decir sí a Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La tradición de Luján está profundamente vinculada a la veneración de María bajo el título de la Inmaculada Concepción y a la confianza del pueblo que acudió a ella a lo largo de generaciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe comienza con una respuesta confiada a Dios y se fortalece cuando aprendemos a poner nuestra vida en sus manos."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué situación necesito confiar más en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan una crisis de fe o necesitan recuperar la esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Luján, ayúdame a confiar en Dios incluso cuando no comprendo el camino. Amén."
+      },
+      "action": "Presenta hoy a Dios una preocupación concreta y entrégasela con confianza.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Confianza",
+      "title": "Poner nuestras preocupaciones en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El santuario de Luján se convirtió con el tiempo en un lugar al que las personas acudían para orar y presentar ante Dios sus necesidades por intercesión de María."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Confiar no significa ignorar los problemas, sino enfrentarlos sin perder la certeza de que Dios permanece cerca."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación necesito entregar hoy a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven ansiedad, incertidumbre o dificultades familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Luján, presenta ante tu Hijo nuestras preocupaciones y enséñanos a confiar en su providencia. Amén."
+      },
+      "action": "Dedica unos minutos a una oración de abandono confiado.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Peregrinación",
+      "title": "Caminar con perseverancia",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Luján se convirtió en un importante destino de peregrinación. El papa Francisco recordó que generaciones de hijos e hijas caminan hasta allí para encontrarse con la Madre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana es un camino. No siempre avanzamos con la misma fuerza, pero estamos llamados a perseverar."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué camino espiritual necesito retomar o continuar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y por quienes buscan una nueva dirección para su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Luján, acompaña nuestros pasos y ayúdanos a no abandonar el camino hacia Cristo. Amén."
+      },
+      "action": "Haz hoy un pequeño esfuerzo concreto para retomar una práctica espiritual.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Familia",
+      "title": "Cuidar a los nuestros",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción mariana de Luján se ha vivido durante generaciones en hogares y comunidades que recurren a María como Madre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe también se construye en la vida cotidiana: en el cuidado, el perdón, la escucha y la responsabilidad dentro de la familia."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesita hoy una persona de mi familia de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, especialmente aquellas que atraviesan conflictos, enfermedad o separación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Luján, protege nuestras familias y enséñanos a tratarnos con paciencia, respeto y amor. Amén."
+      },
+      "action": "Realiza hoy un gesto concreto de reconciliación o servicio en tu familia.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Esperanza",
+      "title": "Mirar hacia adelante",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El santuario de Luján ha atravesado siglos de historia y continúa siendo un lugar de oración y encuentro para generaciones nuevas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana permite afrontar el presente sin quedar atrapados por el miedo o el pasado."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito mirar hoy con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes han perdido la esperanza y por quienes atraviesan duelo o grandes cambios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Luján, ayúdanos a mantener la esperanza y a confiar en que Dios puede abrir caminos nuevos. Amén."
+      },
+      "action": "Anota una razón concreta para agradecer a Dios y una esperanza que quieras poner en sus manos.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Oración",
+      "title": "Aprender a permanecer con Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "Las peregrinaciones y celebraciones de Luján tienen como centro la oración ante la imagen venerada de la Virgen."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no es solo pedir; también es escuchar, agradecer, contemplar y permanecer ante Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Cómo puedo mejorar la calidad de mi oración diaria?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están alejados de la oración y por quienes necesitan encontrar momentos de silencio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Luján, enséñame a guardar silencio ante Dios y a escuchar su voluntad. Amén."
+      },
+      "action": "Reserva hoy un momento sin distracciones para orar en silencio.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Caridad",
+      "title": "Servir a quienes sufren",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción mariana auténtica conduce hacia Cristo y hacia una vida de servicio al prójimo, especialmente a quienes necesitan consuelo y ayuda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No basta con presentar nuestras necesidades ante Dios; la oración debe abrirnos a reconocer las necesidades de los demás."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona cercana necesita hoy mi ayuda o compañía?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, pobres, personas solas y quienes atraviesan situaciones de vulnerabilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Luján, haznos sensibles al sufrimiento de nuestros hermanos y disponibles para servir. Amén."
+      },
+      "action": "Realiza una obra concreta de misericordia sin esperar reconocimiento.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Paz",
+      "title": "Ser instrumentos de reconciliación",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Luján ha acompañado momentos importantes de la historia argentina y también encuentros de oración por la paz y la reconciliación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La paz comienza cuando dejamos de alimentar el conflicto y buscamos caminos de verdad, perdón y respeto."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Hay alguna relación en la que pueda dar hoy un primer paso hacia la paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la paz de Argentina, de Hispanoamérica y del mundo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Luján, intercede por la paz y enséñanos a construirla mediante nuestras palabras y acciones. Amén."
+      },
+      "action": "Evita hoy una palabra que pueda generar conflicto y busca una oportunidad para reconciliar.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La historia de Luján está marcada por generaciones que han acudido a María buscando consuelo, esperanza y ayuda. La finalidad de la devoción mariana es conducir el corazón hacia Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La verdadera devoción a María nos lleva a conocer, amar y seguir a su Hijo."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso concreto quiero llevar conmigo después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes peregrinan buscando a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Luján, acompáñanos siempre hacia Jesús. Ayúdanos a vivir con fe, esperanza y caridad, y a servir a nuestros hermanos. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o reconciliación que quieras mantener durante las próximas semanas.",
+      "closing": "Nuestra Señora de Luján, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "familias",
+        "hogar",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinación y fe",
+      "keywords": [
+        "peregrinación",
+        "peregrinos",
+        "santuario",
+        "camino",
+        "fe"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza",
+      "keywords": [
+        "esperanza",
+        "consuelo",
+        "dificultad",
+        "incertidumbre"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliación",
+        "perdón",
+        "unidad"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "pobres",
+        "enfermos",
+        "necesitados"
+      ]
+    }
+  ],
+  "sources": [
+    "Santa Sede, Videomensaje del papa Francisco con motivo de la fiesta de Nuestra Señora de Luján, 6 de mayo de 2021.",
+    "Santa Sede, Carta del papa Francisco por la festividad de Nuestra Señora de Luján, 28 de abril de 2020.",
+    "Argentina.gob.ar, Basílica Nacional de Nuestra Señora de Luján.",
+    "Argentina.gob.ar, documentación histórica sobre la Virgen de Luján y su santuario."
+  ]
+}
