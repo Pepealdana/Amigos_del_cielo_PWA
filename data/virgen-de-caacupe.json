@@ -1,0 +1,287 @@
+{
+  "id": "virgen-de-caacupe",
+  "name": "Nuestra Señora de Caacupé",
+  "title": "Nuestra Señora de los Milagros de Caacupé",
+  "subtitle": "Patrona del Paraguay y Madre de su pueblo",
+  "image": null,
+  "feast": {
+    "text": "8 de diciembre",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Paraguay",
+    "Pueblo paraguayo",
+    "Peregrinos"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Unidad",
+    "Evangelización",
+    "Perseverancia",
+    "Servicio"
+  ],
+  "history": {
+    "short": "Nuestra Señora de los Milagros de Caacupé es una de las principales advocaciones marianas del Paraguay. Su santuario nacional reúne a generaciones de peregrinos.",
+    "extended": "La devoción a Nuestra Señora de los Milagros de Caacupé se desarrolló durante los primeros siglos de la evangelización del Paraguay. San Juan Pablo II señaló en 1992 que, según la tradición, la imagen fue tallada por un indígena en los comienzos de la evangelización. Durante su visita de 1988 presentó a la Virgen de Caacupé como Madre de la patria y Patrona del Paraguay, y consagró el país a su protección. En 2015, el papa Francisco describió Caacupé como parte vital del pueblo paraguayo y como un lugar de encuentro, familia, perdón y renovación de la alegría del Evangelio. La fiesta principal se celebra el 8 de diciembre y reúne a numerosos peregrinos. En 2025, la festividad fue declarada Patrimonio Cultural Inmaterial Nacional del Paraguay."
+  },
+  "openingPrayer": "Nuestra Señora de los Milagros de Caacupé, Patrona del Paraguay, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo y enséñanos a vivir con fe, esperanza, unidad y caridad. Amén.",
+  "closingPrayer": "Nuestra Señora de Caacupé, Madre y Patrona del Paraguay, intercede por tu pueblo y ayúdanos a caminar siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por Paraguay y todos sus habitantes.",
+    "Por las familias y comunidades paraguayas.",
+    "Por quienes peregrinan al Santuario de Caacupé.",
+    "Por la Iglesia y la evangelización del Paraguay.",
+    "Por quienes sufren y necesitan esperanza."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Paraguay y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Permanecer firmes en la dificultad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito entregar hoy a Dios con esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar el hogar y la comunidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué persona cercana necesita hoy mi presencia y atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias paraguayas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para fortalecer la unidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad y la paz del pueblo paraguayo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Evangelización",
+      "title": "Llevar a Cristo a los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar hoy un testimonio sencillo de mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la evangelización del Paraguay."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Perseverancia",
+      "title": "Seguir caminando con María",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué dificultad estoy llamado a afrontar con mayor perseverancia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes peregrinan y buscan renovar su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Servicio",
+      "title": "Poner la fe en obras",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué necesidad concreta de mi entorno puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y personas que sufren."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Reconciliación",
+      "title": "Sanar heridas y buscar la paz",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Hay alguna relación en la que pueda dar un primer paso hacia la reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades divididas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar siempre hacia Jesucristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de Caacupé ha acompañado durante siglos la vida de fe del pueblo paraguayo y continúa reuniendo a peregrinos alrededor de su santuario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, unidad, servicio y perseverancia."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Paraguay, su Iglesia y todos sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de Caacupé, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Milagros de Caacupé, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Santa Misa ante el Santuario Mariano de Caacupé, 18 de mayo de 1988.",
+    "San Juan Pablo II, Consagración de Paraguay a la Virgen de Caacupé, 18 de mayo de 1988.",
+    "San Juan Pablo II, Ángelus, 16 de agosto de 1992.",
+    "Francisco, Santa Misa en la explanada del Santuario Mariano de Caacupé, 11 de julio de 2015.",
+    "Secretaría Nacional de Cultura del Paraguay, 8 de diciembre de 2025."
+  ]
+}
