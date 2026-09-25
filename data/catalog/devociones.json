@@ -8,49 +8,100 @@
       "name": "San Expedito",
       "category": "devociones",
       "status": "published",
-      "sourceFile": "data/san-expedito.json"
+      "sourceFile": "data/san-expedito.json",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [],
+        "specialDevotion": [
+          "AR"
+        ]
+      }
     },
     {
       "id": "divina-misericordia",
       "name": "Divina Misericordia",
       "category": "devociones",
       "status": "published",
-      "sourceFile": "data/divina-misericordia.json"
+      "sourceFile": "data/divina-misericordia.json",
+      "territorial": {
+        "origin": [
+          "PL"
+        ],
+        "historicalLinks": [
+          "PL"
+        ],
+        "specialDevotion": []
+      }
     },
     {
       "id": "espiritu-santo",
       "name": "Espíritu Santo",
       "category": "devociones",
       "status": "published",
-      "sourceFile": "data/espiritu-santo.json"
+      "sourceFile": "data/espiritu-santo.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
     },
     {
       "id": "sagrado-corazon-de-jesus",
       "name": "Sagrado Corazón de Jesús",
       "category": "devociones",
       "status": "published",
-      "sourceFile": "data/sagrado-corazon-de-jesus.json"
+      "sourceFile": "data/sagrado-corazon-de-jesus.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
     },
     {
       "id": "divino-nino-jesus",
       "name": "Divino Niño Jesús",
       "category": "devociones",
       "status": "published",
-      "sourceFile": "data/divino-nino-jesus.json"
+      "sourceFile": "data/divino-nino-jesus.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      }
     },
     {
       "id": "santos-arcangeles",
       "name": "Santos Arcángeles Miguel, Gabriel y Rafael",
       "category": "devociones",
       "status": "published",
-      "sourceFile": "data/santos-arcangeles.json"
+      "sourceFile": "data/santos-arcangeles.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
     },
     {
       "id": "senor-de-los-milagros-de-buga",
       "name": "Señor de los Milagros de Buga",
       "category": "devociones",
       "status": "published",
-      "sourceFile": "data/senor-de-los-milagros-de-buga.json"
+      "sourceFile": "data/senor-de-los-milagros-de-buga.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      }
     },
     {
       "id": "beata-clara-fey",
@@ -58,7 +109,16 @@
       "category": "beatas",
       "status": "published",
       "sourceFile": "data/beata-clara-fey.json",
-      "note": "Excepción mantenida en v2; no ampliar esta categoría por ahora."
+      "note": "Excepción mantenida en v2; no ampliar esta categoría por ahora.",
+      "territorial": {
+        "origin": [
+          "DE"
+        ],
+        "historicalLinks": [
+          "DE"
+        ],
+        "specialDevotion": []
+      }
     }
   ]
 }
