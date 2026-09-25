@@ -139,6 +139,15 @@ function calcularPascua(anio) {
     return crearFechaLocal(anio, mes, dia);
 }
 
+function obtenerDomingoOrdinal(anio, mes, ordinal) {
+    const primerDia = crearFechaLocal(anio, mes, 1);
+    const desplazamiento = (7 - primerDia.getDay()) % 7;
+    return sumarDias(
+        primerDia,
+        desplazamiento + ((ordinal - 1) * 7)
+    );
+}
+
 function obtenerFechaFestividad(fecha, anio = obtenerFechaActual().getFullYear()) {
     if (!fecha) return null;
 
@@ -157,9 +166,42 @@ function obtenerFechaFestividad(fecha, anio = obtenerFechaActual().getFullYear()
             return sumarDias(pascua, 68);
         }
         if (tipo === "divino-nino" || texto.includes("primer domingo de septiembre")) {
-            const septiembre = crearFechaLocal(anio, 9, 1);
-            return sumarDias(septiembre, (7 - septiembre.getDay()) % 7);
+            return obtenerDomingoOrdinal(anio, 9, 1);
         }
+
+        const patronDomingo = texto.match(/(primer|segundo|tercer|cuarto) domingo de ([a-záéíóúñ]+)/i);
+
+        if (patronDomingo) {
+            const ordinales = {
+                primer: 1,
+                segundo: 2,
+                tercer: 3,
+                cuarto: 4
+            };
+
+            const meses = {
+                enero: 1,
+                febrero: 2,
+                marzo: 3,
+                abril: 4,
+                mayo: 5,
+                junio: 6,
+                julio: 7,
+                agosto: 8,
+                septiembre: 9,
+                octubre: 10,
+                noviembre: 11,
+                diciembre: 12
+            };
+
+            const ordinal = ordinales[patronDomingo[1].toLowerCase()];
+            const mes = meses[patronDomingo[2].toLowerCase()];
+
+            if (ordinal && mes) {
+                return obtenerDomingoOrdinal(anio, mes, ordinal);
+            }
+        }
+
         return null;
     }
 
