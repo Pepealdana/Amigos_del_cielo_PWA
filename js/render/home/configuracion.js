@@ -69,6 +69,42 @@ function renderConfiguracion() {
 
             </section>
 
+            <section class="simple-panel region-panel">
+
+                <h3>País o región</h3>
+
+                <p>
+                    Selecciona tu país para que la aplicación pueda
+                    incorporar progresivamente celebraciones y devociones
+                    propias de tu contexto.
+                </p>
+
+                <label for="region-preferida">País o región</label>
+
+                <select
+                    id="region-preferida"
+                    class="settings-select"
+                    data-action="region"
+                    aria-describedby="region-ayuda">
+
+                    ${APP_CONFIG.regionesHispanohablantes.map(region => `
+                        <option
+                            value="${escaparHTML(region.codigo)}"
+                            ${state.configuracion?.region === region.codigo ? "selected" : ""}>
+                            ${escaparHTML(region.nombre)}
+                        </option>
+                    `).join("")}
+
+                </select>
+
+                <p id="region-ayuda" class="settings-help">
+                    El contenido universal de la Iglesia no cambia por esta
+                    selección; se utilizará para distinguir información local
+                    cuando corresponda.
+                </p>
+
+            </section>
+
             <section class="simple-panel appearance-panel">
 
                 <h3>
