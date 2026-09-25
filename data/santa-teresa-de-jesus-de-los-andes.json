@@ -1,0 +1,437 @@
+{
+  "id": "santa-teresa-de-jesus-de-los-andes",
+  "slug": "santa-teresa-de-jesus-de-los-andes",
+  "name": "Santa Teresa de Jesús de Los Andes",
+  "title": "La primera santa de Chile",
+  "subtitle": "Carmelita descalza, contemplativa y testigo de la alegría del Evangelio",
+  "category": "Santos",
+  "image": null,
+  "description": "Santa Teresa de Jesús de Los Andes, nacida Juana Fernández Solar, fue una joven chilena que vivió una intensa vida de oración, amor a Cristo, devoción mariana y servicio a los demás. Ingresó como carmelita descalza en 1919 y murió en 1920, antes de cumplir los veinte años. La Iglesia la reconoce como la primera santa de Chile y como un testimonio de que la santidad puede vivirse también en la juventud.",
+  "feast": {
+    "day": 13,
+    "month": 7,
+    "text": "13 de julio",
+    "liturgicalRank": "Fiesta",
+    "movable": false,
+    "note": "La Iglesia en Chile celebra su fiesta litúrgica el 13 de julio, fecha de su nacimiento."
+  },
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-teresa-de-jesus-de-los-andes"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "quote": {
+    "text": "«¡Sólo Dios basta!»",
+    "reference": "Expresión presentada por san Juan Pablo II en su homilía de canonización de 1993 al resumir el testimonio espiritual de Teresa; no se presenta aquí como una cita literal de una obra concreta de la santa."
+  },
+  "patronages": [
+    "Juventud",
+    "Chile",
+    "Carmelitas descalzas",
+    "Personas que buscan crecer en la vida de oración"
+  ],
+  "virtues": [
+    "Amor a Cristo",
+    "Oración",
+    "Alegría",
+    "Pureza de corazón",
+    "Humildad",
+    "Servicio",
+    "Confianza en Dios",
+    "Amor al prójimo"
+  ],
+  "search": [
+    "santa teresa de jesus de los andes",
+    "santa teresa de los andes",
+    "teresa de los andes",
+    "juanita fernandez solar",
+    "juanita fernández solar",
+    "carmelita",
+    "carmelitas descalzas",
+    "chile",
+    "auco",
+    "los andes",
+    "oración",
+    "jóvenes",
+    "juventud",
+    "novena"
+  ],
+  "history": {
+    "short": "Juana Fernández Solar nació en Santiago de Chile el 13 de julio de 1900. Desde joven cultivó una profunda amistad con Cristo y una intensa devoción a la Virgen María. Ingresó al Carmelo de Los Andes el 7 de mayo de 1919 con el nombre de Teresa de Jesús. Murió el 12 de abril de 1920, con apenas 19 años. Fue beatificada en 1987 y canonizada por san Juan Pablo II el 21 de marzo de 1993.",
+    "extended": "Juanita Enriqueta Josefina de los Sagrados Corazones Fernández Solar nació en Santiago de Chile el 13 de julio de 1900, en una familia de profunda tradición católica. Desde su infancia cultivó una intensa vida de oración y una particular devoción a la Virgen María. Recibió la Primera Comunión en 1910 y, según la biografía oficial de la Santa Sede, desde entonces buscó vivir una relación cada vez más cercana con Cristo, especialmente mediante la Eucaristía y la oración. Durante su adolescencia descubrió con mayor claridad su deseo de consagrarse a Dios como carmelita descalza. Al mismo tiempo llevó una vida propia de una joven de su época: estudió, compartió con su familia y amigas y desarrolló actividades propias de la vida social y juvenil. La santidad que la Iglesia reconoce en ella no se separó de esas relaciones cotidianas, sino que se manifestó precisamente en la manera de vivirlas con amor y espíritu de servicio. El 7 de mayo de 1919 ingresó al pequeño monasterio del Espíritu Santo de Los Andes, donde tomó el nombre religioso de Teresa de Jesús. El 14 de octubre de ese año vistió el hábito e inició el noviciado. Su vida religiosa duró solamente once meses. Durante ese período profundizó su vida contemplativa, su amor a Cristo, su confianza en Dios y su deseo de ofrecer su vida por la Iglesia y por los demás. San Juan Pablo II destacó en la canonización que su contemplación no significaba desentenderse del mundo: Teresa buscaba servir, acompañar con la oración y sostener especialmente a los sacerdotes y a quienes anunciaban el Evangelio. En los últimos meses enfermó gravemente de tifus. El 7 de abril de 1920 realizó su profesión religiosa en artículo de muerte y falleció el 12 de abril, antes de cumplir veinte años y sin haber terminado el noviciado canónico. La Iglesia recibió su testimonio como una expresión de santidad vivida con radicalidad y sencillez. Fue beatificada por san Juan Pablo II en Santiago de Chile el 3 de abril de 1987. El mismo Papa la canonizó en Roma el 21 de marzo de 1993. La Santa Sede la presenta como la primera santa chilena y la primera carmelita descalza de América Latina en alcanzar los altares. Sus restos son venerados en el Santuario de Auco-Rinconada de Los Andes, lugar que se convirtió en un importante centro de peregrinación. Su mensaje se dirige de manera particular a los jóvenes: buscar a Cristo, vivir una amistad profunda con Él, crecer en la oración, amar a los demás y comprender que la santidad no depende de la duración de la vida sino de la manera de entregarla a Dios y al prójimo."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Teresa de Jesús de Los Andes, joven enamorada de Cristo y servidora de la Iglesia, enséñame a buscar a Dios en la oración y a reconocer su presencia en las personas que encuentro cada día. Ayúdame a vivir con alegría, pureza de corazón, humildad y confianza. Presento ante el Señor, por tu intercesión, la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "Santa Teresa de Jesús de Los Andes, gracias por acompañarme durante esta novena. Ruega por los jóvenes, por las familias, por quienes buscan una vocación y por todos los que desean crecer en la amistad con Cristo. Intercede por quienes sufren, por los sacerdotes y por la Iglesia. Enséñanos a unir la oración con el servicio y a vivir cada día con un corazón dispuesto a amar. Presenta nuestras intenciones ante Jesús y ayúdanos a permanecer fieles a Él. Amén.",
+  "intentions": [
+    "Por los jóvenes que buscan sentido y dirección para su vida.",
+    "Por las familias y por quienes desean crecer en la fe.",
+    "Por las vocaciones a la vida consagrada y al sacerdocio.",
+    "Por las Carmelitas Descalzas y por toda la familia carmelitana.",
+    "Por los sacerdotes y misioneros que anuncian el Evangelio.",
+    "Por quienes atraviesan enfermedad, sufrimiento o soledad.",
+    "Por quienes desean profundizar su vida de oración.",
+    "Por Chile y por todos los pueblos de América Latina.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Mateo 5,1-12"
+      },
+      {
+        "reference": "Mateo 11,28-30"
+      },
+      {
+        "reference": "Lucas 1,46-55"
+      },
+      {
+        "reference": "1 Corintios 13,1-13"
+      }
+    ],
+    "documents": [
+      "Homilía de canonización de Teresa de Jesús de Los Andes, san Juan Pablo II, 21 de marzo de 1993",
+      "Biografía oficial de Teresa de Jesús de Los Andes, Santa Sede",
+      "Decreto y homilía de beatificación, san Juan Pablo II, 3 de abril de 1987"
+    ],
+    "related": [
+      "Carmelo Teresiano",
+      "Virgen del Carmen",
+      "Juventud",
+      "Vida contemplativa",
+      "Oración",
+      "Iglesia en Chile"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Teresa de Jesús de Los Andes (1900-1920) — Biografía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19930321_teresa-de-jesus_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Canonización de Claudine Thévenet y Teresa de Jesús de Los Andes — Homilía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1993.html",
+      "type": "official"
+    },
+    {
+      "title": "Beatificación de Sor Teresa de los Andes",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1987.html",
+      "type": "official"
+    },
+    {
+      "title": "Fiesta de Santa Teresa de Jesús de Los Andes",
+      "organization": "Conferencia Episcopal de Chile",
+      "url": "https://iglesia.cl/31271-fiesta-de-santa-teresa-de-jesus-de-los-andes.html",
+      "type": "institutional"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Amistad con Cristo",
+      "title": "Hacer de Jesús el centro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Desde muy joven, Juanita cultivó una relación profunda con Cristo y buscó conocerlo y amarlo cada vez más."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana no consiste solo en cumplir normas; nace de una relación viva con Jesús."
+      },
+      "virtue": "Amor a Cristo",
+      "reflection": "¿Qué lugar ocupa Jesús en mis decisiones y prioridades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean comenzar o renovar su relación con Cristo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñame a conocer, amar y seguir a Jesús con un corazón sincero. Amén."
+      },
+      "action": "Dedica hoy unos minutos a hablar con Jesús en oración personal.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Oración",
+      "title": "Aprender a permanecer con Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa encontró en la oración y en la Eucaristía el centro de su vida interior."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración permite detenernos, escuchar a Dios y ordenar nuestra vida desde su presencia."
+      },
+      "virtue": "Vida de oración",
+      "reflection": "¿Qué puedo cambiar para reservar un tiempo más fiel a la oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean perseverar en la vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, acompáñame a buscar a Dios con constancia y confianza. Amén."
+      },
+      "action": "Establece hoy un momento concreto para la oración y respétalo.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Alegría",
+      "title": "Vivir la fe con alegría",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La biografía de Teresa muestra a una joven alegre y cercana que vivió la fe en medio de su familia, estudios y amistades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La alegría cristiana no significa ausencia de problemas; nace de saber que nuestra vida está en manos de Dios."
+      },
+      "virtue": "Alegría",
+      "reflection": "¿Mi manera de vivir la fe transmite esperanza a quienes me rodean?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que atraviesan tristeza, soledad o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, ayúdame a encontrar en Cristo una alegría que pueda compartir con los demás. Amén."
+      },
+      "action": "Haz hoy un gesto sencillo que lleve ánimo y esperanza a otra persona.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Pureza de corazón",
+      "title": "Aprender a amar con libertad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa buscó ordenar sus afectos y deseos para amar a Dios y a los demás con mayor libertad y generosidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La pureza cristiana implica aprender a mirar a cada persona con respeto, evitando convertirla en objeto de uso o posesión."
+      },
+      "virtue": "Pureza de corazón",
+      "reflection": "¿Cómo puedo cuidar hoy mi manera de mirar, hablar y relacionarme con los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes y por quienes buscan vivir relaciones sanas y respetuosas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñame a amar con un corazón limpio, libre y generoso. Amén."
+      },
+      "action": "Evita hoy una palabra, imagen o conducta que pueda dañar la dignidad de otra persona.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Servicio",
+      "title": "Ser el último y servidor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En su canonización, san Juan Pablo II destacó que la vida contemplativa de Teresa no la separaba del servicio, sino que la impulsaba a amar y servir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Seguir a Jesús significa aprender a poner nuestras capacidades al servicio de los demás."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué persona necesita hoy un servicio concreto de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven en la Iglesia, en la familia y en la sociedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñame a servir con humildad y sin buscar reconocimiento. Amén."
+      },
+      "action": "Realiza hoy un servicio concreto que normalmente dejarías para después.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Vocación",
+      "title": "Escuchar la llamada de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa discernió desde joven su deseo de consagrarse a Dios y finalmente ingresó al Carmelo de Los Andes."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Toda persona está llamada a descubrir cómo puede amar y servir a Dios y a los demás desde su propia vocación."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Estoy dispuesto a preguntarle a Dios qué quiere de mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las vocaciones sacerdotales, religiosas y por todos quienes buscan discernir su camino."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, acompaña a quienes buscan su vocación y ayúdalos a responder con generosidad. Amén."
+      },
+      "action": "Dedica hoy una oración específica por las vocaciones.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Confianza",
+      "title": "Entregar a Dios las preocupaciones",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Ante la enfermedad y las dificultades de sus últimos meses, Teresa procuró vivir con confianza en Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La confianza no elimina el sufrimiento, pero permite atravesarlo sin perder la esperanza."
+      },
+      "virtue": "Confianza en Dios",
+      "reflection": "¿Qué preocupación necesito colocar hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, personas que sufren y familias que atraviesan momentos difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñame a confiar en Dios incluso cuando no comprendo lo que sucede. Amén."
+      },
+      "action": "Presenta hoy ante Dios una preocupación concreta y termina tu oración con un acto de confianza.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Iglesia",
+      "title": "Orar por quienes anuncian el Evangelio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa ofreció su vida de oración por la Iglesia y mostró una especial cercanía espiritual con sacerdotes y misioneros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La Iglesia necesita personas que anuncien el Evangelio y también personas que sostengan esa misión con oración y servicio."
+      },
+      "virtue": "Comunión eclesial",
+      "reflection": "¿Cómo puedo sostener a mi parroquia y a quienes sirven en ella?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por sacerdotes, religiosos, misioneros, catequistas y agentes pastorales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, intercede por quienes trabajan por el Evangelio y ayúdanos a sostenerlos con nuestra oración. Amén."
+      },
+      "action": "Ora hoy por un sacerdote, religioso o agente pastoral que conozcas.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Santidad cotidiana",
+      "title": "Responder a Dios con toda la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa vivió solamente diecinueve años, pero la Iglesia reconoce en ella un testimonio de santidad vivido en la familia, la juventud y el Carmelo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad no depende de hacer cosas extraordinarias a los ojos del mundo, sino de vivir con amor y fidelidad aquello que Dios nos confía."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué pequeño compromiso de fe quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa de Jesús de Los Andes, ayúdame a vivir cada día con amor a Cristo, servicio al prójimo y confianza en Dios. Amén."
+      },
+      "action": "Elige una práctica de oración o servicio de esta novena y comprométete a mantenerla durante las próximas semanas.",
+      "closing": "Santa Teresa de Jesús de Los Andes, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "juventud",
+      "label": "Juventud y discernimiento",
+      "keywords": [
+        "jóvenes",
+        "juventud",
+        "vocación",
+        "discernimiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida contemplativa",
+      "keywords": [
+        "oración",
+        "oracion",
+        "eucaristía",
+        "contemplación",
+        "carmelo"
+      ]
+    },
+    {
+      "id": "vocaciones",
+      "label": "Vocaciones y vida consagrada",
+      "keywords": [
+        "vocaciones",
+        "sacerdocio",
+        "religiosas",
+        "carmelitas",
+        "consagrada"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y relaciones",
+      "keywords": [
+        "familia",
+        "amistad",
+        "pureza",
+        "relaciones",
+        "jóvenes"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y sufrimiento",
+      "keywords": [
+        "enfermos",
+        "sufrimiento",
+        "salud",
+        "confianza",
+        "esperanza"
+      ]
+    }
+  ]
+}
