@@ -14,8 +14,6 @@ const state = {
     configuracion: {
         tema: "claro",
         idioma: "es",
-        notificaciones: false,
-        horaRecordatorio: "19:00",
         tamanoTexto: "normal"
     },
     busqueda: ""
