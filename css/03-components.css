@@ -509,15 +509,15 @@
 
     margin:
 
-        1.25rem 0;
+        1.75rem 0;
 
 }
 
 .list-title{
 
-    margin-bottom:
+    margin:
 
-        .5rem;
+        0 0 .55rem;
 
     color:
 
@@ -530,6 +530,10 @@
 }
 
 .list{
+
+    margin:
+
+        0;
 
     padding-left:
 
@@ -550,12 +554,6 @@
     color:
 
         var(--color-text);
-
-}
-
-.list li:last-child{
-
-    margin-bottom:0;
 
 }
 
