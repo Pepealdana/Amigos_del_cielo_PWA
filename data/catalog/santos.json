@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "category": "santos",
   "description": "Catálogo maestro de santos canonizados. Los registros pending son candidatos de alta prioridad para incorporación.",
   "items": [
@@ -466,10 +466,10 @@
     {
       "id": "san-juan-diego",
       "name": "San Juan Diego",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/san-juan-diego.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "MX"
