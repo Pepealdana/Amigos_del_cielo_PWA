@@ -112,10 +112,10 @@
     {
       "id": "virgen-de-coromoto",
       "name": "Nuestra Señora de Coromoto",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-coromoto.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
