@@ -25,22 +25,21 @@ function renderModal(
     return `
 
         <div
-
             class="modal"
-
             role="dialog"
-
-            aria-modal="true">
+            aria-modal="true"
+            aria-labelledby="modal-title"
+            aria-describedby="modal-body">
 
             <div class="modal-content">
 
-                <h2 class="modal-title">
+                <h2 id="modal-title" class="modal-title">
 
                     ${titulo}
 
                 </h2>
 
-                <div class="modal-body">
+                <div id="modal-body" class="modal-body">
 
                     ${contenido}
 
@@ -81,21 +80,20 @@ function mostrarModal(
 
 ) {
 
+    cerrarModal();
+
     document.body.insertAdjacentHTML(
-
         "beforeend",
-
         renderModal(
-
             titulo,
-
             contenido,
-
             textoBoton
-
         )
-
     );
+
+    document
+        .querySelector(".modal-close-button")
+        ?.focus();
 
 }
 
