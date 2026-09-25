@@ -11,7 +11,6 @@ const state = {
     favoritos: [],
     progreso: {},
     intenciones: {},
-    recordatorios: {},
     configuracion: {
         tema: "claro",
         idioma: "es",
