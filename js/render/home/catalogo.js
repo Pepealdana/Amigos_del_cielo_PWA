@@ -47,11 +47,14 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
             return true;
         }
 
-        const paises = Array.isArray(item.countries)
-            ? item.countries
-            : [];
+        const territorial = item.territorial || {};
+        const relaciones = [
+            ...(territorial.origin || []),
+            ...(territorial.historicalLinks || []),
+            ...(territorial.specialDevotion || [])
+        ];
 
-        return paises.includes(filtroPais);
+        return relaciones.includes(filtroPais);
     });
 
     const publicados = catalogoFiltrado.filter(item => item.status === "published");
@@ -119,7 +122,7 @@ function renderFiltrosPais(paisSeleccionado) {
     return `
         <div class="catalog-country-filter">
             <div class="catalog-country-label">
-                <span>Explorar por país</span>
+                <span>Explorar vínculos por país</span>
                 <small>${paisSeleccionado === "ALL"
                     ? "Toda Hispanoamérica"
                     : escaparHTML(
