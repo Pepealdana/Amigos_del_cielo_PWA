@@ -541,10 +541,10 @@
     {
       "id": "virgen-del-rocio",
       "name": "Nuestra Señora del Rocío",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "media",
+      "sourceFile": "data/nuestra-senora-del-rocio.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
