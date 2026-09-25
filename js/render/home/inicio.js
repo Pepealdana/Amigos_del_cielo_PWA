@@ -108,8 +108,42 @@ function obtenerNovenaCalendarioPrincipal(catalogo = []) {
     return proximas[0]?.novena || obtenerNovenaDestacada(catalogo);
 }
 
-function obtenerSantoDelDia(catalogo = []) {
-    return obtenerNovenaCalendarioPrincipal(catalogo);
+function obtenerNovenaEnProgresoActiva(catalogo = [], progreso = {}) {
+    if (!progreso || typeof progreso !== "object") {
+        return null;
+    }
+
+    const candidatos = Object.entries(progreso)
+        .map(([id, datos]) => {
+            const novena = buscarNovenaPorId(catalogo, id);
+            const estado = novena
+                ? obtenerEstadoNovena(novena.feast)
+                : null;
+
+            if (
+                !novena ||
+                datos?.completada === true ||
+                estado?.estado !== "en-curso"
+            ) {
+                return null;
+            }
+
+            return {
+                novena,
+                fecha: new Date(datos?.fecha || 0).getTime()
+            };
+        })
+        .filter(Boolean)
+        .sort((a, b) => b.fecha - a.fecha);
+
+    return candidatos[0]?.novena || null;
+}
+
+function obtenerSantoDelDia(catalogo = [], progreso = {}) {
+    return (
+        obtenerNovenaEnProgresoActiva(catalogo, progreso) ||
+        obtenerNovenaCalendarioPrincipal(catalogo)
+    );
 }
 
 function obtenerProgresoPrincipal(catalogo = [], progreso = {}) {
@@ -193,7 +227,7 @@ function obtenerTituloPrincipal(novena) {
 
 function renderInicio(catalogo = [], progreso = {}) {
 
-    const santo = obtenerSantoDelDia(catalogo);
+    const santo = obtenerSantoDelDia(catalogo, progreso);
 
     const continuidad =
         obtenerProgresoPrincipal(
