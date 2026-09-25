@@ -1,0 +1,288 @@
+{
+  "id": "virgen-de-la-merced",
+  "name": "Nuestra Señora de la Merced",
+  "title": "Nuestra Señora de la Merced",
+  "subtitle": "Madre de la Misericordia y protectora de quienes sufren cautiverio",
+  "image": null,
+  "feast": {
+    "text": "24 de septiembre",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "Personas privadas de libertad",
+    "Personas que sufren diversas formas de cautiverio",
+    "Perú",
+    "República Dominicana"
+  ],
+  "virtues": [
+    "Misericordia",
+    "Libertad",
+    "Caridad",
+    "Servicio",
+    "Esperanza",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Merced es la advocación mariana vinculada desde sus orígenes a la Orden de la Merced y a su misión de liberar a los cautivos y servir a quienes sufren.",
+    "extended": "La devoción a Nuestra Señora de la Merced está estrechamente vinculada a la Orden de la Bienaventurada Virgen María de la Merced, fundada en Barcelona en el siglo XIII alrededor del carisma de redención de cautivos. La tradición mercedaria reconoce a María como Madre de la Merced y modelo de disponibilidad al servicio de quienes sufren. San Juan Pablo II recordó que, desde sus orígenes, la Orden la veneró bajo esta advocación y encontró en ella inspiración para su misión redentora. La devoción llegó a América con la evangelización y arraigó especialmente en distintos pueblos latinoamericanos. En Perú, Nuestra Señora de la Merced es celebrada el 24 de septiembre y es reconocida como Patrona de las Fuerzas Armadas y Gran Mariscala del Perú en la tradición nacional. La Santa Sede también ha señalado expresamente la presencia de esta advocación en Perú y República Dominicana. El sentido espiritual de la Merced no se limita al cautiverio físico: la tradición cristiana invita a reconocer y acompañar a quienes sufren distintas formas de esclavitud, exclusión, violencia o pérdida de libertad, siempre orientando la esperanza hacia Cristo."
+  },
+  "openingPrayer": "Nuestra Señora de la Merced, Madre de misericordia, acompáñanos en esta novena. Enséñanos a reconocer el sufrimiento de nuestros hermanos, a servir con generosidad y a buscar en Cristo la verdadera libertad. Amén.",
+  "closingPrayer": "Nuestra Señora de la Merced, Madre de misericordia, intercede por quienes sufren, por las personas privadas de libertad y por sus familias. Ayúdanos a vivir la caridad y a caminar siempre hacia la libertad que Cristo ofrece. Amén.",
+  "intentions": [
+    "Por las personas privadas de libertad y sus familias.",
+    "Por quienes sufren violencia, explotación, adicciones o cualquier forma de esclavitud.",
+    "Por los pueblos de Perú y República Dominicana.",
+    "Por quienes trabajan en la pastoral penitenciaria y en obras de misericordia.",
+    "Por la Iglesia y por todos los que sirven a personas vulnerables."
+  ],
+  "bibleReferences": [
+    "Lc 4,18-19",
+    "Lc 1,38-39",
+    "Lc 10,25-37",
+    "Jn 8,31-36",
+    "Ga 5,1"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Misericordia",
+      "title": "Mirar el sufrimiento con compasión",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Ante qué sufrimiento de otra persona puedo dejar de ser indiferente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven situaciones de sufrimiento y abandono."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Libertad",
+      "title": "Buscar la libertad que Cristo ofrece",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Libertad",
+      "reflection": "¿Qué actitud, hábito o miedo limita mi libertad interior?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven alguna forma de esclavitud interior o exterior."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Caridad",
+      "title": "Servir a quien necesita ayuda",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas vulnerables y necesitadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Familia",
+      "title": "Acompañar a quienes sufren",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Familia",
+      "reflection": "¿A quién de mi familia puedo acompañar con mayor cercanía?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias de las personas privadas de libertad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Perdón",
+      "title": "Abrir caminos de reconciliación",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Perdón",
+      "reflection": "¿Hay alguna herida que necesite comenzar a entregar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan reconciliarse y reconstruir sus vidas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Esperanza",
+      "title": "No perder la confianza en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación difícil necesito poner hoy en manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven momentos de desesperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Servicio",
+      "title": "Poner la fe al servicio de los demás",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué puedo hacer hoy por alguien que atraviesa una dificultad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes trabajan al servicio de personas privadas de libertad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Justicia",
+      "title": "Defender la dignidad humana",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Justicia",
+      "reflection": "¿Cómo puedo respetar y defender la dignidad de cada persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por una sociedad que respete la dignidad y los derechos de todos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Caminar hacia Cristo, verdadera libertad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de la Merced nació vinculada al servicio de quienes sufrían cautiverio y se extendió por América con la misión evangelizadora de la Orden de la Merced."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos invita a responder al sufrimiento con misericordia, servicio y esperanza."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero asumir después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia, por quienes sufren y por todos los que necesitan experimentar la misericordia de Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Merced, acompáñanos y llévanos hacia Jesucristo. Enséñanos a vivir la misericordia y a servir a quienes más necesitan nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Merced, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Discurso a la Orden de la Bienaventurada Virgen María de la Merced, 23 de mayo de 1980.",
+    "San Juan Pablo II, Discurso al Capítulo general de la Orden de la Merced, 25 de mayo de 1998.",
+    "Francisco, Mensaje con motivo del 800.º aniversario de la Orden de la Santísima Virgen María de la Merced, 17 de enero de 2018.",
+    "León XIV, Discurso a los obispos del Perú en visita ad Limina Apostolorum, 30 de enero de 2026.",
+    "Conferencia Episcopal Peruana, Solemnidad de Nuestra Señora de la Merced, 24 de septiembre."
+  ]
+}
