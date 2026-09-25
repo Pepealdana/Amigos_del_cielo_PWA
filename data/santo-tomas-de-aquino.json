@@ -7,7 +7,9 @@
   "category": "Santos",
   "image": "assets/images/santos/santo_tomas_aquino.webp",
   "description": "Fraile dominico, sacerdote y Doctor de la Iglesia que unió estudio, contemplación y búsqueda de la verdad.",
-  "novena": { "days": 9 },
+  "novena": {
+    "days": 9
+  },
   "status": "published",
   "feast": {
     "day": 28,
@@ -35,11 +37,24 @@
   ],
   "resources": {
     "bible": [
-      { "reference": "Sabiduría 7,7-10.15-16" },
-      { "reference": "Mateo 23,8-12" },
-      { "reference": "Juan 8,31-32" }
+      {
+        "reference": "Sabiduría 7,7-10.15-16"
+      },
+      {
+        "reference": "Mateo 23,8-12"
+      },
+      {
+        "reference": "Juan 8,31-32"
+      }
     ],
-    "related": ["Fe y razón", "Estudio", "Sabiduría", "Verdad", "Educación", "Oración"]
+    "related": [
+      "Fe y razón",
+      "Estudio",
+      "Sabiduría",
+      "Verdad",
+      "Educación",
+      "Oración"
+    ]
   },
   "sources": [
     {
@@ -60,108 +75,216 @@
       "day": 1,
       "theme": "Vocación y estudio",
       "title": "Poner los dones al servicio",
-      "life": { "title": "Conozcamos su vida", "text": "Tomás recibió desde joven una formación orientada al estudio y encontró en la Orden de Predicadores un camino para unir vida religiosa, enseñanza y búsqueda de la verdad." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Nuestros talentos pueden convertirse en caminos de servicio cuando los recibimos con humildad y los ponemos al bien de los demás." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Tomás recibió desde joven una formación orientada al estudio y encontró en la Orden de Predicadores un camino para unir vida religiosa, enseñanza y búsqueda de la verdad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Nuestros talentos pueden convertirse en caminos de servicio cuando los recibimos con humildad y los ponemos al bien de los demás."
+      },
       "virtue": "Sabiduría",
       "reflection": "¿Qué talento o capacidad puedo poner hoy al servicio de otra persona?",
-      "intention": { "title": "Intención del día", "text": "Por los jóvenes que están descubriendo su vocación." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, ayúdanos a reconocer los dones que Dios nos ha dado y a utilizarlos con humildad para servir. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes que están descubriendo su vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, ayúdanos a reconocer los dones que Dios nos ha dado y a utilizarlos con humildad para servir. Amén."
+      },
       "action": "Identifica una capacidad que tengas y busca una forma concreta de ponerla al servicio de alguien."
     },
     {
       "day": 2,
       "theme": "Discernimiento",
       "title": "Elegir con libertad",
-      "life": { "title": "Conozcamos su vida", "text": "Su decisión de ingresar en la Orden de Santo Domingo encontró oposición familiar. Su perseverancia muestra que discernir una vocación puede exigir libertad interior y paciencia." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Discernir requiere oración, libertad interior y disposición para buscar el bien más allá de las expectativas de los demás." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su decisión de ingresar en la Orden de Santo Domingo encontró oposición familiar. Su perseverancia muestra que discernir una vocación puede exigir libertad interior y paciencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Discernir requiere oración, libertad interior y disposición para buscar el bien más allá de las expectativas de los demás."
+      },
       "virtue": "Discernimiento",
       "reflection": "¿Hay alguna decisión en la que necesito buscar con mayor libertad la voluntad de Dios?",
-      "intention": { "title": "Intención del día", "text": "Por quienes enfrentan decisiones importantes sobre su futuro." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, acompaña a quienes buscan su vocación y dales serenidad para discernir con libertad y responsabilidad. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan decisiones importantes sobre su futuro."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, acompaña a quienes buscan su vocación y dales serenidad para discernir con libertad y responsabilidad. Amén."
+      },
       "action": "Antes de una decisión importante, dedica unos minutos a orar y escribir tus razones y prioridades."
     },
     {
       "day": 3,
       "theme": "Búsqueda de la verdad",
       "title": "Estudiar con honestidad",
-      "life": { "title": "Conozcamos su vida", "text": "Tomás desarrolló una intensa actividad como estudiante y profesor. Para él, el estudio podía ser un camino de búsqueda de la verdad y de servicio." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Aprender no consiste solamente en obtener resultados; también implica crecer en comprensión, responsabilidad y honestidad." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Tomás desarrolló una intensa actividad como estudiante y profesor. Para él, el estudio podía ser un camino de búsqueda de la verdad y de servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Aprender no consiste solamente en obtener resultados; también implica crecer en comprensión, responsabilidad y honestidad."
+      },
       "virtue": "Estudio",
       "reflection": "¿Estoy estudiando solamente para obtener resultados o también para comprender y crecer?",
-      "intention": { "title": "Intención del día", "text": "Por estudiantes y profesores." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, enséñanos a estudiar con constancia y honestidad, buscando la verdad sin orgullo. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes y profesores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, enséñanos a estudiar con constancia y honestidad, buscando la verdad sin orgullo. Amén."
+      },
       "action": "Dedica hoy un tiempo de estudio sin distracciones y con verdadera atención."
     },
     {
       "day": 4,
       "theme": "Fe y razón",
       "title": "No tener miedo a las preguntas",
-      "life": { "title": "Conozcamos su vida", "text": "Su pensamiento buscó mostrar que la fe cristiana y la razón pueden dialogar sin confundirse. Esta búsqueda hizo de Tomás una referencia duradera para la teología." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Las preguntas sinceras pueden formar parte de una búsqueda responsable de la verdad." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su pensamiento buscó mostrar que la fe cristiana y la razón pueden dialogar sin confundirse. Esta búsqueda hizo de Tomás una referencia duradera para la teología."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las preguntas sinceras pueden formar parte de una búsqueda responsable de la verdad."
+      },
       "virtue": "Fe y razón",
       "reflection": "¿Qué pregunta sobre la vida o la fe necesito afrontar con honestidad?",
-      "intention": { "title": "Intención del día", "text": "Por quienes tienen dudas de fe y buscan respuestas sinceras." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, ayúdanos a buscar la verdad con una mente abierta y una fe humilde. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen dudas de fe y buscan respuestas sinceras."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, ayúdanos a buscar la verdad con una mente abierta y una fe humilde. Amén."
+      },
       "action": "Anota una pregunta que tengas y busca una fuente seria para comenzar a comprenderla."
     },
     {
       "day": 5,
       "theme": "Humildad",
       "title": "Aprender también significa reconocer lo que no sabemos",
-      "life": { "title": "Conozcamos su vida", "text": "Tomás fue maestro y escritor, pero su camino intelectual estuvo orientado hacia la verdad y no hacia el reconocimiento personal." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Reconocer nuestros límites nos permite aprender y recibir la ayuda de otros." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Tomás fue maestro y escritor, pero su camino intelectual estuvo orientado hacia la verdad y no hacia el reconocimiento personal."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Reconocer nuestros límites nos permite aprender y recibir la ayuda de otros."
+      },
       "virtue": "Humildad",
       "reflection": "¿Me cuesta reconocer que no sé algo o pedir ayuda?",
-      "intention": { "title": "Intención del día", "text": "Por maestros, profesores y estudiantes." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, enséñanos a reconocer nuestros límites y a recibir con gratitud la enseñanza de los demás. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por maestros, profesores y estudiantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, enséñanos a reconocer nuestros límites y a recibir con gratitud la enseñanza de los demás. Amén."
+      },
       "action": "Cuando no comprendas algo hoy, pregunta con humildad en lugar de fingir que lo sabes."
     },
     {
       "day": 6,
       "theme": "Oración",
       "title": "Unir estudio y vida interior",
-      "life": { "title": "Conozcamos su vida", "text": "La tradición sobre Tomás une su trabajo intelectual con una profunda vida espiritual. Para él, conocer la verdad no estaba separado de orientar la vida hacia Dios." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "El conocimiento puede crecer junto con el silencio, la oración y la contemplación." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición sobre Tomás une su trabajo intelectual con una profunda vida espiritual. Para él, conocer la verdad no estaba separado de orientar la vida hacia Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El conocimiento puede crecer junto con el silencio, la oración y la contemplación."
+      },
       "virtue": "Contemplación",
       "reflection": "¿Qué lugar ocupa Dios en mis preocupaciones y decisiones cotidianas?",
-      "intention": { "title": "Intención del día", "text": "Por quienes sienten cansancio o presión ante sus responsabilidades." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, enséñanos a unir el estudio con la oración y a recordar que la sabiduría también necesita silencio. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sienten cansancio o presión ante sus responsabilidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, enséñanos a unir el estudio con la oración y a recordar que la sabiduría también necesita silencio. Amén."
+      },
       "action": "Antes de comenzar una tarea importante, haz una breve oración pidiendo claridad y serenidad."
     },
     {
       "day": 7,
       "theme": "Perseverancia",
       "title": "No abandonar ante la dificultad",
-      "life": { "title": "Conozcamos su vida", "text": "Su vida académica y religiosa estuvo acompañada por viajes, responsabilidades y dificultades. Continuó enseñando y escribiendo con perseverancia." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Una dificultad no tiene que convertirse en una razón para abandonar aquello que vale la pena." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su vida académica y religiosa estuvo acompañada por viajes, responsabilidades y dificultades. Continuó enseñando y escribiendo con perseverancia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una dificultad no tiene que convertirse en una razón para abandonar aquello que vale la pena."
+      },
       "virtue": "Perseverancia",
       "reflection": "¿Qué dificultad me está tentando a abandonar?",
-      "intention": { "title": "Intención del día", "text": "Por quienes han perdido la motivación y atraviesan dificultades." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, acompáñanos cuando el aprendizaje se vuelve difícil y danos perseverancia para continuar. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes han perdido la motivación y atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, acompáñanos cuando el aprendizaje se vuelve difícil y danos perseverancia para continuar. Amén."
+      },
       "action": "Divide una tarea difícil en un pequeño paso y complétalo hoy."
     },
     {
       "day": 8,
       "theme": "Servicio",
       "title": "Convertir el conocimiento en bien",
-      "life": { "title": "Conozcamos su vida", "text": "Tomás entendía el conocimiento dentro de una vida orientada al bien. Su enseñanza buscaba formar la inteligencia para que la verdad condujera a una vida más humana." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Lo que aprendemos adquiere un sentido mayor cuando puede beneficiar a otras personas." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Tomás entendía el conocimiento dentro de una vida orientada al bien. Su enseñanza buscaba formar la inteligencia para que la verdad condujera a una vida más humana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Lo que aprendemos adquiere un sentido mayor cuando puede beneficiar a otras personas."
+      },
       "virtue": "Caridad",
       "reflection": "¿Cómo puedo utilizar lo que sé para ayudar a alguien?",
-      "intention": { "title": "Intención del día", "text": "Por estudiantes, profesionales e investigadores." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, ayúdanos a convertir nuestros conocimientos en servicio y a buscar siempre el bien de las personas. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, profesionales e investigadores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, ayúdanos a convertir nuestros conocimientos en servicio y a buscar siempre el bien de las personas. Amén."
+      },
       "action": "Comparte hoy un conocimiento útil con alguien que lo necesite."
     },
     {
       "day": 9,
       "theme": "Entrega",
       "title": "Orientar la vida hacia la verdad",
-      "life": { "title": "Conozcamos su vida", "text": "Tomás murió en 1274 mientras viajaba hacia el Concilio de Lyon. Fue canonizado en 1323 y reconocido como Doctor de la Iglesia. Su memoria se celebra el 28 de enero." },
-      "learning": { "title": "¿Qué podemos aprender?", "text": "Buscar la verdad puede convertirse en una forma de orientar toda la vida hacia Dios y hacia el bien." },
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Tomás murió en 1274 mientras viajaba hacia el Concilio de Lyon. Fue canonizado en 1323 y reconocido como Doctor de la Iglesia. Su memoria se celebra el 28 de enero."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Buscar la verdad puede convertirse en una forma de orientar toda la vida hacia Dios y hacia el bien."
+      },
       "virtue": "Entrega",
       "reflection": "¿Qué aspecto de mi vida necesita estar más orientado hacia la verdad y el bien?",
-      "intention": { "title": "Intención del día", "text": "Por todas las intenciones presentadas durante esta novena." },
-      "prayer": { "title": "Oración del día", "text": "Santo Tomás, maestro de la verdad, ayúdanos a buscar a Dios con inteligencia, humildad y amor, y a poner nuestra vida al servicio del bien. Amén." },
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Tomás, maestro de la verdad, ayúdanos a buscar a Dios con inteligencia, humildad y amor, y a poner nuestra vida al servicio del bien. Amén."
+      },
       "action": "Elige un compromiso concreto de estudio, oración o servicio que puedas mantener."
     }
   ],
@@ -171,5 +294,13 @@
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
     "updated": "2026-09-24"
-  }
+  },
+  "virtues": [
+    "Sabiduría",
+    "Búsqueda de la verdad",
+    "Humildad intelectual",
+    "Contemplación",
+    "Amor a la Iglesia",
+    "Docilidad a la fe"
+  ]
 }
