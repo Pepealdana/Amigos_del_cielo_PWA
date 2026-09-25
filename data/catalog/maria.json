@@ -6,357 +6,552 @@
     {
       "id": "virgen-de-guadalupe",
       "name": "Nuestra Señora de Guadalupe",
-      "countries": [
-        "MX"
-      ],
       "status": "published",
       "category": "maria",
       "sourceFile": "data/virgen-de-guadalupe.json",
-      "priority": "existente"
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "MX"
+        ],
+        "historicalLinks": [
+          "MX"
+        ],
+        "specialDevotion": [
+          "MX"
+        ]
+      }
     },
     {
       "id": "virgen-del-carmen",
       "name": "Nuestra Señora del Carmen",
-      "countries": [
-        "CO",
-        "CL",
-        "PE"
-      ],
       "status": "published",
       "category": "maria",
       "sourceFile": "data/virgen-del-carmen.json",
-      "priority": "existente"
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": [
+          "CO",
+          "CL",
+          "PE"
+        ]
+      }
     },
     {
       "id": "virgen-de-fatima",
       "name": "Nuestra Señora de Fátima",
-      "countries": [
-        "AMERICA"
-      ],
       "status": "published",
       "category": "maria",
       "sourceFile": "data/virgen-de-fatima.json",
-      "priority": "existente"
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "PT"
+        ],
+        "historicalLinks": [
+          "PT"
+        ],
+        "specialDevotion": []
+      }
     },
     {
       "id": "virgen-de-lourdes",
       "name": "Nuestra Señora de Lourdes",
-      "countries": [
-        "AMERICA"
-      ],
       "status": "published",
       "category": "maria",
       "sourceFile": "data/virgen-de-lourdes.json",
-      "priority": "existente"
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "FR"
+        ],
+        "historicalLinks": [
+          "FR"
+        ],
+        "specialDevotion": []
+      }
     },
     {
       "id": "virgen-de-lujan",
       "name": "Nuestra Señora de Luján",
-      "countries": [
-        "AR"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "AR"
+        ],
+        "specialDevotion": [
+          "AR"
+        ]
+      }
     },
     {
       "id": "virgen-de-chiquinquira",
       "name": "Nuestra Señora del Rosario de Chiquinquirá",
-      "countries": [
-        "CO"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      }
     },
     {
       "id": "virgen-de-coromoto",
       "name": "Nuestra Señora de Coromoto",
-      "countries": [
-        "VE"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "VE"
+        ],
+        "specialDevotion": [
+          "VE"
+        ]
+      }
     },
     {
       "id": "virgen-de-suyapa",
       "name": "Nuestra Señora de Suyapa",
-      "countries": [
-        "HN"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "HN"
+        ],
+        "specialDevotion": [
+          "HN"
+        ]
+      }
     },
     {
       "id": "virgen-de-la-caridad-del-cobre",
       "name": "Nuestra Señora de la Caridad del Cobre",
-      "countries": [
-        "CU"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CU"
+        ],
+        "specialDevotion": [
+          "CU"
+        ]
+      }
     },
     {
       "id": "virgen-de-el-quinche",
       "name": "Nuestra Señora de El Quinche",
-      "countries": [
-        "EC"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "EC"
+        ],
+        "specialDevotion": [
+          "EC"
+        ]
+      }
     },
     {
       "id": "virgen-de-caacupe",
       "name": "Nuestra Señora de Caacupé",
-      "countries": [
-        "PY"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "PY"
+        ],
+        "specialDevotion": [
+          "PY"
+        ]
+      }
     },
     {
       "id": "virgen-de-la-merced",
       "name": "Nuestra Señora de la Merced",
-      "countries": [
-        "PE",
-        "DO"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "PE",
+          "DO"
+        ],
+        "specialDevotion": [
+          "PE",
+          "DO"
+        ]
+      }
     },
     {
       "id": "virgen-de-la-altagracia",
       "name": "Nuestra Señora de la Altagracia",
-      "countries": [
-        "DO"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "DO"
+        ],
+        "specialDevotion": [
+          "DO"
+        ]
+      }
     },
     {
       "id": "virgen-de-copacabana",
       "name": "Nuestra Señora de Copacabana",
-      "countries": [
-        "BO"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "BO"
+        ],
+        "specialDevotion": [
+          "BO"
+        ]
+      }
     },
     {
       "id": "santa-maria-la-antigua",
       "name": "Santa María la Antigua",
-      "countries": [
-        "PA"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "PA"
+        ],
+        "specialDevotion": [
+          "PA"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-reina-de-la-paz",
       "name": "Nuestra Señora Reina de la Paz",
-      "countries": [
-        "SV"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "SV"
+        ],
+        "specialDevotion": [
+          "SV"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-de-los-angeles",
       "name": "Nuestra Señora de los Ángeles",
-      "countries": [
-        "CR"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CR"
+        ],
+        "specialDevotion": [
+          "CR"
+        ]
+      }
     },
     {
       "id": "la-purisima",
       "name": "La Purísima / Inmaculada Concepción",
-      "countries": [
-        "NI"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "NI"
+        ],
+        "specialDevotion": [
+          "NI"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-de-la-divina-providencia",
       "name": "Nuestra Señora de la Divina Providencia",
-      "countries": [
-        "PR"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "PR"
+        ],
+        "specialDevotion": [
+          "PR"
+        ]
+      }
     },
     {
       "id": "virgen-de-los-treinta-y-tres",
       "name": "Virgen de los Treinta y Tres",
-      "countries": [
-        "UY"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "UY"
+        ],
+        "specialDevotion": [
+          "UY"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-del-pilar",
       "name": "Nuestra Señora del Pilar",
-      "countries": [
-        "ES"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "alta"
+      "priority": "alta",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-de-la-almudena",
       "name": "Nuestra Señora de la Almudena",
-      "countries": [
-        "ES"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-de-los-desamparados",
       "name": "Nuestra Señora de los Desamparados",
-      "countries": [
-        "ES"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-de-la-candelaria",
       "name": "Nuestra Señora de la Candelaria",
-      "countries": [
-        "CO"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-de-las-lajas",
       "name": "Nuestra Señora de Las Lajas",
-      "countries": [
-        "CO"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      }
     },
     {
       "id": "virgen-del-valle",
       "name": "Nuestra Señora del Valle",
-      "countries": [
-        "VE"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "VE"
+        ],
+        "specialDevotion": [
+          "VE"
+        ]
+      }
     },
     {
       "id": "virgen-de-chiquinquira-de-maracaibo",
       "name": "Nuestra Señora del Rosario de Chiquinquirá de Maracaibo",
-      "countries": [
-        "VE"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "VE"
+        ],
+        "specialDevotion": [
+          "VE"
+        ]
+      }
     },
     {
       "id": "virgen-del-cisne",
       "name": "Nuestra Señora de El Cisne",
-      "countries": [
-        "EC"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "EC"
+        ],
+        "specialDevotion": [
+          "EC"
+        ]
+      }
     },
     {
       "id": "virgen-de-andacollo",
       "name": "Nuestra Señora de Andacollo",
-      "countries": [
-        "CL"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CL"
+        ],
+        "specialDevotion": [
+          "CL"
+        ]
+      }
     },
     {
       "id": "nuestra-senora-de-covadonga",
       "name": "Nuestra Señora de Covadonga",
-      "countries": [
-        "ES"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      }
     },
     {
       "id": "virgen-de-montserrat",
       "name": "Nuestra Señora de Montserrat",
-      "countries": [
-        "ES"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      }
     },
     {
       "id": "virgen-del-rocio",
       "name": "Nuestra Señora del Rocío",
-      "countries": [
-        "ES"
-      ],
       "status": "pending",
       "category": "maria",
       "sourceFile": null,
-      "priority": "media"
+      "priority": "media",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      }
     }
   ]
 }
