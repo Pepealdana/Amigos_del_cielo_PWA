@@ -129,10 +129,10 @@
     {
       "id": "virgen-de-suyapa",
       "name": "Nuestra Señora de Suyapa",
-      "status": "pending",
+      "status": "published",
       "category": "maria",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/virgen-de-suyapa.json",
+      "priority": "existente",
       "territorial": {
         "origin": [],
         "historicalLinks": [
