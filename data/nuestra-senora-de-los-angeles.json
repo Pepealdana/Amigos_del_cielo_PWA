@@ -1,0 +1,288 @@
+{
+  "id": "nuestra-senora-de-los-angeles",
+  "name": "Nuestra Señora de los Ángeles",
+  "title": "Nuestra Señora de los Ángeles",
+  "subtitle": "Patrona de Costa Rica y consuelo de su pueblo",
+  "image": null,
+  "feast": {
+    "text": "2 de agosto",
+    "movable": false
+  },
+  "liturgicalRank": "Solemnidad",
+  "quote": null,
+  "patronages": [
+    "Costa Rica",
+    "Peregrinos",
+    "Familias y personas necesitadas"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Confianza",
+    "Unidad",
+    "Caridad",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Nuestra Señora de los Ángeles, conocida afectuosamente como «La Negrita», es la principal advocación mariana de Costa Rica y se venera en su basílica de Cartago.",
+    "extended": "La devoción a Nuestra Señora de los Ángeles está vinculada a la imagen venerada en Cartago, conocida afectuosamente como «La Negrita». Según la tradición recogida por la Iglesia, la imagen fue encontrada sobre una peña en 1635 por una joven mestiza. La devoción se consolidó alrededor del santuario de Cartago, que se convirtió en un importante lugar de peregrinación. San Juan Pablo II señaló en 1992 que miles de peregrinos acudían al santuario, especialmente el 2 de agosto, fiesta de la Patrona de Costa Rica. La Santa Sede ha reconocido reiteradamente a Nuestra Señora de los Ángeles como Patrona de Costa Rica y ha destacado la importancia de esta devoción para la vida cristiana del pueblo costarricense. La coronación canónica de la imagen tuvo lugar en 1926."
+  },
+  "openingPrayer": "Nuestra Señora de los Ángeles, Patrona de Costa Rica, acompáñanos en esta novena. Llévanos siempre hacia Jesucristo y enséñanos a confiar en Dios con fe, esperanza y caridad. Amén.",
+  "closingPrayer": "Nuestra Señora de los Ángeles, Madre y Patrona de Costa Rica, intercede por nosotros y condúcenos siempre hacia Jesucristo. Amén.",
+  "intentions": [
+    "Por Costa Rica y todos sus habitantes.",
+    "Por las familias y comunidades.",
+    "Por los peregrinos que acuden al santuario de Cartago.",
+    "Por los enfermos, pobres, jóvenes y personas necesitadas.",
+    "Por la Iglesia y la evangelización de Costa Rica."
+  ],
+  "bibleReferences": [
+    "Lc 1,28",
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Fe",
+      "reflection": "¿En qué aspecto de mi vida necesito renovar mi confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Costa Rica y todos sus habitantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Esperanza",
+      "title": "Mantener la esperanza",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito poner hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades y necesitan esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Familia",
+      "title": "Cuidar a quienes Dios nos confía",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Cómo puedo estar más presente para mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Unidad",
+      "title": "Construir fraternidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para favorecer la unidad y la paz?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las familias y comunidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "Acercarnos a quien sufre",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona necesitada puedo acompañar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Confianza",
+      "title": "Caminar con María hacia Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación necesito entregar con mayor confianza a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven preocupaciones o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "Permanecer firmes en la fe",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué compromiso cristiano necesito perseverar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los peregrinos y quienes buscan renovar su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Servicio",
+      "title": "Poner la fe en obras",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué servicio concreto puedo realizar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a los demás y por las necesidades de Costa Rica."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Seguir caminando con Jesucristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora de los Ángeles reúne a generaciones de fieles alrededor de su santuario de Cartago y de la celebración del 2 de agosto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Jesucristo y nos enseña a vivir la fe con esperanza, confianza, caridad y perseverancia."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero conservar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Costa Rica, su Iglesia y todos sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de los Ángeles, acompáñanos y llévanos siempre hacia Jesucristo. Ayúdanos a vivir con fe, esperanza y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de los Ángeles, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Ángelus, 2 de agosto de 1992.",
+    "San Pablo VI, Discurso a los fieles de Costa Rica, 2 de agosto de 1976.",
+    "San Juan Pablo II, Santa Misa en Costa Rica, 3 de marzo de 1983.",
+    "San Juan Pablo II, A los obispos de Costa Rica en visita ad limina, 21 de abril de 1989.",
+    "San Juan XXIII, Discurso al Presidente de Costa Rica, 18 de marzo de 1962.",
+    "Benedicto XVI, Discurso al Embajador de Costa Rica ante la Santa Sede, 3 de diciembre de 2010."
+  ]
+}
