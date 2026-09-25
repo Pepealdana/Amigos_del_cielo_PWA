@@ -1,0 +1,345 @@
+{
+  "id": "santa-carmen-rendiles-martinez",
+  "name": "Santa Carmen Rendiles Martínez",
+  "title": "Santa Carmen Rendiles Martínez",
+  "subtitle": "Religiosa venezolana, fundadora de las Siervas de Jesús y servidora de la Eucaristía y de los sacerdotes",
+  "image": null,
+  "feast": {
+    "text": "9 de mayo",
+    "movable": false
+  },
+  "liturgicalRank": "Memoria",
+  "quote": {
+    "text": "«Es una pequeña astilla más de la Cruz de Cristo y la llevo con entusiasmo y alegría.»",
+    "reference": "Palabras de Santa Carmen Rendiles durante su convalecencia después del accidente automovilístico de 1974, recogidas en el librito oficial de la canonización de 2025 de la Santa Sede."
+  },
+  "patronages": [
+    "Venezuela",
+    "Siervas de Jesús",
+    "Vida consagrada",
+    "Sacerdotes",
+    "Personas que viven dificultades y limitaciones"
+  ],
+  "virtues": [
+    "Amor a la Eucaristía",
+    "Servicio",
+    "Fortaleza",
+    "Alegría",
+    "Perseverancia",
+    "Humildad",
+    "Caridad"
+  ],
+  "history": {
+    "short": "Santa Carmen Rendiles Martínez nació en Caracas en 1903. Ingresó en 1927 en las Siervas de Jesús del Santísimo Sacramento y vivió profundamente su carisma eucarístico y de servicio a los sacerdotes. Cuando las religiosas de Venezuela y Colombia decidieron permanecer como congregación religiosa, participó en la creación de las Siervas de Jesús, de las que fue superiora general. La congregación creció en parroquias y seminarios, catequesis, educación, atención a los más necesitados y elaboración de ornamentos para el servicio sacerdotal. Tras un accidente en 1974, continuó trabajando y visitando las casas de la congregación pese a sus limitaciones físicas. Murió en Caracas el 9 de mayo de 1977 y fue canonizada por el papa León XIV el 19 de octubre de 2025.",
+    "extended": "María Carmen Rendiles Martínez nació el 11 de agosto de 1903 en Caracas, Venezuela. Después de la muerte de su padre y de un hermano menor, ayudó a su madre en el cuidado de los hijos más pequeños. Desde su nacimiento vivió con la ausencia del brazo izquierdo y, pese a algunos rechazos iniciales, perseveró en su deseo de consagrarse a Dios. En 1927 ingresó en la Congregación de las Siervas de Jesús del Santísimo Sacramento, fundada en Francia, y asumió profundamente su carisma de amor a la Eucaristía y servicio a los sacerdotes. Cuando la congregación decidió transformarse en un instituto secular, las religiosas de Venezuela y Colombia pidieron conservar la vida religiosa y formar un nuevo instituto. Las Siervas de Jesús fueron reconocidas por la Sagrada Congregación de Religiosos en 1965 y posteriormente se convirtieron en instituto de derecho pontificio en 1985. Sor María Carmen ejerció como superiora general, primero provisionalmente y desde 1969 por elección. Bajo su conducción, el instituto creció y sus hermanas sirvieron en parroquias y seminarios, en la catequesis, la educación y la atención a personas necesitadas, además de preparar vestiduras y ornamentos para el servicio de los sacerdotes. En 1974 sufrió un accidente automovilístico. Durante su recuperación expresó que aquella prueba era una pequeña astilla más de la Cruz de Cristo y que la llevaba con entusiasmo y alegría. Continuó trabajando por sus hermanas, visitando las casas de la congregación y desplazándose con muletas y en silla de ruedas. Murió en Caracas el 9 de mayo de 1977. Fue beatificada por el papa Francisco el 16 de junio de 2018 y canonizada por el papa León XIV el 19 de octubre de 2025."
+  },
+  "openingPrayer": "Santa Carmen Rendiles, mujer de fe, amor eucarístico y servicio generoso, acompáñanos en esta novena. Enséñanos a perseverar en nuestra vocación, a servir con alegría y a reconocer a Cristo en las personas que necesitan nuestra ayuda. Amén.",
+  "closingPrayer": "Santa Carmen Rendiles, ruega por nosotros y ayúdanos a vivir con fe, fortaleza, alegría y caridad. Que, siguiendo a Cristo, sepamos servir a la Iglesia y a nuestros hermanos. Amén.",
+  "intentions": [
+    "Por las vocaciones a la vida sacerdotal y consagrada.",
+    "Por quienes sirven en parroquias, seminarios, escuelas y comunidades.",
+    "Por las personas que viven enfermedades, limitaciones o dificultades.",
+    "Por las familias y por quienes necesitan apoyo y acompañamiento.",
+    "Por Venezuela y por todos los pueblos que necesitan reconciliación, esperanza y paz."
+  ],
+  "bibleReferences": [
+    "Jn 6,35",
+    "Jn 13,34-35",
+    "1 Co 12,4-7",
+    "Mt 25,31-40",
+    "2 Co 12,9-10"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Vocación",
+      "title": "Responder a Dios con perseverancia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carmen deseó consagrarse a Dios y perseveró pese a las dificultades que encontró antes de ingresar en la vida religiosa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vocación se discierne y se vive con confianza, perseverancia y apertura a la voluntad de Dios."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué llamada de Dios necesito escuchar con mayor atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo su vocación y por quienes necesitan fortaleza para perseverar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, ayúdame a reconocer la voluntad de Dios y a perseverar con confianza en el camino que Él me muestre. Amén."
+      },
+      "action": "Dedica hoy unos minutos de silencio a presentar a Dios una decisión o inquietud vocacional.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Eucaristía",
+      "title": "Vivir centrados en Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Carmen asumió profundamente el carisma eucarístico de las Siervas de Jesús del Santísimo Sacramento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La Eucaristía no es solo una devoción aislada: orienta la vida cristiana hacia Cristo y hacia el servicio a los demás."
+      },
+      "virtue": "Amor a la Eucaristía",
+      "reflection": "¿Qué lugar ocupa Cristo en mis decisiones y en mi manera de servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes participan en la celebración eucarística y por quienes desean acercarse nuevamente a Cristo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, enséñame a buscar a Cristo con un corazón disponible y a llevar su amor a quienes encuentro. Amén."
+      },
+      "action": "Participa hoy en la Eucaristía si te es posible o dedica un tiempo especial de oración ante el Santísimo.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Servicio a los sacerdotes",
+      "title": "Servir a quienes sirven a la Iglesia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El servicio a los sacerdotes formó parte central del carisma que Carmen recibió y vivió, junto con sus hermanas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana también se expresa sosteniendo con oración, respeto y ayuda concreta a quienes tienen una misión pastoral."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo apoyar responsablemente a quienes sirven en mi parroquia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por el Papa, los obispos, sacerdotes, diáconos y seminaristas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, intercede por los sacerdotes y enséñame a colaborar con generosidad en la vida de la Iglesia. Amén."
+      },
+      "action": "Ora hoy de manera concreta por un sacerdote y, si corresponde, ofrece una ayuda sencilla a tu comunidad parroquial.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Fortaleza",
+      "title": "Vivir las limitaciones con fe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carmen vivió desde su nacimiento con la ausencia del brazo izquierdo y, después del accidente de 1974, continuó sirviendo pese a nuevas limitaciones físicas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fortaleza cristiana no consiste en negar las dificultades, sino en afrontarlas sin abandonar el amor, la esperanza y el servicio."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito afrontar hoy con mayor confianza en Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas con discapacidad, enfermedad o limitaciones físicas y por quienes las acompañan."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, acompaña a quienes atraviesan limitaciones y ayúdame a reconocer la dignidad y los dones de cada persona. Amén."
+      },
+      "action": "Ofrece hoy una ayuda concreta a alguien que atraviese una dificultad.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Alegría cristiana",
+      "title": "Llevar la cruz con esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante la convalecencia de su accidente, Carmen habló de su sufrimiento como una pequeña astilla de la Cruz de Cristo que llevaba con entusiasmo y alegría."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La alegría cristiana puede coexistir con el sufrimiento cuando la persona permanece unida a Cristo y confía en Dios."
+      },
+      "virtue": "Alegría",
+      "reflection": "¿Cómo reacciono cuando una dificultad altera mis planes?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven situaciones de dolor, duelo, enfermedad o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, ayúdame a vivir las pruebas con esperanza y a no perder la capacidad de agradecer y servir. Amén."
+      },
+      "action": "Ante una dificultad concreta de hoy, realiza conscientemente un acto de confianza en Dios.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Educación y catequesis",
+      "title": "Transmitir la fe con servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las Siervas de Jesús desarrollaron labores de catequesis, educación y servicio en parroquias y seminarios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Transmitir la fe requiere formación, testimonio, paciencia y disposición para acompañar a las personas en su camino."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué conocimiento o experiencia puedo poner al servicio de la formación de otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por catequistas, docentes, padres de familia y todos quienes acompañan la formación cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, intercede por quienes enseñan y acompañan a otros en la fe. Hazme también disponible para servir con lo que he recibido. Amén."
+      },
+      "action": "Comparte hoy con alguien una palabra de fe, esperanza o ánimo que pueda ayudarle.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Caridad",
+      "title": "Servir a quienes más lo necesitan",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El instituto que Carmen ayudó a consolidar atendía a personas necesitadas y desarrollaba obras de servicio en distintos ámbitos de la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana se hace concreta cuando reconocemos necesidades reales y respondemos con responsabilidad y cercanía."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de mi entorno puedo atender con mis capacidades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por personas pobres, solas, enfermas o necesitadas de acompañamiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, enséñame a servir sin indiferencia y a reconocer a Cristo en quienes necesitan de mí. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de misericordia o servicio sin buscar reconocimiento.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Vida comunitaria",
+      "title": "Construir una comunidad que sirve",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Como superiora general, Carmen acompañó el crecimiento de las Siervas de Jesús y sostuvo a sus hermanas en su misión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana se fortalece cuando cada persona aporta sus dones y aprende a trabajar por el bien de la comunidad."
+      },
+      "virtue": "Comunión",
+      "reflection": "¿Qué puedo hacer para mejorar la unidad y el servicio en mi familia, parroquia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las comunidades religiosas, parroquias, familias y grupos que buscan vivir unidos en el servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen, ayúdame a construir unidad, a escuchar a los demás y a poner mis dones al servicio del bien común. Amén."
+      },
+      "action": "Busca hoy una forma concreta de colaborar en lugar de dejar toda la responsabilidad en los demás.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Santidad",
+      "title": "Perseverar hasta el encuentro con Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Carmen terminó su vida terrena después de décadas de consagración, servicio, liderazgo y fidelidad al carisma recibido."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se construye en la fidelidad cotidiana: amar a Cristo, servir a los demás y perseverar en la propia vocación."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso concreto quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por la perseverancia de todos los cristianos en la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Carmen Rendiles, acompáñame para que mi fe se traduzca en amor, servicio y perseverancia. Ruega por nuestras necesidades y llévanos siempre hacia Cristo. Amén."
+      },
+      "action": "Elige una práctica de oración o servicio que puedas mantener durante las próximas semanas.",
+      "closing": "Santa Carmen Rendiles, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "interventions": [
+    {
+      "id": "vocaciones",
+      "label": "Vocaciones y vida consagrada",
+      "keywords": [
+        "vocación",
+        "vida consagrada",
+        "religiosa",
+        "sacerdotes",
+        "seminarios"
+      ]
+    },
+    {
+      "id": "eucaristia",
+      "label": "Eucaristía y oración",
+      "keywords": [
+        "Eucaristía",
+        "Santísimo Sacramento",
+        "oración",
+        "Cristo"
+      ]
+    },
+    {
+      "id": "discapacidad",
+      "label": "Discapacidad y limitaciones",
+      "keywords": [
+        "discapacidad",
+        "limitaciones",
+        "enfermedad",
+        "accidente"
+      ]
+    },
+    {
+      "id": "sacerdotes",
+      "label": "Servicio a los sacerdotes",
+      "keywords": [
+        "sacerdotes",
+        "parroquias",
+        "seminarios",
+        "Iglesia"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "pobres",
+        "necesitados",
+        "servicio"
+      ]
+    }
+  ],
+  "sources": [
+    "Santa Sede, Librito de la Celebración de la canonización, 19 de octubre de 2025.",
+    "Santa Sede, Promulgación de decretos del Dicasterio para las Causas de los Santos, 31 de marzo de 2025.",
+    "Santa Sede, celebración de la canonización de María Carmen Rendiles Martínez, 19 de octubre de 2025.",
+    "Vatican News, «Madre Carmen Rendiles la santa “valiente” de Venezuela», 1 de abril de 2025."
+  ]
+}
