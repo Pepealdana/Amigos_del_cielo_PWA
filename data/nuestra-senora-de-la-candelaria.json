@@ -1,0 +1,286 @@
+{
+  "id": "nuestra-senora-de-la-candelaria",
+  "name": "Nuestra Señora de la Candelaria",
+  "title": "Nuestra Señora de la Candelaria",
+  "subtitle": "Patrona de Cartagena de Indias y Madre de la luz",
+  "image": null,
+  "feast": {
+    "text": "2 de febrero",
+    "movable": false
+  },
+  "liturgicalRank": "Fiesta",
+  "quote": null,
+  "patronages": [
+    "Cartagena de Indias",
+    "Cartagena y la Costa Caribe colombiana",
+    "Familias y comunidades"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Luz",
+    "Evangelización",
+    "Unidad"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Candelaria es una antigua advocación mariana venerada en Cartagena de Indias, especialmente en el santuario del Cerro de La Popa.",
+    "extended": "La devoción a Nuestra Señora de la Candelaria tiene una presencia de varios siglos en Cartagena de Indias y está estrechamente vinculada al santuario del Cerro de La Popa. La tradición y la historia local conservan la memoria de la veneración de la imagen en este lugar desde los primeros siglos de la presencia cristiana en la ciudad. El santuario se convirtió en un importante centro de peregrinación y expresión de la fe mariana de Cartagena y de la Costa Caribe colombiana. Durante su visita apostólica a Colombia, el 6 de julio de 1986, san Juan Pablo II celebró una liturgia en Cartagena y coronó solemnemente la imagen de Nuestra Señora de la Candelaria venerada en La Popa. En su homilía describió el santuario como un signo de la fe de un pueblo y relacionó la devoción mariana con la evangelización, la unidad y la vida cristiana. La Santa Sede documentó posteriormente la coronación mediante la carta apostólica Quantum Beatissimam del 20 de agosto de 1986."
+  },
+  "openingPrayer": "Nuestra Señora de la Candelaria, Madre de la luz, acompáñanos en esta novena. Ayúdanos a recibir a Cristo con un corazón abierto y a llevar su luz a quienes viven en necesidad, soledad o dificultad. Amén.",
+  "closingPrayer": "Nuestra Señora de la Candelaria, Madre de Cristo y Madre nuestra, intercede por nosotros para que caminemos en la luz del Evangelio y sepamos servir a nuestros hermanos. Amén.",
+  "intentions": [
+    "Por Cartagena de Indias y Colombia.",
+    "Por las familias y comunidades de la Costa Caribe.",
+    "Por quienes viven en pobreza, soledad o dificultad.",
+    "Por la unidad de las familias y de la Iglesia.",
+    "Por quienes anuncian y sirven al Evangelio."
+  ],
+  "bibleReferences": [
+    "Lc 2,22-40",
+    "Jn 8,12",
+    "Mt 5,14-16",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Luz",
+      "title": "Acoger a Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Luz",
+      "reflection": "¿Qué espacio de mi vida necesita hoy la luz de Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven en oscuridad, angustia o desesperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Fe",
+      "title": "Confiar en Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación necesito poner hoy en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan pruebas de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Esperanza",
+      "title": "Caminar hacia adelante",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ayudar a recuperar la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que sufren y necesitan consuelo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Familia",
+      "title": "Construir unidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Familia",
+      "reflection": "¿Qué puedo hacer hoy para fortalecer la unidad de mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias de Cartagena y Colombia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "Servir al necesitado",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta de misericordia puedo realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres y quienes carecen de apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Evangelización",
+      "title": "Llevar la luz del Evangelio",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar testimonio de mi fe con mis acciones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia y quienes anuncian el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Unidad",
+      "title": "Vivir como hermanos",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué conflicto puedo ayudar a superar mediante el diálogo y el perdón?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de las comunidades cristianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Perseverancia",
+      "title": "Mantenerse fiel",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso espiritual necesito renovar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados o desanimados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Presentar la vida a Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La advocación de Nuestra Señora de la Candelaria tiene una antigua presencia en Cartagena de Indias y está vinculada al santuario del Cerro de La Popa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos conduce hacia Cristo, luz del mundo, y nos invita a vivir una fe que se expresa en la caridad, la unidad y el servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué quiero poner definitivamente bajo la protección de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Cartagena, Colombia y todos los peregrinos que acuden a María."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora de la Candelaria, acompáñanos y ayúdanos a caminar en la luz de Cristo. Amén."
+      },
+      "action": "Realiza hoy una obra concreta de oración, reconciliación o servicio.",
+      "closing": "Nuestra Señora de la Candelaria, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-25"
+  },
+  "sources": [
+    "San Juan Pablo II, Homilía durante la coronación de la imagen de Nuestra Señora de la Candelaria, Cartagena de Indias, 6 de julio de 1986.",
+    "San Juan Pablo II, carta apostólica Quantum Beatissimam, 20 de agosto de 1986.",
+    "Santa Sede, Viaje apostólico a Colombia, 1986."
+  ]
+}
