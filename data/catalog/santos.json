@@ -637,10 +637,10 @@
     {
       "id": "san-jose-gabriel-del-rosario-brochero",
       "name": "San José Gabriel del Rosario Brochero",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
-      "sourceFile": null,
-      "priority": "alta",
+      "sourceFile": "data/san-jose-gabriel-del-rosario-brochero.json",
+      "priority": "existente",
       "territorial": {
         "origin": [
           "AR"
