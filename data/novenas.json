@@ -5685,5 +5685,43 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-clara-de-asis",
+    "slug": "santa-clara-de-asis",
+    "name": "Santa Clara de Asís",
+    "title": "Virgen, fundadora de las Hermanas Pobres y discípula de san Francisco",
+    "subtitle": "Pobreza evangélica, contemplación y fidelidad a Cristo",
+    "category": "Santos",
+    "image": "assets/images/santos/santa_clara_de_asis.webp",
+    "file": "data/santa-clara-de-asis.json",
+    "description": "Joven de Asís que siguió a Cristo según la forma de vida de san Francisco y fundó las Hermanas Pobres, conocidas como Clarisas. Vivió en San Damián una vida contemplativa marcada por la pobreza, la oración y la fraternidad.",
+    "feast": {
+      "day": 11,
+      "month": 8,
+      "text": "11 de agosto",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "search": [
+      "santa clara de asis",
+      "santa clara de asís",
+      "clara de asis",
+      "clara de asís",
+      "clarisas",
+      "hermanas pobres",
+      "san damian",
+      "san damián",
+      "franciscanas",
+      "franciscana",
+      "pobreza",
+      "contemplacion",
+      "contemplación",
+      "porciuncula",
+      "porciúncula",
+      "ines de praga"
+    ],
+    "interventions": []
   }
 ]
