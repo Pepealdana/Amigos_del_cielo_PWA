@@ -1,5 +1,5 @@
 {
-  "version": "3.0",
+  "version": "3.1",
   "category": "santos",
   "description": "Catálogo maestro de santos canonizados. Los registros pending son candidatos de alta prioridad para incorporación.",
   "items": [
@@ -1278,6 +1278,29 @@
         "historicalLinks": [],
         "specialDevotion": []
       }
+    },
+    {
+      "id": "santo-domingo-savio",
+      "name": "Santo Domingo Savio",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santo-domingo-savio.json",
+      "priority": "nueva incorporación",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "jovenes",
+        "devocion-extendida"
+      ]
     }
   ]
 }
