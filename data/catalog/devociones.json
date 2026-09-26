@@ -10,13 +10,14 @@
       "status": "published",
       "sourceFile": "data/san-expedito.json",
       "territorial": {
-        "origin": [
+        "origin": [],
+        "historicalLinks": [
           "IT"
         ],
-        "historicalLinks": [],
         "specialDevotion": [
           "AR"
-        ]
+        ],
+        "note": "No se asigna Italia como origen. El vínculo con Italia corresponde a la historia documentada del culto; Argentina conserva una devoción especialmente arraigada y varios santuarios."
       }
     },
     {
