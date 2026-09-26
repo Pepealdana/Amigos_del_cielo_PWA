@@ -102,6 +102,31 @@
       "id": "VE",
       "name": "Venezuela",
       "bandera": "🇻🇪"
+    },
+    {
+      "id": "DE",
+      "name": "Alemania",
+      "bandera": "🇩🇪"
+    },
+    {
+      "id": "FR",
+      "name": "Francia",
+      "bandera": "🇫🇷"
+    },
+    {
+      "id": "IT",
+      "name": "Italia",
+      "bandera": "🇮🇹"
+    },
+    {
+      "id": "PL",
+      "name": "Polonia",
+      "bandera": "🇵🇱"
+    },
+    {
+      "id": "PT",
+      "name": "Portugal",
+      "bandera": "🇵🇹"
     }
   ]
 }
