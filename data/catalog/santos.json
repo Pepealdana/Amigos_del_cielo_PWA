@@ -1202,16 +1202,18 @@
     {
       "id": "santa-marta-de-betania",
       "name": "Santa Marta de Betania",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santa-marta-de-betania.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida"
       ],
       "territorial": {
         "origin": [],
-        "historicalLinks": [],
+        "historicalLinks": [
+          "IL"
+        ],
         "specialDevotion": []
       }
     },
