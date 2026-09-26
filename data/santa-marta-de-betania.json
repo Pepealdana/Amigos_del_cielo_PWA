@@ -1,0 +1,429 @@
+{
+  "id": "santa-marta-de-betania",
+  "name": "Santa Marta de Betania",
+  "title": "Amiga y discípula de Jesús en Betania",
+  "feast": {
+    "day": 29,
+    "month": 7,
+    "text": "29 de julio",
+    "movable": false,
+    "liturgicalRank": "Memoria obligatoria"
+  },
+  "image": "assets/images/santos/santa_marta_de_betania.webp",
+  "patronages": [
+    "Hospitalidad",
+    "Familias y hogares",
+    "Personas que sirven a los demás"
+  ],
+  "virtues": [
+    "Hospitalidad",
+    "Servicio",
+    "Fe",
+    "Confianza en Cristo",
+    "Caridad",
+    "Escucha"
+  ],
+  "history": {
+    "short": "Santa Marta vivió en Betania junto con su hermana María y su hermano Lázaro, y los Evangelios presentan a los tres como amigos de Jesús. Marta aparece especialmente como mujer de hospitalidad y servicio. En el relato de la muerte de Lázaro realiza una profesión de fe en Jesús como el Cristo y el Hijo de Dios. La Iglesia celebra actualmente a Marta, María y Lázaro juntos el 29 de julio.",
+    "extended": "Marta aparece en los Evangelios como hermana de María y Lázaro y habitante de Betania, cerca de Jerusalén. La casa de los tres hermanos fue un lugar donde Jesús era recibido con amistad y hospitalidad.\n\nEn el Evangelio según san Lucas, Marta recibe a Jesús en su casa y se ocupa de servir, mientras María escucha las palabras del Señor. Jesús no desprecia el servicio de Marta; la invita a no dejar que la preocupación y la agitación desplacen lo esencial: permanecer atentos a su palabra.\n\nEn el Evangelio según san Juan, cuando Lázaro muere, Marta sale al encuentro de Jesús. Ante la promesa de la resurrección, ella expresa su fe en Cristo y reconoce en él al Hijo de Dios. Este episodio muestra que su servicio y su vida cotidiana estaban unidos a una relación personal con Jesús.\n\nLa tradición cristiana posterior desarrolló numerosos relatos sobre la vida de Marta después de los acontecimientos narrados en los Evangelios. Estos relatos pertenecen a la tradición y no deben presentarse con el mismo grado de certeza histórica que los textos bíblicos.\n\nDesde 2021, el Calendario Romano General celebra conjuntamente a los santos Marta, María y Lázaro el 29 de julio. El decreto de la Santa Sede destaca su testimonio de hospitalidad, escucha y fe en Jesús, la resurrección y la vida."
+  },
+  "quote": {
+    "text": "Señor, si hubieras estado aquí, mi hermano no habría muerto.",
+    "reference": "Juan 11,21; palabras de Marta a Jesús."
+  },
+  "groups": [
+    "devocion-extendida"
+  ],
+  "territorial": {
+    "origin": [],
+    "historicalLinks": [
+      "IL"
+    ],
+    "specialDevotion": []
+  },
+  "search": [
+    "santa marta",
+    "marta de betania",
+    "marta betania",
+    "betania",
+    "maria y lazaro",
+    "marta maria lazaro",
+    "hospitalidad",
+    "servicio",
+    "familia",
+    "hogar",
+    "amiga de jesus",
+    "amigos de jesus",
+    "evangelio de juan",
+    "evangelio de lucas"
+  ],
+  "interventions": [
+    {
+      "id": "hospitalidad",
+      "label": "Hospitalidad y acogida",
+      "keywords": [
+        "hospitalidad",
+        "acogida",
+        "recibir",
+        "casa",
+        "hogar",
+        "bienvenida"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio y trabajo",
+      "keywords": [
+        "servicio",
+        "servir",
+        "trabajo",
+        "tareas",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y vínculos",
+      "keywords": [
+        "familia",
+        "hermanos",
+        "hermana",
+        "hogar",
+        "lazaro",
+        "lázaro",
+        "maria",
+        "maría"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe en Cristo",
+      "keywords": [
+        "fe",
+        "jesus",
+        "jesús",
+        "cristo",
+        "resurreccion",
+        "resurrección",
+        "creer"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermedad y sufrimiento",
+      "keywords": [
+        "enfermedad",
+        "enfermo",
+        "enfermos",
+        "sufrimiento",
+        "dolor",
+        "muerte",
+        "duelo"
+      ]
+    },
+    {
+      "id": "escucha",
+      "label": "Escucha de la Palabra",
+      "keywords": [
+        "escucha",
+        "palabra",
+        "evangelio",
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad cotidiana",
+      "keywords": [
+        "caridad",
+        "amor",
+        "ayuda",
+        "servir",
+        "necesitado"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Paz en el hogar",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "reconciliación",
+        "conflicto",
+        "familia",
+        "hogar"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Marta, amiga de Jesús y mujer de servicio, enséñanos a recibir al Señor con un corazón dispuesto, a servir sin perder de vista su presencia y a confiar en él cuando atravesamos dificultades. Presentamos ante Dios nuestras intenciones y pedimos aprender de tu fe. Amén.",
+  "closingPrayer": "Santa Marta, ruega por nuestras familias, hogares y comunidades. Ayúdanos a servir con amor, a escuchar la palabra de Cristo y a confiar en él en medio de la enfermedad, el duelo y las preocupaciones. Junto con santa María y san Lázaro, intercede por nosotros para que nuestra amistad con Jesús transforme nuestra manera de vivir. Amén.",
+  "intentions": [
+    "Por nuestras familias y hogares.",
+    "Por quienes cuidan a personas enfermas o dependientes.",
+    "Por quienes viven un duelo o atraviesan una enfermedad.",
+    "Por quienes sirven en silencio y necesitan fortaleza.",
+    "Por quienes tienen responsabilidades familiares difíciles.",
+    "Por quienes buscan reconciliación en su hogar.",
+    "Por quienes necesitan crecer en la fe y confianza en Cristo.",
+    "Por quienes se sienten agobiados por muchas responsabilidades.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Lucas 10,38-42",
+      "Juan 11,17-27",
+      "Juan 11,28-44",
+      "Juan 12,1-8",
+      "1 Juan 4,7-16"
+    ],
+    "related": [
+      "Santa María de Betania",
+      "San Lázaro de Betania",
+      "Betania",
+      "Evangelio según san Lucas",
+      "Evangelio según san Juan"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Decreto sobre la celebración de los santos Marta, María y Lázaro en el Calendario Romano General",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20210126_decreto-santi_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Santos Marta, María y Lázaro",
+      "organization": "Conferencia de Obispos Católicos de Estados Unidos",
+      "url": "https://www.usccb.org/es/prayer-and-worship/liturgical-year-and-calendar/saints-martha-mary-and-lazarus",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Hospitalidad",
+      "title": "Abrir las puertas a Jesús",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Betania fue un lugar de amistad para Jesús. Marta aparece en los Evangelios recibiéndolo en su casa y ocupándose de servir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La hospitalidad cristiana comienza reconociendo al otro como alguien digno de atención, cuidado y acogida."
+      },
+      "virtue": "Hospitalidad",
+      "reflection": "¿Cómo puedo hacer que las personas que llegan a mi hogar se sientan verdaderamente acogidas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y hogares que necesitan recuperar la alegría de recibir y acompañar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, enséñanos a abrir nuestro corazón y nuestro hogar con generosidad. Amén."
+      },
+      "action": "Acoge hoy con atención a una persona que encuentres, evitando las distracciones mientras la escuchas."
+    },
+    {
+      "day": 2,
+      "theme": "Servicio",
+      "title": "Servir con amor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Marta aparece ocupada en el servicio de la casa. Su deseo de atender a Jesús muestra una disposición concreta a servir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio tiene valor cuando nace del amor. Pero también necesitamos evitar que las responsabilidades nos hagan perder la paz o nos lleven a juzgar a los demás."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Sirvo con amor o permito que mis responsabilidades se conviertan en motivo de irritación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes cuidan niños, enfermos, ancianos y hogares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, ayúdanos a servir con generosidad y a conservar la paz interior. Amén."
+      },
+      "action": "Haz hoy una tarea de servicio sin esperar reconocimiento."
+    },
+    {
+      "day": 3,
+      "theme": "Escucha",
+      "title": "No perder lo esencial",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El Evangelio de Lucas contrapone la actividad de Marta con la actitud de escucha de María. Jesús invita a mirar más allá de la preocupación inmediata."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Servir y escuchar no son caminos opuestos. La vida cristiana necesita acción y también momentos para recibir la palabra de Dios."
+      },
+      "virtue": "Escucha",
+      "reflection": "¿Qué actividad ocupa tanto espacio en mi vida que me cuesta detenerme para escuchar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven con exceso de preocupaciones y necesitan recuperar espacios de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, ayúdanos a servir sin olvidar la presencia de Jesús y a escuchar su palabra con atención. Amén."
+      },
+      "action": "Lee lentamente un pasaje del Evangelio y permanece unos minutos en silencio."
+    },
+    {
+      "day": 4,
+      "theme": "Fe",
+      "title": "Creer en medio de la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cuando Lázaro muere, Marta sale al encuentro de Jesús. En esa situación dolorosa proclama su confianza en él."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no significa negar el dolor. Marta habla con Jesús desde una situación concreta de pérdida y, aun así, permanece abierta a confiar en él."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué situación dolorosa necesito presentar a Jesús con sinceridad y confianza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedad, duelo o situaciones que parecen sin salida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, acompaña a quienes sufren y enséñanos a confiar en Cristo incluso cuando no entendemos lo que ocurre. Amén."
+      },
+      "action": "Presenta hoy a Jesús, con tus propias palabras, la preocupación que más te pesa."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Cuidar los vínculos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Marta, María y Lázaro aparecen juntos como hermanos y amigos de Jesús. Su casa representa un espacio de relación y encuentro."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida familiar necesita presencia, paciencia y capacidad de pedir perdón. La fe también se transmite en la manera de tratarnos."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué vínculo familiar necesita hoy más atención de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por hermanos, padres, hijos, matrimonios y familiares que necesitan reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, ruega por nuestras familias y ayúdanos a construir hogares donde haya respeto, servicio y perdón. Amén."
+      },
+      "action": "Comunícate hoy con un familiar al que hayas tenido poco tiempo para escuchar."
+    },
+    {
+      "day": 6,
+      "theme": "Confianza",
+      "title": "Presentar a Dios nuestras preocupaciones",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Marta expresa a Jesús aquello que le preocupa. Su relación con él permite que presente con sinceridad sus sentimientos y necesidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no exige ocultar nuestras preocupaciones. Podemos presentarlas ante Dios con honestidad y dejar que él transforme nuestra mirada."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué preocupación necesito entregar hoy a Dios en lugar de cargarla completamente solo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven ansiedad, cansancio o responsabilidades que parecen superar sus fuerzas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, enséñanos a llevar nuestras preocupaciones a Jesús y a confiar en su amor. Amén."
+      },
+      "action": "Haz una pausa de cinco minutos y entrega conscientemente a Dios una preocupación concreta."
+    },
+    {
+      "day": 7,
+      "theme": "Servicio y oración",
+      "title": "Unir contemplación y acción",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La figura de Marta recuerda que la vida cristiana incluye servicio concreto. El Evangelio también muestra la necesidad de escuchar al Señor."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No se trata de escoger entre actuar o contemplar. Necesitamos una vida en la que la oración ilumine el servicio y el servicio haga visible el amor recibido."
+      },
+      "virtue": "Equilibrio",
+      "reflection": "¿Cómo puedo organizar mejor mi tiempo para que la oración y el servicio se apoyen mutuamente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven en parroquias, comunidades, familias y obras de caridad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, ayúdanos a unir la oración con el servicio y a poner nuestras capacidades al servicio del amor. Amén."
+      },
+      "action": "Realiza hoy un servicio concreto después de dedicar un momento previo a la oración."
+    },
+    {
+      "day": 8,
+      "theme": "Esperanza",
+      "title": "Creer que Cristo es la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Ante la muerte de Lázaro, Marta escucha de Jesús una enseñanza sobre la resurrección y responde con una profesión de fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana nace de Cristo. No elimina el duelo, pero permite atravesarlo confiando en que la muerte no tiene la última palabra."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Dónde necesito recuperar la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven un duelo y por quienes necesitan esperanza ante una situación difícil."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, fortalece nuestra esperanza y ayúdanos a confiar en Jesús, que es la resurrección y la vida. Amén."
+      },
+      "action": "Reza por una persona fallecida y por quienes la recuerdan con dolor."
+    },
+    {
+      "day": 9,
+      "theme": "Amistad con Jesús",
+      "title": "Vivir como amigo de Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Santa Sede destaca la amistad de Jesús con Marta, María y Lázaro. Su casa fue un lugar de acogida y encuentro."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad cotidiana puede crecer en la amistad con Cristo: escuchar su palabra, confiar en él y convertir esa relación en servicio y caridad."
+      },
+      "virtue": "Amistad con Cristo",
+      "reflection": "¿Qué práctica concreta quiero mantener para crecer en mi amistad con Jesús?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Marta, junto con santa María y san Lázaro, ruega para que nuestra amistad con Jesús crezca y transforme nuestra vida. Amén."
+      },
+      "action": "Elige una práctica sencilla de oración, servicio o escucha del Evangelio para mantener después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
