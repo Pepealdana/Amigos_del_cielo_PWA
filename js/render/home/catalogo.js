@@ -146,8 +146,6 @@ function renderCatalogoV2(
 
             ${renderBusquedaCatalogo(state.busquedaCatalogo || "")}
 
-            ${datos.permitePais ? renderFiltrosPais(filtroPais, datos.catalogo) : ""}
-
             ${renderFiltrosGrupoCatalogo(gruposDisponibles, filtroGrupo)}
 
             <div class="catalog-summary">
@@ -178,8 +176,80 @@ function renderCatalogoV2(
     `;
 }
 
-function renderFiltrosPais(paisSeleccionado, catalogo = []) {
-    const todosLosPaises = state.catalogosV2.paises || [];
+
+function renderFiltrosPais() {
+    // El filtro territorial se integra en el panel único de filtros.
+    return "";
+}
+
+function renderFiltrosGrupoCatalogo(grupos = [], grupoActivo = "ALL") {
+    const paisActivo = state.paisCatalogo || "ALL";
+    const filtrosActivos = [];
+
+    if (paisActivo !== "ALL") {
+        const pais = obtenerNombrePaisCatalogo(paisActivo);
+
+        if (pais) {
+            filtrosActivos.push(
+                '<button class="catalog-active-filter" type="button" ' +
+                'data-filter-remove="country" ' +
+                'aria-label="Quitar filtro de país ' + escaparHTML(pais) + '">' +
+                '<span>País: ' + escaparHTML(pais) + '</span>' +
+                '<span aria-hidden="true">×</span>' +
+                '</button>'
+            );
+        }
+    }
+
+    if (grupoActivo !== "ALL") {
+        const grupo = grupos.find(item => item.id === grupoActivo);
+
+        if (grupo) {
+            filtrosActivos.push(
+                '<button class="catalog-active-filter" type="button" ' +
+                'data-filter-remove="group" ' +
+                'aria-label="Quitar filtro ' + escaparHTML(grupo.label) + '">' +
+                '<span>' + escaparHTML(grupo.label) + '</span>' +
+                '<span aria-hidden="true">×</span>' +
+                '</button>'
+            );
+        }
+    }
+
+    const totalActivos = filtrosActivos.length;
+
+    return (
+        '<section class="catalog-filter-area" aria-label="Filtros del catálogo">' +
+            '<div class="catalog-filter-toolbar">' +
+                '<button class="catalog-filter-trigger" type="button" ' +
+                    'data-catalog-filter-open aria-haspopup="dialog" ' +
+                    'aria-controls="catalog-filter-sheet">' +
+                    '<span aria-hidden="true">☷</span>' +
+                    '<span>Filtros</span>' +
+                    (totalActivos
+                        ? '<span class="catalog-filter-count">' + totalActivos + '</span>'
+                        : '') +
+                '</button>' +
+                (totalActivos
+                    ? '<button class="catalog-clear-filters" type="button" ' +
+                      'data-catalog-filter-clear>Limpiar</button>'
+                    : '') +
+            '</div>' +
+            (totalActivos
+                ? '<div class="catalog-active-filters" aria-label="Filtros activos">' +
+                    filtrosActivos.join('') +
+                  '</div>'
+                : '') +
+        '</section>'
+    );
+}
+
+function obtenerNombrePaisCatalogo(codigo) {
+    return (state.catalogosV2.paises || [])
+        .find(item => item.id === codigo)?.name || "";
+}
+
+function obtenerPaisesDisponiblesCatalogo(catalogo = []) {
     const codigosConContenido = new Set();
 
     for (const item of catalogo) {
@@ -192,50 +262,197 @@ function renderFiltrosPais(paisSeleccionado, catalogo = []) {
         ].forEach(codigo => codigosConContenido.add(codigo));
     }
 
-    const paises = todosLosPaises.filter(
-        pais => codigosConContenido.has(pais.id)
+    return (state.catalogosV2?.paises || [])
+        .filter(pais => codigosConContenido.has(pais.id))
+        .sort((a, b) => a.name.localeCompare(b.name, "es"));
+}
+
+function obtenerCatalogoParaFiltrosCatalogo(seccion) {
+    const configuracion = {
+        santos: state.catalogosV2?.santos || [],
+        maria: state.catalogosV2?.maria || [],
+        novenas: obtenerCatalogoNovenasUnificado(),
+        devociones: (state.catalogosV2?.devociones || [])
+            .filter(item => (item.category || "devociones") === "devociones"),
+        todos: obtenerCatalogoMaestroUnificado()
+    };
+
+    return configuracion[seccion] || [];
+}
+
+function contarResultadosFiltroCatalogo(
+    seccion,
+    pais,
+    grupo
+) {
+    const catalogo = obtenerCatalogoParaFiltrosCatalogo(seccion);
+    const termino = String(state.busquedaCatalogo || "")
+        .trim()
+        .toLocaleLowerCase("es");
+
+    return catalogo.filter(item => {
+        const territorial = item.territorial || {};
+        const relaciones = [
+            ...(territorial.origin || []),
+            ...(territorial.historicalLinks || []),
+            ...(territorial.specialDevotion || [])
+        ];
+
+        const coincidePais =
+            pais === "ALL" ||
+            relaciones.includes(pais);
+
+        const gruposItem = obtenerGruposItemCatalogo(item);
+        const coincideGrupo =
+            grupo === "ALL" ||
+            gruposItem.includes(grupo);
+
+        const textoItem = [
+            item.name,
+            item.title,
+            item.description,
+            ...(item.tags || []),
+            ...(item.searchTerms || [])
+        ]
+            .filter(Boolean)
+            .join(" ")
+            .toLocaleLowerCase("es");
+
+        return coincidePais &&
+            coincideGrupo &&
+            (!termino || textoItem.includes(termino)) &&
+            item.status === "published";
+    }).length;
+}
+
+function renderPanelFiltrosCatalogo(
+    seccion,
+    catalogo,
+    permitePais,
+    paisActivo,
+    grupos,
+    grupoActivo
+) {
+    const paises = obtenerPaisesDisponiblesCatalogo(catalogo);
+    const resultados = contarResultadosFiltroCatalogo(
+        seccion,
+        paisActivo,
+        grupoActivo
     );
 
-    const paisActivo =
-        paisSeleccionado === "ALL" ||
-        paises.some(pais => pais.id === paisSeleccionado)
-            ? paisSeleccionado
-            : "ALL";
+    return (
+        '<div class="catalog-filter-backdrop" data-catalog-filter-close aria-hidden="true"></div>' +
+        '<aside class="catalog-filter-sheet" id="catalog-filter-sheet" ' +
+            'role="dialog" aria-modal="true" aria-labelledby="catalog-filter-title">' +
 
-    return `
-        <div class="catalog-country-filter">
-            <div class="catalog-country-label">
-                <span>Explorar vínculos por país</span>
-                <small>${paisActivo === "ALL"
-                    ? "Todo el catálogo"
-                    : escaparHTML(
-                        paises.find(p => p.id === paisActivo)?.name ||
-                        "País seleccionado"
-                    )}</small>
-            </div>
-            <p class="catalog-country-note">El país indica un vínculo histórico, de origen o de devoción; no limita la devoción a ese país.</p>
+            '<header class="catalog-filter-sheet-head">' +
+                '<div>' +
+                    '<span class="catalog-filter-sheet-kicker">Refinar</span>' +
+                    '<h2 id="catalog-filter-title">Filtrar contenido</h2>' +
+                    '<p>Elige un país o un tema sin recorrer listas horizontales.</p>' +
+                '</div>' +
+                '<button class="catalog-filter-sheet-close" type="button" ' +
+                    'data-catalog-filter-close aria-label="Cerrar filtros">×</button>' +
+            '</header>' +
 
-            <div class="catalog-country-nav" role="group" aria-label="Filtrar por país">
-                <button
-                    class="catalog-country-chip ${paisActivo === "ALL" ? "active" : ""}"
-                    type="button"
-                    data-country-filter="ALL">
-                    Todos
-                </button>
+            '<div class="catalog-filter-sheet-body">' +
 
-                ${paises.map(pais => `
-                    <button
-                        class="catalog-country-chip ${pais.id === paisActivo ? "active" : ""}"
-                        type="button"
-                        data-country-filter="${escaparHTML(pais.id)}"
-                        title="${escaparHTML(pais.name)}">
-                        <span aria-hidden="true">${pais.bandera}</span>
-                        ${escaparHTML(pais.name)}
-                    </button>
-                `).join("")}
-            </div>
-        </div>
-    `;
+                (permitePais
+                    ? '<section class="catalog-filter-section">' +
+                        '<div class="catalog-filter-section-head">' +
+                            '<div><h3>País</h3><small data-filter-country-summary>' +
+                                escaparHTML(
+                                    paisActivo === "ALL"
+                                        ? "Todos los países"
+                                        : obtenerNombrePaisCatalogo(paisActivo)
+                                ) +
+                            '</small></div>' +
+                        '</div>' +
+
+                        '<label class="catalog-filter-search">' +
+                            '<span class="sr-only">Buscar país</span>' +
+                            '<span aria-hidden="true">⌕</span>' +
+                            '<input type="search" data-filter-country-search ' +
+                                'placeholder="Buscar país..." autocomplete="off" spellcheck="false">' +
+                        '</label>' +
+
+                        '<div class="catalog-filter-options">' +
+                            '<label class="catalog-filter-option" data-country-option="todos">' +
+                                '<input type="radio" name="catalog-filter-country" value="ALL" ' +
+                                    (paisActivo === "ALL" ? "checked" : "") + '>' +
+                                '<span class="catalog-filter-option-control" aria-hidden="true"></span>' +
+                                '<span class="catalog-filter-option-text">' +
+                                    '<strong>Todos</strong>' +
+                                    '<small>Todo el catálogo</small>' +
+                                '</span>' +
+                            '</label>' +
+
+                            paises.map(pais =>
+                                '<label class="catalog-filter-option" data-country-option="' +
+                                    escaparHTML(pais.name.toLocaleLowerCase("es")) + '">' +
+                                    '<input type="radio" name="catalog-filter-country" value="' +
+                                        escaparHTML(pais.id) + '" ' +
+                                        (pais.id === paisActivo ? "checked" : "") + '>' +
+                                    '<span class="catalog-filter-option-control" aria-hidden="true"></span>' +
+                                    '<span class="catalog-filter-option-text"><strong>' +
+                                        escaparHTML(pais.bandera || "") + " " +
+                                        escaparHTML(pais.name) +
+                                    '</strong></span>' +
+                                '</label>'
+                            ).join("") +
+                        '</div>' +
+                    '</section>'
+                    : "") +
+
+                (grupos.length
+                    ? '<section class="catalog-filter-section">' +
+                        '<div class="catalog-filter-section-head">' +
+                            '<div><h3>Tema</h3><small data-filter-group-summary>' +
+                                (grupoActivo === "ALL"
+                                    ? "Todos los temas"
+                                    : escaparHTML(
+                                        grupos.find(item => item.id === grupoActivo)?.label ||
+                                        "Tema seleccionado"
+                                    )) +
+                            '</small></div>' +
+                        '</div>' +
+
+                        '<div class="catalog-filter-options">' +
+                            '<label class="catalog-filter-option">' +
+                                '<input type="radio" name="catalog-filter-group" value="ALL" ' +
+                                    (grupoActivo === "ALL" ? "checked" : "") + '>' +
+                                '<span class="catalog-filter-option-control" aria-hidden="true"></span>' +
+                                '<span class="catalog-filter-option-text"><strong>Todos</strong></span>' +
+                            '</label>' +
+
+                            grupos.map(grupo =>
+                                '<label class="catalog-filter-option">' +
+                                    '<input type="radio" name="catalog-filter-group" value="' +
+                                        escaparHTML(grupo.id) + '" ' +
+                                        (grupo.id === grupoActivo ? "checked" : "") + '>' +
+                                    '<span class="catalog-filter-option-control" aria-hidden="true"></span>' +
+                                    '<span class="catalog-filter-option-text"><strong>' +
+                                        escaparHTML(grupo.label) +
+                                    '</strong></span>' +
+                                '</label>'
+                            ).join("") +
+                        '</div>' +
+                    '</section>'
+                    : "") +
+
+            '</div>' +
+
+            '<footer class="catalog-filter-sheet-foot">' +
+                '<span class="catalog-filter-results" data-filter-preview-results>' +
+                    resultados + (resultados === 1 ? " disponible" : " disponibles") +
+                '</span>' +
+                '<div class="catalog-filter-sheet-actions">' +
+                    '<button class="catalog-filter-reset" type="button" data-catalog-filter-reset>Limpiar</button>' +
+                    '<button class="catalog-filter-apply" type="button" data-catalog-filter-apply>Aplicar filtros</button>' +
+                '</div>' +
+            '</footer>' +
+        '</aside>'
+    );
 }
 
 function renderBusquedaCatalogo(valor = "") {
@@ -484,3 +701,283 @@ function normalizarCategoriaNovena(categoria = "") {
     if (valor.includes("santo")) return "santos";
     return categoria;
 }
+
+
+/* ==========================================
+   FILTROS UX — PANEL RESPONSIVO
+========================================== */
+
+let catalogFilterPreviousFocus = null;
+
+function obtenerSeccionCatalogoActual() {
+    return ["todos", "santos", "maria", "novenas", "devociones"]
+        .includes(router?.rutaActual)
+        ? router.rutaActual
+        : "todos";
+}
+
+function abrirPanelFiltrosCatalogo() {
+    if (document.getElementById("catalog-filter-sheet")) {
+        return;
+    }
+
+    const seccion = obtenerSeccionCatalogoActual();
+    const datos = {
+        santos: { catalogo: state.catalogosV2?.santos || [], permitePais: true },
+        maria: { catalogo: state.catalogosV2?.maria || [], permitePais: true },
+        novenas: { catalogo: obtenerCatalogoNovenasUnificado(), permitePais: false },
+        devociones: {
+            catalogo: (state.catalogosV2?.devociones || [])
+                .filter(item => (item.category || "devociones") === "devociones"),
+            permitePais: false
+        },
+        todos: { catalogo: obtenerCatalogoMaestroUnificado(), permitePais: true }
+    }[seccion] || {
+        catalogo: obtenerCatalogoMaestroUnificado(),
+        permitePais: true
+    };
+
+    catalogFilterPreviousFocus = document.activeElement;
+
+    document.body.insertAdjacentHTML(
+        "beforeend",
+        renderPanelFiltrosCatalogo(
+            seccion,
+            datos.catalogo,
+            datos.permitePais,
+            state.paisCatalogo || "ALL",
+            obtenerGruposCatalogo(datos.catalogo),
+            state.grupoCatalogo || "ALL"
+        )
+    );
+
+    document.body.classList.add("catalog-filter-open");
+
+    document
+        .querySelector(".catalog-filter-sheet-close")
+        ?.focus();
+}
+
+function cerrarPanelFiltrosCatalogo() {
+    document
+        .querySelectorAll(".catalog-filter-backdrop, .catalog-filter-sheet")
+        .forEach(elemento => elemento.remove());
+
+    document.body.classList.remove("catalog-filter-open");
+
+    if (
+        catalogFilterPreviousFocus &&
+        document.contains(catalogFilterPreviousFocus)
+    ) {
+        catalogFilterPreviousFocus.focus();
+    }
+
+    catalogFilterPreviousFocus = null;
+}
+
+function actualizarPreviewFiltrosCatalogo() {
+    const hoja = document.getElementById("catalog-filter-sheet");
+
+    if (!hoja) {
+        return;
+    }
+
+    const seccion = obtenerSeccionCatalogoActual();
+    const pais =
+        hoja.querySelector(
+            'input[name="catalog-filter-country"]:checked'
+        )?.value || "ALL";
+
+    const grupo =
+        hoja.querySelector(
+            'input[name="catalog-filter-group"]:checked'
+        )?.value || "ALL";
+
+    const cantidad = contarResultadosFiltroCatalogo(
+        seccion,
+        pais,
+        grupo
+    );
+
+    const indicador =
+        hoja.querySelector("[data-filter-preview-results]");
+
+    if (indicador) {
+        indicador.textContent =
+            cantidad + (cantidad === 1 ? " disponible" : " disponibles");
+    }
+
+    const paisResumen =
+        hoja.querySelector("[data-filter-country-summary]");
+
+    if (paisResumen) {
+        paisResumen.textContent =
+            pais === "ALL"
+                ? "Todos los países"
+                : obtenerNombrePaisCatalogo(pais);
+    }
+
+    const grupos =
+        obtenerGruposCatalogo(
+            obtenerCatalogoParaFiltrosCatalogo(seccion)
+        );
+
+    const grupoResumen =
+        hoja.querySelector("[data-filter-group-summary]");
+
+    if (grupoResumen) {
+        grupoResumen.textContent =
+            grupo === "ALL"
+                ? "Todos los temas"
+                : grupos.find(item => item.id === grupo)?.label ||
+                  "Tema seleccionado";
+    }
+}
+
+function aplicarFiltrosCatalogoDesdePanel() {
+    const hoja = document.getElementById("catalog-filter-sheet");
+
+    if (!hoja) {
+        return;
+    }
+
+    state.paisCatalogo =
+        hoja.querySelector(
+            'input[name="catalog-filter-country"]:checked'
+        )?.value || "ALL";
+
+    state.grupoCatalogo =
+        hoja.querySelector(
+            'input[name="catalog-filter-group"]:checked'
+        )?.value || "ALL";
+
+    const seccion = obtenerSeccionCatalogoActual();
+
+    cerrarPanelFiltrosCatalogo();
+
+    mostrarCatalogoV2(
+        seccion,
+        state.paisCatalogo,
+        state.grupoCatalogo
+    );
+}
+
+function limpiarFiltrosCatalogoEnPanel() {
+    const hoja = document.getElementById("catalog-filter-sheet");
+
+    if (!hoja) {
+        return;
+    }
+
+    const paisTodos =
+        hoja.querySelector(
+            'input[name="catalog-filter-country"][value="ALL"]'
+        );
+
+    const grupoTodos =
+        hoja.querySelector(
+            'input[name="catalog-filter-group"][value="ALL"]'
+        );
+
+    if (paisTodos) {
+        paisTodos.checked = true;
+    }
+
+    if (grupoTodos) {
+        grupoTodos.checked = true;
+    }
+
+    actualizarPreviewFiltrosCatalogo();
+}
+
+document.addEventListener("click", evento => {
+    if (evento.target.closest("[data-catalog-filter-open]")) {
+        abrirPanelFiltrosCatalogo();
+        return;
+    }
+
+    if (evento.target.closest("[data-catalog-filter-close]")) {
+        cerrarPanelFiltrosCatalogo();
+        return;
+    }
+
+    if (evento.target.closest("[data-catalog-filter-apply]")) {
+        aplicarFiltrosCatalogoDesdePanel();
+        return;
+    }
+
+    if (evento.target.closest("[data-catalog-filter-reset]")) {
+        limpiarFiltrosCatalogoEnPanel();
+        return;
+    }
+
+    if (evento.target.closest("[data-catalog-filter-clear]")) {
+        state.paisCatalogo = "ALL";
+        state.grupoCatalogo = "ALL";
+
+        mostrarCatalogoV2(
+            obtenerSeccionCatalogoActual(),
+            "ALL",
+            "ALL"
+        );
+        return;
+    }
+
+    if (evento.target.closest('[data-filter-remove="country"]')) {
+        state.paisCatalogo = "ALL";
+
+        mostrarCatalogoV2(
+            obtenerSeccionCatalogoActual(),
+            "ALL",
+            state.grupoCatalogo || "ALL"
+        );
+        return;
+    }
+
+    if (evento.target.closest('[data-filter-remove="group"]')) {
+        state.grupoCatalogo = "ALL";
+
+        mostrarCatalogoV2(
+            obtenerSeccionCatalogoActual(),
+            state.paisCatalogo || "ALL",
+            "ALL"
+        );
+    }
+});
+
+document.addEventListener("change", evento => {
+    if (
+        evento.target.matches(
+            'input[name="catalog-filter-country"], input[name="catalog-filter-group"]'
+        )
+    ) {
+        actualizarPreviewFiltrosCatalogo();
+    }
+});
+
+document.addEventListener("input", evento => {
+    if (!evento.target.matches("[data-filter-country-search]")) {
+        return;
+    }
+
+    const termino = evento.target.value
+        .trim()
+        .toLocaleLowerCase("es");
+
+    document
+        .querySelectorAll("[data-country-option]")
+        .forEach(opcion => {
+            opcion.hidden =
+                Boolean(termino) &&
+                !opcion.dataset.countryOption.includes(termino);
+        });
+});
+
+document.addEventListener("keydown", evento => {
+    if (
+        evento.key === "Escape" &&
+        document.getElementById("catalog-filter-sheet")
+    ) {
+        cerrarPanelFiltrosCatalogo();
+    }
+});
