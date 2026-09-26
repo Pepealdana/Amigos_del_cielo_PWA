@@ -1,0 +1,459 @@
+{
+  "id": "santa-monica",
+  "slug": "santa-monica",
+  "name": "Santa Mónica",
+  "title": "Madre de san Agustín y testigo de la oración perseverante",
+  "subtitle": "Fe, paciencia y esperanza en el acompañamiento de la familia",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_monica.webp",
+  "description": "Esposa y madre cristiana de Tagaste, recordada por su vida de oración y por el acompañamiento perseverante de su familia. La Iglesia la propone especialmente como modelo para las madres cristianas.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-monica"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 27,
+    "month": 8,
+    "text": "27 de agosto",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "quote": {
+    "text": "Me parece que mi madre me engendró dos veces.",
+    "reference": "Expresión de san Agustín sobre su madre, recogida por Benedicto XVI al comentar su vida en el Ángelus del 27 de agosto de 2006."
+  },
+  "patronages": [
+    "Madres cristianas",
+    "Esposas y madres de familia",
+    "Personas que oran por la conversión de sus seres queridos"
+  ],
+  "virtues": [
+    "Fe",
+    "Perseverancia",
+    "Oración",
+    "Paciencia",
+    "Esperanza",
+    "Caridad",
+    "Fortaleza",
+    "Confianza en Dios",
+    "Amor familiar"
+  ],
+  "search": [
+    "santa monica",
+    "santa mónica",
+    "monica de hipona",
+    "mónica de hipona",
+    "madre de san agustin",
+    "madre de san agustín",
+    "san agustin",
+    "san agustín",
+    "tagaste",
+    "ostia",
+    "madres cristianas",
+    "familia",
+    "oracion",
+    "oración",
+    "conversion",
+    "conversión"
+  ],
+  "interventions": [
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "madres",
+        "padres",
+        "hijos",
+        "esposos",
+        "matrimonio"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y retorno a la fe",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "fe",
+        "regreso",
+        "alejados",
+        "pecado"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración perseverante",
+      "keywords": [
+        "oracion",
+        "oración",
+        "rezar",
+        "plegaria",
+        "intercesion",
+        "intercesión",
+        "lagrimas",
+        "lágrimas"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en las dificultades",
+      "keywords": [
+        "esperanza",
+        "dificultad",
+        "sufrimiento",
+        "paciencia",
+        "esperar"
+      ]
+    },
+    {
+      "id": "madres",
+      "label": "Madres y educación cristiana",
+      "keywords": [
+        "madre",
+        "madres",
+        "maternidad",
+        "hijos",
+        "educacion",
+        "educación",
+        "cristiana"
+      ]
+    },
+    {
+      "id": "matrimonio",
+      "label": "Matrimonio y vida familiar",
+      "keywords": [
+        "matrimonio",
+        "esposo",
+        "esposa",
+        "hogar",
+        "familia"
+      ]
+    },
+    {
+      "id": "sufrimiento",
+      "label": "Dolor y acompañamiento",
+      "keywords": [
+        "dolor",
+        "sufrimiento",
+        "prueba",
+        "acompañar",
+        "acompañamiento",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y vida cristiana",
+      "keywords": [
+        "fe",
+        "cristo",
+        "evangelio",
+        "iglesia",
+        "bautismo",
+        "vida cristiana"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Mónica nació en Tagaste, en el norte de África, hacia el siglo IV, en una familia cristiana. Se casó con Patricio y tuvo tres hijos, entre ellos Agustín. Tras la muerte de su esposo se dedicó al cuidado de su familia y acompañó con perseverancia el camino espiritual de Agustín. Llegó a verlo abrazar la fe cristiana, recibir el bautismo y emprender una vida de servicio a Cristo. Murió en Ostia en 387.",
+    "extended": "Mónica nació en Tagaste, ciudad de la provincia romana de Numidia, en el norte de África. Su hijo Agustín ofrece buena parte de la información conocida sobre ella en las Confesiones. Fue educada en la fe cristiana y contrajo matrimonio con Patricio. Tuvieron tres hijos: Agustín, Navigio y Perpetua.\n\nSu vida familiar estuvo marcada por dificultades. Después de la muerte de Patricio, Mónica se ocupó de sus hijos y mantuvo una preocupación constante por su vida espiritual. Agustín se apartó durante años de la fe que había recibido y siguió caminos que causaron profundo dolor a su madre. Mónica perseveró en la oración y buscó acompañarlo sin abandonar la esperanza.\n\nEl camino de Agustín lo llevó finalmente a Milán, donde entró en contacto con la predicación de san Ambrosio. Mónica pudo verlo regresar a la fe, recibir el bautismo en 387 y decidirse por una vida orientada al servicio de Dios. Benedicto XVI recordó que Agustín describió a su madre como quien lo había engendrado dos veces.\n\nDespués del bautismo, Mónica y Agustín permanecieron un tiempo en Ostia mientras preparaban el regreso al norte de África. Allí tuvieron una conversación espiritual que Agustín relata en las Confesiones. Mónica murió en Ostia en 387. La Iglesia celebra su memoria el 27 de agosto, un día antes de la memoria de san Agustín.\n\nSu testimonio quedó asociado especialmente a la perseverancia en la oración, la vida familiar y la esperanza puesta en Dios. La Santa Sede la presenta como modelo y patrona de las madres cristianas."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Mónica, madre fiel y mujer de oración, acompáñame durante estos nueve días. Enséñame a perseverar sin perder la esperanza, a confiar en Dios cuando no veo resultados y a cuidar a quienes amo con paciencia y caridad. Presento ante el Señor la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "Santa Mónica, intercede por nosotros. Enséñanos a perseverar en la oración, a acompañar a nuestras familias con paciencia y a confiar en Dios en los momentos de dificultad. Ruega especialmente por quienes sufren por sus seres queridos y por quienes esperan una conversión, una reconciliación o un nuevo comienzo. Amén.",
+  "intentions": [
+    "Por las madres y padres que desean educar a sus hijos en la fe.",
+    "Por quienes sufren por el alejamiento espiritual de un ser querido.",
+    "Por las familias que atraviesan conflictos, divisiones o dificultades.",
+    "Por matrimonios que necesitan paciencia, diálogo y reconciliación.",
+    "Por quienes han abandonado la práctica de la fe y buscan un camino de regreso.",
+    "Por quienes perseveran en una oración que parece no recibir respuesta.",
+    "Por personas que acompañan a familiares en situaciones difíciles.",
+    "Por quienes necesitan esperanza para no rendirse ante una prueba.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 15,11-32"
+      },
+      {
+        "reference": "1 Tesalonicenses 5,16-18"
+      },
+      {
+        "reference": "Romanos 12,12"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      }
+    ],
+    "documents": [
+      "Confesiones de san Agustín"
+    ],
+    "related": [
+      "San Agustín de Hipona",
+      "San Ambrosio de Milán",
+      "Tagaste",
+      "Ostia"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Ángelus del 27 de agosto de 2006",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/angelus/2006/documents/hf_ben-xvi_ang_20060827.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus del 30 de agosto de 2009",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/angelus/2009/documents/hf_ben-xvi_ang_20090830.html",
+      "type": "official"
+    },
+    {
+      "title": "Memoria de Santa Mónica",
+      "organization": "Conferencia de Obispos Católicos de Estados Unidos",
+      "url": "https://bible.usccb.org/es/bible/lecturas/082726.cfm",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La fe recibida",
+      "title": "Cuidar la semilla de la fe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mónica creció en una familia cristiana en Tagaste. Su vida comenzó dentro de una tradición de fe que después procuró transmitir a su propia familia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe se transmite también mediante el ejemplo cotidiano, la oración y las decisiones concretas con las que construimos el hogar."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué aspecto de mi fe necesito cuidar y transmitir mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que desean crecer juntas en la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, ayúdanos a cuidar la fe recibida y a vivirla con coherencia en nuestra familia. Amén."
+      },
+      "action": "Dedica hoy un momento de oración por tu familia."
+    },
+    {
+      "day": 2,
+      "theme": "La oración",
+      "title": "Perseverar sin perder la esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mónica mantuvo una preocupación constante por el camino espiritual de Agustín y perseveró en la oración durante los años en que él estuvo alejado de la fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa exigir resultados inmediatos. Significa presentar una intención ante Dios y seguir confiando mientras actuamos con prudencia y amor."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Por qué intención necesito seguir orando sin desesperarme?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes llevan mucho tiempo orando por un ser querido."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, enséñanos a perseverar en la oración y a confiar en Dios cuando no vemos todavía el resultado que esperamos. Amén."
+      },
+      "action": "Presenta tres veces durante el día la misma intención ante Dios con una oración breve."
+    },
+    {
+      "day": 3,
+      "theme": "La familia",
+      "title": "Amar también cuando hay dificultades",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mónica vivió dificultades en su matrimonio y en la relación con sus hijos. Tras la muerte de Patricio, continuó cuidando a su familia con responsabilidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El amor familiar necesita paciencia, límites prudentes, diálogo y capacidad para seguir buscando el bien incluso en etapas difíciles."
+      },
+      "virtue": "Paciencia",
+      "reflection": "¿Qué relación familiar necesita hoy de mi paciencia y de un gesto concreto de bien?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias que atraviesan conflictos o etapas de distancia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, intercede por nuestras familias. Danos paciencia para escuchar, sabiduría para corregir y caridad para acompañar. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de cuidado hacia un familiar."
+    },
+    {
+      "day": 4,
+      "theme": "El acompañamiento",
+      "title": "Acompañar sin abandonar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mónica siguió de cerca el camino de Agustín y buscó acompañarlo incluso cuando sus decisiones le causaban dolor. Su perseverancia no fue indiferencia: permaneció cerca y continuó orando."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acompañar a alguien no significa controlar su vida. Podemos estar presentes, escuchar, orientar cuando corresponde y respetar la libertad de la otra persona."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién necesito acompañar mejor sin intentar controlar sus decisiones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por padres, madres y familiares que acompañan a seres queridos en momentos de dificultad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, enséñanos a acompañar con amor, respeto y paciencia a quienes Dios ha puesto cerca de nosotros. Amén."
+      },
+      "action": "Escucha hoy a una persona cercana sin interrumpirla ni intentar resolver inmediatamente su situación."
+    },
+    {
+      "day": 5,
+      "theme": "La conversión",
+      "title": "Esperar un nuevo comienzo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mónica tuvo la alegría de ver a Agustín regresar a la fe y recibir el bautismo en Milán en 387, después de años de búsqueda y alejamiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión es obra de la gracia y también un camino personal. Podemos acompañar, orar y ofrecer nuestro testimonio, pero respetando la libertad de cada persona."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué nuevo comienzo necesito pedir para mí o para alguien cercano?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se han alejado de la fe y por quienes esperan su regreso."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, presenta ante Dios a quienes buscan un nuevo comienzo. Danos esperanza y ayúdanos a acompañar sin juzgar. Amén."
+      },
+      "action": "Reza por una persona que necesite reconciliarse con Dios o con alguien de su familia."
+    },
+    {
+      "day": 6,
+      "theme": "La maternidad espiritual",
+      "title": "Educar con el ejemplo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Benedicto XVI destacó que Mónica educó a Agustín en la fe desde su infancia y que las enseñanzas recibidas de ella permanecieron en él incluso durante años de alejamiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La educación cristiana no se reduce a palabras. El testimonio cotidiano, la oración y la manera de tratar a los demás también forman el corazón."
+      },
+      "virtue": "Testimonio",
+      "reflection": "¿Qué ejemplo estoy ofreciendo a quienes me observan cada día?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por madres, padres, educadores y acompañantes que buscan transmitir la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, ayúdanos a educar más con el ejemplo que con las palabras y a construir hogares donde la fe pueda crecer. Amén."
+      },
+      "action": "Realiza hoy una obra de caridad que pueda convertirse en ejemplo para otra persona."
+    },
+    {
+      "day": 7,
+      "theme": "El sufrimiento",
+      "title": "Presentar el dolor ante Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La historia de Mónica estuvo marcada por preocupaciones familiares y largos períodos de espera. Su testimonio es recordado por la perseverancia con la que llevó esas preocupaciones ante Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no elimina automáticamente el dolor, pero puede ayudarnos a vivirlo con esperanza y a buscar también la ayuda humana que necesitamos."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dolor necesito entregar hoy a Dios y qué ayuda concreta debo buscar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren por un familiar enfermo, distante o en dificultad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, acompaña a quienes sufren por sus seres queridos. Pide para ellos fortaleza, consuelo y ayuda oportuna. Amén."
+      },
+      "action": "Busca hoy una persona con quien puedas compartir responsablemente una preocupación que llevas dentro."
+    },
+    {
+      "day": 8,
+      "theme": "La confianza",
+      "title": "Dejar los resultados en manos de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Mónica pudo ver finalmente el regreso de Agustín a la fe, pero su camino estuvo lleno de años en los que tuvo que esperar. Su historia invita a distinguir entre perseverar y querer controlar el resultado."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Confiar en Dios no significa permanecer pasivos. Significa hacer el bien que nos corresponde y reconocer que la transformación interior de otra persona no está bajo nuestro control."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué resultado necesito dejar de controlar y aprender a confiar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven una espera larga y necesitan aprender a confiar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, ayúdanos a hacer nuestra parte con amor y a dejar en manos de Dios aquello que no podemos controlar. Amén."
+      },
+      "action": "Escribe una preocupación que no puedas resolver y termina la oración diciendo: 'Señor, confío en ti'."
+    },
+    {
+      "day": 9,
+      "theme": "El encuentro con Dios",
+      "title": "Vivir con esperanza hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después del bautismo de Agustín, Mónica vivió con él un tiempo en Ostia. Allí compartieron una conversación espiritual antes de su muerte en 387. La Iglesia conserva su memoria como testimonio de una vida orientada hacia Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana nos invita a mirar toda la vida como un camino hacia Dios, agradeciendo los frutos recibidos y confiando en Él ante lo que todavía no comprendemos."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué fruto de esta novena quiero conservar en mi vida cotidiana?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante la novena y por quienes necesitan renovar su esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Mónica, acompáñanos hasta el final. Enséñanos a vivir con fe, perseverancia y esperanza, confiando siempre en Dios. Amén."
+      },
+      "action": "Elige una práctica concreta de oración o acompañamiento que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
