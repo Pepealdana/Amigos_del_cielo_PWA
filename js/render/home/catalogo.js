@@ -561,28 +561,65 @@ function obtenerEtiquetaCatalogo(item) {
     return etiquetas[categoria] || item?.category || "Novena";
 }
 
-function obtenerDatoSecundarioCatalogo(item, seccion) {
-    if (seccion === "santos") {
-        const registro = state.catalogo.find(novena => novena.id === item.id);
-        const fiesta = registro?.feast?.text;
+function obtenerFiestaCatalogo(item) {
+    const registro = (state.catalogo || [])
+        .find(novena => novena.id === item?.id);
 
-        if (fiesta) {
-            return `Fiesta: ${fiesta}`;
+    return item?.feast?.text || registro?.feast?.text || "";
+}
+
+function obtenerPaisesEtiquetaCatalogo(item) {
+    const territorial = item?.territorial || {};
+    const paises = [
+        ...(territorial.origin || []),
+        ...(territorial.historicalLinks || []),
+        ...(territorial.specialDevotion || [])
+    ].filter((codigo, index, lista) => lista.indexOf(codigo) === index);
+
+    return paises
+        .map(codigo =>
+            (state.catalogosV2?.paises || [])
+                .find(pais => pais.id === codigo)?.name
+        )
+        .filter(Boolean);
+}
+
+function obtenerDatoSecundarioCatalogo(item, seccion) {
+    const fiesta = obtenerFiestaCatalogo(item);
+
+    if (seccion === "santos") {
+        return fiesta
+            ? `Fiesta: ${fiesta}`
+            : "Santo";
+    }
+
+    if (seccion === "novenas") {
+        return fiesta
+            ? `Fiesta: ${fiesta}`
+            : "Novena";
+    }
+
+    if (seccion === "maria") {
+        const paises = obtenerPaisesEtiquetaCatalogo(item);
+        const pais = paises.join(" · ");
+
+        if (fiesta && pais) {
+            return `${pais} · Fiesta: ${fiesta}`;
         }
 
-        return "Santo";
+        return fiesta
+            ? `Fiesta: ${fiesta}`
+            : (pais || "Advocación mariana");
+    }
+
+    if (seccion === "devociones") {
+        return fiesta
+            ? `Fiesta: ${fiesta}`
+            : "Devoción";
     }
 
     if (seccion === "todos") {
         return obtenerEtiquetaCatalogo(item);
-    }
-
-    if (seccion === "maria") {
-        return "Advocación mariana";
-    }
-
-    if (seccion === "devociones") {
-        return "Devoción";
     }
 
     return item.status === "published"
