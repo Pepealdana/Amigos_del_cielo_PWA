@@ -1156,10 +1156,10 @@
     {
       "id": "santa-clara-de-asis",
       "name": "Santa Clara de Asís",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santa-clara-de-asis.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "franciscanos",
@@ -1172,7 +1172,9 @@
         "historicalLinks": [
           "IT"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
