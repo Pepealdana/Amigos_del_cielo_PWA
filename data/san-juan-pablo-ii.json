@@ -1,0 +1,479 @@
+{
+  "id": "san-juan-pablo-ii",
+  "slug": "san-juan-pablo-ii",
+  "name": "San Juan Pablo II",
+  "title": "Papa y testigo de la esperanza",
+  "subtitle": "Totus Tuus: todo tuyo, María",
+  "category": "Santos",
+  "image": "assets/images/santos/san_juan_pablo_ii.webp",
+  "description": "Papa que dedicó su ministerio a anunciar a Cristo, promover la dignidad humana, acompañar a los jóvenes y confiar su vida a María.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-juan-pablo-ii"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 22,
+    "month": 10,
+    "text": "22 de octubre",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "¡No tengáis miedo! ¡Abrid, más todavía, abrid de par en par las puertas a Cristo!",
+    "reference": "Homilía en el comienzo de su pontificado, 22 de octubre de 1978, Santa Sede."
+  },
+  "patronages": [
+    "Jóvenes y Jornada Mundial de la Juventud",
+    "Familias"
+  ],
+  "virtues": [
+    "Fe",
+    "Esperanza",
+    "Caridad",
+    "Oración",
+    "Confianza en Dios",
+    "Amor a María",
+    "Fortaleza",
+    "Misericordia",
+    "Servicio"
+  ],
+  "search": [
+    "san juan pablo ii",
+    "juan pablo ii",
+    "karol wojtyla",
+    "wojtyla",
+    "papa",
+    "totus tuus",
+    "maría",
+    "juventud",
+    "jornada mundial de la juventud",
+    "esperanza",
+    "misericordia",
+    "familia",
+    "evangelizacion",
+    "polonia",
+    "roma"
+  ],
+  "interventions": [
+    {
+      "id": "esperanza",
+      "label": "Esperanza y confianza en Dios",
+      "keywords": [
+        "esperanza",
+        "confianza",
+        "miedo",
+        "desanimo",
+        "fortaleza",
+        "futuro"
+      ]
+    },
+    {
+      "id": "juventud",
+      "label": "Jóvenes y vocación",
+      "keywords": [
+        "jovenes",
+        "juventud",
+        "vocacion",
+        "discernimiento",
+        "estudiantes",
+        "adolescentes"
+      ]
+    },
+    {
+      "id": "maria",
+      "label": "María y vida cristiana",
+      "keywords": [
+        "maria",
+        "virgen",
+        "rosario",
+        "totus tuus",
+        "consagracion",
+        "madre"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y dignidad humana",
+      "keywords": [
+        "familia",
+        "matrimonio",
+        "padres",
+        "hijos",
+        "dignidad",
+        "vida"
+      ]
+    },
+    {
+      "id": "misericordia",
+      "label": "Misericordia y reconciliación",
+      "keywords": [
+        "misericordia",
+        "perdon",
+        "reconciliacion",
+        "pecado",
+        "confesion",
+        "compasion"
+      ]
+    },
+    {
+      "id": "sufrimiento",
+      "label": "Enfermedad, sufrimiento y esperanza",
+      "keywords": [
+        "enfermedad",
+        "sufrimiento",
+        "dolor",
+        "enfermos",
+        "cruz",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "evangelizacion",
+      "label": "Evangelización y misión",
+      "keywords": [
+        "evangelizacion",
+        "mision",
+        "apostolado",
+        "iglesia",
+        "cristo",
+        "evangelio"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y encuentro entre los pueblos",
+      "keywords": [
+        "paz",
+        "dialogo",
+        "pueblos",
+        "naciones",
+        "reconciliacion",
+        "unidad"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Karol Józef Wojtyła nació en Wadowice, Polonia, el 18 de mayo de 1920. Durante la ocupación nazi trabajó en una cantera y en una fábrica mientras estudiaba clandestinamente para el sacerdocio. Fue ordenado sacerdote en 1946, nombrado obispo auxiliar de Cracovia en 1958, arzobispo de Cracovia en 1964 y cardenal en 1967. Participó activamente en el Concilio Vaticano II. Fue elegido Papa el 16 de octubre de 1978 y comenzó su ministerio como obispo de Roma el 22 de octubre. Durante su pontificado realizó numerosos viajes apostólicos, promovió las Jornadas Mundiales de la Juventud y publicó importantes documentos sobre la fe, la dignidad humana, la familia y la vida cristiana. Murió el 2 de abril de 2005, fue beatificado en 2011 y canonizado por el papa Francisco el 27 de abril de 2014.",
+    "extended": "Karol Józef Wojtyła nació el 18 de mayo de 1920 en Wadowice, Polonia. Vivió desde joven experiencias de pérdida familiar: su madre murió cuando él tenía nueve años, su hermano Edmund en 1932 y su padre en 1941. Después de terminar sus estudios secundarios comenzó la universidad en Cracovia, pero la ocupación nazi interrumpió su formación. Entre 1940 y 1944 trabajó primero en una cantera y después en la fábrica química Solvay. Al mismo tiempo participó en actividades culturales clandestinas y, sintiendo la llamada al sacerdocio, comenzó en 1942 sus estudios en el seminario clandestino de Cracovia dirigido por el arzobispo Adam Stefan Sapieha.\n\nFue ordenado sacerdote en 1946 y continuó su formación teológica en Roma. De regreso en Polonia ejerció el ministerio pastoral y académico. En 1958 fue nombrado obispo auxiliar de Cracovia; en 1964, arzobispo de la misma ciudad; y en 1967, cardenal. Participó en el Concilio Vaticano II entre 1962 y 1965 y contribuyó especialmente a la elaboración de Gaudium et Spes. Esta experiencia profundizó su preocupación por la dignidad de la persona humana y por el diálogo entre la fe y el mundo contemporáneo.\n\nEl 16 de octubre de 1978 fue elegido sucesor de Pedro y tomó el nombre de Juan Pablo II. En la homilía del comienzo de su pontificado pidió abrir de par en par las puertas a Cristo y expresó una invitación a no vivir dominados por el miedo. Su lema episcopal y pontificio, Totus Tuus, expresaba su consagración y confianza en Cristo por medio de María, inspirada en la espiritualidad de san Luis María Grignion de Montfort.\n\nSu pontificado estuvo marcado por numerosos viajes apostólicos, encuentros con jóvenes y una intensa actividad doctrinal y pastoral. Impulsó las Jornadas Mundiales de la Juventud y procuró presentar a los jóvenes la vida cristiana como una respuesta concreta a la llamada de Cristo. También dedicó especial atención a la familia, la dignidad humana, la defensa de la vida, la reconciliación, la misericordia y la evangelización. En 2000 canonizó a santa Faustina Kowalska y estableció la celebración litúrgica del Domingo de la Divina Misericordia.\n\nEn sus últimos años vivió públicamente las limitaciones de la enfermedad y la fragilidad. Murió en el Palacio Apostólico Vaticano el 2 de abril de 2005, víspera del Domingo de la Divina Misericordia. Fue beatificado por Benedicto XVI el 1 de mayo de 2011 y canonizado por el papa Francisco el 27 de abril de 2014. La Iglesia celebra su memoria litúrgica el 22 de octubre. Su legado espiritual queda especialmente asociado a la confianza en Cristo, la entrega a María, el acompañamiento de los jóvenes, la defensa de la dignidad humana, la misericordia y el anuncio del Evangelio."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Juan Pablo II, pastor de la Iglesia y testigo de la esperanza, acompáñame durante estos nueve días. Enséñame a abrir el corazón a Cristo, a confiar en Dios en medio de las dificultades, a caminar con María y a servir con generosidad. Presento ante el Señor la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Juan Pablo II, intercede por nosotros. Ayúdanos a vivir con una fe firme, una esperanza perseverante y una caridad concreta. Enséñanos a confiar en Cristo, a caminar con María, a acompañar a los jóvenes, a cuidar la familia y a llevar misericordia y esperanza a quienes sufren. Amén.",
+  "intentions": [
+    "Por los jóvenes que buscan su vocación y necesitan orientación.",
+    "Por las familias, los matrimonios, los padres y los hijos.",
+    "Por quienes viven miedo, desánimo o incertidumbre ante el futuro.",
+    "Por los enfermos y quienes acompañan procesos de enfermedad o fragilidad.",
+    "Por quienes necesitan reconciliación, perdón y misericordia.",
+    "Por la Iglesia y quienes tienen responsabilidades de servicio pastoral.",
+    "Por la paz entre los pueblos y por quienes trabajan por la reconciliación.",
+    "Por quienes anuncian el Evangelio y buscan vivir su fe con coherencia.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Juan 14,1-6"
+      },
+      {
+        "reference": "Romanos 5,1-5"
+      },
+      {
+        "reference": "Filipenses 4,4-9"
+      },
+      {
+        "reference": "Lucas 1,26-38"
+      },
+      {
+        "reference": "Mateo 28,16-20"
+      }
+    ],
+    "documents": [
+      "Redemptor Hominis",
+      "Dives in Misericordia",
+      "Redemptoris Mater",
+      "Christifideles Laici",
+      "Novo Millennio Ineunte"
+    ],
+    "related": [
+      "San Luis María Grignion de Montfort",
+      "Santa Faustina Kowalska",
+      "Jornadas Mundiales de la Juventud"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Biografía de Su Santidad Juan Pablo II",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/biografia/documents/hf_jp-ii_spe_20190722_biografia.html",
+      "type": "official"
+    },
+    {
+      "title": "Perfil biográfico de Juan Pablo II para la canonización",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/special/canonizzazione-27042014/documents/biografia_gpii_canonizzazione_en.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía en el comienzo de su pontificado — 22 de octubre de 1978",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1978/documents/hf_jp-ii_hom_19781022_inizio-pontificato.html",
+      "type": "official"
+    },
+    {
+      "title": "Totus Tuus",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/press/documentazione/documents/sp_ss_scv/insigne/totus-tuus_en.html",
+      "type": "official"
+    },
+    {
+      "title": "Decreto sobre la inscripción de san Juan Pablo II en el Calendario Romano General",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20140529_decreto-calendario-generale-gxxiii-gpii_en.html",
+      "type": "official"
+    },
+    {
+      "title": "San Juan Pablo II — memoria litúrgica del 22 de octubre",
+      "organization": "USCCB",
+      "url": "https://www.usccb.org/es/prayer-and-worship/liturgical-year-and-calendar/saint-john-paul-ii",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Abrir el corazón a Cristo",
+      "title": "No tener miedo de acercarse a Jesús",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Al comenzar su pontificado, Juan Pablo II invitó a la Iglesia a no vivir dominada por el miedo y a abrir de par en par las puertas a Cristo. Su ministerio quedó marcado por este anuncio de confianza en Jesús."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no elimina todas las dificultades, pero permite afrontarlas desde una relación de confianza con Cristo."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué temor o preocupación necesito poner hoy en manos de Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven con miedo, incertidumbre o desánimo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, ayúdame a no cerrar el corazón por miedo. Enséñame a confiar en Cristo y a dejar que su presencia ilumine mis decisiones. Amén."
+      },
+      "action": "Identifica una preocupación concreta y preséntala hoy a Dios en oración."
+    },
+    {
+      "day": 2,
+      "theme": "La vocación",
+      "title": "Responder a la llamada de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Karol Wojtyła sintió la llamada al sacerdocio durante los años difíciles de la ocupación nazi. Comenzó en 1942 sus estudios en el seminario clandestino de Cracovia y fue ordenado sacerdote en 1946."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación se descubre y madura mediante la oración, el acompañamiento, la formación y decisiones concretas."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué llamada al bien estoy evitando escuchar o tomar en serio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que buscan su vocación y por quienes los acompañan en el discernimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, intercede por quienes buscan su camino. Enséñanos a escuchar a Dios con libertad y a responder con generosidad. Amén."
+      },
+      "action": "Dedica unos minutos a escribir qué dones y responsabilidades sientes llamados a poner al servicio de los demás."
+    },
+    {
+      "day": 3,
+      "theme": "María",
+      "title": "Totus Tuus: caminar con la Madre de Jesús",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El lema Totus Tuus acompañó a Karol Wojtyła desde su ministerio episcopal hasta el pontificado. Su devoción mariana estuvo profundamente influida por san Luis María Grignion de Montfort y orientada siempre hacia Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción a María no sustituye la relación con Cristo; puede conducirnos a recibir su palabra y a seguirlo con mayor confianza."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Cómo puedo aprender de María a escuchar a Dios y responder con generosidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean crecer en la vida de oración y en el amor a María."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, enséñame a confiar en María como Madre y a dejar que ella me conduzca siempre hacia Jesús. Amén."
+      },
+      "action": "Reza hoy una decena del Rosario meditando un misterio de la vida de Cristo."
+    },
+    {
+      "day": 4,
+      "theme": "Los jóvenes",
+      "title": "Acompañar a quienes buscan su camino",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Pablo II dedicó una atención especial a los jóvenes y promovió las Jornadas Mundiales de la Juventud. Quiso encontrarse con ellos y animarlos a tomar en serio la llamada de Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Acompañar a un joven implica escucharlo, respetar su libertad, ofrecer orientación y ayudarlo a descubrir una vida con sentido."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué joven cercano necesita ser escuchado y acompañado con mayor atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por adolescentes y jóvenes, especialmente quienes se sienten solos, confundidos o sin rumbo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, intercede por los jóvenes. Dales esperanza, buenos acompañantes y valentía para descubrir su vocación y servir al bien. Amén."
+      },
+      "action": "Escucha hoy a un joven sin interrumpirlo ni intentar resolver inmediatamente lo que te cuenta."
+    },
+    {
+      "day": 5,
+      "theme": "La familia",
+      "title": "Cuidar la dignidad y el amor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La familia ocupó un lugar importante en el magisterio de Juan Pablo II. Sus escritos y encuentros pastorales abordaron el matrimonio, la responsabilidad de los padres, la dignidad de cada persona y la educación de los hijos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida familiar necesita tiempo, diálogo, perdón y responsabilidad cotidiana."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué gesto concreto puede fortalecer hoy la unidad de mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por matrimonios, familias, padres, hijos y personas que atraviesan conflictos familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, presenta ante Cristo a nuestras familias. Ayúdanos a cuidarnos, escucharnos, perdonarnos y servirnos mutuamente. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de servicio o reconciliación dentro de tu familia."
+    },
+    {
+      "day": 6,
+      "theme": "Misericordia",
+      "title": "Recibir y ofrecer el perdón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Pablo II dedicó especial atención al misterio de la misericordia de Dios y canonizó a santa Faustina Kowalska durante el Jubileo del año 2000. También estableció la celebración del Domingo de la Divina Misericordia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misericordia cristiana no ignora el mal: lo enfrenta buscando la conversión, el perdón y la restauración de la dignidad."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Qué herida, culpa o resentimiento necesito presentar ante Dios para comenzar un camino de reconciliación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan perdón, reconciliación o una nueva oportunidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, intercede por nosotros para que confiemos en la misericordia de Dios y sepamos ofrecer perdón cuando sea posible y prudente. Amén."
+      },
+      "action": "Realiza hoy un acto concreto de reconciliación que sea posible, responsable y respetuoso."
+    },
+    {
+      "day": 7,
+      "theme": "La prueba",
+      "title": "Perseverar en medio del sufrimiento",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En sus últimos años, Juan Pablo II vivió públicamente las limitaciones de la enfermedad y la fragilidad. Continuó ejerciendo su ministerio dentro de esas condiciones y puso su vida en las manos de Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fragilidad no elimina la dignidad ni el valor de una persona. También puede convertirse en ocasión para recibir ayuda, acompañar y confiar."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito afrontar pidiendo ayuda en lugar de llevarla solo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, personas mayores, cuidadores y quienes viven procesos prolongados de sufrimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, acompaña a quienes sufren. Pide para ellos fortaleza, consuelo, ayuda adecuada y esperanza. Amén."
+      },
+      "action": "Acompaña hoy, de manera concreta y respetuosa, a una persona enferma, mayor o que esté atravesando una dificultad."
+    },
+    {
+      "day": 8,
+      "theme": "Evangelización",
+      "title": "Anunciar a Cristo con la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El pontificado de Juan Pablo II estuvo marcado por viajes apostólicos, encuentros con pueblos de numerosos países y una constante invitación a anunciar a Cristo. Su enseñanza buscó unir la fe con la dignidad y responsabilidad de cada persona."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar no consiste solamente en hablar de la fe. También significa vivirla con coherencia, servir y dar razón de la esperanza con respeto."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué aspecto de mi vida necesita ser más coherente con lo que creo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia, los misioneros, catequistas y todos los cristianos llamados a anunciar el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, ayúdanos a anunciar a Cristo con nuestras palabras y, sobre todo, con una vida coherente, servicial y misericordiosa. Amén."
+      },
+      "action": "Realiza hoy una obra de servicio sin esperar reconocimiento."
+    },
+    {
+      "day": 9,
+      "theme": "Esperanza",
+      "title": "Confiar la vida a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Juan Pablo II murió el 2 de abril de 2005, después de un pontificado de más de veintiséis años. La Iglesia lo beatificó en 2011 y lo canonizó en 2014. Su vida quedó asociada a la invitación constante a confiar en Cristo y a no tener miedo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no depende de que desaparezcan todas las dificultades. Nace de confiar la vida a Cristo y caminar hacia Él con perseverancia."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué compromiso quiero llevar conmigo después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por la intención particular de cada persona que la reza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Juan Pablo II, intercede por nosotros. Enséñanos a no tener miedo, a abrir el corazón a Cristo, a caminar con María y a vivir con esperanza hasta el final. Amén."
+      },
+      "action": "Elige una práctica concreta de oración, servicio o acompañamiento que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
