@@ -953,7 +953,7 @@
     {
       "id": "san-maximiliano-maria-kolbe",
       "name": "San Maximiliano María Kolbe",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-maximiliano-maria-kolbe.json",
       "priority": "alta",
@@ -967,9 +967,15 @@
           "PL"
         ],
         "historicalLinks": [
-          "PL"
+          "PL",
+          "IT",
+          "JP"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "PL",
+          "IT",
+          "JP"
+        ]
       }
     },
     {
