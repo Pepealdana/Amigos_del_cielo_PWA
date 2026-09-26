@@ -981,7 +981,7 @@
     {
       "id": "santa-monica",
       "name": "Santa Mónica",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santa-monica.json",
       "priority": "alta",
@@ -990,8 +990,11 @@
       ],
       "territorial": {
         "origin": [],
-        "historicalLinks": [],
-        "specialDevotion": []
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [],
+        "note": "Nació en Tagaste, en el norte de África (actual Argelia). El catálogo territorial actual no incluye Argelia; se registra Italia únicamente por su vínculo histórico con Ostia, donde murió."
       }
     },
     {
