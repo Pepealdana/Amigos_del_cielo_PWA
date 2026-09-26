@@ -1,0 +1,449 @@
+{
+  "id": "santa-cecilia",
+  "name": "Santa Cecilia",
+  "title": "Virgen y mártir, patrona de la música y los músicos",
+  "feast": {
+    "day": 22,
+    "month": 11,
+    "text": "22 de noviembre",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "image": "assets/images/santos/santa_cecilia.webp",
+  "groups": [
+    "devocion-extendida",
+    "martires"
+  ],
+  "territorial": {
+    "origin": [],
+    "historicalLinks": [
+      "IT"
+    ],
+    "specialDevotion": [
+      "IT"
+    ]
+  },
+  "patronages": [
+    "Música sacra",
+    "Músicos",
+    "Cantores",
+    "Cecilianismo"
+  ],
+  "virtues": [
+    "Fe",
+    "Fidelidad",
+    "Valentía",
+    "Pureza",
+    "Oración",
+    "Esperanza"
+  ],
+  "history": {
+    "short": "Santa Cecilia es una antigua mártir cristiana vinculada a Roma. Su culto está documentado desde los primeros siglos y su memoria litúrgica se celebra el 22 de noviembre. La tradición la reconoce como patrona de la música y de los músicos.",
+    "extended": "Santa Cecilia es una de las mártires cristianas más veneradas de Roma. Las fuentes antiguas sobre su vida son escasas, pero su culto está sólidamente documentado desde la antigüedad y la basílica de Santa Cecilia en Trastevere está vinculada a la memoria de la mártir.\n\nLa tradición cristiana la presenta como una virgen que entregó su vida a Cristo y sufrió el martirio. Los relatos hagiográficos posteriores desarrollaron numerosos detalles sobre su matrimonio, su esposo Valeriano, su cuñado Tiburcio y las circunstancias de su martirio. Estos elementos pertenecen a la tradición y deben distinguirse de los datos históricamente documentados sobre su culto antiguo.\n\nEl 22 de noviembre es su memoria litúrgica en la Iglesia. Su nombre aparece en la tradición litúrgica romana y su veneración se extendió ampliamente. Con el tiempo, Santa Cecilia quedó especialmente vinculada a la música y al canto sacro.\n\nLa asociación con la música está relacionada con el relato tradicional según el cual, durante su boda, Cecilia cantaba en su corazón al Señor mientras sonaban los instrumentos. La escena pertenece a la tradición hagiográfica y no debe utilizarse como una afirmación histórica comprobada.\n\nSu patronazgo de los músicos se convirtió en una tradición ampliamente difundida. El testimonio de Cecilia puede contemplarse como una invitación a convertir el arte y la música en expresión de fe, belleza, oración y servicio a la comunidad."
+  },
+  "quote": {
+    "text": "Cante al Señor un cántico nuevo.",
+    "reference": "Salmo 96,1; lema bíblico utilizado como eje espiritual de la novena, no como cita de Santa Cecilia."
+  },
+  "search": [
+    "santa cecilia",
+    "cecilia",
+    "cecilia de roma",
+    "roma",
+    "martir",
+    "mártir",
+    "musica",
+    "música",
+    "musicos",
+    "músicos",
+    "cantores",
+    "canto",
+    "coro",
+    "canto sacro",
+    "musica sacra",
+    "música sacra",
+    "liturgia",
+    "trastevere",
+    "virgen",
+    "pureza"
+  ],
+  "interventions": [
+    {
+      "id": "musica",
+      "label": "Música y canto",
+      "keywords": [
+        "musica",
+        "música",
+        "musicos",
+        "músicos",
+        "canto",
+        "cantores",
+        "coro",
+        "instrumentos"
+      ]
+    },
+    {
+      "id": "liturgia",
+      "label": "Música litúrgica",
+      "keywords": [
+        "liturgia",
+        "liturgica",
+        "litúrgica",
+        "misa",
+        "sacra",
+        "adoracion",
+        "adoración",
+        "iglesia"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y alabanza",
+      "keywords": [
+        "oracion",
+        "oración",
+        "alabanza",
+        "salmo",
+        "cantar",
+        "adorar"
+      ]
+    },
+    {
+      "id": "martirio",
+      "label": "Martirio y valentía",
+      "keywords": [
+        "martirio",
+        "martir",
+        "mártir",
+        "valentia",
+        "valentía",
+        "persecucion",
+        "persecución",
+        "testimonio"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y vocación",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "joven",
+        "vocacion",
+        "vocación",
+        "consagracion",
+        "consagración"
+      ]
+    },
+    {
+      "id": "arte",
+      "label": "Arte y belleza",
+      "keywords": [
+        "arte",
+        "belleza",
+        "cultura",
+        "creatividad",
+        "talento",
+        "artista"
+      ]
+    },
+    {
+      "id": "pureza",
+      "label": "Pureza y fidelidad",
+      "keywords": [
+        "pureza",
+        "castidad",
+        "fidelidad",
+        "virgen",
+        "dignidad"
+      ]
+    },
+    {
+      "id": "roma",
+      "label": "Roma y tradición cristiana",
+      "keywords": [
+        "roma",
+        "trastevere",
+        "basílica",
+        "basilica",
+        "iglesia",
+        "peregrinacion",
+        "peregrinación"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Cecilia, virgen y mártir, enséñanos a convertir nuestros dones en alabanza y servicio. Ayúdanos a vivir la fe con fidelidad, a cuidar la belleza de nuestras acciones y a utilizar la música, el arte y la palabra para acercar los corazones a Dios. Presentamos nuestras intenciones. Amén.",
+  "closingPrayer": "Santa Cecilia, patrona de los músicos, ruega por cantores, instrumentistas, compositores, coros y todos quienes sirven a la Iglesia mediante la música. Intercede también por quienes atraviesan dificultades por causa de su fe y ayúdanos a vivir con valentía, pureza, esperanza y amor. Amén.",
+  "intentions": [
+    "Por músicos, cantores, compositores e instrumentistas.",
+    "Por los coros y ministerios de música de nuestras comunidades.",
+    "Por quienes sirven mediante la música en la liturgia.",
+    "Por jóvenes que descubren talentos artísticos y buscan orientar su vocación.",
+    "Por artistas cristianos y quienes desean utilizar el arte para el bien.",
+    "Por cristianos perseguidos por su fe.",
+    "Por quienes atraviesan pruebas y necesitan fortaleza.",
+    "Por las comunidades que buscan celebrar la liturgia con belleza y participación.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Salmo 96,1-7",
+      "Salmo 150,1-6",
+      "Colosenses 3,12-17",
+      "Efesios 5,15-20",
+      "1 Corintios 12,4-11"
+    ],
+    "related": [
+      "Basílica de Santa Cecilia en Trastevere",
+      "Roma",
+      "Música sacra",
+      "Liturgia",
+      "Canto cristiano"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Memoria de Santa Cecilia, virgen y mártir",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/leo-xiv/es/events/day.dir.html/2025/11/22.html",
+      "type": "official"
+    },
+    {
+      "title": "Memoria de Santa Cecilia, virgen y mártir",
+      "organization": "Conferencia de Obispos Católicos de Estados Unidos",
+      "url": "https://bible.usccb.org/es/bible/lecturas/1122-memorial-cecilia.cfm",
+      "type": "official"
+    },
+    {
+      "title": "Santa Cecilia y la música",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/roman_curia/pontifical_councils/cultr/documents/rc_pc_cultr_01121994_doc_iv-1994-not_en.html",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Don",
+      "title": "Reconocer los dones recibidos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cristiana conserva a Cecilia como una mujer entregada a Cristo. Su patronazgo posterior de la música invita a contemplar los talentos humanos como dones que pueden ponerse al servicio del bien."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Reconocer nuestros talentos no debe llevarnos al orgullo. Los dones alcanzan su sentido cuando se desarrollan y se ponen al servicio de otras personas."
+      },
+      "virtue": "Gratitud",
+      "reflection": "¿Qué talento he recibido y cómo puedo utilizarlo mejor para el bien?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por artistas, músicos, estudiantes y personas que están descubriendo sus capacidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, ayúdanos a reconocer con gratitud nuestros dones y a ponerlos al servicio de Dios y de los demás. Amén."
+      },
+      "action": "Utiliza hoy una capacidad tuya para ayudar a otra persona."
+    },
+    {
+      "day": 2,
+      "theme": "Alabanza",
+      "title": "Convertir la música en oración",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Cecilia quedó vinculada desde antiguo con la música y el canto. La tradición posterior la convirtió en patrona de quienes sirven a través de estas expresiones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La música puede ser entretenimiento, arte y también oración. Cuando se utiliza en la liturgia, está llamada a servir a la celebración y a la participación de la comunidad."
+      },
+      "virtue": "Alabanza",
+      "reflection": "¿Qué lugar ocupa la gratitud y la alabanza en mi oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los ministerios de música, coros y músicos que sirven en la Iglesia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, enséñanos a utilizar la música y el canto como expresión de gratitud y alabanza a Dios. Amén."
+      },
+      "action": "Escucha o canta hoy un himno o canto cristiano prestando atención a su significado."
+    },
+    {
+      "day": 3,
+      "theme": "Fidelidad",
+      "title": "Ser coherentes con la fe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de Cecilia como virgen y mártir expresa una vida presentada por la tradición como fiel a Cristo incluso ante la persecución."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La coherencia cristiana se demuestra en decisiones concretas. No depende de hacer cosas extraordinarias, sino de vivir de acuerdo con lo que creemos."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿En qué decisión concreta necesito vivir con mayor coherencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes intentan vivir su fe en ambientes donde encuentran presión o incomprensión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, ayúdanos a permanecer fieles a Cristo en nuestras decisiones cotidianas. Amén."
+      },
+      "action": "Cumple hoy una responsabilidad que refleje uno de tus valores cristianos."
+    },
+    {
+      "day": 4,
+      "theme": "Valentía",
+      "title": "Dar testimonio sin miedo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición de Cecilia la recuerda como mártir. Aunque los relatos detallados de su pasión son posteriores, la Iglesia conserva su memoria como testigo de Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La valentía no elimina el miedo. Permite actuar con prudencia y fidelidad cuando sabemos que algo es correcto."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué bien necesito defender o realizar aunque me cueste?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por cristianos perseguidos, discriminados o presionados por causa de su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, ruega por quienes sufren por su fe y danos valentía para vivir con coherencia. Amén."
+      },
+      "action": "Haz hoy una acción correcta que hayas evitado por miedo a la opinión de otros."
+    },
+    {
+      "day": 5,
+      "theme": "Pureza",
+      "title": "Cuidar el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La liturgia la presenta como virgen y mártir. Esta tradición invita a contemplar una vida orientada íntegramente hacia Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La pureza cristiana consiste en integrar nuestros afectos y decisiones desde la dignidad, el respeto y la libertad."
+      },
+      "virtue": "Pureza",
+      "reflection": "¿Qué hábito o actitud necesito ordenar para vivir mis relaciones con mayor respeto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes y adultos que buscan construir relaciones sanas y responsables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, ayúdanos a cuidar nuestro corazón y a respetar la dignidad propia y ajena. Amén."
+      },
+      "action": "Revisa hoy un contenido digital que consumes y decide si contribuye a relaciones sanas."
+    },
+    {
+      "day": 6,
+      "theme": "Arte",
+      "title": "Poner la belleza al servicio del bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El patronazgo de Cecilia sobre los músicos se consolidó a lo largo de la tradición cristiana. Su figura quedó asociada a la relación entre música, belleza y alabanza."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El arte puede elevar, consolar y unir. Los talentos artísticos adquieren una dimensión de servicio cuando ayudan a comunicar verdad, belleza y esperanza."
+      },
+      "virtue": "Creatividad",
+      "reflection": "¿Cómo puedo utilizar alguna capacidad artística o creativa para hacer el bien?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por artistas y creadores que buscan utilizar sus talentos para transmitir esperanza y belleza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, inspira a quienes crean y trabajan con belleza para que sus dones sirvan a la verdad y al bien. Amén."
+      },
+      "action": "Crea o comparte hoy algo bello que pueda alegrar o ayudar a otra persona."
+    },
+    {
+      "day": 7,
+      "theme": "Comunidad",
+      "title": "Cantar juntos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La música litúrgica no es solamente una actividad individual. La tradición cristiana la entiende como parte de la oración comunitaria y de la participación de la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe se vive también en comunidad. Cantar, escuchar y celebrar juntos puede fortalecer la unidad cuando se busca servir a la liturgia y no al protagonismo personal."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Contribuyo a la unidad de mi comunidad o busco destacar por encima de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras parroquias, coros, comunidades y grupos de servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, ruega por nuestras comunidades y ayúdanos a poner nuestros talentos al servicio de la unidad. Amén."
+      },
+      "action": "Agradece hoy públicamente el servicio de alguien que trabaja discretamente por tu comunidad."
+    },
+    {
+      "day": 8,
+      "theme": "Esperanza",
+      "title": "Cantar incluso en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de una mártir recuerda que la esperanza cristiana puede mantenerse incluso en circunstancias difíciles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza no consiste en fingir que todo está bien. Consiste en confiar en que el sufrimiento no tiene la última palabra y seguir haciendo el bien."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué dificultad necesito vivir hoy con una esperanza más profunda?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedad, duelo, soledad o dificultades económicas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, acompaña a quienes sufren y ayúdanos a mantener viva la esperanza en Cristo. Amén."
+      },
+      "action": "Lleva hoy una palabra de ánimo a alguien que atraviese una dificultad."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Hacer de la vida un canto",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Cecilia permanece en la Iglesia como virgen y mártir y como patrona de la música. Su memoria invita a poner la vida entera al servicio de Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La mejor expresión de nuestros talentos no es el reconocimiento personal, sino una vida que contribuye al bien de otros y da gloria a Dios."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué don concreto quiero poner más decididamente al servicio de Dios y de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes sirven a la Iglesia mediante la música y el arte."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Cecilia, virgen y mártir, intercede por nosotros para que nuestros dones, nuestra voz y nuestras acciones se conviertan en una alabanza a Dios y en servicio al prójimo. Amén."
+      },
+      "action": "Elige un talento que quieras desarrollar y una forma concreta de ponerlo al servicio de otros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
