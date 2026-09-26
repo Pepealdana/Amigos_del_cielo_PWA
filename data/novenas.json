@@ -5147,5 +5147,139 @@
       "oracion",
       "oración"
     ]
+  },
+  {
+    "id": "san-juan-pablo-ii",
+    "slug": "san-juan-pablo-ii",
+    "name": "San Juan Pablo II",
+    "title": "Papa y testigo de la esperanza",
+    "subtitle": "Totus Tuus: todo tuyo, María",
+    "category": "Santos",
+    "image": "assets/images/santos/san_juan_pablo_ii.webp",
+    "file": "data/san-juan-pablo-ii.json",
+    "description": "Papa que dedicó su ministerio a anunciar a Cristo, promover la dignidad humana, acompañar a los jóvenes y confiar su vida a María.",
+    "feast": {
+      "day": 22,
+      "month": 10,
+      "text": "22 de octubre",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "search": [
+      "san juan pablo ii",
+      "juan pablo ii",
+      "karol wojtyla",
+      "wojtyla",
+      "papa",
+      "totus tuus",
+      "maría",
+      "juventud",
+      "jornada mundial de la juventud",
+      "esperanza",
+      "misericordia",
+      "familia",
+      "evangelizacion",
+      "polonia",
+      "roma"
+    ],
+    "interventions": [
+      {
+        "id": "esperanza",
+        "label": "Esperanza y confianza en Dios",
+        "keywords": [
+          "esperanza",
+          "confianza",
+          "miedo",
+          "desanimo",
+          "fortaleza",
+          "futuro"
+        ]
+      },
+      {
+        "id": "juventud",
+        "label": "Jóvenes y vocación",
+        "keywords": [
+          "jovenes",
+          "juventud",
+          "vocacion",
+          "discernimiento",
+          "estudiantes",
+          "adolescentes"
+        ]
+      },
+      {
+        "id": "maria",
+        "label": "María y vida cristiana",
+        "keywords": [
+          "maria",
+          "virgen",
+          "rosario",
+          "totus tuus",
+          "consagracion",
+          "madre"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y dignidad humana",
+        "keywords": [
+          "familia",
+          "matrimonio",
+          "padres",
+          "hijos",
+          "dignidad",
+          "vida"
+        ]
+      },
+      {
+        "id": "misericordia",
+        "label": "Misericordia y reconciliación",
+        "keywords": [
+          "misericordia",
+          "perdon",
+          "reconciliacion",
+          "pecado",
+          "confesion",
+          "compasion"
+        ]
+      },
+      {
+        "id": "sufrimiento",
+        "label": "Enfermedad, sufrimiento y esperanza",
+        "keywords": [
+          "enfermedad",
+          "sufrimiento",
+          "dolor",
+          "enfermos",
+          "cruz",
+          "esperanza"
+        ]
+      },
+      {
+        "id": "evangelizacion",
+        "label": "Evangelización y misión",
+        "keywords": [
+          "evangelizacion",
+          "mision",
+          "apostolado",
+          "iglesia",
+          "cristo",
+          "evangelio"
+        ]
+      },
+      {
+        "id": "paz",
+        "label": "Paz y encuentro entre los pueblos",
+        "keywords": [
+          "paz",
+          "dialogo",
+          "pueblos",
+          "naciones",
+          "reconciliacion",
+          "unidad"
+        ]
+      }
+    ]
   }
 ]
