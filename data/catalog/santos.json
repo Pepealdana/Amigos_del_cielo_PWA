@@ -1,5 +1,5 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "category": "santos",
   "description": "Catálogo maestro de santos canonizados. Los registros pending son candidatos de alta prioridad para incorporación.",
   "items": [
@@ -783,6 +783,360 @@
         "specialDevotion": [
           "VE"
         ]
+      }
+    },
+    {
+      "id": "san-juan-pablo-ii",
+      "name": "San Juan Pablo II",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-juan-pablo-ii.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "PL"
+        ],
+        "historicalLinks": [
+          "PL"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-maximiliano-maria-kolbe",
+      "name": "San Maximiliano María Kolbe",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-maximiliano-maria-kolbe.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida",
+        "franciscanos"
+      ],
+      "territorial": {
+        "origin": [
+          "PL"
+        ],
+        "historicalLinks": [
+          "PL"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-monica",
+      "name": "Santa Mónica",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-monica.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-bernardita-soubirous",
+      "name": "Santa Bernardita Soubirous",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-bernardita-soubirous.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "FR"
+        ],
+        "historicalLinks": [
+          "FR"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-clara-de-asis",
+      "name": "Santa Clara de Asís",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-clara-de-asis.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida",
+        "franciscanos"
+      ],
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-charbel-makhlouf",
+      "name": "San Chárbel Makhlouf",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-charbel-makhlouf.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "LB"
+        ],
+        "historicalLinks": [
+          "LB"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-marta-de-betania",
+      "name": "Santa Marta de Betania",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-marta-de-betania.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-teresa-de-calcuta",
+      "name": "Santa Teresa de Calcuta",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-teresa-de-calcuta.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "MK"
+        ],
+        "historicalLinks": [
+          "IN"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-francisco-javier",
+      "name": "San Francisco Javier",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-francisco-javier.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-luis-gonzaga",
+      "name": "San Luis Gonzaga",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-luis-gonzaga.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida",
+        "jovenes"
+      ],
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-lucia-de-siracusa",
+      "name": "Santa Lucía de Siracusa",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-lucia-de-siracusa.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-cecilia",
+      "name": "Santa Cecilia",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-cecilia.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Bárbara",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santa-barbara.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-roque",
+      "name": "San Roque",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-roque.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "FR"
+        ],
+        "historicalLinks": [
+          "FR"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-pancracio",
+      "name": "San Pancracio",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-pancracio.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-patricio",
+      "name": "San Patricio",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-patricio.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IE"
+        ],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-pedro-apostol",
+      "name": "San Pedro Apóstol",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-pedro-apostol.json",
+      "priority": "alta",
+      "groups": [
+        "apostoles",
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "san-pablo-apostol",
+      "name": "San Pablo Apóstol",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/san-pablo-apostol.json",
+      "priority": "alta",
+      "groups": [
+        "apostoles",
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      }
+    },
+    {
+      "id": "santiago-apostol",
+      "name": "Santiago Apóstol",
+      "status": "pending",
+      "category": "santos",
+      "sourceFile": "data/santiago-apostol.json",
+      "priority": "alta",
+      "groups": [
+        "apostoles",
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
       }
     }
   ]
