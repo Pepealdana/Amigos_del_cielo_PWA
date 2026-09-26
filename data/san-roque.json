@@ -1,0 +1,427 @@
+{
+  "id": "san-roque",
+  "name": "San Roque",
+  "title": "Peregrino y servidor de los enfermos",
+  "feast": {
+    "day": 16,
+    "month": 8,
+    "text": "16 de agosto",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "image": "assets/images/santos/san_roque.webp",
+  "groups": [
+    "devocion-extendida"
+  ],
+  "territorial": {
+    "origin": [
+      "FR"
+    ],
+    "historicalLinks": [
+      "FR"
+    ],
+    "specialDevotion": [
+      "FR"
+    ]
+  },
+  "patronages": [
+    "Personas afectadas por epidemias y enfermedades infecciosas",
+    "Enfermos",
+    "Peregrinos",
+    "Profesiones vinculadas tradicionalmente al cuidado y asistencia durante epidemias"
+  ],
+  "virtues": [
+    "Caridad",
+    "Servicio",
+    "Compasión",
+    "Perseverancia",
+    "Humildad",
+    "Confianza en Dios"
+  ],
+  "history": {
+    "short": "San Roque es venerado como peregrino y servidor de los enfermos. Su culto se difundió ampliamente en Europa, especialmente durante épocas de epidemias. La tradición lo presenta atendiendo a personas enfermas durante su peregrinación y siendo él mismo afectado por la enfermedad.",
+    "extended": "San Roque es uno de los santos cuya devoción se difundió ampliamente en Europa a partir de la Baja Edad Media. La tradición lo vincula con Montpellier y con una vida de peregrinación dedicada a visitar lugares santos y a servir a personas afectadas por enfermedades.\n\nLas fuentes antiguas sobre su biografía son escasas y las narraciones posteriores incorporaron numerosos elementos hagiográficos. Por eso, detalles como determinadas fechas, episodios de su peregrinación y algunos acontecimientos de su prisión deben presentarse como tradición y no como hechos históricos plenamente comprobados.\n\nLa tradición cuenta que Roque atendió a enfermos durante una epidemia en Italia y que terminó contrayendo la enfermedad. También relata que, al retirarse a un lugar apartado, recibió alimento gracias a un perro. Este episodio explica uno de los atributos más conocidos de su iconografía, pero pertenece al relato tradicional de su vida.\n\nSu culto se extendió especialmente durante las epidemias y fue invocado como intercesor por los enfermos. La Iglesia y las comunidades locales desarrollaron numerosas cofradías, iglesias y celebraciones en su honor. Su memoria se celebra el 16 de agosto.\n\nLa figura de San Roque puede contemplarse hoy como una invitación a la caridad concreta: acercarse al que sufre, cuidar a los enfermos, acompañar a quienes están solos y servir con prudencia y generosidad."
+  },
+  "quote": {
+    "text": "Estuve enfermo y me visitasteis.",
+    "reference": "Mateo 25,36; texto bíblico utilizado como eje espiritual de la novena, no como cita de San Roque."
+  },
+  "search": [
+    "san roque",
+    "roque",
+    "peregrino",
+    "enfermos",
+    "enfermedad",
+    "epidemia",
+    "epidemias",
+    "peste",
+    "perro",
+    "peregrinacion",
+    "peregrinación",
+    "caridad",
+    "hospital",
+    "hospitales",
+    "montpellier",
+    "montpeller"
+  ],
+  "interventions": [
+    {
+      "id": "enfermos",
+      "label": "Enfermos y salud",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "salud",
+        "hospital",
+        "hospitales"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "ayuda",
+        "solidaridad",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "epidemias",
+      "label": "Epidemias y comunidades",
+      "keywords": [
+        "epidemia",
+        "epidemias",
+        "peste",
+        "contagio",
+        "enfermedades infecciosas"
+      ]
+    },
+    {
+      "id": "soledad",
+      "label": "Soledad y acompañamiento",
+      "keywords": [
+        "soledad",
+        "solo",
+        "sola",
+        "acompañamiento",
+        "abandono"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinos y viajeros",
+      "keywords": [
+        "peregrino",
+        "peregrinos",
+        "peregrinacion",
+        "peregrinación",
+        "viaje",
+        "viajeros"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y cuidadores",
+      "keywords": [
+        "familia",
+        "cuidadores",
+        "cuidador",
+        "cuidadora",
+        "hogar"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en la prueba",
+      "keywords": [
+        "esperanza",
+        "prueba",
+        "sufrimiento",
+        "dolor",
+        "confianza"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio responsable",
+      "keywords": [
+        "servicio",
+        "responsabilidad",
+        "prudencia",
+        "comunidad",
+        "prevencion",
+        "prevención"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Roque, peregrino y servidor de los enfermos, enséñanos a acercarnos con caridad a quienes sufren. Ruega por los enfermos, sus familias, quienes los cuidan y todas las personas que trabajan para proteger la salud de nuestras comunidades. Amén.",
+  "closingPrayer": "San Roque, amigo de los enfermos y testigo de la caridad, intercede por nosotros. Ayúdanos a servir con prudencia, compasión y esperanza, especialmente cuando el sufrimiento y la enfermedad afectan a nuestras familias y comunidades. Amén.",
+  "intentions": [
+    "Por las personas enfermas y quienes necesitan recuperar la salud.",
+    "Por las familias que acompañan a un enfermo.",
+    "Por médicos, enfermeros, cuidadores, voluntarios y trabajadores de la salud.",
+    "Por quienes viven epidemias o enfermedades contagiosas.",
+    "Por las personas que sufren soledad durante una enfermedad.",
+    "Por quienes han perdido a un ser querido a causa de una enfermedad.",
+    "Por quienes peregrinan, viajan o viven lejos de sus familias.",
+    "Por comunidades que necesitan solidaridad ante una emergencia sanitaria.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Mateo 25,31-40",
+      "Lucas 10,25-37",
+      "Salmo 23,1-6",
+      "Salmo 41,2-4",
+      "Romanos 12,9-13"
+    ],
+    "related": [
+      "San Roque",
+      "Caridad con los enfermos",
+      "Peregrinación",
+      "Servicio comunitario"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Roque",
+      "organization": "Catholic Encyclopedia / New Advent",
+      "url": "https://www.newadvent.org/cathen/13100c.htm",
+      "type": "reference"
+    },
+    {
+      "title": "Calendario litúrgico y memoria de San Roque",
+      "organization": "Iglesia católica / fuentes litúrgicas",
+      "url": "https://www.vatican.va/content/vatican/es.html",
+      "type": "reference"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Caridad",
+      "title": "Acercarse al que sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición presenta a San Roque como peregrino y servidor de personas afectadas por enfermedades. Su memoria quedó especialmente vinculada a la caridad durante epidemias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad comienza cuando dejamos de pasar de largo ante el sufrimiento de otra persona."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién que está sufriendo podría acompañar hoy de manera concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los enfermos y por quienes se sienten solos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, enséñanos a reconocer el sufrimiento de quienes nos rodean y a responder con caridad. Amén."
+      },
+      "action": "Comunícate con una persona enferma o que esté pasando por una dificultad."
+    },
+    {
+      "day": 2,
+      "theme": "Servicio",
+      "title": "Servir con generosidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición recuerda a Roque atendiendo a enfermos durante una epidemia. Aunque los detalles concretos pertenecen a la hagiografía, su patronazgo quedó unido al cuidado de los enfermos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Servir no siempre exige grandes acciones. Muchas veces significa escuchar, acompañar o realizar una tarea que alivie la carga de otra persona."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué necesidad concreta de otra persona puedo ayudar a aliviar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por cuidadores, voluntarios y trabajadores de la salud."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, haznos disponibles para servir con generosidad y respeto. Amén."
+      },
+      "action": "Realiza hoy una tarea de servicio sin esperar reconocimiento."
+    },
+    {
+      "day": 3,
+      "theme": "Compasión",
+      "title": "No tener miedo del que sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición vincula a San Roque con la atención de personas afectadas por enfermedades contagiosas. Su figura quedó asociada a la cercanía con quienes otros podían evitar."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La compasión permite reconocer la dignidad de la persona enferma y evitar que la enfermedad se convierta también en aislamiento o abandono."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Hay personas enfermas a las que trato con distancia por temor o incomodidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren rechazo o aislamiento debido a una enfermedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, ayúdanos a mirar con respeto y compasión a quienes sufren. Amén."
+      },
+      "action": "Busca una manera prudente y segura de acompañar a alguien que atraviese una enfermedad."
+    },
+    {
+      "day": 4,
+      "theme": "Peregrinación",
+      "title": "Caminar con propósito",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Roque es venerado como peregrino. La tradición lo presenta recorriendo distintos lugares y sirviendo a los necesitados durante su camino."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual también es un camino. Cada etapa puede convertirse en ocasión para crecer, servir y acercarnos a Dios."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué aspecto de mi vida necesito seguir caminando aunque avance lentamente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por peregrinos, viajeros y personas que viven lejos de sus familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, acompaña nuestros caminos y enséñanos a convertir cada etapa en una oportunidad para el bien. Amén."
+      },
+      "action": "Dedica hoy un momento de silencio durante uno de tus desplazamientos para agradecer a Dios."
+    },
+    {
+      "day": 5,
+      "theme": "Enfermedad",
+      "title": "Acompañar en la fragilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cuenta que Roque contrajo una enfermedad mientras servía a los afectados por una epidemia. El episodio pertenece a su relato hagiográfico, pero expresa un tema central de su devoción: la cercanía con el enfermo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La enfermedad puede hacernos sentir vulnerables. Acompañar con respeto ayuda a que la persona no tenga que enfrentar sola esa fragilidad."
+      },
+      "virtue": "Acompañamiento",
+      "reflection": "¿Cómo puedo acompañar mejor a alguien que depende de otros para recibir cuidados?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos crónicos, personas dependientes y sus cuidadores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, acompaña a quienes viven una enfermedad prolongada y fortalece a quienes los cuidan. Amén."
+      },
+      "action": "Pregunta a un cuidador qué necesita y ofrece una ayuda concreta que esté a tu alcance."
+    },
+    {
+      "day": 6,
+      "theme": "Esperanza",
+      "title": "Confiar en medio de la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El culto a San Roque se fortaleció especialmente en tiempos de epidemias. Las comunidades acudían a su intercesión buscando esperanza en situaciones de gran sufrimiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no elimina la dificultad. Ayuda a afrontarla sin perder la confianza, la solidaridad ni la capacidad de actuar."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación difícil necesito poner hoy en manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedades graves o situaciones de gran incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, intercede por quienes viven pruebas difíciles y ayúdanos a mantener la esperanza. Amén."
+      },
+      "action": "Escribe una preocupación y acompáñala con una acción concreta que puedas realizar responsablemente."
+    },
+    {
+      "day": 7,
+      "theme": "Comunidad",
+      "title": "Cuidarnos unos a otros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción a San Roque se desarrolló en numerosas comunidades afectadas por epidemias. Su memoria quedó vinculada a la protección y al cuidado comunitario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Ante una enfermedad o emergencia, el cuidado de la comunidad requiere responsabilidad personal y solidaridad."
+      },
+      "virtue": "Solidaridad",
+      "reflection": "¿Qué puedo hacer para contribuir al bienestar de mi comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las comunidades que enfrentan enfermedades, emergencias o situaciones de vulnerabilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, ruega por nuestras comunidades y ayúdanos a cuidarnos con responsabilidad y solidaridad. Amén."
+      },
+      "action": "Cumple hoy una acción concreta de prevención o cuidado que beneficie también a otras personas."
+    },
+    {
+      "day": 8,
+      "theme": "Humildad",
+      "title": "Servir sin buscar reconocimiento",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La figura de San Roque ha sido venerada como ejemplo de peregrinación y servicio. Su devoción invita a poner la atención en la persona que necesita ayuda, no en quien presta el servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La humildad permite servir sin convertir la ayuda en una forma de protagonismo."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Busco reconocimiento cuando ayudo a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven silenciosamente a los enfermos y necesitados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, enséñanos a servir con humildad y a buscar primero el bien de quienes necesitan nuestra ayuda. Amén."
+      },
+      "action": "Haz hoy una buena obra de manera discreta."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Una vida puesta al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Roque continúa siendo invocado por los enfermos y por comunidades que enfrentan epidemias. Su memoria resume una espiritualidad de peregrinación, caridad y servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción a San Roque puede llevarnos a una decisión concreta: estar más atentos al sufrimiento y responder con caridad, prudencia y esperanza."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso de servicio quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante la novena y por quienes sufren a causa de la enfermedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Roque, peregrino y servidor de los enfermos, intercede por nosotros y enséñanos a vivir una fe que se transforme en servicio. Amén."
+      },
+      "action": "Elige una obra concreta de servicio o acompañamiento que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
