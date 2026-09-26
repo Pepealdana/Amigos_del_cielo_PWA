@@ -1,0 +1,443 @@
+{
+  "id": "san-luis-gonzaga",
+  "name": "San Luis Gonzaga",
+  "title": "Joven jesuita y testigo de caridad",
+  "feast": {
+    "day": 21,
+    "month": 6,
+    "text": "21 de junio",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "image": "assets/images/santos/san_luis_gonzaga.webp",
+  "groups": [
+    "devocion-extendida",
+    "jovenes"
+  ],
+  "territorial": {
+    "origin": [
+      "IT"
+    ],
+    "historicalLinks": [
+      "IT"
+    ],
+    "specialDevotion": [
+      "IT"
+    ]
+  },
+  "patronages": [
+    "Juventud católica",
+    "Estudiantes",
+    "Jóvenes religiosos",
+    "Personas que trabajan con jóvenes"
+  ],
+  "virtues": [
+    "Pureza",
+    "Caridad",
+    "Disciplina",
+    "Oración",
+    "Humildad",
+    "Servicio",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Luis Gonzaga nació en 1568 en Castiglione delle Stiviere, Italia, en una familia noble. Renunció a los privilegios de su condición, ingresó en la Compañía de Jesús y murió en Roma en 1591 después de atender a enfermos durante una epidemia. Fue canonizado en 1726 y proclamado patrono de la juventud católica.",
+    "extended": "Luis Gonzaga nació el 9 de marzo de 1568 en Castiglione delle Stiviere, en una familia de la nobleza italiana. Desde pequeño recibió una educación propia de su condición social, pero desarrolló una intensa vida de oración y un fuerte deseo de entregar su vida a Dios.\n\nA los nueve años hizo voto privado de castidad. Durante su adolescencia fue enviado a varias cortes italianas y españolas, experiencias que le permitieron conocer de cerca el ambiente de la nobleza. Sin embargo, decidió renunciar a sus derechos y bienes familiares para seguir la vida religiosa.\n\nEn 1585 ingresó en la Compañía de Jesús en Roma. Allí profundizó en los estudios, la oración y el servicio. Su vida religiosa estuvo marcada por una disciplina exigente y por el deseo de crecer en el amor a Dios y al prójimo.\n\nEn 1591 Roma sufrió una epidemia. Luis colaboró en la atención de enfermos y necesitados. Después de haber atendido a una persona enferma, contrajo la enfermedad. Su estado se agravó y murió el 21 de junio de 1591, con 23 años.\n\nFue beatificado en 1605 por el papa Pablo V y canonizado por Benedicto XIII en 1726. En 1729 fue proclamado patrono de los estudiantes y, posteriormente, Pío XI lo declaró patrono de la juventud católica. Su memoria litúrgica se celebra el 21 de junio."
+  },
+  "quote": {
+    "text": "¿De qué sirve ganar el mundo entero, si se pierde el alma?",
+    "reference": "Cf. Marcos 8,36; formulación tradicional asociada a la espiritualidad de San Luis Gonzaga. No se presenta como cita documental literal."
+  },
+  "search": [
+    "san luis gonzaga",
+    "luis gonzaga",
+    "luigi gonzaga",
+    "gonzaga",
+    "castiglione",
+    "jesuita",
+    "compañia de jesus",
+    "compañía de jesús",
+    "joven",
+    "juventud",
+    "estudiantes",
+    "roma",
+    "epidemia",
+    "enfermos",
+    "caridad",
+    "pureza",
+    "oracion",
+    "oración"
+  ],
+  "interventions": [
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y discernimiento",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "juventud",
+        "adolescentes",
+        "estudiantes",
+        "vocacion",
+        "vocación",
+        "discernimiento"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "eucaristia",
+        "eucaristía",
+        "confesion",
+        "confesión",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "servir",
+        "pobres",
+        "necesitados",
+        "enfermos",
+        "ayuda"
+      ]
+    },
+    {
+      "id": "pureza",
+      "label": "Pureza y dominio propio",
+      "keywords": [
+        "pureza",
+        "castidad",
+        "dominio propio",
+        "tentacion",
+        "tentación",
+        "virtud"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "jesuita",
+        "religioso",
+        "religiosa",
+        "consagrada",
+        "seminario"
+      ]
+    },
+    {
+      "id": "estudios",
+      "label": "Estudio y responsabilidad",
+      "keywords": [
+        "estudio",
+        "estudios",
+        "estudiante",
+        "educacion",
+        "educación",
+        "universidad",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y epidemias",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "epidemia",
+        "pandemia",
+        "hospital",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y decisiones",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "decisiones",
+        "renuncia",
+        "discernimiento"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Luis Gonzaga, joven que entregaste tu vida a Dios y al servicio de los demás, ayúdanos a vivir nuestra juventud y nuestras responsabilidades con fe, disciplina y caridad. Enséñanos a discernir nuestras decisiones y a reconocer a Cristo en quienes necesitan ayuda. Presentamos nuestras intenciones ante el Señor. Amén.",
+  "closingPrayer": "San Luis Gonzaga, patrono de la juventud católica, intercede por los jóvenes, estudiantes y familias. Enséñanos a vivir con un corazón limpio, a estudiar y trabajar con responsabilidad y a servir a quienes sufren. Ruega para que sepamos descubrir nuestra vocación y responder a ella con generosidad. Amén.",
+  "intentions": [
+    "Por los jóvenes que buscan su vocación.",
+    "Por estudiantes que atraviesan dificultades académicas o personales.",
+    "Por familias que acompañan a sus hijos en decisiones importantes.",
+    "Por quienes luchan con hábitos o situaciones que afectan su libertad interior.",
+    "Por enfermos y personas que los cuidan.",
+    "Por jóvenes que desean vivir su fe en ambientes difíciles.",
+    "Por sacerdotes, religiosos y formadores de jóvenes.",
+    "Por quienes se sienten solos o sin orientación.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Marcos 8,34-38",
+      "Mateo 5,1-12",
+      "Juan 15,9-17",
+      "1 Corintios 6,19-20",
+      "Filipenses 3,7-14"
+    ],
+    "related": [
+      "Compañía de Jesús",
+      "Castiglione delle Stiviere",
+      "Roma",
+      "Juventud católica",
+      "Estudiantes"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Luis Gonzaga",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2009/documents/hf_ben-xvi_aud_20090603.html",
+      "type": "official"
+    },
+    {
+      "title": "San Luis Gonzaga",
+      "organization": "Jesuitas",
+      "url": "https://www.jesuits.global/es/saint-blessed/san-luis-gonzaga/",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Juventud",
+      "title": "Vivir con propósito",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Luis Gonzaga nació en una familia noble y desde muy joven desarrolló una intensa vida espiritual. Sus decisiones posteriores mostraron que buscaba orientar su vida hacia Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La juventud no es solamente una etapa de preparación para el futuro. También es un tiempo real de decisiones, servicio y crecimiento en la fe."
+      },
+      "virtue": "Propósito",
+      "reflection": "¿Qué quiero construir con mi vida y qué lugar ocupa Dios en ese proyecto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los jóvenes que buscan sentido y dirección para su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, acompaña a los jóvenes para que descubran el valor de su vida y sepan orientarla hacia el bien. Amén."
+      },
+      "action": "Escribe una meta buena que quieras cultivar durante este año y un paso concreto para avanzar hacia ella."
+    },
+    {
+      "day": 2,
+      "theme": "Discernimiento",
+      "title": "Elegir con libertad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Luis tuvo que tomar decisiones importantes frente a las expectativas de su familia y a las posibilidades que le ofrecía su posición social. Finalmente eligió ingresar en la Compañía de Jesús."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Discernir no significa actuar impulsivamente. Supone reconocer los propios deseos, escuchar consejos, orar y evaluar las consecuencias de las decisiones."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Qué decisión importante necesito llevar a la oración y considerar con serenidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes y familias que enfrentan decisiones sobre estudios, trabajo, relaciones o vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, ayúdanos a discernir con libertad, prudencia y confianza en Dios. Amén."
+      },
+      "action": "Antes de tomar una decisión importante, escribe sus consecuencias y preséntalas a Dios en oración."
+    },
+    {
+      "day": 3,
+      "theme": "Oración",
+      "title": "Cuidar la vida interior",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Luis estuvo marcada por la oración y la vida sacramental. En la Compañía de Jesús profundizó su relación con Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vida exteriormente ocupada necesita una vida interior que le dé dirección. La oración permite revisar nuestras motivaciones y mantenernos orientados hacia el bien."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio real ocupa la oración en mi rutina?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes quieren comenzar o recuperar una vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, enséñanos a buscar a Dios cada día y a cuidar nuestra vida interior. Amén."
+      },
+      "action": "Dedica hoy diez minutos a la oración sin teléfono ni otras distracciones."
+    },
+    {
+      "day": 4,
+      "theme": "Pureza",
+      "title": "Cuidar el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición sobre Luis destaca su decisión de vivir la castidad desde muy joven y su deseo de mantener una vida interior ordenada."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La virtud de la pureza implica aprender a integrar afectos, deseos y relaciones desde el respeto a la propia dignidad y a la de los demás."
+      },
+      "virtue": "Pureza",
+      "reflection": "¿Qué hábitos necesito ordenar para vivir con mayor libertad interior y respeto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que enfrentan presiones, adicciones digitales o dificultades para vivir relaciones sanas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, ayúdanos a cuidar nuestros pensamientos, afectos y decisiones con libertad y responsabilidad. Amén."
+      },
+      "action": "Revisa hoy un hábito digital o de entretenimiento que quieras ordenar y establece un límite concreto."
+    },
+    {
+      "day": 5,
+      "theme": "Estudio",
+      "title": "Estudiar con responsabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Luis recibió una formación intelectual amplia y, como jesuita, continuó sus estudios en Roma. Su vida muestra que la búsqueda de Dios no está separada del esfuerzo por aprender."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Estudiar con responsabilidad es una forma de desarrollar los dones recibidos y prepararse para servir mejor a los demás."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Cómo puedo aprovechar mejor mis oportunidades de estudio y formación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, profesores y jóvenes que necesitan perseverancia en sus procesos educativos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, ayúdanos a estudiar con disciplina y a utilizar nuestros conocimientos para el bien. Amén."
+      },
+      "action": "Dedica hoy un tiempo de estudio concentrado sin distracciones."
+    },
+    {
+      "day": 6,
+      "theme": "Caridad",
+      "title": "Servir al que sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante la epidemia de Roma de 1591, Luis colaboró en la atención de enfermos. Después de atender a una persona enferma, contrajo la enfermedad que terminó causando su muerte."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana se hace concreta cuando reconocemos una necesidad y actuamos. También exige prudencia y responsabilidad para proteger la vida."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona necesita hoy una ayuda concreta de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, cuidadores, profesionales de la salud y personas que sirven en situaciones de emergencia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, ruega por los enfermos y enséñanos a servir con caridad y prudencia. Amén."
+      },
+      "action": "Realiza hoy una acción concreta de cuidado o ayuda hacia una persona que lo necesite."
+    },
+    {
+      "day": 7,
+      "theme": "Renuncia",
+      "title": "Vivir con libertad frente a los bienes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Luis renunció a sus derechos y privilegios familiares para ingresar en la vida religiosa. Su decisión estuvo vinculada a una búsqueda de libertad para seguir su vocación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El desprendimiento no significa despreciar los bienes. Significa evitar que el dinero, el estatus o las comodidades se conviertan en el centro de nuestra vida."
+      },
+      "virtue": "Desprendimiento",
+      "reflection": "¿Qué cosa o reconocimiento tiene demasiado peso en mis decisiones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven preocupados por el éxito, el dinero o la aprobación de los demás."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, ayúdanos a usar los bienes con responsabilidad y a mantener libre el corazón. Amén."
+      },
+      "action": "Renuncia hoy a un gasto o comodidad innecesaria y destina ese recurso a una necesidad concreta."
+    },
+    {
+      "day": 8,
+      "theme": "Perseverancia",
+      "title": "Mantenerse fiel en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La enfermedad que contrajo durante su servicio a los enfermos llevó a Luis a una larga etapa de sufrimiento antes de morir en 1591."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia no elimina la fragilidad. Consiste en permanecer fieles al bien posible, aceptar ayuda y afrontar las dificultades con esperanza."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué dificultad necesito afrontar sin abandonar aquello que considero bueno?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedades, tratamientos prolongados o situaciones de cansancio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, acompaña a quienes sufren y ayúdanos a perseverar con esperanza. Amén."
+      },
+      "action": "Ofrece hoy una oración o mensaje de apoyo a alguien que atraviese una dificultad."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Poner la vida al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Luis murió con 23 años después de una vida breve pero intensamente orientada a Dios y al servicio. La Iglesia lo reconoció como patrono de la juventud católica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fecundidad de una vida no se mide solamente por su duración. Cada etapa puede ser ocasión de amar, aprender y servir."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso concreto quiero asumir para vivir mi juventud o mi etapa actual con mayor sentido?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los jóvenes y por quienes los acompañan en su crecimiento humano y espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Luis Gonzaga, patrono de la juventud católica, intercede por nosotros para que vivamos con fe, responsabilidad, caridad y libertad interior. Amén."
+      },
+      "action": "Elige un compromiso concreto de servicio, estudio u oración para mantener después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
