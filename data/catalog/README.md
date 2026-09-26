@@ -40,9 +40,9 @@ La dimensión territorial **contextualiza y no limita la devoción**. Un santo o
 
 Cada registro de Santos, María y Devociones utiliza:
 
-- `territorial.origin`: lugar o país de origen de la persona, tradición o advocación, cuando corresponde.
-- `territorial.historicalLinks`: países con un vínculo histórico relevante.
-- `territorial.specialDevotion`: países donde existe una relación devocional o reconocimiento particular que se ha decidido registrar.
+- `territorial.origin`: lugar o país de nacimiento/origen histórico de la persona, o lugar de origen documentado de la tradición o advocación. **No debe confundirse con nacionalidad cultural, lugar de residencia posterior o lugar donde se veneran sus reliquias.**
+- `territorial.historicalLinks`: países donde la vida, misión, muerte, obra, institución fundada, santuario o culto histórico del contenido tenga un vínculo relevante y documentado.
+- `territorial.specialDevotion`: países donde exista una relación devocional especialmente arraigada y documentable. Una devoción popular aislada no basta.
 
 Los campos pueden contener códigos ISO de países que no forman parte del filtro hispanohablante; por ejemplo, el origen histórico de un santo puede estar fuera de Hispanoamérica.
 
