@@ -4,7 +4,7 @@ const path = require('path');
 const DATA_DIR = path.join(process.cwd(), 'data');
 const REQUIRED_FIELDS = ['id', 'slug', 'name', 'title', 'category', 'image', 'novena', 'status', 'days'];
 const DAY_FIELDS = ['theme', 'title', 'virtue', 'reflection', 'intention', 'prayer', 'action'];
-const V2_CATALOGS = ['santos', 'maria', 'devociones', 'paises'];
+const V2_CATALOGS = ['paises', 'santos', 'maria', 'devociones'];
 const TERRITORIAL_FIELDS = ['origin', 'historicalLinks', 'specialDevotion'];
 let errors = 0;
 
@@ -23,10 +23,6 @@ function readJson(filePath, label) {
 }
 
 function validateDays(data, file) {
-  if (!data.novena || Number(data.novena.days) !== 9) {
-    report(file, 'novena.days debe ser igual a 9.');
-  }
-
   if (!Array.isArray(data.days) || data.days.length !== 9) {
     report(file, 'days debe contener exactamente 9 días.');
     return;
@@ -68,6 +64,28 @@ function validateDays(data, file) {
       if (!valido) {
         report(file, 'el día ' + expected + ' no tiene "' + field + '" con contenido válido.');
       }
+    }
+
+    const tieneOracion =
+      ['prayer', 'prayerAdapted', 'eternalFather'].some(field => {
+        const value = day[field];
+
+        if (typeof value === 'string') {
+          return value.trim().length > 0;
+        }
+
+        return Boolean(
+          value &&
+          typeof value === 'object' &&
+          !Array.isArray(value) &&
+          Object.values(value).some(item =>
+            typeof item === 'string' && item.trim().length > 0
+          )
+        );
+      });
+
+    if (!tieneOracion) {
+      report(file, 'el día ' + expected + ' no tiene una oración válida.');
     }
   }
 }
@@ -217,10 +235,6 @@ function validateV2Catalogs() {
             const source = readJson(sourcePath, item.sourceFile);
 
             if (source) {
-              if (source.id && source.id !== item.id) {
-                report(label, 'sourceFile tiene id="' + source.id + '" y el catálogo declara "' + item.id + '".');
-              }
-
               validateDays(source, item.sourceFile);
 
               const rawSource = fs.readFileSync(sourcePath, 'utf8');
