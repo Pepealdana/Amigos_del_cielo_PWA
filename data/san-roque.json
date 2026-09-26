@@ -7,7 +7,7 @@
     "month": 8,
     "text": "16 de agosto",
     "movable": false,
-    "liturgicalRank": "Memoria"
+    "liturgicalRank": "Memoria libre según calendario local"
   },
   "image": "assets/images/santos/san_roque.webp",
   "groups": [
@@ -187,16 +187,22 @@
   },
   "sources": [
     {
-      "title": "San Roque",
-      "organization": "Catholic Encyclopedia / New Advent",
-      "url": "https://www.newadvent.org/cathen/13100c.htm",
-      "type": "reference"
+      "title": "Le sanctuaire Saint-Roch",
+      "organization": "Paroisse Cathédrale Montpellier",
+      "url": "https://www.cathedrale-montpellier.fr/le-sanctuaire-saint-roch/",
+      "type": "official"
     },
     {
-      "title": "Calendario litúrgico y memoria de San Roque",
-      "organization": "Iglesia católica / fuentes litúrgicas",
-      "url": "https://www.vatican.va/content/vatican/es.html",
-      "type": "reference"
+      "title": "Saint Roch",
+      "organization": "Conférence des évêques de France — Nominis",
+      "url": "https://nominis.cef.fr/contenus/saints/1678/Saint-Roch.html",
+      "type": "official"
+    },
+    {
+      "title": "XX Semana del Tiempo Ordinario — 16 de agosto",
+      "organization": "Conferencia Episcopal Española",
+      "url": "https://liturgia.conferenciaepiscopal.es/wp-content/uploads/2021/06/CLP-2015-2016.pdf",
+      "type": "official"
     }
   ],
   "days": [
