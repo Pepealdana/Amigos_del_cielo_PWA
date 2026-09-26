@@ -5987,5 +5987,52 @@
       "jesus",
       "jesús"
     ]
+  },
+  {
+    "id": "santa-teresa-de-calcuta",
+    "slug": "santa-teresa-de-calcuta",
+    "name": "Santa Teresa de Calcuta",
+    "title": "Apóstol de la misericordia y fundadora de las Misioneras de la Caridad",
+    "subtitle": "Misericordia, servicio y amor concreto",
+    "category": "Santos",
+    "image": "assets/images/santos/santa_teresa_de_calcuta.webp",
+    "file": "data/santa-teresa-de-calcuta.json",
+    "description": "Fundadora de las Misioneras de la Caridad y servidora de personas pobres, enfermas y abandonadas.",
+    "feast": {
+      "day": 5,
+      "month": 9,
+      "text": "5 de septiembre",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "fundadores"
+    ],
+    "territorial": {
+      "origin": [
+        "MK"
+      ],
+      "historicalLinks": [
+        "IN"
+      ],
+      "specialDevotion": [
+        "IN"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "santa teresa de calcuta",
+      "teresa de calcuta",
+      "madre teresa",
+      "misioneras de la caridad",
+      "calcuta",
+      "india",
+      "misericordia",
+      "caridad",
+      "pobres",
+      "servicio"
+    ]
   }
 ]
