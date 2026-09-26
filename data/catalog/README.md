@@ -56,3 +56,57 @@ Los vínculos territoriales deben incorporarse de forma conservadora y documenta
 
 El campo antiguo `countries` queda eliminado del modelo v2.1. No debe volver a utilizarse para expresar pertenencia o exclusividad territorial.
 
+
+
+## Navegación y búsqueda del catálogo
+
+La navegación principal conserva cinco accesos:
+
+- **Todos**: concentra todo el contenido publicado.
+- **Santos**: santos canonizados, con filtros temáticos cuando los registros los tengan.
+- **María**: advocaciones marianas, con filtro territorial.
+- **Novenas**: contenidos de oración de nueve días.
+- **Devociones**: devociones y expresiones de piedad que no son fichas de santos ni advocaciones.
+
+Los grupos temáticos son etiquetas no excluyentes. Un santo puede pertenecer a varios grupos. Se contemplan, entre otros:
+
+- `devocion-extendida`
+- `latinoamericanos`
+- `martires`
+- `doctores`
+- `fundadores`
+- `jovenes`
+- `franciscanos`
+- `apostoles`
+
+La interfaz solo muestra los grupos que existen en los datos de la sección activa.
+
+La búsqueda del catálogo consulta nombre, título, descripción, `tags` y `searchTerms`. Puede combinarse con el filtro territorial y con un grupo temático.
+
+Los filtros son acumulativos: **texto + país + grupo**. La clasificación principal de un registro (`santos`, `maria`, `devociones`) no se sustituye por los grupos.
+
+## Nueva ampliación de Santos
+
+La versión 2.2 registra como `pending` las nuevas novenas de la fase de ampliación. Se incorporan 19 candidatos:
+
+- San Juan Pablo II
+- San Maximiliano María Kolbe
+- Santa Mónica
+- Santa Bernardita Soubirous
+- Santa Clara de Asís
+- San Chárbel Makhlouf
+- Santa Marta de Betania
+- Santa Teresa de Calcuta
+- San Francisco Javier
+- San Luis Gonzaga
+- Santa Lucía de Siracusa
+- Santa Cecilia
+- Santa Bárbara
+- San Roque
+- San Pancracio
+- San Patricio
+- San Pedro Apóstol
+- San Pablo Apóstol
+- Santiago Apóstol
+
+**San Miguel Arcángel no se incorpora como santo canonizado**, porque pertenece a la categoría de los santos Ángeles. Su contenido ya puede mantenerse en la devoción de los Santos Arcángeles.
