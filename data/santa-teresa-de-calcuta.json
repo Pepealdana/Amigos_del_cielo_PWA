@@ -1,0 +1,440 @@
+{
+  "id": "santa-teresa-de-calcuta",
+  "name": "Santa Teresa de Calcuta",
+  "title": "Apóstol de la misericordia y fundadora de las Misioneras de la Caridad",
+  "feast": {
+    "day": 5,
+    "month": 9,
+    "text": "5 de septiembre",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "image": "assets/images/santos/santa_teresa_de_calcuta.webp",
+  "groups": [
+    "devocion-extendida",
+    "fundadores"
+  ],
+  "territorial": {
+    "origin": [
+      "MK"
+    ],
+    "historicalLinks": [
+      "IN"
+    ],
+    "specialDevotion": [
+      "IN"
+    ]
+  },
+  "patronages": [
+    "Personas pobres y abandonadas",
+    "Voluntarios y obras de misericordia",
+    "Misioneros de la Caridad"
+  ],
+  "virtues": [
+    "Misericordia",
+    "Caridad",
+    "Servicio",
+    "Humildad",
+    "Perseverancia",
+    "Compasión",
+    "Oración"
+  ],
+  "history": {
+    "short": "Gonxha Agnes Bojaxhiu nació en Skopje en 1910. Ingresó en las Hermanas de Loreto, llegó a la India y en 1950 fundó las Misioneras de la Caridad para servir a Cristo en los más pobres. Murió en Calcuta en 1997 y fue canonizada por el papa Francisco el 4 de septiembre de 2016.",
+    "extended": "Gonxha Agnes Bojaxhiu nació el 26 de agosto de 1910 en Skopje, entonces parte del Imperio otomano y hoy capital de Macedonia del Norte. De origen albanés, descubrió desde joven una llamada a la vida consagrada y en 1928 ingresó en las Hermanas de Loreto.\n\nLlegó a la India en 1929 y durante años ejerció como religiosa y maestra en Calcuta. En 1946, durante un viaje en tren, experimentó lo que describió como una llamada dentro de la llamada: dejar la enseñanza para salir al encuentro de quienes vivían en condiciones de extrema pobreza. Tras obtener los permisos eclesiales necesarios, comenzó este nuevo servicio en Calcuta.\n\nEn 1950 recibió la aprobación pontificia para la nueva congregación de las Misioneras de la Caridad. La comunidad se dedicó al servicio de personas pobres, enfermas, abandonadas y moribundas, procurando reconocer en ellas la presencia de Cristo. Con el tiempo, la congregación extendió su servicio a numerosos países.\n\nTeresa de Calcuta recibió el Premio Nobel de la Paz en 1979 y continuó dirigiendo la congregación mientras aumentaban sus comunidades y obras. Su espiritualidad estuvo marcada por la oración, la Eucaristía y la misericordia concreta hacia quienes sufrían.\n\nMurió en Calcuta el 5 de septiembre de 1997. Fue beatificada por san Juan Pablo II el 19 de octubre de 2003 y canonizada por el papa Francisco el 4 de septiembre de 2016. La Santa Sede la presenta como una figura de servicio a los más pobres y como testimonio de la misericordia cristiana."
+  },
+  "quote": {
+    "text": "No podemos hacer grandes cosas; sólo pequeñas cosas con un gran amor.",
+    "reference": "Frase ampliamente atribuida a Santa Teresa de Calcuta; la app la presenta como atribución, no como cita documental literal."
+  },
+  "search": [
+    "santa teresa de calcuta",
+    "teresa de calcuta",
+    "madre teresa",
+    "madre teresa de calcuta",
+    "teresa calcuta",
+    "gonxha bojaxhiu",
+    "agnes bojaxhiu",
+    "misioneras de la caridad",
+    "calcuta",
+    "kolkata",
+    "india",
+    "misericordia",
+    "caridad",
+    "pobres",
+    "voluntariado",
+    "servicio",
+    "enfermos"
+  ],
+  "interventions": [
+    {
+      "id": "misericordia",
+      "label": "Misericordia y caridad",
+      "keywords": [
+        "misericordia",
+        "caridad",
+        "amor",
+        "compasion",
+        "compasión",
+        "pobres"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio a los más necesitados",
+      "keywords": [
+        "servicio",
+        "servir",
+        "pobres",
+        "necesitados",
+        "abandonados",
+        "enfermos"
+      ]
+    },
+    {
+      "id": "voluntariado",
+      "label": "Voluntariado",
+      "keywords": [
+        "voluntariado",
+        "voluntario",
+        "voluntarios",
+        "ayuda",
+        "obra social"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "eucaristia",
+        "eucaristía",
+        "adoracion",
+        "adoración",
+        "jesus",
+        "jesús"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y dignidad humana",
+      "keywords": [
+        "familia",
+        "hogar",
+        "dignidad",
+        "niños",
+        "niñas"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas vulnerables",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "moribundos",
+        "discapacidad",
+        "vulnerables"
+      ]
+    },
+    {
+      "id": "mision",
+      "label": "Misión y vida consagrada",
+      "keywords": [
+        "mision",
+        "misión",
+        "misionera",
+        "religiosa",
+        "consagrada",
+        "vocacion",
+        "vocación"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "reconciliación",
+        "perdon",
+        "perdón"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Teresa de Calcuta, mujer de oración y servidora de los más necesitados, enséñanos a reconocer a Cristo en quienes sufren y a responder con misericordia concreta. Ayúdanos a servir sin buscar reconocimiento, a perseverar en las dificultades y a mantener el corazón unido a Jesús. Presentamos nuestras intenciones ante Dios. Amén.",
+  "closingPrayer": "Santa Teresa de Calcuta, intercede por nosotros para que aprendamos a amar con obras, a cuidar la dignidad de cada persona y a servir especialmente a quienes viven abandono, enfermedad o pobreza. Pide al Señor por nuestras familias, por quienes trabajan por los demás y por todos los que necesitan consuelo y esperanza. Amén.",
+  "intentions": [
+    "Por las personas que viven en pobreza o abandono.",
+    "Por los enfermos y quienes los cuidan.",
+    "Por voluntarios y personas dedicadas al servicio de los demás.",
+    "Por las familias que atraviesan dificultades económicas o sociales.",
+    "Por quienes viven soledad y falta de acompañamiento.",
+    "Por religiosos, misioneros y personas consagradas.",
+    "Por quienes necesitan descubrir nuevamente su dignidad y esperanza.",
+    "Por quienes trabajan por la paz y la reconciliación.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Mateo 25,31-46",
+      "Juan 13,1-15",
+      "1 Corintios 13,1-13",
+      "Mateo 5,1-12",
+      "1 Juan 4,7-12"
+    ],
+    "related": [
+      "Misioneras de la Caridad",
+      "Calcuta",
+      "India",
+      "Servicio a los pobres",
+      "Obras de misericordia"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Misa y Canonización de la Beata Madre Teresa de Calcuta",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2016/documents/papa-francesco_20160904_omelia-canonizzazione-madre-teresa.html",
+      "type": "official"
+    },
+    {
+      "title": "Madre Teresa de Calcuta, santa trabajadora incansable de la misericordia",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2016/09/04/calcuta.html",
+      "type": "official"
+    },
+    {
+      "title": "Canonización de Teresa de Calcuta",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2016/03/15/santos.html",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Llamada",
+      "title": "Escuchar la vocación",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Desde joven, Agnes Gonxha Bojaxhiu sintió la llamada a la vida consagrada y en 1928 ingresó en las Hermanas de Loreto."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Toda vocación cristiana requiere escucha, discernimiento y disposición para responder a Dios desde las circunstancias concretas de la vida."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué llamada al servicio o al crecimiento cristiano necesito escuchar con mayor atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan discernir su vocación y por quienes necesitan claridad para tomar decisiones importantes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñanos a escuchar a Dios y a responder con generosidad a aquello que nos pide. Amén."
+      },
+      "action": "Reserva hoy unos minutos de silencio para presentar a Dios tus decisiones y responsabilidades."
+    },
+    {
+      "day": 2,
+      "theme": "Misericordia",
+      "title": "Reconocer a Cristo en quien sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El servicio de Teresa de Calcuta se orientó especialmente hacia personas pobres, enfermas, abandonadas y marginadas. Para ella, ese servicio tenía una raíz cristiana: encontrar a Cristo en quien necesitaba ayuda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misericordia no se limita a sentir compasión. Se expresa en acciones concretas que reconocen la dignidad de la persona."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Qué necesidad concreta de otra persona puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven pobreza, abandono o exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, abre nuestros ojos para reconocer la dignidad de quienes sufren y nuestro corazón para servirlos. Amén."
+      },
+      "action": "Realiza hoy una obra de misericordia concreta."
+    },
+    {
+      "day": 3,
+      "theme": "Servicio",
+      "title": "Hacer el bien con sencillez",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1950 la Santa Sede aprobó la Congregación de las Misioneras de la Caridad, fundada por Teresa de Calcuta para servir a los más necesitados."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio cristiano comienza con lo que tenemos a nuestro alcance. No siempre requiere grandes recursos, pero sí disponibilidad y perseverancia."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué pequeño servicio puedo realizar hoy sin esperar reconocimiento?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por voluntarios, cuidadores, servidores parroquiales y todas las personas que ayudan silenciosamente."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñanos a servir con sencillez, constancia y amor. Amén."
+      },
+      "action": "Haz una tarea útil que normalmente nadie agradece."
+    },
+    {
+      "day": 4,
+      "theme": "Oración",
+      "title": "Servir desde la oración",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La misión de las Misioneras de la Caridad estuvo unida a una vida comunitaria de oración y a la Eucaristía. La acción caritativa no se planteaba separada de la relación con Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración puede sostener el servicio cuando aparecen cansancio, frustración o dificultades. También ayuda a purificar nuestras motivaciones."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Mi manera de servir nace también de una relación personal con Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a los demás y necesitan renovar sus fuerzas espirituales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, ayúdanos a unir oración y servicio para que nuestras obras nazcan del amor a Cristo. Amén."
+      },
+      "action": "Antes de una tarea importante, detente un momento para ofrecerla a Dios."
+    },
+    {
+      "day": 5,
+      "theme": "Dignidad",
+      "title": "Mirar a cada persona con respeto",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco destacó en la canonización de Teresa su defensa de la dignidad de personas pobres, abandonadas y vulnerables, así como su servicio a quienes morían solos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Ayudar a alguien no significa reducirlo a su necesidad. La caridad cristiana busca reconocer y proteger la dignidad de cada persona."
+      },
+      "virtue": "Respeto",
+      "reflection": "¿Hay personas a las que tiendo a mirar solamente desde su problema o necesidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por personas enfermas, ancianas, discapacitadas, migrantes o que viven exclusión."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, enséñanos a mirar a cada persona con respeto y a reconocer en ella una dignidad que no depende de sus circunstancias. Amén."
+      },
+      "action": "Trata hoy con especial atención y respeto a una persona que normalmente pasa desapercibida."
+    },
+    {
+      "day": 6,
+      "theme": "Perseverancia",
+      "title": "Continuar cuando cuesta",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La obra iniciada en Calcuta creció y se extendió a numerosos países. Teresa continuó al frente de su congregación durante décadas, enfrentando también dificultades personales y comunitarias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia cristiana no significa ignorar el cansancio. Significa saber descansar, pedir ayuda y continuar fielmente aquello que corresponde hacer."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué responsabilidad buena necesito sostener aunque ahora me resulte difícil?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados de cuidar, servir o luchar por una situación difícil."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, acompaña a quienes están cansados y ayúdanos a perseverar con sabiduría y esperanza. Amén."
+      },
+      "action": "Completa hoy una responsabilidad pendiente que hayas estado evitando."
+    },
+    {
+      "day": 7,
+      "theme": "Amor concreto",
+      "title": "Convertir el amor en obras",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco resumió el testimonio de Teresa señalando que la misericordia debe hacerse concreta en la realidad y que no hay alternativa a la caridad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El amor cristiano se verifica en acciones: escuchar, alimentar, acompañar, cuidar, perdonar y defender la dignidad del otro."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué obra concreta puede expresar mejor hoy el amor que digo tener por los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan una ayuda concreta y no solo buenas palabras."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, haznos capaces de transformar el amor en acciones concretas de servicio. Amén."
+      },
+      "action": "Convierte hoy una buena intención en una acción verificable."
+    },
+    {
+      "day": 8,
+      "theme": "Alegría",
+      "title": "Ser presencia de esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Santa Sede recordó la sonrisa de Teresa y su cercanía con personas que sufrían. Su servicio buscaba llevar consuelo y esperanza."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La alegría cristiana no significa negar el sufrimiento. Puede expresarse en una presencia amable que acompaña a quien atraviesa una situación difícil."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿A quién puedo ofrecer hoy una presencia que le devuelva un poco de esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven soledad, tristeza o falta de esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa, haznos instrumentos de esperanza para quienes encontramos en nuestro camino. Amén."
+      },
+      "action": "Llama o visita a alguien que pueda estar necesitando compañía."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Amar y servir hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Teresa de Calcuta murió el 5 de septiembre de 1997 después de una vida dedicada a la oración, la vida consagrada y el servicio a personas necesitadas. Fue canonizada en 2016."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad cotidiana se construye mediante pequeñas decisiones sostenidas por el amor. La entrega cristiana puede comenzar hoy, en nuestro propio entorno."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso concreto de servicio quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes necesitan experimentar misericordia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Teresa de Calcuta, intercede para que aprendamos a amar y servir con humildad, perseverancia y misericordia. Que nuestras obras acerquen a otros a Cristo. Amén."
+      },
+      "action": "Elige una obra de misericordia que puedas incorporar de forma estable a tu vida."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
