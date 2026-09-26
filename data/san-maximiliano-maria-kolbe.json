@@ -1,0 +1,464 @@
+{
+  "id": "san-maximiliano-maria-kolbe",
+  "slug": "san-maximiliano-maria-kolbe",
+  "name": "San Maximiliano María Kolbe",
+  "title": "Presbítero, mártir y franciscano conventual",
+  "subtitle": "Apóstol de la Inmaculada y testigo de la caridad",
+  "category": "Santos",
+  "image": "assets/images/santos/san_maximiliano_maria_kolbe.webp",
+  "description": "Sacerdote franciscano conventual que dedicó su apostolado a Cristo y a la Inmaculada, impulsó la evangelización y entregó su vida por otro prisionero en Auschwitz.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-maximiliano-maria-kolbe"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 14,
+    "month": 8,
+    "text": "14 de agosto",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "quote": {
+    "text": "El odio no es una fuerza creativa: lo es sólo el amor.",
+    "reference": "Expresión atribuida a san Maximiliano Kolbe y recogida por Benedicto XVI en la audiencia general del 13 de agosto de 2008."
+  },
+  "patronages": [
+    "Familias",
+    "Medios de comunicación católicos",
+    "Movimiento de la Milicia de la Inmaculada"
+  ],
+  "virtues": [
+    "Fe",
+    "Caridad",
+    "Esperanza",
+    "Oración",
+    "Fortaleza",
+    "Humildad",
+    "Servicio",
+    "Entrega",
+    "Amor a María"
+  ],
+  "search": [
+    "san maximiliano kolbe",
+    "maximiliano maria kolbe",
+    "kolbe",
+    "inmaculada",
+    "milicia de la inmaculada",
+    "franciscanos",
+    "conventuales",
+    "auschwitz",
+    "martir",
+    "misionero",
+    "japon",
+    "niepokalanow",
+    "caridad"
+  ],
+  "interventions": [
+    {
+      "id": "maria",
+      "label": "María e Inmaculada",
+      "keywords": [
+        "maria",
+        "inmaculada",
+        "virgen",
+        "devocion mariana",
+        "milicia de la inmaculada"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y entrega por los demás",
+      "keywords": [
+        "caridad",
+        "amor",
+        "entrega",
+        "servicio",
+        "prójimo",
+        "sacrificio"
+      ]
+    },
+    {
+      "id": "fe-prueba",
+      "label": "Fe en medio de la prueba",
+      "keywords": [
+        "fe",
+        "prueba",
+        "persecucion",
+        "sufrimiento",
+        "esperanza",
+        "auschwitz"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "sacerdote",
+        "religioso",
+        "franciscano",
+        "consagracion"
+      ]
+    },
+    {
+      "id": "evangelizacion",
+      "label": "Evangelización y misión",
+      "keywords": [
+        "evangelizacion",
+        "apostolado",
+        "mision",
+        "prensa",
+        "medios",
+        "japon"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y acompañamiento",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "familias",
+        "acompanamiento"
+      ]
+    },
+    {
+      "id": "martirio",
+      "label": "Martirio y testimonio cristiano",
+      "keywords": [
+        "martirio",
+        "martir",
+        "testimonio",
+        "muerte",
+        "persecucion"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Perdón y paz",
+      "keywords": [
+        "perdon",
+        "paz",
+        "reconciliacion",
+        "odio",
+        "violencia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Rajmund Kolbe nació en Zduńska Wola, Polonia, el 8 de enero de 1894. Ingresó a los Frailes Menores Conventuales, estudió en Roma y fue ordenado sacerdote en 1918. En 1917 fundó en Roma la Milicia de la Inmaculada. Desarrolló un amplio apostolado de evangelización mediante publicaciones y fundó Niepokalanów, la Ciudad de la Inmaculada, en Polonia. En 1930 fue enviado a Japón, donde fundó otro centro de apostolado. Arrestado por la Gestapo en 1941, fue deportado a Auschwitz. Allí ofreció su vida a cambio de la de un prisionero condenado a morir de hambre. Murió el 14 de agosto de 1941 y fue canonizado por Juan Pablo II el 10 de octubre de 1982.",
+    "extended": "Rajmund Kolbe nació el 8 de enero de 1894 en Zduńska Wola, cerca de Łódź, en la Polonia central. En 1907 ingresó al seminario de los Frailes Menores Conventuales en Leópolis y en 1910 comenzó el noviciado, tomando el nombre religioso de Maximiliano. Entre 1912 y 1919 permaneció en Roma para completar su formación. Estudió filosofía y teología y fue ordenado sacerdote el 28 de abril de 1918.\n\nDurante su estancia en Roma, el 16 de octubre de 1917, fundó junto con otros frailes la Milicia de la Inmaculada, orientada a la conversión y santificación de las personas y al apostolado bajo la protección de María. De regreso en Polonia impulsó publicaciones católicas y en 1927 fundó Niepokalanów, la Ciudad de la Inmaculada, que se convirtió en un importante centro religioso y editorial. En 1930 viajó a Japón y fundó allí otro centro de apostolado mariano y evangelizador.\n\nLa Segunda Guerra Mundial interrumpió su actividad. Después de varios arrestos, fue deportado a Auschwitz en mayo de 1941. En julio de ese año, tras la fuga de un prisionero, las autoridades del campo escogieron a diez hombres para morir de hambre como represalia. Cuando uno de ellos, Franciszek Gajowniczek, expresó su preocupación por su esposa e hijos, Kolbe salió de la fila y pidió ocupar su lugar. La propuesta fue aceptada. En el búnker del hambre acompañó a los condenados con oración y cantos y sobrevivió a los demás. El 14 de agosto de 1941 fue asesinado mediante una inyección de ácido fénico.\n\nFue beatificado por Pablo VI en 1971 como confesor de la fe y canonizado por Juan Pablo II el 10 de octubre de 1982 como mártir de la caridad. La Iglesia celebra su memoria el 14 de agosto. Su vida está inseparablemente vinculada al amor a Cristo, a la Inmaculada, al carisma franciscano, a la evangelización y a la entrega por el prójimo."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Maximiliano María Kolbe, sacerdote franciscano y mártir de la caridad, acompáñame durante estos nueve días. Enséñame a amar a Cristo, a caminar con María, a servir al prójimo y a mantener la esperanza en medio de las pruebas. Presento ante el Señor la intención que llevo en mi corazón. Amén.",
+  "closingPrayer": "San Maximiliano María Kolbe, intercede por nosotros. Ayúdanos a crecer en el amor a Cristo y a María, a servir con generosidad, a perdonar, a mantener la esperanza en las dificultades y a reconocer en cada persona un hermano. Que tu testimonio nos enseñe a responder al odio con el amor y a entregar nuestra vida al bien. Amén.",
+  "intentions": [
+    "Por las familias y quienes desean proteger y servir a sus seres queridos.",
+    "Por quienes sufren persecución, violencia, guerra o injusticia.",
+    "Por sacerdotes, religiosos y religiosas que viven su vocación con entrega.",
+    "Por quienes trabajan en la evangelización y en los medios de comunicación.",
+    "Por jóvenes que buscan discernir su vocación.",
+    "Por quienes están atravesando pruebas y necesitan esperanza.",
+    "Por quienes tienen dificultades para perdonar y necesitan reconciliación.",
+    "Por la paz y por quienes trabajan para construirla.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Juan 15,12-13"
+      },
+      {
+        "reference": "Lucas 1,26-38"
+      },
+      {
+        "reference": "Romanos 8,31-39"
+      },
+      {
+        "reference": "Mateo 5,43-48"
+      }
+    ],
+    "documents": [
+      "Ad Caeli Regnum",
+      "Escritos de san Maximiliano Kolbe"
+    ],
+    "related": [
+      "San Francisco de Asís",
+      "Frailes Menores Conventuales",
+      "Milicia de la Inmaculada"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Maximiliano María Kolbe — Biografía para la canonización",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19821010_massimiliano_kolbe_it.html",
+      "type": "official"
+    },
+    {
+      "title": "Canonización de san Maximiliano María Kolbe — 10 de octubre de 1982",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1982/documents/hf_jp-ii_hom_19821010_canonizzazione-kolbe.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía en Auschwitz-Birkenau — 7 de junio de 1979",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1979/documents/hf_jp-ii_hom_19790607_polonia-brzezinka.html",
+      "type": "official"
+    },
+    {
+      "title": "Audiencia general sobre Edith Stein y Maximiliano Kolbe — 13 de agosto de 2008",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080813.html",
+      "type": "official"
+    },
+    {
+      "title": "A los miembros de la Milicia de la Inmaculada — 18 de octubre de 1981",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1981/october/documents/hf_jp-ii_spe_19811018_milizia-immacolata.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La llamada",
+      "title": "Responder a Dios con generosidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Desde adolescente, Rajmund Kolbe descubrió la llamada a la vida franciscana. En 1910 comenzó el noviciado y recibió el nombre de Maximiliano; su formación religiosa y sacerdotal se desarrolló en Polonia y Roma."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación necesita tiempo, formación y acompañamiento. La generosidad cristiana comienza aprendiendo a escuchar y discernir."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué llamado al bien necesito tomar más en serio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan discernir su vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, acompaña a quienes buscan su camino. Enséñanos a escuchar a Dios y a responder con generosidad. Amén."
+      },
+      "action": "Escribe una decisión que estés discerniendo y un paso responsable que puedas dar."
+    },
+    {
+      "day": 2,
+      "theme": "La Inmaculada",
+      "title": "Caminar con María hacia Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El amor a la Inmaculada fue el centro de la espiritualidad de Kolbe. En Roma, en 1917, fundó con otros frailes la Milicia de la Inmaculada para promover la conversión y el apostolado."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción mariana auténtica conduce hacia Cristo y nos dispone a acoger la voluntad de Dios con mayor confianza."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Cómo puedo aprender de María a responder a Dios con mayor disponibilidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean crecer en la vida cristiana y en el amor a María."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, enséñanos a caminar con María hacia Cristo y a vivir nuestra fe con fidelidad. Amén."
+      },
+      "action": "Reza hoy una decena del Rosario meditando un misterio de Cristo."
+    },
+    {
+      "day": 3,
+      "theme": "Evangelización",
+      "title": "Usar los dones para anunciar el Evangelio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Kolbe utilizó la prensa y otros medios para desarrollar su apostolado. En Polonia impulsó el periódico El Caballero de la Inmaculada y fundó Niepokalanów, un centro de vida religiosa y evangelización."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los medios y talentos de cada época pueden ponerse al servicio del Evangelio cuando se utilizan con responsabilidad y verdad."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué talento o recurso puedo poner al servicio de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por evangelizadores, comunicadores, catequistas y quienes anuncian la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, ayúdanos a utilizar nuestros talentos para comunicar el bien, la verdad y la esperanza. Amén."
+      },
+      "action": "Utiliza hoy una capacidad tuya para ayudar concretamente a otra persona."
+    },
+    {
+      "day": 4,
+      "theme": "La misión",
+      "title": "Salir al encuentro de otros pueblos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En 1930 Kolbe viajó a Japón, donde fundó un centro de apostolado y continuó su labor de evangelización. Su misión muestra la dimensión universal de su vocación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misión cristiana exige apertura a otras culturas, disposición para aprender y capacidad de servir sin convertir las diferencias en barreras."
+      },
+      "virtue": "Apertura",
+      "reflection": "¿Qué prejuicio o barrera necesito superar para encontrarme mejor con otras personas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros y por los pueblos que reciben el anuncio del Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, intercede por quienes sirven lejos de su tierra. Danos un corazón abierto y dispuesto al encuentro. Amén."
+      },
+      "action": "Acércate hoy con respeto a alguien cuya historia o cultura sea diferente de la tuya."
+    },
+    {
+      "day": 5,
+      "theme": "La prueba",
+      "title": "Permanecer fiel cuando llegan las dificultades",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La guerra y la persecución interrumpieron el apostolado de Kolbe. Fue arrestado y finalmente deportado a Auschwitz, donde continuó acompañando a otros prisioneros como sacerdote."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dificultad puede poner a prueba nuestras convicciones. La fidelidad se construye manteniendo el bien incluso cuando hacerlo tiene un costo."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad está poniendo a prueba mi manera de vivir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren persecución, violencia, guerra o injusticia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, acompaña a quienes sufren. Pide para ellos fortaleza, ayuda y esperanza, y enséñanos a no permanecer indiferentes ante el dolor. Amén."
+      },
+      "action": "Busca una manera prudente y concreta de ayudar a alguien que esté pasando por una dificultad."
+    },
+    {
+      "day": 6,
+      "theme": "La caridad",
+      "title": "Dar la vida por el hermano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Auschwitz, después de que se escogieran diez prisioneros para morir de hambre como represalia por la fuga de uno de ellos, Kolbe pidió ocupar el lugar de Franciszek Gajowniczek, un hombre que había expresado su preocupación por su familia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana no es una idea abstracta: se expresa en decisiones concretas que buscan el bien del otro."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué persona concreta necesita hoy de mi tiempo, atención o ayuda?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias y por quienes viven situaciones de violencia o injusticia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, enséñanos a reconocer al prójimo como hermano y a responder con amor cuando alguien necesita nuestra ayuda. Amén."
+      },
+      "action": "Realiza hoy un servicio concreto sin esperar reconocimiento."
+    },
+    {
+      "day": 7,
+      "theme": "El perdón",
+      "title": "Responder al mal sin reproducirlo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Auschwitz, Kolbe sufrió las mismas condiciones que los demás prisioneros y, según el testimonio de la Iglesia, acompañó, rezó y fortaleció a quienes compartían su sufrimiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El perdón cristiano no niega la injusticia ni elimina la necesidad de buscar justicia. Impide que el odio se convierta en la respuesta que gobierne nuestro corazón."
+      },
+      "virtue": "Perdón",
+      "reflection": "¿Qué resentimiento necesito presentar ante Dios para comenzar a liberarme de él?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen heridas profundas y necesitan un camino de reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, ayúdanos a no devolver el mal con más mal. Danos sabiduría para buscar la justicia y libertad interior para perdonar. Amén."
+      },
+      "action": "Evita hoy una respuesta impulsiva nacida del resentimiento y busca una forma responsable de afrontar el conflicto."
+    },
+    {
+      "day": 8,
+      "theme": "La esperanza",
+      "title": "Orar cuando todo parece perdido",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En el búnker del hambre, Kolbe acompañó a los demás condenados con oración y cantos. Su testimonio fue presentado por la Iglesia como una expresión de fe y esperanza en medio de una situación humanamente desesperada."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no depende de que las circunstancias sean favorables. Puede sostenernos cuando no vemos una salida inmediata."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Dónde necesito recuperar la esperanza y pedir ayuda?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan situaciones que parecen no tener salida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano, intercede por quienes han perdido la esperanza. Enséñanos a confiar en Dios y a buscar también la ayuda que necesitamos. Amén."
+      },
+      "action": "Comparte una palabra de esperanza con alguien que esté atravesando una prueba."
+    },
+    {
+      "day": 9,
+      "theme": "El legado",
+      "title": "Amar hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Kolbe murió el 14 de agosto de 1941 y fue canonizado por Juan Pablo II en 1982 como mártir de la caridad. Su vida reúne oración, misión, amor a María, vocación franciscana y entrega por el prójimo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se expresa en una vida concreta: amar a Dios, servir al prójimo y permanecer fieles al bien hasta el final."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué actitud concreta quiero llevar conmigo después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por la intención particular de cada persona que la reza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Maximiliano María Kolbe, intercede por nosotros. Enséñanos a amar a Cristo, caminar con María, servir al prójimo y mantener la esperanza en las pruebas. Que nunca permitamos que el odio tenga la última palabra en nuestro corazón. Amén."
+      },
+      "action": "Elige una obra concreta de caridad o servicio que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
