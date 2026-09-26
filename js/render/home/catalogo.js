@@ -240,7 +240,7 @@ function renderFiltrosPais(paisSeleccionado, catalogo = []) {
 
 function renderBusquedaCatalogo(valor = "") {
     return `
-        <div class="catalog-search">
+        <form class="catalog-search" id="catalog-search-form">
             <label for="catalog-search-input">Buscar en este catálogo</label>
             <div class="catalog-search-box">
                 <span aria-hidden="true">⌕</span>
@@ -251,8 +251,9 @@ function renderBusquedaCatalogo(valor = "") {
                     placeholder="Busca por nombre, título o palabra clave"
                     autocomplete="off"
                     spellcheck="false">
+                <button type="submit" class="catalog-search-submit">Buscar</button>
             </div>
-        </div>
+        </form>
     `;
 }
 
