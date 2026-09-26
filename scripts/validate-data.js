@@ -3,7 +3,7 @@ const path = require('path');
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const REQUIRED_FIELDS = ['id', 'slug', 'name', 'title', 'category', 'image', 'novena', 'status', 'days'];
-const DAY_FIELDS = ['theme', 'title', 'virtue', 'reflection', 'intention', 'prayer', 'action'];
+const DAY_FIELDS = ['theme', 'title', 'virtue', 'reflection', 'intention', 'action'];
 const V2_CATALOGS = ['paises', 'santos', 'maria', 'devociones'];
 const TERRITORIAL_FIELDS = ['origin', 'historicalLinks', 'specialDevotion'];
 let errors = 0;
@@ -91,47 +91,6 @@ function validateDays(data, file) {
 }
 
 function validateLegacyRootFiles() {
-  const files = fs.readdirSync(DATA_DIR)
-    .filter(file => file.endsWith('.json') && file !== 'novenas.json')
-    .sort();
-
-  if (!files.length) {
-    report('data/', 'no se encontraron archivos JSON de novenas.');
-    return;
-  }
-
-  for (const file of files) {
-    const fullPath = path.join(DATA_DIR, file);
-    const raw = fs.readFileSync(fullPath, 'utf8');
-    const data = readJson(fullPath, file);
-
-    if (!data) continue;
-
-    for (const field of REQUIRED_FIELDS) {
-      if (!(field in data)) {
-        report(file, 'falta el campo requerido "' + field + '".');
-      }
-    }
-
-    validateDays(data, file);
-
-    if (data.history) {
-      for (const field of ['short', 'extended']) {
-        if (typeof data.history[field] !== 'string' || !data.history[field].trim()) {
-          report(file, 'history.' + field + ' está vacío o no es texto.');
-        }
-      }
-    }
-
-    if (raw.includes('\\\\n')) {
-      report(file, 'contiene saltos de línea doblemente escapados (\\\\n).');
-    }
-
-    if (raw.includes('cite')) {
-      report(file, 'contiene un marcador de citación interno que no debe estar en los datos.');
-    }
-  }
-
   const catalogPath = path.join(DATA_DIR, 'novenas.json');
   const catalog = readJson(catalogPath, 'novenas.json');
 
@@ -154,10 +113,41 @@ function validateLegacyRootFiles() {
 
     ids.add(item.id);
 
-    const referenced = path.join(process.cwd(), item.file.replace(/^\.\//, ''));
+    const relativePath = item.file.replace(/^\.\//, '');
+    const referenced = path.join(process.cwd(), relativePath);
 
     if (!fs.existsSync(referenced)) {
       report('novenas.json', 'archivo no encontrado: ' + item.file + '.');
+      continue;
+    }
+
+    const data = readJson(referenced, item.file);
+    if (!data) continue;
+
+    for (const field of REQUIRED_FIELDS) {
+      if (!(field in data)) {
+        report(item.file, 'falta el campo requerido "' + field + '".');
+      }
+    }
+
+    validateDays(data, item.file);
+
+    if (data.history) {
+      for (const field of ['short', 'extended']) {
+        if (typeof data.history[field] !== 'string' || !data.history[field].trim()) {
+          report(item.file, 'history.' + field + ' está vacío o no es texto.');
+        }
+      }
+    }
+
+    const raw = fs.readFileSync(referenced, 'utf8');
+
+    if (raw.includes('\\\\n')) {
+      report(item.file, 'contiene saltos de línea doblemente escapados (\\\\n).');
+    }
+
+    if (raw.includes('cite')) {
+      report(item.file, 'contiene un marcador de citación interno que no debe estar en los datos.');
     }
   }
 }
