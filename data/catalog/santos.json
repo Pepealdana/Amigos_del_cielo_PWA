@@ -1317,10 +1317,10 @@
     {
       "id": "santa-cecilia",
       "name": "Santa Cecilia",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santa-cecilia.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "martires"
@@ -1330,7 +1330,9 @@
         "historicalLinks": [
           "IT"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
