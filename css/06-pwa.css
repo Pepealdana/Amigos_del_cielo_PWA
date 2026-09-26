@@ -237,6 +237,31 @@ body::before{
     margin-bottom:1.15rem;
 }
 
+.saint-of-day-placeholder{
+    width:min(72vw,280px);
+    aspect-ratio:4 / 5;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:1.15rem;
+    border-radius:24px;
+    background:var(--soft-blue);
+    border:1px solid var(--color-border);
+    color:var(--color-accent);
+    font-size:2rem;
+    box-shadow:0 12px 32px rgba(44,74,107,.08);
+}
+
+.continue-image-placeholder{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--soft-blue);
+    border:1px solid var(--color-border);
+    color:var(--color-accent);
+    font-size:1.25rem;
+}
+
 .saint-of-day h2{
     margin:0;
     color:var(--color-primary);
