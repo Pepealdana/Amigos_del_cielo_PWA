@@ -3,7 +3,7 @@
    Amigos del Cielo
 ========================================== */
 
-function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
+function renderCatalogoV2(\n    seccion,\n    pais = state.paisCatalogo || "ALL",\n    grupo = state.grupoCatalogo || "ALL"\n) {
     const configuracion = {
         santos: {
             titulo: "Santos",
@@ -70,11 +70,15 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
             ? pais
             : "ALL";
 
-    const catalogoFiltrado = datos.catalogo.filter(item => {
-        if (!datos.permitePais || filtroPais === "ALL") {
-            return true;
-        }
+    const gruposDisponibles = obtenerGruposCatalogo(datos.catalogo);
+    const filtroGrupo =
+        gruposDisponibles.some(item => item.id === grupo)
+            ? grupo
+            : "ALL";
 
+    const termino = String(state.busquedaCatalogo || "").trim().toLocaleLowerCase("es");
+
+    const catalogoFiltrado = datos.catalogo.filter(item => {
         const territorial = item.territorial || {};
         const relaciones = [
             ...(territorial.origin || []),
@@ -82,7 +86,32 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
             ...(territorial.specialDevotion || [])
         ];
 
-        return relaciones.includes(filtroPais);
+        const coincidePais =
+            !datos.permitePais ||
+            filtroPais === "ALL" ||
+            relaciones.includes(filtroPais);
+
+        const gruposItem = obtenerGruposItemCatalogo(item);
+        const coincideGrupo =
+            filtroGrupo === "ALL" ||
+            gruposItem.includes(filtroGrupo);
+
+        const textoItem = [
+            item.name,
+            item.title,
+            item.description,
+            ...(item.tags || []),
+            ...(item.searchTerms || [])
+        ]
+            .filter(Boolean)
+            .join(" ")
+            .toLocaleLowerCase("es");
+
+        const coincideBusqueda =
+            !termino ||
+            textoItem.includes(termino);
+
+        return coincidePais && coincideGrupo && coincideBusqueda;
     });
 
     const publicados = catalogoFiltrado.filter(item => item.status === "published");
@@ -125,7 +154,7 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
             <div class="catalog-grid">
                 ${publicados.length
                     ? publicados.map(item => renderTarjetaCatalogoV2(item, seccion)).join("")
-                    : renderCatalogoVacio(filtroPais)}
+                    : renderCatalogoVacio(filtroPais, termino)}
             </div>
 
             ${pendientes.length ? `
@@ -205,7 +234,99 @@ function renderFiltrosPais(paisSeleccionado, catalogo = []) {
     `;
 }
 
-function renderCatalogoVacio(pais) {
+function renderBusquedaCatalogo(valor = "") {
+    return `
+        <div class="catalog-search">
+            <label for="catalog-search-input">Buscar en este catálogo</label>
+            <div class="catalog-search-box">
+                <span aria-hidden="true">⌕</span>
+                <input
+                    id="catalog-search-input"
+                    type="search"
+                    value="${escaparHTML(valor)}"
+                    placeholder="Busca por nombre, título o palabra clave"
+                    autocomplete="off"
+                    spellcheck="false">
+            </div>
+        </div>
+    `;
+}
+
+function obtenerGruposItemCatalogo(item) {
+    return Array.isArray(item?.groups)
+        ? item.groups
+        : [];
+}
+
+function obtenerGruposCatalogo(catalogo = []) {
+    const grupos = new Map();
+
+    for (const item of catalogo) {
+        for (const id of obtenerGruposItemCatalogo(item)) {
+            if (!grupos.has(id)) {
+                grupos.set(id, {
+                    id,
+                    label: obtenerNombreGrupoCatalogo(id)
+                });
+            }
+        }
+    }
+
+    return Array.from(grupos.values());
+}
+
+function obtenerNombreGrupoCatalogo(id) {
+    const nombres = {
+        "devocion-extendida": "Devoción extendida",
+        "latinoamericanos": "Latinoamericanos",
+        "martires": "Mártires",
+        "doctores": "Doctores de la Iglesia",
+        "fundadores": "Fundadores",
+        "jovenes": "Santos jóvenes",
+        "franciscanos": "Familia franciscana",
+        "apostoles": "Apóstoles"
+    };
+
+    return nombres[id] || id;
+}
+
+function renderFiltrosGrupoCatalogo(grupos = [], grupoActivo = "ALL") {
+    if (!grupos.length) {
+        return "";
+    }
+
+    return `
+        <div class="catalog-group-filter">
+            <div class="catalog-country-label">
+                <span>Explorar por tema</span>
+                <small>${grupoActivo === "ALL"
+                    ? "Todos"
+                    : escaparHTML(
+                        grupos.find(item => item.id === grupoActivo)?.label ||
+                        "Grupo seleccionado"
+                    )}</small>
+            </div>
+            <div class="catalog-country-nav" role="group" aria-label="Filtrar por tema">
+                <button
+                    class="catalog-country-chip ${grupoActivo === "ALL" ? "active" : ""}"
+                    type="button"
+                    data-group-filter="ALL">
+                    Todos
+                </button>
+                ${grupos.map(grupo => `
+                    <button
+                        class="catalog-country-chip ${grupo.id === grupoActivo ? "active" : ""}"
+                        type="button"
+                        data-group-filter="${escaparHTML(grupo.id)}">
+                        ${escaparHTML(grupo.label)}
+                    </button>
+                `).join("")}
+            </div>
+        </div>
+    `;
+}
+
+function renderCatalogoVacio(pais, termino = "") {
     const nombrePais = (state.catalogosV2.paises || [])
         .find(item => item.id === pais)?.name;
 
