@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "category": "devociones",
   "description": "Devociones y otras expresiones de oración conservadas del catálogo actual.",
   "items": [
@@ -17,7 +17,11 @@
           "PL"
         ],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ]
     },
     {
       "id": "espiritu-santo",
@@ -29,7 +33,10 @@
         "origin": [],
         "historicalLinks": [],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "devociones-trinitarias"
+      ]
     },
     {
       "id": "sagrado-corazon-de-jesus",
@@ -41,7 +48,11 @@
         "origin": [],
         "historicalLinks": [],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ]
     },
     {
       "id": "divino-nino-jesus",
@@ -57,7 +68,11 @@
         "specialDevotion": [
           "CO"
         ]
-      }
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ]
     },
     {
       "id": "santos-arcangeles",
@@ -69,7 +84,11 @@
         "origin": [],
         "historicalLinks": [],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "angeles-y-arcangeles",
+        "devocion-extendida"
+      ]
     },
     {
       "id": "senor-de-los-milagros-de-buga",
@@ -85,7 +104,11 @@
         "specialDevotion": [
           "CO"
         ]
-      }
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ]
     },
     {
       "id": "beata-clara-fey",
@@ -102,7 +125,10 @@
           "DE"
         ],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "fundadores"
+      ]
     }
   ]
 }
