@@ -1342,9 +1342,9 @@ function manejarClicksPWA(evento) {
     const filtroPais = evento.target.closest("[data-country-filter]");
 
     if (filtroPais) {
-        const seccionActual = ["santos", "maria"].includes(router.rutaActual)
+        const seccionActual = ["todos", "santos", "maria", "novenas", "devociones"].includes(router.rutaActual)
             ? router.rutaActual
-            : "santos";
+            : "todos";
 
         mostrarCatalogoV2(
             seccionActual,
