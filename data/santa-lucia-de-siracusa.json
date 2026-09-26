@@ -1,0 +1,446 @@
+{
+  "id": "santa-lucia-de-siracusa",
+  "name": "Santa Lucía de Siracusa",
+  "title": "Virgen y mártir, testigo de la luz de Cristo",
+  "feast": {
+    "day": 13,
+    "month": 12,
+    "text": "13 de diciembre",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "image": "assets/images/santos/santa_lucia_de_siracusa.webp",
+  "groups": [
+    "martires"
+  ],
+  "territorial": {
+    "origin": [
+      "IT"
+    ],
+    "historicalLinks": [
+      "IT"
+    ],
+    "specialDevotion": [
+      "IT"
+    ]
+  },
+  "patronages": [
+    "Personas con enfermedades de los ojos",
+    "Ciegos y personas con discapacidad visual",
+    "Siracusa"
+  ],
+  "virtues": [
+    "Fe",
+    "Fidelidad",
+    "Valentía",
+    "Pureza",
+    "Compasión",
+    "Perseverancia"
+  ],
+  "history": {
+    "short": "Santa Lucía es una mártir cristiana venerada desde la antigüedad en Siracusa, Sicilia. Las noticias históricas sobre su vida son escasas, pero su culto está documentado desde los primeros siglos y su nombre figura en el Canon Romano. La tradición sitúa su martirio durante la persecución de Diocleciano y su muerte el 13 de diciembre.",
+    "extended": "Lucía es una de las mártires cristianas más veneradas de la antigüedad. La tradición de Siracusa la presenta como una joven cristiana consagrada a Cristo que sufrió el martirio durante la persecución del emperador Diocleciano.\n\nLas fuentes históricas sobre los detalles de su vida son limitadas. La Santa Sede ha señalado que las noticias históricas son inciertas, aunque su tradición se remonta al siglo IV y su culto es muy antiguo. Una inscripción cristiana de Siracusa, relacionada con una mujer llamada Euskia, testimonia que la memoria de Lucía ya tenía una importancia especial en la ciudad en la antigüedad.\n\nEl 13 de diciembre se considera su dies natalis, es decir, el día de su nacimiento a la vida eterna. Su nombre fue incorporado al Canon Romano, una de las plegarias eucarísticas más antiguas de la Iglesia de Occidente. Ya en los siglos VI y VII existen testimonios de su veneración en Roma y Siracusa.\n\nLas narraciones posteriores sobre su martirio incluyen numerosos elementos legendarios, entre ellos los relatos relacionados con sus ojos. Por esta razón, la novena distingue entre lo que está sólidamente atestiguado —su culto antiguo, su vinculación con Siracusa y su condición de mártir— y las tradiciones hagiográficas desarrolladas posteriormente.\n\nEn la actualidad Santa Lucía sigue siendo patrona de Siracusa y es invocada especialmente por personas con enfermedades de los ojos y discapacidad visual. En 2024 el papa Francisco recordó a la Iglesia de Siracusa que el testimonio de Lucía invita a caminar en la luz y a cultivar la compasión."
+  },
+  "quote": {
+    "text": "Dios es luz y en él no hay tiniebla alguna.",
+    "reference": "1 Juan 1,5; texto bíblico utilizado por el papa Francisco en su carta a la Iglesia de Siracusa con motivo de Santa Lucía en 2024."
+  },
+  "search": [
+    "santa lucia",
+    "santa lucía",
+    "lucia de siracusa",
+    "lucía de siracusa",
+    "lucia siracusa",
+    "lucía siracusa",
+    "siracusa",
+    "syracuse",
+    "martir",
+    "mártir",
+    "virgen",
+    "ojos",
+    "vista",
+    "ciegos",
+    "discapacidad visual",
+    "luz",
+    "advento",
+    "diciembre",
+    "sicilia"
+  ],
+  "interventions": [
+    {
+      "id": "fe",
+      "label": "Fe y fidelidad",
+      "keywords": [
+        "fe",
+        "fidelidad",
+        "cristo",
+        "jesus",
+        "jesús",
+        "evangelio"
+      ]
+    },
+    {
+      "id": "martirio",
+      "label": "Martirio y valentía",
+      "keywords": [
+        "martirio",
+        "martir",
+        "mártir",
+        "valentia",
+        "valentía",
+        "persecucion",
+        "persecución",
+        "testimonio"
+      ]
+    },
+    {
+      "id": "vista",
+      "label": "Enfermedades de los ojos",
+      "keywords": [
+        "ojos",
+        "vista",
+        "vision",
+        "visión",
+        "ciegos",
+        "ceguera",
+        "oftalmologia",
+        "oftalmología"
+      ]
+    },
+    {
+      "id": "luz",
+      "label": "Cristo, luz del mundo",
+      "keywords": [
+        "luz",
+        "tinieblas",
+        "esperanza",
+        "cristo",
+        "evangelio"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y vocación",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "joven",
+        "vocacion",
+        "vocación",
+        "consagracion",
+        "consagración"
+      ]
+    },
+    {
+      "id": "advento",
+      "label": "Adviento y espera cristiana",
+      "keywords": [
+        "adviento",
+        "espera",
+        "diciembre",
+        "navidad",
+        "vigilancia"
+      ]
+    },
+    {
+      "id": "compasion",
+      "label": "Compasión y vulnerabilidad",
+      "keywords": [
+        "compasion",
+        "compasión",
+        "ternura",
+        "vulnerables",
+        "pobres",
+        "migrantes",
+        "refugiados"
+      ]
+    },
+    {
+      "id": "siracusa",
+      "label": "Siracusa y tradición cristiana",
+      "keywords": [
+        "siracusa",
+        "sicilia",
+        "sicily",
+        "iglesia",
+        "santuario",
+        "peregrinacion",
+        "peregrinación"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Lucía, virgen y mártir, ayúdanos a caminar en la luz de Cristo y a permanecer fieles cuando la fe encuentre dificultades. Ruega por quienes sufren enfermedades de los ojos, por las personas con discapacidad visual y por todos quienes necesitan esperanza. Presentamos nuestras intenciones ante Dios. Amén.",
+  "closingPrayer": "Santa Lucía, testigo de Cristo y patrona de Siracusa, intercede por nosotros. Enséñanos a vivir con claridad de corazón, valentía y fidelidad. Ruega especialmente por los enfermos, por las personas con discapacidad visual, por los perseguidos y por quienes buscan una luz en medio de sus dificultades. Amén.",
+  "intentions": [
+    "Por las personas con enfermedades de los ojos y discapacidad visual.",
+    "Por quienes esperan diagnósticos o tratamientos.",
+    "Por los cristianos que sufren persecución por su fe.",
+    "Por jóvenes que buscan descubrir su vocación.",
+    "Por quienes viven miedo o incertidumbre.",
+    "Por enfermos, ancianos y personas vulnerables.",
+    "Por las familias que acompañan a personas con discapacidad.",
+    "Por la Iglesia de Siracusa y sus fieles.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "1 Juan 1,5-7",
+      "Juan 8,12",
+      "Mateo 5,14-16",
+      "Apocalipsis 2,10",
+      "Mateo 25,31-40"
+    ],
+    "related": [
+      "Siracusa",
+      "Sicilia",
+      "Canon Romano",
+      "Adviento",
+      "Virgen y mártir"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Carta del Santo Padre a la Iglesia de Siracusa con motivo de la traslación temporal del cuerpo de Santa Lucía",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/letters/2024/documents/20241213-lettera-santa-lucia.html",
+      "type": "official"
+    },
+    {
+      "title": "Santa Lucía, virgen y mártir",
+      "organization": "Conferencia de Obispos Católicos de Estados Unidos",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/advent/advent-december-13",
+      "type": "official"
+    },
+    {
+      "title": "Santa Lucía: tradición y culto antiguo",
+      "organization": "Santa Sede — L'Osservatore Romano",
+      "url": "https://www.vatican.va/news_services/or/or_quo/cultura/2010/286q05a1.html",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Luz",
+      "title": "Caminar en la luz",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Lucía pertenece a una antigua tradición de martirio cristiano vinculada a Siracusa. Su nombre y su culto quedaron asociados con la imagen de la luz."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana busca transparencia, verdad y comunión con Dios. Caminar en la luz significa permitir que la fe transforme nuestras decisiones."
+      },
+      "virtue": "Sinceridad",
+      "reflection": "¿Qué aspecto de mi vida necesita más verdad y claridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven situaciones de confusión, miedo o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, ayúdanos a caminar en la luz de Cristo y a vivir con un corazón sincero. Amén."
+      },
+      "action": "Revisa hoy una decisión pendiente y procura tomarla desde la verdad, no desde el miedo."
+    },
+    {
+      "day": 2,
+      "theme": "Fidelidad",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Iglesia conserva la memoria de Lucía como virgen y mártir. Su testimonio quedó unido a la fidelidad a Cristo en medio de la persecución."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad se construye también en pequeñas decisiones cotidianas. No se trata solo de afrontar grandes pruebas, sino de mantener coherencia cuando nadie observa."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿En qué aspecto de mi vida necesito ser más coherente con mi fe?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven su fe en ambientes donde no siempre es comprendida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, ayúdanos a permanecer fieles a Cristo en las decisiones pequeñas y grandes. Amén."
+      },
+      "action": "Cumple hoy una promesa o responsabilidad que hayas postergado."
+    },
+    {
+      "day": 3,
+      "theme": "Valentía",
+      "title": "No dejarse vencer por el miedo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de Santa Lucía está vinculada al testimonio del martirio. Las fuentes posteriores desarrollaron relatos detallados sobre su pasión, pero el dato central conservado por la Iglesia es su condición de mártir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La valentía cristiana no significa ausencia de miedo. Significa actuar de acuerdo con la verdad y el bien aun cuando exista temor."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué bien sé que debo hacer aunque me produzca miedo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan persecución, discriminación o presión por causa de su fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, ruega por quienes tienen miedo y ayúdanos a vivir con valentía y prudencia. Amén."
+      },
+      "action": "Haz hoy una acción buena que hayas estado evitando por temor al qué dirán."
+    },
+    {
+      "day": 4,
+      "theme": "Vista",
+      "title": "Aprender a mirar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Lucía es invocada tradicionalmente por quienes padecen enfermedades de los ojos. La asociación con la vista se desarrolló en la tradición cristiana posterior."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La verdadera mirada cristiana no se limita a los ojos. Consiste también en aprender a reconocer la dignidad, el sufrimiento y las necesidades de otras personas."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿A quién estoy dejando de ver porque me he acostumbrado a su necesidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por personas con discapacidad visual, enfermedades de los ojos y quienes las acompañan."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, ruega por quienes tienen dificultades de visión y enséñanos a mirar a los demás con compasión. Amén."
+      },
+      "action": "Ayuda hoy a una persona que pueda necesitar apoyo para desplazarse, leer o realizar una tarea."
+    },
+    {
+      "day": 5,
+      "theme": "Pureza",
+      "title": "Cuidar la dignidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La liturgia de Santa Lucía la recuerda como virgen y mártir, vinculando su testimonio con la entrega de toda la persona a Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La pureza cristiana implica integrar afectividad, cuerpo y decisiones desde el respeto a la dignidad propia y ajena."
+      },
+      "virtue": "Dignidad",
+      "reflection": "¿Cómo puedo cuidar mejor mi dignidad y respetar la de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por jóvenes que necesitan orientación para construir relaciones sanas y responsables."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, ayúdanos a vivir nuestras relaciones con respeto, libertad y responsabilidad. Amén."
+      },
+      "action": "Haz hoy un uso más consciente de tus palabras, imágenes y contenidos digitales."
+    },
+    {
+      "day": 6,
+      "theme": "Compasión",
+      "title": "Mirar al que sufre",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En su carta a la Iglesia de Siracusa de 2024, el papa Francisco relacionó el testimonio de Lucía con la compasión, la ternura y la atención a quienes sufren."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe necesita ojos capaces de reconocer el dolor ajeno. La compasión nos mueve a acompañar y actuar, no solamente a sentir pena."
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Qué sufrimiento cercano puedo acompañar mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por pobres, migrantes, refugiados, enfermos y personas que viven injusticia o abandono."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, danos un corazón atento al sufrimiento y dispuesto a acompañar con ternura. Amén."
+      },
+      "action": "Comunícate hoy con alguien que pueda estar necesitando compañía."
+    },
+    {
+      "day": 7,
+      "theme": "Esperanza",
+      "title": "Ser una pequeña luz",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La celebración de Lucía en Adviento permite contemplar su testimonio junto a la imagen cristiana de Cristo como luz. Su memoria invita a vivir la esperanza."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "No necesitamos resolver todos los problemas para ser luz. Podemos ofrecer una palabra, una ayuda, una presencia o una decisión justa."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué pequeña acción puede llevar hoy esperanza a otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan oscuridad emocional, enfermedad, pobreza o soledad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, ayúdanos a llevar la luz de Cristo a quienes encontramos en nuestro camino. Amén."
+      },
+      "action": "Ofrece hoy un gesto concreto de esperanza a alguien que lo necesite."
+    },
+    {
+      "day": 8,
+      "theme": "Testimonio",
+      "title": "Vivir la fe con claridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El culto de Santa Lucía está documentado desde la antigüedad y su nombre aparece en el Canon Romano. Su memoria se extendió mucho más allá de Siracusa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Un testimonio auténtico no depende de llamar la atención. Se construye mediante coherencia, servicio y una vida que puede ser reconocida por sus frutos."
+      },
+      "virtue": "Coherencia",
+      "reflection": "¿Coinciden mis palabras sobre la fe con la forma en que trato a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la Iglesia y por quienes tienen responsabilidades de testimonio cristiano."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, ayúdanos a vivir nuestra fe con coherencia, respeto y caridad. Amén."
+      },
+      "action": "Haz hoy una revisión sincera de una actitud que quieras mejorar."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Elegir la luz",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Lucía sigue siendo venerada como virgen y mártir de Siracusa. Su memoria litúrgica se celebra el 13 de diciembre y permanece inscrita en la tradición universal de la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad consiste en elegir a Cristo en las circunstancias concretas de la vida. El testimonio de los mártires nos recuerda que la fe se expresa en decisiones reales."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué decisión concreta quiero tomar para caminar más plenamente en la luz de Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena, especialmente por los enfermos y quienes necesitan esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Lucía, virgen y mártir, intercede por nosotros para que caminemos en la luz, permanezcamos fieles a Cristo y sepamos llevar esperanza a los demás. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o caridad que puedas mantener después de terminar la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
