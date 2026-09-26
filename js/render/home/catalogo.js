@@ -86,7 +86,7 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
                 `).join("")}
             </nav>
 
-            ${datos.permitePais ? renderFiltrosPais(filtroPais) : ""}
+            ${datos.permitePais ? renderFiltrosPais(filtroPais, datos.catalogo) : ""}
 
             <div class="catalog-summary">
                 <span>${publicados.length} disponibles</span>
@@ -116,17 +116,38 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
     `;
 }
 
-function renderFiltrosPais(paisSeleccionado) {
-    const paises = state.catalogosV2.paises || [];
+function renderFiltrosPais(paisSeleccionado, catalogo = []) {
+    const todosLosPaises = state.catalogosV2.paises || [];
+    const codigosConContenido = new Set();
+
+    for (const item of catalogo) {
+        const territorial = item.territorial || {};
+
+        [
+            ...(territorial.origin || []),
+            ...(territorial.historicalLinks || []),
+            ...(territorial.specialDevotion || [])
+        ].forEach(codigo => codigosConContenido.add(codigo));
+    }
+
+    const paises = todosLosPaises.filter(
+        pais => codigosConContenido.has(pais.id)
+    );
+
+    const paisActivo =
+        paisSeleccionado === "ALL" ||
+        paises.some(pais => pais.id === paisSeleccionado)
+            ? paisSeleccionado
+            : "ALL";
 
     return `
         <div class="catalog-country-filter">
             <div class="catalog-country-label">
                 <span>Explorar vínculos por país</span>
-                <small>${paisSeleccionado === "ALL"
+                <small>${paisActivo === "ALL"
                     ? "Todo el catálogo"
                     : escaparHTML(
-                        paises.find(p => p.id === paisSeleccionado)?.name ||
+                        paises.find(p => p.id === paisActivo)?.name ||
                         "País seleccionado"
                     )}</small>
             </div>
@@ -134,7 +155,7 @@ function renderFiltrosPais(paisSeleccionado) {
 
             <div class="catalog-country-nav" role="group" aria-label="Filtrar por país">
                 <button
-                    class="catalog-country-chip ${paisSeleccionado === "ALL" ? "active" : ""}"
+                    class="catalog-country-chip ${paisActivo === "ALL" ? "active" : ""}"
                     type="button"
                     data-country-filter="ALL">
                     Todos
