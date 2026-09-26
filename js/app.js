@@ -1378,6 +1378,23 @@ function manejarClicksPWA(evento) {
     }
 }
 
+function manejarFormularioCatalogo(evento) {
+    if (evento.target.id !== "catalog-search-form") {
+        return;
+    }
+
+    evento.preventDefault();
+
+    state.busquedaCatalogo =
+        document.getElementById("catalog-search-input")?.value || "";
+
+    mostrarCatalogoV2(
+        router.rutaActual,
+        state.paisCatalogo || "ALL",
+        state.grupoCatalogo || "ALL"
+    );
+}
+
 function manejarFormularioParticipa(evento) {
 
     if (evento.target.id !== "participa-form") {
