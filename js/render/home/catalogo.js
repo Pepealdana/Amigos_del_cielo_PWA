@@ -40,7 +40,27 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
     };
 
     const datos = configuracion[seccion] || configuracion.novenas;
-    const filtroPais = datos.permitePais ? pais : "ALL";
+
+    const codigosDisponibles = new Set();
+
+    if (datos.permitePais) {
+        for (const item of datos.catalogo) {
+            const territorial = item.territorial || {};
+
+            [
+                ...(territorial.origin || []),
+                ...(territorial.historicalLinks || []),
+                ...(territorial.specialDevotion || [])
+            ].forEach(codigo => codigosDisponibles.add(codigo));
+        }
+    }
+
+    const filtroPais =
+        datos.permitePais &&
+        pais !== "ALL" &&
+        codigosDisponibles.has(pais)
+            ? pais
+            : "ALL";
 
     const catalogoFiltrado = datos.catalogo.filter(item => {
         if (!datos.permitePais || filtroPais === "ALL") {
