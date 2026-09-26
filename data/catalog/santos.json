@@ -1338,18 +1338,22 @@
     {
       "id": "santa-barbara",
       "name": "Santa Bárbara",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santa-barbara.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "martires"
       ],
       "territorial": {
         "origin": [],
-        "historicalLinks": [],
-        "specialDevotion": []
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
