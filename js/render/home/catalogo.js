@@ -532,42 +532,6 @@ function obtenerNombreGrupoCatalogo(id) {
     return nombres[id] || id;
 }
 
-function renderFiltrosGrupoCatalogo(grupos = [], grupoActivo = "ALL") {
-    if (!grupos.length) {
-        return "";
-    }
-
-    return `
-        <div class="catalog-group-filter">
-            <div class="catalog-country-label">
-                <span>Explorar por tema</span>
-                <small>${grupoActivo === "ALL"
-                    ? "Todos"
-                    : escaparHTML(
-                        grupos.find(item => item.id === grupoActivo)?.label ||
-                        "Grupo seleccionado"
-                    )}</small>
-            </div>
-            <div class="catalog-country-nav" role="group" aria-label="Filtrar por tema">
-                <button
-                    class="catalog-country-chip ${grupoActivo === "ALL" ? "active" : ""}"
-                    type="button"
-                    data-group-filter="ALL">
-                    Todos
-                </button>
-                ${grupos.map(grupo => `
-                    <button
-                        class="catalog-country-chip ${grupo.id === grupoActivo ? "active" : ""}"
-                        type="button"
-                        data-group-filter="${escaparHTML(grupo.id)}">
-                        ${escaparHTML(grupo.label)}
-                    </button>
-                `).join("")}
-            </div>
-        </div>
-    `;
-}
-
 function renderCatalogoVacio(pais, termino = "") {
     const nombrePais = (state.catalogosV2.paises || [])
         .find(item => item.id === pais)?.name;
