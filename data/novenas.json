@@ -5408,5 +5408,142 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-monica",
+    "slug": "santa-monica",
+    "name": "Santa Mónica",
+    "title": "Madre de san Agustín y testigo de la oración perseverante",
+    "subtitle": "Fe, paciencia y esperanza en el acompañamiento de la familia",
+    "category": "Santos",
+    "image": "assets/images/santos/santa_monica.webp",
+    "file": "data/santa-monica.json",
+    "description": "Esposa y madre cristiana de Tagaste, recordada por su vida de oración y por el acompañamiento perseverante de su familia. La Iglesia la propone especialmente como modelo para las madres cristianas.",
+    "feast": {
+      "day": 27,
+      "month": 8,
+      "text": "27 de agosto",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "search": [
+      "santa monica",
+      "santa mónica",
+      "monica de hipona",
+      "mónica de hipona",
+      "madre de san agustin",
+      "madre de san agustín",
+      "san agustin",
+      "san agustín",
+      "tagaste",
+      "ostia",
+      "madres cristianas",
+      "familia",
+      "oracion",
+      "oración",
+      "conversion",
+      "conversión"
+    ],
+    "interventions": [
+      {
+        "id": "familia",
+        "label": "Familia y hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "madres",
+          "padres",
+          "hijos",
+          "esposos",
+          "matrimonio"
+        ]
+      },
+      {
+        "id": "conversion",
+        "label": "Conversión y retorno a la fe",
+        "keywords": [
+          "conversion",
+          "conversión",
+          "fe",
+          "regreso",
+          "alejados",
+          "pecado"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración perseverante",
+        "keywords": [
+          "oracion",
+          "oración",
+          "rezar",
+          "plegaria",
+          "intercesion",
+          "intercesión",
+          "lagrimas",
+          "lágrimas"
+        ]
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza en las dificultades",
+        "keywords": [
+          "esperanza",
+          "dificultad",
+          "sufrimiento",
+          "paciencia",
+          "esperar"
+        ]
+      },
+      {
+        "id": "madres",
+        "label": "Madres y educación cristiana",
+        "keywords": [
+          "madre",
+          "madres",
+          "maternidad",
+          "hijos",
+          "educacion",
+          "educación",
+          "cristiana"
+        ]
+      },
+      {
+        "id": "matrimonio",
+        "label": "Matrimonio y vida familiar",
+        "keywords": [
+          "matrimonio",
+          "esposo",
+          "esposa",
+          "hogar",
+          "familia"
+        ]
+      },
+      {
+        "id": "sufrimiento",
+        "label": "Dolor y acompañamiento",
+        "keywords": [
+          "dolor",
+          "sufrimiento",
+          "prueba",
+          "acompañar",
+          "acompañamiento",
+          "consuelo"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe y vida cristiana",
+        "keywords": [
+          "fe",
+          "cristo",
+          "evangelio",
+          "iglesia",
+          "bautismo",
+          "vida cristiana"
+        ]
+      }
+    ]
   }
 ]
