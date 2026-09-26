@@ -1243,10 +1243,10 @@
     {
       "id": "san-francisco-javier",
       "name": "San Francisco Javier",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-francisco-javier.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "fundadores"
@@ -1256,9 +1256,17 @@
           "ES"
         ],
         "historicalLinks": [
-          "ES"
+          "ES",
+          "IN",
+          "ID",
+          "JP",
+          "CN"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "ES",
+          "IN",
+          "JP"
+        ]
       }
     },
     {
