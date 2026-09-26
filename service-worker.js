@@ -23,6 +23,7 @@ const APP_SHELL = [
     "./data/santa-lucia-de-siracusa.json",
     "./data/santa-cecilia.json",
     "./data/santa-barbara.json",
+    "./data/san-roque.json",
     "./data/roadmap-hispanohablante.json",
     "./data/catalogo-expansion-hispanohablante.json",
     "./data/catalog/santos.json",
