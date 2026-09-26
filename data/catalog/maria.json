@@ -33,9 +33,13 @@
         "origin": [],
         "historicalLinks": [],
         "specialDevotion": [
-          "CO",
+          "ES",
+          "BO",
           "CL",
-          "PE"
+          "CO",
+          "CR",
+          "PE",
+          "VE"
         ]
       }
     },
@@ -204,10 +208,12 @@
       "territorial": {
         "origin": [],
         "historicalLinks": [
+          "ES",
           "PE",
           "DO"
         ],
         "specialDevotion": [
+          "ES",
           "PE",
           "DO"
         ]
@@ -410,11 +416,15 @@
       "sourceFile": "data/nuestra-senora-de-la-candelaria.json",
       "priority": "existente",
       "territorial": {
-        "origin": [],
+        "origin": [
+          "ES"
+        ],
         "historicalLinks": [
+          "ES",
           "CO"
         ],
         "specialDevotion": [
+          "ES",
           "CO"
         ]
       }
