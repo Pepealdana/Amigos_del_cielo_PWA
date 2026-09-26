@@ -79,17 +79,20 @@ function esDelMesActual(fecha) {
 }
 
 function esHoyLaFestividad(fecha) {
-    const datos = parsearFestividad(fecha);
+    const hoy = obtenerFechaActual();
+    const festividad = obtenerFechaFestividad(
+        fecha,
+        hoy.getFullYear()
+    );
 
-    if (!datos) {
+    if (!festividad) {
         return false;
     }
 
-    const hoy = obtenerFechaActual();
-
     return (
-        datos.dia === hoy.getDate() &&
-        datos.mes === hoy.getMonth() + 1
+        festividad.getDate() === hoy.getDate() &&
+        festividad.getMonth() === hoy.getMonth() &&
+        festividad.getFullYear() === hoy.getFullYear()
     );
 }
 
@@ -292,31 +295,41 @@ function obtenerEstadoNovena(fecha) {
 }
 
 function diasHastaFestividad(fecha) {
-    const datos = parsearFestividad(fecha);
-
-    if (!datos) {
+    if (!fecha) {
         return null;
     }
 
     const hoy = obtenerFechaActual();
-    let festividad = crearFechaLocal(
+    const inicioHoy = crearFechaLocal(
         hoy.getFullYear(),
-        datos.mes,
-        datos.dia
+        hoy.getMonth() + 1,
+        hoy.getDate()
     );
 
-    if (festividad < hoy) {
-        festividad = crearFechaLocal(
-            hoy.getFullYear() + 1,
-            datos.mes,
-            datos.dia
+    let festividad = obtenerFechaFestividad(
+        fecha,
+        hoy.getFullYear()
+    );
+
+    if (!festividad) {
+        return null;
+    }
+
+    if (festividad < inicioHoy) {
+        festividad = obtenerFechaFestividad(
+            fecha,
+            hoy.getFullYear() + 1
         );
     }
 
-    return Math.ceil(
+    if (!festividad) {
+        return null;
+    }
+
+    return Math.round(
         (
             festividad.getTime() -
-            hoy.getTime()
+            inicioHoy.getTime()
         ) /
         (1000 * 60 * 60 * 24)
     );
