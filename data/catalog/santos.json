@@ -1220,10 +1220,10 @@
     {
       "id": "santa-teresa-de-calcuta",
       "name": "Santa Teresa de Calcuta",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santa-teresa-de-calcuta.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "fundadores"
@@ -1235,7 +1235,9 @@
         "historicalLinks": [
           "IN"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "IN"
+        ]
       }
     },
     {
