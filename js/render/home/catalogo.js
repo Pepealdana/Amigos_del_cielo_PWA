@@ -45,9 +45,9 @@ function renderCatalogoV2(
         todos: {
             titulo: "Todos",
             descripcion: "Todo el contenido disponible reunido en un solo lugar.",
-            catalogo: state.catalogo || [],
+            catalogo: obtenerCatalogoMaestroUnificado(),
             icono: "✦",
-            permitePais: false
+            permitePais: true
         }
     };
 
@@ -289,11 +289,16 @@ function obtenerNombreGrupoCatalogo(id) {
         "devocion-extendida": "Devoción extendida",
         "latinoamericanos": "Latinoamericanos",
         "martires": "Mártires",
+        "padres-iglesia": "Padres de la Iglesia",
         "doctores": "Doctores de la Iglesia",
         "fundadores": "Fundadores",
         "jovenes": "Santos jóvenes",
         "franciscanos": "Familia franciscana",
-        "apostoles": "Apóstoles"
+        "apostoles": "Apóstoles",
+        "advocaciones-marianas": "Advocaciones marianas",
+        "devociones-cristocentricas": "Devociones cristocéntricas",
+        "devociones-trinitarias": "Devociones trinitarias",
+        "angeles-y-arcangeles": "Ángeles y arcángeles"
     };
 
     return nombres[id] || id;
@@ -399,7 +404,11 @@ function renderTarjetaCatalogoV2(item, seccion) {
             ? state.catalogo.find(n => n.id === item.id)?.image
             : "");
 
-    const accion = item.sourceFile
+    const tieneNovena = Boolean(
+        (state.catalogo || []).some(novena => novena.id === item.id)
+    );
+
+    const accion = tieneNovena
         ? `data-action="open-novena" data-id="${escaparHTML(item.id)}"`
         : "";
 
@@ -420,7 +429,7 @@ function renderTarjetaCatalogoV2(item, seccion) {
             class="catalog-card"
             type="button"
             ${accion}
-            ${item.sourceFile ? "" : "disabled"}>
+            ${tieneNovena ? "" : "disabled"}>
             ${imagen ? `
                 <img
                     src="${escaparHTML(imagen)}"
@@ -440,4 +449,42 @@ function renderTarjetaCatalogoV2(item, seccion) {
             </span>
         </button>
     `;
+}
+
+
+function obtenerCatalogoMaestroUnificado() {
+    return [
+        ...(state.catalogosV2?.santos || []),
+        ...(state.catalogosV2?.maria || []),
+        ...(state.catalogosV2?.devociones || [])
+    ];
+}
+
+function obtenerCatalogoNovenasUnificado() {
+    const maestros = obtenerCatalogoMaestroUnificado();
+    const porId = new Map(maestros.map(item => [item.id, item]));
+
+    return (state.catalogo || []).map(novena => {
+        const maestro = porId.get(novena.id);
+
+        return {
+            ...novena,
+            status: novena.status === "draft" ? "pending" : "published",
+            sourceFile: novena.file,
+            category: maestro?.category || normalizarCategoriaNovena(novena.category),
+            groups: maestro?.groups || [],
+            territorial: maestro?.territorial || {},
+            title: maestro?.title || novena.title,
+            description: maestro?.description || novena.description
+        };
+    });
+}
+
+function normalizarCategoriaNovena(categoria = "") {
+    const valor = String(categoria).toLowerCase();
+    if (valor.includes("beata")) return "beatas";
+    if (valor.includes("devoc")) return "devociones";
+    if (valor.includes("mar")) return "maria";
+    if (valor.includes("santo")) return "santos";
+    return categoria;
 }
