@@ -583,9 +583,14 @@ function mostrarInicio() {
 
 }
 
-function mostrarCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
+function mostrarCatalogoV2(
+    seccion,
+    pais = state.paisCatalogo || "ALL",
+    grupo = state.grupoCatalogo || "ALL"
+) {
 
     state.paisCatalogo = pais;
+    state.grupoCatalogo = grupo;
     cerrarMenu();
 
     const titulos = {
@@ -1343,7 +1348,23 @@ function manejarClicksPWA(evento) {
 
         mostrarCatalogoV2(
             seccionActual,
-            filtroPais.dataset.countryFilter || "ALL"
+            filtroPais.dataset.countryFilter || "ALL",
+            state.grupoCatalogo || "ALL"
+        );
+        return;
+    }
+
+    const filtroGrupo = evento.target.closest("[data-group-filter]");
+
+    if (filtroGrupo) {
+        const seccionActual = ["santos", "maria"].includes(router.rutaActual)
+            ? router.rutaActual
+            : "todos";
+
+        mostrarCatalogoV2(
+            seccionActual,
+            state.paisCatalogo || "ALL",
+            filtroGrupo.dataset.groupFilter || "ALL"
         );
         return;
     }
@@ -1444,6 +1465,11 @@ function cambiarRegion(region) {
 }
 
 function manejarInputsPWA(evento) {
+
+    if (evento.target.id === "catalog-search-input") {
+        state.busquedaCatalogo = evento.target.value || "";
+        return;
+    }
 
     if (evento.target.id === "home-search") {
 
