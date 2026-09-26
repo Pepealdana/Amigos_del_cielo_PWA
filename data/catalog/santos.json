@@ -248,6 +248,24 @@
       }
     },
     {
+      "id": "san-expedito",
+      "name": "San Expedito",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-expedito.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "AR"
+        ],
+        "note": "Se conserva separado de Devociones por su carácter de figura de santo/mártir venerada en la tradición católica; no se asigna Italia como origen."
+      }
+    },
+    {
       "id": "san-jose-gregorio-hernandez",
       "name": "San José Gregorio Hernández",
       "status": "published",
