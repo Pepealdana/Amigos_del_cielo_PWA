@@ -589,6 +589,7 @@ function mostrarCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
     cerrarMenu();
 
     const titulos = {
+        todos: "Todos",
         santos: "Santos",
         maria: "María",
         novenas: "Novenas",
@@ -602,6 +603,10 @@ function mostrarCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
     renderizar(
         renderCatalogoV2(seccion)
     );
+}
+
+function mostrarTodos() {
+    mostrarCatalogoV2("todos");
 }
 
 function mostrarSantos() {
