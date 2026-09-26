@@ -1,0 +1,462 @@
+{
+  "id": "santa-clara-de-asis",
+  "slug": "santa-clara-de-asis",
+  "name": "Santa Clara de Asís",
+  "title": "Virgen, fundadora de las Hermanas Pobres y discípula de san Francisco",
+  "subtitle": "Pobreza evangélica, contemplación y fidelidad a Cristo",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_clara_de_asis.webp",
+  "description": "Joven de Asís que siguió a Cristo según la forma de vida de san Francisco y fundó las Hermanas Pobres, conocidas como Clarisas. Vivió en San Damián una vida contemplativa marcada por la pobreza, la oración y la fraternidad.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-clara-de-asis"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 11,
+    "month": 8,
+    "text": "11 de agosto",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "quote": {
+    "text": "No apartes tu mirada del espejo de la eternidad.",
+    "reference": "Paráfrasis inspirada en la Carta tercera de santa Clara a santa Inés de Praga, donde la exhorta a contemplar a Cristo; se evita presentarla como cita literal."
+  },
+  "patronages": [
+    "Clarisas y vida contemplativa",
+    "Lavanderas y bordadoras, según la tradición devocional",
+    "Personas que buscan vivir la pobreza evangélica",
+    "Asís y la familia franciscana"
+  ],
+  "virtues": [
+    "Fe",
+    "Pobreza evangélica",
+    "Humildad",
+    "Oración",
+    "Contemplación",
+    "Caridad",
+    "Fortaleza",
+    "Fidelidad",
+    "Fraternidad"
+  ],
+  "search": [
+    "santa clara de asis",
+    "santa clara de asís",
+    "clara de asis",
+    "clara de asís",
+    "clarisas",
+    "hermanas pobres",
+    "san damian",
+    "san damián",
+    "franciscanas",
+    "franciscana",
+    "pobreza",
+    "contemplacion",
+    "contemplación",
+    "porciuncula",
+    "porciúncula",
+    "ines de praga"
+  ],
+  "interventions": [
+    {
+      "id": "franciscanos",
+      "label": "Familia franciscana",
+      "keywords": [
+        "franciscano",
+        "franciscana",
+        "francisco",
+        "clarisas",
+        "hermanas pobres"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza evangélica y sencillez",
+      "keywords": [
+        "pobreza",
+        "sencillez",
+        "desprendimiento",
+        "providencia",
+        "riqueza"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y contemplación",
+      "keywords": [
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación",
+        "silencio",
+        "eucaristia",
+        "eucaristía"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "consagracion",
+        "consagración",
+        "monasterio",
+        "claustro"
+      ]
+    },
+    {
+      "id": "cristo",
+      "label": "Amor a Cristo crucificado",
+      "keywords": [
+        "cristo",
+        "cruz",
+        "crucificado",
+        "pasion",
+        "pasión",
+        "evangelio"
+      ]
+    },
+    {
+      "id": "maria",
+      "label": "María y vida cristiana",
+      "keywords": [
+        "maria",
+        "maría",
+        "virgen",
+        "anunciacion",
+        "anunciación",
+        "madre"
+      ]
+    },
+    {
+      "id": "fraternidad",
+      "label": "Fraternidad y comunidad",
+      "keywords": [
+        "fraternidad",
+        "comunidad",
+        "hermanas",
+        "unidad",
+        "caridad"
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "label": "Fortaleza en la prueba",
+      "keywords": [
+        "fortaleza",
+        "enfermedad",
+        "sufrimiento",
+        "perseverancia",
+        "pobreza",
+        "dificultad"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Clara nació en Asís hacia 1193-1194. Inspirada por san Francisco, dejó su hogar siendo joven para seguir a Cristo en pobreza y oración. Se estableció en San Damián, donde reunió a las primeras Hermanas Pobres y desarrolló una forma de vida contemplativa. Defendió durante años el privilegio de pobreza y redactó una Regla propia, aprobada por el papa Inocencio IV en 1253. Murió el 11 de agosto de 1253 y fue canonizada en 1255.",
+    "extended": "Clara nació en Asís hacia 1193-1194, en la familia de Favarone di Offreduccio. Recibió una educación cristiana y desde joven mostró sensibilidad hacia la oración y la caridad.\n\nAtraída por la predicación y el ejemplo de san Francisco, dejó la casa familiar en 1211 o 1212. En la Porciúncula recibió el hábito de penitencia y comenzó una nueva forma de vida evangélica. Después de un breve período de búsqueda, se estableció en San Damián, donde se reunieron otras mujeres que deseaban seguir a Cristo en pobreza y contemplación.\n\nLa comunidad llegó a ser conocida como las Hermanas Pobres. Clara recibió de Francisco una forma de vida inspirada en el Evangelio y dedicó buena parte de su existencia a custodiar el carisma de la pobreza. Defendió ante la autoridad eclesial el llamado privilegio de pobreza, por el cual ella y sus hermanas podían vivir sin poseer bienes materiales.\n\nClara también dejó escritos propios, entre ellos su Regla, su Testamento y cartas dirigidas a santa Inés de Praga. Su Regla fue aprobada por el papa Inocencio IV el 9 de agosto de 1253, poco antes de su muerte. Fue la primera mujer en la Iglesia en redactar una regla de vida para una comunidad religiosa femenina que recibió aprobación papal.\n\nDurante sus últimos años soportó enfermedades y una vida de intensa oración. Murió en San Damián el 11 de agosto de 1253. Fue canonizada por el papa Alejandro IV el 15 de agosto de 1255. Su testimonio quedó unido a la contemplación, la pobreza evangélica, el amor a Cristo y la fraternidad."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Clara de Asís, mujer de fe y contemplación, enséñanos a mirar a Cristo y a ordenar nuestra vida según el Evangelio. Ayúdanos a vivir con sencillez, desprendimiento y caridad, confiando en Dios y sirviendo a nuestros hermanos. Presentamos ante el Señor nuestras intenciones. Amén.",
+  "closingPrayer": "Santa Clara, hermana y discípula de Cristo, intercede por nosotros. Enséñanos a buscar a Dios en la oración, a valorar lo esencial, a vivir con sencillez y a permanecer firmes en la fe cuando llegan las dificultades. Ruega por la familia franciscana, por quienes viven la vida contemplativa y por todos los que desean seguir a Cristo con un corazón libre. Amén.",
+  "intentions": [
+    "Por quienes viven una vocación de vida contemplativa.",
+    "Por la familia franciscana y las Hermanas Pobres o Clarisas.",
+    "Por quienes necesitan aprender a vivir con mayor sencillez y desprendimiento.",
+    "Por las personas que atraviesan dificultades económicas o materiales.",
+    "Por quienes sufren enfermedades prolongadas.",
+    "Por las familias y comunidades que necesitan crecer en fraternidad.",
+    "Por quienes buscan discernir su vocación cristiana.",
+    "Por quienes desean profundizar su vida de oración.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 6,25-34"
+      },
+      {
+        "reference": "Lucas 10,38-42"
+      },
+      {
+        "reference": "Lucas 1,26-38"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Filipenses 2,5-11"
+      }
+    ],
+    "documents": [
+      "Regla de santa Clara",
+      "Testamento de santa Clara",
+      "Cartas de santa Clara a santa Inés de Praga"
+    ],
+    "related": [
+      "San Francisco de Asís",
+      "Santa Inés de Praga",
+      "San Damián",
+      "Porciúncula",
+      "Asís"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general: Clara de Asís",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2010/documents/hf_ben-xvi_aud_20100915.html",
+      "type": "official"
+    },
+    {
+      "title": "Mensaje a las Religiosas Clarisas por el 750 aniversario de la muerte de Santa Clara",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/2003/august/documents/hf_jp-ii_spe_20030811_santa-chiara.html",
+      "type": "official"
+    },
+    {
+      "title": "Carta a las Religiosas Clarisas en el VIII Centenario del nacimiento de Santa Clara",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/letters/1993/documents/hf_jp-ii_let_11081993_viii-cent-st-clare.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La llamada",
+      "title": "Escuchar la vocación de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Clara pertenecía a una familia noble de Asís, pero sintió el deseo de seguir a Cristo de una manera radical, inspirada por el testimonio de san Francisco."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vocación cristiana nace de una llamada de Dios y pide una respuesta libre, concreta y perseverante."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué llamada de Dios necesito escuchar con mayor atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan discernir su vocación y por quienes necesitan valentía para responder a Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, enséñanos a escuchar a Dios y a responder con generosidad a su llamada. Amén."
+      },
+      "action": "Dedica unos minutos de silencio para presentar a Dios tus responsabilidades y decisiones actuales."
+    },
+    {
+      "day": 2,
+      "theme": "Desprendimiento",
+      "title": "Elegir lo esencial",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Clara dejó las seguridades materiales de su familia para abrazar una vida de pobreza y confianza en la Providencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El desprendimiento cristiano no consiste en despreciar los bienes, sino en impedir que poseerlos se convierta en el centro de la vida."
+      },
+      "virtue": "Desprendimiento",
+      "reflection": "¿Qué cosa ocupa en mi vida un lugar que debería pertenecer a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven dificultades materiales y por quienes necesitan libertad interior frente a las posesiones."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, ayúdanos a valorar lo esencial y a utilizar nuestros bienes con responsabilidad y caridad. Amén."
+      },
+      "action": "Comparte hoy algo que tengas con una persona que lo necesite."
+    },
+    {
+      "day": 3,
+      "theme": "Pobreza evangélica",
+      "title": "Confiar en la Providencia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Clara defendió durante años el privilegio de pobreza para conservar el modo de vida de las Hermanas Pobres, basado en la confianza en Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Confiar en la Providencia implica trabajar responsablemente y, al mismo tiempo, reconocer que nuestra seguridad última no está en las riquezas."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Dónde busco mi seguridad cuando tengo miedo al futuro?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven incertidumbre económica y por quienes necesitan confiar en Dios sin abandonar sus responsabilidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, fortalece nuestra confianza en Dios y enséñanos a vivir con libertad interior. Amén."
+      },
+      "action": "Revisa hoy un gasto o una costumbre de consumo y decide si puedes simplificarla."
+    },
+    {
+      "day": 4,
+      "theme": "Contemplación",
+      "title": "Mirar a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Clara en San Damián estuvo marcada por la oración y la contemplación de Cristo, especialmente de su humildad y de su Pasión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Contemplar significa detenernos ante Cristo para dejar que su vida transforme nuestra manera de pensar, decidir y amar."
+      },
+      "virtue": "Contemplación",
+      "reflection": "¿Qué cambia en mí cuando realmente me detengo ante Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan recuperar espacios de silencio y oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, enséñanos a mirar a Cristo con un corazón atento y a llevar su presencia a nuestra vida cotidiana. Amén."
+      },
+      "action": "Reserva hoy diez minutos de silencio ante una imagen de Cristo o ante el Santísimo, si puedes hacerlo."
+    },
+    {
+      "day": 5,
+      "theme": "María",
+      "title": "Aprender de la disponibilidad de María",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La espiritualidad de Clara estuvo profundamente vinculada a María y a su disponibilidad ante Dios. San Francisco también presentó la vocación de las Hermanas Pobres en relación con la Virgen."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a recibir la voluntad de Dios con confianza y a poner nuestros dones al servicio de Cristo."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué resistencia necesito entregar para responder con mayor libertad a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean aprender de María a vivir con fe y disponibilidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, ayúdanos a mirar a María y a responder como ella con fe, humildad y confianza. Amén."
+      },
+      "action": "Reza hoy un Ave María lentamente y medita en la palabra 'hágase'."
+    },
+    {
+      "day": 6,
+      "theme": "Fraternidad",
+      "title": "Construir una comunidad de caridad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Alrededor de Clara se reunió una comunidad de hermanas. La vida de San Damián unía contemplación, pobreza, trabajo y una intensa comunión fraterna."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana no se sostiene solamente de manera individual. Necesitamos comunidades donde la caridad, el perdón y el servicio sean concretos."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué puedo hacer hoy para fortalecer la unidad de mi familia o comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, comunidades religiosas y grupos cristianos que necesitan crecer en unidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, intercede para que aprendamos a vivir con paciencia, servicio y caridad hacia quienes comparten nuestro camino. Amén."
+      },
+      "action": "Realiza hoy una tarea que normalmente dejas a otra persona."
+    },
+    {
+      "day": 7,
+      "theme": "Fortaleza",
+      "title": "Permanecer firmes en la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Clara vivió largos años de enfermedad y dificultades. Su testimonio muestra una perseverancia sostenida por la oración y la confianza en Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fortaleza cristiana no niega el sufrimiento. Permite atravesarlo buscando ayuda, sosteniendo la esperanza y permaneciendo fieles al bien."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito afrontar sin abandonar aquello que considero bueno y verdadero?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos y por quienes atraviesan pruebas prolongadas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, acompaña a quienes sufren y ayúdanos a permanecer firmes sin perder la esperanza. Amén."
+      },
+      "action": "Pregunta hoy a una persona que esté pasando por una dificultad cómo puedes ayudarla concretamente."
+    },
+    {
+      "day": 8,
+      "theme": "Fidelidad",
+      "title": "Defender con serenidad lo esencial",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Clara sostuvo durante años su convicción sobre la pobreza de su comunidad y trabajó para que su forma de vida pudiera ser reconocida y protegida por la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad requiere perseverancia, diálogo y capacidad para defender aquello que consideramos esencial sin perder la caridad."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué compromiso bueno necesito cuidar aunque requiera paciencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen responsabilidades dentro de la Iglesia y por quienes deben perseverar en una misión difícil."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, danos serenidad y fortaleza para permanecer fieles al Evangelio y actuar siempre con caridad. Amén."
+      },
+      "action": "Retoma hoy un compromiso bueno que hayas dejado de lado y cumple un paso concreto."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Vivir para Cristo hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Clara murió en San Damián el 11 de agosto de 1253, después de una vida dedicada a Cristo, a la oración y a sus hermanas. Su Regla había sido aprobada poco antes de su muerte."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se expresa en una entrega sostenida. No se trata de realizar acciones extraordinarias cada día, sino de orientar toda la vida hacia Cristo."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué decisión concreta puedo tomar para vivir con mayor coherencia mi fe después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante la novena y por la perseverancia de cada cristiano en su vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Clara, acompáñanos para que vivamos con fidelidad nuestra vocación y mantengamos los ojos puestos en Cristo hasta el final. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o sencillez que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
