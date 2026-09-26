@@ -6180,5 +6180,51 @@
       "vista",
       "luz"
     ]
+  },
+  {
+    "id": "santa-cecilia",
+    "slug": "santa-cecilia",
+    "name": "Santa Cecilia",
+    "title": "Virgen y mártir, patrona de la música y los músicos",
+    "subtitle": "Fe, alabanza y servicio mediante el arte",
+    "category": "Santos",
+    "image": "assets/images/santos/santa_cecilia.webp",
+    "file": "data/santa-cecilia.json",
+    "description": "Virgen y mártir de antigua veneración en Roma, reconocida como patrona de la música y de los músicos.",
+    "feast": {
+      "day": 22,
+      "month": 11,
+      "text": "22 de noviembre",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "martires"
+    ],
+    "territorial": {
+      "origin": [],
+      "historicalLinks": [
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "santa cecilia",
+      "cecilia",
+      "roma",
+      "martir",
+      "mártir",
+      "musica",
+      "música",
+      "musicos",
+      "músicos",
+      "canto",
+      "liturgia"
+    ]
   }
 ]
