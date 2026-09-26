@@ -1272,10 +1272,10 @@
     {
       "id": "san-luis-gonzaga",
       "name": "San Luis Gonzaga",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-luis-gonzaga.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "jovenes"
@@ -1287,7 +1287,9 @@
         "historicalLinks": [
           "IT"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
