@@ -1,6 +1,6 @@
-# Catálogo v2 — Amigos del Cielo
+# Catálogo v3 — Amigos del Cielo
 
-El catálogo v2 separa la navegación y los datos en cuatro áreas:
+El catálogo v3 separa la navegación y los datos en cuatro áreas:
 
 - **Santos**: santos canonizados.
 - **María**: advocaciones marianas. Una advocación es una forma de veneración de la misma Virgen María; no se contabiliza como una persona distinta.
@@ -84,6 +84,32 @@ La interfaz solo muestra los grupos que existen en los datos de la sección acti
 La búsqueda del catálogo consulta nombre, título, descripción, `tags` y `searchTerms`. Puede combinarse con el filtro territorial y con un grupo temático.
 
 Los filtros son acumulativos: **texto + país + grupo**. La clasificación principal de un registro (`santos`, `maria`, `devociones`) no se sustituye por los grupos.
+
+## Modelo de grupos temáticos v3
+
+Los grupos son etiquetas no excluyentes. Sirven para reducir listas extensas sin convertir cada tema en una sección principal. Un registro puede pertenecer a varios grupos.
+
+Grupos de Santos normalizados:
+
+- `padres-iglesia` — Padres de la Iglesia.
+- `doctores` — Doctores de la Iglesia.
+- `fundadores` — Fundadores y fundadoras.
+- `martires` — Mártires.
+- `apostoles` — Apóstoles.
+- `jovenes` — Santos jóvenes.
+- `franciscanos` — Familia franciscana.
+- `latinoamericanos` — Santos con vínculo territorial latinoamericano registrado.
+- `devocion-extendida` — Figuras con devoción especialmente extendida en el catálogo objetivo.
+
+En María, `advocaciones-marianas` identifica la naturaleza de la sección y deja preparada la arquitectura para futuras subdivisiones.
+
+Las devociones utilizan grupos propios cuando ayudan a distinguir su naturaleza. Beata Clara Fey conserva `beatas` y no se convierte en una devoción.
+
+## Relación catálogo ↔ novenas
+
+Cada novena publicada se relaciona con un registro maestro mediante su `id`. El catálogo maestro determina categoría, grupos y vínculos territoriales; `data/novenas.json` conserva el contenido de oración. Así se evita duplicar la clasificación en cada novena.
+
+Las novenas marianas existentes se muestran como contenido de `maria`, aunque históricamente sus registros en `data/novenas.json` hayan usado `Devociones`.
 
 ## Nueva ampliación de Santos
 
