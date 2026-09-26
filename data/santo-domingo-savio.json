@@ -1,0 +1,429 @@
+{
+  "id": "santo-domingo-savio",
+  "slug": "santo-domingo-savio",
+  "name": "Santo Domingo Savio",
+  "title": "Joven discípulo de San Juan Bosco",
+  "subtitle": "Alegría, estudio, amistad y santidad cotidiana",
+  "category": "Santos",
+  "image": "",
+  "description": "Joven discípulo de San Juan Bosco que buscó vivir la santidad en la alegría, el estudio, la oración, la amistad y el servicio a sus compañeros.",
+  "novena": {
+    "days": 9,
+    "introduction": "Esta novena recorre algunos rasgos centrales del testimonio de Santo Domingo Savio: su relación con San Juan Bosco, la alegría, el estudio, la amistad, la oración, el cuidado de la vida interior y la perseverancia.",
+    "calendarNote": "La memoria litúrgica de Santo Domingo Savio se celebra el 6 de mayo. El día 9 corresponde a esa fecha cuando se comienza ocho días antes."
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santo-domingo-savio"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 6,
+    "month": 5,
+    "text": "6 de mayo",
+    "liturgicalRank": "Memoria",
+    "movable": false
+  },
+  "quote": {
+    "text": "La muerte, pero no los pecados.",
+    "reference": "Propósito transmitido en la tradición biográfica salesiana."
+  },
+  "patronages": [
+    "Jóvenes, especialmente en la tradición salesiana",
+    "Monaguillos y jóvenes vinculados a la devoción por su testimonio"
+  ],
+  "virtues": [
+    "Fe",
+    "Alegría",
+    "Pureza de corazón",
+    "Amistad",
+    "Oración",
+    "Responsabilidad",
+    "Perseverancia",
+    "Caridad",
+    "Generosidad"
+  ],
+  "search": [
+    "santo domingo savio",
+    "domingo savio",
+    "san domingo savio",
+    "don bosco",
+    "san juan bosco",
+    "salesianos",
+    "jovenes",
+    "jóvenes",
+    "santidad",
+    "estudio",
+    "amistad",
+    "alegria",
+    "alegría",
+    "oracion",
+    "oración",
+    "pureza",
+    "confesion",
+    "confesión"
+  ],
+  "interventions": [
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y propósito de vida",
+      "keywords": [
+        "jovenes",
+        "jóvenes",
+        "adolescentes",
+        "juventud",
+        "futuro"
+      ]
+    },
+    {
+      "id": "estudio",
+      "label": "Estudio y responsabilidades",
+      "keywords": [
+        "estudio",
+        "escuela",
+        "colegio",
+        "examen",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "amistad",
+      "label": "Amistad y convivencia",
+      "keywords": [
+        "amistad",
+        "amigos",
+        "compañeros",
+        "convivencia",
+        "perdon",
+        "perdón"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida cristiana",
+      "keywords": [
+        "oracion",
+        "oración",
+        "misa",
+        "eucaristia",
+        "eucaristía",
+        "confesion",
+        "confesión",
+        "fe"
+      ]
+    },
+    {
+      "id": "alegria",
+      "label": "Alegría y esperanza",
+      "keywords": [
+        "alegria",
+        "alegría",
+        "esperanza",
+        "animo",
+        "ánimo"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y acompañamiento",
+      "keywords": [
+        "familia",
+        "padres",
+        "hogar",
+        "acompañamiento"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y discernimiento",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "discernimiento",
+        "mision",
+        "misión"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Domingo Savio nació en 1842 en Riva presso Chieri, Italia. Siendo niño conoció a San Juan Bosco y entró en el Oratorio de Valdocco. Se distinguió por su alegría, su oración, su estudio y su preocupación por sus compañeros. Murió en 1857, con catorce años, y fue canonizado por Pío XII en 1954.",
+    "extended": "Domingo Savio nació el 2 de abril de 1842 en Riva presso Chieri, cerca de Turín. Recibió desde pequeño una formación cristiana y desarrolló un fuerte deseo de vivir cerca de Dios.\\n\\nEn 1854 conoció a San Juan Bosco y entró en el Oratorio de Valdocco, donde recibió formación cristiana y escolar. Allí aprendió a unir oración, estudio, recreación, amistad y servicio.\\n\\nEl testimonio de Domingo estuvo marcado por la alegría y por el deseo de hacer el bien. San Juan Pablo II recordó que procuraba hacer felices a sus compañeros, enseñar el catecismo a los más pequeños y unir la alegría con el estudio y la piedad.\\n\\nSu salud se debilitó y regresó junto a su familia. Murió en Mondonio el 9 de marzo de 1857, con catorce años. Fue canonizado por el papa Pío XII el 12 de junio de 1954. La Santa Sede continúa presentándolo como uno de los jóvenes formados en la escuela espiritual de Don Bosco."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santo Domingo Savio, joven amigo de Jesús, acompáñame durante estos nueve días. Enséñame a vivir mi fe con alegría, a cumplir mis responsabilidades, a cuidar mis amistades y a buscar siempre el bien. Presenta ante Dios la intención que llevo en el corazón. Amén.",
+  "closingPrayer": "Santo Domingo Savio, gracias por acompañarme durante esta novena. Intercede por los jóvenes, las familias, los estudiantes y quienes buscan crecer en la amistad con Cristo. Ayúdanos a vivir con alegría, responsabilidad, pureza de corazón y caridad. Amén.",
+  "intentions": [
+    "Por los jóvenes que buscan un propósito y un camino para su vida.",
+    "Por estudiantes que necesitan perseverancia y esperanza.",
+    "Por quienes viven dificultades con sus amistades o se sienten solos.",
+    "Por las familias que acompañan a niños y jóvenes.",
+    "Por quienes desean crecer en la oración y en la vida sacramental.",
+    "Por jóvenes que luchan con decisiones o dificultades personales.",
+    "Por educadores, catequistas y acompañantes de niños y jóvenes.",
+    "Por quienes desean descubrir su vocación.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 5,1-12"
+      },
+      {
+        "reference": "Marcos 10,13-16"
+      },
+      {
+        "reference": "Filipenses 4,4-9"
+      },
+      {
+        "reference": "1 Timoteo 4,12-16"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general del 6 de mayo de 2026",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/leo-xiv/it/audiences/2026/documents/20260506-udienza-generale.html",
+      "type": "official"
+    },
+    {
+      "title": "Audiencia general del 6 de mayo de 1987",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/audiences/1987/documents/hf_jp-ii_aud_19870506.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "enabled": false
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La infancia",
+      "title": "Crecer en la fe desde lo cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Domingo recibió desde pequeño una formación cristiana en una familia sencilla. Su deseo de acercarse a Dios fue creciendo en la vida ordinaria."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede crecer mediante pequeños hábitos y buenos ejemplos."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué hábito sencillo puedo incorporar para cuidar mi vida espiritual?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con fe, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Dedica unos minutos a la oración."
+    },
+    {
+      "day": 2,
+      "theme": "La escuela de Don Bosco",
+      "title": "Aprender a vivir la santidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Domingo conoció a San Juan Bosco y entró en el Oratorio de Valdocco, donde unió formación cristiana, estudio y convivencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Un buen acompañamiento ayuda a descubrir que la fe también transforma el estudio y las relaciones."
+      },
+      "virtue": "Docilidad",
+      "reflection": "¿Quién me ayuda a crecer humana y espiritualmente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con docilidad, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Agradece a una persona que haya contribuido a tu formación."
+    },
+    {
+      "day": 3,
+      "theme": "La alegría",
+      "title": "Una santidad vivida con alegría",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En el ambiente del Oratorio, Domingo aprendió que la santidad no exigía apartarse de la vida cotidiana, sino vivirla con Dios y con alegría."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La alegría cristiana puede sostenerse incluso cuando existen dificultades."
+      },
+      "virtue": "Alegría",
+      "reflection": "¿Qué actitud puedo cambiar para llevar más paz y alegría a los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con alegría, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Haz hoy un gesto que lleve alegría a otra persona."
+    },
+    {
+      "day": 4,
+      "theme": "La amistad",
+      "title": "Hacer el bien a los compañeros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Domingo procuraba acercarse a sus compañeros y ayudar especialmente a quienes podían necesitar compañía o apoyo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La amistad cristiana incluye escuchar, acompañar, perdonar y buscar el bien del otro."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Hay alguien cercano a quien pueda escuchar mejor?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con caridad, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Acércate a alguien que pueda necesitar compañía."
+    },
+    {
+      "day": 5,
+      "theme": "El estudio",
+      "title": "Cumplir bien los deberes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Domingo combinó su vida espiritual con el estudio y las responsabilidades propias de su edad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad en las pequeñas tareas también forma el carácter y puede convertirse en servicio."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué responsabilidad puedo asumir hoy con mayor cuidado?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con responsabilidad, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Termina una tarea pendiente con especial cuidado."
+    },
+    {
+      "day": 6,
+      "theme": "El corazón",
+      "title": "Cuidar la vida interior",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Domingo expresó con firmeza su deseo de vivir unido a Dios y de evitar el pecado."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar el corazón implica revisar decisiones, pedir ayuda y elegir aquello que conduce al bien."
+      },
+      "virtue": "Pureza",
+      "reflection": "¿Qué hábito necesito revisar para cuidar mejor mi vida interior?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con pureza, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Haz una revisión sincera de un hábito que quieras mejorar."
+    },
+    {
+      "day": 7,
+      "theme": "La oración",
+      "title": "Permanecer cerca de Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La formación espiritual de Domingo estuvo marcada por la oración y la vida sacramental."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana necesita espacios concretos de oración para sostener las demás dimensiones de la vida."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio real estoy dando a la oración cada día?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con oración, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Reserva un momento concreto para orar sin distracciones."
+    },
+    {
+      "day": 8,
+      "theme": "La vocación",
+      "title": "Responder al bien que Dios inspira",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La breve vida de Domingo estuvo orientada por el deseo de pertenecer a Dios y hacer el bien dentro de la formación recibida junto a Don Bosco."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Discernir requiere oración, acompañamiento y disponibilidad para responder al bien."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué bien concreto siento que Dios me invita a realizar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes, las familias, los educadores y quienes necesitan crecer en este aspecto de la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con generosidad, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Pide consejo a una persona de confianza sobre una decisión importante."
+    },
+    {
+      "day": 9,
+      "theme": "La perseverancia",
+      "title": "Una vida breve entregada al Señor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Domingo murió en 1857, con catorce años. La Iglesia reconoció en su vida un testimonio de santidad juvenil y fue canonizado en 1954."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La duración de una vida no determina por sí sola la profundidad de una entrega a Dios."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso de esta novena quiero mantener después de terminarla?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los jóvenes y por la intención particular de esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santo Domingo Savio, ayúdame a vivir este día con perseverancia, a buscar el bien y a permanecer cerca de Jesús. Intercede por mi intención y enséñame a vivir la fe con alegría. Amén."
+      },
+      "action": "Elige un compromiso concreto que puedas mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
