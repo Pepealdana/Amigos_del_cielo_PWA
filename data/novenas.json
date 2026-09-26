@@ -6088,5 +6088,51 @@
       "navarra",
       "jesuita"
     ]
+  },
+  {
+    "id": "san-luis-gonzaga",
+    "slug": "san-luis-gonzaga",
+    "name": "San Luis Gonzaga",
+    "title": "Joven jesuita y testigo de caridad",
+    "subtitle": "Oración, disciplina y servicio a los demás",
+    "category": "Santos",
+    "image": "assets/images/santos/san_luis_gonzaga.webp",
+    "file": "data/san-luis-gonzaga.json",
+    "description": "Joven jesuita que renunció a sus privilegios para seguir su vocación y murió atendiendo a enfermos durante una epidemia en Roma.",
+    "feast": {
+      "day": 21,
+      "month": 6,
+      "text": "21 de junio",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "jovenes"
+    ],
+    "territorial": {
+      "origin": [
+        "IT"
+      ],
+      "historicalLinks": [
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "san luis gonzaga",
+      "luis gonzaga",
+      "jesuita",
+      "joven",
+      "juventud",
+      "estudiantes",
+      "roma",
+      "enfermos",
+      "caridad"
+    ]
   }
 ]
