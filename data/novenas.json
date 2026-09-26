@@ -6134,5 +6134,51 @@
       "enfermos",
       "caridad"
     ]
+  },
+  {
+    "id": "santa-lucia-de-siracusa",
+    "slug": "santa-lucia-de-siracusa",
+    "name": "Santa Lucía de Siracusa",
+    "title": "Virgen y mártir, testigo de la luz de Cristo",
+    "subtitle": "Fe, valentía y esperanza",
+    "category": "Santos",
+    "image": "assets/images/santos/santa_lucia_de_siracusa.webp",
+    "file": "data/santa-lucia-de-siracusa.json",
+    "description": "Mártir cristiana de Siracusa venerada desde la antigüedad y especialmente invocada por personas con enfermedades de los ojos.",
+    "feast": {
+      "day": 13,
+      "month": 12,
+      "text": "13 de diciembre",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "martires"
+    ],
+    "territorial": {
+      "origin": [
+        "IT"
+      ],
+      "historicalLinks": [
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "santa lucia",
+      "santa lucía",
+      "lucia de siracusa",
+      "lucía de siracusa",
+      "siracusa",
+      "martir",
+      "mártir",
+      "ojos",
+      "vista",
+      "luz"
+    ]
   }
 ]
