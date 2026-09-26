@@ -97,26 +97,6 @@ function renderAcerca() {
 
             <div class="divider"></div>
 
-            <h3>Hoja de ruta</h3>
-
-            <ol class="feature-list">
-                <li><strong>V1.0</strong> — Aplicación funcional y catálogo inicial.</li>
-                <li><strong>V1.1</strong> — Revisión y mejora del contenido.</li>
-                <li><strong>V1.2</strong> — Internacionalización para la comunidad católica hispanohablante.</li>
-                <li><strong>V1.3</strong> — Ampliación de santos, beatos y advocaciones de Hispanoamérica y España.</li>
-                <li><strong>V1.4</strong> — Calendario y celebraciones con contexto regional.</li>
-                <li><strong>V1.5</strong> — Mejoras de experiencia, compartir y participación.</li>
-                <li><strong>V2.0</strong> — Expansión multilingüe, comenzando por inglés y portugués.</li>
-            </ol>
-
-            <p>
-                Esta hoja de ruta es progresiva: primero buscamos una
-                experiencia sólida y útil en español antes de ampliar
-                idiomas o funciones más complejas.
-            </p>
-
-            <div class="divider"></div>
-
             <h3>
                 Una aplicación gratuita
             </h3>
