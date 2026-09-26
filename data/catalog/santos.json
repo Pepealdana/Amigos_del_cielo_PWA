@@ -1000,10 +1000,10 @@
     {
       "id": "santa-bernardita-soubirous",
       "name": "Santa Bernardita Soubirous",
-      "status": "pending",
-      "category": "santos",
+      "status": "published",
+      "category": "Santos",
       "sourceFile": "data/santa-bernardita-soubirous.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida"
       ],
@@ -1014,8 +1014,144 @@
         "historicalLinks": [
           "FR"
         ],
-        "specialDevotion": []
-      }
+        "specialDevotion": [
+          "FR"
+        ]
+      },
+      "slug": "santa-bernardita-soubirous",
+      "title": "Virgen, vidente de Lourdes y religiosa de Nevers",
+      "subtitle": "Humildad, oración y fidelidad al mensaje recibido en Lourdes",
+      "image": "assets/images/santos/santa_bernardita_soubirous.webp",
+      "file": "data/santa-bernardita-soubirous.json",
+      "description": "Joven de Lourdes que recibió dieciocho apariciones de la Virgen María en 1858 y después vivió una vida escondida como religiosa de las Hermanas de la Caridad de Nevers.",
+      "feast": {
+        "day": 18,
+        "month": 2,
+        "text": "18 de febrero",
+        "movable": false,
+        "liturgicalRank": "Memoria (Francia)",
+        "note": "En Francia y en el Santuario de Lourdes se celebra a Santa Bernardita el 18 de febrero, en relación con la tercera aparición. Su conmemoración también aparece el 16 de abril, fecha de su muerte."
+      },
+      "search": [
+        "santa bernardita",
+        "santa bernardette",
+        "bernardita soubirous",
+        "bernadette soubirous",
+        "bernardita de lourdes",
+        "vidente de lourdes",
+        "lourdes",
+        "massabielle",
+        "inmaculada concepcion",
+        "inmaculada concepción",
+        "hermanas de nevers",
+        "nevers",
+        "oracion",
+        "oración",
+        "enfermos",
+        "peregrinos"
+      ],
+      "interventions": [
+        {
+          "id": "maria",
+          "label": "María e Inmaculada Concepción",
+          "keywords": [
+            "maria",
+            "maría",
+            "virgen",
+            "inmaculada",
+            "inmaculada concepcion",
+            "inmaculada concepción",
+            "nuestra señora de lourdes"
+          ]
+        },
+        {
+          "id": "oracion",
+          "label": "Oración y Rosario",
+          "keywords": [
+            "oracion",
+            "oración",
+            "rosario",
+            "rezar",
+            "plegaria",
+            "gruta",
+            "lourdes"
+          ]
+        },
+        {
+          "id": "enfermos",
+          "label": "Enfermedad, dolor y esperanza",
+          "keywords": [
+            "enfermos",
+            "enfermedad",
+            "dolor",
+            "sufrimiento",
+            "hospital",
+            "consuelo",
+            "esperanza"
+          ]
+        },
+        {
+          "id": "humildad",
+          "label": "Humildad y sencillez",
+          "keywords": [
+            "humildad",
+            "sencillez",
+            "pobreza",
+            "pequeñez",
+            "simpleza"
+          ]
+        },
+        {
+          "id": "conversion",
+          "label": "Conversión y penitencia",
+          "keywords": [
+            "conversion",
+            "conversión",
+            "penitencia",
+            "pecadores",
+            "cambio",
+            "reconciliacion",
+            "reconciliación"
+          ]
+        },
+        {
+          "id": "vocacion",
+          "label": "Vocación y vida consagrada",
+          "keywords": [
+            "vocacion",
+            "vocación",
+            "religiosa",
+            "nevers",
+            "consagracion",
+            "consagración",
+            "hermanas"
+          ]
+        },
+        {
+          "id": "fidelidad",
+          "label": "Fidelidad y testimonio",
+          "keywords": [
+            "fidelidad",
+            "testimonio",
+            "verdad",
+            "apariciones",
+            "mensaje",
+            "perseverancia"
+          ]
+        },
+        {
+          "id": "peregrinacion",
+          "label": "Peregrinación y vida cristiana",
+          "keywords": [
+            "peregrinacion",
+            "peregrinación",
+            "peregrinos",
+            "santuario",
+            "lourdes",
+            "camino"
+          ]
+        }
+      ]
     },
     {
       "id": "santa-clara-de-asis",
