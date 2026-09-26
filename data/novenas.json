@@ -5946,5 +5946,46 @@
         ]
       }
     ]
+  },
+  {
+    "id": "santa-marta-de-betania",
+    "slug": "santa-marta-de-betania",
+    "name": "Santa Marta de Betania",
+    "title": "Amiga y discípula de Jesús en Betania",
+    "subtitle": "Hospitalidad, servicio y fe en Cristo",
+    "category": "Santos",
+    "image": "assets/images/santos/santa_marta_de_betania.webp",
+    "file": "data/santa-marta-de-betania.json",
+    "description": "Hermana de María y Lázaro y amiga de Jesús, recordada en los Evangelios por su hospitalidad, servicio y profesión de fe.",
+    "feast": {
+      "day": 29,
+      "month": 7,
+      "text": "29 de julio",
+      "movable": false,
+      "liturgicalRank": "Memoria obligatoria"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida"
+    ],
+    "territorial": {
+      "origin": [],
+      "historicalLinks": [
+        "IL"
+      ],
+      "specialDevotion": []
+    },
+    "interventions": 8,
+    "search": [
+      "santa marta",
+      "marta de betania",
+      "betania",
+      "hospitalidad",
+      "servicio",
+      "familia",
+      "fe",
+      "jesus",
+      "jesús"
+    ]
   }
 ]
