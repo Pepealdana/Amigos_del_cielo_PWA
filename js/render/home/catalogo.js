@@ -183,7 +183,7 @@ function renderFiltrosPais(paisSeleccionado, catalogo = []) {
 
                 ${paises.map(pais => `
                     <button
-                        class="catalog-country-chip ${pais.id === paisSeleccionado ? "active" : ""}"
+                        class="catalog-country-chip ${pais.id === paisActivo ? "active" : ""}"
                         type="button"
                         data-country-filter="${escaparHTML(pais.id)}"
                         title="${escaparHTML(pais.name)}">
