@@ -4,23 +4,6 @@
   "description": "Devociones y otras expresiones de oración conservadas del catálogo actual.",
   "items": [
     {
-      "id": "san-expedito",
-      "name": "San Expedito",
-      "category": "devociones",
-      "status": "published",
-      "sourceFile": "data/san-expedito.json",
-      "territorial": {
-        "origin": [],
-        "historicalLinks": [
-          "IT"
-        ],
-        "specialDevotion": [
-          "AR"
-        ],
-        "note": "No se asigna Italia como origen. El vínculo con Italia corresponde a la historia documentada del culto; Argentina conserva una devoción especialmente arraigada y varios santuarios."
-      }
-    },
-    {
       "id": "divina-misericordia",
       "name": "Divina Misericordia",
       "category": "devociones",
