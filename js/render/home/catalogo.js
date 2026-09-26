@@ -234,6 +234,35 @@ function obtenerEtiquetaCatalogo(item) {
     return etiquetas[categoria] || item?.category || "Novena";
 }
 
+function obtenerDatoSecundarioCatalogo(item, seccion) {
+    if (seccion === "santos") {
+        const registro = state.catalogo.find(novena => novena.id === item.id);
+        const fiesta = registro?.feast?.text;
+
+        if (fiesta) {
+            return `Fiesta: ${fiesta}`;
+        }
+
+        return "Santo";
+    }
+
+    if (seccion === "todos") {
+        return obtenerEtiquetaCatalogo(item);
+    }
+
+    if (seccion === "maria") {
+        return "Advocación mariana";
+    }
+
+    if (seccion === "devociones") {
+        return "Devoción";
+    }
+
+    return item.status === "published"
+        ? "Disponible"
+        : "Próximamente";
+}
+
 function renderTarjetaCatalogoV2(item, seccion) {
     const imagen = item.image ||
         (item.sourceFile
@@ -276,11 +305,7 @@ function renderTarjetaCatalogoV2(item, seccion) {
                 <small>
                     ${seccion === "maria"
                         ? escaparHTML(etiquetasPais.join(" · ") || "Tradición mariana")
-                        : seccion === "todos"
-                            ? escaparHTML(obtenerEtiquetaCatalogo(item))
-                            : item.status === "published"
-                                ? "Disponible"
-                                : "Próximamente"}
+                        : escaparHTML(obtenerDatoSecundarioCatalogo(item, seccion))}
                 </small>
             </span>
         </button>
