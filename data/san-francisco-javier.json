@@ -1,0 +1,459 @@
+{
+  "id": "san-francisco-javier",
+  "name": "San Francisco Javier",
+  "title": "Apóstol del Oriente y patrono de las misiones",
+  "feast": {
+    "day": 3,
+    "month": 12,
+    "text": "3 de diciembre",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "image": "assets/images/santos/san_francisco_javier.webp",
+  "groups": [
+    "devocion-extendida",
+    "fundadores"
+  ],
+  "territorial": {
+    "origin": [
+      "ES"
+    ],
+    "historicalLinks": [
+      "ES",
+      "IN",
+      "ID",
+      "JP",
+      "CN"
+    ],
+    "specialDevotion": [
+      "ES",
+      "IN",
+      "JP"
+    ]
+  },
+  "patronages": [
+    "Misiones católicas",
+    "Misioneros",
+    "Evangelización",
+    "Navarra"
+  ],
+  "virtues": [
+    "Celo apostólico",
+    "Fe",
+    "Oración",
+    "Valentía",
+    "Perseverancia",
+    "Caridad",
+    "Disponibilidad"
+  ],
+  "history": {
+    "short": "Francisco Javier nació en Navarra en 1506, estudió en París y allí conoció a san Ignacio de Loyola. Fue uno de los primeros compañeros de la Compañía de Jesús y marchó a Oriente como misionero. Evangelizó en India, las Molucas y Japón, y murió en 1552 en la isla de Sancián mientras esperaba entrar en China. Fue canonizado en 1622 y es patrono de las misiones.",
+    "extended": "Francisco de Jaso y Azpilicueta nació en 1506 en el castillo de Javier, Navarra. Estudió en París, donde conoció a Ignacio de Loyola. Junto con otros compañeros participó en el grupo que dio origen a la Compañía de Jesús y puso su vida a disposición del servicio de la Iglesia.\n\nEn 1541 partió hacia Oriente enviado por el papa Pablo III como legado pontificio. Llegó a Goa en 1542 y comenzó una intensa actividad misionera. Catequizó, enseñó a niños, bautizó y atendió a personas enfermas, especialmente entre las poblaciones más pobres de la costa meridional de la India.\n\nSu impulso misionero lo llevó después a las Molucas y, en 1549, a Japón. Allí afrontó dificultades de clima, lengua y cultura, pero procuró anunciar el Evangelio adaptando su comunicación a las personas que encontraba. Más tarde concibió el proyecto de entrar en China, hacia donde partió en 1552.\n\nNo consiguió desembarcar en el territorio continental chino. Murió el 3 de diciembre de 1552 en la isla de Sancián, frente a la costa de China, a los 46 años. Sus restos fueron trasladados posteriormente a Goa, donde son venerados en la basílica del Bom Jesus.\n\nFue canonizado en 1622 junto con san Ignacio de Loyola y otros santos. La Iglesia lo reconoce como patrono de las misiones y como uno de los grandes testigos del celo apostólico. El papa Francisco ha destacado que su intensa actividad misionera estuvo siempre unida a la oración y a la atención de pobres, enfermos y niños."
+  },
+  "quote": {
+    "text": "Los peligros y los sufrimientos, aceptados voluntariamente y únicamente por amor y servicio de Dios nuestro Señor, son ricos tesoros de grandes consolaciones espirituales.",
+    "reference": "Carta de san Francisco Javier, 20 de enero de 1548; citada por el papa Francisco en la audiencia general del 17 de mayo de 2023."
+  },
+  "search": [
+    "san francisco javier",
+    "francisco javier",
+    "francisco de javier",
+    "francisco de jaso",
+    "javier",
+    "misionero",
+    "misiones",
+    "misiones catolicas",
+    "misiones católicas",
+    "evangelizacion",
+    "evangelización",
+    "india",
+    "goa",
+    "japon",
+    "japón",
+    "molucas",
+    "china",
+    "sancian",
+    "navarra",
+    "jesuita",
+    "compañia de jesus",
+    "compañía de jesús"
+  ],
+  "interventions": [
+    {
+      "id": "misiones",
+      "label": "Misiones y evangelización",
+      "keywords": [
+        "misiones",
+        "mision",
+        "misión",
+        "misionero",
+        "evangelizacion",
+        "evangelización",
+        "catequesis"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación misionera",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamada",
+        "apostolado",
+        "servicio"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y unión con Dios",
+      "keywords": [
+        "oracion",
+        "oración",
+        "contemplacion",
+        "contemplación",
+        "eucaristia",
+        "eucaristía"
+      ]
+    },
+    {
+      "id": "viajes",
+      "label": "Viajes y disponibilidad",
+      "keywords": [
+        "viaje",
+        "viajes",
+        "mision",
+        "misión",
+        "camino",
+        "peregrinacion",
+        "peregrinación"
+      ]
+    },
+    {
+      "id": "pobres",
+      "label": "Pobres y necesitados",
+      "keywords": [
+        "pobres",
+        "necesitados",
+        "enfermos",
+        "niños",
+        "niñas",
+        "marginados"
+      ]
+    },
+    {
+      "id": "culturas",
+      "label": "Encuentro entre culturas",
+      "keywords": [
+        "cultura",
+        "culturas",
+        "india",
+        "japon",
+        "japón",
+        "lengua",
+        "idioma",
+        "inculturacion",
+        "inculturación"
+      ]
+    },
+    {
+      "id": "perseverancia",
+      "label": "Perseverancia ante las dificultades",
+      "keywords": [
+        "perseverancia",
+        "dificultades",
+        "sufrimiento",
+        "peligros",
+        "cansancio",
+        "fracaso"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y misión cotidiana",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "testimonio",
+        "evangelizar"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Francisco Javier, misionero incansable, ayúdanos a poner nuestros dones al servicio de Cristo y de los demás. Enséñanos a unir oración y acción, a acercarnos con respeto a quienes son diferentes y a perseverar cuando el camino se hace difícil. Presentamos ante Dios nuestras intenciones. Amén.",
+  "closingPrayer": "San Francisco Javier, patrono de las misiones, ruega por los misioneros y por todos los cristianos llamados a dar testimonio de su fe. Enséñanos a llevar el Evangelio con caridad, respeto y servicio, comenzando por las personas que Dios ha puesto cerca de nosotros. Amén.",
+  "intentions": [
+    "Por los misioneros y misioneras que anuncian el Evangelio.",
+    "Por quienes anuncian a Cristo en lugares donde la Iglesia es pequeña o perseguida.",
+    "Por niños y jóvenes que necesitan educación y acompañamiento.",
+    "Por los enfermos y personas pobres que necesitan atención.",
+    "Por quienes sirven en contextos culturales diferentes al propio.",
+    "Por las vocaciones sacerdotales, religiosas y misioneras.",
+    "Por quienes tienen miedo de responder a una llamada de servicio.",
+    "Por la unidad de los cristianos y el diálogo respetuoso entre pueblos.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Mateo 28,16-20",
+      "Marcos 16,15-20",
+      "Lucas 4,16-21",
+      "1 Corintios 9,16-23",
+      "Romanos 10,13-15"
+    ],
+    "related": [
+      "San Ignacio de Loyola",
+      "Compañía de Jesús",
+      "Javier, Navarra",
+      "Goa",
+      "Japón",
+      "Sancián",
+      "Basílica del Bom Jesus"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general del 17 de mayo de 2023: San Francisco Javier",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/audiences/2023/documents/20230517-udienza-generale.html",
+      "type": "official"
+    },
+    {
+      "title": "Carta por el V centenario del nacimiento de San Francisco Javier",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/letters/2006/documents/hf_ben-xvi_let_20060303_francis-xavier.html",
+      "type": "official"
+    },
+    {
+      "title": "San Francisco Javier",
+      "organization": "Compañía de Jesús",
+      "url": "https://www.jesuits.global/es/saint-blessed/san-francisco-javier/",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Llamada",
+      "title": "Descubrir una vocación de servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Francisco Javier estudió en París y allí conoció a Ignacio de Loyola. Ese encuentro contribuyó a transformar sus aspiraciones y a orientarlas hacia el servicio de Dios y de la Iglesia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación puede desarrollarse a través de encuentros, decisiones y procesos de discernimiento. No siempre conocemos desde el principio todo el camino."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué capacidades personales puedo poner al servicio de Dios y de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo su vocación y necesitan claridad para dar un paso."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, ayúdanos a reconocer los dones que Dios nos ha dado y a ponerlos al servicio del bien. Amén."
+      },
+      "action": "Identifica hoy una capacidad tuya que pueda beneficiar concretamente a otra persona."
+    },
+    {
+      "day": 2,
+      "theme": "Oración",
+      "title": "La misión nace de la unión con Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La actividad misionera de Javier estuvo unida a la oración. El papa Francisco ha destacado que su intenso trabajo apostólico no estaba separado de una vida de unión con Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La acción cristiana necesita una fuente interior. La oración ayuda a discernir, renovar fuerzas y mantener rectas las motivaciones."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Mi servicio a los demás nace también de momentos reales de oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven a otros y necesitan recuperar o profundizar su vida espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, enséñanos a buscar a Dios en la oración y a dejar que nuestra acción nazca de esa relación. Amén."
+      },
+      "action": "Dedica hoy un momento de oración antes de comenzar una tarea importante."
+    },
+    {
+      "day": 3,
+      "theme": "Misión",
+      "title": "Salir al encuentro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Javier no permaneció únicamente en los centros donde podía sentirse cómodo. Desde Goa salió hacia la costa de la India y posteriormente emprendió viajes hacia las Molucas y Japón."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misión comienza cuando estamos dispuestos a salir de nuestros espacios habituales para encontrarnos con personas y necesidades reales."
+      },
+      "virtue": "Celo apostólico",
+      "reflection": "¿Qué persona o realidad estoy evitando conocer por comodidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten solos, excluidos o alejados de la comunidad cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, danos valentía para salir al encuentro de quienes necesitan compañía, escucha y esperanza. Amén."
+      },
+      "action": "Acércate hoy a una persona con la que normalmente no conversas."
+    },
+    {
+      "day": 4,
+      "theme": "Servicio",
+      "title": "Atender a los más vulnerables",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En la India, Javier enseñó catecismo y oraciones a niños, bautizó y atendió a enfermos. Su actividad misionera estuvo también marcada por la cercanía a personas pobres y vulnerables."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La evangelización cristiana no puede separarse del cuidado de las personas. Anunciar la fe implica también aprender a servir."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por niños, enfermos, personas pobres y todos quienes necesitan cuidado."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, enséñanos a unir nuestra fe con obras concretas de servicio y caridad. Amén."
+      },
+      "action": "Realiza hoy una obra de misericordia corporal o espiritual."
+    },
+    {
+      "day": 5,
+      "theme": "Encuentro",
+      "title": "Anunciar respetando a las personas",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su misión en Asia, Javier tuvo que afrontar lenguas, costumbres y contextos culturales diferentes. Su experiencia muestra la necesidad de aprender a comunicarse con quienes reciben el anuncio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dar testimonio de la fe requiere escuchar, aprender y respetar. No podemos comprender plenamente a otra persona sin acercarnos a su realidad."
+      },
+      "virtue": "Respeto",
+      "reflection": "¿Qué necesito aprender de la realidad de alguien antes de pretender ayudarlo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros y comunidades que viven encuentros entre diferentes culturas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, danos humildad para escuchar y aprender de las personas a quienes queremos servir. Amén."
+      },
+      "action": "Haz hoy una pregunta sincera a alguien sobre su historia y escucha sin interrumpir."
+    },
+    {
+      "day": 6,
+      "theme": "Perseverancia",
+      "title": "No detenerse ante las dificultades",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los viajes de Javier fueron largos y peligrosos. En Japón afrontó dificultades de clima, oposición y desconocimiento de la lengua. Aun así, continuó su misión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa ignorar los límites. Significa discernir qué merece ser sostenido y continuar con paciencia cuando aparecen obstáculos."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué buena tarea he abandonado demasiado pronto por encontrar dificultades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan obstáculos en su vocación, trabajo, estudios o servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, acompaña a quienes están cansados y ayúdanos a perseverar con prudencia y esperanza. Amén."
+      },
+      "action": "Retoma hoy una tarea buena que hayas dejado pendiente."
+    },
+    {
+      "day": 7,
+      "theme": "Riesgo",
+      "title": "Salir de la zona de comodidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Javier emprendió viajes hacia lugares cada vez más lejanos. Su deseo de anunciar el Evangelio lo llevó finalmente a intentar entrar en China, donde murió antes de conseguirlo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio cristiano puede exigir asumir riesgos razonables y abandonar comodidades. El discernimiento ayuda a distinguir entre valentía y temeridad."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué paso responsable estoy evitando por miedo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan valentía para responder a una responsabilidad o llamada concreta."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, danos valentía para hacer el bien y prudencia para reconocer el camino correcto. Amén."
+      },
+      "action": "Da hoy un pequeño paso responsable hacia algo bueno que has estado postergando."
+    },
+    {
+      "day": 8,
+      "theme": "Universalidad",
+      "title": "Un Evangelio para todos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La misión de Javier se extendió desde Europa hacia India, las Molucas y Japón, y terminó ante las costas de China. La Iglesia reconoce en él un testimonio de la universalidad de la misión cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe cristiana no pertenece a una sola cultura. El Evangelio se anuncia a personas concretas y necesita expresarse con respeto dentro de cada realidad."
+      },
+      "virtue": "Universalidad",
+      "reflection": "¿Hay personas o culturas que conozco poco y sobre las que tengo prejuicios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de la humanidad, por los pueblos de Asia y por quienes trabajan en contextos interculturales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, ayúdanos a reconocer la dignidad de cada pueblo y a vivir nuestra fe con respeto y apertura. Amén."
+      },
+      "action": "Busca hoy una oportunidad para aprender algo verdadero sobre una cultura diferente a la tuya."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Servir hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Javier murió el 3 de diciembre de 1552 en Sancián, a los 46 años, mientras esperaba poder entrar en China. Su vida quedó marcada por la entrega a la misión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misión cristiana no depende de alcanzar todos los resultados que imaginamos. Podemos ser fieles a nuestra responsabilidad aunque no veamos el fruto completo."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué servicio quiero asumir con mayor fidelidad después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante la novena y por las misiones de la Iglesia en todo el mundo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Francisco Javier, patrono de las misiones, intercede por nosotros para que sepamos servir a Cristo con oración, caridad, respeto y perseverancia hasta el final. Amén."
+      },
+      "action": "Elige un compromiso concreto de servicio o evangelización que puedas mantener después de esta novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
