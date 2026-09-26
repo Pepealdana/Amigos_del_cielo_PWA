@@ -3,7 +3,7 @@ const path = require('path');
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const REQUIRED_FIELDS = ['id', 'slug', 'name', 'title', 'category', 'image', 'novena', 'status', 'days'];
-const DAY_FIELDS = ['theme', 'title', 'life', 'learning', 'virtue', 'reflection', 'intention', 'prayer', 'action'];
+const DAY_FIELDS = ['theme', 'title', 'virtue', 'reflection', 'intention', 'prayer', 'action'];
 const V2_CATALOGS = ['santos', 'maria', 'devociones', 'paises'];
 const TERRITORIAL_FIELDS = ['origin', 'historicalLinks', 'specialDevotion'];
 let errors = 0;
@@ -23,8 +23,12 @@ function readJson(filePath, label) {
 }
 
 function validateDays(data, file) {
+  if (!data.novena || Number(data.novena.days) !== 9) {
+    report(file, 'novena.days debe ser igual a 9.');
+  }
+
   if (!Array.isArray(data.days) || data.days.length !== 9) {
-    report(file, 'debe contener exactamente 9 días.');
+    report(file, 'days debe contener exactamente 9 días.');
     return;
   }
 
@@ -50,8 +54,19 @@ function validateDays(data, file) {
     seenDays.add(Number(day.day));
 
     for (const field of DAY_FIELDS) {
-      if (!day[field]) {
-        report(file, 'el día ' + expected + ' no tiene "' + field + '".');
+      const value = day[field];
+      const valido =
+        typeof value === 'string'
+          ? value.trim().length > 0
+          : value &&
+            typeof value === 'object' &&
+            !Array.isArray(value) &&
+            Object.values(value).some(item =>
+              typeof item === 'string' && item.trim().length > 0
+            );
+
+      if (!valido) {
+        report(file, 'el día ' + expected + ' no tiene "' + field + '" con contenido válido.');
       }
     }
   }
