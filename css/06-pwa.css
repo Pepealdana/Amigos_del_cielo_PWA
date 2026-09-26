@@ -1304,3 +1304,30 @@ body.dark .saint-history-page .history-extended-toggle{
         padding:0;
     }
 }
+
+
+/* ==========================================================
+   HISTORIA — COMPACTAR BLOQUES DE PATRONAZGOS Y VIRTUDES
+========================================================== */
+
+.saint-history-page .list-section{
+    margin:.8rem 0;
+}
+
+.saint-history-page > .divider{
+    margin:1rem 0;
+}
+
+.saint-history-page .section-title{
+    margin-bottom:.45rem;
+}
+
+@media (max-width:420px){
+    .saint-history-page .list-section{
+        margin:.65rem 0;
+    }
+
+    .saint-history-page > .divider{
+        margin:.8rem 0;
+    }
+}
