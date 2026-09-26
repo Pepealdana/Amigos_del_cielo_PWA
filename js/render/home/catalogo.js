@@ -49,6 +49,14 @@ function renderCatalogoV2(
 
     const datos = configuracion[seccion] || configuracion.novenas;
 
+    if (state.catalogoFiltroSeccion !== seccion) {
+        state.paisCatalogo = "ALL";
+        state.grupoCatalogo = "ALL";
+        state.catalogoFiltroSeccion = seccion;
+        pais = "ALL";
+        grupo = "ALL";
+    }
+
     const codigosDisponibles = new Set();
 
     if (datos.permitePais) {
@@ -184,9 +192,12 @@ function renderFiltrosPais() {
 
 function renderFiltrosGrupoCatalogo(grupos = [], grupoActivo = "ALL") {
     const paisActivo = state.paisCatalogo || "ALL";
+    const seccionActual = ["todos", "santos", "maria"].includes(router?.rutaActual)
+        ? router.rutaActual
+        : "";
     const filtrosActivos = [];
 
-    if (paisActivo !== "ALL") {
+    if (seccionActual && paisActivo !== "ALL") {
         const pais = obtenerNombrePaisCatalogo(paisActivo);
 
         if (pais) {
