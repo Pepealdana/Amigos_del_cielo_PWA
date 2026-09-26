@@ -1180,10 +1180,10 @@
     {
       "id": "san-charbel-makhlouf",
       "name": "San Chárbel Makhlouf",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-charbel-makhlouf.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida"
       ],
@@ -1194,7 +1194,9 @@
         "historicalLinks": [
           "LB"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "LB"
+        ]
       }
     },
     {
