@@ -1,0 +1,474 @@
+{
+  "id": "santa-bernardita-soubirous",
+  "slug": "santa-bernardita-soubirous",
+  "name": "Santa Bernardita Soubirous",
+  "title": "Virgen, vidente de Lourdes y religiosa de Nevers",
+  "subtitle": "Humildad, oración y fidelidad al mensaje recibido en Lourdes",
+  "category": "Santos",
+  "image": "assets/images/santos/santa_bernardita_soubirous.webp",
+  "description": "Joven de Lourdes que recibió dieciocho apariciones de la Virgen María en 1858 y después vivió una vida escondida como religiosa de las Hermanas de la Caridad de Nevers.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "santa-bernardita-soubirous"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 18,
+    "month": 2,
+    "text": "18 de febrero",
+    "movable": false,
+    "liturgicalRank": "Memoria (Francia)",
+    "note": "En Francia y en el Santuario de Lourdes se celebra a Santa Bernardita el 18 de febrero, en relación con la tercera aparición. Su conmemoración también aparece el 16 de abril, fecha de su muerte."
+  },
+  "quote": {
+    "text": "Estoy encargada de decírselo, no de hacérselo creer.",
+    "reference": "Frase atribuida a Santa Bernardita y recogida por el Santuario de Lourdes al presentar su testimonio sobre las apariciones."
+  },
+  "patronages": [
+    "Enfermos y personas que sufren",
+    "Peregrinos de Lourdes",
+    "Pastores y personas humildes",
+    "Personas que buscan vivir la fe con sencillez"
+  ],
+  "virtues": [
+    "Fe",
+    "Humildad",
+    "Sencillez",
+    "Obediencia",
+    "Oración",
+    "Penitencia",
+    "Fortaleza",
+    "Paciencia",
+    "Fidelidad"
+  ],
+  "search": [
+    "santa bernardita",
+    "santa bernardette",
+    "bernardita soubirous",
+    "bernadette soubirous",
+    "bernardita de lourdes",
+    "vidente de lourdes",
+    "lourdes",
+    "massabielle",
+    "inmaculada concepcion",
+    "inmaculada concepción",
+    "hermanas de nevers",
+    "nevers",
+    "oracion",
+    "oración",
+    "enfermos",
+    "peregrinos"
+  ],
+  "interventions": [
+    {
+      "id": "maria",
+      "label": "María e Inmaculada Concepción",
+      "keywords": [
+        "maria",
+        "maría",
+        "virgen",
+        "inmaculada",
+        "inmaculada concepcion",
+        "inmaculada concepción",
+        "nuestra señora de lourdes"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y Rosario",
+      "keywords": [
+        "oracion",
+        "oración",
+        "rosario",
+        "rezar",
+        "plegaria",
+        "gruta",
+        "lourdes"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermedad, dolor y esperanza",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "consuelo",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "humildad",
+      "label": "Humildad y sencillez",
+      "keywords": [
+        "humildad",
+        "sencillez",
+        "pobreza",
+        "pequeñez",
+        "simpleza"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y penitencia",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "penitencia",
+        "pecadores",
+        "cambio",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y vida consagrada",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "religiosa",
+        "nevers",
+        "consagracion",
+        "consagración",
+        "hermanas"
+      ]
+    },
+    {
+      "id": "fidelidad",
+      "label": "Fidelidad y testimonio",
+      "keywords": [
+        "fidelidad",
+        "testimonio",
+        "verdad",
+        "apariciones",
+        "mensaje",
+        "perseverancia"
+      ]
+    },
+    {
+      "id": "peregrinacion",
+      "label": "Peregrinación y vida cristiana",
+      "keywords": [
+        "peregrinacion",
+        "peregrinación",
+        "peregrinos",
+        "santuario",
+        "lourdes",
+        "camino"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Bernardita Soubirous nació en Lourdes el 7 de enero de 1844. A los catorce años, entre el 11 de febrero y el 16 de julio de 1858, afirmó haber visto dieciocho veces a una Señora en la gruta de Massabielle. En la aparición del 25 de marzo la Señora se identificó como la Inmaculada Concepción. Después de los acontecimientos de Lourdes, Bernardita ingresó en las Hermanas de la Caridad de Nevers y vivió allí una vida de oración, servicio y enfermedad. Murió en Nevers el 16 de abril de 1879 y fue canonizada por Pío XI el 8 de diciembre de 1933.",
+    "extended": "Bernardita Soubirous nació el 7 de enero de 1844 en el Molino de Boly, en Lourdes, Francia. Creció en una familia cristiana que posteriormente atravesó una fuerte situación económica. Durante su infancia y adolescencia tuvo problemas de salud y dificultades para acceder a la educación y a la preparación catequética.\n\nEl 11 de febrero de 1858, cuando tenía catorce años, acudió con su hermana y una amiga a la zona de Massabielle para recoger leña. Allí afirmó haber visto por primera vez a una Señora vestida de blanco. Entre febrero y julio de ese año relató dieciocho apariciones. La Iglesia sometió los hechos a un proceso de investigación y el obispo de Tarbes reconoció oficialmente las apariciones el 18 de enero de 1862.\n\nEl 25 de marzo de 1858, durante la decimosexta aparición, la Señora respondió a la pregunta de Bernardita identificándose con las palabras «Yo soy la Inmaculada Concepción». El mensaje de Lourdes quedó asociado a la oración, la conversión, la penitencia y la preocupación por los pecadores. El Santuario de Lourdes conserva el testimonio de Bernardita como elemento fundamental para conocer estos acontecimientos.\n\nDespués de las apariciones, Bernardita tuvo que afrontar interrogatorios, enfermedad y la atención constante de personas interesadas en su experiencia. En 1866 dejó Lourdes para incorporarse a las Hermanas de la Caridad y de la Instrucción Cristiana de Nevers. Allí llevó una vida religiosa marcada por la oración, el servicio y largos períodos de enfermedad.\n\nBernardita murió en Nevers el 16 de abril de 1879, a los treinta y cinco años. Fue beatificada el 14 de junio de 1925 y canonizada el 8 de diciembre de 1933 por el papa Pío XI. Su memoria se celebra el 18 de febrero en Francia, mientras que el 16 de abril recuerda su muerte en otros calendarios y contextos litúrgicos.\n\nSu testimonio no se reduce a las apariciones. La Iglesia la propone también por la manera en que respondió a su vocación después de Lourdes: con humildad, perseverancia, oración y fidelidad en una vida escondida."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Bernardita, pequeña y humilde testigo de Lourdes, acompáñame durante estos nueve días. Enséñame a escuchar a Dios con sencillez, a perseverar en la oración y a vivir con fidelidad aquello que el Señor me confía. Presento ante Dios mis intenciones, especialmente la que llevo en el corazón. Amén.",
+  "closingPrayer": "Santa Bernardita, testigo humilde de Lourdes, intercede por nosotros. Enséñanos a vivir con sencillez, a orar por quienes sufren, a buscar la conversión del corazón y a confiar en Dios en medio de las dificultades. Llévanos hacia Cristo y ayúdanos a caminar con María en la fe. Amén.",
+  "intentions": [
+    "Por los enfermos y quienes los acompañan.",
+    "Por las personas que sufren física o espiritualmente.",
+    "Por quienes buscan una conversión sincera y un nuevo comienzo.",
+    "Por los peregrinos que visitan Lourdes y otros santuarios marianos.",
+    "Por quienes viven situaciones de pobreza, exclusión o soledad.",
+    "Por las personas consagradas que sirven a los enfermos y necesitados.",
+    "Por quienes necesitan perseverar en la oración durante una prueba.",
+    "Por quienes desean crecer en humildad y sencillez.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 1,26-38"
+      },
+      {
+        "reference": "Mateo 5,1-12"
+      },
+      {
+        "reference": "Lucas 18,9-14"
+      },
+      {
+        "reference": "Juan 2,1-11"
+      },
+      {
+        "reference": "Santiago 5,13-16"
+      }
+    ],
+    "documents": [
+      "Mensaje de Lourdes y reconocimiento canónico de las apariciones",
+      "Testimonios de Santa Bernardita Soubirous"
+    ],
+    "related": [
+      "Nuestra Señora de Lourdes",
+      "Santuario de Lourdes",
+      "Gruta de Massabielle",
+      "Hermanas de la Caridad de Nevers",
+      "Nevers"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Bernardita Soubirous",
+      "organization": "Santuario de Nuestra Señora de Lourdes",
+      "url": "https://www.lourdes-france.org/es/bernardita-soubirous/",
+      "type": "official"
+    },
+    {
+      "title": "El decreto de reconocimiento de las apariciones",
+      "organization": "Santuario de Nuestra Señora de Lourdes",
+      "url": "https://www.lourdes-france.org/en/the-decree/",
+      "type": "official"
+    },
+    {
+      "title": "13 de septiembre de 2008: Procesión con antorchas en Lourdes",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/homilies/2008/documents/hf_ben-xvi_hom_20080913_lourdes-processione.html",
+      "type": "official"
+    },
+    {
+      "title": "A los enfermos con motivo de la IX Jornada Mundial del Enfermo",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/2001/february/documents/hf_jp-ii_spe_20010211_giornata-malato.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La sencillez",
+      "title": "Acoger a Dios con un corazón sencillo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Bernardita creció en una familia sencilla y, a pesar de sus dificultades, conservó una vida de oración y confianza. Su historia comenzó lejos de cualquier posición de prestigio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana no depende del reconocimiento social. Dios puede actuar en personas sencillas que responden con sinceridad a su llamada."
+      },
+      "virtue": "Sencillez",
+      "reflection": "¿Qué puedo hacer hoy para vivir mi fe con mayor sencillez y autenticidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven en pobreza, exclusión o situaciones que los hacen sentirse olvidados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, enséñanos a vivir con un corazón sencillo y disponible para Dios. Amén."
+      },
+      "action": "Haz hoy una obra sencilla de servicio sin buscar reconocimiento."
+    },
+    {
+      "day": 2,
+      "theme": "La oración",
+      "title": "Permanecer en la presencia de Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante los encuentros en Massabielle, Bernardita rezaba el Rosario. La oración estuvo en el centro de su experiencia y después siguió formando parte de su vida religiosa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración no es solo pedir. También es permanecer ante Dios, escuchar, agradecer y aprender a orientar la vida hacia Él."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio real ocupa la oración en mi día?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar una vida de oración y por quienes atraviesan una sequedad espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, enséñanos a perseverar en la oración y a poner cada día nuestra vida delante de Dios. Amén."
+      },
+      "action": "Reza hoy un misterio del Rosario con atención y sin prisas."
+    },
+    {
+      "day": 3,
+      "theme": "María",
+      "title": "Caminar con María hacia Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El testimonio de Bernardita está inseparablemente unido a las apariciones de la Virgen en Lourdes. El mensaje recibido la orientó hacia la oración, la conversión y Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La auténtica devoción mariana conduce hacia Cristo. Mirar a María puede ayudarnos a escuchar mejor la Palabra y responder con fe."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué aspecto de la vida de María necesito imitar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan acercarse a Cristo mediante una auténtica devoción mariana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, ayúdanos a caminar con María hacia Cristo y a responder con fe a la voluntad de Dios. Amén."
+      },
+      "action": "Lee hoy el relato de la Anunciación en Lucas 1,26-38 y guarda una frase para meditarla."
+    },
+    {
+      "day": 4,
+      "theme": "Conversión",
+      "title": "Responder a la llamada al cambio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El mensaje de Lourdes estuvo marcado por la oración y la conversión. Bernardita transmitió lo que había recibido y aceptó también las exigencias de una vida cristiana más profunda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión comienza reconociendo lo que necesita cambiar en nosotros y permitiendo que la gracia de Dios transforme nuestras decisiones."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué actitud concreta necesito presentar hoy ante Dios para comenzar un cambio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean reconciliarse con Dios y comenzar de nuevo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, ruega por nosotros para que tengamos un corazón dispuesto a convertirse y a volver a Dios. Amén."
+      },
+      "action": "Identifica una actitud que quieras corregir y da hoy un primer paso concreto."
+    },
+    {
+      "day": 5,
+      "theme": "Penitencia",
+      "title": "Aprender a ofrecer y reparar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El mensaje de Lourdes incluyó una llamada a la penitencia y a la oración por los pecadores. Bernardita recibió este mensaje en un contexto de sufrimiento y lo vivió con seriedad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La penitencia cristiana no busca el sufrimiento por sí mismo. Expresa conversión, reparación y deseo de orientar nuevamente la vida hacia Dios."
+      },
+      "virtue": "Penitencia",
+      "reflection": "¿Qué renuncia buena y proporcionada puedo ofrecer hoy como ejercicio de conversión?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la conversión de los pecadores y por quienes necesitan reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, ayúdanos a convertir el corazón y a ofrecer nuestras dificultades con amor, sin buscar el sufrimiento por sí mismo. Amén."
+      },
+      "action": "Renuncia hoy a algo legítimo que te distrae y dedica ese tiempo a la oración o al servicio."
+    },
+    {
+      "day": 6,
+      "theme": "El sufrimiento",
+      "title": "Vivir la prueba con esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Bernardita padeció problemas de salud durante gran parte de su vida y murió joven. En Nevers, sus enfermedades convivieron con una vida de oración y servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no elimina automáticamente la enfermedad. Puede ayudarnos a atravesarla con esperanza, buscando también la atención y el acompañamiento que necesitamos."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito vivir hoy con mayor esperanza y qué ayuda concreta puedo aceptar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, los cuidadores y todas las personas que viven un sufrimiento prolongado."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, acompaña a quienes sufren y ayúdanos a reconocer la dignidad y el valor de cada persona enferma. Amén."
+      },
+      "action": "Contacta hoy a una persona enferma o que esté atravesando una dificultad y ofrécele compañía."
+    },
+    {
+      "day": 7,
+      "theme": "La vocación",
+      "title": "Responder a Dios después de una experiencia fuerte",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de Lourdes, Bernardita no buscó permanecer en el centro de la atención. Dejó su pueblo y entró en la vida religiosa de las Hermanas de Nevers."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una experiencia espiritual auténtica se verifica también en la vida cotidiana: servicio, obediencia, perseverancia y capacidad de aceptar una misión concreta."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Cómo puedo ser fiel a Dios en las responsabilidades ordinarias que tengo hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que disciernen una vocación y por quienes ya viven una vocación de servicio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, ayúdanos a responder con fidelidad a la vocación que Dios nos ha confiado. Amén."
+      },
+      "action": "Cumple hoy con especial cuidado una responsabilidad que normalmente haces de manera automática."
+    },
+    {
+      "day": 8,
+      "theme": "El testimonio",
+      "title": "Decir la verdad con humildad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Bernardita tuvo que repetir muchas veces lo que había visto y responder a interrogatorios. Su testimonio quedó como una referencia fundamental para el conocimiento de las apariciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dar testimonio cristiano no significa imponerse. Significa hablar con verdad, humildad y coherencia, dejando espacio para que los demás respondan libremente."
+      },
+      "virtue": "Verdad",
+      "reflection": "¿Cómo puedo dar hoy un testimonio cristiano más coherente y menos basado en palabras?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes anuncian su fe y por quienes necesitan encontrar testigos creíbles del Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, enséñanos a decir la verdad con humildad y a vivir aquello que anunciamos. Amén."
+      },
+      "action": "Haz hoy una obra de bien sin publicarla ni contarla a nadie."
+    },
+    {
+      "day": 9,
+      "theme": "Fidelidad",
+      "title": "Permanecer con Dios hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Bernardita murió en Nevers después de años de vida religiosa, enfermedad y servicio. La Iglesia la canonizó por la santidad de su vida, no simplemente por haber sido destinataria de las apariciones."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se construye en la fidelidad diaria. Los momentos extraordinarios pueden marcar una vida, pero la respuesta perseverante a Dios se demuestra también en lo ordinario."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso concreto quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante la novena y por la perseverancia en la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bernardita, acompáñanos para que, como tú, sepamos permanecer fieles a Dios en los días luminosos y en los días difíciles. Amén."
+      },
+      "action": "Elige una práctica concreta de oración, servicio o caridad para mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
