@@ -144,7 +144,11 @@ function renderCatalogoV2(\n    seccion,\n    pais = state.paisCatalogo || "ALL"
                 `).join("")}
             </nav>
 
+            ${renderBusquedaCatalogo(state.busquedaCatalogo || "")}
+
             ${datos.permitePais ? renderFiltrosPais(filtroPais, datos.catalogo) : ""}
+
+            ${renderFiltrosGrupoCatalogo(gruposDisponibles, filtroGrupo)}
 
             <div class="catalog-summary">
                 <span>${publicados.length} disponibles</span>
