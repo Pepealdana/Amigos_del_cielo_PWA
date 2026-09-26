@@ -6226,5 +6226,52 @@
       "canto",
       "liturgia"
     ]
+  },
+  {
+    "id": "santa-barbara",
+    "slug": "santa-barbara",
+    "name": "Santa Bárbara",
+    "title": "Virgen y mártir, testigo de la fe",
+    "subtitle": "Fe, fortaleza y prudencia ante la adversidad",
+    "category": "Santos",
+    "image": "assets/images/santos/santa_barbara.webp",
+    "file": "data/santa-barbara.json",
+    "description": "Mártir de antigua veneración, especialmente invocada por trabajadores y comunidades expuestas al peligro.",
+    "feast": {
+      "day": 4,
+      "month": 12,
+      "text": "4 de diciembre",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "martires"
+    ],
+    "territorial": {
+      "origin": [],
+      "historicalLinks": [
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "santa barbara",
+      "santa bárbara",
+      "martir",
+      "mártir",
+      "mineros",
+      "mineria",
+      "minería",
+      "bomberos",
+      "artilleria",
+      "artillería",
+      "rayos",
+      "tormenta"
+    ]
   }
 ]
