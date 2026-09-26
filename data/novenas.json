@@ -6034,5 +6034,59 @@
       "pobres",
       "servicio"
     ]
+  },
+  {
+    "id": "san-francisco-javier",
+    "slug": "san-francisco-javier",
+    "name": "San Francisco Javier",
+    "title": "Apóstol del Oriente y patrono de las misiones",
+    "subtitle": "Celo apostólico, oración y servicio misionero",
+    "category": "Santos",
+    "image": "assets/images/santos/san_francisco_javier.webp",
+    "file": "data/san-francisco-javier.json",
+    "description": "Misionero jesuita que llevó el Evangelio a India, las Molucas y Japón y murió ante las costas de China.",
+    "feast": {
+      "day": 3,
+      "month": 12,
+      "text": "3 de diciembre",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "fundadores"
+    ],
+    "territorial": {
+      "origin": [
+        "ES"
+      ],
+      "historicalLinks": [
+        "ES",
+        "IN",
+        "ID",
+        "JP",
+        "CN"
+      ],
+      "specialDevotion": [
+        "ES",
+        "IN",
+        "JP"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "san francisco javier",
+      "francisco javier",
+      "misionero",
+      "misiones",
+      "india",
+      "japon",
+      "japón",
+      "molucas",
+      "china",
+      "navarra",
+      "jesuita"
+    ]
   }
 ]
