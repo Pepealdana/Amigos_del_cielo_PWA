@@ -5722,6 +5722,101 @@
       "porciúncula",
       "ines de praga"
     ],
-    "interventions": []
+    "interventions": [
+      {
+        "id": "franciscanos",
+        "label": "Familia franciscana",
+        "keywords": [
+          "franciscano",
+          "franciscana",
+          "francisco",
+          "clarisas",
+          "hermanas pobres"
+        ]
+      },
+      {
+        "id": "pobreza",
+        "label": "Pobreza evangélica y sencillez",
+        "keywords": [
+          "pobreza",
+          "sencillez",
+          "desprendimiento",
+          "providencia",
+          "riqueza"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y contemplación",
+        "keywords": [
+          "oracion",
+          "oración",
+          "contemplacion",
+          "contemplación",
+          "silencio",
+          "eucaristia",
+          "eucaristía"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y vida consagrada",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "consagracion",
+          "consagración",
+          "monasterio",
+          "claustro"
+        ]
+      },
+      {
+        "id": "cristo",
+        "label": "Amor a Cristo crucificado",
+        "keywords": [
+          "cristo",
+          "cruz",
+          "crucificado",
+          "pasion",
+          "pasión",
+          "evangelio"
+        ]
+      },
+      {
+        "id": "maria",
+        "label": "María y vida cristiana",
+        "keywords": [
+          "maria",
+          "maría",
+          "virgen",
+          "anunciacion",
+          "anunciación",
+          "madre"
+        ]
+      },
+      {
+        "id": "fraternidad",
+        "label": "Fraternidad y comunidad",
+        "keywords": [
+          "fraternidad",
+          "comunidad",
+          "hermanas",
+          "unidad",
+          "caridad"
+        ]
+      },
+      {
+        "id": "fortaleza",
+        "label": "Fortaleza en la prueba",
+        "keywords": [
+          "fortaleza",
+          "enfermedad",
+          "sufrimiento",
+          "perseverancia",
+          "pobreza",
+          "dificultad"
+        ]
+      }
+    ]
   }
 ]
