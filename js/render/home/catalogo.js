@@ -195,6 +195,10 @@ function renderFiltrosGrupoCatalogo(grupos = [], grupoActivo = "ALL") {
     const seccionActual = ["todos", "santos", "maria"].includes(router?.rutaActual)
         ? router.rutaActual
         : "";
+    if (!seccionActual && !grupos.length) {
+        return "";
+    }
+
     const filtrosActivos = [];
 
     if (seccionActual && paisActivo !== "ALL") {
