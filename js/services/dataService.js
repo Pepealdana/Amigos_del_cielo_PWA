@@ -176,9 +176,13 @@ async function cargarNovena(id) {
         throw error;
     }
 
-    if (!novena.id) {
-        novena.id = resumen?.id || resumenV2?.id || id;
-    }
+    /*
+     * El catálogo es la fuente canónica del identificador.
+     * Algunas fichas históricas conservan un id interno distinto;
+     * al abrirlas, normalizamos el id para que Favoritas, Progreso,
+     * búsqueda y enlaces directos utilicen siempre el mismo valor.
+     */
+    novena.id = resumen?.id || resumenV2?.id || id;
 
     if (!novena.feast) {
         novena.feast = resumen?.feast || resumenV2?.feast || null;
