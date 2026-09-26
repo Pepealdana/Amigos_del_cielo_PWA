@@ -5818,5 +5818,133 @@
         ]
       }
     ]
+  },
+  {
+    "id": "san-charbel-makhlouf",
+    "slug": "san-charbel-makhlouf",
+    "name": "San Chárbel Makhlouf",
+    "title": "Monje y ermitaño de la Orden Libanesa Maronita",
+    "subtitle": "Silencio, Eucaristía, oración y entrega total a Dios",
+    "category": "Santos",
+    "image": "assets/images/santos/san_charbel_makhlouf.webp",
+    "file": "data/san-charbel-makhlouf.json",
+    "description": "Monje y sacerdote maronita libanés que vivió una profunda vida de oración, silencio y trabajo en el monasterio de Annaya y como ermitaño.",
+    "feast": {
+      "day": 24,
+      "month": 7,
+      "text": "24 de julio",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "search": [
+      "san charbel",
+      "san chárbel",
+      "charbel makhlouf",
+      "charbel maklouf",
+      "sharbel",
+      "sarbel",
+      "annaya",
+      "monje maronita",
+      "maronita",
+      "ermitaño",
+      "libano",
+      "líbano",
+      "oracion",
+      "oración",
+      "eucaristia",
+      "eucaristía"
+    ],
+    "interventions": [
+      {
+        "id": "oracion",
+        "label": "Oración y silencio",
+        "keywords": [
+          "oracion",
+          "oración",
+          "silencio",
+          "contemplacion",
+          "contemplación"
+        ]
+      },
+      {
+        "id": "eucaristia",
+        "label": "Eucaristía y vida sacramental",
+        "keywords": [
+          "eucaristia",
+          "eucaristía",
+          "misa",
+          "sacramento"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vida monástica y eremítica",
+        "keywords": [
+          "monje",
+          "ermitaño",
+          "ermita",
+          "monasterio",
+          "maronita",
+          "vocacion",
+          "vocación"
+        ]
+      },
+      {
+        "id": "pobreza",
+        "label": "Pobreza y sencillez",
+        "keywords": [
+          "pobreza",
+          "sencillez",
+          "desprendimiento",
+          "trabajo"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermedad y sufrimiento",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "sufrimiento",
+          "dolor",
+          "consuelo"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y hogar",
+        "keywords": [
+          "familia",
+          "hogar",
+          "padres",
+          "hijos",
+          "matrimonio"
+        ]
+      },
+      {
+        "id": "paz",
+        "label": "Paz y reconciliación",
+        "keywords": [
+          "paz",
+          "reconciliacion",
+          "reconciliación",
+          "perdon",
+          "perdón",
+          "libano",
+          "líbano"
+        ]
+      },
+      {
+        "id": "maria",
+        "label": "María y vida cristiana",
+        "keywords": [
+          "maria",
+          "maría",
+          "virgen",
+          "rosario"
+        ]
+      }
+    ]
   }
 ]
