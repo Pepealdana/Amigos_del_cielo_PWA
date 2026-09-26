@@ -1,0 +1,472 @@
+{
+  "id": "san-charbel-makhlouf",
+  "slug": "san-charbel-makhlouf",
+  "name": "San Chárbel Makhlouf",
+  "title": "Monje y ermitaño de la Orden Libanesa Maronita",
+  "subtitle": "Silencio, Eucaristía, oración y entrega total a Dios",
+  "category": "Santos",
+  "image": "assets/images/santos/san_charbel_makhlouf.webp",
+  "description": "Monje y sacerdote maronita libanés que vivió una profunda vida de oración, silencio y trabajo en el monasterio de Annaya y como ermitaño. Es uno de los santos más conocidos del Líbano y fue canonizado por san Pablo VI en 1977.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "san-charbel-makhlouf"
+  },
+  "ui": {
+    "primaryColor": "#2C4A6B",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 24,
+    "month": 7,
+    "text": "24 de julio",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "quote": {
+    "text": "El santo es aquel que vive siempre en presencia de Dios.",
+    "reference": "Síntesis temática inspirada en la espiritualidad de San Chárbel; no se presenta como cita literal."
+  },
+  "patronages": [
+    "Líbano",
+    "Monjes y vida eremítica",
+    "Personas que buscan una vida de oración",
+    "Enfermos y personas que acuden a su intercesión"
+  ],
+  "virtues": [
+    "Fe",
+    "Oración",
+    "Silencio",
+    "Humildad",
+    "Pobreza",
+    "Obediencia",
+    "Eucaristía",
+    "Penitencia",
+    "Trabajo"
+  ],
+  "search": [
+    "san charbel",
+    "san chárbel",
+    "charbel makhlouf",
+    "charbel maklouf",
+    "sharbel",
+    "sarbel",
+    "makhlouf",
+    "maklouf",
+    "annaya",
+    "annaya libano",
+    "monje maronita",
+    "maronita",
+    "ermitaño",
+    "libano",
+    "líbano",
+    "san maron",
+    "san marón",
+    "oracion",
+    "oración",
+    "eucaristia",
+    "eucaristía"
+  ],
+  "interventions": [
+    {
+      "id": "oracion",
+      "label": "Oración y silencio",
+      "keywords": [
+        "oracion",
+        "oración",
+        "silencio",
+        "contemplacion",
+        "contemplación",
+        "adoracion",
+        "adoración"
+      ]
+    },
+    {
+      "id": "eucaristia",
+      "label": "Eucaristía y vida sacramental",
+      "keywords": [
+        "eucaristia",
+        "eucaristía",
+        "misa",
+        "sacramento",
+        "comunion",
+        "comunión",
+        "altar"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vida monástica y eremítica",
+      "keywords": [
+        "monje",
+        "monástica",
+        "monastica",
+        "ermitaño",
+        "ermita",
+        "monasterio",
+        "maronita",
+        "vocacion",
+        "vocación"
+      ]
+    },
+    {
+      "id": "pobreza",
+      "label": "Pobreza y sencillez",
+      "keywords": [
+        "pobreza",
+        "sencillez",
+        "desprendimiento",
+        "trabajo",
+        "humildad"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermedad y sufrimiento",
+      "keywords": [
+        "enfermos",
+        "enfermedad",
+        "sufrimiento",
+        "dolor",
+        "sanacion",
+        "sanación",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y hogar",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliacion",
+        "reconciliación",
+        "perdon",
+        "perdón",
+        "libano",
+        "líbano"
+      ]
+    },
+    {
+      "id": "maria",
+      "label": "María y vida cristiana",
+      "keywords": [
+        "maria",
+        "maría",
+        "virgen",
+        "madre de dios",
+        "rosario"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Youssef Antoun Makhlouf nació en el Líbano en 1828. Ingresó en la Orden Libanesa Maronita, fue ordenado sacerdote y vivió primero en el monasterio de San Marón en Annaya. En 1875 recibió permiso para retirarse a la ermita de los Santos Pedro y Pablo, donde permaneció hasta su muerte el 24 de diciembre de 1898. Fue beatificado en 1965 y canonizado por san Pablo VI el 9 de octubre de 1977.",
+    "extended": "Youssef Antoun Makhlouf nació el 8 de mayo de 1828 en Bekaa Kafra, en el norte del Líbano. Creció en una familia maronita y desde joven estuvo vinculado a una profunda vida de oración.\n\nEn 1851 ingresó en la Orden Libanesa Maronita y recibió el nombre religioso de Chárbel, en referencia a un mártir de la Iglesia de Oriente. Realizó su formación monástica y sacerdotal, y fue ordenado sacerdote en 1859. Durante años vivió en el monasterio de San Marón de Annaya, dedicado a la oración, el trabajo y la vida comunitaria.\n\nEn 1875 recibió autorización para retirarse a la ermita de los Santos Pedro y Pablo, situada cerca del monasterio. Allí vivió hasta su muerte una vida de silencio, oración, trabajo manual, ayuno y celebración de la Eucaristía. Su espiritualidad estuvo profundamente marcada por la tradición monástica maronita y por la búsqueda de una unión cada vez más intensa con Cristo.\n\nChárbel murió el 24 de diciembre de 1898. Su fama de santidad se extendió rápidamente y su tumba se convirtió en lugar de peregrinación. Fue beatificado por el papa Pablo VI el 5 de diciembre de 1965, durante el Concilio Vaticano II, y canonizado por el mismo pontífice el 9 de octubre de 1977. Con la canonización, su culto fue extendido a toda la Iglesia.\n\nLa Santa Sede lo presenta como un hijo del Líbano y de la tradición monástica maronita, cuya vida de silencio y oración ofreció un testimonio de búsqueda de Dios. Su figura está especialmente vinculada al monasterio de Annaya y al patrimonio espiritual de la Iglesia maronita."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Chárbel, monje y sacerdote que buscaste a Dios en el silencio, la oración y la Eucaristía, acompáñame durante estos nueve días. Enséñame a vivir con sencillez, a trabajar con fidelidad, a guardar espacios de silencio y a confiar en Dios en medio de las pruebas. Presento ante el Señor mis intenciones. Amén.",
+  "closingPrayer": "San Chárbel, hombre de oración y silencio, intercede por nosotros. Ayúdanos a buscar a Cristo en la Eucaristía, a vivir con humildad y a mantener el corazón orientado hacia Dios. Ruega por los enfermos, por las familias, por el Líbano y por todos quienes necesitan esperanza y consuelo. Amén.",
+  "intentions": [
+    "Por los enfermos y quienes sufren física o espiritualmente.",
+    "Por quienes buscan una vida de oración más profunda.",
+    "Por monjes, religiosos, sacerdotes y personas consagradas.",
+    "Por las familias y hogares que necesitan paz y reconciliación.",
+    "Por el Líbano y por todos sus habitantes.",
+    "Por quienes viven incertidumbre, pobreza o dificultades materiales.",
+    "Por quienes necesitan recuperar la esperanza en medio de una prueba.",
+    "Por quienes buscan discernir una vocación de servicio a Dios.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 6,25-34"
+      },
+      {
+        "reference": "Juan 15,1-11"
+      },
+      {
+        "reference": "Lucas 10,38-42"
+      },
+      {
+        "reference": "Filipenses 4,4-9"
+      },
+      {
+        "reference": "Salmo 131"
+      }
+    ],
+    "documents": [
+      "Tradición espiritual de la Iglesia Maronita",
+      "Homilía de canonización de San Chárbel Makhlouf"
+    ],
+    "related": [
+      "San Marón",
+      "Monasterio de San Marón en Annaya",
+      "Ermita de los Santos Pedro y Pablo",
+      "Iglesia maronita",
+      "Líbano"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Canonización del ermitaño libanés Chárbel Makhlouf",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/paul-vi/fr/homilies/1977/documents/hf_p-vi_hom_19771009.html",
+      "type": "official"
+    },
+    {
+      "title": "Beatificación del monje maronita Chárbel Makhlouf",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/paul-vi/fr/speeches/1965/documents/hf_p-vi_spe_19651205_charbel-makhlouf.html",
+      "type": "official"
+    },
+    {
+      "title": "A los fieles de la Iglesia maronita",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/2000/jan-mar/documents/hf_jp-ii_spe_20000210_maronite-church.html",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "La llamada",
+      "title": "Responder a Dios con generosidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Desde joven, Youssef Makhlouf mostró una inclinación hacia la oración. Su entrada en la vida monástica abrió para él un camino concreto de entrega a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vocación cristiana se descubre y se construye con decisiones concretas. Dios puede llamarnos a través de las circunstancias ordinarias de nuestra vida."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué invitación de Dios necesito tomar más en serio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan discernir su vocación y por quienes necesitan valentía para responder."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, enséñanos a escuchar la llamada de Dios y a responder con generosidad. Amén."
+      },
+      "action": "Reserva hoy unos minutos de silencio para presentar a Dios tus decisiones importantes."
+    },
+    {
+      "day": 2,
+      "theme": "Silencio",
+      "title": "Encontrar a Dios en el silencio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida de Chárbel como ermitaño estuvo marcada por el silencio y la oración. En la soledad de la ermita buscó permanecer orientado hacia Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El silencio no es simplemente ausencia de ruido. Puede convertirse en un espacio para escuchar, discernir y reconocer aquello que realmente importa."
+      },
+      "virtue": "Silencio",
+      "reflection": "¿Qué ruido exterior o interior me impide escuchar a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven con ansiedad, dispersión o dificultad para encontrar espacios de calma."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, enséñanos a buscar momentos de silencio y a escuchar a Dios con un corazón atento. Amén."
+      },
+      "action": "Apaga durante un momento las notificaciones y permanece cinco minutos en silencio ante Dios."
+    },
+    {
+      "day": 3,
+      "theme": "Eucaristía",
+      "title": "Poner a Cristo en el centro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Como sacerdote y monje, Chárbel vivió su ministerio profundamente unido a la celebración de la Eucaristía y a la oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La Eucaristía no es un elemento secundario de la vida cristiana. Es encuentro con Cristo y fuente para vivir con mayor caridad y fidelidad."
+      },
+      "virtue": "Adoración",
+      "reflection": "¿Qué lugar ocupa Cristo realmente en el centro de mi día?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean crecer en su amor a la Eucaristía y por las comunidades que celebran la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, ayúdanos a acercarnos a Cristo con fe y a dejar que la Eucaristía transforme nuestra vida. Amén."
+      },
+      "action": "Participa en la Eucaristía si te es posible o dedica un momento a agradecer a Cristo por su presencia."
+    },
+    {
+      "day": 4,
+      "theme": "Trabajo",
+      "title": "Santificar lo cotidiano",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición monástica de Chárbel unía oración y trabajo. Su vida recuerda que las tareas sencillas también pueden vivirse como servicio ofrecido a Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La espiritualidad cristiana no separa artificialmente la oración de la responsabilidad. El trabajo bien realizado puede ser expresión de fidelidad y servicio."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Cómo puedo realizar hoy mi trabajo con mayor responsabilidad y espíritu de servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por trabajadores, estudiantes, cuidadores y quienes sostienen diariamente a sus familias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, enséñanos a trabajar con humildad y a ofrecer a Dios nuestras tareas cotidianas. Amén."
+      },
+      "action": "Realiza hoy una tarea difícil con especial cuidado, sin quejarte y sin buscar reconocimiento."
+    },
+    {
+      "day": 5,
+      "theme": "Pobreza",
+      "title": "Vivir con libertad interior",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La vida monástica de Chárbel estuvo marcada por la sencillez y el desprendimiento de los bienes. Su ermita era un lugar de austeridad y oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La pobreza evangélica busca liberar el corazón del dominio de las cosas para poder amar y servir con mayor libertad."
+      },
+      "virtue": "Desprendimiento",
+      "reflection": "¿Qué posesión, hábito o comodidad necesito ordenar para vivir con mayor libertad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren pobreza y por quienes necesitan aprender a compartir sus bienes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, ayúdanos a vivir con sencillez y a compartir generosamente aquello que tenemos. Amén."
+      },
+      "action": "Comparte hoy un bien, tiempo o recurso con alguien que pueda necesitarlo."
+    },
+    {
+      "day": 6,
+      "theme": "Sufrimiento",
+      "title": "Atravesar la prueba con esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Chárbel vivió con austeridad y enfermedad, especialmente en los últimos tiempos de su vida. Su testimonio fue de perseverancia en la oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no elimina automáticamente el sufrimiento. Puede ayudarnos a vivirlo con esperanza, buscando también la atención médica, el apoyo y la compañía necesarios."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad necesito presentar hoy a Dios y qué ayuda concreta puedo aceptar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, sus familias, cuidadores y profesionales de la salud."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, acompaña a quienes sufren y ruega para que encuentren consuelo, ayuda y esperanza. Amén."
+      },
+      "action": "Comunícate hoy con una persona enferma o que esté atravesando una dificultad."
+    },
+    {
+      "day": 7,
+      "theme": "Obediencia",
+      "title": "Servir sin buscar protagonismo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Antes de vivir como ermitaño, Chárbel pasó años en comunidad. Su vida monástica estuvo marcada por la obediencia a la Iglesia y a sus superiores."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La obediencia cristiana no consiste en dejar de pensar. Supone aprender a escuchar, discernir y poner los dones personales al servicio de una misión mayor."
+      },
+      "virtue": "Obediencia",
+      "reflection": "¿En qué ámbito necesito aprender a escuchar mejor y colaborar con otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen responsabilidades de servicio y por quienes deben aprender a trabajar en comunidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, danos humildad para escuchar y generosidad para servir sin buscar protagonismo. Amén."
+      },
+      "action": "Acepta hoy una tarea necesaria que no te dé reconocimiento y realízala con buena disposición."
+    },
+    {
+      "day": 8,
+      "theme": "Paz",
+      "title": "Orar por quienes sufren",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La figura de Chárbel quedó profundamente vinculada al Líbano y a la Iglesia maronita. Su canonización fue presentada por Pablo VI como una alegría para Oriente y Occidente."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración cristiana puede ampliar nuestra mirada: no solo presentamos nuestras necesidades, sino también las de otros pueblos y comunidades."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Por qué personas, familias o pueblos necesito orar hoy además de por mis propias necesidades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por el Líbano, Oriente Medio y todos los pueblos que necesitan paz y reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, intercede por el Líbano y por todos los pueblos que sufren. Pide para ellos paz, justicia, reconciliación y esperanza. Amén."
+      },
+      "action": "Reza hoy por un pueblo o comunidad que atraviese una situación de conflicto o sufrimiento."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Buscar a Dios hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Chárbel murió el 24 de diciembre de 1898 después de una vida dedicada a la oración, el trabajo y la búsqueda de Dios. Su testimonio fue reconocido por la Iglesia con la canonización en 1977."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se construye mediante una entrega perseverante. La meta no es escapar de la vida, sino aprender a vivir cada día orientados hacia Dios y al servicio de los demás."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué práctica concreta quiero mantener después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante la novena y por la perseverancia en la vida cristiana."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Chárbel, acompáñanos para que busquemos a Dios con perseverancia y vivamos nuestra vocación con fidelidad hasta el final. Amén."
+      },
+      "action": "Elige una práctica de oración, servicio o caridad para mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
