@@ -49,6 +49,12 @@ const router = {
 
                 break;
 
+            case "todos":
+
+                mostrarTodos();
+
+                break;
+
             case "santos":
 
                 mostrarSantos();
