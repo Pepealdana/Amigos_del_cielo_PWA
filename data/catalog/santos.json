@@ -1359,10 +1359,10 @@
     {
       "id": "san-roque",
       "name": "San Roque",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-roque.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida"
       ],
@@ -1373,7 +1373,9 @@
         "historicalLinks": [
           "FR"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "FR"
+        ]
       }
     },
     {
