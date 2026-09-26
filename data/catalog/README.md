@@ -113,7 +113,7 @@ Las novenas marianas existentes se muestran como contenido de `maria`, aunque hi
 
 ## Nueva ampliación de Santos
 
-La versión 2.2 registra como `pending` las nuevas novenas de la fase de ampliación. Se incorporan 19 candidatos:
+La versión 3.1 mantiene como `pending` los candidatos de la fase de ampliación que todavía no tienen novena publicada. Se incorporan 19 candidatos:
 
 - San Juan Pablo II
 - San Maximiliano María Kolbe
@@ -136,3 +136,8 @@ La versión 2.2 registra como `pending` las nuevas novenas de la fase de ampliac
 - Santiago Apóstol
 
 **San Miguel Arcángel no se incorpora como santo canonizado**, porque pertenece a la categoría de los santos Ángeles. Su contenido ya puede mantenerse en la devoción de los Santos Arcángeles.
+
+
+## Incorporación v3.1
+
+Se incorpora **Santo Domingo Savio** como santo publicado, con grupo `jovenes` y `devocion-extendida`, y se añade su novena de nueve días.
