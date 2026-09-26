@@ -1295,10 +1295,10 @@
     {
       "id": "santa-lucia-de-siracusa",
       "name": "Santa Lucía de Siracusa",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santa-lucia-de-siracusa.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "martires"
       ],
@@ -1309,7 +1309,9 @@
         "historicalLinks": [
           "IT"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
