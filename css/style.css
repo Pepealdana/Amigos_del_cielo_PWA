@@ -166,6 +166,64 @@
 
 
 /* ==========================================
+   CATÁLOGO V2 — BÚSQUEDA
+========================================== */
+
+.catalog-search {
+    margin: .8rem 0 1rem;
+}
+
+.catalog-search label {
+    display: block;
+    margin-bottom: .45rem;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.catalog-search-box {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    min-height: 44px;
+    padding: .25rem .35rem .25rem .8rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: var(--color-surface);
+    box-shadow: var(--shadow-xs);
+}
+
+.catalog-search-box > span {
+    color: var(--color-text-light);
+    font-size: 1.15rem;
+}
+
+.catalog-search-box input {
+    min-width: 0;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--color-text);
+}
+
+.catalog-search-submit {
+    min-height: 36px;
+    padding: .45rem .8rem;
+    border-radius: 999px;
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+}
+
+.catalog-group-filter {
+    margin: .75rem 0 1rem;
+}
+
+body.dark .catalog-search-box {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+}
+
+/* ==========================================
    CATÁLOGO V2 — CONTRASTE DE NAVEGACIÓN
    Los chips deben conservar contraste incluso
    al heredar los estilos globales de <button>.
