@@ -33,8 +33,16 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
         devociones: {
             titulo: "Devociones",
             descripcion: "Devociones y celebraciones de oración conservadas en Amigos del Cielo.",
-            catalogo: state.catalogosV2.devociones || [],
+            catalogo: (state.catalogosV2.devociones || [])
+                .filter(item => (item.category || "devociones") === "devociones"),
             icono: "♡",
+            permitePais: false
+        },
+        todos: {
+            titulo: "Todos",
+            descripcion: "Todo el contenido disponible reunido en un solo lugar.",
+            catalogo: state.catalogo || [],
+            icono: "✦",
             permitePais: false
         }
     };
@@ -92,6 +100,7 @@ function renderCatalogoV2(seccion, pais = state.paisCatalogo || "ALL") {
 
             <nav class="catalog-section-nav" aria-label="Explorar">
                 ${[
+                    ["todos", "Todos"],
                     ["santos", "Santos"],
                     ["maria", "María"],
                     ["novenas", "Novenas"],
@@ -212,6 +221,19 @@ function renderCatalogoVacio(pais) {
     `;
 }
 
+function obtenerEtiquetaCatalogo(item) {
+    const categoria = String(item?.category || "").toLowerCase();
+
+    const etiquetas = {
+        santos: "Santo",
+        maria: "Advocación mariana",
+        devociones: "Devoción",
+        beatas: "Beata"
+    };
+
+    return etiquetas[categoria] || item?.category || "Novena";
+}
+
 function renderTarjetaCatalogoV2(item, seccion) {
     const imagen = item.image ||
         (item.sourceFile
@@ -254,9 +276,11 @@ function renderTarjetaCatalogoV2(item, seccion) {
                 <small>
                     ${seccion === "maria"
                         ? escaparHTML(etiquetasPais.join(" · ") || "Tradición mariana")
-                        : item.status === "published"
-                            ? "Disponible"
-                            : "Próximamente"}
+                        : seccion === "todos"
+                            ? escaparHTML(obtenerEtiquetaCatalogo(item))
+                            : item.status === "published"
+                                ? "Disponible"
+                                : "Próximamente"}
                 </small>
             </span>
         </button>
