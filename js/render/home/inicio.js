@@ -139,11 +139,65 @@ function obtenerNovenaEnProgresoActiva(catalogo = [], progreso = {}) {
     return candidatos[0]?.novena || null;
 }
 
-function obtenerSantoDelDia(catalogo = [], progreso = {}) {
-    return (
-        obtenerNovenaEnProgresoActiva(catalogo, progreso) ||
-        obtenerNovenaCalendarioPrincipal(catalogo)
-    );
+/*
+ * "Santo del día" es una función litúrgica independiente.
+ * No se deriva de la novena activa ni de la próxima novena.
+ * Solo considera contenidos de la categoría santos cuya
+ * festividad corresponde al día actual.
+ */
+function obtenerSantoDelDia(catalogo = []) {
+    if (!Array.isArray(catalogo)) {
+        return null;
+    }
+
+    const santosHoy = catalogo
+        .filter(item => {
+            const categoria = String(item?.category || "").toLowerCase();
+            const esSanto = categoria === "santos" || categoria === "santo";
+            return esSanto && esHoyLaFestividad(item.feast);
+        })
+        .sort((a, b) => {
+            const prioridadA = obtenerPrioridadLiturgica(a);
+            const prioridadB = obtenerPrioridadLiturgica(b);
+
+            if (prioridadA !== prioridadB) {
+                return prioridadB - prioridadA;
+            }
+
+            return String(a.name || "")
+                .localeCompare(String(b.name || ""), "es");
+        });
+
+    return santosHoy[0] || null;
+}
+
+function obtenerContenidoPrincipalInicio(catalogo = [], progreso = {}) {
+    const santoDelDia = obtenerSantoDelDia(catalogo);
+
+    if (santoDelDia) {
+        return {
+            novena: santoDelDia,
+            tipo: "santo-del-dia"
+        };
+    }
+
+    const activa = obtenerNovenaEnProgresoActiva(catalogo, progreso);
+
+    if (activa) {
+        return {
+            novena: activa,
+            tipo: "novena-en-curso"
+        };
+    }
+
+    const proxima = obtenerNovenaCalendarioPrincipal(catalogo);
+
+    return proxima
+        ? {
+            novena: proxima,
+            tipo: "proxima-novena"
+        }
+        : null;
 }
 
 function obtenerProgresoPrincipal(catalogo = [], progreso = {}) {
@@ -209,17 +263,13 @@ function obtenerMensajeCalendario(novena) {
     return "";
 }
 
-function obtenerTituloPrincipal(novena) {
-    const estado = obtenerEstadoNovena(novena?.feast);
-
-    if (!estado) {
-        return "Santos y novenas";
+function obtenerTituloPrincipal(tipo) {
+    if (tipo === "santo-del-dia") {
+        return "Santo del día";
     }
 
-    if (estado.estado === "en-curso") {
-        return esHoyLaFestividad(novena.feast)
-            ? "Santo del día"
-            : "Novena en curso";
+    if (tipo === "novena-en-curso") {
+        return "Novena en curso";
     }
 
     return "Próxima novena";
@@ -227,7 +277,8 @@ function obtenerTituloPrincipal(novena) {
 
 function renderInicio(catalogo = [], progreso = {}) {
 
-    const santo = obtenerSantoDelDia(catalogo, progreso);
+    const principal =
+        obtenerContenidoPrincipalInicio(catalogo, progreso);
 
     const continuidad =
         obtenerProgresoPrincipal(
@@ -235,12 +286,14 @@ function renderInicio(catalogo = [], progreso = {}) {
             progreso
         );
 
-    if (!santo) {
+    if (!principal?.novena) {
         return renderEmptyState(
             "No hay novenas disponibles",
             "Agrega una novena al catálogo para comenzar."
         );
     }
+
+    const santo = principal.novena;
 
     const novenaContinuar =
         continuidad?.novena || santo;
@@ -273,11 +326,48 @@ function renderInicio(catalogo = [], progreso = {}) {
             )
             : 0;
 
-    const tituloSanto =
-        obtenerTituloPrincipal(santo);
+    const tituloPrincipal =
+        obtenerTituloPrincipal(principal.tipo);
 
     const mensajeCalendario =
         obtenerMensajeCalendario(santo);
+
+    const imagenPrincipal = santo.image
+        ? `
+                <img
+                    src="${escaparHTML(santo.image)}"
+                    alt="${escaparHTML(santo.name)}"
+                    class="saint-of-day-image"
+                    loading="eager">
+            `
+        : `
+                <div
+                    class="saint-of-day-placeholder"
+                    aria-hidden="true">
+                    ✦
+                </div>
+            `;
+
+    const imagenContinuar = novenaContinuar.image
+        ? `
+                    <img
+                        src="${escaparHTML(novenaContinuar.image)}"
+                        alt=""
+                        class="continue-image"
+                        loading="lazy">
+            `
+        : `
+                    <div
+                        class="continue-image continue-image-placeholder"
+                        aria-hidden="true">
+                        ✦
+                    </div>
+            `;
+
+    const textoBoton =
+        principal.tipo === "santo-del-dia"
+            ? "Conocer al santo"
+            : "Abrir novena";
 
     return `
 
@@ -286,14 +376,10 @@ function renderInicio(catalogo = [], progreso = {}) {
             <section class="saint-of-day">
 
                 <p class="eyebrow">
-                    ${tituloSanto}
+                    ${tituloPrincipal}
                 </p>
 
-                <img
-                    src="${escaparHTML(santo.image)}"
-                    alt="${escaparHTML(santo.name)}"
-                    class="saint-of-day-image"
-                    loading="eager">
+                ${imagenPrincipal}
 
                 <h2>
                     ${escaparHTML(santo.name)}
@@ -318,7 +404,7 @@ function renderInicio(catalogo = [], progreso = {}) {
                     type="button"
                     data-action="open-novena"
                     data-id="${escaparHTML(santo.id)}">
-                    Conocer al santo
+                    ${textoBoton}
                 </button>
 
             </section>
@@ -363,11 +449,7 @@ function renderInicio(catalogo = [], progreso = {}) {
 
                 <article class="continue-card">
 
-                    <img
-                        src="${escaparHTML(novenaContinuar.image)}"
-                        alt=""
-                        class="continue-image"
-                        loading="lazy">
+                    ${imagenContinuar}
 
                     <div class="continue-content">
 
