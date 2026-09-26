@@ -1,7 +1,7 @@
 {
-  "version": "3.1",
+  "version": "3.2",
   "category": "santos",
-  "description": "Catálogo maestro de santos canonizados. Los registros pending son candidatos de alta prioridad para incorporación.",
+  "description": "Catálogo maestro de santos y beatos. Las categorías se asignan de forma acumulativa y se revisan para evitar omisiones entre fundadores, doctores, padres de la Iglesia, mártires, apóstoles, santos jóvenes, familia franciscana y santos latinoamericanos.",
   "items": [
     {
       "id": "san-jose",
@@ -138,7 +138,7 @@
         "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
       },
       "groups": [
-        "apostoles"
+        "martires"
       ]
     },
     {
@@ -956,7 +956,8 @@
       "priority": "alta",
       "groups": [
         "devocion-extendida",
-        "franciscanos"
+        "franciscanos",
+        "martires"
       ],
       "territorial": {
         "origin": [
@@ -1013,7 +1014,8 @@
       "priority": "alta",
       "groups": [
         "devocion-extendida",
-        "franciscanos"
+        "franciscanos",
+        "fundadores"
       ],
       "territorial": {
         "origin": [
@@ -1069,7 +1071,8 @@
       "sourceFile": "data/santa-teresa-de-calcuta.json",
       "priority": "alta",
       "groups": [
-        "devocion-extendida"
+        "devocion-extendida",
+        "fundadores"
       ],
       "territorial": {
         "origin": [
@@ -1089,7 +1092,8 @@
       "sourceFile": "data/san-francisco-javier.json",
       "priority": "alta",
       "groups": [
-        "devocion-extendida"
+        "devocion-extendida",
+        "fundadores"
       ],
       "territorial": {
         "origin": [
@@ -1129,7 +1133,9 @@
       "category": "santos",
       "sourceFile": "data/santa-lucia-de-siracusa.json",
       "priority": "alta",
-      "groups": [],
+      "groups": [
+        "martires"
+      ],
       "territorial": {
         "origin": [
           "IT"
@@ -1148,7 +1154,8 @@
       "sourceFile": "data/santa-cecilia.json",
       "priority": "alta",
       "groups": [
-        "devocion-extendida"
+        "devocion-extendida",
+        "martires"
       ],
       "territorial": {
         "origin": [],
@@ -1166,7 +1173,8 @@
       "sourceFile": "data/santa-barbara.json",
       "priority": "alta",
       "groups": [
-        "devocion-extendida"
+        "devocion-extendida",
+        "martires"
       ],
       "territorial": {
         "origin": [],
@@ -1202,7 +1210,8 @@
       "sourceFile": "data/san-pancracio.json",
       "priority": "alta",
       "groups": [
-        "devocion-extendida"
+        "devocion-extendida",
+        "martires"
       ],
       "territorial": {
         "origin": [],
@@ -1237,7 +1246,8 @@
       "priority": "alta",
       "groups": [
         "devocion-extendida",
-        "apostoles"
+        "apostoles",
+        "martires"
       ],
       "territorial": {
         "origin": [],
@@ -1254,7 +1264,8 @@
       "priority": "alta",
       "groups": [
         "devocion-extendida",
-        "apostoles"
+        "apostoles",
+        "martires"
       ],
       "territorial": {
         "origin": [],
@@ -1271,7 +1282,8 @@
       "priority": "alta",
       "groups": [
         "devocion-extendida",
-        "apostoles"
+        "apostoles",
+        "martires"
       ],
       "territorial": {
         "origin": [],
