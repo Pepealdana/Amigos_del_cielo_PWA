@@ -1,0 +1,442 @@
+{
+  "id": "santa-barbara",
+  "name": "Santa Bárbara",
+  "title": "Virgen y mártir, testigo de la fe",
+  "feast": {
+    "day": 4,
+    "month": 12,
+    "text": "4 de diciembre",
+    "movable": false,
+    "liturgicalRank": "Memoria"
+  },
+  "image": "assets/images/santos/santa_barbara.webp",
+  "groups": [
+    "devocion-extendida",
+    "martires"
+  ],
+  "territorial": {
+    "origin": [],
+    "historicalLinks": [
+      "IT"
+    ],
+    "specialDevotion": [
+      "IT"
+    ]
+  },
+  "patronages": [
+    "Personas que trabajan en minería",
+    "Bomberos",
+    "Artilleros y profesionales vinculados históricamente a explosivos",
+    "Personas expuestas a muerte repentina"
+  ],
+  "virtues": [
+    "Fe",
+    "Valentía",
+    "Fidelidad",
+    "Perseverancia",
+    "Oración",
+    "Fortaleza"
+  ],
+  "history": {
+    "short": "Santa Bárbara es una mártir venerada desde la antigüedad. Las fuentes históricas sobre su vida son inciertas, pero su culto se extendió ampliamente en Oriente y Occidente. La tradición la presenta como una joven que permaneció fiel a Cristo y sufrió el martirio por su fe.",
+    "extended": "Santa Bárbara pertenece al grupo de mártires cuya veneración cristiana se desarrolló desde la antigüedad, aunque los datos históricos sobre su vida son escasos y las narraciones conservadas contienen numerosos elementos legendarios.\n\nLa tradición hagiográfica la presenta como una joven cristiana que se negó a abandonar su fe y que sufrió el martirio. Las versiones posteriores del relato incluyen a un padre llamado Dióscoro, una torre y distintos episodios relacionados con su persecución. Estos detalles no cuentan con el mismo nivel de documentación que su antiguo culto y por eso la novena los presenta como tradición, no como hechos históricos comprobados.\n\nSu memoria se celebró durante siglos el 4 de diciembre y su devoción se extendió por numerosos países. La Iglesia la invocó especialmente ante el peligro de muerte repentina y, con el tiempo, distintos cuerpos profesionales la adoptaron como patrona.\n\nLa relación con rayos, tormentas, pólvora y explosiones surgió en buena medida de la tradición medieval vinculada a su martirio y a la creencia de que quien la invocara estaría protegido de una muerte repentina. De esta tradición derivaron patronazgos posteriores entre mineros, artilleros, bomberos y otras profesiones expuestas al peligro.\n\nAunque algunos calendarios litúrgicos modernos ya no incluyen su memoria en el Calendario Romano General, Santa Bárbara continúa siendo venerada en diversas Iglesias locales y comunidades cristianas. Su figura puede contemplarse como un testimonio de fidelidad y valentía ante la adversidad."
+  },
+  "quote": {
+    "text": "El Señor es mi luz y mi salvación: ¿a quién temeré?",
+    "reference": "Salmo 27,1; texto bíblico utilizado como eje espiritual de la novena, no como cita de Santa Bárbara."
+  },
+  "search": [
+    "santa barbara",
+    "santa bárbara",
+    "barbara",
+    "bárbara",
+    "martir",
+    "mártir",
+    "virgen",
+    "torre",
+    "rayos",
+    "tormenta",
+    "trueno",
+    "mineros",
+    "mineria",
+    "minería",
+    "bomberos",
+    "artilleria",
+    "artillería",
+    "polvora",
+    "pólvora",
+    "muerte repentina",
+    "fortaleza"
+  ],
+  "interventions": [
+    {
+      "id": "fe",
+      "label": "Fe y fidelidad",
+      "keywords": [
+        "fe",
+        "fidelidad",
+        "cristo",
+        "jesus",
+        "jesús",
+        "evangelio"
+      ]
+    },
+    {
+      "id": "martirio",
+      "label": "Martirio y valentía",
+      "keywords": [
+        "martirio",
+        "martir",
+        "mártir",
+        "valentia",
+        "valentía",
+        "persecucion",
+        "persecución",
+        "testimonio"
+      ]
+    },
+    {
+      "id": "proteccion",
+      "label": "Protección y peligro",
+      "keywords": [
+        "proteccion",
+        "protección",
+        "peligro",
+        "riesgo",
+        "accidente",
+        "muerte repentina"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y profesiones de riesgo",
+      "keywords": [
+        "mineros",
+        "mineria",
+        "minería",
+        "bomberos",
+        "artilleria",
+        "artillería",
+        "explosivos",
+        "pólvora",
+        "polvora"
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "label": "Fortaleza ante la adversidad",
+      "keywords": [
+        "fortaleza",
+        "prueba",
+        "sufrimiento",
+        "dificultad",
+        "perseverancia"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y confianza",
+      "keywords": [
+        "oracion",
+        "oración",
+        "confianza",
+        "esperanza",
+        "salmo"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y conflictos",
+      "keywords": [
+        "familia",
+        "padre",
+        "padres",
+        "hijos",
+        "conflicto",
+        "persecucion",
+        "persecución"
+      ]
+    },
+    {
+      "id": "tradicion",
+      "label": "Tradición y devoción popular",
+      "keywords": [
+        "devocion",
+        "devoción",
+        "santuario",
+        "peregrinacion",
+        "peregrinación",
+        "tradicion",
+        "tradición"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santa Bárbara, testigo de una fe perseverante, ayúdanos a permanecer firmes cuando aparezcan dificultades y peligros. Ruega por quienes trabajan en profesiones de riesgo, por quienes viven situaciones de incertidumbre y por todos quienes necesitan fortaleza y protección. Presentamos nuestras intenciones ante Dios. Amén.",
+  "closingPrayer": "Santa Bárbara, mártir y testigo de Cristo, intercede por nosotros. Ruega por mineros, bomberos, trabajadores expuestos al peligro y por todas las personas que afrontan riesgos en su vida diaria. Enséñanos a vivir con prudencia, fortaleza y confianza en Dios. Amén.",
+  "intentions": [
+    "Por trabajadores de minería y otras profesiones de riesgo.",
+    "Por bomberos, rescatistas y personal de emergencias.",
+    "Por quienes trabajan con materiales o ambientes peligrosos.",
+    "Por personas y familias afectadas por accidentes.",
+    "Por quienes enfrentan amenazas o situaciones de violencia.",
+    "Por quienes tienen miedo ante una enfermedad o dificultad grave.",
+    "Por familias que atraviesan conflictos o incomprensiones.",
+    "Por quienes necesitan fortalecer su fe en medio de una prueba.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Salmo 27,1-6",
+      "Salmo 91,1-6",
+      "Efesios 6,10-18",
+      "Juan 15,18-21",
+      "Romanos 8,31-39"
+    ],
+    "related": [
+      "Mártires de la antigüedad",
+      "Devoción a Santa Bárbara",
+      "Minería",
+      "Bomberos",
+      "Profesiones de riesgo"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santa Bárbara, virgen y mártir",
+      "organization": "Catholic Encyclopedia / New Advent",
+      "url": "https://www.newadvent.org/cathen/14310b.htm",
+      "type": "reference"
+    },
+    {
+      "title": "Santa Bárbara",
+      "organization": "Biblioteca Apostólica Vaticana",
+      "url": "https://www.vaticanlibrary.va/home.php?pag=condividi&ling=it&cod=barbara",
+      "type": "reference"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Construir sobre la roca",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cristiana conserva a Bárbara como una joven mártir. Aunque los detalles de su biografía son inciertos, su memoria quedó vinculada desde antiguo con la fidelidad a Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe necesita raíces. No depende únicamente de emociones, sino de convicciones que orientan nuestras decisiones."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué fundamentos sostienen mi fe cuando aparecen dificultades?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dudas, crisis o momentos de incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, ayúdanos a construir nuestra vida sobre una fe firme y consciente. Amén."
+      },
+      "action": "Dedica hoy unos minutos a revisar qué prácticas sostienen realmente tu vida espiritual."
+    },
+    {
+      "day": 2,
+      "theme": "Valentía",
+      "title": "Permanecer firmes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición la recuerda como una joven que permaneció fiel a Cristo ante la oposición. Su martirio se convirtió en el centro de su memoria cristiana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La valentía cristiana consiste en actuar según la verdad y el bien sin confundir coraje con imprudencia."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué decisión correcta estoy evitando por miedo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes deben defender sus convicciones con respeto en ambientes difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, danos valentía para permanecer fieles al bien y prudencia para actuar correctamente. Amén."
+      },
+      "action": "Da hoy un pequeño paso responsable frente a algo que te produce temor."
+    },
+    {
+      "day": 3,
+      "theme": "Prudencia",
+      "title": "Confiar sin actuar imprudentemente",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción popular vinculó a Santa Bárbara con la protección ante peligros repentinos. La novena recuerda que la confianza cristiana nunca sustituye la prudencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Pedir protección a Dios no significa ignorar las medidas de seguridad. La responsabilidad también forma parte del cuidado de la vida."
+      },
+      "virtue": "Prudencia",
+      "reflection": "¿Hay algún riesgo cotidiano que estoy tomando innecesariamente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por trabajadores y familias que necesitan protección y seguridad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, acompaña a quienes están expuestos al peligro y ayúdanos a actuar siempre con prudencia. Amén."
+      },
+      "action": "Revisa hoy una medida de seguridad que puedas mejorar en casa, trabajo o desplazamientos."
+    },
+    {
+      "day": 4,
+      "theme": "Trabajo",
+      "title": "Servir con responsabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Con el paso de los siglos, Santa Bárbara fue adoptada como patrona de distintas profesiones expuestas a peligros, especialmente minería, bomberos y artillería."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Todo trabajo digno merece responsabilidad y respeto. En las profesiones de riesgo, la preparación y el cuidado mutuo tienen especial importancia."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Cómo puedo hacer más segura y responsable mi manera de trabajar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por trabajadores de minería, construcción, industria, emergencias y otras profesiones de riesgo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, ruega por quienes trabajan en condiciones peligrosas y ayúdalos a cuidarse mutuamente. Amén."
+      },
+      "action": "Agradece hoy a una persona que realice un trabajo difícil o arriesgado."
+    },
+    {
+      "day": 5,
+      "theme": "Fortaleza",
+      "title": "Atravesar la prueba",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de una mártir invita a contemplar la fortaleza necesaria para atravesar pruebas sin abandonar la esperanza."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fortaleza no exige negar el dolor. Permite reconocerlo, pedir ayuda y continuar haciendo lo posible con esperanza."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué prueba necesito afrontar sin aislarme ni perder la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por personas que atraviesan enfermedad, desempleo, dificultades económicas o situaciones familiares difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, acompaña a quienes atraviesan pruebas y ayúdanos a buscar ayuda cuando la necesitemos. Amén."
+      },
+      "action": "Comunícate hoy con alguien que esté pasando por una dificultad y pregúntale cómo puedes ayudar."
+    },
+    {
+      "day": 6,
+      "theme": "Protección",
+      "title": "Cuidar la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción a Santa Bárbara quedó asociada durante siglos a la protección ante muerte repentina, tormentas y explosiones. Estos patronazgos pertenecen al desarrollo de la devoción popular."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Cuidar la vida incluye oración, prevención, preparación y ayuda mutua. La fe puede acompañar nuestras decisiones sin reemplazar la responsabilidad."
+      },
+      "virtue": "Cuidado",
+      "reflection": "¿Qué persona o responsabilidad necesita hoy mayor cuidado de mi parte?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias, comunidades y trabajadores que viven situaciones de riesgo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, ruega por quienes enfrentan peligros y ayúdanos a cuidar responsablemente la vida propia y ajena. Amén."
+      },
+      "action": "Haz hoy una acción concreta para prevenir un riesgo que pueda afectar a otra persona."
+    },
+    {
+      "day": 7,
+      "theme": "Familia",
+      "title": "Buscar la paz en los conflictos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los relatos tradicionales sobre Bárbara incluyen un conflicto con su padre. Aunque estos detalles pertenecen a la hagiografía, pueden servir como punto de partida para reflexionar sobre conflictos familiares."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Las diferencias familiares necesitan diálogo, límites y respeto. La fe no justifica violencia ni obliga a permanecer en situaciones abusivas."
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Qué conflicto familiar necesita una conversación más serena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias divididas y por quienes necesitan protección frente a la violencia."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, ruega por nuestras familias y ayúdanos a buscar caminos de respeto, diálogo y paz. Amén."
+      },
+      "action": "Si es seguro hacerlo, da hoy un paso concreto hacia el diálogo o la reconciliación."
+    },
+    {
+      "day": 8,
+      "theme": "Esperanza",
+      "title": "No vivir dominados por el miedo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción popular convirtió a Santa Bárbara en una figura asociada a la protección. Su memoria puede ayudarnos a transformar el miedo en una oportunidad para actuar con fe y responsabilidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no promete ausencia de problemas. Nos ayuda a enfrentarlos sin permitir que el miedo gobierne todas nuestras decisiones."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué miedo está condicionando demasiado mis decisiones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven ansiedad ante accidentes, enfermedades, violencia o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, acompaña a quienes tienen miedo y ayúdanos a confiar en Dios sin abandonar la prudencia. Amén."
+      },
+      "action": "Escribe tu principal preocupación y junto a ella una acción concreta y razonable que puedas realizar."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Vivir con fe y responsabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santa Bárbara continúa siendo venerada como mártir y patrona de diversas profesiones. Su memoria invita a unir fe, fortaleza y cuidado de la vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción a los santos puede llevarnos a una vida más responsable: orar, prevenir riesgos, servir y acompañar a quienes atraviesan dificultades."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso de cuidado, servicio o fe quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes trabajan o viven en situaciones de riesgo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santa Bárbara, virgen y mártir, intercede por nosotros para que vivamos con fe, fortaleza, prudencia y caridad. Amén."
+      },
+      "action": "Elige una práctica concreta de oración, prevención o servicio que puedas mantener después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
