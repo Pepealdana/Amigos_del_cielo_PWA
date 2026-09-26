@@ -3,7 +3,11 @@
    Amigos del Cielo
 ========================================== */
 
-function renderCatalogoV2(\n    seccion,\n    pais = state.paisCatalogo || "ALL",\n    grupo = state.grupoCatalogo || "ALL"\n) {
+function renderCatalogoV2(
+    seccion,
+    pais = state.paisCatalogo || "ALL",
+    grupo = state.grupoCatalogo || "ALL"
+) {
     const configuracion = {
         santos: {
             titulo: "Santos",
