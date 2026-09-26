@@ -24,5 +24,7 @@ const state = {
         tamanoTexto: "normal"
     },
     busqueda: "",
-    paisCatalogo: "ALL"
+    busquedaCatalogo: "",
+    paisCatalogo: "ALL",
+    grupoCatalogo: "ALL"
 };
