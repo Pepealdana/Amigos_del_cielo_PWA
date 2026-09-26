@@ -5111,5 +5111,41 @@
       "peregrinos",
       "gruta"
     ]
+  },
+  {
+    "id": "santo-domingo-savio",
+    "slug": "santo-domingo-savio",
+    "name": "Santo Domingo Savio",
+    "title": "Joven discípulo de San Juan Bosco",
+    "subtitle": "Alegría, estudio, amistad y santidad cotidiana",
+    "category": "Santos",
+    "image": "",
+    "file": "data/santo-domingo-savio.json",
+    "description": "Joven discípulo de San Juan Bosco que buscó vivir la santidad en la alegría, el estudio, la oración, la amistad y el servicio a sus compañeros.",
+    "feast": {
+      "day": 6,
+      "month": 5,
+      "text": "6 de mayo",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "search": [
+      "santo domingo savio",
+      "domingo savio",
+      "san domingo savio",
+      "san juan bosco",
+      "don bosco",
+      "salesianos",
+      "jovenes",
+      "jóvenes",
+      "santidad",
+      "estudio",
+      "amistad",
+      "alegria",
+      "alegría",
+      "oracion",
+      "oración"
+    ]
   }
 ]
