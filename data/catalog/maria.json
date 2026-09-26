@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "category": "maria",
   "description": "Catálogo maestro de advocaciones marianas. Cada registro representa una advocación de María, no una persona distinta.",
   "items": [
@@ -20,7 +20,10 @@
         "specialDevotion": [
           "MX"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-del-carmen",
@@ -41,7 +44,10 @@
           "PE",
           "VE"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-fatima",
@@ -58,7 +64,10 @@
           "PT"
         ],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-lourdes",
@@ -75,7 +84,10 @@
           "FR"
         ],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-lujan",
@@ -92,7 +104,10 @@
         "specialDevotion": [
           "AR"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-chiquinquira",
@@ -111,7 +126,10 @@
         "specialDevotion": [
           "CO"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-coromoto",
@@ -128,7 +146,10 @@
         "specialDevotion": [
           "VE"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-suyapa",
@@ -145,7 +166,10 @@
         "specialDevotion": [
           "HN"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-la-caridad-del-cobre",
@@ -162,7 +186,10 @@
         "specialDevotion": [
           "CU"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-el-quinche",
@@ -179,7 +206,10 @@
         "specialDevotion": [
           "EC"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-caacupe",
@@ -196,7 +226,10 @@
         "specialDevotion": [
           "PY"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-la-merced",
@@ -217,7 +250,10 @@
           "PE",
           "DO"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-la-altagracia",
@@ -234,7 +270,10 @@
         "specialDevotion": [
           "DO"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-copacabana",
@@ -251,7 +290,10 @@
         "specialDevotion": [
           "BO"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "santa-maria-la-antigua",
@@ -268,7 +310,10 @@
         "specialDevotion": [
           "PA"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-reina-de-la-paz",
@@ -285,7 +330,10 @@
         "specialDevotion": [
           "SV"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-de-los-angeles",
@@ -302,7 +350,10 @@
         "specialDevotion": [
           "CR"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "la-purisima",
@@ -319,7 +370,10 @@
         "specialDevotion": [
           "NI"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-de-la-divina-providencia",
@@ -336,7 +390,10 @@
         "specialDevotion": [
           "PR"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-los-treinta-y-tres",
@@ -353,7 +410,10 @@
         "specialDevotion": [
           "UY"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-del-pilar",
@@ -372,7 +432,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-de-la-almudena",
@@ -389,7 +452,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-de-los-desamparados",
@@ -406,7 +472,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-de-la-candelaria",
@@ -427,7 +496,10 @@
           "ES",
           "CO"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-de-las-lajas",
@@ -444,7 +516,10 @@
         "specialDevotion": [
           "CO"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-del-valle",
@@ -461,7 +536,10 @@
         "specialDevotion": [
           "VE"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-chiquinquira-de-maracaibo",
@@ -478,7 +556,10 @@
         "specialDevotion": [
           "VE"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-del-cisne",
@@ -495,7 +576,10 @@
         "specialDevotion": [
           "EC"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-andacollo",
@@ -512,7 +596,10 @@
         "specialDevotion": [
           "CL"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "nuestra-senora-de-covadonga",
@@ -529,7 +616,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-de-montserrat",
@@ -546,7 +636,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     },
     {
       "id": "virgen-del-rocio",
@@ -563,7 +656,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "advocaciones-marianas"
+      ]
     }
   ]
 }
