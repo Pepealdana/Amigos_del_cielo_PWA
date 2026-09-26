@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "3.0",
   "category": "santos",
   "description": "Catálogo maestro de santos canonizados. Los registros pending son candidatos de alta prioridad para incorporación.",
   "items": [
@@ -15,7 +15,8 @@
         "historicalLinks": [],
         "specialDevotion": [],
         "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-      }
+      },
+      "groups": []
     },
     {
       "id": "san-antonio-de-padua",
@@ -34,7 +35,11 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "doctores",
+        "franciscanos"
+      ]
     },
     {
       "id": "san-agustin-de-hipona",
@@ -48,7 +53,11 @@
         "historicalLinks": [],
         "specialDevotion": [],
         "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-      }
+      },
+      "groups": [
+        "padres-iglesia",
+        "doctores"
+      ]
     },
     {
       "id": "san-benito-abad",
@@ -65,7 +74,10 @@
           "IT"
         ],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "fundadores"
+      ]
     },
     {
       "id": "san-francisco-de-asis",
@@ -84,7 +96,11 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "fundadores",
+        "franciscanos"
+      ]
     },
     {
       "id": "san-ignacio-de-loyola",
@@ -103,7 +119,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "fundadores"
+      ]
     },
     {
       "id": "san-juan-bautista",
@@ -117,7 +136,10 @@
         "historicalLinks": [],
         "specialDevotion": [],
         "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-      }
+      },
+      "groups": [
+        "apostoles"
+      ]
     },
     {
       "id": "san-juan-bosco",
@@ -136,7 +158,10 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "fundadores"
+      ]
     },
     {
       "id": "san-martin-de-porres",
@@ -153,7 +178,10 @@
           "PE"
         ],
         "specialDevotion": []
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-pio-de-pietrelcina",
@@ -172,7 +200,10 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "devocion-extendida"
+      ]
     },
     {
       "id": "san-pedro-claver",
@@ -191,7 +222,10 @@
         "specialDevotion": [
           "CO"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-camilo-de-lelis",
@@ -210,7 +244,10 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "fundadores"
+      ]
     },
     {
       "id": "san-carlo-acutis",
@@ -228,7 +265,11 @@
           "IT"
         ],
         "note": "Nació en Londres, Reino Unido; su vida y formación se desarrollaron principalmente en Italia. El Reino Unido no forma parte del catálogo territorial actual."
-      }
+      },
+      "groups": [
+        "devocion-extendida",
+        "jovenes"
+      ]
     },
     {
       "id": "san-cayetano",
@@ -245,7 +286,11 @@
         "specialDevotion": [
           "AR"
         ]
-      }
+      },
+      "groups": [
+        "fundadores",
+        "devocion-extendida"
+      ]
     },
     {
       "id": "san-expedito",
@@ -263,7 +308,10 @@
           "AR"
         ],
         "note": "Se conserva separado de Devociones por su carácter de figura de santo/mártir venerada en la tradición católica; no se asigna Italia como origen."
-      }
+      },
+      "groups": [
+        "martires"
+      ]
     },
     {
       "id": "san-jose-gregorio-hernandez",
@@ -282,7 +330,11 @@
         "specialDevotion": [
           "VE"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos",
+        "devocion-extendida"
+      ]
     },
     {
       "id": "san-josemaria-escriva",
@@ -301,7 +353,10 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "fundadores"
+      ]
     },
     {
       "id": "san-judas-tadeo",
@@ -315,7 +370,11 @@
         "historicalLinks": [],
         "specialDevotion": [],
         "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-      }
+      },
+      "groups": [
+        "devocion-extendida",
+        "apostoles"
+      ]
     },
     {
       "id": "san-pier-giorgio-frassati",
@@ -334,7 +393,11 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "devocion-extendida",
+        "jovenes"
+      ]
     },
     {
       "id": "santa-rita-de-casia",
@@ -353,7 +416,10 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "devocion-extendida"
+      ]
     },
     {
       "id": "santa-rosa-de-lima",
@@ -372,7 +438,11 @@
         "specialDevotion": [
           "PE"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos",
+        "jovenes"
+      ]
     },
     {
       "id": "santa-teresa-de-avila",
@@ -391,7 +461,11 @@
         "specialDevotion": [
           "ES"
         ]
-      }
+      },
+      "groups": [
+        "fundadores",
+        "doctores"
+      ]
     },
     {
       "id": "santa-teresita-de-lisieux",
@@ -410,7 +484,11 @@
         "specialDevotion": [
           "FR"
         ]
-      }
+      },
+      "groups": [
+        "jovenes",
+        "doctores"
+      ]
     },
     {
       "id": "santa-catalina-de-siena",
@@ -429,7 +507,10 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "doctores"
+      ]
     },
     {
       "id": "santa-eduviges",
@@ -448,7 +529,8 @@
         "specialDevotion": [
           "PL"
         ]
-      }
+      },
+      "groups": []
     },
     {
       "id": "santa-faustina-kowalska",
@@ -467,7 +549,10 @@
         "specialDevotion": [
           "PL"
         ]
-      }
+      },
+      "groups": [
+        "devocion-extendida"
+      ]
     },
     {
       "id": "santa-filomena",
@@ -484,7 +569,11 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "devocion-extendida",
+        "martires"
+      ]
     },
     {
       "id": "santa-gemma-galgani",
@@ -503,7 +592,10 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "devocion-extendida"
+      ]
     },
     {
       "id": "santa-laura-montoya",
@@ -522,7 +614,11 @@
         "specialDevotion": [
           "CO"
         ]
-      }
+      },
+      "groups": [
+        "fundadores",
+        "latinoamericanos"
+      ]
     },
     {
       "id": "santa-margarita-maria-alacoque",
@@ -541,7 +637,10 @@
         "specialDevotion": [
           "FR"
         ]
-      }
+      },
+      "groups": [
+        "devocion-extendida"
+      ]
     },
     {
       "id": "santo-tomas-de-aquino",
@@ -560,7 +659,10 @@
         "specialDevotion": [
           "IT"
         ]
-      }
+      },
+      "groups": [
+        "doctores"
+      ]
     },
     {
       "id": "santos-cosme-y-damian",
@@ -574,7 +676,10 @@
         "historicalLinks": [],
         "specialDevotion": [],
         "note": "No se asigna país en el catálogo territorial. La tradición los sitúa originarios de Arabia y vinculados a Siria/Cilicia; aunque existe una antigua basílica dedicada a ellos en Roma, esa presencia no basta para presentarlos como una asociación territorial de Italia en este filtro."
-      }
+      },
+      "groups": [
+        "martires"
+      ]
     },
     {
       "id": "san-juan-diego",
@@ -593,7 +698,10 @@
         "specialDevotion": [
           "MX"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-jose-sanchez-del-rio",
@@ -612,7 +720,12 @@
         "specialDevotion": [
           "MX"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos",
+        "martires",
+        "jovenes"
+      ]
     },
     {
       "id": "san-pedro-de-san-jose-de-betancur",
@@ -631,7 +744,11 @@
         "specialDevotion": [
           "GT"
         ]
-      }
+      },
+      "groups": [
+        "fundadores",
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-oscar-romero",
@@ -650,7 +767,11 @@
         "specialDevotion": [
           "SV"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos",
+        "martires"
+      ]
     },
     {
       "id": "santa-mariana-de-jesus",
@@ -669,7 +790,10 @@
         "specialDevotion": [
           "EC"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "santo-toribio-de-mogrovejo",
@@ -688,7 +812,10 @@
         "specialDevotion": [
           "PE"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-juan-macias",
@@ -707,7 +834,10 @@
         "specialDevotion": [
           "PE"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "santa-teresa-de-jesus-de-los-andes",
@@ -726,7 +856,10 @@
         "specialDevotion": [
           "CL"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-alberto-hurtado",
@@ -745,7 +878,10 @@
         "specialDevotion": [
           "CL"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-jose-gabriel-del-rosario-brochero",
@@ -764,7 +900,10 @@
         "specialDevotion": [
           "AR"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "santa-carmen-rendiles",
@@ -783,7 +922,10 @@
         "specialDevotion": [
           "VE"
         ]
-      }
+      },
+      "groups": [
+        "latinoamericanos"
+      ]
     },
     {
       "id": "san-juan-pablo-ii",
@@ -987,9 +1129,7 @@
       "category": "santos",
       "sourceFile": "data/santa-lucia-de-siracusa.json",
       "priority": "alta",
-      "groups": [
-        "devocion-extendida"
-      ],
+      "groups": [],
       "territorial": {
         "origin": [
           "IT"
@@ -1096,8 +1236,8 @@
       "sourceFile": "data/san-pedro-apostol.json",
       "priority": "alta",
       "groups": [
-        "apostoles",
-        "devocion-extendida"
+        "devocion-extendida",
+        "apostoles"
       ],
       "territorial": {
         "origin": [],
@@ -1113,8 +1253,8 @@
       "sourceFile": "data/san-pablo-apostol.json",
       "priority": "alta",
       "groups": [
-        "apostoles",
-        "devocion-extendida"
+        "devocion-extendida",
+        "apostoles"
       ],
       "territorial": {
         "origin": [],
@@ -1130,8 +1270,8 @@
       "sourceFile": "data/santiago-apostol.json",
       "priority": "alta",
       "groups": [
-        "apostoles",
-        "devocion-extendida"
+        "devocion-extendida",
+        "apostoles"
       ],
       "territorial": {
         "origin": [],
