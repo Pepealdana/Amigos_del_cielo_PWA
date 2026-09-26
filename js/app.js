@@ -1453,7 +1453,7 @@ function mostrarAvisoParticipa(mensaje) {
 
 }
 
-document.addEventListener("submit", manejarFormularioParticipa);
+document.addEventListener("submit", manejarFormularioParticipa);\ndocument.addEventListener("submit", manejarFormularioCatalogo);
 
 function manejarCambiosPWA(evento) {
 
