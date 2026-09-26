@@ -26,11 +26,7 @@ function renderCatalogoV2(
         novenas: {
             titulo: "Novenas",
             descripcion: "Novenas disponibles para comenzar o continuar tu camino de oración.",
-            catalogo: (state.catalogo || []).map(item => ({
-                ...item,
-                status: item.status === "draft" ? "pending" : "published",
-                sourceFile: item.file
-            })),
+            catalogo: obtenerCatalogoNovenasUnificado(),
             icono: "☼",
             permitePais: false
         },
