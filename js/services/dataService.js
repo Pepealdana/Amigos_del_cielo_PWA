@@ -64,6 +64,7 @@ async function cargarCatalogo() {
 async function cargarCatalogosV2() {
     const rutas = {
         santos: "./data/catalog/santos.json",
+        beatos: "./data/catalog/beatos.json",
         maria: "./data/catalog/maria.json",
         devociones: "./data/catalog/devociones.json",
         paises: "./data/catalog/paises.json"
@@ -108,7 +109,7 @@ async function cargarCatalogosV2() {
             .map(item => [item.id, { ...item }])
     );
 
-    for (const clave of ["santos", "maria", "devociones"]) {
+    for (const clave of ["santos", "beatos", "maria", "devociones"]) {
         const items = Array.isArray(state.catalogosV2[clave])
             ? state.catalogosV2[clave]
             : [];
@@ -212,7 +213,7 @@ async function cargarNovena(id) {
 function buscarContenidoCatalogoV2(id) {
     const catalogos = state.catalogosV2 || {};
 
-    for (const clave of ["santos", "maria", "devociones"]) {
+    for (const clave of ["santos", "beatos", "maria", "devociones"]) {
         const items = Array.isArray(catalogos[clave])
             ? catalogos[clave]
             : [];
