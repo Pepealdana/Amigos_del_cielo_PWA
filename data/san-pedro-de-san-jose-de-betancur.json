@@ -120,15 +120,15 @@
       "type": "official"
     },
     {
-      "title": "Pedro de San José Betancur — Memoria litúrgica",
-      "organization": "Dicasterio para las Causas de los Santos",
-      "url": "https://www.causesanti.va/it/santi-e-beati/pedro-de-san-jose-betancurt.html",
-      "type": "official"
-    },
-    {
       "title": "Santo Hermano Pedro",
       "organization": "Orden de Frailes Menores",
       "url": "https://ofm.org/es/santo-hermano-pedro.html",
+      "type": "official"
+    },
+    {
+      "title": "Pedro de San José Betancur",
+      "organization": "Dicasterio para las Causas de los Santos",
+      "url": "https://www.causesanti.va/it/santi-e-beati/pedro-de-san-jose-betancurt.html",
       "type": "official"
     }
   ],
@@ -368,7 +368,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -450,5 +450,21 @@
         "antigua guatemala"
       ]
     }
-  ]
+  ],
+  "groups": [
+    "fundadores",
+    "franciscanos",
+    "latinoamericanos"
+  ],
+  "territorial": {
+    "origin": [
+      "ES"
+    ],
+    "historicalLinks": [
+      "GT"
+    ],
+    "specialDevotion": [
+      "GT"
+    ]
+  }
 }
