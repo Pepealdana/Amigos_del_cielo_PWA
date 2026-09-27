@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Bolivia y Madre del pueblo boliviano",
   "image": null,
   "feast": {
+    "day": 5,
+    "month": 8,
     "text": "5 de agosto",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de Copacabana se celebra el 5 de agosto; es reconocida como Madre y Patrona de Bolivia."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Ángelus, 29 de marzo de 1992.",
@@ -285,5 +288,7 @@
     "San Pablo VI, Carta apostólica Maria, Mater, 4 de noviembre de 1968.",
     "Francisco, Palabras con ocasión de la entrega de dos condecoraciones a la Virgen de Copacabana, 10 de julio de 2015.",
     "Vatican News, Comunidad boliviana celebra Virgen de Copacabana en Roma, 4 de febrero de 2019."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
