@@ -1,0 +1,456 @@
+{
+  "id": "san-pedro-apostol",
+  "name": "San Pedro Apóstol",
+  "title": "Apóstol y pastor de la Iglesia",
+  "feast": {
+    "day": 29,
+    "month": 6,
+    "text": "29 de junio",
+    "movable": false,
+    "liturgicalRank": "Solemnidad"
+  },
+  "image": "assets/images/santos/san_pedro_apostol.webp",
+  "groups": [
+    "devocion-extendida",
+    "apostoles",
+    "martires"
+  ],
+  "territorial": {
+    "origin": [
+      "IL"
+    ],
+    "historicalLinks": [
+      "IL",
+      "IT"
+    ],
+    "specialDevotion": [
+      "IT"
+    ]
+  },
+  "patronages": [
+    "Pescadores",
+    "Iglesia de Roma",
+    "Papado",
+    "Pastores y ministros de la Iglesia"
+  ],
+  "virtues": [
+    "Fe",
+    "Conversión",
+    "Humildad",
+    "Perseverancia",
+    "Servicio",
+    "Esperanza"
+  ],
+  "history": {
+    "short": "San Pedro, llamado Simón, fue uno de los Doce Apóstoles y recibió de Jesús un papel particular entre sus discípulos. Los Evangelios y los Hechos de los Apóstoles permiten conocer numerosos episodios de su vida, mientras que la tradición cristiana antigua lo vincula con la Iglesia de Roma y con el martirio.",
+    "extended": "Simón, llamado Pedro por Jesús, era pescador de Galilea y hermano de Andrés. Los Evangelios lo presentan entre los primeros discípulos llamados por Jesús y como uno de los Doce Apóstoles.\n\nPedro aparece repetidamente en los relatos evangélicos: confiesa que Jesús es el Cristo, participa en momentos decisivos de su ministerio y, después de la Pasión, anuncia públicamente la resurrección. También conocemos sus límites: durante la Pasión negó conocer a Jesús, pero posteriormente se arrepintió y recibió de Cristo una misión de confirmar a sus hermanos y apacentar su rebaño.\n\nEn los Hechos de los Apóstoles aparece como una figura destacada de la primera comunidad cristiana de Jerusalén. Predicó, acompañó la expansión de la Iglesia y participó en decisiones importantes de la comunidad apostólica.\n\nLa tradición cristiana antigua vincula a Pedro con la comunidad de Roma y con su martirio allí. La Santa Sede celebra su memoria junto con San Pablo el 29 de junio, solemnidad que recuerda a ambos como apóstoles y mártires de Roma.\n\nLa figura de Pedro resulta especialmente significativa porque une autoridad y fragilidad: fue llamado a servir a la comunidad, pero también experimentó el miedo, la caída y el arrepentimiento. Su vida invita a comprender el liderazgo cristiano como servicio y a reconocer que la conversión forma parte del camino del discípulo."
+  },
+  "quote": {
+    "text": "Señor, ¿a quién iremos? Tú tienes palabras de vida eterna.",
+    "reference": "Juan 6,68; respuesta de Pedro a Jesús."
+  },
+  "search": [
+    "san pedro",
+    "pedro apostol",
+    "Pedro Apóstol",
+    "simón pedro",
+    "simón",
+    "apostol",
+    "apóstol",
+    "apostoles",
+    "apóstoles",
+    "pescador",
+    "roma",
+    "llaves",
+    "roca",
+    "papa",
+    "papado",
+    "pastor",
+    "martir",
+    "mártir",
+    "galilea"
+  ],
+  "interventions": [
+    {
+      "id": "fe",
+      "label": "Fe en Cristo",
+      "keywords": [
+        "fe",
+        "cristo",
+        "jesus",
+        "jesús",
+        "confianza",
+        "evangelio"
+      ]
+    },
+    {
+      "id": "conversion",
+      "label": "Conversión y arrepentimiento",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "arrepentimiento",
+        "pecado",
+        "caida",
+        "caída",
+        "perdon",
+        "perdón"
+      ]
+    },
+    {
+      "id": "pastores",
+      "label": "Pastores y ministros",
+      "keywords": [
+        "pastor",
+        "pastores",
+        "sacerdote",
+        "sacerdotes",
+        "obispo",
+        "obispos",
+        "ministerio",
+        "iglesia"
+      ]
+    },
+    {
+      "id": "liderazgo",
+      "label": "Servicio y liderazgo",
+      "keywords": [
+        "liderazgo",
+        "servicio",
+        "autoridad",
+        "responsabilidad",
+        "comunidad"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y vocación",
+      "keywords": [
+        "familia",
+        "hermano",
+        "hermanos",
+        "pescador",
+        "vocacion",
+        "vocación"
+      ]
+    },
+    {
+      "id": "unidad",
+      "label": "Unidad de la Iglesia",
+      "keywords": [
+        "unidad",
+        "iglesia",
+        "comunidad",
+        "apostoles",
+        "apóstoles",
+        "fraternidad"
+      ]
+    },
+    {
+      "id": "persecucion",
+      "label": "Persecución y martirio",
+      "keywords": [
+        "persecucion",
+        "persecución",
+        "martirio",
+        "martir",
+        "mártir",
+        "prueba",
+        "sufrimiento"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza después de la caída",
+      "keywords": [
+        "esperanza",
+        "caida",
+        "caída",
+        "fracaso",
+        "miedo",
+        "temor",
+        "perseverancia"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Pedro Apóstol, llamado por Cristo para seguirlo y servir a sus hermanos, enséñanos a vivir una fe humilde y perseverante. Ruega por la Iglesia, por sus pastores y por todos los que necesitan levantarse después de una caída. Amén.",
+  "closingPrayer": "San Pedro Apóstol, roca puesta al servicio de la Iglesia, intercede por nosotros. Ayúdanos a reconocer nuestros errores, volver a Cristo con humildad y servir a nuestros hermanos con fidelidad. Ruega por la unidad de la Iglesia y por todos sus pastores. Amén.",
+  "intentions": [
+    "Por el Papa, los obispos, sacerdotes, diáconos y todos los ministros de la Iglesia.",
+    "Por la unidad de la Iglesia y de todos los cristianos.",
+    "Por quienes han experimentado una caída y necesitan recuperar la esperanza.",
+    "Por pescadores y trabajadores del mar.",
+    "Por quienes buscan responder con fidelidad a su vocación.",
+    "Por quienes tienen responsabilidades de liderazgo y necesitan ejercerlas como servicio.",
+    "Por los cristianos perseguidos y por quienes sufren a causa de su fe.",
+    "Por las familias y comunidades que necesitan reconciliación.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Mateo 16,13-19",
+      "Lucas 22,31-32",
+      "Juan 21,15-19",
+      "Hechos 2,14-41",
+      "Hechos 12,1-11",
+      "1 Pedro 5,1-4"
+    ],
+    "related": [
+      "San Pedro Apóstol",
+      "Solemnidad de San Pedro y San Pablo",
+      "Iglesia de Roma",
+      "Ministerio pastoral"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Audiencia general: Pedro, la roca sobre la que Cristo fundó su Iglesia",
+      "organization": "Santa Sede — Benedicto XVI",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2006/documents/hf_ben-xvi_aud_20060607.html",
+      "type": "official"
+    },
+    {
+      "title": "Solemnidad de los Apóstoles San Pedro y San Pablo",
+      "organization": "Santa Sede — Benedicto XVI",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/homilies/2006/documents/hf_ben-xvi_hom_20060629_sts-peter-paul.html",
+      "type": "official"
+    },
+    {
+      "title": "Ángelus, 29 de junio de 2023",
+      "organization": "Santa Sede — Francisco",
+      "url": "https://www.vatican.va/content/francesco/es/angelus/2023/documents/20230629-angelus.html",
+      "type": "official"
+    },
+    {
+      "title": "Solemnidad de San Pedro y San Pablo, Apóstoles",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/062926-Day",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Llamado",
+      "title": "Dejar las redes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Simón era pescador de Galilea cuando Jesús lo llamó junto con su hermano Andrés. Los Evangelios presentan este llamado como un cambio decisivo en su vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Seguir a Cristo implica estar dispuestos a revisar nuestras prioridades y responder a los llamados concretos que aparecen en nuestra vida."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué me está pidiendo Dios que revise o cambie?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo una vocación o un nuevo camino de vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, ayúdanos a reconocer la llamada de Cristo y responder con generosidad. Amén."
+      },
+      "action": "Identifica hoy una prioridad que necesites ordenar para vivir con mayor coherencia."
+    },
+    {
+      "day": 2,
+      "theme": "Fe",
+      "title": "Confesar a Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Cesarea de Filipo, Pedro respondió a Jesús reconociéndolo como el Cristo, el Hijo de Dios vivo. Este episodio ocupa un lugar central en su camino apostólico."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no es solamente conocer ideas sobre Jesús; implica reconocer quién es Él y permitir que esa convicción transforme nuestra vida."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué significa para mí afirmar que Jesús es el Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan fortalecer su fe o atraviesan dudas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, ayúdanos a confesar a Cristo con una fe sincera y una vida coherente. Amén."
+      },
+      "action": "Lee hoy Mateo 16,13-19 y escribe qué palabra o frase te interpela más."
+    },
+    {
+      "day": 3,
+      "theme": "Humildad",
+      "title": "Reconocer la propia fragilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pedro fue generoso y decidido, pero también tuvo momentos de incomprensión y miedo. Durante la Pasión llegó a negar que conocía a Jesús."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Reconocer una caída no destruye la dignidad. Puede abrir un camino de arrepentimiento, aprendizaje y regreso a Dios."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿Qué error necesito reconocer sin justificarlo ni quedarme atrapado en la culpa?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes cargan con culpa, vergüenza o arrepentimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, enséñanos a reconocer nuestras fragilidades y a volver a Cristo con humildad. Amén."
+      },
+      "action": "Haz hoy un examen de conciencia breve y, si es necesario, da un primer paso hacia la reparación."
+    },
+    {
+      "day": 4,
+      "theme": "Perdón",
+      "title": "Volver después de la caída",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de la negación de Pedro, el Evangelio de Juan presenta un encuentro con el Resucitado en el que Jesús vuelve a preguntarle por su amor y le confía el cuidado de sus ovejas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El perdón cristiano no borra las consecuencias de nuestros actos, pero permite comenzar de nuevo y recuperar una misión de servicio."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué necesito entregar a la misericordia de Dios para poder avanzar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan reconciliarse con Dios, consigo mismos o con otra persona."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, intercede para que sepamos recibir el perdón de Cristo y convertirlo en una vida nueva. Amén."
+      },
+      "action": "Si tienes una situación pendiente, considera hoy un paso prudente hacia la reconciliación o la reparación."
+    },
+    {
+      "day": 5,
+      "theme": "Servicio",
+      "title": "Apacentar con amor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En Juan 21, Jesús confía a Pedro el cuidado de sus ovejas. La misión recibida está vinculada al amor y al servicio, no al privilegio personal."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Toda autoridad cristiana debe orientarse al cuidado de las personas y al bien de la comunidad."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo estoy usando las responsabilidades que tengo para ayudar a otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes ejercen responsabilidades en la Iglesia, la familia, el trabajo o la sociedad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, enséñanos a ejercer toda responsabilidad como un servicio al bien de los demás. Amén."
+      },
+      "action": "Realiza hoy una tarea de cuidado que normalmente esperas que haga otra persona."
+    },
+    {
+      "day": 6,
+      "theme": "Comunidad",
+      "title": "Fortalecer a los hermanos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Jesús dijo a Pedro que, después de volver a Él, fortaleciera a sus hermanos. Los Hechos muestran posteriormente a Pedro participando activamente en la vida de la primera comunidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe se fortalece cuando dejamos de vivirla de forma aislada y contribuimos al crecimiento de otros."
+      },
+      "virtue": "Comunión",
+      "reflection": "¿A quién puedo fortalecer hoy con una palabra, una oración o una ayuda concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras comunidades cristianas y por quienes se sienten solos dentro de ellas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, ayúdanos a fortalecer a nuestros hermanos y a construir comunidades acogedoras. Amén."
+      },
+      "action": "Anima hoy a una persona que esté atravesando una dificultad."
+    },
+    {
+      "day": 7,
+      "theme": "Perseverancia",
+      "title": "Dar testimonio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los Hechos de los Apóstoles presentan a Pedro anunciando públicamente a Cristo incluso después de haber sufrido oposición y encarcelamiento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Dar testimonio requiere perseverancia, pero también prudencia y respeto por la dignidad de quienes piensan diferente."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué aspecto del bien necesito perseverar aunque encuentre obstáculos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por cristianos perseguidos y por quienes anuncian el Evangelio en contextos difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, fortalece a quienes dan testimonio de Cristo y ayúdanos a perseverar en el bien. Amén."
+      },
+      "action": "Mantén hoy una actitud coherente con tu fe en una situación donde normalmente cederías por comodidad."
+    },
+    {
+      "day": 8,
+      "theme": "Unidad",
+      "title": "Servir a una Iglesia unida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cristiana vincula especialmente a Pedro con Roma. Junto con Pablo, es celebrado como una de las dos grandes columnas apostólicas asociadas al testimonio de la Iglesia romana."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La unidad no exige que todos sean idénticos. Requiere buscar la verdad, escuchar, corregir con caridad y mantener el centro en Cristo."
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para reducir divisiones innecesarias en mi comunidad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de la Iglesia y por todos los cristianos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro, intercede por la unidad de la Iglesia y enséñanos a construir comunión. Amén."
+      },
+      "action": "Evita hoy una discusión innecesaria y busca una forma concreta de escuchar al otro."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Hasta el final",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cristiana antigua y la celebración de la Iglesia vinculan a Pedro con el martirio en Roma. Su vida termina como comenzó su misión: siguiendo a Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad cristiana se construye día a día. No depende de no caer nunca, sino de volver a Cristo y continuar sirviendo."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué compromiso quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por el Papa, los pastores de la Iglesia, todos los cristianos y por quienes necesitan recuperar la esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pedro Apóstol, intercede por nosotros. Ayúdanos a permanecer unidos a Cristo, reconocer nuestras caídas, recibir su misericordia y servir con fidelidad hasta el final. Amén."
+      },
+      "action": "Elige un compromiso concreto de oración, servicio o reconciliación para mantener después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
