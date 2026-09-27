@@ -10,6 +10,12 @@
       "rule": "Santos canonizados"
     },
     {
+      "id": "beatos",
+      "label": "Beatos",
+      "path": "data/catalog/beatos.json",
+      "rule": "Beatos reconocidos por la Iglesia; no se confunden con santos canonizados"
+    },
+    {
       "id": "maria",
       "label": "María",
       "path": "data/catalog/maria.json",
@@ -35,7 +41,7 @@
     }
   ],
   "beatos": {
-    "policy": "No ampliar en v2",
-    "exception": "Beata Clara Fey"
+    "policy": "Categoría activa; incorpora beatos con presencia devocional documentada y pertinencia para el público hispanohablante",
+    "initialCount": 8
   }
 }
