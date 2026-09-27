@@ -1542,11 +1542,19 @@ function mostrarResultadosBusquedaPWA(texto) {
                     data-action="open-novena"
                     data-id="${escaparHTML(novena.id)}">
 
-                    <img
-                        src="${escaparHTML(novena.image)}"
-                        alt=""
-                        class="search-result-image"
-                        loading="lazy">
+                    ${novena.image
+                        ? `
+                            <img
+                                src="${escaparHTML(novena.image)}"
+                                alt=""
+                                class="search-result-image"
+                                loading="lazy">
+                        `
+                        : `
+                            <span
+                                class="search-result-image search-result-image-placeholder"
+                                aria-hidden="true">✦</span>
+                        `}
 
                     <span class="search-result-text">
 
