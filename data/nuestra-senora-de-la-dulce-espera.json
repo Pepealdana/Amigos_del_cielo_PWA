@@ -1,0 +1,347 @@
+{
+  "id": "nuestra-senora-de-la-dulce-espera",
+  "name": "Nuestra Señora de la Dulce Espera",
+  "title": "Novena a Nuestra Señora de la Dulce Espera",
+  "subtitle": "Esperar con María la vida nueva y la llegada de Jesús",
+  "image": null,
+  "feast": {
+    "day": 18,
+    "month": 12,
+    "text": "18 de diciembre",
+    "movable": false,
+    "note": "El 18 de diciembre se celebra tradicionalmente en diversos lugares la advocación de Nuestra Señora de la Dulce Espera o Virgen de la Expectación. No corresponde a una solemnidad universal de la Iglesia."
+  },
+  "quote": null,
+  "patronages": [
+    "Madres gestantes",
+    "Familias",
+    "Niños por nacer",
+    "Quienes esperan una respuesta"
+  ],
+  "virtues": [
+    "Esperanza",
+    "Confianza",
+    "Paciencia",
+    "Oración",
+    "Gratitud",
+    "Servicio"
+  ],
+  "history": {
+    "short": "Nuestra Señora de la Dulce Espera es una advocación mariana que contempla a María durante la gestación de Jesús y expresa la esperanza ante la llegada del Salvador. Su devoción se relaciona con la Expectación del parto de la Virgen y se encuentra especialmente extendida en comunidades de habla española.",
+    "extended": "La advocación de la Dulce Espera contempla a María como Madre que lleva en su seno a Jesús y vive en fe el tiempo previo a su nacimiento. En distintos lugares se relaciona con la antigua celebración de la Expectación del parto de la Virgen, especialmente vinculada al 18 de diciembre, dentro de la preparación inmediata para la Navidad. No se trata de una solemnidad universal del calendario romano, sino de una expresión de piedad mariana presente en distintas comunidades. El papa Francisco empleó explícitamente el título Virgen de la Dulce Espera al invitar a los peregrinos a pedir a María que enseñe a velar y orar y a reconocer la presencia salvadora de Cristo en la vida cotidiana."
+  },
+  "openingPrayer": "Virgen de la Dulce Espera, Madre de Jesús y Madre nuestra, acompáñanos durante esta novena. Enséñanos a esperar con fe, paciencia y esperanza; a cuidar la vida y a recibir a Cristo con un corazón dispuesto. Amén.",
+  "closingPrayer": "Virgen de la Dulce Espera, acompáñanos en nuestras esperas y preocupaciones. Enséñanos a confiar en Dios, a cuidar la vida y a recibir a Jesús con alegría. Amén.",
+  "intentions": [
+    "Por las madres gestantes y sus hijos.",
+    "Por las familias que esperan un nacimiento o atraviesan dificultades.",
+    "Por quienes viven incertidumbre y esperan una respuesta.",
+    "Por la protección y dignidad de toda vida humana.",
+    "Por quienes esperan con dolor, esperanza o necesidad un nuevo comienzo."
+  ],
+  "bibleReferences": [
+    "Lc 1,26-38",
+    "Lc 1,39-45",
+    "Lc 1,46-55",
+    "Mt 1,18-25",
+    "Lc 2,1-20"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Esperanza",
+      "title": "Esperar con María",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La expresión Virgen de la Dulce Espera contempla a María durante el tiempo de la gestación de Jesús y se relaciona especialmente con la expectativa del nacimiento del Salvador."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Esperar con María es confiar en que Dios actúa incluso cuando todavía no vemos el cumplimiento de su promesa."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué realidad de mi vida necesito poner hoy en manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes esperan una respuesta, un hijo, una recuperación o un nuevo comienzo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de la Dulce Espera, enséñanos a esperar con fe y a reconocer la presencia de Dios en nuestro camino. Amén."
+      },
+      "action": "Presenta a Dios una espera concreta y reza por ella sin ansiedad.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Confianza",
+      "title": "Creer en la promesa",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "María recibió el anuncio del ángel y respondió con fe antes de comprender todo lo que ocurriría."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La confianza cristiana consiste en responder a Dios incluso cuando el futuro permanece abierto."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Qué promesa de Dios necesito recordar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan incertidumbre respecto al futuro."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "María, mujer de fe, enséñanos a confiar en Dios cuando no conocemos el camino completo. Amén."
+      },
+      "action": "Repite hoy una breve oración de confianza cada vez que aparezca una preocupación.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Vida",
+      "title": "Agradecer el don de la vida",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La contemplación de María encinta recuerda el misterio de la Encarnación y el don de la vida que nace."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida humana merece acogida, cuidado y respeto desde su comienzo."
+      },
+      "virtue": "Gratitud",
+      "reflection": "¿Cómo puedo valorar y proteger la vida que Dios me confía?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las madres, los niños por nacer y las familias que atraviesan situaciones difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de la Vida, ayúdanos a recibir y cuidar con amor el don de cada vida. Amén."
+      },
+      "action": "Haz un gesto concreto de apoyo a una madre o familia que lo necesite.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Paciencia",
+      "title": "Aprender a esperar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El embarazo de María expresa un tiempo real de espera, preparación y confianza antes del nacimiento de Jesús."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los procesos importantes requieren paciencia y fidelidad, sin pretender controlar todos sus tiempos."
+      },
+      "virtue": "Paciencia",
+      "reflection": "¿Qué proceso necesito vivir con más paciencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan tratamientos, embarazos difíciles, duelos o procesos prolongados."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de la Dulce Espera, acompaña a quienes viven procesos largos y dales fortaleza. Amén."
+      },
+      "action": "Evita hoy una respuesta impaciente y elige deliberadamente escuchar.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Familia",
+      "title": "Cuidar la vida familiar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La espera del nacimiento de Jesús se vivió dentro de una familia concreta, con responsabilidades, dificultades y cuidado mutuo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana también se cultiva en el hogar mediante la presencia y el cuidado cotidiano."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué gesto puede fortalecer hoy a mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias que esperan un hijo y por las que atraviesan dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de Jesús, acompaña a nuestras familias y enséñanos a cuidarnos con amor. Amén."
+      },
+      "action": "Dedica un momento especial de atención a un miembro de tu familia.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Oración",
+      "title": "Velar y orar",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El papa Francisco pidió a María, Virgen de la Dulce Espera, que nos enseñe a velar y orar para reconocer la presencia salvadora de su Hijo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La espera cristiana no es pasividad: es vigilancia, oración y disponibilidad para Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué distracción necesito dejar para escuchar mejor a Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan recuperar una vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de la Dulce Espera, enséñanos a velar y orar con el corazón atento a Jesús. Amén."
+      },
+      "action": "Dedica diez minutos al silencio y a la oración sin teléfono ni otras distracciones.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Servicio",
+      "title": "Acompañar a las madres",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La tradición de esta advocación ha quedado especialmente vinculada a la maternidad y a la cercanía con mujeres embarazadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe puede expresarse acompañando de manera concreta a quienes necesitan apoyo, especialmente a las madres en situación de vulnerabilidad."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo apoyar a una madre que atraviesa una dificultad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las madres solas, enfermas, necesitadas o preocupadas por sus hijos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de la Dulce Espera, fortalece a las madres y mueve nuestros corazones a acompañarlas. Amén."
+      },
+      "action": "Ofrece una ayuda concreta a una madre o familia que la necesite.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Alegría",
+      "title": "Prepararse para recibir a Jesús",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La espera de María alcanza su plenitud en el nacimiento de Jesús, el Hijo que viene para nuestra salvación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La alegría cristiana nace de reconocer que Dios se acerca y cumple sus promesas."
+      },
+      "virtue": "Alegría",
+      "reflection": "¿Qué debo preparar en mi corazón para recibir a Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan recuperar la alegría y por las familias que esperan un nacimiento."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "María, ayúdanos a recibir a Jesús con un corazón sencillo, agradecido y alegre. Amén."
+      },
+      "action": "Prepara un pequeño espacio de oración en casa para agradecer el don de Cristo.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Decir sí a la vida y a Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La Iglesia contempla a María como mujer que acogió la voluntad de Dios y cooperó con fe en el misterio de la Encarnación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La novena termina invitándonos a pasar de la espera a una respuesta concreta de fe, servicio y amor."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero asumir después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes esperan con fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Virgen de la Dulce Espera, acompáñanos hacia Jesús y ayúdanos a responder a Dios con un sí generoso. Amén."
+      },
+      "action": "Elige un compromiso concreto de oración, cuidado de la vida o servicio para mantener después de la novena.",
+      "closing": "Nuestra Señora de la Dulce Espera, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-27"
+  },
+  "interventions": [
+    {
+      "id": "maternidad",
+      "label": "Madres y maternidad",
+      "keywords": [
+        "madre",
+        "madres",
+        "embarazo",
+        "gestante",
+        "gestantes",
+        "maternidad"
+      ]
+    },
+    {
+      "id": "vida",
+      "label": "Vida y cuidado",
+      "keywords": [
+        "vida",
+        "niño",
+        "niños",
+        "hijo",
+        "hijos",
+        "nacimiento"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza y espera",
+      "keywords": [
+        "espera",
+        "esperar",
+        "esperanza",
+        "incertidumbre",
+        "nuevo comienzo"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración",
+      "keywords": [
+        "oración",
+        "orar",
+        "vigilar",
+        "adviento"
+      ]
+    }
+  ],
+  "sources": [
+    "Santa Sede, papa Francisco, Audiencia general del 14 de diciembre de 2022: saludo a los peregrinos de lengua española e invocación a María como Virgen de la Dulce Espera.",
+    "Santa Sede, Ángelus del 22 de diciembre de 2024: reflexión sobre la dulce espera, la maternidad y el don de la vida.",
+    "Diócesis de Neuquén, registro parroquial de Nuestra Señora de la Dulce Espera con fiesta patronal el 18 de diciembre."
+  ],
+  "status": "published",
+  "category": "María"
+}
