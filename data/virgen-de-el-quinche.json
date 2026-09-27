@@ -5,8 +5,11 @@
   "subtitle": "Patrona y Reina del Ecuador",
   "image": null,
   "feast": {
+    "day": 21,
+    "month": 11,
     "text": "21 de noviembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de El Quinche se celebra el 21 de noviembre; es Patrona y Reina del Ecuador."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -275,7 +278,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -331,5 +334,7 @@
     "Francisco, encuentro con el clero, religiosos, religiosas y seminaristas en el Santuario Nacional Mariano de El Quinche, 8 de julio de 2015.",
     "Vatican News, La imagen de la Virgen de El Quinche en los Jardines Vaticanos, 17 de mayo de 2019.",
     "Ministerio de Relaciones Exteriores y Movilidad Humana del Ecuador, celebración de la fiesta de Nuestra Señora de la Presentación del Quinche, 3 de diciembre de 2015."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
