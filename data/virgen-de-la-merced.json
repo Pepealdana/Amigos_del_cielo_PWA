@@ -5,8 +5,11 @@
   "subtitle": "Madre de la Misericordia y protectora de quienes sufren cautiverio",
   "image": null,
   "feast": {
+    "day": 24,
+    "month": 9,
     "text": "24 de septiembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de la Merced se celebra el 24 de septiembre."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Discurso a la Orden de la Bienaventurada Virgen María de la Merced, 23 de mayo de 1980.",
@@ -284,5 +287,7 @@
     "Francisco, Mensaje con motivo del 800.º aniversario de la Orden de la Santísima Virgen María de la Merced, 17 de enero de 2018.",
     "León XIV, Discurso a los obispos del Perú en visita ad Limina Apostolorum, 30 de enero de 2026.",
     "Conferencia Episcopal Peruana, Solemnidad de Nuestra Señora de la Merced, 24 de septiembre."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
