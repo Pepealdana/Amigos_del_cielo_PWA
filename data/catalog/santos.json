@@ -16,7 +16,14 @@
         "specialDevotion": [],
         "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
       },
-      "groups": []
+      "groups": [],
+      "feast": {
+        "day": 19,
+        "month": 3,
+        "text": "19 de marzo",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
+      }
     },
     {
       "id": "san-antonio-de-padua",
@@ -39,7 +46,14 @@
       "groups": [
         "doctores",
         "franciscanos"
-      ]
+      ],
+      "feast": {
+        "day": 13,
+        "month": 6,
+        "text": "13 de junio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-agustin-de-hipona",
@@ -57,7 +71,14 @@
       "groups": [
         "padres-iglesia",
         "doctores"
-      ]
+      ],
+      "feast": {
+        "day": 28,
+        "month": 8,
+        "text": "28 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-benito-abad",
@@ -77,7 +98,14 @@
       },
       "groups": [
         "fundadores"
-      ]
+      ],
+      "feast": {
+        "day": 11,
+        "month": 7,
+        "text": "11 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-francisco-de-asis",
@@ -100,7 +128,14 @@
       "groups": [
         "fundadores",
         "franciscanos"
-      ]
+      ],
+      "feast": {
+        "day": 4,
+        "month": 10,
+        "text": "4 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-ignacio-de-loyola",
@@ -122,7 +157,14 @@
       },
       "groups": [
         "fundadores"
-      ]
+      ],
+      "feast": {
+        "day": 31,
+        "month": 7,
+        "text": "31 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-juan-bautista",
@@ -139,7 +181,14 @@
       },
       "groups": [
         "martires"
-      ]
+      ],
+      "feast": {
+        "day": 24,
+        "month": 6,
+        "text": "24 de junio",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
+      }
     },
     {
       "id": "san-juan-bosco",
@@ -161,7 +210,14 @@
       },
       "groups": [
         "fundadores"
-      ]
+      ],
+      "feast": {
+        "day": 31,
+        "month": 1,
+        "text": "31 de enero",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-martin-de-porres",
@@ -181,7 +237,14 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "feast": {
+        "day": 3,
+        "month": 11,
+        "text": "3 de noviembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-pio-de-pietrelcina",
@@ -203,7 +266,14 @@
       },
       "groups": [
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 23,
+        "month": 9,
+        "text": "23 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-pedro-claver",
@@ -225,7 +295,14 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "feast": {
+        "day": 9,
+        "month": 9,
+        "text": "9 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-camilo-de-lelis",
@@ -247,7 +324,14 @@
       },
       "groups": [
         "fundadores"
-      ]
+      ],
+      "feast": {
+        "day": 14,
+        "month": 7,
+        "text": "14 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-carlo-acutis",
@@ -269,7 +353,14 @@
       "groups": [
         "devocion-extendida",
         "jovenes"
-      ]
+      ],
+      "feast": {
+        "day": 12,
+        "month": 10,
+        "text": "12 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-cayetano",
@@ -290,7 +381,14 @@
       "groups": [
         "fundadores",
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 7,
+        "month": 8,
+        "text": "7 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-expedito",
@@ -311,7 +409,13 @@
       },
       "groups": [
         "martires"
-      ]
+      ],
+      "feast": {
+        "day": 19,
+        "month": 4,
+        "text": "19 de abril",
+        "movable": false
+      }
     },
     {
       "id": "san-jose-gregorio-hernandez",
@@ -334,7 +438,14 @@
       "groups": [
         "latinoamericanos",
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 26,
+        "month": 10,
+        "text": "26 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-josemaria-escriva",
@@ -356,7 +467,14 @@
       },
       "groups": [
         "fundadores"
-      ]
+      ],
+      "feast": {
+        "day": 26,
+        "month": 6,
+        "text": "26 de junio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-judas-tadeo",
@@ -374,7 +492,14 @@
       "groups": [
         "devocion-extendida",
         "apostoles"
-      ]
+      ],
+      "feast": {
+        "day": 28,
+        "month": 10,
+        "text": "28 de octubre",
+        "movable": false,
+        "liturgicalRank": "Fiesta"
+      }
     },
     {
       "id": "san-pier-giorgio-frassati",
@@ -397,7 +522,14 @@
       "groups": [
         "devocion-extendida",
         "jovenes"
-      ]
+      ],
+      "feast": {
+        "day": 4,
+        "month": 7,
+        "text": "4 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-rita-de-casia",
@@ -419,7 +551,14 @@
       },
       "groups": [
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 22,
+        "month": 5,
+        "text": "22 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria opcional"
+      }
     },
     {
       "id": "santa-rosa-de-lima",
@@ -442,7 +581,14 @@
       "groups": [
         "latinoamericanos",
         "jovenes"
-      ]
+      ],
+      "feast": {
+        "day": 23,
+        "month": 8,
+        "text": "23 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria opcional"
+      }
     },
     {
       "id": "santa-teresa-de-avila",
@@ -465,7 +611,14 @@
       "groups": [
         "fundadores",
         "doctores"
-      ]
+      ],
+      "feast": {
+        "day": 15,
+        "month": 10,
+        "text": "15 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-teresita-de-lisieux",
@@ -488,7 +641,14 @@
       "groups": [
         "jovenes",
         "doctores"
-      ]
+      ],
+      "feast": {
+        "day": 1,
+        "month": 10,
+        "text": "1 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-catalina-de-siena",
@@ -510,7 +670,14 @@
       },
       "groups": [
         "doctores"
-      ]
+      ],
+      "feast": {
+        "day": 29,
+        "month": 4,
+        "text": "29 de abril",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-eduviges",
@@ -530,7 +697,14 @@
           "PL"
         ]
       },
-      "groups": []
+      "groups": [],
+      "feast": {
+        "day": 16,
+        "month": 10,
+        "text": "16 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-faustina-kowalska",
@@ -552,7 +726,14 @@
       },
       "groups": [
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 5,
+        "month": 10,
+        "text": "5 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-filomena",
@@ -573,7 +754,14 @@
       "groups": [
         "devocion-extendida",
         "martires"
-      ]
+      ],
+      "feast": {
+        "day": 11,
+        "month": 8,
+        "text": "11 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-gemma-galgani",
@@ -595,7 +783,14 @@
       },
       "groups": [
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 16,
+        "month": 5,
+        "text": "16 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-laura-montoya",
@@ -618,7 +813,14 @@
       "groups": [
         "fundadores",
         "latinoamericanos"
-      ]
+      ],
+      "feast": {
+        "day": 21,
+        "month": 10,
+        "text": "21 de octubre",
+        "movable": false,
+        "liturgicalRank": "Fiesta en Colombia"
+      }
     },
     {
       "id": "santa-margarita-maria-alacoque",
@@ -640,7 +842,14 @@
       },
       "groups": [
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 16,
+        "month": 10,
+        "text": "16 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santo-tomas-de-aquino",
@@ -662,7 +871,14 @@
       },
       "groups": [
         "doctores"
-      ]
+      ],
+      "feast": {
+        "day": 28,
+        "month": 1,
+        "text": "28 de enero",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santos-cosme-y-damian",
@@ -679,7 +895,14 @@
       },
       "groups": [
         "martires"
-      ]
+      ],
+      "feast": {
+        "day": 26,
+        "month": 9,
+        "text": "26 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria opcional"
+      }
     },
     {
       "id": "san-juan-diego",
@@ -702,7 +925,14 @@
       "groups": [
         "latinoamericanos",
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 9,
+        "month": 12,
+        "text": "9 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      }
     },
     {
       "id": "san-jose-sanchez-del-rio",
@@ -726,7 +956,14 @@
         "latinoamericanos",
         "martires",
         "jovenes"
-      ]
+      ],
+      "feast": {
+        "day": 10,
+        "month": 2,
+        "text": "10 de febrero",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      }
     },
     {
       "id": "san-pedro-de-san-jose-de-betancur",
@@ -751,7 +988,14 @@
         "fundadores",
         "franciscanos",
         "latinoamericanos"
-      ]
+      ],
+      "feast": {
+        "day": 25,
+        "month": 4,
+        "text": "25 de abril",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-oscar-romero",
@@ -774,7 +1018,14 @@
       "groups": [
         "latinoamericanos",
         "martires"
-      ]
+      ],
+      "feast": {
+        "day": 24,
+        "month": 3,
+        "text": "24 de marzo",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      }
     },
     {
       "id": "santa-mariana-de-jesus",
@@ -857,7 +1108,14 @@
       "groups": [
         "latinoamericanos"
       ],
-      "image": "assets/images/santos/san_juan_macias.webp"
+      "image": "assets/images/santos/san_juan_macias.webp",
+      "feast": {
+        "day": 16,
+        "month": 9,
+        "text": "16 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-teresa-de-jesus-de-los-andes",
@@ -881,7 +1139,14 @@
         "latinoamericanos",
         "jovenes"
       ],
-      "image": "assets/images/santos/santa_teresa_de_jesus_de_los_andes.webp"
+      "image": "assets/images/santos/santa_teresa_de_jesus_de_los_andes.webp",
+      "feast": {
+        "day": 13,
+        "month": 7,
+        "text": "13 de julio",
+        "movable": false,
+        "liturgicalRank": "Fiesta"
+      }
     },
     {
       "id": "san-alberto-hurtado",
@@ -904,7 +1169,14 @@
       "groups": [
         "latinoamericanos"
       ],
-      "image": "assets/images/santos/san_alberto_hurtado.webp"
+      "image": "assets/images/santos/san_alberto_hurtado.webp",
+      "feast": {
+        "day": 18,
+        "month": 8,
+        "text": "18 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-jose-gabriel-del-rosario-brochero",
@@ -927,7 +1199,14 @@
       "groups": [
         "latinoamericanos"
       ],
-      "image": "assets/images/santos/san_jose_gabriel_del_rosario_brochero.webp"
+      "image": "assets/images/santos/san_jose_gabriel_del_rosario_brochero.webp",
+      "feast": {
+        "day": 16,
+        "month": 3,
+        "text": "16 de marzo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-carmen-rendiles",
@@ -950,7 +1229,14 @@
       "groups": [
         "latinoamericanos"
       ],
-      "image": "assets/images/santos/santa_carmen_rendiles_martinez.webp"
+      "image": "assets/images/santos/santa_carmen_rendiles_martinez.webp",
+      "feast": {
+        "day": 9,
+        "month": 5,
+        "text": "9 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "san-juan-pablo-ii",
@@ -973,6 +1259,13 @@
         "specialDevotion": [
           "PL"
         ]
+      },
+      "feast": {
+        "day": 22,
+        "month": 10,
+        "text": "22 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1001,6 +1294,13 @@
           "IT",
           "JP"
         ]
+      },
+      "feast": {
+        "day": 14,
+        "month": 8,
+        "text": "14 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1020,6 +1320,13 @@
         ],
         "specialDevotion": [],
         "note": "Nació en Tagaste, en el norte de África (actual Argelia). El catálogo territorial actual no incluye Argelia; se registra Italia únicamente por su vínculo histórico con Ostia, donde murió."
+      },
+      "feast": {
+        "day": 27,
+        "month": 8,
+        "text": "27 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1200,6 +1507,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 11,
+        "month": 8,
+        "text": "11 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1222,6 +1536,13 @@
         "specialDevotion": [
           "LB"
         ]
+      },
+      "feast": {
+        "day": 24,
+        "month": 7,
+        "text": "24 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1240,6 +1561,13 @@
           "IL"
         ],
         "specialDevotion": []
+      },
+      "feast": {
+        "day": 29,
+        "month": 7,
+        "text": "29 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria obligatoria"
       }
     },
     {
@@ -1263,6 +1591,13 @@
         "specialDevotion": [
           "IN"
         ]
+      },
+      "feast": {
+        "day": 5,
+        "month": 9,
+        "text": "5 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1292,6 +1627,13 @@
           "IN",
           "JP"
         ]
+      },
+      "feast": {
+        "day": 3,
+        "month": 12,
+        "text": "3 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1315,6 +1657,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 21,
+        "month": 6,
+        "text": "21 de junio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1337,6 +1686,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 13,
+        "month": 12,
+        "text": "13 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1358,6 +1714,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 22,
+        "month": 11,
+        "text": "22 de noviembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1379,6 +1742,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 4,
+        "month": 12,
+        "text": "4 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
       }
     },
     {
@@ -1401,6 +1771,13 @@
         "specialDevotion": [
           "FR"
         ]
+      },
+      "feast": {
+        "day": 16,
+        "month": 8,
+        "text": "16 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria libre según calendario local"
       }
     },
     {
@@ -1422,6 +1799,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 12,
+        "month": 5,
+        "text": "12 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
       }
     },
     {
@@ -1444,6 +1828,13 @@
         "specialDevotion": [
           "IE"
         ]
+      },
+      "feast": {
+        "day": 17,
+        "month": 3,
+        "text": "17 de marzo",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
       }
     },
     {
@@ -1469,6 +1860,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 29,
+        "month": 6,
+        "text": "29 de junio",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
       }
     },
     {
@@ -1496,6 +1894,13 @@
         "specialDevotion": [
           "IT"
         ]
+      },
+      "feast": {
+        "day": 29,
+        "month": 6,
+        "text": "29 de junio",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
       }
     },
     {
@@ -1521,6 +1926,13 @@
         "specialDevotion": [
           "ES"
         ]
+      },
+      "feast": {
+        "day": 25,
+        "month": 7,
+        "text": "25 de julio",
+        "movable": false,
+        "liturgicalRank": "Fiesta"
       }
     },
     {
@@ -1545,7 +1957,14 @@
       "groups": [
         "jovenes",
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "day": 6,
+        "month": 5,
+        "text": "6 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     }
   ]
 }
