@@ -6518,5 +6518,58 @@
       "martir",
       "mártir"
     ]
+  },
+  {
+    "id": "santiago-apostol",
+    "slug": "santiago-apostol",
+    "name": "Santiago Apóstol",
+    "title": "Apóstol y primer mártir de los Doce",
+    "subtitle": "Fe, servicio, peregrinación y perseverancia",
+    "category": "Santos",
+    "image": "assets/images/santos/santiago_apostol.webp",
+    "file": "data/santiago-apostol.json",
+    "description": "Uno de los Doce Apóstoles y primer mártir de los Doce cuyo martirio se narra explícitamente en el Nuevo Testamento.",
+    "feast": {
+      "day": 25,
+      "month": 7,
+      "text": "25 de julio",
+      "movable": false,
+      "liturgicalRank": "Fiesta"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "apostoles",
+      "martires"
+    ],
+    "territorial": {
+      "origin": [
+        "IL"
+      ],
+      "historicalLinks": [
+        "IL",
+        "ES"
+      ],
+      "specialDevotion": [
+        "ES"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "santiago apostol",
+      "Santiago Apóstol",
+      "santiago el mayor",
+      "apostol",
+      "apóstol",
+      "zebedeo",
+      "juan",
+      "galilea",
+      "martir",
+      "mártir",
+      "compostela",
+      "camino de santiago",
+      "peregrino",
+      "españa"
+    ]
   }
 ]
