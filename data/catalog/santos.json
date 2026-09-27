@@ -1381,18 +1381,22 @@
     {
       "id": "san-pancracio",
       "name": "San Pancracio",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-pancracio.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "martires"
       ],
       "territorial": {
         "origin": [],
-        "historicalLinks": [],
-        "specialDevotion": []
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
