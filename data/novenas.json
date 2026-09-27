@@ -6364,5 +6364,51 @@
       "necesidades economicas",
       "necesidades económicas"
     ]
+  },
+  {
+    "id": "san-patricio",
+    "slug": "san-patricio",
+    "name": "San Patricio",
+    "title": "Obispo y evangelizador de Irlanda",
+    "subtitle": "Fe, misión y perseverancia",
+    "category": "Santos",
+    "image": "assets/images/santos/san_patricio.webp",
+    "file": "data/san-patricio.json",
+    "description": "Obispo y misionero de origen britano, recordado por su evangelización de Irlanda.",
+    "feast": {
+      "day": 17,
+      "month": 3,
+      "text": "17 de marzo",
+      "movable": false,
+      "liturgicalRank": "Memoria facultativa"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida"
+    ],
+    "territorial": {
+      "origin": [
+        "GB"
+      ],
+      "historicalLinks": [
+        "IE"
+      ],
+      "specialDevotion": [
+        "IE"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "san patricio",
+      "patricio",
+      "patrick",
+      "irlanda",
+      "misionero",
+      "evangelizacion",
+      "evangelización",
+      "obispo",
+      "confesion",
+      "confesión"
+    ]
   }
 ]
