@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Argentina y advocación mariana profundamente vinculada a la historia de la fe del pueblo argentino",
   "image": null,
   "feast": {
+    "day": 8,
+    "month": 5,
     "text": "8 de mayo",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de Luján se celebra el 8 de mayo; es la Patrona de Argentina."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -338,5 +341,7 @@
     "Santa Sede, Carta del papa Francisco por la festividad de Nuestra Señora de Luján, 28 de abril de 2020.",
     "Argentina.gob.ar, Basílica Nacional de Nuestra Señora de Luján.",
     "Argentina.gob.ar, documentación histórica sobre la Virgen de Luján y su santuario."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
