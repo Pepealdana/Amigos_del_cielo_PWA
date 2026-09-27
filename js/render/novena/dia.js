@@ -114,6 +114,8 @@ function renderDia(
                     )
                     : "")}
 
+            ${novena.id === "beata-clara-fey" && novena.intercessionPrayer?.text ? renderOracion(\n                novena.intercessionPrayer.title,\n                novena.intercessionPrayer.text\n            ) : ""}
+
             ${dia.action
                 ? renderListaSeccion(
                     "Compromiso del día",
