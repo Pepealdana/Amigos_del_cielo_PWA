@@ -6877,5 +6877,51 @@
       "adviento"
     ],
     "interventions": 5
+  },
+  {
+    "id": "beata-chiara-luce-badano",
+    "slug": "beata-chiara-luce-badano",
+    "name": "Beata Chiara Luce Badano",
+    "title": "Novena a la Beata Chiara Luce Badano",
+    "subtitle": "Alegría, unidad y confianza en Jesús",
+    "category": "Beatas",
+    "featured": false,
+    "image": "assets/images/santos/beata_chiara_luce_badano.webp",
+    "file": "data/beata-chiara-luce-badano.json",
+    "description": "Nueve días para acercarnos al testimonio de Chiara Luce Badano y pedir la gracia de vivir el Evangelio con alegría, unidad, confianza y esperanza.",
+    "feast": {
+      "day": 29,
+      "month": 10,
+      "text": "29 de octubre",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "jovenes",
+      "laicos"
+    ],
+    "territorial": {
+      "origin": [
+        "IT"
+      ],
+      "historicalLinks": [
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "search": [
+      "beata chiara luce badano",
+      "chiara badano",
+      "chiara luce",
+      "focolares",
+      "jóvenes",
+      "juventud",
+      "unidad",
+      "enfermedad",
+      "esperanza"
+    ],
+    "interventions": 7
   }
 ]
