@@ -9,7 +9,6 @@ const APP_SHELL = [
     "./",
     "./index.html",
     "./manifest.json",
-    "./data/novenas.json",
     "./data/san-juan-pablo-ii.json",
     "./data/san-maximiliano-maria-kolbe.json",
     "./data/santa-monica.json",
