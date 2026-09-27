@@ -242,15 +242,15 @@ function finalizarNovena(novenaId) {
         )]
         : [];
 
-    if (!completados.includes(totalDias)) {
-        completados.push(totalDias);
-        completados.sort((a, b) => a - b);
+    if (!diasVisitados.includes(totalDias)) {
+        diasVisitados.push(totalDias);
+        diasVisitados.sort((a, b) => a - b);
     }
 
     state.progreso[novenaId] = {
         ...anterior,
         dia: totalDias,
-        completados,
+        diasVisitados,
         completada: true,
         fecha: new Date().toISOString(),
         fechaFinalizacion: new Date().toISOString()
