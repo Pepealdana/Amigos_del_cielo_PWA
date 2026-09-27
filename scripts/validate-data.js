@@ -4,7 +4,7 @@ const path = require('path');
 const DATA_DIR = path.join(process.cwd(), 'data');
 const REQUIRED_FIELDS = ['id', 'slug', 'name', 'title', 'category', 'image', 'novena', 'status', 'days'];
 const DAY_FIELDS = ['theme', 'title', 'virtue', 'reflection', 'intention', 'action'];
-const V2_CATALOGS = ['paises', 'santos', 'maria', 'devociones'];
+const V2_CATALOGS = ['paises', 'santos', 'beatos', 'maria', 'devociones'];
 const TERRITORIAL_FIELDS = ['origin', 'historicalLinks', 'specialDevotion'];
 let errors = 0;
 
@@ -214,9 +214,9 @@ function validateV2Catalogs() {
       }
 
       if (item.status === 'published') {
-        if (!item.sourceFile) {
+        if (!item.sourceFile && name !== 'beatos') {
           report(label, 'un contenido publicado debe tener sourceFile.');
-        } else {
+        } else if (item.sourceFile) {
           const sourcePath = path.join(process.cwd(), item.sourceFile.replace(/^\.\//, ''));
 
           if (!fs.existsSync(sourcePath)) {
@@ -262,7 +262,7 @@ function validateV2Catalogs() {
   }
 
   const sourceFiles = new Set();
-  for (const name of ['santos', 'maria', 'devociones']) {
+  for (const name of ['santos', 'beatos', 'maria', 'devociones']) {
     for (const item of catalogos[name] || []) {
       if (item.status === 'published' && item.sourceFile) {
         if (sourceFiles.has(item.sourceFile)) {
