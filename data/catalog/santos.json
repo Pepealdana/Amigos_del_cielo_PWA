@@ -1449,19 +1449,28 @@
     {
       "id": "san-pablo-apostol",
       "name": "San Pablo Apóstol",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-pablo-apostol.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "apostoles",
         "martires"
       ],
       "territorial": {
-        "origin": [],
-        "historicalLinks": [],
-        "specialDevotion": []
+        "origin": [
+          "TR"
+        ],
+        "historicalLinks": [
+          "TR",
+          "IL",
+          "GR",
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
