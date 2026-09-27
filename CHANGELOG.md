@@ -1,5 +1,19 @@
 # Historial de cambios — Amigos del Cielo
 
+## [1.3.1] — Cierre técnico posterior a auditoría
+
+- Los catálogos V2 pasan a ser la única fuente de metadatos del catálogo en tiempo de ejecución.
+- Los ocho registros de Beatos incorporan `sourceFile` explícito.
+- Service Worker actualizado a `v214`.
+- Se incorpora `santo-domingo-savio.json` al caché offline.
+- Se centraliza la versión de aplicación en `APP_CONFIG.version`.
+- Los recursos del HTML utilizan `?v=214`.
+- El progreso distingue entre días visitados y novena completada.
+- Se incorpora focus trap para modales, menú lateral y panel de filtros.
+- Se actualiza la documentación y el roadmap.
+- `data/novenas.json` queda como registro histórico y deja de participar en la carga del catálogo.
+
+
 ## [1.3.0] — Estabilización y auditoría integral
 - Integración de las 35 rutas de imagen que faltaban en los catálogos V2 y en sus fichas JSON, usando los nombres físicos definitivos de `assets/images/santos/`.
 - Verificación de las 35 rutas contra los archivos físicos del repositorio.
