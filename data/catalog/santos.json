@@ -1402,19 +1402,23 @@
     {
       "id": "san-patricio",
       "name": "San Patricio",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-patricio.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida"
       ],
       "territorial": {
-        "origin": [],
+        "origin": [
+          "GB"
+        ],
         "historicalLinks": [
           "IE"
         ],
-        "specialDevotion": []
+        "specialDevotion": [
+          "IE"
+        ]
       }
     },
     {
