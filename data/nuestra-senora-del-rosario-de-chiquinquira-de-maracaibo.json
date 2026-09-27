@@ -5,8 +5,11 @@
   "subtitle": "La Chinita, Patrona de Maracaibo y del Zulia",
   "image": null,
   "feast": {
+    "day": 18,
+    "month": 11,
     "text": "18 de noviembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora del Rosario de Chiquinquirá de Maracaibo, conocida como La Chinita, se celebra el 18 de noviembre y está especialmente vinculada al estado Zulia, Venezuela."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -277,12 +280,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "Arquidiócesis de Maracaibo, Carta Pastoral por los 300 años de la renovación de la Chinita, 2009.",
     "Arquidiócesis de Maracaibo, documentación sobre la fiesta y devoción a Nuestra Señora del Rosario de Chiquinquirá.",
     "Benedicto XV, decreto de elevación de la iglesia de Nuestra Señora de Chiquinquirá a basílica menor, 1920.",
     "Documentación histórica y eclesial sobre la coronación canónica de Nuestra Señora de Chiquinquirá de Maracaibo, 18 de noviembre de 1942."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
