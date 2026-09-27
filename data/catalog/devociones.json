@@ -129,6 +129,26 @@
       "groups": [
         "fundadores"
       ]
+    },
+    {
+      "id": "senor-de-los-milagros-peru",
+      "name": "Señor de los Milagros del Perú",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/senor-de-los-milagros-peru.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "PE"
+        ],
+        "specialDevotion": [
+          "PE"
+        ]
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ]
     }
   ]
 }
