@@ -5,8 +5,11 @@
   "subtitle": "Patrona del Oriente venezolano y protectora de pescadores y marineros",
   "image": null,
   "feast": {
+    "day": 8,
+    "month": 9,
     "text": "8 de septiembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora del Valle se celebra el 8 de septiembre; es una advocación mariana de especial devoción en el Oriente de Venezuela."
   },
   "liturgicalRank": "Solemnidad local",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "Conferencia Episcopal Venezolana, Virgen del Valle: 100 años como Patrona del Oriente venezolano, 8 de septiembre de 2021.",
@@ -284,5 +287,7 @@
     "Basílica Santuario de Nuestra Señora del Valle, historia de la parroquia y de la advocación.",
     "San Juan Pablo II, Liturgia eucarística con los trabajadores en Ciudad Guayana, Venezuela, 29 de enero de 1985.",
     "Pío XII, Radiomensaje a los fieles de Venezuela con motivo de la coronación de Nuestra Señora de Coromoto, 12 de septiembre de 1952."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
