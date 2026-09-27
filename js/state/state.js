@@ -18,6 +18,7 @@ const state = {
     favoritos: [],
     progreso: {},
     intenciones: {},
+    patronoAnual: {},
     configuracion: {
         tema: "claro",
         idioma: "es",
