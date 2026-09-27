@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Nicaragua y expresión de la profunda devoción mariana de su pueblo",
   "image": null,
   "feast": {
+    "day": 8,
+    "month": 12,
     "text": "8 de diciembre",
-    "movable": false
+    "movable": false,
+    "note": "La solemnidad de la Inmaculada Concepción se celebra el 8 de diciembre; en Nicaragua, La Purísima es venerada como Madre y Patrona del pueblo."
   },
   "liturgicalRank": "Solemnidad",
   "quote": {
@@ -278,7 +281,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Ángelus, 13 de septiembre de 1992.",
@@ -287,5 +290,7 @@
     "San Juan Pablo II, Misa para las familias en Managua, 7 de febrero de 1996.",
     "San Juan Pablo II, Ángelus, 8 de diciembre de 1993.",
     "Código de Derecho Canónico, canon 1246, sobre la solemnidad de la Inmaculada Concepción."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
