@@ -703,6 +703,7 @@ function renderTarjetaCatalogoV2(item, seccion) {
 function obtenerCatalogoMaestroUnificado() {
     return [
         ...(state.catalogosV2?.santos || []),
+        ...(state.catalogosV2?.beatos || []),
         ...(state.catalogosV2?.maria || []),
         ...(state.catalogosV2?.devociones || [])
     ];
