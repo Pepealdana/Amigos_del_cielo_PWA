@@ -5,8 +5,11 @@
   "subtitle": "Patrona de la Hispanidad y advocación mariana vinculada a Zaragoza",
   "image": null,
   "feast": {
+    "day": 12,
+    "month": 10,
     "text": "12 de octubre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora del Pilar se celebra el 12 de octubre; es una advocación mariana especialmente vinculada a Zaragoza y a la tradición mariana de España."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -277,7 +280,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Ángelus, 15 de noviembre de 1987.",
@@ -285,5 +288,7 @@
     "San Juan Pablo II, Ceremonia de bienvenida en Zaragoza, 10 de octubre de 1984.",
     "Pío XII, Radiomensaje al Congreso Mariano Nacional de España, 12 de octubre de 1954.",
     "Archidiócesis de Zaragoza, El Pilar: historia y venerable tradición."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
