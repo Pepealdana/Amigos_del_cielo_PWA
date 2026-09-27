@@ -83,6 +83,23 @@ function cargarProgreso() {
         state.progreso = {};
     }
 
+    for (const datos of Object.values(state.progreso)) {
+        if (!datos || typeof datos !== "object") {
+            continue;
+        }
+
+        if (
+            !Array.isArray(datos.diasVisitados) &&
+            Array.isArray(datos.completados)
+        ) {
+            datos.diasVisitados = [...new Set(
+                datos.completados
+                    .map(Number)
+                    .filter(dia => Number.isInteger(dia) && dia >= 1)
+            )].sort((a, b) => a - b);
+        }
+    }
+
     const ids = Object.keys(state.progreso);
 
     if (ids.length > 0) {
@@ -116,19 +133,21 @@ function actualizarProgreso(novenaId, dia) {
     }
 
     const anterior = state.progreso[novenaId] || {};
-    const completados = Array.isArray(anterior.completados)
-        ? [...anterior.completados]
-        : [];
+    const diasVisitados = Array.isArray(anterior.diasVisitados)
+        ? [...anterior.diasVisitados]
+        : Array.isArray(anterior.completados)
+            ? [...anterior.completados]
+            : [];
 
-    if (!completados.includes(numeroDia)) {
-        completados.push(numeroDia);
-        completados.sort((a, b) => a - b);
+    if (!diasVisitados.includes(numeroDia)) {
+        diasVisitados.push(numeroDia);
+        diasVisitados.sort((a, b) => a - b);
     }
 
     state.progreso[novenaId] = {
         ...anterior,
         dia: numeroDia,
-        completados,
+        diasVisitados,
         completada: Boolean(anterior.completada),
         fecha: new Date().toISOString()
     };
