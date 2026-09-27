@@ -1,6 +1,10 @@
 # Historial de cambios — Amigos del Cielo
 
 ## [1.3.0] — Estabilización y auditoría integral
+- Integración de las 35 rutas de imagen que faltaban en los catálogos V2 y en sus fichas JSON, usando los nombres físicos definitivos de `assets/images/santos/`.
+- Verificación de las 35 rutas contra los archivos físicos del repositorio.
+- Eliminación de la relación de fecha móvil de Nuestra Señora del Rocío al no utilizarla para el cálculo automático del calendario.
+- Service Worker actualizado a `amigos-del-cielo-v198` para invalidar las versiones anteriores de los datos.
 
 - Auditoría de estructura, catálogo, navegación, filtros y lógica de carga.
 - Verificación de los recursos precargados del Service Worker.
