@@ -5,8 +5,11 @@
   "subtitle": "Reina y Patrona de Colombia, venerada en el Santuario Mariano Nacional de Chiquinquirá",
   "image": null,
   "feast": {
+    "day": 9,
+    "month": 7,
     "text": "9 de julio",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora del Rosario de Chiquinquirá se celebra el 9 de julio; es Patrona de Colombia."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -332,5 +335,7 @@
     "Conferencia Episcopal de Colombia, Diócesis de Chiquinquirá.",
     "Conferencia Episcopal de Colombia, historia y celebración de Nuestra Señora del Rosario de Chiquinquirá.",
     "San Juan Pablo II, Homilía ante el Santuario Mariano de Chiquinquirá, 3 de julio de 1986."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
