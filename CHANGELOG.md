@@ -51,3 +51,13 @@ Inicio de la transición de Amigos del Cielo hacia una aplicación católica dir
 - Se documenta la hoja de ruta hacia un catálogo de santos, beatos y advocaciones marianas de Hispanoamérica y España.
 - Se mantiene la distinción entre información universal de la Iglesia e información propia de un contexto local.
 - Se prepara el catálogo futuro para una ampliación regional antes de incorporar otros idiomas.
+## [1.3.0] — Incorporación del Señor de los Milagros del Perú
+
+- Incorporación de la novena original del Señor de los Milagros del Perú.
+- Fecha de celebración: 28 de octubre, Solemnidad.
+- Territorialidad: Perú (PE).
+- Integración en el catálogo de devociones, catálogo legado y Service Worker.
+- Cinco fuentes oficiales del Arzobispado de Lima utilizadas para documentar contexto histórico y devocional.
+- Nueve días completos con reflexiones, intenciones, oración y acción originales.
+- Imagen pendiente de la pasada global de recursos visuales.
+
