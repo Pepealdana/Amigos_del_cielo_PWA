@@ -7391,5 +7391,136 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beata-ana-de-los-angeles-monteagudo",
+    "slug": "beata-ana-de-los-angeles-monteagudo",
+    "name": "Beata Ana de los Ángeles Monteagudo",
+    "title": "Novena a la Beata Ana de los Ángeles Monteagudo",
+    "subtitle": "Contemplación, caridad, consejo y fidelidad a Dios",
+    "category": "Beatas",
+    "featured": false,
+    "image": "assets/images/santos/beata_ana_de_los_angeles_monteagudo.webp",
+    "file": "data/beata-ana-de-los-angeles-monteagudo.json",
+    "description": "Nueve días para acercarnos al testimonio de la Beata Ana de los Ángeles Monteagudo y pedir la gracia de vivir la oración, la caridad, el servicio y la perseverancia.",
+    "feast": {
+      "day": 10,
+      "month": 1,
+      "text": "10 de enero",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "religiosos",
+      "latinoamericanos"
+    ],
+    "territorial": {
+      "origin": [
+        "PE"
+      ],
+      "historicalLinks": [
+        "PE"
+      ],
+      "specialDevotion": [
+        "PE"
+      ]
+    },
+    "search": [
+      "beata ana de los angeles monteagudo",
+      "ana de los ángeles monteagudo",
+      "ana monteagudo",
+      "arequipa",
+      "perú",
+      "dominica",
+      "dominicas",
+      "santa catalina",
+      "priora",
+      "contemplación",
+      "caridad",
+      "consejo",
+      "almas del purgatorio"
+    ],
+    "interventions": [
+      {
+        "id": "oracion-contemplacion",
+        "label": "Oración y vida contemplativa",
+        "keywords": [
+          "oracion",
+          "oración",
+          "contemplacion",
+          "contemplación",
+          "vida interior"
+        ]
+      },
+      {
+        "id": "vida-consagrada",
+        "label": "Vida consagrada y vocación religiosa",
+        "keywords": [
+          "vocacion",
+          "vocación",
+          "religiosa",
+          "monja",
+          "consagracion",
+          "consagración",
+          "monasterio",
+          "dominica"
+        ]
+      },
+      {
+        "id": "caridad-pobres",
+        "label": "Pobres y personas necesitadas",
+        "keywords": [
+          "pobres",
+          "pobreza",
+          "necesitados",
+          "necesidad",
+          "caridad",
+          "ayuda"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermedad",
+          "sufrimiento",
+          "dolor"
+        ]
+      },
+      {
+        "id": "consejo-discernimiento",
+        "label": "Consejo y discernimiento espiritual",
+        "keywords": [
+          "consejo",
+          "discernimiento",
+          "orientacion",
+          "orientación",
+          "acompañamiento"
+        ]
+      },
+      {
+        "id": "difuntos",
+        "label": "Oración por los difuntos",
+        "keywords": [
+          "difuntos",
+          "almas",
+          "purgatorio",
+          "sufragios"
+        ]
+      },
+      {
+        "id": "perseverancia",
+        "label": "Perseverancia en la prueba",
+        "keywords": [
+          "perseverancia",
+          "prueba",
+          "ceguera",
+          "dificultad",
+          "cruz",
+          "esperanza"
+        ]
+      }
+    ]
   }
 ]
