@@ -1,0 +1,491 @@
+{
+  "id": "beato-padre-marianito",
+  "slug": "beato-padre-marianito",
+  "name": "Beato Padre Marianito",
+  "title": "Sacerdote diocesano y pastor de Angostura",
+  "subtitle": "Oración, servicio y caridad con los más necesitados",
+  "category": "Beatos",
+  "image": "assets/images/santos/beato_padre_marianito.webp",
+  "description": "Mariano de Jesús Euse Hoyos, sacerdote colombiano que dedicó casi cincuenta años de ministerio a la comunidad de Angostura, con especial cercanía a los campesinos, los niños, los enfermos y las personas necesitadas.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": "beato-padre-marianito"
+  },
+  "ui": {
+    "primaryColor": "#334E68",
+    "secondaryColor": "#D9B66B",
+    "icon": "✦"
+  },
+  "feast": {
+    "day": 13,
+    "month": 7,
+    "text": "13 de julio",
+    "movable": false
+  },
+  "virtues": [
+    "Oración",
+    "Caridad",
+    "Servicio",
+    "Pobreza evangélica",
+    "Perseverancia",
+    "Misericordia",
+    "Celo pastoral",
+    "Solidaridad",
+    "Perdón"
+  ],
+  "search": [
+    "beato padre marianito",
+    "padre marianito",
+    "marianito",
+    "mariano de jesús euse hoyos",
+    "mariano de jesus euse hoyos",
+    "sacerdote colombiano",
+    "angostura",
+    "campesinos",
+    "pobres",
+    "caridad",
+    "paz",
+    "reconciliación",
+    "reconciliacion",
+    "oración",
+    "oracion",
+    "eucaristía",
+    "eucaristia"
+  ],
+  "interventions": [
+    {
+      "id": "familias-campesinos",
+      "label": "Familias y comunidades campesinas",
+      "keywords": [
+        "campesinos",
+        "campesinas",
+        "campo",
+        "familia",
+        "familias",
+        "comunidad",
+        "comunidades"
+      ]
+    },
+    {
+      "id": "pobres-necesitados",
+      "label": "Pobres y personas necesitadas",
+      "keywords": [
+        "pobres",
+        "pobreza",
+        "necesidad",
+        "necesitados",
+        "carencia",
+        "ayuda",
+        "miseria"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermos",
+        "enfermo",
+        "enfermedad",
+        "sufrimiento",
+        "dolor",
+        "hospital",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "sacerdotes",
+      "label": "Sacerdotes y vocaciones",
+      "keywords": [
+        "sacerdote",
+        "sacerdotes",
+        "vocación",
+        "vocaciones",
+        "seminario",
+        "ministerio"
+      ]
+    },
+    {
+      "id": "paz-reconciliacion",
+      "label": "Paz y reconciliación",
+      "keywords": [
+        "paz",
+        "reconciliación",
+        "reconciliacion",
+        "perdón",
+        "perdon",
+        "violencia",
+        "conflicto",
+        "unidad"
+      ]
+    },
+    {
+      "id": "niños-formacion",
+      "label": "Niños y formación cristiana",
+      "keywords": [
+        "niños",
+        "niño",
+        "niñas",
+        "niña",
+        "catequesis",
+        "doctrina",
+        "formación",
+        "formacion"
+      ]
+    },
+    {
+      "id": "vida-oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oración",
+        "oracion",
+        "eucaristía",
+        "eucaristia",
+        "rosario",
+        "misa",
+        "confesión",
+        "confesion",
+        "vida espiritual"
+      ]
+    },
+    {
+      "id": "necesidades-particulares",
+      "label": "Necesidades y dificultades personales",
+      "keywords": [
+        "dificultad",
+        "problema",
+        "angustia",
+        "aflicción",
+        "afliccion",
+        "ayuda",
+        "intención",
+        "intencion"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Mariano de Jesús Euse Hoyos nació en Yarumal, Antioquia, el 14 de octubre de 1845. Fue ordenado sacerdote el 14 de julio de 1879 y desarrolló gran parte de su ministerio en Angostura, donde sirvió durante casi cincuenta años. Se distinguió por su vida de oración, austeridad, evangelización y cercanía con niños, campesinos, enfermos y personas necesitadas. Murió en Angostura el 13 de julio de 1926 y fue beatificado por san Juan Pablo II el 9 de abril de 2000.",
+    "extended": "Mariano de Jesús Euse Hoyos nació en Yarumal, Antioquia, el 14 de octubre de 1845. Fue el mayor de siete hermanos y recibió de su familia una formación cristiana que marcó su vida. Desde joven conoció de cerca la vida campesina y mostró interés por enseñar a otros niños.\n\nDespués de su formación sacerdotal fue ordenado presbítero y ejerció el ministerio en el norte de Antioquia. En Angostura encontró el lugar donde desarrollaría durante décadas una intensa labor pastoral. Allí atendió a la comunidad con predicación, catequesis, celebración de los sacramentos, acompañamiento de enfermos y atención a las necesidades materiales de los habitantes.\n\nLa biografía oficial publicada por la Santa Sede destaca su dedicación incansable a la evangelización de niños y adultos, especialmente de los campesinos. También señala su impulso a la vida cristiana de la parroquia mediante la participación en la misa, el rosario en familia, la devoción al Sagrado Corazón de Jesús y la oración por las vocaciones.\n\nSu vida estuvo marcada por la oración, la austeridad y la confianza en Dios. Durante su ministerio afrontó dificultades civiles y periodos de violencia, pero permaneció unido a su comunidad. También impulsó obras materiales para la vida parroquial, entre ellas la terminación del templo y la construcción de espacios de culto y servicio.\n\nMurió en Angostura el 13 de julio de 1926. Fue beatificado por san Juan Pablo II el 9 de abril de 2000. En la homilía de beatificación, el Papa presentó su testimonio de caridad, comprensión, servicio, solidaridad y perdón como una referencia para Colombia y para el trabajo por la paz y la reconciliación."
+  },
+  "intercessionPrayer": {
+    "title": "Oración de intercesión al Beato Padre Marianito",
+    "text": "Señor Jesucristo, te damos gracias por el testimonio del Beato Mariano de Jesús Euse Hoyos, sacerdote entregado a la oración, a la evangelización y al servicio de sus hermanos. Por su intercesión, concédenos amar con obras a quienes viven necesidad, acompañar con misericordia a los enfermos y perseverar en el cumplimiento de nuestros deberes. Ayúdanos a trabajar por la paz, el perdón y la reconciliación. Recibe nuestra intención particular y concédenos aquello que sea conforme a tu voluntad. Tú que vives y reinas por los siglos de los siglos. Amén.",
+    "attribution": "Texto original de Amigos del Cielo para este ejercicio de piedad; no se presenta como oración litúrgica oficial."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nBeato Padre Marianito, acompáñanos durante estos nueve días. Enséñanos a buscar a Dios en la oración y a reconocer a Cristo en las personas que necesitan nuestra ayuda. Presentamos al Señor nuestras intenciones y pedimos la gracia de vivir con fe, caridad, perseverancia y espíritu de servicio. Que tu ejemplo nos anime a trabajar por la paz y la reconciliación. Amén.",
+  "closingPrayer": "Señor Jesús, gracias por el testimonio del Beato Padre Marianito. Haz que su ejemplo de oración, servicio y caridad nos ayude a vivir con mayor fidelidad el Evangelio. Danos un corazón cercano a los pobres, a los enfermos, a los niños y a quienes atraviesan dificultades. Por su intercesión, recibe nuestras intenciones y enséñanos a ser instrumentos de paz y reconciliación. Amén.",
+  "intentions": [
+    "Por las familias y comunidades campesinas que necesitan apoyo y esperanza.",
+    "Por las personas que viven pobreza, necesidad o soledad.",
+    "Por los enfermos, sus familias y quienes los cuidan.",
+    "Por los sacerdotes y por las vocaciones al ministerio ordenado.",
+    "Por los niños y jóvenes que necesitan formación cristiana y buenos acompañantes.",
+    "Por Colombia, para que crezcan la paz, el perdón y la reconciliación.",
+    "Por quienes trabajan por el bien de sus comunidades con generosidad y perseverancia.",
+    "Por quienes atraviesan dificultades personales y necesitan fortaleza espiritual.",
+    "Presenta a Dios tu intención particular y pídele la gracia de vivirla con fe y confianza."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 25,31-40"
+      },
+      {
+        "reference": "Lucas 10,25-37"
+      },
+      {
+        "reference": "Juan 13,34-35"
+      },
+      {
+        "reference": "Mateo 5,1-12"
+      },
+      {
+        "reference": "Santiago 2,14-18"
+      },
+      {
+        "reference": "Romanos 12,9-18"
+      },
+      {
+        "reference": "Efesios 4,1-7.25-32"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Salmo 85,9-14"
+      }
+    ],
+    "documents": [
+      "Biografía oficial de Mariano de Jesús Euse Hoyos, Santa Sede",
+      "Homilía de beatificación de Mariano de Jesús Euse Hoyos, san Juan Pablo II",
+      "Información biográfica de la Diócesis de Santa Rosa de Osos"
+    ],
+    "related": [
+      "Caridad",
+      "Servicio",
+      "Oración",
+      "Evangelización",
+      "Campesinos",
+      "Paz",
+      "Reconciliación",
+      "Sacerdocio"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mariano de Jesús Euse Hoyos (1845-1926)",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20000409_beat-Hoyos_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Ceremonia de beatificación de cinco Siervos de Dios, 9 de abril de 2000",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2000/documents/hf_jp-ii_hom_20000409_beatifications.html",
+      "type": "official"
+    },
+    {
+      "title": "A los peregrinos venidos para la beatificación, 10 de abril de 2000",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/2000/apr-jun/documents/hf_jp-ii_spe_20000410_beatifications.html",
+      "type": "official"
+    },
+    {
+      "title": "Padre Marianito",
+      "organization": "Diócesis de Santa Rosa de Osos",
+      "url": "https://dsro.org/padre-marianito/",
+      "type": "official"
+    },
+    {
+      "title": "Beato Padre Marianito",
+      "organization": "Diócesis de Santa Rosa de Osos",
+      "url": "https://dsro.org/beato-padre-marianito/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Encuentro con Dios",
+      "title": "La oración como raíz de la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La biografía oficial de la Santa Sede presenta a Marianito como un sacerdote cuya vida de oración era la raíz de su apostolado y de su ministerio sacerdotal."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El servicio cristiano no nace solamente de la actividad. Necesita una relación viva con Dios que oriente nuestras decisiones, palabras y acciones."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué espacio concreto puedo reservar hoy para estar en silencio ante Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar o fortalecer su vida de oración."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, enséñanos a buscar a Dios con un corazón perseverante y a dejar que la oración transforme nuestro servicio. Amén."
+      },
+      "action": "Dedica hoy un momento de oración silenciosa y ofrece a Dios una preocupación concreta."
+    },
+    {
+      "day": 2,
+      "theme": "Fidelidad sacerdotal",
+      "title": "Servir donde Dios nos ha puesto",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Marianito permaneció durante décadas unido a la comunidad de Angostura y ejerció allí un ministerio pastoral constante, aun en medio de dificultades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fidelidad se construye permaneciendo disponibles para las personas que Dios ha confiado a nuestro cuidado, especialmente cuando el servicio exige paciencia."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué responsabilidad necesito perseverar aunque no vea resultados inmediatos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los sacerdotes que acompañan comunidades y por quienes disciernen su vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, ruega por los sacerdotes y ayúdanos a cumplir con fidelidad las responsabilidades que hemos recibido. Amén."
+      },
+      "action": "Cumple hoy con especial cuidado una responsabilidad que suelas postergar."
+    },
+    {
+      "day": 3,
+      "theme": "Evangelización",
+      "title": "Anunciar a Cristo con sencillez",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Juan Pablo II destacó que Marianito se entregó a la evangelización de niños y adultos, especialmente de los campesinos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar también significa enseñar, escuchar, acompañar y ayudar a que otras personas descubran la esperanza del Evangelio en su vida cotidiana."
+      },
+      "virtue": "Celo pastoral",
+      "reflection": "¿A quién puedo acercarme hoy con una palabra que anime su fe o su esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los catequistas, evangelizadores, maestros y familias que transmiten la fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, ayúdanos a hablar de Cristo con sencillez, respeto y coherencia de vida. Amén."
+      },
+      "action": "Comparte hoy con alguien una palabra de esperanza inspirada en el Evangelio."
+    },
+    {
+      "day": 4,
+      "theme": "Cercanía con los necesitados",
+      "title": "Ver a Cristo en quien necesita ayuda",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Su ministerio estuvo marcado por la cercanía con los pobres, los enfermos y las personas de su comunidad que atravesaban necesidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La caridad cristiana se expresa en acciones concretas: escuchar, acompañar, compartir recursos y aliviar, cuando está en nuestras manos, una necesidad real."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesidad concreta de una persona cercana puedo atender hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los pobres, las personas solas y quienes carecen de apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, enséñanos a no pasar de largo ante quien necesita ayuda y a servir con generosidad. Amén."
+      },
+      "action": "Realiza una obra concreta de ayuda sin esperar reconocimiento."
+    },
+    {
+      "day": 5,
+      "theme": "Niños y formación",
+      "title": "Educar en la fe y en el bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Desde su juventud Marianito mostró interés por enseñar a otros niños, y durante su ministerio se dedicó a la instrucción cristiana de niños y adultos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La formación necesita paciencia, ejemplo y acompañamiento. Cada persona aprende mejor cuando encuentra educadores que la tratan con dignidad y constancia."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Cómo puedo contribuir hoy a que un niño o joven se sienta acompañado y valorado?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los niños y jóvenes, sus familias y quienes los educan."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, ruega por los niños y jóvenes y por quienes tienen la responsabilidad de acompañarlos en su crecimiento. Amén."
+      },
+      "action": "Dedica tiempo de calidad a escuchar y orientar a un niño o joven de tu entorno."
+    },
+    {
+      "day": 6,
+      "theme": "Austeridad y desprendimiento",
+      "title": "Vivir con sencillez",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Santa Sede describe la vida de Marianito como pobre, austera y mortificada, sostenida por una intensa vida de oración."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La sencillez cristiana ayuda a distinguir entre lo que necesitamos y lo que simplemente deseamos, y puede abrir espacio para compartir con otros."
+      },
+      "virtue": "Desprendimiento",
+      "reflection": "¿Qué apego o exceso puedo ordenar hoy para vivir con mayor sencillez?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes padecen carencias materiales y por quienes necesitan aprender a compartir."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, ayúdanos a vivir con sencillez y a poner nuestros bienes y capacidades al servicio del bien. Amén."
+      },
+      "action": "Prescinde hoy de un gasto o consumo innecesario y destina ese recurso a una obra de caridad."
+    },
+    {
+      "day": 7,
+      "theme": "Paz y reconciliación",
+      "title": "Servir a la paz desde el perdón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En su homilía de beatificación, san Juan Pablo II presentó el testimonio de Marianito de caridad, comprensión, servicio, solidaridad y perdón como una ayuda para trabajar por la paz y la reconciliación en Colombia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La paz no se reduce a evitar conflictos. También requiere aprender a perdonar, reparar el daño, escuchar y buscar caminos de reconciliación."
+      },
+      "virtue": "Perdón",
+      "reflection": "¿Qué paso concreto puedo dar para disminuir hoy una tensión o recuperar un diálogo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por Colombia y por todas las personas y comunidades que necesitan reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, intercede para que aprendamos a perdonar y a trabajar por la paz con verdad, justicia y caridad. Amén."
+      },
+      "action": "Da hoy un paso prudente hacia la reconciliación: una conversación, una disculpa, una escucha o un gesto de paz."
+    },
+    {
+      "day": 8,
+      "theme": "Perseverancia en la dificultad",
+      "title": "Permanecer fieles en tiempos difíciles",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su ministerio Marianito atravesó periodos de conflicto y otras dificultades, pero continuó atendiendo a su comunidad y sosteniendo su vida de fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia no significa ignorar el cansancio o el sufrimiento, sino mantener la esperanza y buscar ayuda cuando sea necesario, sin abandonar el bien que podemos hacer."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Qué dificultad estoy viviendo y qué pequeño paso de fidelidad puedo dar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan enfermedad, duelo, dificultades económicas o momentos de incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, acompaña a quienes sufren y ayúdanos a sostener la esperanza aun cuando las circunstancias sean difíciles. Amén."
+      },
+      "action": "Acompaña hoy a una persona que esté pasando por una dificultad, aunque sea mediante un mensaje o una llamada."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega y esperanza",
+      "title": "Entregar la vida a Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Marianito murió el 13 de julio de 1926 después de una vida entregada al servicio de Dios y de su pueblo. Su testimonio fue reconocido con la beatificación el 9 de abril de 2000."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana alcanza su sentido cuando cada día se ofrece a Dios en el amor y en el servicio. La esperanza cristiana permite mirar la muerte y las dificultades desde la confianza en Cristo."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué parte de mi vida necesito poner hoy con mayor confianza en las manos de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestra intención particular y por la gracia de vivir y morir unidos a Cristo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beato Marianito, acompáñanos con tu intercesión para que vivamos unidos a Cristo, sirvamos con amor y pongamos nuestra esperanza en Dios. Amén."
+      },
+      "action": "Entrega a Dios en oración tu intención principal y realiza una última obra de servicio como fruto de esta novena."
+    }
+  ]
+}
