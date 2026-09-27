@@ -1476,19 +1476,26 @@
     {
       "id": "santiago-apostol",
       "name": "Santiago Apóstol",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/santiago-apostol.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "apostoles",
         "martires"
       ],
       "territorial": {
-        "origin": [],
-        "historicalLinks": [],
-        "specialDevotion": []
+        "origin": [
+          "IL"
+        ],
+        "historicalLinks": [
+          "IL",
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
       }
     },
     {
