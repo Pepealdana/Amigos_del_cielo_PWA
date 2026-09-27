@@ -5,8 +5,11 @@
   "subtitle": "Madre y Patrona principal de Puerto Rico",
   "image": null,
   "feast": {
+    "day": 19,
+    "month": 11,
     "text": "19 de noviembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de la Divina Providencia se celebra el 19 de noviembre; es una advocación mariana de especial devoción en Puerto Rico."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Pablo VI, Letras Apostólicas por las que se declara a la Bienaventurada Virgen María de la Divina Providencia Patrona principal de Puerto Rico, 19 de noviembre de 1969.",
     "San Juan Pablo II, Homilía en San Juan de Puerto Rico, 12 de octubre de 1984.",
     "San Juan Pablo II, Ángelus, 8 de noviembre de 1992.",
     "San Juan Pablo II, Discurso a los obispos de Puerto Rico en visita ad limina, 11 de septiembre de 1999."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
