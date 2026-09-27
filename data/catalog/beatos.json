@@ -1,0 +1,183 @@
+{
+  "version": "1.0",
+  "category": "beatos",
+  "description": "Beatos incorporados al catálogo de Amigos del Cielo, con especial atención a figuras de América Latina y testimonios cristianos contemporáneos.",
+  "items": [
+    {
+      "id": "beata-clara-fey",
+      "name": "Beata Clara Fey",
+      "title": "Virgen y fundadora de las Hermanas del Niño Jesús Pobre",
+      "description": "Religiosa alemana y fundadora dedicada a la educación y al acompañamiento de niños y jóvenes.",
+      "status": "published",
+      "priority": "existente",
+      "groups": ["fundadores", "educadores"],
+      "territorial": {
+        "origin": ["DE"],
+        "historicalLinks": ["DE"],
+        "specialDevotion": []
+      },
+      "feast": {
+        "day": 8,
+        "month": 5,
+        "text": "8 de mayo",
+        "movable": false
+      },
+      "tags": ["educación", "fundadora", "niños", "jóvenes"],
+      "searchTerms": ["Clara Fey", "Madre Clara Fey"]
+    },
+    {
+      "id": "beata-chiara-luce-badano",
+      "name": "Beata Chiara Luce Badano",
+      "title": "Joven laica y testigo de la fe",
+      "description": "Joven italiana vinculada al Movimiento de los Focolares, cuyo testimonio cristiano se desarrolló en medio de una enfermedad.",
+      "status": "published",
+      "priority": "nueva incorporación",
+      "groups": ["jovenes", "laicos"],
+      "territorial": {
+        "origin": ["IT"],
+        "historicalLinks": ["IT"],
+        "specialDevotion": []
+      },
+      "feast": {
+        "day": 29,
+        "month": 10,
+        "text": "29 de octubre",
+        "movable": false
+      },
+      "tags": ["jóvenes", "laicos", "Focolares", "testimonio"],
+      "searchTerms": ["Chiara Badano", "Chiara Luce"]
+    },
+    {
+      "id": "beato-michael-mcgivney",
+      "name": "Beato Michael McGivney",
+      "title": "Sacerdote y fundador de los Caballeros de Colón",
+      "description": "Sacerdote estadounidense que impulsó una obra de ayuda fraterna y apoyo a las familias católicas.",
+      "status": "published",
+      "priority": "nueva incorporación",
+      "groups": ["fundadores", "sacerdotes", "laicos"],
+      "territorial": {
+        "origin": ["US"],
+        "historicalLinks": ["US"],
+        "specialDevotion": []
+      },
+      "feast": {
+        "day": 13,
+        "month": 8,
+        "text": "13 de agosto",
+        "movable": false
+      },
+      "tags": ["sacerdote", "fundador", "familia", "Caballeros de Colón"],
+      "searchTerms": ["Michael McGivney", "McGivney"]
+    },
+    {
+      "id": "beato-padre-marianito",
+      "name": "Beato Padre Marianito",
+      "title": "Sacerdote colombiano y servidor de los más necesitados",
+      "description": "Mariano de Jesús Euse Hoyos, sacerdote colombiano recordado por su vida de oración, servicio pastoral y cercanía con los pobres.",
+      "status": "published",
+      "priority": "nueva incorporación",
+      "groups": ["sacerdotes", "latinoamericanos"],
+      "territorial": {
+        "origin": ["CO"],
+        "historicalLinks": ["CO"],
+        "specialDevotion": ["CO"]
+      },
+      "feast": {
+        "day": 13,
+        "month": 9,
+        "text": "13 de septiembre",
+        "movable": false
+      },
+      "tags": ["Colombia", "sacerdote", "pobres", "caridad"],
+      "searchTerms": ["Mariano de Jesús Euse Hoyos", "Padre Marianito", "Marianito"]
+    },
+    {
+      "id": "beato-ceferino-namuncura",
+      "name": "Beato Ceferino Namuncurá",
+      "title": "Joven mapuche y testigo de la espiritualidad salesiana",
+      "description": "Joven argentino de origen mapuche formado en la espiritualidad salesiana y recordado por su deseo de servir a su pueblo.",
+      "status": "published",
+      "priority": "nueva incorporación",
+      "groups": ["jovenes", "latinoamericanos"],
+      "territorial": {
+        "origin": ["AR"],
+        "historicalLinks": ["AR"],
+        "specialDevotion": ["AR"]
+      },
+      "feast": {
+        "day": 26,
+        "month": 8,
+        "text": "26 de agosto",
+        "movable": false
+      },
+      "tags": ["Argentina", "mapuche", "jóvenes", "salesiano"],
+      "searchTerms": ["Ceferino Namuncurá", "Zefferino Namuncurá"]
+    },
+    {
+      "id": "beata-ana-de-los-angeles-monteagudo",
+      "name": "Beata Ana de los Ángeles Monteagudo",
+      "title": "Religiosa dominica y testigo de la vida contemplativa",
+      "description": "Religiosa dominica peruana vinculada a la vida contemplativa y a la tradición espiritual de Arequipa.",
+      "status": "published",
+      "priority": "nueva incorporación",
+      "groups": ["latinoamericanos", "religiosos"],
+      "territorial": {
+        "origin": ["PE"],
+        "historicalLinks": ["PE"],
+        "specialDevotion": ["PE"]
+      },
+      "feast": {
+        "day": 10,
+        "month": 1,
+        "text": "10 de enero",
+        "movable": false
+      },
+      "tags": ["Perú", "dominica", "Arequipa", "vida contemplativa"],
+      "searchTerms": ["Ana de los Ángeles", "Ana de los Ángeles Monteagudo"]
+    },
+    {
+      "id": "beata-laura-vicuna",
+      "name": "Beata Laura Vicuña",
+      "title": "Joven salesiana y testigo de la fe",
+      "description": "Joven chilena vinculada a la espiritualidad salesiana, recordada por su vida de fe y entrega a Dios.",
+      "status": "published",
+      "priority": "nueva incorporación",
+      "groups": ["jovenes", "latinoamericanos", "salesianos"],
+      "territorial": {
+        "origin": ["CL"],
+        "historicalLinks": ["AR", "CL"],
+        "specialDevotion": ["AR", "CL"]
+      },
+      "feast": {
+        "day": 22,
+        "month": 1,
+        "text": "22 de enero",
+        "movable": false
+      },
+      "tags": ["Chile", "Argentina", "jóvenes", "salesiana"],
+      "searchTerms": ["Laura Vicuña", "Laura Vicuna"]
+    },
+    {
+      "id": "beata-guadalupe-ortiz-de-landazuri",
+      "name": "Beata Guadalupe Ortiz de Landázuri",
+      "title": "Laica, química y testigo de la vida cristiana cotidiana",
+      "description": "Laica española, química y docente, cuyo testimonio cristiano estuvo unido al trabajo profesional, la enseñanza y el servicio.",
+      "status": "published",
+      "priority": "nueva incorporación",
+      "groups": ["laicos", "educadores", "cientificos"],
+      "territorial": {
+        "origin": ["ES"],
+        "historicalLinks": ["ES", "MX", "IT"],
+        "specialDevotion": ["ES", "MX"]
+      },
+      "feast": {
+        "day": 16,
+        "month": 5,
+        "text": "16 de mayo",
+        "movable": false
+      },
+      "tags": ["España", "México", "laicos", "ciencia", "educación"],
+      "searchTerms": ["Guadalupe Ortiz de Landázuri", "Guadalupe Ortiz"]
+    }
+  ]
+}
