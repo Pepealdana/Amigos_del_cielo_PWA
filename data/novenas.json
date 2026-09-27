@@ -6923,5 +6923,162 @@
       "esperanza"
     ],
     "interventions": 7
+  },
+  {
+    "id": "beato-michael-mcgivney",
+    "slug": "beato-michael-mcgivney",
+    "name": "Beato Michael McGivney",
+    "title": "Novena al Beato Michael McGivney",
+    "subtitle": "Caridad, servicio y vida familiar cristiana",
+    "category": "Beatos",
+    "featured": false,
+    "image": "assets/images/santos/beato_michael_mcgivney.webp",
+    "file": "data/beato-michael-mcgivney.json",
+    "description": "Nueve días para acercarnos al testimonio del Beato Michael McGivney y pedir la gracia de vivir la fe con caridad, servicio, fraternidad y cuidado de las familias.",
+    "feast": {
+      "day": 13,
+      "month": 8,
+      "text": "13 de agosto",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "sacerdotes",
+      "fundadores",
+      "laicos"
+    ],
+    "territorial": {
+      "origin": [
+        "US"
+      ],
+      "historicalLinks": [
+        "US"
+      ],
+      "specialDevotion": [
+        "US"
+      ]
+    },
+    "search": [
+      "beato michael mcgivney",
+      "michael mcgivney",
+      "padre mcgivney",
+      "caballeros de colón",
+      "caballeros de colon",
+      "sacerdote",
+      "familia",
+      "caridad",
+      "ayuda fraterna",
+      "evangelización",
+      "evangelizacion",
+      "jóvenes",
+      "jovenes",
+      "pobres",
+      "viudas",
+      "huérfanos",
+      "huerfanos"
+    ],
+    "interventions": [
+      {
+        "id": "familia",
+        "label": "Familia y vida familiar cristiana",
+        "keywords": [
+          "familia",
+          "familias",
+          "padres",
+          "hijos",
+          "matrimonio",
+          "hogar"
+        ]
+      },
+      {
+        "id": "necesidad",
+        "label": "Pobreza y necesidades materiales",
+        "keywords": [
+          "pobreza",
+          "pobres",
+          "necesidad",
+          "necesidades",
+          "ayuda",
+          "carencia"
+        ]
+      },
+      {
+        "id": "caridad",
+        "label": "Caridad y servicio al prójimo",
+        "keywords": [
+          "caridad",
+          "servicio",
+          "ayuda",
+          "solidaridad",
+          "compasion",
+          "compasión",
+          "misericordia"
+        ]
+      },
+      {
+        "id": "viudas-huerfanos",
+        "label": "Viudas, huérfanos y personas vulnerables",
+        "keywords": [
+          "viudas",
+          "viuda",
+          "huérfanos",
+          "huerfanos",
+          "huérfano",
+          "huerfano",
+          "vulnerables"
+        ]
+      },
+      {
+        "id": "evangelizacion",
+        "label": "Evangelización y vida parroquial",
+        "keywords": [
+          "evangelización",
+          "evangelizacion",
+          "parroquia",
+          "catequesis",
+          "sacerdote",
+          "sacerdocio",
+          "evangelio"
+        ]
+      },
+      {
+        "id": "laicos",
+        "label": "Servicio y participación de los laicos",
+        "keywords": [
+          "laicos",
+          "laico",
+          "apostolado",
+          "comunidad",
+          "fraternidad",
+          "colaboracion",
+          "colaboración"
+        ]
+      },
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y formación cristiana",
+        "keywords": [
+          "jóvenes",
+          "jovenes",
+          "juventud",
+          "formación",
+          "formacion",
+          "vocación",
+          "vocacion"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "sufrimiento",
+          "dolor",
+          "cuidado"
+        ]
+      }
+    ]
   }
 ]
