@@ -6463,5 +6463,60 @@
       "mártir",
       "galilea"
     ]
+  },
+  {
+    "id": "san-pablo-apostol",
+    "slug": "san-pablo-apostol",
+    "name": "San Pablo Apóstol",
+    "title": "Apóstol de las naciones y testigo de Cristo",
+    "subtitle": "Conversión, misión, caridad y perseverancia",
+    "category": "Santos",
+    "image": "assets/images/santos/san_pablo_apostol.webp",
+    "file": "data/san-pablo-apostol.json",
+    "description": "Apóstol de las naciones, evangelizador y autor de cartas fundamentales del Nuevo Testamento.",
+    "feast": {
+      "day": 29,
+      "month": 6,
+      "text": "29 de junio",
+      "movable": false,
+      "liturgicalRank": "Solemnidad"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "apostoles",
+      "martires"
+    ],
+    "territorial": {
+      "origin": [
+        "TR"
+      ],
+      "historicalLinks": [
+        "TR",
+        "IL",
+        "GR",
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "san pablo",
+      "pablo apostol",
+      "Pablo Apóstol",
+      "saulo",
+      "apostol",
+      "apóstol",
+      "tarso",
+      "damasco",
+      "misionero",
+      "evangelizacion",
+      "evangelización",
+      "roma",
+      "martir",
+      "mártir"
+    ]
   }
 ]
