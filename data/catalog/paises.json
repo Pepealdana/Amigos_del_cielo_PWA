@@ -4,6 +4,11 @@
   "description": "Países de referencia para organizar el catálogo de Amigos del Cielo dentro del ámbito hispanohablante.",
   "items": [
     {
+      "id": "DE",
+      "name": "Alemania",
+      "bandera": "🇩🇪"
+    },
+    {
       "id": "AR",
       "name": "Argentina",
       "bandera": "🇦🇷"
@@ -17,6 +22,11 @@
       "id": "CL",
       "name": "Chile",
       "bandera": "🇨🇱"
+    },
+    {
+      "id": "CN",
+      "name": "China",
+      "bandera": "🇨🇳"
     },
     {
       "id": "CO",
@@ -34,11 +44,6 @@
       "bandera": "🇨🇺"
     },
     {
-      "id": "DO",
-      "name": "República Dominicana",
-      "bandera": "🇩🇴"
-    },
-    {
       "id": "EC",
       "name": "Ecuador",
       "bandera": "🇪🇨"
@@ -54,14 +59,74 @@
       "bandera": "🇪🇸"
     },
     {
+      "id": "US",
+      "name": "Estados Unidos",
+      "bandera": "🇺🇸"
+    },
+    {
+      "id": "FR",
+      "name": "Francia",
+      "bandera": "🇫🇷"
+    },
+    {
+      "id": "GR",
+      "name": "Grecia",
+      "bandera": "🇬🇷"
+    },
+    {
       "id": "GT",
       "name": "Guatemala",
       "bandera": "🇬🇹"
     },
     {
+      "id": "HT",
+      "name": "Haití",
+      "bandera": "🇭🇹"
+    },
+    {
       "id": "HN",
       "name": "Honduras",
       "bandera": "🇭🇳"
+    },
+    {
+      "id": "IN",
+      "name": "India",
+      "bandera": "🇮🇳"
+    },
+    {
+      "id": "ID",
+      "name": "Indonesia",
+      "bandera": "🇮🇩"
+    },
+    {
+      "id": "IE",
+      "name": "Irlanda",
+      "bandera": "🇮🇪"
+    },
+    {
+      "id": "IL",
+      "name": "Israel",
+      "bandera": "🇮🇱"
+    },
+    {
+      "id": "IT",
+      "name": "Italia",
+      "bandera": "🇮🇹"
+    },
+    {
+      "id": "JP",
+      "name": "Japón",
+      "bandera": "🇯🇵"
+    },
+    {
+      "id": "LB",
+      "name": "Líbano",
+      "bandera": "🇱🇧"
+    },
+    {
+      "id": "MK",
+      "name": "Macedonia del Norte",
+      "bandera": "🇲🇰"
     },
     {
       "id": "MX",
@@ -79,44 +144,14 @@
       "bandera": "🇵🇦"
     },
     {
-      "id": "PE",
-      "name": "Perú",
-      "bandera": "🇵🇪"
-    },
-    {
       "id": "PY",
       "name": "Paraguay",
       "bandera": "🇵🇾"
     },
     {
-      "id": "PR",
-      "name": "Puerto Rico",
-      "bandera": "🇵🇷"
-    },
-    {
-      "id": "UY",
-      "name": "Uruguay",
-      "bandera": "🇺🇾"
-    },
-    {
-      "id": "VE",
-      "name": "Venezuela",
-      "bandera": "🇻🇪"
-    },
-    {
-      "id": "DE",
-      "name": "Alemania",
-      "bandera": "🇩🇪"
-    },
-    {
-      "id": "FR",
-      "name": "Francia",
-      "bandera": "🇫🇷"
-    },
-    {
-      "id": "IT",
-      "name": "Italia",
-      "bandera": "🇮🇹"
+      "id": "PE",
+      "name": "Perú",
+      "bandera": "🇵🇪"
     },
     {
       "id": "PL",
@@ -127,6 +162,36 @@
       "id": "PT",
       "name": "Portugal",
       "bandera": "🇵🇹"
+    },
+    {
+      "id": "PR",
+      "name": "Puerto Rico",
+      "bandera": "🇵🇷"
+    },
+    {
+      "id": "GB",
+      "name": "Reino Unido",
+      "bandera": "🇬🇧"
+    },
+    {
+      "id": "DO",
+      "name": "República Dominicana",
+      "bandera": "🇩🇴"
+    },
+    {
+      "id": "TR",
+      "name": "Turquía",
+      "bandera": "🇹🇷"
+    },
+    {
+      "id": "UY",
+      "name": "Uruguay",
+      "bandera": "🇺🇾"
+    },
+    {
+      "id": "VE",
+      "name": "Venezuela",
+      "bandera": "🇻🇪"
     }
   ]
 }
