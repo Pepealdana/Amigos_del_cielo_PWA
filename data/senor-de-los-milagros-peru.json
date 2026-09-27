@@ -1,0 +1,358 @@
+{
+  "id": "senor-de-los-milagros-peru",
+  "slug": "senor-de-los-milagros-peru",
+  "name": "Señor de los Milagros del Perú",
+  "title": "Novena al Señor de los Milagros del Perú",
+  "subtitle": "Contemplar a Cristo crucificado y caminar con esperanza",
+  "category": "Devociones",
+  "image": null,
+  "description": "Nueve días para contemplar a Jesucristo crucificado, renovar la fe, vivir la misericordia y caminar con esperanza junto al pueblo peruano.",
+  "novena": {
+    "days": 9
+  },
+  "status": "published",
+  "content": {
+    "mode": "inline",
+    "folder": ""
+  },
+  "ui": {
+    "primaryColor": "#244A73",
+    "secondaryColor": "#D9B66B",
+    "icon": "✝"
+  },
+  "feast": {
+    "day": 28,
+    "month": 10,
+    "text": "28 de octubre",
+    "movable": false,
+    "liturgicalRank": "Solemnidad",
+    "note": "La Solemnidad del Señor de los Milagros se celebra el 28 de octubre, en el contexto del Mes Morado y de la tradición procesional de Lima."
+  },
+  "patronages": [],
+  "virtues": [
+    "Fe",
+    "Conversión",
+    "Misericordia",
+    "Esperanza",
+    "Solidaridad",
+    "Perseverancia",
+    "Caridad",
+    "Reconciliación",
+    "Confianza"
+  ],
+  "search": [
+    "señor de los milagros",
+    "señor de los milagros del perú",
+    "señor de los milagros peru",
+    "cristo moreno",
+    "cristo de pachacamilla",
+    "pachacamilla",
+    "las nazarenas",
+    "nazarenas",
+    "mes morado",
+    "lima",
+    "perú",
+    "peru",
+    "procesión",
+    "procesion",
+    "octubre",
+    "28 de octubre"
+  ],
+  "interventions": [
+    {
+      "id": "enfermos",
+      "label": "Enfermos y personas que sufren",
+      "keywords": [
+        "enfermo",
+        "enfermos",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital",
+        "sanación",
+        "sanacion"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y reconciliación",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "perdon",
+      "label": "Perdón y conversión",
+      "keywords": [
+        "perdon",
+        "perdón",
+        "pecado",
+        "conversion",
+        "conversión",
+        "arrepentimiento",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en la dificultad",
+      "keywords": [
+        "esperanza",
+        "crisis",
+        "miedo",
+        "angustia",
+        "duelo",
+        "incertidumbre",
+        "dificultad"
+      ]
+    },
+    {
+      "id": "peru",
+      "label": "Oración por el Perú",
+      "keywords": [
+        "peru",
+        "perú",
+        "lima",
+        "pueblo",
+        "nacion",
+        "nación",
+        "país",
+        "pais"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinos y devotos",
+      "keywords": [
+        "peregrino",
+        "peregrinos",
+        "procesion",
+        "procesión",
+        "camino",
+        "santuario",
+        "nazarenas"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad y servicio",
+      "keywords": [
+        "caridad",
+        "servicio",
+        "pobres",
+        "necesitados",
+        "ayuda",
+        "solidaridad",
+        "misericordia"
+      ]
+    }
+  ],
+  "history": {
+    "short": "La devoción al Señor de los Milagros tiene su centro en una imagen de Cristo crucificado venerada en Lima y vinculada históricamente al barrio de Pachacamilla y al actual Santuario de las Nazarenas. La tradición de la devoción se consolidó a través de la oración, la hermandad y las procesiones, y se extendió por el Perú y por las comunidades peruanas en otros países.",
+    "extended": "La tradición del Señor de los Milagros está vinculada a una pintura de Jesucristo crucificado realizada en Lima en 1651 en el contexto del antiguo barrio de Pachacamilla. El Arzobispado de Lima recoge que, a lo largo de los siglos XVII y XVIII, terremotos y otras circunstancias históricas estuvieron relacionados con el crecimiento de la devoción, mientras la Hermandad y las procesiones fueron adquiriendo una presencia cada vez mayor en la vida religiosa limeña. La historia concreta de los orígenes de la imagen contiene elementos de tradición devocional que deben distinguirse de los datos documentados.\n\nLa devoción quedó especialmente vinculada al Santuario de las Nazarenas y a la procesión del Cristo de Pachacamilla. En la actualidad, la Iglesia de Lima presenta esta expresión de piedad como una oportunidad para contemplar a Jesucristo, practicar la misericordia, acompañar a quienes sufren y fortalecer la solidaridad. El 28 de octubre se celebra la Solemnidad del Señor de los Milagros y durante octubre se desarrolla el Mes Morado. La devoción debe conducir a una vida cristiana comprometida con el amor, el servicio y la esperanza."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\n\nSeñor Jesucristo, contemplamos tu cruz y reconocemos en ella el amor con el que entregaste tu vida por nosotros. Al comenzar esta novena al Señor de los Milagros, recibe nuestras intenciones y las necesidades de nuestras familias, de quienes sufren y de todo el pueblo peruano. Danos una fe que se traduzca en misericordia, servicio, reconciliación y esperanza. Que nuestra devoción nos acerque cada día más a ti. Amén.",
+  "closingPrayer": "Señor Jesucristo, gracias por este camino de oración ante tu cruz. Haz que la devoción al Señor de los Milagros produzca frutos de conversión en nuestra vida. Enséñanos a caminar con quienes sufren, servir con generosidad, perdonar de corazón y trabajar por la paz. Bendice al Perú, a sus familias y a todos los peruanos que llevan esta devoción en el corazón, dondequiera que se encuentren. Amén.",
+  "intentions": [
+    "Por el Perú y sus familias, para que crezcan la unidad, la justicia, la solidaridad y la esperanza.",
+    "Por los enfermos, quienes sufren y quienes los cuidan, para que encuentren consuelo y acompañamiento.",
+    "Por quienes viven dificultades económicas, desempleo, soledad o incertidumbre.",
+    "Por quienes necesitan reconciliarse con Dios, consigo mismos o con otras personas.",
+    "Por los peregrinos, cargadores, servidores y todos quienes participan en las celebraciones del Señor de los Milagros.",
+    "Por las comunidades peruanas que mantienen esta devoción fuera del país.",
+    "Por quienes trabajan por la paz, la justicia, la seguridad y el bien común.",
+    "Por quienes han perdido a un ser querido y llevan su dolor ante Cristo crucificado.",
+    "Por nuestras intenciones personales y para que esta novena produzca frutos concretos de conversión y caridad."
+  ],
+  "resources": {
+    "devotion": "La devoción al Señor de los Milagros tiene como centro a Jesucristo crucificado. La imagen, la procesión y las expresiones populares de piedad deben conducir a la oración, la conversión, la misericordia y el servicio; no sustituyen la vida sacramental ni la relación personal con Cristo.",
+    "feast": "28 de octubre, Solemnidad del Señor de los Milagros.",
+    "related": [
+      "Cristo de Pachacamilla",
+      "Santuario de las Nazarenas",
+      "Mes Morado",
+      "Procesión del Señor de los Milagros",
+      "Oración por el Perú",
+      "Misericordia"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mes Morado: recorridos y acciones significativas en octubre",
+      "organization": "Arzobispado de Lima",
+      "url": "https://www.arzobispadodelima.org/actividades/mes-morado-recorridos-y-acciones-significativas-en-octubre-2/",
+      "type": "official"
+    },
+    {
+      "title": "Señor de los Milagros vuelve a recorrer las calles de nuestra ciudad",
+      "organization": "Arzobispado de Lima",
+      "url": "https://www.arzobispadodelima.org/actividades/senor-de-los-milagros-vuelve-a-recorrer-las-calles-de-nuestra-ciudad/",
+      "type": "official"
+    },
+    {
+      "title": "El Señor de los Milagros es nuestro aliento y fuerza, nuestro gran libertador",
+      "organization": "Arzobispado de Lima",
+      "url": "https://www.arzobispadodelima.org/actividades/el-senor-de-los-milagros-es-nuestro-aliento-y-fuerza-nuestro-gran-libertador/",
+      "type": "official"
+    },
+    {
+      "title": "Oración al Señor de los Milagros",
+      "organization": "Arzobispado de Lima",
+      "url": "https://www.arzobispadodelima.org/actividades/pandemia-oracion-al-senor-de-los-milagros/",
+      "type": "official"
+    },
+    {
+      "title": "Señor de los Milagros: Con paso firme, construyamos un Perú unido",
+      "organization": "Arzobispado de Lima",
+      "url": "https://www.arzobispadodelima.org/actividades/senor-de-los-milagros-con-paso-firme-construyamos-un-peru-unido/",
+      "type": "official"
+    }
+  ],
+  "audio": {
+    "opening": "",
+    "closing": ""
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Mirar a Cristo crucificado",
+      "title": "Una mirada que transforma",
+      "bible": {
+        "reference": "Juan 19,16-30",
+        "title": "Jesús entrega su vida en la cruz"
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué descubro al contemplar la cruz de Jesús desde mi propia historia?",
+      "intention": "Por quienes necesitan renovar su fe en medio de una dificultad.",
+      "prayer": "Señor Jesús, al contemplar tu cruz, enséñanos a reconocer tu amor. Que nuestra mirada no se quede en una imagen, sino que nos lleve a confiar en ti y a vivir como discípulos. Amén.",
+      "action": "Dedica unos minutos a contemplar un crucifijo y agradece a Cristo por su entrega."
+    },
+    {
+      "day": 2,
+      "theme": "Conversión del corazón",
+      "title": "Volver al camino",
+      "bible": {
+        "reference": "Marcos 1,14-15",
+        "title": "Conviértanse y crean en el Evangelio"
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué aspecto de mi vida necesita una conversión sincera?",
+      "intention": "Por quienes desean regresar a Dios y comenzar una vida nueva.",
+      "prayer": "Señor de los Milagros, mueve nuestro corazón a una conversión verdadera. Danos humildad para reconocer nuestros errores y valentía para tomar decisiones que nos acerquen al Evangelio. Amén.",
+      "action": "Reconoce ante Dios un aspecto que necesitas cambiar y concreta un primer paso."
+    },
+    {
+      "day": 3,
+      "theme": "Misericordia de Dios",
+      "title": "Confiar en el perdón",
+      "bible": {
+        "reference": "Lucas 15,11-24",
+        "title": "El Padre recibe al hijo que regresa"
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿Qué me impide aceptar el perdón y la misericordia de Dios?",
+      "intention": "Por quienes cargan con culpa, vergüenza o heridas del pasado.",
+      "prayer": "Jesús misericordioso, recibe nuestras fragilidades y enséñanos a confiar en tu perdón. Que no permanezcamos encerrados en nuestras faltas, sino que busquemos caminos de reconciliación. Amén.",
+      "action": "Haz un examen sereno de conciencia y, si corresponde, considera acercarte al sacramento de la Reconciliación."
+    },
+    {
+      "day": 4,
+      "theme": "Reconciliación",
+      "title": "Perdonar y reconstruir",
+      "bible": {
+        "reference": "Mateo 5,23-24",
+        "title": "Reconcíliate con tu hermano"
+      },
+      "virtue": "Reconciliación",
+      "reflection": "¿Qué paso prudente puedo dar para sanar una relación herida?",
+      "intention": "Por las familias y comunidades afectadas por conflictos y resentimientos.",
+      "prayer": "Señor Jesús, sana nuestras heridas y danos sabiduría para reconciliarnos. Enséñanos a pedir perdón cuando corresponda, a perdonar y también a establecer límites responsables frente al daño. Amén.",
+      "action": "Ora por una persona con quien exista un conflicto y considera un gesto concreto de paz."
+    },
+    {
+      "day": 5,
+      "theme": "Cristo cercano al que sufre",
+      "title": "Acompañar con compasión",
+      "bible": {
+        "reference": "Mateo 25,35-40",
+        "title": "Lo que hicieron con uno de estos hermanos"
+      },
+      "virtue": "Compasión",
+      "reflection": "¿Cómo puedo acompañar a una persona que sufre sin minimizar su dolor?",
+      "intention": "Por los enfermos, personas en duelo y quienes atraviesan sufrimientos prolongados.",
+      "prayer": "Señor crucificado, permanece cerca de quienes sufren. Haznos capaces de escuchar, acompañar y ayudar de manera concreta, especialmente a quienes se sienten solos. Amén.",
+      "action": "Llama, visita o ayuda de manera concreta a una persona que necesite compañía."
+    },
+    {
+      "day": 6,
+      "theme": "Esperanza en la prueba",
+      "title": "Caminar sin rendirse",
+      "bible": {
+        "reference": "Romanos 8,31-39",
+        "title": "Nada podrá separarnos del amor de Cristo"
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué preocupación necesito poner hoy en las manos de Dios?",
+      "intention": "Por quienes viven incertidumbre, dificultades económicas, enfermedad o duelo.",
+      "prayer": "Señor Jesús, fortalece nuestra esperanza cuando el camino parece difícil. Enséñanos a confiar en ti, pedir ayuda cuando sea necesario y actuar con responsabilidad para afrontar nuestras dificultades. Amén.",
+      "action": "Presenta a Dios una preocupación concreta y realiza una acción responsable que pueda mejorar tu situación."
+    },
+    {
+      "day": 7,
+      "theme": "Fe que se hace servicio",
+      "title": "Servir al hermano",
+      "bible": {
+        "reference": "Santiago 2,14-17",
+        "title": "La fe se manifiesta en las obras"
+      },
+      "virtue": "Caridad",
+      "reflection": "¿A quién puedo servir hoy sin buscar reconocimiento?",
+      "intention": "Por las personas pobres, solas, enfermas o necesitadas de ayuda.",
+      "prayer": "Señor de los Milagros, que nuestra devoción no se quede en palabras. Abre nuestros ojos ante las necesidades de los demás y danos generosidad para servir con humildad. Amén.",
+      "action": "Realiza hoy una obra concreta de misericordia."
+    },
+    {
+      "day": 8,
+      "theme": "Caminar como pueblo",
+      "title": "Una fe que une",
+      "bible": {
+        "reference": "Efesios 4,1-6",
+        "title": "Un solo cuerpo y un solo Espíritu"
+      },
+      "virtue": "Unidad",
+      "reflection": "¿Qué puedo hacer para construir unidad en mi familia, comunidad o país?",
+      "intention": "Por el Perú, sus familias, comunidades y todos quienes trabajan por la paz y el bien común.",
+      "prayer": "Señor Jesús, reúne nuestros corazones en el amor. Ayúdanos a superar divisiones, a respetarnos y a trabajar por una sociedad más fraterna. Que la fe nos impulse a servir y no a separarnos. Amén.",
+      "action": "Haz hoy un gesto que favorezca la unidad: escuchar, agradecer, reconciliar o colaborar."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega y misión",
+      "title": "Después de la novena, seguir caminando",
+      "bible": {
+        "reference": "Mateo 28,18-20",
+        "title": "Vayan y hagan discípulos"
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué compromiso concreto llevaré de esta novena a mi vida diaria?",
+      "intention": "Por todas nuestras intenciones y para que la devoción al Señor de los Milagros produzca frutos de conversión, esperanza y caridad.",
+      "prayer": "Señor Jesucristo, recibimos con gratitud este camino de oración. Haz que nuestra devoción continúe después de estos nueve días y se convierta en servicio, reconciliación, misericordia y testimonio del Evangelio. Bendice al Perú y a todos sus hijos. Amén.",
+      "action": "Escribe un compromiso concreto para mantener después de la novena y comienza a vivirlo hoy."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26",
+    "textNote": "Las reflexiones, oraciones, intenciones y compromisos son textos originales de Amigos del Cielo. La información histórica distingue entre tradición devocional y datos documentados por fuentes eclesiales. No se reproducen literalmente textos de novenas externas."
+  }
+}
