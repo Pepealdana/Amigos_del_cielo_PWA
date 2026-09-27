@@ -1,0 +1,345 @@
+{
+  "id": "nuestra-senora-del-perpetuo-socorro",
+  "name": "Nuestra Señora del Perpetuo Socorro",
+  "title": "Novena a Nuestra Señora del Perpetuo Socorro",
+  "subtitle": "Confianza, consuelo y esperanza en la Madre que nos conduce a Cristo",
+  "image": null,
+  "feast": {
+    "day": 27,
+    "month": 6,
+    "text": "27 de junio",
+    "movable": false,
+    "note": "La fiesta de Nuestra Madre del Perpetuo Socorro se celebra el 27 de junio en la tradición redentorista; la novena puede rezarse en cualquier momento del año."
+  },
+  "quote": null,
+  "patronages": [
+    "Necesitados",
+    "Familias",
+    "Personas que sufren"
+  ],
+  "virtues": [
+    "Confianza",
+    "Fe",
+    "Perseverancia",
+    "Misericordia",
+    "Esperanza",
+    "Servicio"
+  ],
+  "history": {
+    "short": "La devoción a Nuestra Señora del Perpetuo Socorro está vinculada al antiguo icono mariano venerado en Roma y difundido especialmente por los Redentoristas desde el siglo XIX. La imagen invita a contemplar a María junto al Niño Jesús y a acudir a ella con confianza en las necesidades espirituales y humanas.",
+    "extended": "Según la tradición conservada por los Redentoristas, el icono tiene raíces antiguas y fue venerado públicamente en Roma desde finales del siglo XV. Después de diversos traslados, la imagen fue reencontrada por los Redentoristas en el siglo XIX. En 1866, el papa Pío IX confió el icono a la Congregación del Santísimo Redentor para que lo diera a conocer. Desde entonces la devoción se extendió por numerosos países. La Santa Sede y comunidades eclesiales han recordado repetidamente el carácter cristocéntrico de la devoción mariana: María conduce hacia su Hijo y acompaña al pueblo creyente en sus necesidades."
+  },
+  "openingPrayer": "Nuestra Señora del Perpetuo Socorro, Madre de Jesús y Madre nuestra, acompáñanos en esta novena. Enséñanos a confiar en Dios, a permanecer firmes en la oración y a servir con misericordia. Presentamos ante tu Hijo nuestras necesidades y las de quienes sufren. Amén.",
+  "closingPrayer": "Nuestra Señora del Perpetuo Socorro, permanece junto a nosotros. Llévanos siempre hacia Jesús, fortalece nuestra fe y enséñanos a vivir con esperanza, misericordia y servicio. Amén.",
+  "intentions": [
+    "Por quienes viven enfermedad, angustia o necesidad.",
+    "Por las familias y los hogares que atraviesan dificultades.",
+    "Por quienes se sienten solos o abandonados.",
+    "Por quienes buscan trabajo, estabilidad o una nueva oportunidad.",
+    "Por la paz, la reconciliación y el consuelo de quienes sufren."
+  ],
+  "bibleReferences": [
+    "Lc 1,38",
+    "Lc 1,46-49",
+    "Jn 2,1-11",
+    "Jn 19,25-27",
+    "Hch 1,14"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Confianza",
+      "title": "Acudir a María en la necesidad",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción a Nuestra Señora del Perpetuo Socorro se difundió especialmente a través de los Redentoristas, custodios de la imagen desde el siglo XIX."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "María nos enseña a acudir a Dios con confianza, especialmente cuando reconocemos nuestra necesidad."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿A quién o a qué situación necesito presentar hoy mi preocupación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven angustia, enfermedad o dificultades familiares."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre del Perpetuo Socorro, recibe nuestras necesidades y llévalas ante tu Hijo. Amén."
+      },
+      "action": "Presenta a Dios una preocupación concreta y reza por ella con serenidad.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 2,
+      "theme": "Consuelo",
+      "title": "Descubrir una Madre cercana",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El icono venerado bajo este título presenta a María con el Niño Jesús y recuerda, mediante su lenguaje simbólico, la cercanía maternal de la Virgen."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El consuelo cristiano no elimina mágicamente el sufrimiento; nos ayuda a vivirlo acompañados por Dios."
+      },
+      "virtue": "Consuelo",
+      "reflection": "¿Cómo puedo acompañar a alguien que atraviesa una dificultad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes se sienten solos, afligidos o sin apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre cercana, enséñanos a consolar con respeto y a buscar consuelo en Cristo. Amén."
+      },
+      "action": "Llama o visita a una persona que pueda necesitar compañía.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 3,
+      "theme": "Fe",
+      "title": "Mirar a Cristo con María",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La tradición iconográfica del Perpetuo Socorro dirige la mirada hacia Jesús y hacia el misterio de su pasión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción mariana auténtica conduce a Cristo y fortalece la fe en su amor salvador."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué aspecto de mi fe necesita fortalecerse?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan una crisis de fe."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora, ayúdanos a mirar a Jesús con una fe sencilla y perseverante. Amén."
+      },
+      "action": "Lee hoy un pasaje del Evangelio y permanece unos minutos en silencio.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 4,
+      "theme": "Perseverancia",
+      "title": "No abandonar la oración",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La novena a Nuestra Madre del Perpetuo Socorro se practica en numerosos lugares y puede rezarse en cualquier momento del año."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar en la oración significa permanecer fieles aun cuando no veamos inmediatamente una respuesta."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué oración o práctica espiritual necesito retomar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están cansados de esperar o luchar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre del Perpetuo Socorro, ayúdanos a perseverar cuando el camino se hace difícil. Amén."
+      },
+      "action": "Reserva un momento fijo del día para orar y cúmplelo.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 5,
+      "theme": "Misericordia",
+      "title": "Aprender a pedir y ofrecer ayuda",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La devoción al Perpetuo Socorro se ha extendido junto con la misión pastoral de los Redentoristas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Quien pide misericordia a Dios también está llamado a practicarla con los demás."
+      },
+      "virtue": "Misericordia",
+      "reflection": "¿A quién puedo ofrecer hoy una ayuda concreta?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por enfermos, personas vulnerables y quienes necesitan perdón."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre de misericordia, haznos disponibles para ayudar y perdonar. Amén."
+      },
+      "action": "Realiza una obra concreta de misericordia.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 6,
+      "theme": "Esperanza",
+      "title": "Caminar aun en tiempos difíciles",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La historia de esta advocación está marcada por generaciones que han acudido a María en circunstancias difíciles."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana permite seguir caminando sin confundir esperanza con ausencia de problemas."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Dónde necesito recuperar la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes enfrentan enfermedad, duelo, desempleo o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora, acompaña a quienes hoy necesitan una razón para esperar. Amén."
+      },
+      "action": "Escribe una razón de esperanza y compártela con alguien que la necesite.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 7,
+      "theme": "Familia",
+      "title": "Poner el hogar bajo el cuidado de Dios",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "María ocupa un lugar central en la vida de la familia de Nazaret y la tradición cristiana la contempla como Madre."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe se hace concreta en paciencia, escucha, cuidado y perdón dentro del hogar."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Qué necesita hoy mi familia de mí?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, especialmente las que atraviesan conflictos o dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Madre del Perpetuo Socorro, protege nuestros hogares y enséñanos a vivir en caridad. Amén."
+      },
+      "action": "Haz hoy un gesto de servicio o reconciliación en tu hogar.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 8,
+      "theme": "Servicio",
+      "title": "Convertir la devoción en obras",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "La expansión de la devoción estuvo ligada a comunidades que anunciaron el Evangelio y sirvieron a personas necesitadas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una devoción que no se traduce en amor al prójimo queda incompleta."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Cómo puedo transformar mi oración en servicio?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven en la Iglesia y por quienes atienden a los que sufren."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "María, ayúdanos a servir con humildad y perseverancia. Amén."
+      },
+      "action": "Ayuda a alguien sin buscar reconocimiento.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Permanecer junto a Cristo",
+      "life": {
+        "title": "Conozcamos su historia",
+        "text": "El título Perpetuo Socorro expresa una confianza continua en la intercesión maternal de María y, sobre todo, en la gracia de Dios."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Toda novena debe conducir a una vida cristiana más consciente, misericordiosa y centrada en Cristo."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero llevar después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Nuestra Señora del Perpetuo Socorro, acompáñanos siempre y llévanos a Jesús. Amén."
+      },
+      "action": "Elige un compromiso concreto de oración, servicio o reconciliación para las próximas semanas.",
+      "closing": "Nuestra Señora del Perpetuo Socorro, ruega por nosotros."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-27"
+  },
+  "interventions": [
+    {
+      "id": "necesidad",
+      "label": "Necesidades y dificultades",
+      "keywords": [
+        "necesidad",
+        "ayuda",
+        "dificultad",
+        "problemas",
+        "urgencia"
+      ]
+    },
+    {
+      "id": "familias",
+      "label": "Familias",
+      "keywords": [
+        "familia",
+        "hogar",
+        "padres",
+        "hijos",
+        "matrimonio"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermos y sufrientes",
+      "keywords": [
+        "enfermo",
+        "enfermedad",
+        "dolor",
+        "sufrimiento",
+        "hospital"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza",
+      "keywords": [
+        "esperanza",
+        "consuelo",
+        "incertidumbre",
+        "duelo"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio y caridad",
+      "keywords": [
+        "servicio",
+        "caridad",
+        "ayuda",
+        "misericordia"
+      ]
+    }
+  ],
+  "sources": [
+    "The Redemptorists of the Baltimore Province, Perpetual Help Center: historia del icono, fiesta del 27 de junio y práctica de la novena.",
+    "Redemptorists of Oceania, Our Lady of Perpetual Help: contexto del icono y difusión de la devoción.",
+    "USCCB, mensaje de los obispos de Haití: referencia a Nuestra Señora del Perpetuo Socorro como Patrona de Haití.",
+    "Santa Sede, Juan Pablo II, Celebración de la Palabra en Wadowice, 16 de junio de 1999: referencia a la veneración de Nuestra Señora del Perpetuo Socorro."
+  ],
+  "status": "published",
+  "category": "María"
+}
