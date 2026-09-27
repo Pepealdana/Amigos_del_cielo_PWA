@@ -1611,3 +1611,52 @@ body.dark .saint-history-page .history-extended-toggle{
         grid-template-columns:1fr;
     }
 }
+
+.annual-patron-history{
+    max-width:760px;
+    margin:1.5rem auto 0;
+}
+
+.annual-patron-history h3{
+    margin:0 0 .75rem;
+    color:var(--color-primary);
+    font-size:1rem;
+}
+
+.annual-patron-history-list{
+    display:grid;
+    gap:.65rem;
+}
+
+.annual-patron-history-item{
+    display:flex;
+    align-items:center;
+    gap:.85rem;
+    padding:.7rem .85rem;
+    border:1px solid var(--color-border);
+    border-radius:var(--radius-sm);
+    background:var(--color-surface);
+}
+
+.annual-patron-history-image{
+    width:48px;
+    height:60px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.annual-patron-history-item div{
+    display:flex;
+    flex-direction:column;
+    gap:.15rem;
+}
+
+.annual-patron-history-item strong{
+    color:var(--color-text-light);
+    font-size:var(--font-sm);
+}
+
+.annual-patron-history-item span{
+    color:var(--color-text);
+    font-weight:700;
+}
