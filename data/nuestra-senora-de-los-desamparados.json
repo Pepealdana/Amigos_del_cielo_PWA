@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Valencia y Madre de los que sufren",
   "image": null,
   "feast": {
+    "day": null,
+    "month": 5,
     "text": "Segundo domingo de mayo",
-    "movable": true
+    "movable": true,
+    "note": "La fiesta de Nuestra Señora de los Desamparados se celebra en Valencia el segundo domingo de mayo."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Homilía durante la visita a Valencia, 8 de noviembre de 1982.",
@@ -284,5 +287,7 @@
     "Arzobispado de Valencia, Basílica de la Virgen de los Desamparados.",
     "Generalitat Valenciana, historia y patrimonio de la Basílica de la Virgen de los Desamparados.",
     "Real Basílica de Nuestra Señora de los Desamparados, historia de la advocación y del santuario."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
