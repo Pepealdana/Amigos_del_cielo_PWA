@@ -6670,5 +6670,57 @@
       "cristeros",
       "cristo rey"
     ]
+  },
+  {
+    "id": "san-pedro-de-san-jose-de-betancur",
+    "slug": "san-pedro-de-san-jose-de-betancur",
+    "name": "San Pedro de San José de Betancur",
+    "title": "Apóstol de la caridad en América Central",
+    "subtitle": "Hermano Pedro, terciario franciscano y servidor de los pobres",
+    "category": "Santos",
+    "image": null,
+    "file": "data/san-pedro-de-san-jose-de-betancur.json",
+    "description": "Novena dedicada a San Pedro de San José de Betancur, conocido como el Hermano Pedro, testigo de la misericordia de Cristo y servidor de pobres, enfermos, huérfanos y personas abandonadas.",
+    "feast": {
+      "day": 25,
+      "month": 4,
+      "text": "25 de abril",
+      "liturgicalRank": "Memoria",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "fundadores",
+      "franciscanos",
+      "latinoamericanos"
+    ],
+    "territorial": {
+      "origin": [
+        "ES"
+      ],
+      "historicalLinks": [
+        "GT"
+      ],
+      "specialDevotion": [
+        "GT"
+      ]
+    },
+    "interventions": 7,
+    "search": [
+      "san pedro de san jose de betancur",
+      "hermano pedro",
+      "pedro betancur",
+      "san pedro de betancur",
+      "guatemala",
+      "tanzania",
+      "tierra prometida",
+      "betlemitas",
+      "orden de belen",
+      "pobres",
+      "enfermos",
+      "hospital de convalecientes",
+      "terciario franciscano",
+      "novena"
+    ]
   }
 ]
