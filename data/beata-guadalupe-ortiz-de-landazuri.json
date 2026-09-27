@@ -1,0 +1,450 @@
+{
+  "id": "beata-guadalupe-ortiz-de-landazuri",
+  "slug": "beata-guadalupe-ortiz-de-landazuri",
+  "name": "Beata Guadalupe Ortiz de Landázuri",
+  "title": "Laica, química y testigo de santidad en la vida ordinaria",
+  "subtitle": "Oración, trabajo, ciencia, alegría y servicio",
+  "category": "Beatas",
+  "image": "assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp",
+  "file": "data/beata-guadalupe-ortiz-de-landazuri.json",
+  "description": "Nueve días para acercarnos al testimonio de Guadalupe Ortiz de Landázuri, mujer laica dedicada a la enseñanza, la investigación científica y la formación cristiana, que buscó vivir su fe en medio de las tareas ordinarias.",
+  "feast": {
+    "day": 18,
+    "month": 5,
+    "text": "18 de mayo",
+    "movable": false
+  },
+  "status": "published",
+  "groups": [
+    "laicos",
+    "educadores",
+    "cientificos"
+  ],
+  "territorial": {
+    "origin": [
+      "ES"
+    ],
+    "historicalLinks": [
+      "ES",
+      "MX"
+    ],
+    "specialDevotion": [
+      "ES",
+      "MX"
+    ]
+  },
+  "search": [
+    "beata guadalupe ortiz de landázuri",
+    "beata guadalupe ortiz de landazuri",
+    "guadalupe ortiz",
+    "guadalupe ortiz de landázuri",
+    "química",
+    "quimica",
+    "científica",
+    "cientifica",
+    "profesora",
+    "educadora",
+    "méxico",
+    "mexico",
+    "opus dei",
+    "laica"
+  ],
+  "interventions": [
+    {
+      "id": "laicos",
+      "label": "Laicos y vida cristiana en el mundo",
+      "keywords": [
+        "laico",
+        "laicos",
+        "vida ordinaria",
+        "mundo",
+        "trabajo",
+        "familia"
+      ]
+    },
+    {
+      "id": "ciencia",
+      "label": "Ciencia, estudio e investigación",
+      "keywords": [
+        "ciencia",
+        "cientifica",
+        "científica",
+        "quimica",
+        "química",
+        "investigacion",
+        "investigación",
+        "estudio"
+      ]
+    },
+    {
+      "id": "educacion",
+      "label": "Educación y formación",
+      "keywords": [
+        "educacion",
+        "educación",
+        "profesora",
+        "profesor",
+        "estudiantes",
+        "formacion",
+        "formación",
+        "enseñanza"
+      ]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo y santificación de lo cotidiano",
+      "keywords": [
+        "trabajo",
+        "profesion",
+        "profesión",
+        "oficio",
+        "responsabilidad",
+        "vida cotidiana"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida espiritual",
+      "keywords": [
+        "oracion",
+        "oración",
+        "eucaristia",
+        "eucaristía",
+        "confesion",
+        "confesión",
+        "rosario",
+        "misa"
+      ]
+    },
+    {
+      "id": "alegria",
+      "label": "Alegría y esperanza",
+      "keywords": [
+        "alegria",
+        "alegría",
+        "buen humor",
+        "esperanza",
+        "optimismo",
+        "dificultad"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio y apostolado",
+      "keywords": [
+        "servicio",
+        "apostolado",
+        "evangelizacion",
+        "evangelización",
+        "formacion",
+        "formación",
+        "misión",
+        "mision"
+      ]
+    },
+    {
+      "id": "enfermos",
+      "label": "Enfermedad y fortaleza",
+      "keywords": [
+        "enfermedad",
+        "enferma",
+        "dolor",
+        "sufrimiento",
+        "operacion",
+        "operación",
+        "esperanza"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Guadalupe Ortiz de Landázuri nació en Madrid el 12 de diciembre de 1916. Estudió Ciencias Químicas y obtuvo el doctorado, desarrollando posteriormente labores docentes y de investigación. En 1944 pidió incorporarse al Opus Dei y dedicó buena parte de su vida a la formación cristiana y al apostolado, primero en España y después en México, donde impulsó diversas iniciativas educativas y apostólicas. Murió en Pamplona el 16 de julio de 1975 y fue beatificada en Madrid el 18 de mayo de 2019.",
+    "extended": "Guadalupe Ortiz de Landázuri nació en Madrid el 12 de diciembre de 1916. Estudió Ciencias Químicas y posteriormente obtuvo el doctorado, combinando su actividad académica con la enseñanza y la investigación.\n\nEn 1944 pidió ser admitida en el Opus Dei y comenzó una etapa de intensa dedicación a la formación cristiana y al apostolado. Más adelante se trasladó a México, donde participó en los comienzos de la labor apostólica de la institución y trabajó especialmente en la formación de jóvenes y mujeres. La Santa Sede destaca su capacidad para unir enseñanza, anuncio del Evangelio, trabajo profesional y servicio a los demás.\n\nSu espiritualidad estuvo marcada por una intensa vida sacramental, oración, recogimiento y confianza en Dios. Durante la Guerra Civil española sufrió el fusilamiento de su padre y otras dificultades familiares y materiales. En lugar de separar la fe de las circunstancias ordinarias, procuró convertir sus actividades cotidianas en ocasión de encuentro con Dios.\n\nDe regreso en España continuó con la enseñanza, la formación y la investigación científica. En los últimos años afrontó problemas cardíacos y una intervención quirúrgica. Murió en Pamplona el 16 de julio de 1975.\n\nFue beatificada en Madrid el 18 de mayo de 2019. La Santa Sede estableció esa misma fecha como su celebración litúrgica, que coincide con el aniversario de su Primera Comunión."
+  },
+  "intercessionPrayer": {
+    "title": "Oración de intercesión a la Beata Guadalupe Ortiz de Landázuri",
+    "text": "Señor Jesús, gracias por el testimonio de la Beata Guadalupe Ortiz de Landázuri. Por su intercesión, ayúdanos a buscarte en la vida cotidiana, a trabajar con responsabilidad, a estudiar y servir con generosidad, y a poner nuestros conocimientos al servicio del bien. Acompaña a quienes enseñan, investigan, trabajan y buscan vivir su fe en medio de sus responsabilidades. Danos alegría, perseverancia y confianza en ti. Amén.",
+    "attribution": "Texto original de Amigos del Cielo; no se presenta como oración litúrgica oficial."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nBeata Guadalupe, acompáñanos durante estos nueve días. Enséñanos a encontrar a Dios en nuestras responsabilidades diarias, en el estudio, el trabajo, la ciencia, la familia y el servicio. Ayúdanos a vivir con alegría y perseverancia, y presenta al Señor nuestras intenciones. Amén.",
+  "closingPrayer": "Señor Jesús, gracias por el testimonio de la Beata Guadalupe Ortiz de Landázuri. Ayúdanos a unir nuestra fe con nuestra vida cotidiana y a poner nuestros talentos al servicio de los demás. Danos fortaleza en las dificultades, alegría en el servicio y fidelidad en la oración. Recibe nuestras intenciones y guíanos hacia el bien. Amén.",
+  "intentions": [
+    "Por quienes buscan vivir su fe en medio del estudio y el trabajo.",
+    "Por estudiantes, profesores, investigadores y científicos.",
+    "Por los laicos que desean servir a la Iglesia y a la sociedad desde sus profesiones.",
+    "Por quienes necesitan descubrir un sentido cristiano para su trabajo cotidiano.",
+    "Por las mujeres que trabajan en la ciencia, la educación y otros ámbitos profesionales.",
+    "Por quienes atraviesan enfermedades o dificultades prolongadas.",
+    "Por las personas que viven lejos de su país y buscan servir en nuevos lugares.",
+    "Por quienes necesitan alegría y esperanza en medio de las responsabilidades diarias.",
+    "Presenta a Dios tu intención particular y pídele que se cumpla su voluntad."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Mateo 5,13-16"
+      },
+      {
+        "reference": "Colosenses 3,12-17"
+      },
+      {
+        "reference": "1 Corintios 10,31-33"
+      },
+      {
+        "reference": "Juan 15,9-17"
+      },
+      {
+        "reference": "Filipenses 4,4-9"
+      },
+      {
+        "reference": "Romanos 12,9-18"
+      },
+      {
+        "reference": "Proverbios 31,10-31"
+      },
+      {
+        "reference": "2 Corintios 4,7-18"
+      },
+      {
+        "reference": "Mateo 25,14-30"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Homilía de beatificación de Guadalupe Ortiz de Landázuri",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2019/05/18/beat.html",
+      "type": "official"
+    },
+    {
+      "title": "Regina Coeli del 19 de mayo de 2019",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/francesco/es/angelus/2019/documents/papa-francesco_regina-coeli_20190519.html",
+      "type": "official"
+    },
+    {
+      "title": "Decreto de beatificación",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/archive/aas/documents/2020/acta-febbraio2020.pdf",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Buscar a Dios en lo cotidiano",
+      "title": "La santidad también se vive cada día",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Guadalupe buscó a Dios mientras estudiaba, enseñaba, investigaba y atendía responsabilidades concretas. Su vida muestra una fe integrada con las tareas ordinarias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida espiritual no está separada de nuestras responsabilidades. Estudiar, trabajar y cuidar a otros pueden convertirse en ocasiones para amar y servir."
+      },
+      "virtue": "Unidad de vida",
+      "reflection": "¿Qué actividad cotidiana puedo vivir hoy con mayor conciencia de la presencia de Dios?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean encontrar a Dios en sus actividades diarias."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, enséñanos a buscar a Dios también en nuestras tareas ordinarias. Amén."
+      },
+      "action": "Elige una tarea habitual y realízala hoy con especial atención, responsabilidad y espíritu de servicio."
+    },
+    {
+      "day": 2,
+      "theme": "Oración y vida sacramental",
+      "title": "Poner a Cristo en el centro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La homilía de beatificación destaca que la oración, la Santa Misa y la confesión fueron pilares de la vida espiritual de Guadalupe, junto con su devoción al Rosario."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La actividad exterior necesita una fuente interior. La oración y los sacramentos ayudan a orientar nuestras decisiones y nuestro trabajo hacia Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Qué puedo ajustar en mi rutina para cuidar mejor mi vida de oración?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar una vida espiritual más constante."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, ayúdanos a poner a Cristo en el centro de nuestra vida. Amén."
+      },
+      "action": "Reserva hoy un momento concreto para la oración y protégelo de otras ocupaciones."
+    },
+    {
+      "day": 3,
+      "theme": "Estudio y ciencia",
+      "title": "Buscar la verdad con responsabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Guadalupe estudió Ciencias Químicas, obtuvo el doctorado y desarrolló labores de enseñanza e investigación. El Papa Francisco destacó su testimonio para las mujeres vinculadas a la investigación científica."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La búsqueda del conocimiento puede estar al servicio de la verdad y del bien común. La fe no exige abandonar la razón, sino vivir ambas dimensiones con responsabilidad."
+      },
+      "virtue": "Diligencia",
+      "reflection": "¿Cómo puedo utilizar mejor mis conocimientos para ayudar a otras personas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, investigadores, científicos y profesores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, ayúdanos a buscar la verdad con humildad y a poner nuestros conocimientos al servicio del bien. Amén."
+      },
+      "action": "Comparte hoy un conocimiento útil con alguien que pueda beneficiarse de él."
+    },
+    {
+      "day": 4,
+      "theme": "Educación y formación",
+      "title": "Ayudar a otros a crecer",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Una parte importante de la actividad de Guadalupe estuvo dedicada a la enseñanza y a la formación de jóvenes y mujeres, tanto en España como en México."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Educar no consiste solamente en transmitir información. También implica acompañar, formar criterios y ayudar a cada persona a desarrollar sus capacidades."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿A quién puedo ayudar hoy a aprender algo que le sirva para crecer?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por profesores, educadores, estudiantes y quienes acompañan procesos de formación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, acompaña a quienes enseñan y a quienes aprenden. Amén."
+      },
+      "action": "Ayuda hoy a alguien con una explicación, orientación o recurso que facilite su aprendizaje."
+    },
+    {
+      "day": 5,
+      "theme": "Servicio y misión",
+      "title": "Poner los talentos al servicio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Cuando se le pidió colaborar en México, Guadalupe aceptó con generosidad y participó en el inicio de la labor apostólica del Opus Dei en ese país, dedicándose especialmente a la formación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Los talentos personales adquieren una dimensión mayor cuando se ponen al servicio de otros. Servir también exige adaptarse, aprender y perseverar."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué talento o capacidad puedo poner hoy al servicio de otra persona?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sirven en contextos nuevos o lejos de su lugar de origen."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, enséñanos a poner nuestros talentos al servicio con generosidad y disponibilidad. Amén."
+      },
+      "action": "Ofrece hoy gratuitamente una habilidad tuya para ayudar a alguien."
+    },
+    {
+      "day": 6,
+      "theme": "Alegría en la dificultad",
+      "title": "Transformar las pruebas en ocasión de fe",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Guadalupe atravesó la Guerra Civil española, perdió a su padre por fusilamiento y experimentó dificultades materiales y familiares. La Santa Sede destaca la fortaleza de su fe ante estas circunstancias."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La alegría cristiana no significa ignorar el dolor. Puede coexistir con la tristeza y ayudarnos a responder a las dificultades sin perder la esperanza."
+      },
+      "virtue": "Fortaleza",
+      "reflection": "¿Cómo puedo responder hoy a una dificultad sin dejar que me quite la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan situaciones familiares, económicas o personales difíciles."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, acompaña a quienes sufren y ayúdanos a conservar la esperanza. Amén."
+      },
+      "action": "Ante una dificultad concreta, sustituye hoy una reacción de desánimo por una acción responsable y posible."
+    },
+    {
+      "day": 7,
+      "theme": "Trabajo y responsabilidad",
+      "title": "Trabajar con sentido",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Guadalupe combinó responsabilidades de enseñanza, investigación, formación y gobierno con una intensa vida espiritual. Para ella, las tareas profesionales podían convertirse en una forma de servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El trabajo puede ser una forma concreta de servir a otros cuando se realiza con competencia, honestidad y responsabilidad."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué aspecto de mi trabajo o estudio necesita hoy más cuidado?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por trabajadores, profesionales, estudiantes y personas que buscan empleo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, ayúdanos a trabajar con responsabilidad, honestidad y espíritu de servicio. Amén."
+      },
+      "action": "Mejora hoy un pequeño aspecto de tu trabajo o estudio que hayas estado postergando."
+    },
+    {
+      "day": 8,
+      "theme": "Acogida y servicio a los demás",
+      "title": "Ser un don para otros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La homilía de beatificación señala que Guadalupe tenía el corazón abierto a las necesidades del prójimo y que su servicio se expresaba en acogida, comprensión y formación."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Servir comienza muchas veces por prestar atención. Escuchar, comprender y acoger pueden ser formas concretas de caridad."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Quién necesita hoy que lo escuche con verdadera atención?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas que se sienten solas, poco comprendidas o necesitadas de apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, enséñanos a acoger y comprender a quienes encontramos. Amén."
+      },
+      "action": "Escucha hoy a alguien sin mirar el teléfono ni preparar inmediatamente una respuesta."
+    },
+    {
+      "day": 9,
+      "theme": "Perseverancia y entrega",
+      "title": "Caminar con los pies en la tierra y la mirada en Dios",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Guadalupe perseveró en la oración, el trabajo, la formación y el servicio hasta el final de su vida, incluso mientras afrontaba problemas de salud. Su camino fue una entrega progresiva a Dios en circunstancias concretas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La perseverancia consiste en continuar haciendo el bien cuando desaparece la novedad. La vida cristiana crece mediante pequeñas fidelidades sostenidas en el tiempo."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué buena decisión necesito renovar para continuar avanzando?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan fortaleza para perseverar en una vocación, trabajo, estudio o compromiso."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Guadalupe, ayúdanos a perseverar con alegría y a mantener nuestra mirada en Dios. Amén."
+      },
+      "action": "Renueva hoy un compromiso bueno que hayas abandonado y da un paso concreto para retomarlo."
+    }
+  ]
+}
