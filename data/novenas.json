@@ -6410,5 +6410,58 @@
       "confesion",
       "confesión"
     ]
+  },
+  {
+    "id": "san-pedro-apostol",
+    "slug": "san-pedro-apostol",
+    "name": "San Pedro Apóstol",
+    "title": "Apóstol y pastor de la Iglesia",
+    "subtitle": "Fe, conversión, servicio y perseverancia",
+    "category": "Santos",
+    "image": "assets/images/santos/san_pedro_apostol.webp",
+    "file": "data/san-pedro-apostol.json",
+    "description": "Apóstol de Jesús y figura fundamental de la primera Iglesia, venerado como mártir y primer obispo de Roma según la tradición.",
+    "feast": {
+      "day": 29,
+      "month": 6,
+      "text": "29 de junio",
+      "movable": false,
+      "liturgicalRank": "Solemnidad"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "apostoles",
+      "martires"
+    ],
+    "territorial": {
+      "origin": [
+        "IL"
+      ],
+      "historicalLinks": [
+        "IL",
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "san pedro",
+      "pedro apostol",
+      "Pedro Apóstol",
+      "simón pedro",
+      "apostol",
+      "apóstol",
+      "pescador",
+      "roma",
+      "llaves",
+      "roca",
+      "papa",
+      "martir",
+      "mártir",
+      "galilea"
+    ]
   }
 ]
