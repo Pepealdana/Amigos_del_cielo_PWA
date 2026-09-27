@@ -111,26 +111,6 @@
       ]
     },
     {
-      "id": "beata-clara-fey",
-      "name": "Beata Clara Fey",
-      "category": "beatas",
-      "status": "published",
-      "sourceFile": "data/beata-clara-fey.json",
-      "note": "Excepción mantenida en v2; no ampliar esta categoría por ahora.",
-      "territorial": {
-        "origin": [
-          "DE"
-        ],
-        "historicalLinks": [
-          "DE"
-        ],
-        "specialDevotion": []
-      },
-      "groups": [
-        "fundadores"
-      ]
-    },
-    {
       "id": "senor-de-los-milagros-peru",
       "name": "Señor de los Milagros del Perú",
       "category": "devociones",
