@@ -1424,19 +1424,26 @@
     {
       "id": "san-pedro-apostol",
       "name": "San Pedro Apóstol",
-      "status": "pending",
+      "status": "published",
       "category": "santos",
       "sourceFile": "data/san-pedro-apostol.json",
-      "priority": "alta",
+      "priority": "existente",
       "groups": [
         "devocion-extendida",
         "apostoles",
         "martires"
       ],
       "territorial": {
-        "origin": [],
-        "historicalLinks": [],
-        "specialDevotion": []
+        "origin": [
+          "IL"
+        ],
+        "historicalLinks": [
+          "IL",
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
       }
     },
     {
