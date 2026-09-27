@@ -5,8 +5,11 @@
   "subtitle": "La Churona, Madre de los peregrinos y Reina de Loja",
   "image": null,
   "feast": {
+    "day": 15,
+    "month": 8,
     "text": "15 de agosto",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de El Cisne se celebra el 15 de agosto; la advocación está especialmente vinculada a la provincia de Loja, Ecuador."
   },
   "liturgicalRank": "Solemnidad local",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "Santuario Nacional de El Cisne, historia del santuario y programa oficial de fiestas 2026.",
     "Municipio de Loja, información histórica y turística sobre El Cisne y su santuario.",
     "Diócesis de Loja, documentación sobre la devoción y la tradición de Nuestra Señora de El Cisne.",
     "Santa Sede, documentación sobre la visita y ministerio de san Juan Pablo II."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
