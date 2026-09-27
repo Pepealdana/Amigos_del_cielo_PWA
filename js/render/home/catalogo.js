@@ -619,7 +619,11 @@ function obtenerDatoSecundarioCatalogo(item, seccion) {
     }
 
     if (seccion === "todos") {
-        return obtenerEtiquetaCatalogo(item);
+        const etiqueta = obtenerEtiquetaCatalogo(item);
+
+        return fiesta
+            ? `${etiqueta} · Fiesta: ${fiesta}`
+            : etiqueta;
     }
 
     return item.status === "published"
@@ -671,9 +675,7 @@ function renderTarjetaCatalogoV2(item, seccion) {
             <span class="catalog-card-body">
                 <strong>${escaparHTML(item.name)}</strong>
                 <small>
-                    ${seccion === "maria"
-                        ? escaparHTML(etiquetasPais.join(" · ") || "Tradición mariana")
-                        : escaparHTML(obtenerDatoSecundarioCatalogo(item, seccion))}
+                    ${escaparHTML(obtenerDatoSecundarioCatalogo(item, seccion))}
                 </small>
             </span>
         </button>
