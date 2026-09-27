@@ -9,7 +9,9 @@
 - Corrección del buscador para mostrar un marcador cuando un contenido no tiene imagen.
 - Consolidación de la versión interna de la aplicación en 1.3.0.
 - Revisión de tema claro, tema oscuro, tipografía, estados de foco y comportamiento responsive.
-- Conservación de imágenes pendientes como trabajo de una fase global posterior.
+- Integración completa de las imágenes de la colección ampliada de la versión 1.3.0.
+- Verificación de coincidencia entre nombres físicos, rutas de datos y Service Worker.
+- La pasada global de recursos visuales queda cerrada para esta versión.
 
 ## [1.1.0] — Contenido
 
@@ -69,5 +71,8 @@ Inicio de la transición de Amigos del Cielo hacia una aplicación católica dir
 - Incorporación de la novena original a Nuestra Señora de la Dulce Espera.
 - Fecha devocional: 18 de diciembre, señalada como fecha tradicional y no como solemnidad universal.
 - Integración de ambas advocaciones en el catálogo mariano y el registro legado.
-- Inclusión de ambas novenas en el Service Worker, cache v195.
-- Imágenes quedan pendientes de la pasada global de recursos visuales.
+- Inclusión de ambas novenas en el Service Worker, cache v196.
+- Integración de las imágenes `virgen_del_perpetuo_socorro.webp` y `virgen_de_la_dulce_espera.webp`.
+- Corrección de la ubicación de las imágenes nuevas: `assets/icons/santos/` → `assets/images/santos/`.
+- Normalización de la imagen de Chiquinquirá a `virgen_de_chiquinquira.webp` y eliminación del duplicado `virgen_de_copacabana (1).webp`.
+- Cierre de la pasada global de recursos visuales de la versión 1.3.0.
