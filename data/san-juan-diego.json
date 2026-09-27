@@ -24,7 +24,7 @@
     "day": 9,
     "month": 12,
     "text": "9 de diciembre",
-    "liturgicalRank": "Memoria",
+    "liturgicalRank": "Memoria facultativa",
     "movable": false
   },
   "quote": {
@@ -126,6 +126,12 @@
       "title": "St. Juan Diego — Memorial December 9",
       "organization": "United States Conference of Catholic Bishops",
       "url": "https://www.usccb.org/sites/default/files/2021-09/Booklet-of-Prayers-2_0.pdf",
+      "type": "official"
+    },
+    {
+      "title": "Memoria opcional de San Juan Diego Cuauhtlatoatzin",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/1209-memoria.cfm",
       "type": "official"
     }
   ],
@@ -365,7 +371,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -449,5 +455,20 @@
         "culturas"
       ]
     }
-  ]
+  ],
+  "groups": [
+    "latinoamericanos",
+    "devocion-extendida"
+  ],
+  "territorial": {
+    "origin": [
+      "MX"
+    ],
+    "historicalLinks": [
+      "MX"
+    ],
+    "specialDevotion": [
+      "MX"
+    ]
+  }
 }
