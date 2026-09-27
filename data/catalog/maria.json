@@ -23,7 +23,14 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "feast": {
+        "text": "12 de diciembre",
+        "day": 12,
+        "month": 12,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-del-carmen",
@@ -47,7 +54,14 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "feast": {
+        "text": "16 de julio",
+        "day": 16,
+        "month": 7,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-fatima",
@@ -67,7 +81,14 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "feast": {
+        "text": "13 de mayo",
+        "day": 13,
+        "month": 5,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-lourdes",
@@ -87,7 +108,14 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "feast": {
+        "text": "11 de febrero",
+        "day": 11,
+        "month": 2,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-lujan",
@@ -108,7 +136,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_lujan.webp"
+      "image": "assets/images/santos/virgen_de_lujan.webp",
+      "feast": {
+        "text": "8 de mayo",
+        "day": 8,
+        "month": 5,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-chiquinquira",
@@ -131,7 +166,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_chiquinquira.webp"
+      "image": "assets/images/santos/virgen_de_chiquinquira.webp",
+      "feast": {
+        "text": "9 de julio",
+        "day": 9,
+        "month": 7,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-coromoto",
@@ -152,7 +194,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_coromoto.webp"
+      "image": "assets/images/santos/virgen_de_coromoto.webp",
+      "feast": {
+        "text": "11 de septiembre",
+        "day": 11,
+        "month": 9,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-suyapa",
@@ -173,7 +222,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_suyapa.webp"
+      "image": "assets/images/santos/virgen_de_suyapa.webp",
+      "feast": {
+        "text": "3 de febrero",
+        "day": 3,
+        "month": 2,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-la-caridad-del-cobre",
@@ -194,7 +250,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_la_caridad_del_cobre.webp"
+      "image": "assets/images/santos/virgen_de_la_caridad_del_cobre.webp",
+      "feast": {
+        "text": "8 de septiembre",
+        "day": 8,
+        "month": 9,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-el-quinche",
@@ -215,7 +278,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_el_quinche.webp"
+      "image": "assets/images/santos/virgen_de_el_quinche.webp",
+      "feast": {
+        "text": "21 de noviembre",
+        "day": 21,
+        "month": 11,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-caacupe",
@@ -236,7 +306,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_caacupe.webp"
+      "image": "assets/images/santos/virgen_de_caacupe.webp",
+      "feast": {
+        "text": "8 de diciembre",
+        "day": 8,
+        "month": 12,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-la-merced",
@@ -261,7 +338,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_la_merced.webp"
+      "image": "assets/images/santos/virgen_de_la_merced.webp",
+      "feast": {
+        "text": "24 de septiembre",
+        "day": 24,
+        "month": 9,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-la-altagracia",
@@ -282,7 +366,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_la_altagracia.webp"
+      "image": "assets/images/santos/virgen_de_la_altagracia.webp",
+      "feast": {
+        "text": "21 de enero",
+        "day": 21,
+        "month": 1,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-copacabana",
@@ -303,7 +394,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_copacabana.webp"
+      "image": "assets/images/santos/virgen_de_copacabana.webp",
+      "feast": {
+        "text": "5 de agosto",
+        "day": 5,
+        "month": 8,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "santa-maria-la-antigua",
@@ -324,7 +422,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/santa_maria_la_antigua.webp"
+      "image": "assets/images/santos/santa_maria_la_antigua.webp",
+      "feast": {
+        "text": "9 de septiembre",
+        "day": 9,
+        "month": 9,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-reina-de-la-paz",
@@ -345,7 +450,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_reina_de_la_paz.webp"
+      "image": "assets/images/santos/nuestra_senora_reina_de_la_paz.webp",
+      "feast": {
+        "text": "21 de noviembre",
+        "day": 21,
+        "month": 11,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-de-los-angeles",
@@ -366,7 +478,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_los_angeles.webp"
+      "image": "assets/images/santos/nuestra_senora_de_los_angeles.webp",
+      "feast": {
+        "text": "2 de agosto",
+        "day": 2,
+        "month": 8,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "la-purisima",
@@ -387,7 +506,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/la_purisima.webp"
+      "image": "assets/images/santos/la_purisima.webp",
+      "feast": {
+        "text": "8 de diciembre",
+        "day": 8,
+        "month": 12,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-de-la-divina-providencia",
@@ -408,7 +534,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_la_divina_providencia.webp"
+      "image": "assets/images/santos/nuestra_senora_de_la_divina_providencia.webp",
+      "feast": {
+        "text": "19 de noviembre",
+        "day": 19,
+        "month": 11,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-los-treinta-y-tres",
@@ -429,7 +562,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/virgen_de_los_treinta_y_tres.webp"
+      "image": "assets/images/santos/virgen_de_los_treinta_y_tres.webp",
+      "feast": {
+        "text": "8 de noviembre",
+        "day": 8,
+        "month": 11,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-del-pilar",
@@ -452,7 +592,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_del_pilar.webp"
+      "image": "assets/images/santos/nuestra_senora_del_pilar.webp",
+      "feast": {
+        "text": "12 de octubre",
+        "day": 12,
+        "month": 10,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-de-la-almudena",
@@ -473,7 +620,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_la_almudena.webp"
+      "image": "assets/images/santos/nuestra_senora_de_la_almudena.webp",
+      "feast": {
+        "text": "9 de noviembre",
+        "day": 9,
+        "month": 11,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-de-los-desamparados",
@@ -494,7 +648,11 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_los_desamparados.webp"
+      "image": "assets/images/santos/nuestra_senora_de_los_desamparados.webp",
+      "feast": {
+        "text": "Segundo domingo de mayo",
+        "movable": true
+      }
     },
     {
       "id": "nuestra-senora-de-la-candelaria",
@@ -519,7 +677,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_la_candelaria.webp"
+      "image": "assets/images/santos/nuestra_senora_de_la_candelaria.webp",
+      "feast": {
+        "text": "2 de febrero",
+        "day": 2,
+        "month": 2,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-de-las-lajas",
@@ -540,7 +705,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_del_rosario_de_las_lajas.webp"
+      "image": "assets/images/santos/nuestra_senora_del_rosario_de_las_lajas.webp",
+      "feast": {
+        "text": "15 de septiembre",
+        "day": 15,
+        "month": 9,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-del-valle",
@@ -561,7 +733,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_del_valle.webp"
+      "image": "assets/images/santos/nuestra_senora_del_valle.webp",
+      "feast": {
+        "text": "8 de septiembre",
+        "day": 8,
+        "month": 9,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-chiquinquira-de-maracaibo",
@@ -582,7 +761,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_del_rosario_de_chiquinquira_de_maracaibo.webp"
+      "image": "assets/images/santos/nuestra_senora_del_rosario_de_chiquinquira_de_maracaibo.webp",
+      "feast": {
+        "text": "18 de noviembre",
+        "day": 18,
+        "month": 11,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-del-cisne",
@@ -603,7 +789,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_el_cisne.webp"
+      "image": "assets/images/santos/nuestra_senora_de_el_cisne.webp",
+      "feast": {
+        "text": "15 de agosto",
+        "day": 15,
+        "month": 8,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-andacollo",
@@ -624,7 +817,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_del_rosario_de_andacollo.webp"
+      "image": "assets/images/santos/nuestra_senora_del_rosario_de_andacollo.webp",
+      "feast": {
+        "text": "26 de diciembre",
+        "day": 26,
+        "month": 12,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-de-covadonga",
@@ -645,7 +845,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_covadonga.webp"
+      "image": "assets/images/santos/nuestra_senora_de_covadonga.webp",
+      "feast": {
+        "text": "8 de septiembre",
+        "day": 8,
+        "month": 9,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-de-montserrat",
@@ -666,7 +873,14 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_de_montserrat.webp"
+      "image": "assets/images/santos/nuestra_senora_de_montserrat.webp",
+      "feast": {
+        "text": "27 de abril",
+        "day": 27,
+        "month": 4,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "virgen-del-rocio",
@@ -687,7 +901,11 @@
       "groups": [
         "advocaciones-marianas"
       ],
-      "image": "assets/images/santos/nuestra_senora_del_rocio.webp"
+      "image": "assets/images/santos/nuestra_senora_del_rocio.webp",
+      "feast": {
+        "text": "Lunes de Pentecostés",
+        "movable": true
+      }
     },
     {
       "id": "nuestra-senora-del-perpetuo-socorro",
@@ -708,7 +926,14 @@
       "groups": [
         "advocaciones-marianas",
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "text": "27 de junio",
+        "day": 27,
+        "month": 6,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     },
     {
       "id": "nuestra-senora-de-la-dulce-espera",
@@ -729,7 +954,14 @@
       "groups": [
         "advocaciones-marianas",
         "devocion-extendida"
-      ]
+      ],
+      "feast": {
+        "text": "18 de diciembre",
+        "day": 18,
+        "month": 12,
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
     }
   ]
 }
