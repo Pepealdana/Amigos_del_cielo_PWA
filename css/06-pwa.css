@@ -369,6 +369,16 @@ body::before{
     border-radius:10px;
 }
 
+.search-result-image-placeholder{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--soft-blue);
+    border:1px solid var(--color-border);
+    color:var(--color-accent);
+    font-size:1.15rem;
+}
+
 .search-result-text{
     min-width:0;
 }
