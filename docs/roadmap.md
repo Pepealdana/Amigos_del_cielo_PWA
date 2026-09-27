@@ -1,109 +1,71 @@
-# Roadmap
+# Roadmap — Amigos del Cielo
 
-## Arquitectura
+## Estado actual
 
-✔ HTML
+### Arquitectura
+- [x] HTML
+- [x] CSS
+- [x] Router
+- [x] Estado
+- [x] Servicios
+- [x] Renderizado
+- [x] Utilidades
+- [x] Catálogo maestro V2
+- [x] PWA
 
-✔ CSS
+### Experiencia
+- [x] Inicio
+- [x] Biblioteca
+- [x] Catálogo
+- [x] Búsqueda
+- [x] Favoritos
+- [x] Mi progreso
+- [x] Compartir
+- [x] Configuración
+- [x] Temas claro/oscuro/automático
+- [x] Tamaño de texto
+- [x] Calendario litúrgico
+- [x] Filtros por país y tema
+- [x] Historia extendida
 
-✔ Router
+### Contenido
+- [x] Más de 70 novenas publicadas
+- [x] Catálogo ampliado de Santos
+- [x] Catálogo de Beatos
+- [x] Catálogo de María
+- [x] Catálogo de Devociones
+- [x] Fuentes y metadatos territoriales
+- [x] Imágenes normalizadas
 
-✔ Estado
+### PWA
+- [x] Manifest
+- [x] Service Worker
+- [x] Caché offline
+- [x] Instalación
+- [x] Actualización de caché por versión
 
-✔ Servicios
+## Pendiente
 
-✔ Render
+### Próxima etapa
+- [ ] Notificaciones locales o push
+- [ ] Auditoría WCAG más profunda
+- [ ] Optimización de imágenes y rendimiento
+- [ ] Pruebas automatizadas de navegación
+- [ ] Pruebas reales offline en Android/iOS/escritorio
 
-✔ Utilidades
+### Evolución
+- [ ] Biblioteca espiritual
+- [ ] Audio
+- [ ] Lectura por voz
+- [ ] Sincronización entre dispositivos
+- [ ] Multiidioma
 
----
+## Criterio de versión
 
-## Interfaz
+La versión funcional se mantiene en APP_CONFIG.version.
 
-✔ Inicio
+La aplicación está en **1.3.1**. El Service Worker utiliza **v214** como identificador de caché y los recursos versionados del HTML utilizan **?v=214**.
 
-✔ Biblioteca
+La versión funcional y la generación de caché son conceptos distintos: la primera identifica cambios de producto; la segunda invalida recursos del navegador.
 
-✔ Portada
-
-✔ Historia
-
-□ Día 1
-
-□ Día 2
-
-□ Día 3
-
-□ Día 4
-
-□ Día 5
-
-□ Día 6
-
-□ Día 7
-
-□ Día 8
-
-□ Día 9
-
----
-
-## Funcionalidades
-
-□ Favoritos
-
-□ Guardar progreso
-
-□ Buscar
-
-□ Compartir
-
-□ Notificaciones
-
-□ Audio
-
-□ Calendario litúrgico
-
-□ Temas
-
----
-
-## PWA
-
-□ Manifest
-
-□ Service Worker
-
-□ Offline
-
-□ Instalación
-
----
-
-## Contenido
-
-□ 10 novenas
-
-□ 20 novenas
-
-□ 50 novenas
-
-□ 100 novenas
-
----
-
-## Futuro
-
-□ Inglés
-
-□ Portugués
-
-□ Italiano
-
-□ Francés
-
-□ Lectura por voz
-
-□ Música ambiental
-
-□ Sincronización
+No deben utilizarse números antiguos de cache-busting salvo que exista una razón documentada.
