@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Honduras y Madre del pueblo hondureño",
   "image": null,
   "feast": {
+    "day": 3,
+    "month": 2,
     "text": "3 de febrero",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de Suyapa se celebra el 3 de febrero; es Patrona de Honduras."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -332,5 +335,7 @@
     "San Juan Pablo II, Santa Misa en el Santuario de Nuestra Señora de Suyapa, Tegucigalpa, 8 de marzo de 1983.",
     "San Juan Pablo II, discurso a los obispos de Honduras en visita ad limina, 4 de febrero de 1994.",
     "Santa Sede, homilía en la Basílica de Suyapa, 14 de julio de 2024."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
