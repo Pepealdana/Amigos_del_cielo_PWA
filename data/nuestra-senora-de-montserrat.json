@@ -5,8 +5,11 @@
   "subtitle": "La Moreneta, Patrona de las diócesis catalanas",
   "image": null,
   "feast": {
+    "day": 27,
+    "month": 4,
     "text": "27 de abril",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de Montserrat se celebra el 27 de abril; es una advocación especialmente vinculada al santuario de Montserrat, en Cataluña, España."
   },
   "liturgicalRank": "Solemnidad local",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "Abadía de Montserrat, historia del monasterio y de la Virgen de Montserrat.",
     "Abadía de Montserrat, festividad de la Mare de Déu de Montserrat, 27 de abril.",
     "San Juan Pablo II, Celebración de la Palabra en el Santuario de Montserrat, 7 de noviembre de 1982.",
     "San Juan Pablo II, Ángelus en Barcelona, 7 de noviembre de 1982."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
