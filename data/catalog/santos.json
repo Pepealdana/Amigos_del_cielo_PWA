@@ -797,7 +797,14 @@
       "groups": [
         "latinoamericanos"
       ],
-      "image": "assets/images/santos/santa_mariana_de_jesus.webp"
+      "image": "assets/images/santos/santa_mariana_de_jesus.webp",
+      "feast": {
+        "day": 26,
+        "month": 5,
+        "text": "26 de mayo",
+        "liturgicalRank": "Memoria",
+        "movable": false
+      }
     },
     {
       "id": "santo-toribio-de-mogrovejo",
@@ -820,7 +827,14 @@
       "groups": [
         "latinoamericanos"
       ],
-      "image": "assets/images/santos/santo_toribio_de_mogrovejo.webp"
+      "image": "assets/images/santos/santo_toribio_de_mogrovejo.webp",
+      "feast": {
+        "day": 23,
+        "month": 3,
+        "text": "23 de marzo",
+        "liturgicalRank": "Memoria",
+        "movable": false
+      }
     },
     {
       "id": "san-juan-macias",
