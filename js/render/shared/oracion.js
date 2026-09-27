@@ -33,7 +33,7 @@ function renderOracion(
 
                 <p>
 
-                    ${escaparHTML(texto)}
+                    ${escaparHTML(texto).replace(/\\n/g, "<br>")}
 
                 </p>
 
