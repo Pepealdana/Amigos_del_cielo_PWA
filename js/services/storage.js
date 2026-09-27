@@ -100,6 +100,15 @@ function cargarProgreso() {
         }
     }
 
+    for (const datos of Object.values(state.progreso)) {
+        if (!datos || typeof datos !== "object") continue;
+        if (!Array.isArray(datos.diasVisitados) && Array.isArray(datos.completados)) {
+            datos.diasVisitados = [...new Set(
+                datos.completados.map(Number).filter(dia => Number.isInteger(dia) && dia >= 1)
+            )].sort((a, b) => a - b);
+        }
+    }
+
     const ids = Object.keys(state.progreso);
 
     if (ids.length > 0) {
