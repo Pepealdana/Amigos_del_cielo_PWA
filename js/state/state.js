@@ -7,6 +7,7 @@ const state = {
     catalogo: [],
     catalogosV2: {
         santos: [],
+        beatos: [],
         maria: [],
         devociones: [],
         paises: []
