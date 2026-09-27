@@ -6815,7 +6815,7 @@
     "title": "Novena a Nuestra Señora del Perpetuo Socorro",
     "subtitle": "Confianza, consuelo y esperanza en la Madre que nos conduce a Cristo",
     "category": "María",
-    "image": null,
+    "image": "assets/images/santos/virgen_del_perpetuo_socorro.webp",
     "file": "data/nuestra-senora-del-perpetuo-socorro.json",
     "description": "Nueve días para acudir con confianza a Nuestra Señora del Perpetuo Socorro, fortalecer la fe, vivir la misericordia y caminar hacia Cristo.",
     "feast": {
@@ -6850,7 +6850,7 @@
     "title": "Novena a Nuestra Señora de la Dulce Espera",
     "subtitle": "Esperar con María la vida nueva y la llegada de Jesús",
     "category": "María",
-    "image": null,
+    "image": "assets/images/santos/virgen_de_la_dulce_espera.webp",
     "file": "data/nuestra-senora-de-la-dulce-espera.json",
     "description": "Nueve días para contemplar a María en la espera del nacimiento de Jesús, fortalecer la esperanza y acompañar con oración a madres y familias.",
     "feast": {
