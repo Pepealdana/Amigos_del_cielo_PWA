@@ -1513,7 +1513,7 @@ body.dark .saint-history-page .history-extended-toggle{
 .annual-patron-content h3{
     margin:0;
     color:var(--color-primary);
-    font-size:var(--font-xxl);
+    font-size:clamp(1.5rem,5vw,2rem);
 }
 
 .annual-patron-title,
