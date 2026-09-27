@@ -100,15 +100,6 @@ function cargarProgreso() {
         }
     }
 
-    for (const datos of Object.values(state.progreso)) {
-        if (!datos || typeof datos !== "object") continue;
-        if (!Array.isArray(datos.diasVisitados) && Array.isArray(datos.completados)) {
-            datos.diasVisitados = [...new Set(
-                datos.completados.map(Number).filter(dia => Number.isInteger(dia) && dia >= 1)
-            )].sort((a, b) => a - b);
-        }
-    }
-
     const ids = Object.keys(state.progreso);
 
     if (ids.length > 0) {
@@ -229,9 +220,9 @@ function finalizarNovena(novenaId) {
             : APP_CONFIG.diasNovena;
 
     const anterior = state.progreso[novenaId] || {};
-    const completados = Array.isArray(anterior.completados)
+    const diasVisitados = Array.isArray(anterior.diasVisitados)
         ? [...new Set(
-            anterior.completados
+            anterior.diasVisitados
                 .map(Number)
                 .filter(
                     dia =>
@@ -240,7 +231,18 @@ function finalizarNovena(novenaId) {
                         dia <= totalDias
                 )
         )]
-        : [];
+        : Array.isArray(anterior.completados)
+            ? [...new Set(
+                anterior.completados
+                    .map(Number)
+                    .filter(
+                        dia =>
+                            Number.isInteger(dia) &&
+                            dia >= 1 &&
+                            dia <= totalDias
+                    )
+            )]
+            : [];
 
     if (!diasVisitados.includes(totalDias)) {
         diasVisitados.push(totalDias);
@@ -265,7 +267,7 @@ function reiniciarNovena(novenaId) {
 
     state.progreso[novenaId] = {
         dia: 0,
-        completados: [],
+        diasVisitados: [],
         completada: false,
         fecha: new Date().toISOString(),
         fechaFinalizacion: null
