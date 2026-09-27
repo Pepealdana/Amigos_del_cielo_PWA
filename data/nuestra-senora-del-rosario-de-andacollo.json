@@ -5,8 +5,11 @@
   "subtitle": "La Chinita, Reina de la Montaña y Madre de los peregrinos",
   "image": null,
   "feast": {
+    "day": 26,
+    "month": 12,
     "text": "26 de diciembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora del Rosario de Andacollo se celebra el 26 de diciembre; la advocación está especialmente vinculada a Andacollo, en la Región de Coquimbo, Chile."
   },
   "liturgicalRank": "Solemnidad local",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "Conferencia Episcopal de Chile, Nuestra Señora del Rosario de Andacollo, Mes de María 2021.",
@@ -284,5 +287,7 @@
     "Conferencia Episcopal de Chile, Conmemoran 120° aniversario de la Coronación de Nuestra Señora del Rosario de Andacollo, 26 de diciembre de 2021.",
     "San Juan Pablo II, Celebración de la Palabra sobre religiosidad popular, La Serena, 5 de abril de 1987.",
     "Iglesia de La Serena, Fiesta Grande de Andacollo 2025 y conmemoración de los 350 años de la llegada de la imagen en 2026."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
