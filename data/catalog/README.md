@@ -1,8 +1,9 @@
 # Catálogo v3 — Amigos del Cielo
 
-El catálogo v3 separa la navegación y los datos en cuatro áreas:
+El catálogo v3 separa la navegación y los datos en cinco áreas:
 
 - **Santos**: santos canonizados.
+- **Beatos**: beatos reconocidos por la Iglesia, diferenciados de los santos canonizados.
 - **María**: advocaciones marianas. Una advocación es una forma de veneración de la misma Virgen María; no se contabiliza como una persona distinta.
 - **Novenas**: contenido de oración de nueve días, actualmente respaldado por `data/novenas.json`.
 - **Devociones**: otras devociones y celebraciones.
@@ -15,7 +16,9 @@ El catálogo v3 separa la navegación y los datos en cuatro áreas:
 
 ## Beatos
 
-No se amplía la categoría de beatos en esta etapa. Se conserva únicamente **Beata Clara Fey** como excepción histórica del proyecto.
+Los beatos tienen una categoría propia para no confundir su condición canónica con la de los santos canonizados. La primera ampliación incluye ocho registros: **Beata Clara Fey, Beata Chiara Luce Badano, Beato Michael McGivney, Beato Padre Marianito, Beato Ceferino Namuncurá, Beata Ana de los Ángeles Monteagudo, Beata Laura Vicuña y Beata Guadalupe Ortiz de Landázuri**.
+
+Las fichas de beatos pueden publicarse en el catálogo aunque todavía no tengan una novena. La ficha biográfica y el contenido de oración son componentes independientes.
 
 ## Regla de María
 
@@ -60,10 +63,11 @@ El campo antiguo `countries` queda eliminado del modelo v2.1. No debe volver a u
 
 ## Navegación y búsqueda del catálogo
 
-La navegación principal conserva cinco accesos:
+La navegación principal conserva seis accesos de catálogo:
 
 - **Todos**: concentra todo el contenido publicado.
 - **Santos**: santos canonizados, con filtros temáticos cuando los registros los tengan.
+- **Beatos**: beatos reconocidos por la Iglesia, con filtro territorial.
 - **María**: advocaciones marianas, con filtro territorial.
 - **Novenas**: contenidos de oración de nueve días.
 - **Devociones**: devociones y expresiones de piedad que no son fichas de santos ni advocaciones.
