@@ -1,0 +1,446 @@
+{
+  "id": "san-pancracio",
+  "name": "San Pancracio",
+  "title": "Mártir adolescente, testigo de Cristo",
+  "feast": {
+    "day": 12,
+    "month": 5,
+    "text": "12 de mayo",
+    "movable": false,
+    "liturgicalRank": "Memoria facultativa"
+  },
+  "image": "assets/images/santos/san_pancracio.webp",
+  "groups": [
+    "devocion-extendida",
+    "martires"
+  ],
+  "territorial": {
+    "origin": [],
+    "historicalLinks": [
+      "IT"
+    ],
+    "specialDevotion": [
+      "IT"
+    ]
+  },
+  "patronages": [
+    "Jóvenes",
+    "Personas que buscan trabajo",
+    "Personas que atraviesan dificultades económicas",
+    "Quienes encomiendan sus necesidades materiales a Dios"
+  ],
+  "virtues": [
+    "Fe",
+    "Valentía",
+    "Perseverancia",
+    "Esperanza",
+    "Generosidad",
+    "Confianza en Dios"
+  ],
+  "history": {
+    "short": "San Pancracio es venerado como un joven mártir de Roma, muerto por su fe cristiana durante las persecuciones del inicio del siglo IV. Su culto se consolidó tempranamente alrededor de su tumba y se extendió ampliamente en la Iglesia.",
+    "extended": "San Pancracio es venerado como mártir de Roma y, según el Martirologio Romano, murió siendo todavía muy joven por su fe en Cristo. La tradición sitúa su martirio durante la persecución de Diocleciano, hacia comienzos del siglo IV.\n\nLas fuentes históricas conservadas sobre su vida son limitadas. Las narraciones hagiográficas posteriores desarrollaron detalles sobre su familia, su llegada a Roma y las circunstancias precisas de su proceso y muerte. Por ello, la novena distingue esos relatos tradicionales de los elementos más firmes de su culto.\n\nEl Vaticano señala que fue sepultado junto a la vía Aurelia, en el lugar donde posteriormente se levantó la basílica de San Pancracio. El papa Símaco erigió allí una basílica en los siglos V-VI, y el papa Gregorio Magno promovió la veneración del mártir y exhortó al pueblo a imitar su amor por Cristo. Estos datos muestran la antigüedad de su culto romano.\n\nCon el paso de los siglos, San Pancracio adquirió una amplia devoción popular y quedó asociado en diversos lugares con las necesidades laborales y materiales. Esta asociación pertenece al desarrollo de la piedad popular y no debe confundirse con un patronazgo bíblico o con una enseñanza específica atribuida al santo.\n\nLa memoria de San Pancracio invita especialmente a los jóvenes a vivir la fe con coherencia y a todos los creyentes a confiar en Dios sin convertir la devoción en una promesa automática de prosperidad. Pedir su intercesión puede acompañar una búsqueda responsable de trabajo, estabilidad y ayuda para las necesidades concretas."
+  },
+  "quote": {
+    "text": "El que quiera seguirme, que se niegue a sí mismo, que tome su cruz y me siga.",
+    "reference": "Marcos 8,34; texto evangélico utilizado como eje espiritual de la novena, no como cita de San Pancracio."
+  },
+  "search": [
+    "san pancracio",
+    "pancracio",
+    "pancrazio",
+    "martir",
+    "mártir",
+    "joven",
+    "juventud",
+    "roma",
+    "trabajo",
+    "trabajador",
+    "empleo",
+    "desempleo",
+    "necesidades economicas",
+    "necesidades económicas",
+    "prosperidad",
+    "esperanza"
+  ],
+  "interventions": [
+    {
+      "id": "trabajo",
+      "label": "Trabajo y búsqueda de empleo",
+      "keywords": [
+        "trabajo",
+        "empleo",
+        "desempleo",
+        "trabajador",
+        "oficio",
+        "profesion",
+        "profesión",
+        "empresa"
+      ]
+    },
+    {
+      "id": "juventud",
+      "label": "Jóvenes y vocación",
+      "keywords": [
+        "joven",
+        "jóvenes",
+        "juventud",
+        "adolescente",
+        "vocacion",
+        "vocación",
+        "estudios"
+      ]
+    },
+    {
+      "id": "economia",
+      "label": "Necesidades económicas",
+      "keywords": [
+        "economia",
+        "economía",
+        "dinero",
+        "deudas",
+        "necesidad",
+        "necesidades",
+        "pobreza",
+        "sustento"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y fidelidad",
+      "keywords": [
+        "fe",
+        "fidelidad",
+        "cristo",
+        "jesus",
+        "jesús",
+        "evangelio"
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "label": "Fortaleza en la prueba",
+      "keywords": [
+        "fortaleza",
+        "prueba",
+        "dificultad",
+        "persecucion",
+        "persecución",
+        "martirio",
+        "mártir"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza y confianza",
+      "keywords": [
+        "esperanza",
+        "confianza",
+        "temor",
+        "incertidumbre",
+        "futuro"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y sustento",
+      "keywords": [
+        "familia",
+        "padres",
+        "hijos",
+        "hogar",
+        "sustento"
+      ]
+    },
+    {
+      "id": "generosidad",
+      "label": "Generosidad y servicio",
+      "keywords": [
+        "generosidad",
+        "caridad",
+        "servicio",
+        "ayuda",
+        "solidaridad"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Pancracio, joven mártir de Cristo, ayúdanos a vivir nuestra fe con fidelidad y esperanza. Ruega por quienes buscan trabajo, por las familias que atraviesan necesidades económicas y por los jóvenes que buscan un camino de vida con sentido. Amén.",
+  "closingPrayer": "San Pancracio, mártir y testigo de Cristo, intercede por nosotros. Enséñanos a confiar en Dios sin abandonar nuestro esfuerzo responsable, a compartir con generosidad y a mantener la esperanza en las dificultades. Ruega especialmente por quienes buscan trabajo y por quienes necesitan estabilidad para sus familias. Amén.",
+  "intentions": [
+    "Por quienes buscan trabajo o desean mejorar sus condiciones laborales.",
+    "Por jóvenes que buscan orientación para su futuro.",
+    "Por familias que atraviesan dificultades económicas.",
+    "Por personas endeudadas o preocupadas por su sustento.",
+    "Por trabajadores que enfrentan inseguridad o injusticias.",
+    "Por quienes han perdido la esperanza ante la falta de oportunidades.",
+    "Por quienes necesitan discernir una decisión importante.",
+    "Por quienes tienen bienes y oportunidades, para que sepan compartirlos.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Marcos 8,34-38",
+      "Mateo 6,25-34",
+      "Filipenses 4,10-13",
+      "Salmo 37,3-7",
+      "Santiago 2,14-17"
+    ],
+    "related": [
+      "San Pancracio",
+      "Mártires de Roma",
+      "Trabajo y dignidad humana",
+      "Esperanza cristiana"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Culto de los mártires — San Pancracio, 12 de mayo",
+      "organization": "Santa Sede — Pontificia Academia Cultorum Martyrum",
+      "url": "https://www.vatican.va/roman_curia/pontifical_academies/cult-martyrum/martiri/009.html",
+      "type": "official"
+    },
+    {
+      "title": "Stazione a San Pancrazio",
+      "organization": "Santa Sede — Pontificia Academia Cultorum Martyrum",
+      "url": "https://www.vatican.va/roman_curia/pontifical_academies/cult-martyrum/stazioni/descrizioni/vc_pa_martyrum_20030125_pancrazio_it.html",
+      "type": "official"
+    },
+    {
+      "title": "Parrocchia diocesana — S. Pancrazio",
+      "organization": "Diocesi di Roma",
+      "url": "https://www.diocesidiroma.it/phpenti/ente/?ID=63",
+      "type": "official"
+    },
+    {
+      "title": "Saints Pancrace et Denis",
+      "organization": "Conférence des évêques de France — Nominis",
+      "url": "https://nominis.cef.fr/contenus/saint/1145/Saints-Pancrace-et-Denis.html",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Fe",
+      "title": "Creer con firmeza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Pancracio es venerado como un joven mártir de Roma. El Vaticano conserva su memoria entre los mártires y señala que murió todavía adolescente por la fe en Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe no depende de la edad. Puede crecer cuando conocemos aquello que creemos y lo convertimos en decisiones concretas."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué lugar ocupa realmente mi fe en las decisiones que tomo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes que desean conocer y vivir su fe con mayor profundidad."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, ayúdanos a vivir una fe consciente, firme y coherente. Amén."
+      },
+      "action": "Dedica hoy un tiempo breve a leer un pasaje del Evangelio y a pensar cómo aplicarlo."
+    },
+    {
+      "day": 2,
+      "theme": "Valentía",
+      "title": "No esconder las convicciones",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de San Pancracio está vinculada al testimonio de un joven que permaneció fiel a Cristo en un contexto de persecución."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La valentía cristiana consiste en mantener el bien incluso cuando hacerlo resulta incómodo o exige esfuerzo."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿En qué situación necesito actuar con mayor coherencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes sufren presión o rechazo por vivir sus convicciones cristianas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, danos valor para vivir la verdad con respeto y firmeza. Amén."
+      },
+      "action": "Realiza hoy una acción coherente con un valor cristiano que consideres importante."
+    },
+    {
+      "day": 3,
+      "theme": "Juventud",
+      "title": "Dar sentido al futuro",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cristiana ha recordado a San Pancracio como un mártir joven. Su memoria puede ser especialmente significativa para quienes están tomando decisiones sobre su futuro."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La juventud no es solo una etapa para alcanzar metas; también es un tiempo para discernir qué clase de persona queremos llegar a ser."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Qué principios quiero que orienten mi futuro?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por estudiantes, jóvenes trabajadores y quienes buscan una vocación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, acompaña a los jóvenes en sus decisiones y ayúdalos a descubrir caminos de bien y servicio. Amén."
+      },
+      "action": "Escribe tres valores que quieras conservar en tu vida adulta y una forma de practicarlos."
+    },
+    {
+      "day": 4,
+      "theme": "Trabajo",
+      "title": "Buscar con responsabilidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción popular vinculó posteriormente a San Pancracio con quienes buscan trabajo y estabilidad. Esta asociación pertenece al desarrollo de la piedad popular."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Orar por un trabajo puede ir unido a prepararnos, buscar oportunidades, pedir ayuda y perseverar sin perder la dignidad."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué paso concreto puedo dar hoy para avanzar en mi búsqueda laboral?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las personas desempleadas y por quienes buscan mejores oportunidades laborales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, acompaña a quienes buscan trabajo y dales fortaleza para perseverar. Amén."
+      },
+      "action": "Realiza hoy una acción concreta de búsqueda laboral: actualizar una hoja de vida, contactar una oportunidad o pedir orientación."
+    },
+    {
+      "day": 5,
+      "theme": "Necesidades",
+      "title": "Confiar sin convertir la fe en superstición",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La devoción popular a San Pancracio se relacionó en algunos lugares con necesidades económicas. La Iglesia invita a vivir esta devoción como intercesión y no como una garantía automática de prosperidad."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Confiar en Dios no significa esperar resultados materiales como si la oración fuera una fórmula. Significa poner nuestras necesidades ante Él y actuar responsablemente."
+      },
+      "virtue": "Confianza",
+      "reflection": "¿Mi oración busca principalmente a Dios o solo un resultado concreto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven dificultades económicas y necesitan ayuda material."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, presenta ante Dios nuestras necesidades y enséñanos a confiar sin perder la responsabilidad. Amén."
+      },
+      "action": "Revisa una preocupación económica y define una medida concreta, prudente y realista para afrontarla."
+    },
+    {
+      "day": 6,
+      "theme": "Familia",
+      "title": "Cuidar el sustento del hogar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La oración popular a San Pancracio suele incluir necesidades relacionadas con trabajo y sustento. Estas peticiones pueden convertirse en una ocasión para recordar la responsabilidad hacia la familia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El bienestar familiar no depende solo del dinero. También requiere presencia, diálogo, cuidado y solidaridad."
+      },
+      "virtue": "Responsabilidad",
+      "reflection": "¿Qué puedo hacer para aportar mayor seguridad y cuidado a mi familia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias que enfrentan desempleo, deudas o incertidumbre económica."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, ruega por nuestras familias y ayúdanos a cuidarlas con responsabilidad y amor. Amén."
+      },
+      "action": "Habla hoy con tu familia sobre una necesidad concreta y busquen juntos una solución posible."
+    },
+    {
+      "day": 7,
+      "theme": "Generosidad",
+      "title": "Compartir lo recibido",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición de acudir a los santos en las necesidades materiales puede recordar también que los bienes recibidos están destinados a ser compartidos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La respuesta cristiana a la necesidad no consiste solamente en pedir; también incluye dar, compartir y ayudar a quien tiene menos."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué recurso, tiempo o conocimiento puedo compartir con alguien que lo necesita?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por personas en situación de pobreza y por quienes tienen capacidad de ayudar."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, haznos generosos y atentos a las necesidades de quienes nos rodean. Amén."
+      },
+      "action": "Comparte hoy algo concreto: tiempo, alimento, conocimiento, dinero o ayuda práctica, según tus posibilidades."
+    },
+    {
+      "day": 8,
+      "theme": "Esperanza",
+      "title": "Perseverar cuando no llega la respuesta",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "El testimonio de un mártir recuerda una fidelidad que no depende de obtener inmediatamente aquello que se pide."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana permite continuar trabajando y orando incluso cuando una solución tarda en llegar."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué petición llevo tiempo esperando y cómo puedo seguir actuando responsablemente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes llevan mucho tiempo buscando trabajo, estabilidad o una respuesta a sus necesidades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, fortalece nuestra esperanza cuando las respuestas tardan y ayúdanos a perseverar. Amén."
+      },
+      "action": "Elige una acción que puedas repetir durante los próximos siete días para avanzar hacia tu objetivo."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Poner la vida al servicio del bien",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de San Pancracio se conserva en Roma desde la antigüedad y continúa invitando a contemplar el testimonio de un joven mártir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La devoción madura cuando nos lleva a vivir mejor: con fe, trabajo responsable, generosidad y servicio."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero conservar después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas y por quienes necesitan trabajo, estabilidad, orientación o esperanza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pancracio, mártir de Cristo, intercede por nosotros. Ayúdanos a confiar en Dios, trabajar con responsabilidad y compartir con generosidad. Amén."
+      },
+      "action": "Elige un compromiso concreto de fe, trabajo, servicio o generosidad para mantener después de la novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
