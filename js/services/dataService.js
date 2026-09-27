@@ -3,138 +3,134 @@
    Amigos del Cielo
 ========================================== */
 
-const DATA_PATH = "./data/novenas.json";
+const CATALOG_V2_PATHS = {
+    santos: "./data/catalog/santos.json",
+    beatos: "./data/catalog/beatos.json",
+    maria: "./data/catalog/maria.json",
+    devociones: "./data/catalog/devociones.json",
+    paises: "./data/catalog/paises.json"
+};
 
-async function cargarCatalogo() {
-    let response;
-
-    try {
-        response = await fetch(DATA_PATH, { cache: "no-cache" });
-    } catch (error) {
-        const fallo = new Error("No fue posible conectar con el catálogo.");
-        fallo.code = "CATALOG_NETWORK";
-        fallo.cause = error;
-        throw fallo;
-    }
-
-    if (!response.ok) {
-        const error = new Error(
-            "No fue posible cargar el catálogo (" +
-            response.status +
-            ")."
-        );
-        error.code = response.status === 404
-            ? "CATALOG_NOT_FOUND"
-            : "CATALOG_HTTP";
-        error.status = response.status;
-        throw error;
-    }
-
-    let catalogo;
-
-    try {
-        catalogo = await response.json();
-    } catch (error) {
-        const fallo = new Error("El catálogo contiene datos que no se pueden interpretar.");
-        fallo.code = "CATALOG_INVALID_JSON";
-        fallo.cause = error;
-        throw fallo;
-    }
-
-    if (!Array.isArray(catalogo)) {
-        const error = new Error(
-            "El catálogo de novenas no tiene un formato válido."
-        );
-        error.code = "CATALOG_INVALID";
-        throw error;
-    }
-
-    state.catalogo = catalogo.filter(
-        novena =>
-            novena &&
-            novena.status !== "draft" &&
-            novena.id &&
-            novena.name &&
-            novena.file
-    );
-
-    return state.catalogo;
-}
+let catalogosV2Cargados = false;
 
 async function cargarCatalogosV2() {
-    const rutas = {
-        santos: "./data/catalog/santos.json",
-        beatos: "./data/catalog/beatos.json",
-        maria: "./data/catalog/maria.json",
-        devociones: "./data/catalog/devociones.json",
-        paises: "./data/catalog/paises.json"
-    };
+
+    if (catalogosV2Cargados) {
+        return state.catalogosV2;
+    }
 
     const entradas = await Promise.all(
-        Object.entries(rutas).map(async ([clave, ruta]) => {
-            const response = await fetch(ruta, { cache: "no-cache" });
+        Object.entries(CATALOG_V2_PATHS).map(
+            async ([clave, ruta]) => {
 
-            if (!response.ok) {
-                throw new Error(
-                    "No fue posible cargar el catálogo v2 de " +
-                    clave +
-                    " (" +
-                    response.status +
-                    ")."
-                );
+                let response;
+
+                try {
+                    response = await fetch(ruta, { cache: "no-cache" });
+                } catch (error) {
+                    const fallo = new Error(
+                        "No fue posible conectar con el catálogo de " + clave + "."
+                    );
+                    fallo.code = "CATALOG_NETWORK";
+                    fallo.cause = error;
+                    throw fallo;
+                }
+
+                if (!response.ok) {
+                    const error = new Error(
+                        "No fue posible cargar el catálogo de " +
+                        clave + " (" + response.status + ")."
+                    );
+                    error.code = response.status === 404
+                        ? "CATALOG_NOT_FOUND"
+                        : "CATALOG_HTTP";
+                    error.status = response.status;
+                    throw error;
+                }
+
+                let datos;
+
+                try {
+                    datos = await response.json();
+                } catch (error) {
+                    const fallo = new Error(
+                        "El catálogo de " + clave +
+                        " contiene datos que no se pueden interpretar."
+                    );
+                    fallo.code = "CATALOG_INVALID_JSON";
+                    fallo.cause = error;
+                    throw fallo;
+                }
+
+                if (!datos || !Array.isArray(datos.items)) {
+                    const error = new Error(
+                        "El catálogo de " + clave +
+                        " no tiene un formato válido."
+                    );
+                    error.code = "CATALOG_INVALID";
+                    throw error;
+                }
+
+                return [clave, datos.items];
             }
-
-            const datos = await response.json();
-
-            if (!datos || !Array.isArray(datos.items)) {
-                throw new Error(
-                    "El catálogo v2 de " + clave + " no tiene un formato válido."
-                );
-            }
-
-            return [clave, datos.items];
-        })
+        )
     );
 
     state.catalogosV2 = Object.fromEntries(entradas);
 
     /*
-     * Unificar el catálogo legado con los catálogos v2.
-     * Esto permite que Favoritas, Mi progreso, búsqueda,
-     * enlaces directos y la sección "Novenas" trabajen
-     * también con los contenidos incorporados en v2.
+     * Desde v1.3.1 los catálogos V2 son la única fuente
+     * de metadatos del catálogo en tiempo de ejecución.
+     *
+     * Cada registro publicado debe declarar sourceFile,
+     * que apunta al JSON de contenido correspondiente.
      */
-    const catalogoUnificado = new Map(
-        (Array.isArray(state.catalogo) ? state.catalogo : [])
-            .map(item => [item.id, { ...item }])
-    );
+    const catalogo = [];
 
     for (const clave of ["santos", "beatos", "maria", "devociones"]) {
+
         const items = Array.isArray(state.catalogosV2[clave])
             ? state.catalogosV2[clave]
             : [];
 
-        items
-            .filter(item => item && item.status === "published" && item.id)
-            .forEach(item => {
-                const anterior = catalogoUnificado.get(item.id) || {};
+        for (const item of items) {
 
-                catalogoUnificado.set(item.id, {
-                    ...anterior,
-                    ...item,
-                    file: anterior.file || item.sourceFile || null,
-                    image: anterior.image || item.image || "",
-                    feast: anterior.feast || item.feast || null
-                });
+            if (
+                !item ||
+                item.status !== "published" ||
+                !item.id ||
+                !item.name ||
+                !item.sourceFile
+            ) {
+                continue;
+            }
+
+            catalogo.push({
+                ...item,
+                file: item.sourceFile,
+                image: item.image || "",
+                feast: item.feast || null
             });
+        }
     }
 
-    state.catalogo = Array.from(catalogoUnificado.values());
+    state.catalogo = catalogo;
+    catalogosV2Cargados = true;
 
     return state.catalogosV2;
 }
 
+/*
+ * Compatibilidad con el punto de entrada histórico.
+ * El catálogo legado data/novenas.json ya no se carga.
+ */
+async function cargarCatalogo() {
+    await cargarCatalogosV2();
+    return state.catalogo;
+}
+
 async function cargarNovena(id) {
+
     if (!id) {
         const error = new Error("No se indicó el identificador de la novena.");
         error.code = "NOVENA_ID_MISSING";
@@ -142,27 +138,16 @@ async function cargarNovena(id) {
     }
 
     const resumen = buscarNovenaPorId(state.catalogo, id);
-
-    /*
-     * V2 separa los catálogos temáticos de data/novenas.json.
-     * Las nuevas fichas (Santos, María y Devociones) guardan
-     * su archivo en sourceFile, por lo que también debemos
-     * resolverlas desde catalogosV2.
-     */
     const resumenV2 = buscarContenidoCatalogoV2(id);
-
     const archivo = resumen?.file || resumenV2?.sourceFile;
 
     if (!archivo) {
-        const error = new Error(
-            "No existe una novena válida con id: " + id
-        );
+        const error = new Error("No existe una novena válida con id: " + id);
         error.code = "NOVENA_NOT_FOUND";
         throw error;
     }
 
     const ruta = "./" + archivo.replace(/^\.\//, "");
-
     const novena = await cargarJSONConRecuperacion(ruta);
 
     if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
@@ -177,12 +162,6 @@ async function cargarNovena(id) {
         throw error;
     }
 
-    /*
-     * El catálogo es la fuente canónica del identificador.
-     * Algunas fichas históricas conservan un id interno distinto;
-     * al abrirlas, normalizamos el id para que Favoritas, Progreso,
-     * búsqueda y enlaces directos utilicen siempre el mismo valor.
-     */
     novena.id = resumen?.id || resumenV2?.id || id;
 
     if (!novena.feast) {
@@ -211,9 +190,11 @@ async function cargarNovena(id) {
 }
 
 function buscarContenidoCatalogoV2(id) {
+
     const catalogos = state.catalogosV2 || {};
 
     for (const clave of ["santos", "beatos", "maria", "devociones"]) {
+
         const items = Array.isArray(catalogos[clave])
             ? catalogos[clave]
             : [];
@@ -233,21 +214,16 @@ async function cargarJSONConRecuperacion(ruta) {
     let ultimoError = null;
 
     try {
-        const response = await fetch(
-            ruta,
-            { cache: "no-cache" }
-        );
+
+        const response = await fetch(ruta, { cache: "no-cache" });
 
         if (!response.ok) {
             const error = new Error(
-                "No fue posible cargar la novena (" +
-                response.status +
-                ")."
+                "No fue posible cargar la novena (" + response.status + ")."
             );
-            error.code =
-                response.status === 404
-                    ? "NOVENA_NOT_FOUND"
-                    : "NOVENA_HTTP";
+            error.code = response.status === 404
+                ? "NOVENA_NOT_FOUND"
+                : "NOVENA_HTTP";
             error.status = response.status;
             throw error;
         }
@@ -255,7 +231,9 @@ async function cargarJSONConRecuperacion(ruta) {
         try {
             return await response.json();
         } catch (error) {
-            const fallo = new Error("El archivo de la novena no contiene JSON válido.");
+            const fallo = new Error(
+                "El archivo de la novena no contiene JSON válido."
+            );
             fallo.code = "NOVENA_INVALID_JSON";
             fallo.cause = error;
             throw fallo;
@@ -265,22 +243,12 @@ async function cargarJSONConRecuperacion(ruta) {
         ultimoError = error;
     }
 
-    /*
-     * Si el Service Worker conserva una copia antigua o
-     * dañada, se fuerza una segunda solicitud con una URL
-     * diferente. Esto permite obtener la versión actual
-     * de GitHub Pages y actualizar el caché.
-     */
     if (navigator.onLine) {
 
         try {
-            const separador =
-                ruta.includes("?") ? "&" : "?";
 
-            const rutaActualizada =
-                ruta +
-                separador +
-                "refresh=1";
+            const separador = ruta.includes("?") ? "&" : "?";
+            const rutaActualizada = ruta + separador + "refresh=1";
 
             const response = await fetch(
                 rutaActualizada,
@@ -290,13 +258,11 @@ async function cargarJSONConRecuperacion(ruta) {
             if (!response.ok) {
                 const error = new Error(
                     "No fue posible actualizar la novena (" +
-                    response.status +
-                    ")."
+                    response.status + ")."
                 );
-                error.code =
-                    response.status === 404
-                        ? "NOVENA_NOT_FOUND"
-                        : "NOVENA_HTTP";
+                error.code = response.status === 404
+                    ? "NOVENA_NOT_FOUND"
+                    : "NOVENA_HTTP";
                 error.status = response.status;
                 throw error;
             }
@@ -304,7 +270,9 @@ async function cargarJSONConRecuperacion(ruta) {
             try {
                 return await response.json();
             } catch (error) {
-                const fallo = new Error("El archivo actualizado de la novena no contiene JSON válido.");
+                const fallo = new Error(
+                    "El archivo actualizado de la novena no contiene JSON válido."
+                );
                 fallo.code = "NOVENA_INVALID_JSON";
                 fallo.cause = error;
                 throw fallo;
@@ -316,10 +284,9 @@ async function cargarJSONConRecuperacion(ruta) {
     }
 
     if (ultimoError && !ultimoError.code) {
-        ultimoError.code =
-            navigator.onLine
-                ? "NOVENA_LOAD_FAILED"
-                : "NOVENA_OFFLINE";
+        ultimoError.code = navigator.onLine
+            ? "NOVENA_LOAD_FAILED"
+            : "NOVENA_OFFLINE";
     }
 
     throw ultimoError ||
@@ -330,10 +297,8 @@ async function cargarJSONConRecuperacion(ruta) {
 }
 
 function obtenerDia(numeroDia) {
-    if (
-        !state.novenaActual ||
-        !Array.isArray(state.novenaActual.days)
-    ) {
+
+    if (!state.novenaActual || !Array.isArray(state.novenaActual.days)) {
         return null;
     }
 
@@ -347,23 +312,20 @@ function obtenerDiaActualNovena() {
 }
 
 function obtenerTotalDiasNovena() {
-    const configurados =
-        Number(state.novenaActual?.novena?.days);
 
-    if (
-        Number.isInteger(configurados) &&
-        configurados > 0
-    ) {
+    const configurados = Number(state.novenaActual?.novena?.days);
+
+    if (Number.isInteger(configurados) && configurados > 0) {
         return configurados;
     }
 
-    const disponibles =
-        state.novenaActual?.days?.length || 0;
+    const disponibles = state.novenaActual?.days?.length || 0;
 
     return disponibles || APP_CONFIG.diasNovena;
 }
 
 function cambiarDia(numeroDia) {
+
     const numero = Number(numeroDia);
     const total = obtenerTotalDiasNovena();
 
@@ -381,6 +343,7 @@ function cambiarDia(numeroDia) {
 }
 
 function obtenerDiaInicialPorCalendario(novena) {
+
     if (!novena?.feast) {
         return 1;
     }
