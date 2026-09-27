@@ -1,5 +1,16 @@
 # Historial de cambios — Amigos del Cielo
 
+## [1.3.0] — Estabilización y auditoría integral
+
+- Auditoría de estructura, catálogo, navegación, filtros y lógica de carga.
+- Verificación de los recursos precargados del Service Worker.
+- Verificación de integración entre catálogo legado y catálogos V2.
+- Corrección de la navegación inferior móvil: cuatro opciones distribuidas en cuatro columnas.
+- Corrección del buscador para mostrar un marcador cuando un contenido no tiene imagen.
+- Consolidación de la versión interna de la aplicación en 1.3.0.
+- Revisión de tema claro, tema oscuro, tipografía, estados de foco y comportamiento responsive.
+- Conservación de imágenes pendientes como trabajo de una fase global posterior.
+
 ## [1.1.0] — Contenido
 
 ### Novenas y fichas
