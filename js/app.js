@@ -268,57 +268,17 @@ function registrarEventos() {
 
     registrarEvento(
 
-        "menu-santos",
+        "menu-biblioteca",
 
-        () => navegar("santos")
-
-    );
-
-    registrarEvento(
-
-        "menu-beatos",
-
-        () => navegar("beatos")
+        () => navegar("biblioteca")
 
     );
 
     registrarEvento(
 
-        "menu-maria",
+        "menu-camino",
 
-        () => navegar("maria")
-
-    );
-
-    registrarEvento(
-
-        "menu-novenas",
-
-        () => navegar("novenas")
-
-    );
-
-    registrarEvento(
-
-        "menu-devociones",
-
-        () => navegar("devociones")
-
-    );
-
-    registrarEvento(
-
-        "menu-favoritas",
-
-        () => navegar("favoritas")
-
-    );
-
-    registrarEvento(
-
-        "menu-progreso",
-
-        () => navegar("progreso")
+        () => navegar("camino")
 
     );
 
@@ -912,6 +872,22 @@ function mostrarFavoritas() {
    PROGRESO
 ========================================== */
 
+function mostrarCamino() {
+
+    cerrarMenu();
+    actualizarTituloPagina("Mi camino");
+
+    renderizar(
+        renderCamino(
+            state.catalogo,
+            state.progreso,
+            state.favoritos,
+            state.patronoAnual
+        )
+    );
+
+}
+
 function mostrarProgreso() {
 
     cerrarMenu();
@@ -996,6 +972,67 @@ function mostrarAcerca() {
 
     );
 
+}
+
+/* ==========================================
+   AMIGO DEL CIELO DEL AÑO
+========================================== */
+
+function obtenerSantosDisponiblesParaSorteo() {
+    return (state.catalogosV2?.santos || [])
+        .filter(item => item?.status === "published" && item?.id);
+}
+
+function sortearAmigoDelCieloAnual() {
+    const anio = new Date().getFullYear();
+    const existente = obtenerPatronoAnual(anio);
+
+    if (existente) {
+        mostrarCamino();
+        return;
+    }
+
+    const candidatos = obtenerSantosDisponiblesParaSorteo();
+
+    if (!candidatos.length) {
+        mostrarError(
+            "No hay santos disponibles para realizar el sorteo en este momento.",
+            "No fue posible realizar el sorteo",
+            "camino"
+        );
+        return;
+    }
+
+    const santo = candidatos[Math.floor(Math.random() * candidatos.length)];
+
+    if (!registrarPatronoAnual(anio, santo)) {
+        mostrarError(
+            "No pudimos guardar tu amigo del cielo. Inténtalo nuevamente.",
+            "No fue posible guardar la elección",
+            "camino"
+        );
+        return;
+    }
+
+    mostrarCamino();
+}
+
+function mostrarPerfilAmigoDelCielo(id) {
+    const santo = (state.catalogosV2?.santos || [])
+        .find(item => item?.id === id);
+
+    if (!santo) return;
+
+    const contenido =
+        (santo.image
+            ? '<img src="' + escaparHTML(santo.image) + '" alt="' + escaparHTML(santo.name) + '" class="patron-modal-image">'
+            : '') +
+        '<p><strong>' + escaparHTML(santo.title || "Santo") + '</strong></p>' +
+        (santo.description ? '<p>' + escaparHTML(santo.description) + '</p>' : '') +
+        (santo.feast?.text ? '<p><strong>Celebración:</strong> ' + escaparHTML(santo.feast.text) + '</p>' : '') +
+        (santo.sourceFile ? '<button class="btn btn-primary" type="button" data-action="open-novena" data-id="' + escaparHTML(santo.id) + '">Conocer su contenido</button>' : '');
+
+    mostrarModal(escaparHTML(santo.name), contenido);
 }
 
 /* ==========================================
@@ -1328,6 +1365,16 @@ function manejarClicksPWA(evento) {
 
         if (tipo === "open-profile" && id) {
             mostrarPerfilCatalogo(id);
+            return;
+        }
+
+        if (tipo === "draw-patron") {
+            sortearAmigoDelCieloAnual();
+            return;
+        }
+
+        if (tipo === "open-patron-profile" && id) {
+            mostrarPerfilAmigoDelCielo(id);
             return;
         }
 
