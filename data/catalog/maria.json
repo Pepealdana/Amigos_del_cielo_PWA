@@ -107,7 +107,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_lujan.webp"
     },
     {
       "id": "virgen-de-chiquinquira",
@@ -129,7 +130,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_chiquinquira.webp"
     },
     {
       "id": "virgen-de-coromoto",
@@ -149,7 +151,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_coromoto.webp"
     },
     {
       "id": "virgen-de-suyapa",
@@ -169,7 +172,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_suyapa.webp"
     },
     {
       "id": "virgen-de-la-caridad-del-cobre",
@@ -189,7 +193,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_la_caridad_del_cobre.webp"
     },
     {
       "id": "virgen-de-el-quinche",
@@ -209,7 +214,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_el_quinche.webp"
     },
     {
       "id": "virgen-de-caacupe",
@@ -229,7 +235,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_caacupe.webp"
     },
     {
       "id": "virgen-de-la-merced",
@@ -253,7 +260,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_la_merced.webp"
     },
     {
       "id": "virgen-de-la-altagracia",
@@ -273,7 +281,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_la_altagracia.webp"
     },
     {
       "id": "virgen-de-copacabana",
@@ -293,7 +302,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_copacabana.webp"
     },
     {
       "id": "santa-maria-la-antigua",
@@ -313,7 +323,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/santa_maria_la_antigua.webp"
     },
     {
       "id": "nuestra-senora-reina-de-la-paz",
@@ -333,7 +344,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_reina_de_la_paz.webp"
     },
     {
       "id": "nuestra-senora-de-los-angeles",
@@ -353,7 +365,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_los_angeles.webp"
     },
     {
       "id": "la-purisima",
@@ -373,7 +386,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/la_purisima.webp"
     },
     {
       "id": "nuestra-senora-de-la-divina-providencia",
@@ -393,7 +407,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_la_divina_providencia.webp"
     },
     {
       "id": "virgen-de-los-treinta-y-tres",
@@ -413,7 +428,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/virgen_de_los_treinta_y_tres.webp"
     },
     {
       "id": "nuestra-senora-del-pilar",
@@ -435,7 +451,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_del_pilar.webp"
     },
     {
       "id": "nuestra-senora-de-la-almudena",
@@ -455,7 +472,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_la_almudena.webp"
     },
     {
       "id": "nuestra-senora-de-los-desamparados",
@@ -475,7 +493,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_los_desamparados.webp"
     },
     {
       "id": "nuestra-senora-de-la-candelaria",
@@ -499,7 +518,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_la_candelaria.webp"
     },
     {
       "id": "nuestra-senora-de-las-lajas",
@@ -519,7 +539,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_del_rosario_de_las_lajas.webp"
     },
     {
       "id": "virgen-del-valle",
@@ -539,7 +560,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_del_valle.webp"
     },
     {
       "id": "virgen-de-chiquinquira-de-maracaibo",
@@ -559,7 +581,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_del_rosario_de_chiquinquira_de_maracaibo.webp"
     },
     {
       "id": "virgen-del-cisne",
@@ -579,7 +602,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_el_cisne.webp"
     },
     {
       "id": "virgen-de-andacollo",
@@ -599,7 +623,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_del_rosario_de_andacollo.webp"
     },
     {
       "id": "nuestra-senora-de-covadonga",
@@ -619,7 +644,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_covadonga.webp"
     },
     {
       "id": "virgen-de-montserrat",
@@ -639,7 +665,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_de_montserrat.webp"
     },
     {
       "id": "virgen-del-rocio",
@@ -659,7 +686,8 @@
       },
       "groups": [
         "advocaciones-marianas"
-      ]
+      ],
+      "image": "assets/images/santos/nuestra_senora_del_rocio.webp"
     },
     {
       "id": "nuestra-senora-del-perpetuo-socorro",
