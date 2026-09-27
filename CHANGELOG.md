@@ -61,3 +61,13 @@ Inicio de la transición de Amigos del Cielo hacia una aplicación católica dir
 - Nueve días completos con reflexiones, intenciones, oración y acción originales.
 - Imagen pendiente de la pasada global de recursos visuales.
 
+
+## [1.3.0] — Incorporación de dos devociones marianas
+
+- Incorporación de la novena original a Nuestra Señora del Perpetuo Socorro.
+- Fiesta devocional: 27 de junio.
+- Incorporación de la novena original a Nuestra Señora de la Dulce Espera.
+- Fecha devocional: 18 de diciembre, señalada como fecha tradicional y no como solemnidad universal.
+- Integración de ambas advocaciones en el catálogo mariano y el registro legado.
+- Inclusión de ambas novenas en el Service Worker, cache v195.
+- Imágenes quedan pendientes de la pasada global de recursos visuales.
