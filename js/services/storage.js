@@ -179,6 +179,37 @@ function guardarConfiguracion() {
    INTENCIONES
 ========================================== */
 
+function cargarPatronoAnual() {
+    state.patronoAnual = leerDeStorage(STORAGE_KEYS.ANNUAL_PATRON, {});
+
+    if (!state.patronoAnual || typeof state.patronoAnual !== "object" || Array.isArray(state.patronoAnual)) {
+        state.patronoAnual = {};
+    }
+}
+
+function guardarPatronoAnual() {
+    return guardarEnStorage(STORAGE_KEYS.ANNUAL_PATRON, state.patronoAnual);
+}
+
+function obtenerPatronoAnual(anio = new Date().getFullYear()) {
+    return state.patronoAnual[String(anio)] || null;
+}
+
+function registrarPatronoAnual(anio, santo) {
+    if (!anio || !santo?.id) return false;
+
+    state.patronoAnual[String(anio)] = {
+        santoId: santo.id,
+        fechaAsignacion: new Date().toISOString()
+    };
+
+    return guardarPatronoAnual();
+}
+
+/* ==========================================
+   INTENCIONES
+========================================== */
+
 function cargarIntenciones() {
     state.intenciones = leerDeStorage(STORAGE_KEYS.INTENTIONS, {});
 
@@ -203,6 +234,7 @@ function inicializarStorage() {
     cargarFavoritos();
     cargarProgreso();
     cargarConfiguracion();
+    cargarPatronoAnual();
     cargarIntenciones();
 }
 
