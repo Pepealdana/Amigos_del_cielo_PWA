@@ -7655,5 +7655,140 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beata-guadalupe-ortiz-de-landazuri",
+    "slug": "beata-guadalupe-ortiz-de-landazuri",
+    "name": "Beata Guadalupe Ortiz de Landázuri",
+    "title": "Novena a la Beata Guadalupe Ortiz de Landázuri",
+    "subtitle": "Oración, trabajo, ciencia, alegría y servicio",
+    "category": "Beatas",
+    "featured": false,
+    "image": "assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp",
+    "file": "data/beata-guadalupe-ortiz-de-landazuri.json",
+    "description": "Nueve días para acercarnos al testimonio de Guadalupe Ortiz de Landázuri y pedir la gracia de vivir la fe en el estudio, el trabajo, la ciencia, la formación y el servicio.",
+    "feast": {
+      "day": 18,
+      "month": 5,
+      "text": "18 de mayo",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "laicos",
+      "educadores",
+      "cientificos"
+    ],
+    "territorial": {
+      "origin": [
+        "ES"
+      ],
+      "historicalLinks": [
+        "ES",
+        "MX"
+      ],
+      "specialDevotion": [
+        "ES",
+        "MX"
+      ]
+    },
+    "search": [
+      "beata guadalupe ortiz de landázuri",
+      "beata guadalupe ortiz de landazuri",
+      "guadalupe ortiz",
+      "química",
+      "quimica",
+      "científica",
+      "cientifica",
+      "profesora",
+      "educadora",
+      "méxico",
+      "mexico",
+      "laica"
+    ],
+    "interventions": [
+      {
+        "id": "laicos",
+        "label": "Laicos y vida cristiana en el mundo",
+        "keywords": [
+          "laico",
+          "laicos",
+          "vida ordinaria",
+          "trabajo"
+        ]
+      },
+      {
+        "id": "ciencia",
+        "label": "Ciencia, estudio e investigación",
+        "keywords": [
+          "ciencia",
+          "cientifica",
+          "quimica",
+          "investigacion",
+          "estudio"
+        ]
+      },
+      {
+        "id": "educacion",
+        "label": "Educación y formación",
+        "keywords": [
+          "educacion",
+          "profesora",
+          "estudiantes",
+          "formacion",
+          "enseñanza"
+        ]
+      },
+      {
+        "id": "trabajo",
+        "label": "Trabajo y santificación de lo cotidiano",
+        "keywords": [
+          "trabajo",
+          "profesion",
+          "responsabilidad",
+          "vida cotidiana"
+        ]
+      },
+      {
+        "id": "oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oracion",
+          "eucaristia",
+          "confesion",
+          "rosario",
+          "misa"
+        ]
+      },
+      {
+        "id": "alegria",
+        "label": "Alegría y esperanza",
+        "keywords": [
+          "alegria",
+          "esperanza",
+          "dificultad"
+        ]
+      },
+      {
+        "id": "servicio",
+        "label": "Servicio y apostolado",
+        "keywords": [
+          "servicio",
+          "apostolado",
+          "evangelizacion",
+          "formacion"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermedad y fortaleza",
+        "keywords": [
+          "enfermedad",
+          "dolor",
+          "sufrimiento",
+          "esperanza"
+        ]
+      }
+    ]
   }
 ]
