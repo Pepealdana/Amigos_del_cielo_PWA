@@ -276,6 +276,14 @@ function registrarEventos() {
 
     registrarEvento(
 
+        "menu-beatos",
+
+        () => navegar("beatos")
+
+    );
+
+    registrarEvento(
+
         "menu-maria",
 
         () => navegar("maria")
@@ -598,7 +606,8 @@ function mostrarCatalogoV2(
         santos: "Santos",
         maria: "María",
         novenas: "Novenas",
-        devociones: "Devociones"
+        devociones: "Devociones",
+        beatos: "Beatos"
     };
 
     actualizarTituloPagina(
@@ -616,6 +625,10 @@ function mostrarTodos() {
 
 function mostrarSantos() {
     mostrarCatalogoV2("santos");
+}
+
+function mostrarBeatos() {
+    mostrarCatalogoV2("beatos");
 }
 
 function mostrarMaria() {
@@ -1251,6 +1264,11 @@ function manejarClicksPWA(evento) {
             return;
         }
 
+        if (tipo === "open-profile" && id) {
+            mostrarPerfilCatalogo(id);
+            return;
+        }
+
         if (tipo === "continue-novena" && id) {
             continuarNovena(id);
             return;
@@ -1342,7 +1360,7 @@ function manejarClicksPWA(evento) {
     const filtroPais = evento.target.closest("[data-country-filter]");
 
     if (filtroPais) {
-        const seccionActual = ["todos", "santos", "maria", "novenas", "devociones"].includes(router.rutaActual)
+        const seccionActual = ["todos", "santos", "beatos", "maria", "novenas", "devociones"].includes(router.rutaActual)
             ? router.rutaActual
             : "todos";
 
@@ -1357,7 +1375,7 @@ function manejarClicksPWA(evento) {
     const filtroGrupo = evento.target.closest("[data-group-filter]");
 
     if (filtroGrupo) {
-        const seccionActual = ["santos", "maria"].includes(router.rutaActual)
+        const seccionActual = ["santos", "beatos", "maria"].includes(router.rutaActual)
             ? router.rutaActual
             : "todos";
 
