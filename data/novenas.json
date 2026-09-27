@@ -6621,5 +6621,54 @@
       "evangelización",
       "tilma"
     ]
+  },
+  {
+    "id": "san-jose-sanchez-del-rio",
+    "slug": "san-jose-sanchez-del-rio",
+    "name": "San José Sánchez del Río",
+    "title": "Testigo joven de Cristo",
+    "subtitle": "Fe, perseverancia y fidelidad",
+    "category": "Santos",
+    "image": "assets/images/santos/san_jose_sanchez_del_rio.webp",
+    "file": "data/san-jose-sanchez-del-rio.json",
+    "description": "Joven mártir mexicano que permaneció fiel a Cristo durante la persecución religiosa de México.",
+    "feast": {
+      "day": 10,
+      "month": 2,
+      "text": "10 de febrero",
+      "liturgicalRank": "Memoria facultativa",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "latinoamericanos",
+      "martires",
+      "jovenes"
+    ],
+    "territorial": {
+      "origin": [
+        "MX"
+      ],
+      "historicalLinks": [
+        "MX"
+      ],
+      "specialDevotion": [
+        "MX"
+      ]
+    },
+    "interventions": 6,
+    "search": [
+      "san jose sanchez del rio",
+      "san josé sánchez del río",
+      "joselito",
+      "sahuayo",
+      "mexico",
+      "méxico",
+      "martir",
+      "mártir",
+      "joven",
+      "cristeros",
+      "cristo rey"
+    ]
   }
 ]
