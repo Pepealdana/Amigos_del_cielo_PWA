@@ -1,0 +1,456 @@
+{
+  "id": "santiago-apostol",
+  "name": "Santiago Apóstol",
+  "title": "Apóstol y primer mártir de los Doce",
+  "feast": {
+    "day": 25,
+    "month": 7,
+    "text": "25 de julio",
+    "movable": false,
+    "liturgicalRank": "Fiesta"
+  },
+  "image": "assets/images/santos/santiago_apostol.webp",
+  "groups": [
+    "devocion-extendida",
+    "apostoles",
+    "martires"
+  ],
+  "territorial": {
+    "origin": [
+      "IL"
+    ],
+    "historicalLinks": [
+      "IL",
+      "ES"
+    ],
+    "specialDevotion": [
+      "ES"
+    ]
+  },
+  "patronages": [
+    "España",
+    "Peregrinos",
+    "Caminantes",
+    "Viajeros"
+  ],
+  "virtues": [
+    "Fe",
+    "Valentía",
+    "Perseverancia",
+    "Misión",
+    "Esperanza",
+    "Testimonio"
+  ],
+  "history": {
+    "short": "Santiago el Mayor fue uno de los Doce Apóstoles, hijo de Zebedeo y hermano de Juan. Los Evangelios lo presentan entre los discípulos más cercanos a Jesús. Fue ejecutado por orden de Herodes Agripa I, según los Hechos de los Apóstoles.",
+    "extended": "Santiago, llamado tradicionalmente Santiago el Mayor para distinguirlo de otros personajes con el mismo nombre, era hijo de Zebedeo y hermano de Juan. Ambos eran pescadores y fueron llamados por Jesús para seguirlo. Los Evangelios incluyen a Santiago, Pedro y Juan entre los discípulos presentes en algunos momentos especialmente significativos de la vida de Jesús.\n\nSantiago aparece en los Evangelios como uno de los Doce y como miembro del grupo más cercano de discípulos. Estuvo presente en la transfiguración y en otros acontecimientos relevantes. También aparece junto a su hermano Juan pidiendo un lugar de honor, ocasión en la que Jesús les enseñó que la grandeza cristiana se expresa mediante el servicio.\n\nLos Hechos de los Apóstoles ofrecen un dato histórico especialmente claro: Herodes Agripa I hizo morir a espada a Santiago. De este modo, Santiago es presentado como el primer miembro de los Doce cuyo martirio se narra explícitamente en el Nuevo Testamento.\n\nLa tradición cristiana posterior vinculó a Santiago con la evangelización de Hispania y con Compostela. Estos relatos forman parte de una tradición muy importante para la historia del cristianismo español y europeo, pero no tienen el mismo nivel de documentación que los datos contenidos en los Evangelios y los Hechos. Por eso la novena distingue el ministerio apostólico documentado de las tradiciones compostelanas posteriores.\n\nEl culto a Santiago en Compostela convirtió su santuario en uno de los grandes destinos de peregrinación cristiana de Europa. Su figura puede contemplarse hoy como modelo de disponibilidad para seguir a Cristo, valentía ante la prueba y perseverancia en el camino."
+  },
+  "quote": {
+    "text": "¿Podéis beber el cáliz que yo he de beber?",
+    "reference": "Mateo 20,22; palabras de Jesús a Santiago y Juan, utilizadas como eje espiritual de la novena."
+  },
+  "search": [
+    "santiago apostol",
+    "Santiago Apóstol",
+    "santiago el mayor",
+    "apostol",
+    "apóstol",
+    "apostoles",
+    "apóstoles",
+    "zebedeo",
+    "juan",
+    "galilea",
+    "jerusalen",
+    "jerusalén",
+    "martir",
+    "mártir",
+    "compostela",
+    "santiago de compostela",
+    "camino de santiago",
+    "peregrino",
+    "peregrinacion",
+    "peregrinación",
+    "españa"
+  ],
+  "interventions": [
+    {
+      "id": "fe",
+      "label": "Fe y seguimiento",
+      "keywords": [
+        "fe",
+        "cristo",
+        "jesus",
+        "jesús",
+        "seguimiento",
+        "discipulo",
+        "discípulo"
+      ]
+    },
+    {
+      "id": "servicio",
+      "label": "Servicio y humildad",
+      "keywords": [
+        "servicio",
+        "humildad",
+        "liderazgo",
+        "autoridad",
+        "servir",
+        "grandeza"
+      ]
+    },
+    {
+      "id": "martirio",
+      "label": "Valentía y testimonio",
+      "keywords": [
+        "martirio",
+        "martir",
+        "mártir",
+        "valentia",
+        "valentía",
+        "persecucion",
+        "persecución",
+        "testimonio"
+      ]
+    },
+    {
+      "id": "peregrinos",
+      "label": "Peregrinos y caminantes",
+      "keywords": [
+        "peregrino",
+        "peregrinos",
+        "peregrinacion",
+        "peregrinación",
+        "camino",
+        "caminante",
+        "viaje"
+      ]
+    },
+    {
+      "id": "mision",
+      "label": "Misión y evangelización",
+      "keywords": [
+        "mision",
+        "misión",
+        "evangelizacion",
+        "evangelización",
+        "apostol",
+        "apóstol",
+        "apostoles",
+        "apóstoles"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y fraternidad",
+      "keywords": [
+        "familia",
+        "hermano",
+        "hermanos",
+        "zebedeo",
+        "juan"
+      ]
+    },
+    {
+      "id": "perseverancia",
+      "label": "Perseverancia",
+      "keywords": [
+        "perseverancia",
+        "prueba",
+        "dificultad",
+        "camino",
+        "esfuerzo"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza en el camino",
+      "keywords": [
+        "esperanza",
+        "futuro",
+        "resurreccion",
+        "resurrección",
+        "vida",
+        "muerte"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. Santiago Apóstol, discípulo de Jesús y testigo de su Evangelio, enséñanos a seguir a Cristo con valentía y a servir con humildad. Ruega por los peregrinos, por quienes atraviesan caminos difíciles y por quienes necesitan renovar su esperanza. Amén.",
+  "closingPrayer": "Santiago Apóstol, primer mártir de los Doce según el testimonio de los Hechos de los Apóstoles, intercede por nosotros. Ayúdanos a caminar con fe, servir con humildad y perseverar en el bien hasta el final. Ruega por todos los peregrinos y por quienes buscan a Dios en sus caminos. Amén.",
+  "intentions": [
+    "Por el Papa, los obispos, sacerdotes y todos los servidores de la Iglesia.",
+    "Por los peregrinos que recorren el Camino de Santiago y otros caminos de fe.",
+    "Por viajeros y personas que emprenden nuevos caminos en su vida.",
+    "Por quienes sufren persecución o rechazo por causa de su fe.",
+    "Por familias que necesitan fortalecer sus vínculos y su fraternidad.",
+    "Por quienes buscan discernir una misión o vocación de servicio.",
+    "Por España y por las comunidades que mantienen viva la tradición jacobea.",
+    "Por quienes atraviesan cansancio, incertidumbre o dificultades en su camino.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Mateo 4,18-22",
+      "Mateo 17,1-8",
+      "Mateo 20,20-28",
+      "Hechos 12,1-2",
+      "Marcos 10,35-45"
+    ],
+    "related": [
+      "Santiago el Mayor",
+      "Camino de Santiago",
+      "Catedral de Santiago de Compostela",
+      "Peregrinación cristiana"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Santiago el Mayor",
+      "organization": "Santa Sede — Benedicto XVI",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2006/documents/hf_ben-xvi_aud_20060621.html",
+      "type": "official"
+    },
+    {
+      "title": "Fiesta de Santiago Apóstol",
+      "organization": "Santa Sede — Juan Pablo II",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2003/documents/hf_jp-ii_hom_20030725_santiago.html",
+      "type": "official"
+    },
+    {
+      "title": "Santiago Apóstol",
+      "organization": "Conferencia Episcopal Española",
+      "url": "https://www.conferenciaepiscopal.es/santiago-apostol/",
+      "type": "official"
+    },
+    {
+      "title": "Santiago Apóstol",
+      "organization": "Catedral de Santiago de Compostela",
+      "url": "https://catedraldesantiago.es/santiago-apostol/",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Llamado",
+      "title": "Dejar las redes",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santiago era pescador y trabajaba con su padre Zebedeo y su hermano Juan cuando Jesús los llamó para seguirlo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El seguimiento de Cristo comienza con una respuesta concreta. A veces exige dejar hábitos o seguridades que impiden avanzar."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué necesito dejar para responder mejor a aquello que considero mi vocación?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo un nuevo camino de vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago Apóstol, ayúdanos a reconocer las llamadas de Dios y a responder con generosidad. Amén."
+      },
+      "action": "Identifica hoy una prioridad que necesites ordenar para avanzar en un camino de bien."
+    },
+    {
+      "day": 2,
+      "theme": "Cercanía",
+      "title": "Caminar con Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santiago formó parte, junto con Pedro y Juan, del grupo de discípulos que acompañó a Jesús en algunos momentos especialmente significativos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe crece mediante una relación constante con Cristo, no solo a través de momentos extraordinarios."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué práctica concreta me ayuda a permanecer cerca de Cristo?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean fortalecer su vida de oración y su relación con Jesús."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago, enséñanos a permanecer cerca de Cristo en los momentos luminosos y en los difíciles. Amén."
+      },
+      "action": "Reserva hoy un momento concreto para la oración."
+    },
+    {
+      "day": 3,
+      "theme": "Humildad",
+      "title": "Aprender a servir",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santiago y Juan llegaron a pedir un lugar de honor. Jesús aprovechó la ocasión para enseñarles que la grandeza entre sus discípulos consiste en servir."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La autoridad cristiana no se mide por privilegios, sino por la capacidad de ponerse al servicio de los demás."
+      },
+      "virtue": "Humildad",
+      "reflection": "¿En qué situación busco reconocimiento en lugar de servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes tienen responsabilidades familiares, laborales, comunitarias o eclesiales."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago Apóstol, enséñanos a cambiar la búsqueda de reconocimiento por una vida de servicio. Amén."
+      },
+      "action": "Realiza hoy una tarea útil para otra persona sin buscar reconocimiento."
+    },
+    {
+      "day": 4,
+      "theme": "Misión",
+      "title": "Anunciar con valentía",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Como uno de los Doce, Santiago recibió de Jesús la misión apostólica. Su vida quedó orientada al anuncio del Evangelio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Evangelizar comienza por vivir de forma coherente y comunicar la fe con respeto y caridad."
+      },
+      "virtue": "Misión",
+      "reflection": "¿Cómo puedo dar testimonio de mi fe mediante mis acciones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros, catequistas y todos los que anuncian el Evangelio."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago, fortalece a quienes anuncian el Evangelio y haznos testigos coherentes de Cristo. Amén."
+      },
+      "action": "Haz hoy una obra que muestre de manera concreta uno de los valores del Evangelio."
+    },
+    {
+      "day": 5,
+      "theme": "Martirio",
+      "title": "Permanecer fieles",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Los Hechos de los Apóstoles narran que Herodes Agripa I hizo morir a Santiago a espada. Es el primer martirio de uno de los Doce relatado explícitamente en el Nuevo Testamento."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El testimonio cristiano puede exigir perseverancia en circunstancias difíciles. La fidelidad no significa buscar el sufrimiento, sino permanecer en el bien."
+      },
+      "virtue": "Valentía",
+      "reflection": "¿Qué bien necesito defender con mayor firmeza y prudencia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los cristianos perseguidos y por quienes sufren por sus convicciones religiosas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago Apóstol, intercede por quienes sufren persecución y ayúdanos a permanecer firmes en el bien. Amén."
+      },
+      "action": "Actúa hoy con coherencia en una situación donde sería más fácil ceder por comodidad."
+    },
+    {
+      "day": 6,
+      "theme": "Peregrinación",
+      "title": "Caminar con propósito",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición posterior vinculó a Santiago con Hispania y Compostela. Aunque estos relatos no tienen el mismo nivel de documentación que los Evangelios y los Hechos, dieron origen a una de las grandes tradiciones de peregrinación de Europa."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una peregrinación exterior puede convertirse en una imagen de la vida interior: caminar, detenerse, corregir el rumbo y continuar."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿En qué camino de mi vida necesito perseverar aunque avance lentamente?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por peregrinos, caminantes y viajeros."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago, acompaña nuestros caminos y ayúdanos a perseverar con esperanza. Amén."
+      },
+      "action": "Haz hoy una caminata consciente y dedica parte de ella a la oración."
+    },
+    {
+      "day": 7,
+      "theme": "Esperanza",
+      "title": "Seguir cuando hay cansancio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición jacobea convirtió el camino hacia Compostela en un símbolo de búsqueda espiritual y perseverancia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El cansancio no siempre significa que debemos abandonar. A veces necesitamos descansar, pedir ayuda y continuar de una manera más sostenible."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación me está haciendo perder la esperanza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan cansancio físico, emocional o espiritual."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago Apóstol, fortalece a quienes están cansados y ayúdalos a encontrar esperanza y compañía. Amén."
+      },
+      "action": "Identifica una persona o recurso que pueda ayudarte a continuar en una dificultad."
+    },
+    {
+      "day": 8,
+      "theme": "Fraternidad",
+      "title": "Caminar con otros",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santiago era hermano de Juan y compartió con otros discípulos la misión recibida de Jesús. Su historia recuerda que el camino cristiano nunca es completamente individual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fraternidad exige aprender a pedir ayuda, acompañar y aceptar que otros también tienen un lugar en nuestra misión."
+      },
+      "virtue": "Fraternidad",
+      "reflection": "¿A quién necesito acompañar y de quién necesito dejarme acompañar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias, comunidades y grupos que necesitan fortalecer sus vínculos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago, ayúdanos a caminar con otros y a construir relaciones basadas en la fraternidad. Amén."
+      },
+      "action": "Ofrece hoy tu compañía a alguien que pueda sentirse solo."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Llegar hasta la meta",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Santiago es recordado como apóstol y mártir. La Iglesia celebra su memoria como testigo de Cristo y, en la tradición de Compostela, como referencia para innumerables peregrinos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La meta cristiana no consiste solamente en llegar a un lugar, sino en permitir que el camino nos transforme en personas más fieles, humildes y caritativas."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso quiero llevar conmigo después de terminar esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todos los peregrinos, por la Iglesia y por quienes buscan a Dios en los caminos de su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Santiago Apóstol, intercede por nosotros. Ayúdanos a caminar con fe, servir con humildad y perseverar hasta el final. Amén."
+      },
+      "action": "Elige un compromiso concreto de oración, servicio o perseverancia para mantener después de esta novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
