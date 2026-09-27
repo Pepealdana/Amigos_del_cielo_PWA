@@ -937,7 +937,8 @@
                 "month": 6,
                 "movable": false,
                 "liturgicalRank": "Memoria"
-            }
+            },
+            "image": "assets/images/santos/virgen_del_perpetuo_socorro.webp"
         },
         {
             "id": "nuestra-senora-de-la-dulce-espera",
@@ -965,7 +966,8 @@
                 "month": 12,
                 "movable": false,
                 "liturgicalRank": "Memoria"
-            }
+            },
+            "image": "assets/images/santos/virgen_de_la_dulce_espera.webp"
         }
     ]
 }
