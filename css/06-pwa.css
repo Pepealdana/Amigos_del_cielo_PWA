@@ -1341,3 +1341,273 @@ body.dark .saint-history-page .history-extended-toggle{
         margin:.8rem 0;
     }
 }
+
+/* ==========================================================
+   MENU LATERAL — AGRUPACIÓN
+========================================================== */
+
+.menu-group{
+    display:flex;
+    flex-direction:column;
+    gap:.25rem;
+    margin-bottom:1.1rem;
+}
+
+.menu-group-last{
+    margin-bottom:0;
+}
+
+.menu-group-title{
+    margin:0 0 .25rem;
+    padding:0 .75rem;
+    color:var(--color-text-light);
+    font-size:.72rem;
+    font-weight:800;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+}
+
+.side-menu .menu-group button{
+    width:100%;
+    min-height:44px;
+    padding:.65rem .75rem;
+    border:none;
+    border-radius:var(--radius-sm);
+    background:transparent;
+    color:var(--color-text);
+    font:inherit;
+    text-align:left;
+    cursor:pointer;
+    transition:background .2s,color .2s;
+}
+
+.side-menu .menu-group button:hover{
+    background:var(--soft-blue);
+    color:var(--color-primary);
+}
+
+/* ==========================================================
+   MI CAMINO
+========================================================== */
+
+.annual-patron-card{
+    max-width:760px;
+    margin:0 auto;
+    overflow:hidden;
+    border:1px solid var(--color-border);
+    border-radius:var(--radius);
+    background:var(--color-surface);
+    box-shadow:var(--shadow);
+}
+
+.annual-patron-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1rem;
+    padding:1rem 1.25rem;
+    background:rgba(44,74,107,.06);
+    border-bottom:1px solid var(--color-border);
+}
+
+.annual-patron-kicker{
+    color:var(--color-primary);
+    font-weight:800;
+    letter-spacing:.04em;
+}
+
+.annual-patron-year{
+    color:var(--color-text-light);
+    font-weight:700;
+}
+
+.annual-patron-intro{
+    padding:2rem 1.5rem;
+    text-align:center;
+}
+
+.annual-patron-symbol{
+    margin-bottom:1rem;
+    color:var(--color-accent);
+    font-size:2rem;
+}
+
+.annual-patron-intro h3{
+    margin-bottom:.75rem;
+    color:var(--color-primary);
+}
+
+.annual-patron-intro > p{
+    max-width:650px;
+    margin:0 auto 1rem;
+    line-height:1.75;
+}
+
+.annual-patron-prayer{
+    max-width:650px;
+    margin:1.25rem auto 1.5rem;
+    padding:1.25rem 1.5rem;
+    border-left:4px solid var(--color-accent);
+    border-radius:var(--radius-sm);
+    background:rgba(217,182,107,.10);
+    text-align:left;
+    font-style:italic;
+    line-height:1.8;
+}
+
+.annual-patron-prayer p{
+    margin:0;
+}
+
+.annual-patron-intro .btn{
+    width:auto;
+    min-width:240px;
+}
+
+.annual-patron-tradition{
+    margin-top:1.5rem !important;
+    color:var(--color-text-light);
+    font-size:var(--font-sm);
+}
+
+.annual-patron-result{
+    display:grid;
+    grid-template-columns:minmax(180px,280px) 1fr;
+    gap:1.5rem;
+    align-items:center;
+    padding:1.5rem;
+}
+
+.annual-patron-image,
+.annual-patron-placeholder{
+    width:100%;
+    aspect-ratio:4 / 5;
+    object-fit:cover;
+    border-radius:var(--radius);
+    border:3px solid rgba(217,182,107,.30);
+    box-shadow:var(--shadow-lg);
+}
+
+.annual-patron-placeholder{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--color-surface);
+    color:var(--color-accent);
+    font-size:2rem;
+}
+
+.annual-patron-content{
+    display:flex;
+    flex-direction:column;
+    gap:.65rem;
+}
+
+.annual-patron-label{
+    margin:0;
+    color:var(--color-text-light);
+    font-size:var(--font-sm);
+    font-weight:700;
+}
+
+.annual-patron-content h3{
+    margin:0;
+    color:var(--color-primary);
+    font-size:var(--font-xxl);
+}
+
+.annual-patron-title,
+.annual-patron-feast,
+.annual-patron-date{
+    margin:0;
+    line-height:1.6;
+}
+
+.annual-patron-title{
+    color:var(--color-text-light);
+}
+
+.annual-patron-date{
+    font-size:var(--font-sm);
+    color:var(--color-text-light);
+}
+
+.annual-patron-content .btn{
+    width:auto;
+    margin-top:.5rem;
+}
+
+.camino-summary{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1rem;
+    max-width:760px;
+    margin:1.5rem auto 0;
+}
+
+.camino-summary-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:.45rem;
+    padding:1.25rem 1rem;
+    border:1px solid var(--color-border);
+    border-radius:var(--radius);
+    background:var(--color-surface);
+    box-shadow:var(--shadow-sm);
+    text-align:center;
+}
+
+.camino-summary-icon{
+    color:var(--color-primary);
+    font-size:1.35rem;
+}
+
+.camino-summary-card strong{
+    color:var(--color-primary);
+    font-size:1.5rem;
+}
+
+.camino-summary-card > span:not(.camino-summary-icon){
+    color:var(--color-text-light);
+}
+
+.camino-summary-card .btn{
+    width:auto;
+    min-width:120px;
+    margin-top:.35rem;
+}
+
+.patron-modal-image{
+    display:block;
+    width:min(70vw,220px);
+    aspect-ratio:4 / 5;
+    margin:0 auto 1rem;
+    object-fit:cover;
+    border-radius:var(--radius);
+}
+
+@media (max-width:700px){
+    .annual-patron-result{
+        grid-template-columns:1fr;
+        padding:1rem;
+    }
+
+    .annual-patron-image,
+    .annual-patron-placeholder{
+        width:min(72vw,280px);
+        margin:0 auto;
+    }
+
+    .annual-patron-content{
+        text-align:center;
+    }
+
+    .annual-patron-content .btn{
+        width:100%;
+    }
+
+    .camino-summary{
+        grid-template-columns:1fr;
+    }
+}
