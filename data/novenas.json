@@ -6722,5 +6722,58 @@
       "terciario franciscano",
       "novena"
     ]
+  },
+  {
+    "id": "san-oscar-romero",
+    "slug": "san-oscar-romero",
+    "name": "San Óscar Arnulfo Romero",
+    "title": "Pastor y mártir de El Salvador",
+    "subtitle": "Fe, servicio, verdad y reconciliación",
+    "category": "Santos",
+    "image": "assets/images/santos/san_oscar_romero.webp",
+    "file": "data/san-oscar-romero.json",
+    "description": "Arzobispo de San Salvador y mártir, cuyo testimonio quedó unido al servicio pastoral, la dignidad humana y la búsqueda de la paz.",
+    "feast": {
+      "day": 24,
+      "month": 3,
+      "text": "24 de marzo",
+      "liturgicalRank": "Memoria facultativa",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "latinoamericanos",
+      "martires"
+    ],
+    "territorial": {
+      "origin": [
+        "SV"
+      ],
+      "historicalLinks": [
+        "SV"
+      ],
+      "specialDevotion": [
+        "SV"
+      ]
+    },
+    "interventions": 9,
+    "search": [
+      "san oscar romero",
+      "san óscar romero",
+      "oscar arnulfo romero",
+      "óscar arnulfo romero",
+      "romero",
+      "el salvador",
+      "san salvador",
+      "martir",
+      "mártir",
+      "arzobispo",
+      "paz",
+      "reconciliacion",
+      "reconciliación",
+      "pobres",
+      "eucaristia",
+      "eucaristía"
+    ]
   }
 ]
