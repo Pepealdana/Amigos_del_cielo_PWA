@@ -679,7 +679,7 @@ function renderTarjetaCatalogoV2(item, seccion) {
             class="catalog-card"
             type="button"
             ${accion}
-            ${tieneNovena ? "" : "disabled"}>
+            ${tieneNovena || seccion === "beatos" ? "" : "disabled"}>
             ${imagen ? `
                 <img
                     src="${escaparHTML(imagen)}"
@@ -1018,3 +1018,50 @@ document.addEventListener("keydown", evento => {
         cerrarPanelFiltrosCatalogo();
     }
 });
+
+
+function mostrarPerfilCatalogo(id) {
+    const beato = (state.catalogosV2?.beatos || [])
+        .find(item => item?.id === id);
+
+    if (!beato) {
+        return;
+    }
+
+    const territorial = beato.territorial || {};
+    const codigos = [
+        ...(territorial.origin || []),
+        ...(territorial.historicalLinks || []),
+        ...(territorial.specialDevotion || [])
+    ].filter((codigo, index, lista) => lista.indexOf(codigo) === index);
+
+    const paises = codigos
+        .map(codigo => obtenerNombrePaisCatalogo(codigo))
+        .filter(Boolean)
+        .join(" · ");
+
+    const grupos = (beato.groups || [])
+        .map(obtenerNombreGrupoCatalogo)
+        .filter(Boolean)
+        .join(" · ");
+
+    const contenido =
+        (beato.description
+            ? "<p>" + escaparHTML(beato.description) + "</p>"
+            : "") +
+        (beato.feast?.text
+            ? "<p><strong>Celebración:</strong> " + escaparHTML(beato.feast.text) + "</p>"
+            : "") +
+        (paises
+            ? "<p><strong>Vínculos territoriales:</strong> " + escaparHTML(paises) + "</p>"
+            : "") +
+        (grupos
+            ? "<p><strong>Temas:</strong> " + escaparHTML(grupos) + "</p>"
+            : "") +
+        '<p class="modal-note">Esta ficha está incorporada al catálogo de Beatos. Su novena podrá añadirse posteriormente sin confundir la ficha biográfica con el contenido de oración.</p>';
+
+    mostrarModal(
+        escaparHTML(beato.name),
+        contenido
+    );
+}
