@@ -321,7 +321,7 @@ function renderInicio(catalogo = [], progreso = {}) {
             ? Math.min(
                 100,
                 Math.round(
-                    (completados / total) * 100
+                    (diasVisitados / total) * 100
                 )
             )
             : 0;
