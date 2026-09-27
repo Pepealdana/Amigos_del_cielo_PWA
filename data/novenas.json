@@ -6775,5 +6775,37 @@
       "eucaristia",
       "eucaristía"
     ]
+  },
+  {
+    "id": "senor-de-los-milagros-peru",
+    "slug": "senor-de-los-milagros-peru",
+    "name": "Señor de los Milagros del Perú",
+    "title": "Novena al Señor de los Milagros del Perú",
+    "subtitle": "Contemplar a Cristo crucificado y caminar con esperanza",
+    "category": "Devociones",
+    "featured": false,
+    "image": null,
+    "file": "data/senor-de-los-milagros-peru.json",
+    "description": "Nueve días para contemplar a Jesucristo crucificado, renovar la fe, vivir la misericordia y caminar con esperanza junto al pueblo peruano.",
+    "feast": {
+      "day": 28,
+      "month": 10,
+      "text": "28 de octubre",
+      "movable": false,
+      "liturgicalRank": "Solemnidad"
+    },
+    "status": "published",
+    "search": [
+      "señor de los milagros",
+      "señor de los milagros del perú",
+      "señor de los milagros peru",
+      "cristo moreno",
+      "cristo de pachacamilla",
+      "las nazarenas",
+      "mes morado",
+      "perú",
+      "peru"
+    ],
+    "interventions": 7
   }
 ]
