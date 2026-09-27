@@ -9,7 +9,7 @@
 - Se incorpora una breve oración al Espíritu Santo antes del sorteo.
 - La experiencia se presenta como una adaptación de la tradición de recibir un patrono especial para el año, documentada en el Diario de Santa Faustina y promovida actualmente por Faustinum.
 - Versión de aplicación: 1.3.2.
-- Caché del Service Worker: v219.
+- Caché del Service Worker: v220.
 
 # Historial de cambios — Amigos del Cielo
 
