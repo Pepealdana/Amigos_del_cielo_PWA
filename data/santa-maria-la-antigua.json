@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Panamá y Madre del pueblo panameño",
   "image": null,
   "feast": {
+    "day": 9,
+    "month": 9,
     "text": "9 de septiembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Santa María la Antigua se celebra el 9 de septiembre; es Patrona de Panamá."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Homilía en la Santa Misa en Panamá, 5 de marzo de 1983.",
     "San Juan Pablo II, Discurso a los obispos de Panamá, 4 de marzo de 1983.",
     "Benedicto XVI, Mensaje con motivo del V centenario de la diócesis de Santa María la Antigua del Darién, 2013.",
     "Conferencia Episcopal Panameña, información sobre Santa María la Antigua, Patrona de Panamá."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
