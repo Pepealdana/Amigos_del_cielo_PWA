@@ -5,8 +5,11 @@
   "subtitle": "Patrona y Protectora del pueblo dominicano",
   "image": null,
   "feast": {
+    "day": 21,
+    "month": 1,
     "text": "21 de enero",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de la Altagracia se celebra el 21 de enero; es Patrona y Protectora de la República Dominicana."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Santa Misa en el Santuario de Nuestra Señora de la Altagracia, Higüey, 12 de octubre de 1992.",
     "San Juan Pablo II, Acto de consagración de la República Dominicana a la Virgen de la Altagracia, 12 de octubre de 1992.",
     "Vatican News, República Dominicana: Centenario de la Virgen de la Altagracia, 2021.",
     "Vatican News, Dominicanos esperan al Papa en el Centenario de la Coronación de Altagracia, 2022."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
