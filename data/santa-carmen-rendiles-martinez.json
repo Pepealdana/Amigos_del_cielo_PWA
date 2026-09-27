@@ -5,8 +5,12 @@
   "subtitle": "Religiosa venezolana, fundadora de las Siervas de Jesús y servidora de la Eucaristía y de los sacerdotes",
   "image": null,
   "feast": {
+    "day": 9,
+    "month": 5,
     "text": "9 de mayo",
-    "movable": false
+    "liturgicalRank": "Memoria",
+    "movable": false,
+    "note": "La Iglesia celebra a Santa Carmen Rendiles Martínez el 9 de mayo."
   },
   "liturgicalRank": "Memoria",
   "quote": {
@@ -281,7 +285,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -341,5 +345,11 @@
     "Santa Sede, Promulgación de decretos del Dicasterio para las Causas de los Santos, 31 de marzo de 2025.",
     "Santa Sede, celebración de la canonización de María Carmen Rendiles Martínez, 19 de octubre de 2025.",
     "Vatican News, «Madre Carmen Rendiles la santa “valiente” de Venezuela», 1 de abril de 2025."
+  ],
+  "status": "published",
+  "category": "Santos",
+  "groups": [
+    "fundadores",
+    "latinoamericanos"
   ]
 }
