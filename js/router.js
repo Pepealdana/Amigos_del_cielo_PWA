@@ -61,6 +61,12 @@ const router = {
 
                 break;
 
+            case "beatos":
+
+                mostrarBeatos();
+
+                break;
+
             case "maria":
 
                 mostrarMaria();
