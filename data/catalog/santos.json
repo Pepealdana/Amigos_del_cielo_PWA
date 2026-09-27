@@ -795,7 +795,8 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "image": "assets/images/santos/santa_mariana_de_jesus.webp"
     },
     {
       "id": "santo-toribio-de-mogrovejo",
@@ -817,7 +818,8 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "image": "assets/images/santos/santo_toribio_de_mogrovejo.webp"
     },
     {
       "id": "san-juan-macias",
@@ -839,7 +841,8 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "image": "assets/images/santos/san_juan_macias.webp"
     },
     {
       "id": "santa-teresa-de-jesus-de-los-andes",
@@ -862,7 +865,8 @@
       "groups": [
         "latinoamericanos",
         "jovenes"
-      ]
+      ],
+      "image": "assets/images/santos/santa_teresa_de_jesus_de_los_andes.webp"
     },
     {
       "id": "san-alberto-hurtado",
@@ -884,7 +888,8 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "image": "assets/images/santos/san_alberto_hurtado.webp"
     },
     {
       "id": "san-jose-gabriel-del-rosario-brochero",
@@ -906,7 +911,8 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "image": "assets/images/santos/san_jose_gabriel_del_rosario_brochero.webp"
     },
     {
       "id": "santa-carmen-rendiles",
@@ -928,7 +934,8 @@
       },
       "groups": [
         "latinoamericanos"
-      ]
+      ],
+      "image": "assets/images/santos/santa_carmen_rendiles_martinez.webp"
     },
     {
       "id": "san-juan-pablo-ii",
