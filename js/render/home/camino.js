@@ -52,7 +52,7 @@ function renderCamino(
         .sort((a, b) => b.anio - a.anio);
 
     const historialHTML = historialPatronos.length
-        ? \`
+        ? `
             <section class="annual-patron-history" aria-labelledby="patron-history-title">
 
                 <h3 id="patron-history-title">
@@ -60,31 +60,31 @@ function renderCamino(
                 </h3>
 
                 <div class="annual-patron-history-list">
-                    \${historialPatronos.map(item => \`
+                    ${historialPatronos.map(item => `
                         <article class="annual-patron-history-item">
 
-                            \${item.santo.image ? \`
+                            ${item.santo.image ? `
                                 <img
-                                    src="\${escaparHTML(item.santo.image)}"
+                                    src="${escaparHTML(item.santo.image)}"
                                     alt=""
                                     class="annual-patron-history-image"
                                     loading="lazy">
-                            \` : ""}
+                            ` : ""}
 
                             <div>
-                                <strong>\${escaparHTML(String(item.anio))}</strong>
-                                <span>\${escaparHTML(item.santo.name)}</span>
+                                <strong>${escaparHTML(String(item.anio))}</strong>
+                                <span>${escaparHTML(item.santo.name)}</span>
                             </div>
 
                         </article>
-                    \`).join("")}
+                    `).join("")}
                 </div>
 
             </section>
-        \`
+        `
         : "";
 
-    return \`
+    return `
         <section class="page-shell camino-page">
 
             <header class="page-header">
