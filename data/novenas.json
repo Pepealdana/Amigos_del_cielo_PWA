@@ -7522,5 +7522,138 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beata-laura-vicuna",
+    "slug": "beata-laura-vicuna",
+    "name": "Beata Laura Vicuña",
+    "title": "Novena a la Beata Laura Vicuña",
+    "subtitle": "Pureza, amor filial, Eucaristía y entrega a Dios",
+    "category": "Beatas",
+    "featured": false,
+    "image": "assets/images/santos/beata_laura_vicuña.webp",
+    "file": "data/beata-laura-vicuna.json",
+    "description": "Nueve días para acercarnos al testimonio de Laura Vicuña y pedir la gracia de vivir la fe, la dignidad, el amor a la familia, la perseverancia y la entrega a Dios.",
+    "feast": {
+      "day": 22,
+      "month": 1,
+      "text": "22 de enero",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "jovenes",
+      "latinoamericanos",
+      "salesianos"
+    ],
+    "territorial": {
+      "origin": [
+        "CL"
+      ],
+      "historicalLinks": [
+        "AR",
+        "CL"
+      ],
+      "specialDevotion": [
+        "AR",
+        "CL"
+      ]
+    },
+    "search": [
+      "beata laura vicuña",
+      "beata laura vicuna",
+      "laura vicuña",
+      "laura vicuna",
+      "junín de los andes",
+      "salesiana",
+      "jóvenes",
+      "familia",
+      "eucaristía",
+      "pureza"
+    ],
+    "interventions": [
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y adolescentes",
+        "keywords": [
+          "joven",
+          "jóvenes",
+          "jovenes",
+          "adolescente",
+          "juventud"
+        ]
+      },
+      {
+        "id": "familia",
+        "label": "Familia y reconciliación",
+        "keywords": [
+          "familia",
+          "madre",
+          "hijos",
+          "reconciliacion",
+          "conversion"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y entrega a Dios",
+        "keywords": [
+          "vocacion",
+          "consagracion",
+          "llamado",
+          "servicio"
+        ]
+      },
+      {
+        "id": "pureza",
+        "label": "Pureza y dignidad",
+        "keywords": [
+          "pureza",
+          "inocencia",
+          "dignidad",
+          "castidad"
+        ]
+      },
+      {
+        "id": "eucaristia",
+        "label": "Eucaristía y vida espiritual",
+        "keywords": [
+          "eucaristia",
+          "comunion",
+          "oracion",
+          "confesion"
+        ]
+      },
+      {
+        "id": "sufrimiento",
+        "label": "Enfermedad y esperanza",
+        "keywords": [
+          "enfermedad",
+          "sufrimiento",
+          "dolor",
+          "esperanza"
+        ]
+      },
+      {
+        "id": "fe",
+        "label": "Fe y perseverancia",
+        "keywords": [
+          "fe",
+          "perseverancia",
+          "fidelidad",
+          "prueba"
+        ]
+      },
+      {
+        "id": "sacrificio",
+        "label": "Entrega y amor por los demás",
+        "keywords": [
+          "sacrificio",
+          "entrega",
+          "amor",
+          "caridad"
+        ]
+      }
+    ]
   }
 ]
