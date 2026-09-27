@@ -5,8 +5,11 @@
   "subtitle": "Madre y Patrona de la diócesis de Ipiales",
   "image": null,
   "feast": {
+    "day": 15,
+    "month": 9,
     "text": "15 de septiembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora del Rosario de Las Lajas se celebra el 15 de septiembre; la advocación está especialmente vinculada al santuario de Las Lajas, en Nariño, Colombia."
   },
   "liturgicalRank": "Memoria",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Pablo VI, carta apostólica Tutela caelestis, 26 de abril de 1965.",
     "Conferencia Episcopal de Colombia, Fiesta Patronal en honor a Nuestra Señora del Rosario de Las Lajas.",
     "San Juan Pablo II, audiencia del 16 de julio de 1986, sobre su peregrinación a Colombia y los santuarios marianos.",
     "Santa Sede, documentación sobre la visita apostólica de san Juan Pablo II a Colombia en 1986."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
