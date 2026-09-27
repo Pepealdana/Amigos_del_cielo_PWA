@@ -45,7 +45,13 @@ const router = {
 
             case "biblioteca":
 
-                mostrarNovenas();
+                mostrarBiblioteca();
+
+                break;
+
+            case "camino":
+
+                mostrarCamino();
 
                 break;
 
