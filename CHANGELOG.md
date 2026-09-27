@@ -1,3 +1,16 @@
+## [1.3.2] — Navegación y Mi camino
+
+- Simplificación del menú lateral mediante grupos: Inicio, Explorar, Mi camino, Comunidad y Aplicación.
+- Nueva navegación inferior: Inicio, Santos, Biblioteca y Mi camino.
+- Las rutas secundarias de Biblioteca y Mi camino mantienen su contexto activo en la navegación inferior.
+- Nuevo espacio **Mi camino** para reunir favoritos, progreso y el amigo del cielo del año.
+- Nuevo sorteo anual de un santo entre los santos publicados del catálogo.
+- El santo recibido queda guardado localmente por año y no se vuelve a sortear durante ese mismo año.
+- Se incorpora una breve oración al Espíritu Santo antes del sorteo.
+- La experiencia se presenta como una adaptación de la tradición de recibir un patrono especial para el año, documentada en el Diario de Santa Faustina y promovida actualmente por Faustinum.
+- Versión de aplicación: 1.3.2.
+- Caché del Service Worker: v219.
+
 # Historial de cambios — Amigos del Cielo
 
 ## [1.3.1] — Cierre técnico posterior a auditoría
