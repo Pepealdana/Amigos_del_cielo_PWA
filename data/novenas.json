@@ -6571,5 +6571,55 @@
       "peregrino",
       "españa"
     ]
+  },
+  {
+    "id": "san-juan-diego",
+    "slug": "san-juan-diego",
+    "name": "San Juan Diego",
+    "title": "Mensajero de Nuestra Señora de Guadalupe",
+    "subtitle": "Humildad, servicio y confianza",
+    "category": "Santos",
+    "image": "assets/images/santos/san_juan_diego.webp",
+    "file": "data/san-juan-diego.json",
+    "description": "Laico indígena mexicano y mensajero de Nuestra Señora de Guadalupe, canonizado en 2002.",
+    "feast": {
+      "day": 9,
+      "month": 12,
+      "text": "9 de diciembre",
+      "movable": false,
+      "liturgicalRank": "Memoria facultativa"
+    },
+    "status": "published",
+    "groups": [
+      "latinoamericanos",
+      "devocion-extendida"
+    ],
+    "territorial": {
+      "origin": [
+        "MX"
+      ],
+      "historicalLinks": [
+        "MX"
+      ],
+      "specialDevotion": [
+        "MX"
+      ]
+    },
+    "interventions": 7,
+    "search": [
+      "san juan diego",
+      "juan diego",
+      "cuauhtlatoatzin",
+      "guadalupe",
+      "tepeyac",
+      "mexico",
+      "méxico",
+      "indigena",
+      "indígena",
+      "laico",
+      "evangelizacion",
+      "evangelización",
+      "tilma"
+    ]
   }
 ]
