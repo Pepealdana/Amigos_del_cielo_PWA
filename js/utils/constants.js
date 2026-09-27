@@ -14,6 +14,7 @@ const STORAGE_KEYS = {
     PROGRESS: "adc-progress",
     SETTINGS: "adc-settings",
     INTENTIONS: "adc-intentions",
+    ANNUAL_PATRON: "adc-annual-patron",
 };
 
 const ROUTES = {
@@ -23,7 +24,8 @@ const ROUTES = {
     PROGRESS: "progreso",
     SETTINGS: "configuracion",
     PARTICIPATE: "participa",
-    ABOUT: "acerca"
+    ABOUT: "acerca",
+    PATH: "camino"
 };
 
 const MONTHS = [
