@@ -10,10 +10,17 @@
       "description": "Religiosa alemana y fundadora dedicada a la educación y al acompañamiento de niños y jóvenes.",
       "status": "published",
       "priority": "existente",
-      "groups": ["fundadores", "educadores"],
+      "groups": [
+        "fundadores",
+        "educadores"
+      ],
       "territorial": {
-        "origin": ["DE"],
-        "historicalLinks": ["DE"],
+        "origin": [
+          "DE"
+        ],
+        "historicalLinks": [
+          "DE"
+        ],
         "specialDevotion": []
       },
       "feast": {
@@ -22,8 +29,17 @@
         "text": "8 de mayo",
         "movable": false
       },
-      "tags": ["educación", "fundadora", "niños", "jóvenes"],
-      "searchTerms": ["Clara Fey", "Madre Clara Fey"]
+      "tags": [
+        "educación",
+        "fundadora",
+        "niños",
+        "jóvenes"
+      ],
+      "searchTerms": [
+        "Clara Fey",
+        "Madre Clara Fey"
+      ],
+      "image": "assets/images/santos/beata_clara_fey.webp"
     },
     {
       "id": "beata-chiara-luce-badano",
@@ -32,10 +48,17 @@
       "description": "Joven italiana vinculada al Movimiento de los Focolares, cuyo testimonio cristiano se desarrolló en medio de una enfermedad.",
       "status": "published",
       "priority": "nueva incorporación",
-      "groups": ["jovenes", "laicos"],
+      "groups": [
+        "jovenes",
+        "laicos"
+      ],
       "territorial": {
-        "origin": ["IT"],
-        "historicalLinks": ["IT"],
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
         "specialDevotion": []
       },
       "feast": {
@@ -44,8 +67,17 @@
         "text": "29 de octubre",
         "movable": false
       },
-      "tags": ["jóvenes", "laicos", "Focolares", "testimonio"],
-      "searchTerms": ["Chiara Badano", "Chiara Luce"]
+      "tags": [
+        "jóvenes",
+        "laicos",
+        "Focolares",
+        "testimonio"
+      ],
+      "searchTerms": [
+        "Chiara Badano",
+        "Chiara Luce"
+      ],
+      "image": "assets/images/santos/beata_chiara_luce_badano.webp"
     },
     {
       "id": "beato-michael-mcgivney",
@@ -54,10 +86,18 @@
       "description": "Sacerdote estadounidense que impulsó una obra de ayuda fraterna y apoyo a las familias católicas.",
       "status": "published",
       "priority": "nueva incorporación",
-      "groups": ["fundadores", "sacerdotes", "laicos"],
+      "groups": [
+        "fundadores",
+        "sacerdotes",
+        "laicos"
+      ],
       "territorial": {
-        "origin": ["US"],
-        "historicalLinks": ["US"],
+        "origin": [
+          "US"
+        ],
+        "historicalLinks": [
+          "US"
+        ],
         "specialDevotion": []
       },
       "feast": {
@@ -66,8 +106,17 @@
         "text": "13 de agosto",
         "movable": false
       },
-      "tags": ["sacerdote", "fundador", "familia", "Caballeros de Colón"],
-      "searchTerms": ["Michael McGivney", "McGivney"]
+      "tags": [
+        "sacerdote",
+        "fundador",
+        "familia",
+        "Caballeros de Colón"
+      ],
+      "searchTerms": [
+        "Michael McGivney",
+        "McGivney"
+      ],
+      "image": "assets/images/santos/beato_michael_mcgivney.webp"
     },
     {
       "id": "beato-padre-marianito",
@@ -76,11 +125,20 @@
       "description": "Mariano de Jesús Euse Hoyos, sacerdote colombiano recordado por su vida de oración, servicio pastoral y cercanía con los pobres.",
       "status": "published",
       "priority": "nueva incorporación",
-      "groups": ["sacerdotes", "latinoamericanos"],
+      "groups": [
+        "sacerdotes",
+        "latinoamericanos"
+      ],
       "territorial": {
-        "origin": ["CO"],
-        "historicalLinks": ["CO"],
-        "specialDevotion": ["CO"]
+        "origin": [
+          "CO"
+        ],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
       },
       "feast": {
         "day": 13,
@@ -88,8 +146,18 @@
         "text": "13 de septiembre",
         "movable": false
       },
-      "tags": ["Colombia", "sacerdote", "pobres", "caridad"],
-      "searchTerms": ["Mariano de Jesús Euse Hoyos", "Padre Marianito", "Marianito"]
+      "tags": [
+        "Colombia",
+        "sacerdote",
+        "pobres",
+        "caridad"
+      ],
+      "searchTerms": [
+        "Mariano de Jesús Euse Hoyos",
+        "Padre Marianito",
+        "Marianito"
+      ],
+      "image": "assets/images/santos/beato_padre_marianito.webp"
     },
     {
       "id": "beato-ceferino-namuncura",
@@ -98,11 +166,20 @@
       "description": "Joven argentino de origen mapuche formado en la espiritualidad salesiana y recordado por su deseo de servir a su pueblo.",
       "status": "published",
       "priority": "nueva incorporación",
-      "groups": ["jovenes", "latinoamericanos"],
+      "groups": [
+        "jovenes",
+        "latinoamericanos"
+      ],
       "territorial": {
-        "origin": ["AR"],
-        "historicalLinks": ["AR"],
-        "specialDevotion": ["AR"]
+        "origin": [
+          "AR"
+        ],
+        "historicalLinks": [
+          "AR"
+        ],
+        "specialDevotion": [
+          "AR"
+        ]
       },
       "feast": {
         "day": 26,
@@ -110,8 +187,17 @@
         "text": "26 de agosto",
         "movable": false
       },
-      "tags": ["Argentina", "mapuche", "jóvenes", "salesiano"],
-      "searchTerms": ["Ceferino Namuncurá", "Zefferino Namuncurá"]
+      "tags": [
+        "Argentina",
+        "mapuche",
+        "jóvenes",
+        "salesiano"
+      ],
+      "searchTerms": [
+        "Ceferino Namuncurá",
+        "Zefferino Namuncurá"
+      ],
+      "image": "assets/images/santos/beato_ceferino_namuncura.webp"
     },
     {
       "id": "beata-ana-de-los-angeles-monteagudo",
@@ -120,11 +206,20 @@
       "description": "Religiosa dominica peruana vinculada a la vida contemplativa y a la tradición espiritual de Arequipa.",
       "status": "published",
       "priority": "nueva incorporación",
-      "groups": ["latinoamericanos", "religiosos"],
+      "groups": [
+        "latinoamericanos",
+        "religiosos"
+      ],
       "territorial": {
-        "origin": ["PE"],
-        "historicalLinks": ["PE"],
-        "specialDevotion": ["PE"]
+        "origin": [
+          "PE"
+        ],
+        "historicalLinks": [
+          "PE"
+        ],
+        "specialDevotion": [
+          "PE"
+        ]
       },
       "feast": {
         "day": 10,
@@ -132,8 +227,17 @@
         "text": "10 de enero",
         "movable": false
       },
-      "tags": ["Perú", "dominica", "Arequipa", "vida contemplativa"],
-      "searchTerms": ["Ana de los Ángeles", "Ana de los Ángeles Monteagudo"]
+      "tags": [
+        "Perú",
+        "dominica",
+        "Arequipa",
+        "vida contemplativa"
+      ],
+      "searchTerms": [
+        "Ana de los Ángeles",
+        "Ana de los Ángeles Monteagudo"
+      ],
+      "image": "assets/images/santos/beata_ana_de_los_angeles_monteagudo.webp"
     },
     {
       "id": "beata-laura-vicuna",
@@ -142,11 +246,23 @@
       "description": "Joven chilena vinculada a la espiritualidad salesiana, recordada por su vida de fe y entrega a Dios.",
       "status": "published",
       "priority": "nueva incorporación",
-      "groups": ["jovenes", "latinoamericanos", "salesianos"],
+      "groups": [
+        "jovenes",
+        "latinoamericanos",
+        "salesianos"
+      ],
       "territorial": {
-        "origin": ["CL"],
-        "historicalLinks": ["AR", "CL"],
-        "specialDevotion": ["AR", "CL"]
+        "origin": [
+          "CL"
+        ],
+        "historicalLinks": [
+          "AR",
+          "CL"
+        ],
+        "specialDevotion": [
+          "AR",
+          "CL"
+        ]
       },
       "feast": {
         "day": 22,
@@ -154,8 +270,17 @@
         "text": "22 de enero",
         "movable": false
       },
-      "tags": ["Chile", "Argentina", "jóvenes", "salesiana"],
-      "searchTerms": ["Laura Vicuña", "Laura Vicuna"]
+      "tags": [
+        "Chile",
+        "Argentina",
+        "jóvenes",
+        "salesiana"
+      ],
+      "searchTerms": [
+        "Laura Vicuña",
+        "Laura Vicuna"
+      ],
+      "image": "assets/images/santos/beata_laura_vicuña.webp"
     },
     {
       "id": "beata-guadalupe-ortiz-de-landazuri",
@@ -164,11 +289,24 @@
       "description": "Laica española, química y docente, cuyo testimonio cristiano estuvo unido al trabajo profesional, la enseñanza y el servicio.",
       "status": "published",
       "priority": "nueva incorporación",
-      "groups": ["laicos", "educadores", "cientificos"],
+      "groups": [
+        "laicos",
+        "educadores",
+        "cientificos"
+      ],
       "territorial": {
-        "origin": ["ES"],
-        "historicalLinks": ["ES", "MX", "IT"],
-        "specialDevotion": ["ES", "MX"]
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "ES",
+          "MX",
+          "IT"
+        ],
+        "specialDevotion": [
+          "ES",
+          "MX"
+        ]
       },
       "feast": {
         "day": 16,
@@ -176,8 +314,18 @@
         "text": "16 de mayo",
         "movable": false
       },
-      "tags": ["España", "México", "laicos", "ciencia", "educación"],
-      "searchTerms": ["Guadalupe Ortiz de Landázuri", "Guadalupe Ortiz"]
+      "tags": [
+        "España",
+        "México",
+        "laicos",
+        "ciencia",
+        "educación"
+      ],
+      "searchTerms": [
+        "Guadalupe Ortiz de Landázuri",
+        "Guadalupe Ortiz"
+      ],
+      "image": "assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp"
     }
   ]
 }
