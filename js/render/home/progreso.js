@@ -66,12 +66,14 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 item.novena?.novena?.days
                             ) || APP_CONFIG.diasNovena;
 
-                        const completados =
+                        const diasVisitados =
                             Array.isArray(
-                                item.datos?.completados
+                                item.datos?.diasVisitados
                             )
-                                ? item.datos.completados.length
-                                : 0;
+                                ? item.datos.diasVisitados.length
+                                : Array.isArray(item.datos?.completados)
+                                    ? item.datos.completados.length
+                                    : 0;
 
                         const completada =
                             item.datos?.completada === true;
@@ -82,7 +84,7 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                 : Math.min(
                                     100,
                                     Math.round(
-                                        (completados / total) * 100
+                                        (diasVisitados / total) * 100
                                     )
                                 );
 
@@ -113,7 +115,7 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                     </p>
 
                                     <div class="progress-track"
-                                         aria-label="${porcentaje}% completado">
+                                         aria-label="${porcentaje}% de avance">
 
                                         <div
                                             class="progress-fill"
