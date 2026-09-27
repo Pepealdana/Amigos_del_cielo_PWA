@@ -1,0 +1,442 @@
+{
+  "id": "san-patricio",
+  "name": "San Patricio",
+  "title": "Obispo y evangelizador de Irlanda",
+  "feast": {
+    "day": 17,
+    "month": 3,
+    "text": "17 de marzo",
+    "movable": false,
+    "liturgicalRank": "Memoria facultativa"
+  },
+  "image": "assets/images/santos/san_patricio.webp",
+  "groups": [
+    "devocion-extendida"
+  ],
+  "territorial": {
+    "origin": [
+      "GB"
+    ],
+    "historicalLinks": [
+      "IE"
+    ],
+    "specialDevotion": [
+      "IE"
+    ]
+  },
+  "patronages": [
+    "Irlanda",
+    "Misioneros y evangelizadores",
+    "Personas que anuncian el Evangelio"
+  ],
+  "virtues": [
+    "Fe",
+    "Perseverancia",
+    "Evangelización",
+    "Oración",
+    "Humildad",
+    "Confianza en Dios"
+  ],
+  "history": {
+    "short": "San Patricio fue un obispo y misionero de origen britano que desarrolló una parte decisiva de su ministerio en Irlanda durante el siglo V. Su propia Confesión es una fuente excepcional para conocer su experiencia de cautiverio, conversión y misión.",
+    "extended": "San Patricio nació en Gran Bretaña hacia el final del siglo IV. Según su propia Confesión, durante su juventud fue llevado cautivo a Irlanda y obligado a trabajar como pastor. Allí profundizó en la oración y en su relación con Dios.\n\nDespués de recuperar la libertad regresó a su tierra y posteriormente se preparó para el ministerio cristiano. Más tarde volvió a Irlanda como evangelizador. La tradición eclesial lo recuerda como uno de los principales responsables de la expansión del cristianismo en la isla durante el siglo V.\n\nLa fuente autobiográfica más importante es su Confesión, escrita por el propio Patricio. En ella expresa su conciencia de haber recibido una misión de Dios y relata las dificultades, críticas y peligros que acompañaron su servicio pastoral. El texto permite distinguir mejor la historia del santo de algunas leyendas desarrolladas posteriormente.\n\nLa fecha exacta de su muerte no es segura. Una tradición antigua la sitúa alrededor del año 461 y vincula su memoria con Downpatrick, en Irlanda. El 17 de marzo se convirtió en la fecha tradicional de su celebración y posteriormente se difundió por comunidades irlandesas de todo el mundo.\n\nSan Patricio puede ser contemplado como modelo de evangelización paciente: alguien que, después de haber sufrido cautiverio en Irlanda, regresó a esa tierra para anunciar allí el Evangelio. Su historia pone de relieve la fuerza de la gracia, el perdón y la perseverancia misionera."
+  },
+  "quote": {
+    "text": "Cristo conmigo, Cristo delante de mí, Cristo detrás de mí.",
+    "reference": "Confesión de San Patricio, tradición textual transmitida en el capítulo 34; formulación usada como tema espiritual, no como cita bíblica."
+  },
+  "search": [
+    "san patricio",
+    "patricio",
+    "patrick",
+    "irlanda",
+    "ireland",
+    "misionero",
+    "misioneros",
+    "evangelizacion",
+    "evangelización",
+    "evangelizador",
+    "obispo",
+    "gran bretaña",
+    "confesion",
+    "confesión",
+    "cautiverio",
+    "peregrinacion",
+    "peregrinación"
+  ],
+  "interventions": [
+    {
+      "id": "evangelizacion",
+      "label": "Evangelización y misión",
+      "keywords": [
+        "evangelizacion",
+        "evangelización",
+        "evangelio",
+        "mision",
+        "misión",
+        "misionero",
+        "misioneros",
+        "predicar"
+      ]
+    },
+    {
+      "id": "perdon",
+      "label": "Perdón y reconciliación",
+      "keywords": [
+        "perdon",
+        "perdón",
+        "reconciliacion",
+        "reconciliación",
+        "enemigo",
+        "resentimiento"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y servicio",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "servicio",
+        "ministerio",
+        "obispo"
+      ]
+    },
+    {
+      "id": "perseverancia",
+      "label": "Perseverancia en la dificultad",
+      "keywords": [
+        "perseverancia",
+        "dificultad",
+        "prueba",
+        "sufrimiento",
+        "peligro",
+        "persecucion",
+        "persecución"
+      ]
+    },
+    {
+      "id": "oracion",
+      "label": "Oración y vida interior",
+      "keywords": [
+        "oracion",
+        "oración",
+        "oracion personal",
+        "fe",
+        "confianza",
+        "dios"
+      ]
+    },
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y discernimiento",
+      "keywords": [
+        "joven",
+        "jóvenes",
+        "juventud",
+        "discernimiento",
+        "futuro",
+        "vocacion",
+        "vocación"
+      ]
+    },
+    {
+      "id": "misioneros",
+      "label": "Misioneros y evangelizadores",
+      "keywords": [
+        "misioneros",
+        "evangelizadores",
+        "sacerdotes",
+        "religiosos",
+        "religiosas",
+        "catequistas"
+      ]
+    },
+    {
+      "id": "iglesia",
+      "label": "Unidad de la Iglesia",
+      "keywords": [
+        "iglesia",
+        "comunidad",
+        "unidad",
+        "cristianos",
+        "fe catolica",
+        "fe católica"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Patricio, obispo y evangelizador, enséñanos a reconocer la gracia de Dios y a responder con generosidad a nuestra vocación. Ruega por los misioneros, por quienes anuncian el Evangelio y por todos los que buscan vivir su fe con perseverancia. Amén.",
+  "closingPrayer": "San Patricio, evangelizador de Irlanda, intercede por nosotros. Ayúdanos a perseverar en la fe, a perdonar, a servir y a anunciar a Cristo con nuestras palabras y obras. Ruega por Irlanda, por sus comunidades cristianas y por todos los misioneros del mundo. Amén.",
+  "intentions": [
+    "Por los misioneros y evangelizadores que anuncian el Evangelio.",
+    "Por quienes disciernen una vocación al sacerdocio o a la vida consagrada.",
+    "Por los jóvenes que buscan un camino de vida con sentido.",
+    "Por quienes han sufrido rechazo, persecución o incomprensión por su fe.",
+    "Por Irlanda y por las comunidades cristianas de origen irlandés en el mundo.",
+    "Por quienes necesitan aprender a perdonar heridas del pasado.",
+    "Por quienes trabajan por la reconciliación entre personas y pueblos.",
+    "Por la unidad de los cristianos y el anuncio del Evangelio.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Mateo 28,18-20",
+      "Hechos 1,8",
+      "2 Corintios 5,17-20",
+      "Salmo 96,1-4",
+      "Romanos 8,35-39"
+    ],
+    "related": [
+      "Confesión de San Patricio",
+      "Evangelización",
+      "Misión",
+      "Irlanda"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Patricio, caminos del espíritu",
+      "organization": "Santa Sede — Vaticano",
+      "url": "https://www.vatican.va/spirit/documents/spirit_20010316_patrizio_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "XV centenario del tránsito de san Patricio",
+      "organization": "Santa Sede — Juan XXIII",
+      "url": "https://www.vatican.va/content/john-xxiii/es/homilies/1961/documents/hf_j-xxiii_hom_19610317_san_patrizio.html",
+      "type": "official"
+    },
+    {
+      "title": "Memoria opcional de San Patricio, obispo",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/0317-memoria-patricio.cfm",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Llamado",
+      "title": "Reconocer la gracia",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "San Patricio recuerda en su Confesión que su vida estuvo marcada por acontecimientos que interpretó como parte de la acción de Dios, incluso después de haber vivido cautiverio en Irlanda."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vocación cristiana comienza muchas veces con reconocer que Dios actúa en nuestra historia y nos llama a responder."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué acontecimientos de mi vida pueden estar invitándome a crecer o servir?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan discernir la voluntad de Dios para su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, ayúdanos a reconocer las llamadas de Dios y a responder con generosidad. Amén."
+      },
+      "action": "Dedica hoy unos minutos a recordar una experiencia que haya cambiado positivamente tu camino."
+    },
+    {
+      "day": 2,
+      "theme": "Oración",
+      "title": "Buscar a Dios en la dificultad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Durante su cautiverio, Patricio relata que su vida de oración se hizo más intensa. Esa experiencia marcó profundamente su posterior ministerio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dificultad no hace buena una situación injusta, pero puede convertirse en un momento para buscar apoyo, esperanza y sentido en Dios."
+      },
+      "virtue": "Oración",
+      "reflection": "¿Cómo reacciono interiormente cuando atravieso una situación que no puedo controlar?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan situaciones de sufrimiento, cautiverio, soledad o incertidumbre."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, acompaña a quienes sufren y ayúdanos a encontrar en la oración una fuente de esperanza. Amén."
+      },
+      "action": "Reserva hoy un momento de silencio para orar sin distracciones."
+    },
+    {
+      "day": 3,
+      "theme": "Perdón",
+      "title": "No dejarse gobernar por el resentimiento",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La historia de Patricio tiene un elemento especialmente significativo: después de haber sido llevado cautivo a Irlanda, regresó allí como misionero."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perdonar no significa negar el daño ni aceptar nuevas injusticias. Significa trabajar para que el pasado no gobierne todas nuestras decisiones."
+      },
+      "virtue": "Perdón",
+      "reflection": "¿Hay una herida del pasado que todavía condiciona mi manera de relacionarme?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan avanzar hacia el perdón y la reconciliación."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, enséñanos a buscar caminos de perdón y reconciliación sin dejar de proteger la dignidad y la justicia. Amén."
+      },
+      "action": "Haz una oración por una persona con la que tengas una herida pendiente."
+    },
+    {
+      "day": 4,
+      "theme": "Misión",
+      "title": "Anunciar con generosidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Patricio regresó a Irlanda como evangelizador. El Vaticano lo presenta como obispo y misionero que anunció el Evangelio y estableció comunidades cristianas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misión cristiana no pertenece únicamente a quienes tienen un cargo eclesial. Cada bautizado puede dar testimonio mediante su vida, servicio y palabra."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Cómo puedo transmitir hoy mi fe de manera respetuosa y auténtica?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros, catequistas, sacerdotes, religiosos y laicos evangelizadores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, fortalece a quienes anuncian el Evangelio y haznos testigos generosos de Cristo. Amén."
+      },
+      "action": "Comparte hoy con alguien una palabra de esperanza inspirada en tu fe."
+    },
+    {
+      "day": 5,
+      "theme": "Perseverancia",
+      "title": "Continuar a pesar de las dificultades",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En su Confesión, Patricio habla de dificultades, críticas y peligros relacionados con su ministerio. Su testimonio muestra una perseverancia sostenida por la fe."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa ignorar nuestros límites. Significa continuar el bien posible, pedir ayuda cuando sea necesario y aprender de las dificultades."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué buena tarea estoy tentado a abandonar demasiado pronto?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades prolongadas y necesitan fortaleza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, ayúdanos a perseverar en el bien cuando aparezcan obstáculos. Amén."
+      },
+      "action": "Retoma hoy una tarea importante que habías dejado de lado."
+    },
+    {
+      "day": 6,
+      "theme": "Vocación",
+      "title": "Servir desde los dones recibidos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Patricio ejerció el ministerio episcopal y dedicó su vida a la evangelización de Irlanda. Su ejemplo fue recordado por los papas como un modelo de celo apostólico."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vocación no consiste solamente en elegir una profesión; implica descubrir cómo poner nuestros dones al servicio de Dios y de los demás."
+      },
+      "virtue": "Servicio",
+      "reflection": "¿Qué capacidades tengo que podrían ponerse al servicio de otras personas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes están discerniendo su vocación y por quienes ya ejercen un servicio pastoral."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, ayúdanos a descubrir nuestros dones y a ponerlos al servicio del bien. Amén."
+      },
+      "action": "Identifica una capacidad tuya y busca una manera concreta de utilizarla para ayudar a alguien."
+    },
+    {
+      "day": 7,
+      "theme": "Juventud",
+      "title": "Formar una fe con raíces",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Patricio fue llevado cautivo a Irlanda siendo joven. Su experiencia posterior muestra cómo una vida marcada por pruebas puede convertirse en una historia de servicio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La juventud es un tiempo importante para formar convicciones, aprender, discernir y desarrollar una relación personal con Dios."
+      },
+      "virtue": "Discernimiento",
+      "reflection": "¿Qué personas y experiencias están influyendo en la formación de mis convicciones?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por adolescentes y jóvenes que necesitan acompañamiento, formación y buenos referentes."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, acompaña a los jóvenes y ayúdalos a construir una fe madura y libre. Amén."
+      },
+      "action": "Busca hoy una conversación constructiva con un joven sobre sus preguntas, proyectos o inquietudes."
+    },
+    {
+      "day": 8,
+      "theme": "Iglesia",
+      "title": "Construir comunidad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La misión de Patricio contribuyó a establecer y fortalecer comunidades cristianas en Irlanda. Su legado continuó a través de generaciones de sacerdotes, monjes y misioneros."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe cristiana se vive en comunidad. Cada persona puede contribuir a que la Iglesia sea un espacio de oración, servicio, verdad y acogida."
+      },
+      "virtue": "Comunión",
+      "reflection": "¿Qué puedo aportar para fortalecer mi comunidad cristiana?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por nuestras parroquias, comunidades y por la unidad de todos los cristianos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, intercede por nuestras comunidades y ayúdanos a construir unidad y fraternidad. Amén."
+      },
+      "action": "Participa hoy en una acción concreta que fortalezca tu comunidad de fe."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Ser testigos del Evangelio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La memoria de San Patricio quedó ligada a la evangelización de Irlanda. Su vida invita a contemplar cómo una persona puede poner toda su historia al servicio de una misión."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El testimonio cristiano se construye con fidelidad cotidiana, servicio, oración, perdón y disposición para anunciar el bien."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso concreto quiero asumir para vivir y compartir mi fe después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por los misioneros del mundo entero."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Patricio, obispo y evangelizador, intercede por nosotros. Ayúdanos a vivir con fe, perseverancia y caridad, y a ser testigos de Cristo dondequiera que estemos. Amén."
+      },
+      "action": "Elige un compromiso concreto de oración, servicio o evangelización para mantener durante las próximas semanas."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
