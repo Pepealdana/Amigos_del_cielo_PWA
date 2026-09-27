@@ -878,7 +878,8 @@
                 "text": "16 de octubre",
                 "movable": false,
                 "liturgicalRank": "Memoria"
-            }
+            },
+            "image": "assets/images/santos/santa_margarita_maria_de_alacoque.webp"
         },
         {
             "id": "santo-tomas-de-aquino",
@@ -963,7 +964,8 @@
                 "text": "9 de diciembre",
                 "movable": false,
                 "liturgicalRank": "Memoria facultativa"
-            }
+            },
+            "image": "assets/images/santos/san_juan_diego.webp"
         },
         {
             "id": "san-jose-sanchez-del-rio",
@@ -994,7 +996,8 @@
                 "text": "10 de febrero",
                 "movable": false,
                 "liturgicalRank": "Memoria facultativa"
-            }
+            },
+            "image": "assets/images/santos/san_jose_sanchez_del_rio.webp"
         },
         {
             "id": "san-pedro-de-san-jose-de-betancur",
