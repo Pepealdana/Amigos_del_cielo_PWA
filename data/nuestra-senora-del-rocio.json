@@ -5,8 +5,11 @@
   "subtitle": "La Blanca Paloma, Patrona de Almonte y Madre de los peregrinos",
   "image": null,
   "feast": {
+    "day": null,
+    "month": null,
     "text": "Lunes de Pentecostés",
-    "movable": true
+    "movable": true,
+    "note": "La Romería del Rocío y la celebración principal de la Virgen del Rocío se vinculan al Lunes de Pentecostés; por tratarse de una fecha móvil, cambia cada año."
   },
   "liturgicalRank": "Solemnidad local",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "Pontificia, Real e Ilustre Hermandad Matriz de Nuestra Señora del Rocío de Almonte, documentación oficial del santuario y de la devoción.",
     "Hermandad Matriz de Nuestra Señora del Rocío, programa oficial de cultos y romería 2026.",
     "San Juan Pablo II, homilía durante la visita al Santuario del Rocío, 14 de junio de 1993.",
     "San Juan Pablo II, oración y encuentro con los fieles en El Rocío, 14 de junio de 1993."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
