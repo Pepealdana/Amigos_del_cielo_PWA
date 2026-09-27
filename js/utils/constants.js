@@ -5,7 +5,7 @@
 
 const APP = {
     NAME: "Amigos del Cielo",
-    VERSION: "1.2.0",
+    VERSION: "1.3.0",
     AUTHOR: "Proyecto Amigos del Cielo"
 };
 
