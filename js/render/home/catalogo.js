@@ -16,6 +16,13 @@ function renderCatalogoV2(
             icono: "✦",
             permitePais: true
         },
+        beatos: {
+            titulo: "Beatos",
+            descripcion: "Beatos reconocidos por la Iglesia, con especial presencia en la tradición hispanoamericana.",
+            catalogo: state.catalogosV2.beatos || [],
+            icono: "✧",
+            permitePais: true
+        },
         maria: {
             titulo: "María",
             descripcion: "Advocaciones marianas de Hispanoamérica y otras tradiciones de la Iglesia.",
@@ -139,6 +146,7 @@ function renderCatalogoV2(
                 ${[
                     ["todos", "Todos"],
                     ["santos", "Santos"],
+                    ["beatos", "Beatos"],
                     ["maria", "María"],
                     ["novenas", "Novenas"],
                     ["devociones", "Devociones"]
@@ -192,7 +200,7 @@ function renderFiltrosPais() {
 
 function renderFiltrosGrupoCatalogo(grupos = [], grupoActivo = "ALL") {
     const paisActivo = state.paisCatalogo || "ALL";
-    const seccionActual = ["todos", "santos", "maria"].includes(router?.rutaActual)
+    const seccionActual = ["todos", "santos", "beatos", "maria"].includes(router?.rutaActual)
         ? router.rutaActual
         : "";
     if (!seccionActual && !grupos.length) {
@@ -285,6 +293,7 @@ function obtenerPaisesDisponiblesCatalogo(catalogo = []) {
 function obtenerCatalogoParaFiltrosCatalogo(seccion) {
     const configuracion = {
         santos: state.catalogosV2?.santos || [],
+        beatos: state.catalogosV2?.beatos || [],
         maria: state.catalogosV2?.maria || [],
         novenas: obtenerCatalogoNovenasUnificado(),
         devociones: (state.catalogosV2?.devociones || [])
@@ -593,6 +602,12 @@ function obtenerDatoSecundarioCatalogo(item, seccion) {
             : "Santo";
     }
 
+    if (seccion === "beatos") {
+        return fiesta
+            ? `Fiesta: ${fiesta}`
+            : "Beato";
+    }
+
     if (seccion === "novenas") {
         return fiesta
             ? `Fiesta: ${fiesta}`
@@ -643,7 +658,9 @@ function renderTarjetaCatalogoV2(item, seccion) {
 
     const accion = tieneNovena
         ? `data-action="open-novena" data-id="${escaparHTML(item.id)}"`
-        : "";
+        : seccion === "beatos"
+            ? `data-action="open-profile" data-id="${escaparHTML(item.id)}"`
+            : "";
 
     const territorial = item.territorial || {};
     const paises = [
@@ -728,7 +745,7 @@ function normalizarCategoriaNovena(categoria = "") {
 let catalogFilterPreviousFocus = null;
 
 function obtenerSeccionCatalogoActual() {
-    return ["todos", "santos", "maria", "novenas", "devociones"]
+    return ["todos", "santos", "beatos", "maria", "novenas", "devociones"]
         .includes(router?.rutaActual)
         ? router.rutaActual
         : "todos";
@@ -742,6 +759,7 @@ function abrirPanelFiltrosCatalogo() {
     const seccion = obtenerSeccionCatalogoActual();
     const datos = {
         santos: { catalogo: state.catalogosV2?.santos || [], permitePais: true },
+        beatos: { catalogo: state.catalogosV2?.beatos || [], permitePais: true },
         maria: { catalogo: state.catalogosV2?.maria || [], permitePais: true },
         novenas: { catalogo: obtenerCatalogoNovenasUnificado(), permitePais: false },
         devociones: {
