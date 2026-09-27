@@ -39,7 +39,8 @@
         "Clara Fey",
         "Madre Clara Fey"
       ],
-      "image": "assets/images/santos/beata_clara_fey.webp"
+      "image": "assets/images/santos/beata_clara_fey.webp",
+      "sourceFile": "data/beata-clara-fey.json"
     },
     {
       "id": "beata-chiara-luce-badano",
@@ -77,7 +78,8 @@
         "Chiara Badano",
         "Chiara Luce"
       ],
-      "image": "assets/images/santos/beata_chiara_luce_badano.webp"
+      "image": "assets/images/santos/beata_chiara_luce_badano.webp",
+      "sourceFile": "data/beata-chiara-luce-badano.json"
     },
     {
       "id": "beato-michael-mcgivney",
@@ -116,7 +118,8 @@
         "Michael McGivney",
         "McGivney"
       ],
-      "image": "assets/images/santos/beato_michael_mcgivney.webp"
+      "image": "assets/images/santos/beato_michael_mcgivney.webp",
+      "sourceFile": "data/beato-michael-mcgivney.json"
     },
     {
       "id": "beato-padre-marianito",
@@ -157,7 +160,8 @@
         "Padre Marianito",
         "Marianito"
       ],
-      "image": "assets/images/santos/beato_padre_marianito.webp"
+      "image": "assets/images/santos/beato_padre_marianito.webp",
+      "sourceFile": "data/beato-padre-marianito.json"
     },
     {
       "id": "beato-ceferino-namuncura",
@@ -197,7 +201,8 @@
         "Ceferino Namuncurá",
         "Zefferino Namuncurá"
       ],
-      "image": "assets/images/santos/beato_ceferino_namuncura.webp"
+      "image": "assets/images/santos/beato_ceferino_namuncura.webp",
+      "sourceFile": "data/beato-ceferino-namuncura.json"
     },
     {
       "id": "beata-ana-de-los-angeles-monteagudo",
@@ -237,7 +242,8 @@
         "Ana de los Ángeles",
         "Ana de los Ángeles Monteagudo"
       ],
-      "image": "assets/images/santos/beata_ana_de_los_angeles_monteagudo.webp"
+      "image": "assets/images/santos/beata_ana_de_los_angeles_monteagudo.webp",
+      "sourceFile": "data/beata-ana-de-los-angeles-monteagudo.json"
     },
     {
       "id": "beata-laura-vicuna",
@@ -280,7 +286,8 @@
         "Laura Vicuña",
         "Laura Vicuna"
       ],
-      "image": "assets/images/santos/beata_laura_vicuña.webp"
+      "image": "assets/images/santos/beata_laura_vicuña.webp",
+      "sourceFile": "data/beata-laura-vicuna.json"
     },
     {
       "id": "beata-guadalupe-ortiz-de-landazuri",
@@ -325,7 +332,8 @@
         "Guadalupe Ortiz de Landázuri",
         "Guadalupe Ortiz"
       ],
-      "image": "assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp"
+      "image": "assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp",
+      "sourceFile": "data/beata-guadalupe-ortiz-de-landazuri.json"
     }
   ]
 }
