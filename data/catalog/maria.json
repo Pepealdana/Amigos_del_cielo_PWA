@@ -660,6 +660,48 @@
       "groups": [
         "advocaciones-marianas"
       ]
+    },
+    {
+      "id": "nuestra-senora-del-perpetuo-socorro",
+      "name": "Nuestra Señora del Perpetuo Socorro",
+      "status": "published",
+      "category": "maria",
+      "sourceFile": "data/nuestra-senora-del-perpetuo-socorro.json",
+      "priority": "nueva",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "HT"
+        ]
+      },
+      "groups": [
+        "advocaciones-marianas",
+        "devocion-extendida"
+      ]
+    },
+    {
+      "id": "nuestra-senora-de-la-dulce-espera",
+      "name": "Nuestra Señora de la Dulce Espera",
+      "status": "published",
+      "category": "maria",
+      "sourceFile": "data/nuestra-senora-de-la-dulce-espera.json",
+      "priority": "nueva",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "AR"
+        ],
+        "specialDevotion": [
+          "AR"
+        ]
+      },
+      "groups": [
+        "advocaciones-marianas",
+        "devocion-extendida"
+      ]
     }
   ]
 }
