@@ -7080,5 +7080,161 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beato-padre-marianito",
+    "slug": "beato-padre-marianito",
+    "name": "Beato Padre Marianito",
+    "title": "Novena al Beato Padre Marianito",
+    "subtitle": "Oración, servicio y caridad con los más necesitados",
+    "category": "Beatos",
+    "featured": false,
+    "image": "assets/images/santos/beato_padre_marianito.webp",
+    "file": "data/beato-padre-marianito.json",
+    "description": "Nueve días para acercarnos al testimonio del Beato Mariano de Jesús Euse Hoyos y pedir la gracia de vivir la fe con oración, caridad, servicio, perseverancia, paz y reconciliación.",
+    "feast": {
+      "day": 13,
+      "month": 7,
+      "text": "13 de julio",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "sacerdotes",
+      "latinoamericanos"
+    ],
+    "territorial": {
+      "origin": [
+        "CO"
+      ],
+      "historicalLinks": [
+        "CO"
+      ],
+      "specialDevotion": [
+        "CO"
+      ]
+    },
+    "search": [
+      "beato padre marianito",
+      "padre marianito",
+      "mariano de jesús euse hoyos",
+      "mariano de jesus euse hoyos",
+      "sacerdote colombiano",
+      "angostura",
+      "campesinos",
+      "pobres",
+      "caridad",
+      "paz",
+      "reconciliación",
+      "reconciliacion",
+      "oración",
+      "oracion"
+    ],
+    "interventions": [
+      {
+        "id": "familias-campesinos",
+        "label": "Familias y comunidades campesinas",
+        "keywords": [
+          "campesinos",
+          "campesinas",
+          "campo",
+          "familia",
+          "familias",
+          "comunidad",
+          "comunidades"
+        ]
+      },
+      {
+        "id": "pobres-necesitados",
+        "label": "Pobres y personas necesitadas",
+        "keywords": [
+          "pobres",
+          "pobreza",
+          "necesidad",
+          "necesitados",
+          "carencia",
+          "ayuda"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermos",
+          "enfermo",
+          "enfermedad",
+          "sufrimiento",
+          "dolor",
+          "cuidado"
+        ]
+      },
+      {
+        "id": "sacerdotes",
+        "label": "Sacerdotes y vocaciones",
+        "keywords": [
+          "sacerdote",
+          "sacerdotes",
+          "vocación",
+          "vocaciones",
+          "seminario",
+          "ministerio"
+        ]
+      },
+      {
+        "id": "paz-reconciliacion",
+        "label": "Paz y reconciliación",
+        "keywords": [
+          "paz",
+          "reconciliación",
+          "reconciliacion",
+          "perdón",
+          "perdon",
+          "conflicto",
+          "unidad"
+        ]
+      },
+      {
+        "id": "niños-formacion",
+        "label": "Niños y formación cristiana",
+        "keywords": [
+          "niños",
+          "niño",
+          "niñas",
+          "niña",
+          "catequesis",
+          "doctrina",
+          "formación",
+          "formacion"
+        ]
+      },
+      {
+        "id": "vida-oracion",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oración",
+          "oracion",
+          "eucaristía",
+          "eucaristia",
+          "rosario",
+          "misa",
+          "confesión",
+          "confesion"
+        ]
+      },
+      {
+        "id": "necesidades-particulares",
+        "label": "Necesidades y dificultades personales",
+        "keywords": [
+          "dificultad",
+          "problema",
+          "angustia",
+          "aflicción",
+          "afliccion",
+          "ayuda",
+          "intención",
+          "intencion"
+        ]
+      }
+    ]
   }
 ]
