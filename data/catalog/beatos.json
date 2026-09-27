@@ -121,8 +121,8 @@
     {
       "id": "beato-padre-marianito",
       "name": "Beato Padre Marianito",
-      "title": "Sacerdote colombiano y servidor de los más necesitados",
-      "description": "Mariano de Jesús Euse Hoyos, sacerdote colombiano recordado por su vida de oración, servicio pastoral y cercanía con los pobres.",
+      "title": "Sacerdote colombiano y pastor de Angostura",
+      "description": "Mariano de Jesús Euse Hoyos, sacerdote colombiano que dedicó casi cincuenta años de ministerio a la comunidad de Angostura, con especial cercanía a los campesinos, los niños, los enfermos y las personas necesitadas.",
       "status": "published",
       "priority": "nueva incorporación",
       "groups": [
@@ -142,8 +142,8 @@
       },
       "feast": {
         "day": 13,
-        "month": 9,
-        "text": "13 de septiembre",
+        "month": 7,
+        "text": "13 de julio",
         "movable": false
       },
       "tags": [
