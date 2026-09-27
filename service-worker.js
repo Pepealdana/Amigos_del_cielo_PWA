@@ -26,6 +26,7 @@ const APP_SHELL = [
     "./data/san-roque.json",
     "./data/san-pancracio.json",
     "./data/san-patricio.json",
+    "./data/san-pedro-apostol.json",
     "./data/roadmap-hispanohablante.json",
     "./data/catalogo-expansion-hispanohablante.json",
     "./data/catalog/santos.json",
