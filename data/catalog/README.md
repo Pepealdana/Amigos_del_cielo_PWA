@@ -145,3 +145,27 @@ La versión 3.1 mantiene como `pending` los candidatos de la fase de ampliación
 ## Incorporación v3.1
 
 Se incorpora **Santo Domingo Savio** como santo publicado, con grupo `jovenes` y `devocion-extendida`, y se añade su novena de nueve días.
+
+
+## Fuente canónica de catálogo desde v1.3.1
+
+Los archivos de `data/catalog/` son la **única fuente de metadatos del catálogo en tiempo de ejecución**.
+
+Cada registro publicado debe incluir `sourceFile`, que apunta al JSON de contenido de esa ficha o novena.
+
+La aplicación construye `state.catalogo` exclusivamente a partir de los registros publicados de:
+
+- `santos.json`
+- `beatos.json`
+- `maria.json`
+- `devociones.json`
+
+`data/novenas.json` queda como **registro histórico heredado** y ya no se carga ni se utiliza para construir el catálogo en la aplicación. No debe usarse para incorporar nuevos contenidos.
+
+Para añadir una nueva novena o ficha publicada:
+
+1. Crear su JSON de contenido dentro de `data/`.
+2. Registrar el contenido en el catálogo V2 correspondiente.
+3. Añadir `sourceFile` con la ruta exacta al JSON.
+4. Verificar la imagen y el Service Worker.
+5. Ejecutar la validación de datos.
