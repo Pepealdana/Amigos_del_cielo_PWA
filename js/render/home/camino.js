@@ -40,7 +40,51 @@ function renderCamino(
         ([, datos]) => datos?.completada === true
     ).length;
 
-    return `
+    const anioActual = new Date().getFullYear();
+
+    const historialPatronos = Object.entries(patronoAnual || {})
+        .map(([anio, registro]) => ({
+            anio: Number(anio),
+            santo: (state.catalogosV2?.santos || [])
+                .find(item => item?.id === registro?.santoId)
+        }))
+        .filter(item => item.anio < anioActual && item.santo)
+        .sort((a, b) => b.anio - a.anio);
+
+    const historialHTML = historialPatronos.length
+        ? \`
+            <section class="annual-patron-history" aria-labelledby="patron-history-title">
+
+                <h3 id="patron-history-title">
+                    Mis amigos del cielo de años anteriores
+                </h3>
+
+                <div class="annual-patron-history-list">
+                    \${historialPatronos.map(item => \`
+                        <article class="annual-patron-history-item">
+
+                            \${item.santo.image ? \`
+                                <img
+                                    src="\${escaparHTML(item.santo.image)}"
+                                    alt=""
+                                    class="annual-patron-history-image"
+                                    loading="lazy">
+                            \` : ""}
+
+                            <div>
+                                <strong>\${escaparHTML(String(item.anio))}</strong>
+                                <span>\${escaparHTML(item.santo.name)}</span>
+                            </div>
+
+                        </article>
+                    \`).join("")}
+                </div>
+
+            </section>
+        \`
+        : "";
+
+    return \`
         <section class="page-shell camino-page">
 
             <header class="page-header">
@@ -173,6 +217,8 @@ function renderCamino(
                 `}
 
             </section>
+
+            ${historialHTML}
 
             <section class="camino-summary">
 
