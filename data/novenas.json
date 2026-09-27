@@ -6807,5 +6807,76 @@
       "peru"
     ],
     "interventions": 7
+  },
+  {
+    "id": "nuestra-senora-del-perpetuo-socorro",
+    "slug": "nuestra-senora-del-perpetuo-socorro",
+    "name": "Nuestra Señora del Perpetuo Socorro",
+    "title": "Novena a Nuestra Señora del Perpetuo Socorro",
+    "subtitle": "Confianza, consuelo y esperanza en la Madre que nos conduce a Cristo",
+    "category": "María",
+    "image": null,
+    "file": "data/nuestra-senora-del-perpetuo-socorro.json",
+    "description": "Nueve días para acudir con confianza a Nuestra Señora del Perpetuo Socorro, fortalecer la fe, vivir la misericordia y caminar hacia Cristo.",
+    "feast": {
+      "day": 27,
+      "month": 6,
+      "text": "27 de junio",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "advocaciones-marianas",
+      "devocion-extendida"
+    ],
+    "search": [
+      "nuestra señora del perpetuo socorro",
+      "perpetuo socorro",
+      "nuestra madre del perpetuo socorro",
+      "virgen del perpetuo socorro",
+      "redentoristas",
+      "icono",
+      "haiti",
+      "ayuda",
+      "consuelo"
+    ],
+    "interventions": 5
+  },
+  {
+    "id": "nuestra-senora-de-la-dulce-espera",
+    "slug": "nuestra-senora-de-la-dulce-espera",
+    "name": "Nuestra Señora de la Dulce Espera",
+    "title": "Novena a Nuestra Señora de la Dulce Espera",
+    "subtitle": "Esperar con María la vida nueva y la llegada de Jesús",
+    "category": "María",
+    "image": null,
+    "file": "data/nuestra-senora-de-la-dulce-espera.json",
+    "description": "Nueve días para contemplar a María en la espera del nacimiento de Jesús, fortalecer la esperanza y acompañar con oración a madres y familias.",
+    "feast": {
+      "day": 18,
+      "month": 12,
+      "text": "18 de diciembre",
+      "movable": false,
+      "liturgicalRank": "Memoria"
+    },
+    "status": "published",
+    "groups": [
+      "advocaciones-marianas",
+      "devocion-extendida"
+    ],
+    "search": [
+      "nuestra señora de la dulce espera",
+      "virgen de la dulce espera",
+      "dulce espera",
+      "virgen de la expectación",
+      "expectación",
+      "embarazo",
+      "madres",
+      "maternidad",
+      "vida",
+      "adviento"
+    ],
+    "interventions": 5
   }
 ]
