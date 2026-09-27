@@ -5,8 +5,11 @@
   "subtitle": "Patrona de El Salvador y Madre de la paz",
   "image": null,
   "feast": {
+    "day": 21,
+    "month": 11,
     "text": "21 de noviembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora Reina de la Paz se celebra el 21 de noviembre; es Patrona de El Salvador."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -276,12 +279,14 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Homilía en la Santa Misa celebrada en San Salvador, 6 de marzo de 1983.",
     "San Juan Pablo II, Discurso a los obispos de El Salvador, 6 de marzo de 1983.",
     "Conferencia Episcopal de El Salvador, información sobre Nuestra Señora Reina de la Paz.",
     "Santuario de Nuestra Señora Reina de la Paz, San Miguel, El Salvador."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
