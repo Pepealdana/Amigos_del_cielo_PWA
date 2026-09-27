@@ -21,10 +21,10 @@
     "icon": "🌹"
   },
   "feast": {
-    "day": 20,
-    "month": 11,
-    "text": "20 de noviembre",
-    "liturgicalRank": "Memoria",
+    "day": 10,
+    "month": 2,
+    "text": "10 de febrero",
+    "liturgicalRank": "Memoria facultativa",
     "movable": false
   },
   "quote": {
@@ -117,6 +117,18 @@
       "title": "Consistorio para la canonización — 15 de marzo de 2016",
       "organization": "Santa Sede",
       "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2016/03/15/santos.html",
+      "type": "official"
+    },
+    {
+      "title": "Biografía de José Sánchez del Río",
+      "organization": "Santa Sede — Dicasterio para las Causas de los Santos",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20051120_anacleto-gonzalez_sp.html",
+      "type": "official"
+    },
+    {
+      "title": "Homilía de canonización de los nuevos santos",
+      "organization": "Santa Sede — Francisco",
+      "url": "https://www.vatican.va/content/francesco/es/homilies/2016/documents/papa-francesco_20161016_omelia-canonizzazione.html",
       "type": "official"
     }
   ],
@@ -356,7 +368,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -435,5 +447,10 @@
     "specialDevotion": [
       "MX"
     ]
-  }
+  },
+  "groups": [
+    "latinoamericanos",
+    "martires",
+    "jovenes"
+  ]
 }
