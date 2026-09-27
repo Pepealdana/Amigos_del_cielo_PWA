@@ -6318,5 +6318,51 @@
       "caridad",
       "montpellier"
     ]
+  },
+  {
+    "id": "san-pancracio",
+    "slug": "san-pancracio",
+    "name": "San Pancracio",
+    "title": "Mártir adolescente, testigo de Cristo",
+    "subtitle": "Fe, trabajo responsable y esperanza",
+    "category": "Santos",
+    "image": "assets/images/santos/san_pancracio.webp",
+    "file": "data/san-pancracio.json",
+    "description": "Joven mártir de Roma, venerado desde la antigüedad y asociado popularmente con quienes buscan trabajo y estabilidad.",
+    "feast": {
+      "day": 12,
+      "month": 5,
+      "text": "12 de mayo",
+      "movable": false,
+      "liturgicalRank": "Memoria facultativa"
+    },
+    "status": "published",
+    "groups": [
+      "devocion-extendida",
+      "martires"
+    ],
+    "territorial": {
+      "origin": [],
+      "historicalLinks": [
+        "IT"
+      ],
+      "specialDevotion": [
+        "IT"
+      ]
+    },
+    "interventions": 8,
+    "search": [
+      "san pancracio",
+      "pancracio",
+      "martir",
+      "mártir",
+      "joven",
+      "roma",
+      "trabajo",
+      "empleo",
+      "desempleo",
+      "necesidades economicas",
+      "necesidades económicas"
+    ]
   }
 ]
