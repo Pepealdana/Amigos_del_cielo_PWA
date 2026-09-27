@@ -135,6 +135,7 @@
       "name": "Señor de los Milagros del Perú",
       "category": "devociones",
       "status": "published",
+      "image": "assets/images/santos/senor_de_los_milagros_peru.webp",
       "sourceFile": "data/senor-de-los-milagros-peru.json",
       "territorial": {
         "origin": [],
