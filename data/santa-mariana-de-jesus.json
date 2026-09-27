@@ -11,7 +11,7 @@
     "liturgicalRank": "Memoria",
     "movable": false
   },
-  "image": null,
+  "image": "assets/images/santos/santa_mariana_de_jesus.webp",
   "status": "published",
   "novena": {
     "days": 9
