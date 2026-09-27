@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v206";
+const CACHE_NAME = "amigos-del-cielo-v207";
 
 const APP_SHELL = [
     "./",
@@ -37,6 +37,7 @@ const APP_SHELL = [
     "./data/catalog/devociones.json",
     "./data/catalog/paises.json",
     "./data/beata-clara-fey.json",
+    "./data/beata-chiara-luce-badano.json",
     "./data/divina-misericordia.json",
     "./data/espiritu-santo.json",
     "./data/sagrado-corazon-de-jesus.json",
@@ -172,6 +173,13 @@ const APP_SHELL = [
     "./assets/icons/icon-512.png",
     "./assets/icons/logosin.png",
     "./assets/images/santos/beata_clara_fey.webp",
+    "./assets/images/santos/beata_chiara_luce_badano.webp",
+    "./assets/images/santos/beato_michael_mcgivney.webp",
+    "./assets/images/santos/beato_padre_marianito.webp",
+    "./assets/images/santos/beato_ceferino_namuncura.webp",
+    "./assets/images/santos/beata_ana_de_los_angeles_monteagudo.webp",
+    "./assets/images/santos/beata_laura_vicuña.webp",
+    "./assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp",
     "./assets/images/santos/divina_misericordia.webp",
     "./assets/images/santos/espiritu_santo.webp",
     "./assets/images/santos/nino_jesus.webp",
