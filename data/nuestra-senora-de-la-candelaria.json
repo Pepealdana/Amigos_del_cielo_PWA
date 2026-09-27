@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Cartagena de Indias y Madre de la luz",
   "image": null,
   "feast": {
+    "day": 2,
+    "month": 2,
     "text": "2 de febrero",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de la Candelaria se celebra el 2 de febrero, coincidiendo con la Fiesta de la Presentación del Señor."
   },
   "liturgicalRank": "Fiesta",
   "quote": null,
@@ -276,11 +279,13 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Homilía durante la coronación de la imagen de Nuestra Señora de la Candelaria, Cartagena de Indias, 6 de julio de 1986.",
     "San Juan Pablo II, carta apostólica Quantum Beatissimam, 20 de agosto de 1986.",
     "Santa Sede, Viaje apostólico a Colombia, 1986."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
