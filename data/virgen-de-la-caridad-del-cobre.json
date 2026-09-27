@@ -5,8 +5,11 @@
   "subtitle": "Reina y Patrona de Cuba, Madre de todos los cubanos",
   "image": null,
   "feast": {
+    "day": 8,
+    "month": 9,
     "text": "8 de septiembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de la Caridad del Cobre se celebra el 8 de septiembre; es Patrona de Cuba."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -276,7 +279,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "interventions": [
     {
@@ -332,5 +335,7 @@
     "San Juan Pablo II, Homilía en Santiago de Cuba, 24 de enero de 1998.",
     "San Juan Pablo II, Ángelus en La Habana, 25 de enero de 1998.",
     "Francisco, ceremonia de bienvenida en Cuba, 19 de septiembre de 2015."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
