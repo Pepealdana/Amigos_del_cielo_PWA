@@ -309,12 +309,14 @@ function renderInicio(catalogo = [], progreso = {}) {
     const completada =
         continuidad?.progreso?.completada === true;
 
-    const completados =
+    const diasVisitados =
         Array.isArray(
-            continuidad?.progreso?.completados
+            continuidad?.progreso?.diasVisitados
         )
-            ? continuidad.progreso.completados.length
-            : 0;
+            ? continuidad.progreso.diasVisitados.length
+            : Array.isArray(continuidad?.progreso?.completados)
+                ? continuidad.progreso.completados.length
+                : 0;
 
     const porcentaje =
         continuidad
