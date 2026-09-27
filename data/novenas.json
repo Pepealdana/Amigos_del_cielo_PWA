@@ -7236,5 +7236,160 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beato-ceferino-namuncura",
+    "slug": "beato-ceferino-namuncura",
+    "name": "Beato Ceferino Namuncurá",
+    "title": "Novena al Beato Ceferino Namuncurá",
+    "subtitle": "Fe, estudio, alegría y servicio a su pueblo",
+    "category": "Beatos",
+    "featured": false,
+    "image": "assets/images/santos/beato_ceferino_namuncura.webp",
+    "file": "data/beato-ceferino-namuncura.json",
+    "description": "Nueve días para acercarnos al testimonio del Beato Ceferino Namuncurá y pedir la gracia de vivir la fe con alegría, estudio, perseverancia y servicio.",
+    "feast": {
+      "day": 26,
+      "month": 8,
+      "text": "26 de agosto",
+      "movable": false
+    },
+    "status": "published",
+    "groups": [
+      "jovenes",
+      "latinoamericanos",
+      "salesianos"
+    ],
+    "territorial": {
+      "origin": [
+        "AR"
+      ],
+      "historicalLinks": [
+        "AR"
+      ],
+      "specialDevotion": [
+        "AR"
+      ]
+    },
+    "search": [
+      "beato ceferino namuncurá",
+      "beato ceferino namuncura",
+      "ceferino namuncurá",
+      "ceferino namuncura",
+      "mapuche",
+      "joven",
+      "salesiano",
+      "sacerdote",
+      "patagonia",
+      "estudio",
+      "eucaristía",
+      "eucaristia",
+      "servicio"
+    ],
+    "interventions": [
+      {
+        "id": "jovenes",
+        "label": "Jóvenes y adolescentes",
+        "keywords": [
+          "joven",
+          "jóvenes",
+          "jovenes",
+          "adolescente",
+          "adolescentes",
+          "juventud"
+        ]
+      },
+      {
+        "id": "estudio-formacion",
+        "label": "Estudio y formación",
+        "keywords": [
+          "estudio",
+          "estudiar",
+          "estudiante",
+          "formación",
+          "formacion",
+          "educación",
+          "educacion"
+        ]
+      },
+      {
+        "id": "vocacion",
+        "label": "Vocación y discernimiento",
+        "keywords": [
+          "vocación",
+          "vocacion",
+          "sacerdote",
+          "sacerdocio",
+          "seminario",
+          "discernimiento"
+        ]
+      },
+      {
+        "id": "pueblos-originarios",
+        "label": "Pueblos originarios y culturas",
+        "keywords": [
+          "mapuche",
+          "pueblos originarios",
+          "pueblo",
+          "cultura",
+          "identidad"
+        ]
+      },
+      {
+        "id": "familia-comunidad",
+        "label": "Familia y comunidad",
+        "keywords": [
+          "familia",
+          "familias",
+          "comunidad",
+          "hermanos",
+          "pueblo",
+          "amistad"
+        ]
+      },
+      {
+        "id": "enfermos",
+        "label": "Enfermos y personas que sufren",
+        "keywords": [
+          "enfermo",
+          "enfermos",
+          "enfermedad",
+          "sufrimiento",
+          "dolor",
+          "hospital"
+        ]
+      },
+      {
+        "id": "vida-espiritual",
+        "label": "Oración y vida espiritual",
+        "keywords": [
+          "oración",
+          "oracion",
+          "eucaristía",
+          "eucaristia",
+          "comunión",
+          "comunion",
+          "confesión",
+          "confesion",
+          "rosario",
+          "maría",
+          "maria"
+        ]
+      },
+      {
+        "id": "servicio",
+        "label": "Servicio y entrega a los demás",
+        "keywords": [
+          "servicio",
+          "servir",
+          "ayuda",
+          "ayudar",
+          "apostolado",
+          "misión",
+          "mision",
+          "solidaridad"
+        ]
+      }
+    ]
   }
 ]
