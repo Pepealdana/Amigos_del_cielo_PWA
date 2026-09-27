@@ -1,0 +1,441 @@
+{
+  "id": "beata-laura-vicuna",
+  "slug": "beata-laura-vicuna",
+  "name": "Beata Laura Vicuña",
+  "title": "Joven salesiana y testigo de la fe",
+  "subtitle": "Pureza, amor filial, Eucaristía y entrega a Dios",
+  "category": "Beatas",
+  "image": "assets/images/santos/beata_laura_vicuña.webp",
+  "file": "data/beata-laura-vicuna.json",
+  "description": "Nueve días para acercarnos al testimonio de Laura Vicuña, joven formada en la espiritualidad salesiana que vivió con intensidad su fe, amor a Cristo, pureza y entrega por la conversión de su madre.",
+  "feast": {
+    "day": 22,
+    "month": 1,
+    "text": "22 de enero",
+    "movable": false
+  },
+  "status": "published",
+  "groups": [
+    "jovenes",
+    "latinoamericanos",
+    "salesianos"
+  ],
+  "territorial": {
+    "origin": [
+      "CL"
+    ],
+    "historicalLinks": [
+      "AR",
+      "CL"
+    ],
+    "specialDevotion": [
+      "AR",
+      "CL"
+    ]
+  },
+  "search": [
+    "beata laura vicuña",
+    "laura vicuna",
+    "laura vicuña",
+    "junín de los andes",
+    "salesiana",
+    "hijas de maria auxiliadora",
+    "hijas de maría auxiliadora",
+    "jóvenes",
+    "jovenes",
+    "eucaristía",
+    "eucaristia",
+    "pureza",
+    "familia",
+    "madre",
+    "argentina",
+    "chile"
+  ],
+  "interventions": [
+    {
+      "id": "jovenes",
+      "label": "Jóvenes y adolescentes",
+      "keywords": [
+        "joven",
+        "jóvenes",
+        "jovenes",
+        "adolescente",
+        "adolescentes",
+        "juventud"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Familia y reconciliación",
+      "keywords": [
+        "familia",
+        "madre",
+        "madres",
+        "hijos",
+        "reconciliacion",
+        "reconciliación",
+        "conversion",
+        "conversión"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y entrega a Dios",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "consagracion",
+        "consagración",
+        "llamado",
+        "servicio"
+      ]
+    },
+    {
+      "id": "pureza",
+      "label": "Pureza y dignidad",
+      "keywords": [
+        "pureza",
+        "inocencia",
+        "dignidad",
+        "castidad",
+        "tentacion",
+        "tentación"
+      ]
+    },
+    {
+      "id": "eucaristia",
+      "label": "Eucaristía y vida espiritual",
+      "keywords": [
+        "eucaristia",
+        "eucaristía",
+        "comunion",
+        "comunión",
+        "oracion",
+        "oración",
+        "confesion",
+        "confesión"
+      ]
+    },
+    {
+      "id": "sufrimiento",
+      "label": "Enfermedad y esperanza",
+      "keywords": [
+        "enfermedad",
+        "enfermo",
+        "sufrimiento",
+        "dolor",
+        "esperanza",
+        "cruz"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fe y perseverancia",
+      "keywords": [
+        "fe",
+        "perseverancia",
+        "fidelidad",
+        "dificultad",
+        "prueba"
+      ]
+    },
+    {
+      "id": "sacrificio",
+      "label": "Entrega y amor por los demás",
+      "keywords": [
+        "sacrificio",
+        "entrega",
+        "amor",
+        "caridad",
+        "ofrenda",
+        "prójimo",
+        "projimo"
+      ]
+    }
+  ],
+  "history": {
+    "short": "Laura Vicuña nació en Santiago de Chile en 1891 y, tras quedar huérfana de padre, vivió con su madre y su hermana en Argentina. Fue alumna de las Hijas de María Auxiliadora en Junín de los Andes y allí creció en la fe, recibió los sacramentos y expresó el deseo de consagrarse a Dios. Ante la situación de su madre, ofreció su vida por su conversión. Murió el 22 de enero de 1904 y fue beatificada por san Juan Pablo II en Colle Don Bosco el 3 de septiembre de 1988.",
+    "extended": "Laura Vicuña nació en Santiago de Chile en 1891. Después de la muerte de su padre, su familia se trasladó a Argentina y Laura ingresó como alumna en el colegio de las Hijas de María Auxiliadora de Junín de los Andes.\n\nEn el ambiente salesiano recibió formación cristiana, se preparó para la Primera Comunión y la Confirmación y desarrolló un profundo amor por Jesús. Juan Pablo II destacó en su beatificación su deseo de consagrar la vida a Dios y su crecimiento en la espiritualidad salesiana.\n\nLa situación familiar que vivía con su madre llevó a Laura a pedir por su conversión. Según el relato presentado por la Santa Sede en la homilía de beatificación, Laura ofreció su vida por la salvación de su madre. Durante una etapa de enfermedad y sufrimiento, perseveró en la fe y recibió consuelo en la Eucaristía y en la esperanza de la conversión materna.\n\nMurió el 22 de enero de 1904. La documentación de la Santa Sede recoge que su madre, después de conocer la ofrenda de Laura, decidió volver a Dios y confesarse. Juan Pablo II la beatificó en Colle Don Bosco el 3 de septiembre de 1988 y la presentó como una joven formada en la escuela espiritual de san Juan Bosco."
+  },
+  "intercessionPrayer": {
+    "title": "Oración de intercesión a la Beata Laura Vicuña",
+    "text": "Señor Jesús, te damos gracias por el testimonio de la Beata Laura Vicuña. Por su intercesión, fortalece a los jóvenes en la fe, acompaña a las familias que atraviesan dificultades y concede consuelo a quienes sufren. Enséñanos a vivir con dignidad, pureza de corazón, amor filial y perseverancia, y a ofrecer nuestras dificultades con esperanza, siempre buscando tu voluntad. Amén.",
+    "attribution": "Texto original de Amigos del Cielo; no se presenta como oración litúrgica oficial."
+  },
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\nBeata Laura Vicuña, joven amiga de Jesús, acompáñanos durante estos nueve días. Ayúdanos a crecer en la fe, a cuidar la dignidad que Dios nos ha dado, a amar a nuestras familias y a permanecer firmes cuando aparezcan las dificultades. Presentamos al Señor nuestras intenciones y pedimos que nos conceda vivir siempre según su voluntad. Amén.",
+  "closingPrayer": "Señor Jesús, gracias por el testimonio de la Beata Laura Vicuña. Ayúdanos a vivir nuestra juventud y nuestra vida familiar con fe, pureza de corazón, amor y responsabilidad. Sostén a quienes sufren y concede a nuestras familias caminos de reconciliación y esperanza. Por intercesión de Laura, danos perseverancia para permanecer cerca de ti. Amén.",
+  "intentions": [
+    "Por los jóvenes que buscan vivir su fe con autenticidad.",
+    "Por quienes enfrentan dificultades familiares y desean reconciliación.",
+    "Por las madres y padres que buscan acompañar a sus hijos en la fe.",
+    "Por quienes disciernen una vocación de entrega a Dios.",
+    "Por quienes sufren presiones, abusos o situaciones que amenazan su dignidad, para que encuentren protección y ayuda.",
+    "Por los enfermos y quienes los acompañan.",
+    "Por quienes atraviesan pruebas prolongadas y necesitan esperanza.",
+    "Por las familias que necesitan perdón, conversión y paz.",
+    "Presenta a Dios tu intención particular y pídele que se cumpla su voluntad."
+  ],
+  "resources": {
+    "bible": [
+      {
+        "reference": "Lucas 9,23-24"
+      },
+      {
+        "reference": "Juan 15,9-13"
+      },
+      {
+        "reference": "Mateo 5,8"
+      },
+      {
+        "reference": "1 Timoteo 4,12"
+      },
+      {
+        "reference": "Efesios 6,1-4"
+      },
+      {
+        "reference": "Romanos 12,9-12"
+      },
+      {
+        "reference": "Filipenses 4,4-9"
+      },
+      {
+        "reference": "2 Corintios 4,7-18"
+      },
+      {
+        "reference": "Juan 15,1-8"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Homilía de beatificación de Laura Vicuña",
+      "organization": "Santa Sede",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/homilies/1988/documents/hf_jp-ii_hom_19880903_colle-don-bosco.html",
+      "type": "official"
+    },
+    {
+      "title": "Actos de la Congregación para las Causas de los Santos sobre Laura Vicuña",
+      "organization": "Santa Sede",
+      "url": "https://press.vatican.va/archive/aas/documents/AAS-80-1988-ocr.pdf",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Alegría de una fe joven",
+      "title": "Crecer cerca de Jesús",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura recibió formación cristiana en el colegio de las Hijas de María Auxiliadora de Junín de los Andes y encontró allí un ambiente que la ayudó a crecer en su amistad con Jesús."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La juventud no es un tiempo ajeno a la santidad. Cada etapa de la vida puede ser una oportunidad para conocer a Cristo y tomar decisiones coherentes con la fe."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué lugar ocupa Jesús en mis decisiones cotidianas?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los jóvenes que buscan sentido y dirección para su vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, ayúdanos a crecer cerca de Jesús y a vivir nuestra fe con alegría y coherencia. Amén."
+      },
+      "action": "Dedica hoy un momento a leer un pasaje del Evangelio y escribe una enseñanza que quieras llevar a tu vida."
+    },
+    {
+      "day": 2,
+      "theme": "Eucaristía y oración",
+      "title": "Permanecer cerca de Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura se preparó para la Primera Comunión y la Confirmación y encontró en la vida sacramental una fuente de fortaleza. En su enfermedad recibió especial consuelo en la Eucaristía."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La oración y los sacramentos ayudan a sostener la vida cristiana, especialmente cuando aparecen el cansancio, el dolor o la incertidumbre."
+      },
+      "virtue": "Vida espiritual",
+      "reflection": "¿Cómo puedo cuidar mejor mi relación con Dios mediante la oración y los sacramentos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean recuperar una vida de oración más constante."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, enséñanos a buscar a Jesús en la oración y en la Eucaristía. Amén."
+      },
+      "action": "Haz hoy un momento de oración en silencio y, si es posible, participa conscientemente en la Eucaristía."
+    },
+    {
+      "day": 3,
+      "theme": "Pureza y dignidad",
+      "title": "Cuidar el corazón",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La Santa Sede presentó a Laura como testigo de la pureza y del amor a Cristo. En una situación que amenazaba su integridad, buscó protección y orientación espiritual."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La dignidad humana merece respeto y protección. Vivir la pureza cristiana implica reconocer el valor propio y el de los demás, establecer límites y buscar ayuda ante situaciones de riesgo."
+      },
+      "virtue": "Dignidad",
+      "reflection": "¿Sé reconocer y respetar los límites que protegen mi dignidad y la de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes viven situaciones de violencia, abuso o presión y necesitan protección y apoyo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, ayúdanos a reconocer la dignidad que Dios nos ha dado y a protegerla con sabiduría y fortaleza. Amén."
+      },
+      "action": "Identifica hoy una relación, hábito o situación que necesite límites saludables y busca apoyo confiable si lo necesitas."
+    },
+    {
+      "day": 4,
+      "theme": "Amor a la familia",
+      "title": "Buscar el bien de quienes amamos",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura amaba profundamente a su madre. Al conocer su situación familiar, deseó que ella volviera a Dios y puso su oración y su entrega al servicio de esa intención."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Amar a la familia no significa cargar solos con sus problemas. Podemos acompañar, orar y buscar ayuda, respetando la libertad y la responsabilidad de cada persona."
+      },
+      "virtue": "Amor filial",
+      "reflection": "¿Cómo puedo expresar hoy amor y respeto hacia mi familia sin intentar controlar las decisiones de los demás?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por las familias heridas por conflictos, separaciones o dificultades."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, acompaña a nuestras familias y enséñanos a buscar el bien de quienes amamos. Amén."
+      },
+      "action": "Haz hoy un gesto concreto de reconciliación o servicio dentro de tu familia."
+    },
+    {
+      "day": 5,
+      "theme": "Entrega y sacrificio",
+      "title": "Ofrecer el dolor con esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La documentación de la Santa Sede recoge que Laura ofreció su vida por la conversión de su madre. Esta entrega estuvo unida a su amor por Cristo y a su esperanza."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La entrega cristiana no consiste en buscar el sufrimiento ni en tolerar abusos. Significa poner ante Dios nuestras dificultades y responder al amor con generosidad, prudencia y esperanza."
+      },
+      "virtue": "Generosidad",
+      "reflection": "¿Qué dificultad puedo presentar hoy a Dios sin dejar de buscar la ayuda necesaria?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan sufrimientos que no pueden resolver por sí mismos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, acompaña a quienes sufren y enséñanos a vivir las pruebas con esperanza y prudencia. Amén."
+      },
+      "action": "Presenta a Dios una dificultad concreta y da también un paso responsable para afrontarla o buscar ayuda."
+    },
+    {
+      "day": 6,
+      "theme": "Perseverancia en la enfermedad",
+      "title": "Mantener la esperanza",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura sufrió diversas enfermedades durante sus últimos años. La Santa Sede destaca que afrontó ese tiempo sostenida por la Eucaristía y la esperanza."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no niega el dolor. Permite atravesarlo buscando apoyo, cuidado, oración y compañía."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué me ayuda a mantener la esperanza cuando una dificultad se prolonga?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por los enfermos, sus familias y quienes los cuidan."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, acompaña a los enfermos y ayúdanos a sostener la esperanza en medio de las pruebas. Amén."
+      },
+      "action": "Comunícate hoy con una persona enferma o que atraviese una dificultad y ofrécele compañía."
+    },
+    {
+      "day": 7,
+      "theme": "Vocación y servicio",
+      "title": "Descubrir una llamada",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura deseó consagrar su vida a Dios dentro del Instituto de Don Bosco, atraída por el testimonio y la educación recibida de las Hijas de María Auxiliadora."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "El discernimiento vocacional requiere oración, acompañamiento y libertad. Cada persona puede preguntarse cómo poner sus dones al servicio de Dios y de los demás."
+      },
+      "virtue": "Disponibilidad",
+      "reflection": "¿Qué dones tengo y cómo puedo ponerlos al servicio de otros?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes disciernen una vocación y por quienes los acompañan."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, acompaña a quienes buscan descubrir su vocación y ayúdanos a responder generosamente a Dios. Amén."
+      },
+      "action": "Pregunta a una persona de confianza qué don reconoce en ti y piensa cómo puedes usarlo para servir."
+    },
+    {
+      "day": 8,
+      "theme": "Amor que busca el bien",
+      "title": "Servir sin dominar",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura deseó el bien espiritual de su madre y oró por su conversión. La Iglesia presenta su testimonio como una expresión de amor filial y entrega."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Buscar el bien de otra persona implica respetar su libertad. Podemos acompañar, orar, dialogar y ofrecer ayuda sin pretender controlar su proceso."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿Sé amar a los demás respetando su libertad y sus propios procesos?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes acompañan a familiares que atraviesan crisis de fe o de vida."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, enséñanos a amar con generosidad, paciencia y respeto por la libertad de cada persona. Amén."
+      },
+      "action": "Ora hoy por alguien que necesite apoyo y pregúntate qué ayuda concreta puedes ofrecer sin invadir su libertad."
+    },
+    {
+      "day": 9,
+      "theme": "Fidelidad hasta el final",
+      "title": "Permanecer en Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Laura murió el 22 de enero de 1904 después de una enfermedad que había debilitado progresivamente su salud. La Santa Sede la presenta perseverando en el amor a Cristo hasta el final."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La santidad se construye en decisiones concretas y perseverantes. La fidelidad de Laura invita a confiar en Dios incluso cuando no vemos el resultado de nuestras esperanzas."
+      },
+      "virtue": "Fidelidad",
+      "reflection": "¿Qué compromiso con Dios, con mi familia o con el bien necesito renovar hoy?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes necesitan fortaleza para permanecer fieles en medio de las pruebas."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "Beata Laura, ayúdanos a permanecer cerca de Jesús y a vivir con fidelidad hasta el final. Amén."
+      },
+      "action": "Renueva hoy una decisión buena que hayas dejado de lado y llévala a cabo con constancia."
+    }
+  ]
+}
