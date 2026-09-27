@@ -5,8 +5,11 @@
   "subtitle": "Patrona del Paraguay y Madre de su pueblo",
   "image": null,
   "feast": {
+    "day": 8,
+    "month": 12,
     "text": "8 de diciembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de los Milagros de Caacupé se celebra el 8 de diciembre; es Patrona del Paraguay."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -275,7 +278,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Santa Misa ante el Santuario Mariano de Caacupé, 18 de mayo de 1988.",
@@ -283,5 +286,7 @@
     "San Juan Pablo II, Ángelus, 16 de agosto de 1992.",
     "Francisco, Santa Misa en la explanada del Santuario Mariano de Caacupé, 11 de julio de 2015.",
     "Secretaría Nacional de Cultura del Paraguay, 8 de diciembre de 2025."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
