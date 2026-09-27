@@ -181,8 +181,15 @@ function actualizarNavegacionInferior(ruta) {
         .querySelectorAll(".bottom-nav-item")
         .forEach(boton => {
 
+            const rutaNavegacion =
+                ruta === "favoritas" || ruta === "progreso"
+                    ? "camino"
+                    : ["todos", "beatos", "maria", "novenas", "devociones"].includes(ruta)
+                        ? "biblioteca"
+                        : ruta;
+
             const activo =
-                boton.dataset.route === ruta;
+                boton.dataset.route === rutaNavegacion;
 
             boton.classList.toggle(
                 "active",
