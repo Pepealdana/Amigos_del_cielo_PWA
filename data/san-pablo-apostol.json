@@ -1,0 +1,467 @@
+{
+  "id": "san-pablo-apostol",
+  "name": "San Pablo Apóstol",
+  "title": "Apóstol de las naciones y testigo de Cristo",
+  "feast": {
+    "day": 29,
+    "month": 6,
+    "text": "29 de junio",
+    "movable": false,
+    "liturgicalRank": "Solemnidad"
+  },
+  "image": "assets/images/santos/san_pablo_apostol.webp",
+  "groups": [
+    "devocion-extendida",
+    "apostoles",
+    "martires"
+  ],
+  "territorial": {
+    "origin": [
+      "TR"
+    ],
+    "historicalLinks": [
+      "TR",
+      "IL",
+      "GR",
+      "IT"
+    ],
+    "specialDevotion": [
+      "IT"
+    ]
+  },
+  "patronages": [
+    "Misioneros y evangelizadores",
+    "Teólogos",
+    "Escritores y comunicadores",
+    "Iglesia de Roma"
+  ],
+  "virtues": [
+    "Conversión",
+    "Fe",
+    "Evangelización",
+    "Perseverancia",
+    "Caridad",
+    "Esperanza"
+  ],
+  "history": {
+    "short": "San Pablo, nacido en Tarso y conocido primero como Saulo, fue un apóstol decisivo en la expansión del cristianismo entre los pueblos no judíos. Después de su encuentro con Cristo resucitado en el camino de Damasco dedicó su vida al anuncio del Evangelio y terminó su camino en Roma, donde la tradición antigua sitúa su martirio.",
+    "extended": "Saulo de Tarso nació en una ciudad de Cilicia, en la actual Turquía, y pertenecía al judaísmo de la época. En sus propias cartas se presenta como israelita, fariseo y perseguidor de la Iglesia antes de su encuentro con Cristo resucitado.\n\nEl acontecimiento de Damasco cambió radicalmente su vida. Los Hechos de los Apóstoles narran este episodio en tres ocasiones y las cartas de Pablo ofrecen también referencias personales. Desde entonces entendió su existencia como una misión recibida de Cristo y dedicó gran parte de su actividad al anuncio del Evangelio entre las naciones.\n\nSus viajes misioneros lo llevaron por distintas regiones del Mediterráneo oriental y por ciudades como Antioquía, Filipos, Tesalónica, Corinto y Éfeso. Sus cartas constituyen una de las fuentes fundamentales del Nuevo Testamento y muestran tanto su pensamiento teológico como las dificultades concretas de las primeras comunidades cristianas.\n\nLos Hechos de los Apóstoles terminan con Pablo en Roma bajo custodia. El Nuevo Testamento no narra explícitamente su martirio. Sin embargo, la tradición cristiana antigua lo sitúa en Roma y considera su muerte martirial como un hecho firmemente transmitido por la Iglesia. Benedicto XVI señala que la antigua tradición cristiana testimonia unánimemente su martirio en Roma, mientras que detalles posteriores sobre el lugar y la forma exacta pertenecen a tradiciones más tardías.\n\nLa vida de San Pablo muestra que la conversión cristiana no es solamente abandonar un pasado, sino permitir que el encuentro con Cristo transforme las capacidades, convicciones y energías de una persona en servicio al Evangelio."
+  },
+  "quote": {
+    "text": "Para mí la vida es Cristo, y la muerte, una ganancia.",
+    "reference": "Filipenses 1,21; palabras de San Pablo."
+  },
+  "search": [
+    "san pablo",
+    "pablo apostol",
+    "Pablo Apóstol",
+    "saulo",
+    "apostol",
+    "apóstol",
+    "apostoles",
+    "apóstoles",
+    "tarso",
+    "damasco",
+    "misionero",
+    "evangelizacion",
+    "evangelización",
+    "gentiles",
+    "roma",
+    "martir",
+    "mártir",
+    "cartas",
+    "epistolas",
+    "epístolas"
+  ],
+  "interventions": [
+    {
+      "id": "conversion",
+      "label": "Conversión y cambio de vida",
+      "keywords": [
+        "conversion",
+        "conversión",
+        "damasco",
+        "saulo",
+        "cambio",
+        "perdon",
+        "perdón"
+      ]
+    },
+    {
+      "id": "evangelizacion",
+      "label": "Evangelización y misión",
+      "keywords": [
+        "evangelizacion",
+        "evangelización",
+        "evangelio",
+        "mision",
+        "misión",
+        "misionero",
+        "misioneros",
+        "gentiles"
+      ]
+    },
+    {
+      "id": "perseverancia",
+      "label": "Perseverancia en la prueba",
+      "keywords": [
+        "perseverancia",
+        "prueba",
+        "sufrimiento",
+        "persecucion",
+        "persecución",
+        "peligro",
+        "martirio",
+        "martir"
+      ]
+    },
+    {
+      "id": "palabra",
+      "label": "Palabra y enseñanza",
+      "keywords": [
+        "palabra",
+        "enseñanza",
+        "teologia",
+        "teología",
+        "cartas",
+        "epistolas",
+        "epístolas",
+        "predicacion",
+        "predicación"
+      ]
+    },
+    {
+      "id": "caridad",
+      "label": "Caridad",
+      "keywords": [
+        "caridad",
+        "amor",
+        "comunidad",
+        "hermanos",
+        "servicio"
+      ]
+    },
+    {
+      "id": "vocacion",
+      "label": "Vocación y servicio",
+      "keywords": [
+        "vocacion",
+        "vocación",
+        "llamado",
+        "apostolado",
+        "apostol",
+        "apóstol"
+      ]
+    },
+    {
+      "id": "unidad",
+      "label": "Unidad de la Iglesia",
+      "keywords": [
+        "unidad",
+        "iglesia",
+        "comunidad",
+        "conflicto",
+        "reconciliacion",
+        "reconciliación"
+      ]
+    },
+    {
+      "id": "esperanza",
+      "label": "Esperanza cristiana",
+      "keywords": [
+        "esperanza",
+        "resurreccion",
+        "resurrección",
+        "vida",
+        "muerte",
+        "cristo"
+      ]
+    }
+  ],
+  "openingPrayer": "En el nombre del Padre, del Hijo y del Espíritu Santo. Amén. San Pablo Apóstol, testigo de la misericordia de Cristo y servidor del Evangelio, enséñanos a dejar que Dios transforme nuestra vida. Ruega por los misioneros, por quienes anuncian la Palabra y por todos los que necesitan renovar su esperanza. Amén.",
+  "closingPrayer": "San Pablo Apóstol, intercede por nosotros. Ayúdanos a conocer a Cristo, a vivir con caridad y a perseverar en el bien aun cuando encontremos dificultades. Haz de nosotros testigos humildes y responsables del Evangelio. Amén.",
+  "intentions": [
+    "Por el Papa, los obispos, sacerdotes y todos los servidores del Evangelio.",
+    "Por misioneros y evangelizadores que anuncian a Cristo en diferentes culturas.",
+    "Por quienes están viviendo un proceso de conversión.",
+    "Por quienes han cometido errores y necesitan comenzar una vida nueva.",
+    "Por teólogos, catequistas, escritores y comunicadores cristianos.",
+    "Por la unidad de la Iglesia y por comunidades divididas.",
+    "Por los cristianos perseguidos y quienes sufren por su fe.",
+    "Por quienes atraviesan pruebas y necesitan esperanza.",
+    "Por la intención particular con la que realizo esta novena."
+  ],
+  "resources": {
+    "bible": [
+      "Hechos 9,1-19",
+      "Hechos 17,22-34",
+      "Romanos 8,31-39",
+      "1 Corintios 13,1-13",
+      "Gálatas 2,19-20",
+      "Filipenses 1,20-24"
+    ],
+    "related": [
+      "Cartas de San Pablo",
+      "Conversión de San Pablo",
+      "Evangelización de las naciones",
+      "Iglesia de Roma"
+    ]
+  },
+  "sources": [
+    {
+      "title": "San Pablo: vida antes y después de Damasco",
+      "organization": "Santa Sede — Benedicto XVI",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080827.html",
+      "type": "official"
+    },
+    {
+      "title": "La conversión de san Pablo",
+      "organization": "Santa Sede — Benedicto XVI",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2008/documents/hf_ben-xvi_aud_20080903.html",
+      "type": "official"
+    },
+    {
+      "title": "El martirio de san Pablo",
+      "organization": "Santa Sede — Benedicto XVI",
+      "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2009/documents/hf_ben-xvi_aud_20090204.html",
+      "type": "official"
+    },
+    {
+      "title": "San Pablo, verdadero apóstol",
+      "organization": "Santa Sede — Francisco",
+      "url": "https://www.vatican.va/content/francesco/es/audiences/2021/documents/papa-francesco_20210630_udienza-generale.html",
+      "type": "official"
+    },
+    {
+      "title": "Solemnidad de San Pedro y San Pablo, Apóstoles",
+      "organization": "USCCB",
+      "url": "https://bible.usccb.org/es/bible/lecturas/062926-Day",
+      "type": "official"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Conversión",
+      "title": "Dejar que Cristo transforme la vida",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Saulo perseguía a la Iglesia antes de encontrarse con Cristo resucitado en el camino de Damasco. Ese encuentro cambió radicalmente la orientación de su vida."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La conversión no consiste solamente en reconocer un error. Implica permitir que una nueva comprensión de Dios transforme nuestras decisiones y prioridades."
+      },
+      "virtue": "Conversión",
+      "reflection": "¿Qué aspecto de mi vida necesita una transformación sincera?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes desean cambiar de vida y por quienes buscan reconciliarse con Dios."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, ayúdanos a abrirnos a la acción de Cristo y a permitir que transforme nuestra vida. Amén."
+      },
+      "action": "Identifica hoy una actitud que necesites cambiar y formula un primer paso concreto."
+    },
+    {
+      "day": 2,
+      "theme": "Fe",
+      "title": "Encontrarse con Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pablo interpretó su encuentro con el Resucitado como el fundamento de su apostolado. Desde entonces Cristo se convirtió en el centro de su existencia."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La fe cristiana no es solamente una colección de ideas; es una relación con Cristo que puede orientar toda la vida."
+      },
+      "virtue": "Fe",
+      "reflection": "¿Qué significa para mí que Cristo sea el centro de mi vida?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes buscan una relación más profunda con Jesús."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, ayúdanos a conocer a Cristo y a poner nuestra confianza en Él. Amén."
+      },
+      "action": "Lee hoy un pasaje de una carta de San Pablo y anota qué te ayuda a comprender sobre Cristo."
+    },
+    {
+      "day": 3,
+      "theme": "Misión",
+      "title": "Anunciar el Evangelio",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Después de su conversión, Pablo dedicó su vida al anuncio del Evangelio y desarrolló una amplia misión entre pueblos no judíos."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La misión cristiana comienza con un testimonio coherente y respeta la libertad y dignidad de las personas."
+      },
+      "virtue": "Evangelización",
+      "reflection": "¿Cómo puedo dar testimonio de mi fe sin imponerla?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por misioneros, catequistas, sacerdotes, religiosos y laicos evangelizadores."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, fortalece a quienes anuncian el Evangelio y enséñanos a ser testigos respetuosos y coherentes. Amén."
+      },
+      "action": "Comparte hoy una palabra de esperanza con alguien que la necesite."
+    },
+    {
+      "day": 4,
+      "theme": "Palabra",
+      "title": "Conocer y comunicar la verdad",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Las cartas de Pablo forman parte del Nuevo Testamento y muestran su esfuerzo por enseñar la fe y orientar a las primeras comunidades cristianas."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Comunicar la fe exige estudiar, escuchar, distinguir lo esencial y adaptar el lenguaje sin alterar el contenido."
+      },
+      "virtue": "Sabiduría",
+      "reflection": "¿Qué necesito aprender mejor para poder explicar mi fe con mayor claridad?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por catequistas, teólogos, profesores, escritores y comunicadores cristianos."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, ayúdanos a buscar la verdad y a comunicarla con caridad y responsabilidad. Amén."
+      },
+      "action": "Lee hoy un texto cristiano fiable y verifica una afirmación de fe que no tengas clara."
+    },
+    {
+      "day": 5,
+      "theme": "Caridad",
+      "title": "La fe que se convierte en amor",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "En sus cartas, Pablo insiste en que los dones y conocimientos pierden su sentido cuando falta la caridad. La comunidad cristiana debe edificarse mediante el amor."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La vida cristiana no puede reducirse a defender ideas. La verdad y la caridad deben caminar juntas."
+      },
+      "virtue": "Caridad",
+      "reflection": "¿En qué relación necesito expresar más amor y menos dureza?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por familias y comunidades donde existen conflictos o divisiones."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, enséñanos a vivir la verdad con caridad y a poner el bien del otro en el centro. Amén."
+      },
+      "action": "Realiza hoy un acto de caridad que no necesite ser reconocido."
+    },
+    {
+      "day": 6,
+      "theme": "Perseverancia",
+      "title": "Continuar en medio de las pruebas",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pablo experimentó viajes difíciles, oposición, encarcelamientos y otros sufrimientos que él mismo describe en sus cartas. Aun así continuó anunciando el Evangelio."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Perseverar no significa negar el cansancio. Significa sostener el bien posible, pedir ayuda y continuar cuando vale la pena."
+      },
+      "virtue": "Perseverancia",
+      "reflection": "¿Qué buena tarea necesito continuar aunque esté resultando difícil?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan dificultades prolongadas y necesitan fortaleza."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, intercede por quienes sufren y enséñanos a perseverar con esperanza. Amén."
+      },
+      "action": "Retoma hoy una tarea buena que habías abandonado y avanza un paso."
+    },
+    {
+      "day": 7,
+      "theme": "Unidad",
+      "title": "Construir una Iglesia reconciliada",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pablo mantuvo relaciones complejas pero profundamente importantes con otros apóstoles y trabajó por la comunión de las primeras comunidades."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La unidad cristiana requiere verdad, corrección fraterna, escucha y disposición a superar divisiones."
+      },
+      "virtue": "Comunión",
+      "reflection": "¿Qué división podría ayudarme a reducir en mi familia, comunidad o Iglesia?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por la unidad de la Iglesia y por los cristianos que viven divisiones."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, ruega por la unidad de los cristianos y enséñanos a buscar la reconciliación. Amén."
+      },
+      "action": "Busca hoy una forma concreta de escuchar a alguien con quien tienes diferencias."
+    },
+    {
+      "day": 8,
+      "theme": "Esperanza",
+      "title": "Vivir con la mirada puesta en Cristo",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "Pablo entendió su vida y su misión desde la esperanza en Cristo resucitado. Sus cartas muestran una confianza que permanece incluso ante el sufrimiento y la muerte."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "La esperanza cristiana no elimina las dificultades, pero permite afrontarlas sin considerar el sufrimiento como la última palabra."
+      },
+      "virtue": "Esperanza",
+      "reflection": "¿Qué situación necesito mirar hoy desde una perspectiva más esperanzada?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por quienes atraviesan duelo, enfermedad, incertidumbre o miedo ante el futuro."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo, fortalece nuestra esperanza y ayúdanos a confiar en el amor de Cristo. Amén."
+      },
+      "action": "Escribe una preocupación y acompáñala con una oración y una acción concreta."
+    },
+    {
+      "day": 9,
+      "theme": "Entrega",
+      "title": "Correr hasta la meta",
+      "life": {
+        "title": "Conozcamos su vida",
+        "text": "La tradición cristiana antigua conserva el testimonio del martirio de Pablo en Roma. Su vida terminó orientada hacia la misión que había recibido y hacia Cristo."
+      },
+      "learning": {
+        "title": "¿Qué podemos aprender?",
+        "text": "Una vida entregada al Evangelio se construye con pequeñas decisiones de fidelidad, servicio, caridad y perseverancia."
+      },
+      "virtue": "Entrega",
+      "reflection": "¿Qué compromiso concreto quiero mantener después de esta novena?",
+      "intention": {
+        "title": "Intención del día",
+        "text": "Por todas las intenciones presentadas durante esta novena y por quienes anuncian el Evangelio en todo el mundo."
+      },
+      "prayer": {
+        "title": "Oración del día",
+        "text": "San Pablo Apóstol, intercede por nosotros. Ayúdanos a vivir para Cristo, a servir con caridad y a perseverar en el bien hasta el final. Amén."
+      },
+      "action": "Elige un compromiso concreto de oración, servicio o evangelización para mantener después de esta novena."
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "es",
+    "author": "Amigos del Cielo",
+    "license": "CC BY-NC-SA 4.0",
+    "updated": "2026-09-26"
+  }
+}
