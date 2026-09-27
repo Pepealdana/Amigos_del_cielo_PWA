@@ -5,8 +5,11 @@
   "subtitle": "Patrona de Madrid",
   "image": null,
   "feast": {
+    "day": 9,
+    "month": 11,
     "text": "9 de noviembre",
-    "movable": false
+    "movable": false,
+    "note": "La fiesta de Nuestra Señora de la Almudena se celebra el 9 de noviembre; es la patrona de la ciudad y archidiócesis de Madrid."
   },
   "liturgicalRank": "Solemnidad",
   "quote": null,
@@ -275,7 +278,7 @@
     "language": "es",
     "author": "Amigos del Cielo",
     "license": "CC BY-NC-SA 4.0",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "sources": [
     "San Juan Pablo II, Homilía en la dedicación de la Catedral de la Almudena, Madrid, 15 de junio de 1993.",
@@ -283,5 +286,7 @@
     "Archidiócesis de Madrid, información histórica sobre Nuestra Señora de la Almudena y su catedral.",
     "Catedral de Santa María la Real de la Almudena, historia y devoción mariana.",
     "San Pío X, concesión de la coronación canónica de Nuestra Señora de la Almudena, 1908."
-  ]
+  ],
+  "status": "published",
+  "category": "María"
 }
