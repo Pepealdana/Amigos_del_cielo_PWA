@@ -1567,3 +1567,43 @@
         transform:none;
     }
 }
+
+
+/* ==========================================================
+   ACCIONES DE PORTADA DE NOVENA
+========================================================== */
+
+.novena-actions{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    width:100%;
+    margin-top:2rem;
+}
+
+.novena-actions-primary{
+    width:100%;
+}
+
+.novena-actions-secondary{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:.65rem;
+    width:100%;
+}
+
+.novena-actions-secondary .btn{
+    min-height:46px;
+    padding:.75rem .55rem;
+    font-size:var(--font-sm);
+}
+
+@media (max-width:480px){
+    .novena-actions{
+        gap:.85rem;
+    }
+
+    .novena-actions-secondary{
+        grid-template-columns:1fr;
+    }
+}
