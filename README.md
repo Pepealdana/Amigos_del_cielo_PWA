@@ -333,7 +333,9 @@ La publicación oficial queda preparada sobre el commit final de estabilización
 
 **Plataforma de despliegue:** GitHub Pages
 
-**Licencia:** actualmente no se ha definido una licencia de software para el repositorio. El código, contenido y recursos gráficos no deben reutilizarse como si estuvieran bajo una licencia abierta hasta que se publique una licencia explícita.
+**Licencia del código:** MIT, indicada en el archivo `LICENSE`.
+
+**Contenido y recursos:** los archivos de contenido pueden indicar condiciones específicas, por lo que la licencia del código no implica automáticamente una licencia abierta para textos, imágenes u otros recursos.
 
 ## Autoría y propósito
 
