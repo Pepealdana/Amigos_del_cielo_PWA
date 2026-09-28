@@ -1726,58 +1726,16 @@ function mostrarResultadosBusquedaPWA(texto) {
     contenedor.hidden = false;
 }
 
-let categoriaBibliotecaPWA = "Todas";
-
-function filtrarBibliotecaPWA(categoria) {
-
-    categoriaBibliotecaPWA =
-        categoria || "Todas";
-
-    document
-        .querySelectorAll(".library-filter")
-        .forEach(boton => {
-            boton.classList.toggle(
-                "active",
-                boton.dataset.category ===
-                    categoriaBibliotecaPWA
-            );
-        });
-
-    actualizarBibliotecaPWA();
-}
-
 function actualizarBibliotecaPWA() {
-
-    const contenedor =
-        document.getElementById(
-            "library-list"
-        );
+    const contenedor = document.getElementById("library-list");
 
     if (!contenedor) {
         return;
     }
 
-    let resultados =
-        filtrarCategoria(
-            state.catalogo,
-            categoriaBibliotecaPWA
-        );
-
-    const termino =
-        state.busqueda.trim();
-
-    if (termino) {
-        resultados =
-            buscarNovenas(
-                resultados,
-                termino
-            );
-    }
-
-    contenedor.innerHTML =
-        renderListaBiblioteca(
-            resultados
-        );
+    contenedor.innerHTML = renderResultadosBiblioteca(
+        state.busqueda || ""
+    );
 }
 
 function continuarNovena(id) {
