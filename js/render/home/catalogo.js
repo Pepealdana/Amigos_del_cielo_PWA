@@ -134,6 +134,16 @@ function renderCatalogoV2(
 
     return `
         <section class="catalog-page page-shell">
+            <div class="catalog-context-nav">
+                <button
+                    class="context-back"
+                    type="button"
+                    data-route="biblioteca"
+                    aria-label="Volver a la Biblioteca">
+                    ← Volver a Biblioteca
+                </button>
+            </div>
+
             <header class="catalog-head">
                 <span class="catalog-kicker" aria-hidden="true">${datos.icono}</span>
                 <div>
