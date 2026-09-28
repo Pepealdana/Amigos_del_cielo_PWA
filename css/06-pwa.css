@@ -2637,3 +2637,32 @@ body.dark .library-related-card{
     text-align:center;
     z-index:2;
 }
+
+
+/* ==========================================================
+   IDENTIDAD VISUAL — AMIGOS DEL CIELO
+========================================================== */
+
+.header-brand-name{
+    font-family: "Lora", Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -.01em;
+}
+
+.header-brand-subtitle{
+    font-family: Inter, Arial, sans-serif;
+}
+
+.menu-header h2{
+    font-family: "Lora", Georgia, serif;
+    font-weight: 600;
+}
+
+.menu-header p{
+    font-family: Inter, Arial, sans-serif;
+}
+
+.app-logo,
+.menu-logo{
+    object-fit:contain;
+}
