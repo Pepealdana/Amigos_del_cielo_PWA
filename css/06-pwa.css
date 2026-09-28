@@ -653,15 +653,21 @@ body::before{
 
 .menu-close-button{
     display:none;
-    width:auto;
-    min-height:40px;
-    margin-top:.75rem;
-    padding:.55rem .8rem;
+    position:absolute;
+    top:.1rem;
+    right:0;
+    width:44px;
+    height:44px;
+    min-height:44px;
+    margin:0;
+    padding:0;
     border:1px solid var(--color-border);
-    border-radius:10px;
+    border-radius:50%;
     background:transparent;
     color:var(--color-text);
-    font-size:.82rem;
+    font-size:1.7rem;
+    line-height:1;
+    cursor:pointer;
 }
 
 .side-menu .menu-header p{
@@ -762,8 +768,8 @@ body::before{
         justify-content:center;
     }
 
-
     .side-menu{
+
         left:-280px;
         transform:none;
         transition:left var(--transition);
