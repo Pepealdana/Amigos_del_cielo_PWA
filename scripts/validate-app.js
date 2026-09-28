@@ -212,12 +212,77 @@ function checkServiceWorker() {
   console.log("✓ Service Worker: " + unique.length + " referencias locales revisadas.");
 }
 
+function checkInteractiveActions() {
+  const files = [];
+  function walk(dir) {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith(".js")) files.push(path.relative(ROOT, full));
+    }
+  }
+  walk(path.join(ROOT, "js"));
+
+  const actions = new Set();
+  const routes = new Set();
+  const handlers = new Set();
+  const routerRoutes = new Set();
+
+  for (const file of files) {
+    const source = fs.readFileSync(path.join(ROOT, file), "utf8");
+
+    for (const match of source.matchAll(/data-action\\s*=\\s*["']([^"']+)["']/g)) {
+      actions.add(match[1]);
+    }
+
+    for (const match of source.matchAll(/data-action=\\?"([^"]+)\\?"/g)) {
+      actions.add(match[1]);
+    }
+
+    for (const match of source.matchAll(/case\\s+["']([^"']+)["']\\s*:/g)) {
+      handlers.add(match[1]);
+    }
+
+    for (const match of source.matchAll(/data-route\\s*=\\s*["']([^"']+)["']/g)) {
+      routes.add(match[1]);
+    }
+
+    for (const match of source.matchAll(/case\\s+["']([^"']+)["']\\s*:/g)) {
+      routerRoutes.add(match[1]);
+    }
+  }
+
+  const knownDirectActions = new Set([
+    "open-novena", "open-profile", "draw-patron", "open-patron-profile",
+    "continue-novena", "next-day", "previous-day", "favorite-novena",
+    "share-novena", "start-novena", "finish-novena", "restart-novena",
+    "toggle-extended-history", "text-size", "theme", "retry-app",
+    "go-library", "library-explorer-mode", "library-explorer-select",
+    "library-explorer-reset", "go-novena", "share-app", "region"
+  ]);
+
+  for (const action of actions) {
+    if (!knownDirectActions.has(action) && !handlers.has(action)) {
+      warn("JavaScript", "data-action sin handler reconocido: " + action);
+    }
+  }
+
+  for (const route of routes) {
+    if (!routerRoutes.has(route)) {
+      warn("JavaScript", "data-route sin ruta reconocida: " + route);
+    }
+  }
+
+  console.log("✓ Interacciones: " + actions.size + " acciones y " + routes.size + " rutas detectadas.");
+}
+
 checkJsonFiles();
 checkJavaScriptSyntax();
 checkCatalogs();
 checkLegacyCatalog();
 checkHtmlReferences();
 checkServiceWorker();
+checkInteractiveActions();
 
 if (errors) {
   console.error("\nValidación de lanzamiento FALLIDA: " + errors + " error(es), " + warnings + " advertencia(s).");
