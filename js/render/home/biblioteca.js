@@ -256,9 +256,9 @@ function renderBiblioteca(catalogo = []) {
                             <button
                                 class="btn btn-primary"
                                 type="button"
-                                data-action="open-novena"
+                                data-action="${(state.catalogo || []).some(novena => novena.id === santoDelDia.id) ? "open-novena" : "open-profile"}"
                                 data-id="${escaparHTML(santoDelDia.id)}">
-                                Conocerlo
+                                ${(state.catalogo || []).some(novena => novena.id === santoDelDia.id) ? "Abrir novena" : "Conocerlo"}
                             </button>
                         </div>
                     </article>
@@ -468,8 +468,9 @@ function renderResultadosBiblioteca(texto = "") {
         <button
             class="library-result"
             type="button"
-            data-action="open-novena"
-            data-id="${escaparHTML(item.id)}">
+            data-action="${Array.isArray(item.days) && item.days.length ? "open-novena" : "open-profile"}"
+            data-id="${escaparHTML(item.id)}"
+            aria-label="${Array.isArray(item.days) && item.days.length ? "Abrir novena" : "Conocer"} ${escaparHTML(item.name)}">
 
             ${item.image ? `
                 <img
