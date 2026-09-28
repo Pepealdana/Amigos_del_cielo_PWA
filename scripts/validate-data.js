@@ -283,3 +283,5 @@ if (errors > 0) {
 }
 
 console.log('✓ Validación correcta: catálogo legado, catálogos v2.1 y contenidos publicados.');
+
+// Validación CI solicitada: mantener este script ejecutable desde GitHub Actions.
