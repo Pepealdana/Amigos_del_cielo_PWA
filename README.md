@@ -220,13 +220,13 @@ El repositorio incorpora validaciones automáticas mediante GitHub Actions.
 
 ### Code Scanning
 
-CodeQL analiza el código JavaScript/TypeScript en busca de vulnerabilidades y problemas de código. GitHub proporciona consultas específicas para JavaScript y TypeScript, incluyendo detecciones relacionadas con XSS del lado del cliente, inyección y almacenamiento inseguro de información sensible. citeturn0search0turn0search2
+CodeQL analiza el código JavaScript/TypeScript en busca de vulnerabilidades y problemas de seguridad.
 
 ### Dependabot
 
 Dependabot supervisa las dependencias de GitHub Actions y puede proponer actualizaciones mediante Pull Requests.
 
-En este proyecto se supervisan las Actions utilizadas por los workflows, no se añade npm como dependencia de la aplicación únicamente para utilizar Dependabot. GitHub reconoce `github-actions` como ecosistema compatible con Dependabot. citeturn0search1turn0search5
+En este proyecto se supervisan las Actions utilizadas por los workflows. No se añade npm como dependencia de la aplicación únicamente para utilizar Dependabot.
 
 ### Lighthouse CI
 
@@ -316,9 +316,19 @@ El crecimiento del proyecto se realizará de forma incremental para mantener la 
 6. **Accesible:** la aplicación busca ser usable desde teléfonos, tabletas y computadores.
 7. **Progresivo:** las nuevas funciones se incorporan después de validar las existentes.
 
+## Calidad y estado de publicación
+
+La versión 1.3.6 ha completado la fase principal de estabilización técnica. Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La prueba funcional manual de navegación, novenas, favoritos, progreso, Biblioteca, configuración, funcionamiento offline y acciones principales se utiliza como complemento de estas verificaciones.
+
+Antes de una publicación pública conviene mantener una revisión final de los Pull Requests de Dependabot y crear una etiqueta/release para la versión publicada.
+
 ## Estado del proyecto
 
 **Versión de aplicación:** 1.3.6
+
+**Estado:** lista para publicación y pruebas con usuarios reales
+
+**Service Worker:** caché v229
 
 **Tipo:** Progressive Web App
 
@@ -326,7 +336,7 @@ El crecimiento del proyecto se realizará de forma incremental para mantener la 
 
 **Plataforma de despliegue:** GitHub Pages
 
-**Licencia:** consultar la información disponible en el repositorio antes de reutilizar código, contenido o recursos gráficos.
+**Licencia:** actualmente no se ha definido una licencia de software para el repositorio. El código, contenido y recursos gráficos no deben reutilizarse como si estuvieran bajo una licencia abierta hasta que se publique una licencia explícita.
 
 ## Autoría y propósito
 
