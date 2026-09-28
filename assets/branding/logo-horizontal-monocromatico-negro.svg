@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-label="Amigos del Cielo">
+<rect width="1600" height="520" fill="transparent"/>
+<g transform="translate(20 20) scale(.94)">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1976D2"/><stop offset="1" stop-color="#62C5F7"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1A8"/><stop offset=".45" stop-color="#F4C430"/><stop offset="1" stop-color="#C98908"/></linearGradient>
+ <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF5B5"/><stop offset=".45" stop-color="#F4C430"/><stop offset="1" stop-color="#B97800"/></linearGradient>
+</defs>
+<circle cx="256" cy="256" r="246" fill="#151515"/>
+<circle cx="256" cy="256" r="246" fill="none" stroke="#151515" stroke-width="18"/>
+<path d="M34 315 C80 250 118 283 150 315 C184 350 205 345 231 322 C262 294 290 298 320 326 C355 359 397 338 478 300 L478 478 L34 478Z" fill="#FFFFFF" opacity=".96"/>
+<path d="M35 354 C88 304 126 330 154 354 C185 380 211 376 238 354 C271 327 301 332 330 360 C366 394 405 374 477 341 L477 478 L35 478Z" fill="#D7E2EE" opacity=".95"/>
+<path d="M256 82 L269 205 C270 215 284 222 302 229 C321 237 335 245 343 257 C348 265 342 273 329 277 C310 283 289 278 276 269 C266 262 259 256 256 251 C251 256 244 262 234 269 C221 278 200 283 181 277 C168 273 162 265 167 257 C175 245 189 237 208 229 C226 222 240 215 243 205Z" fill="#FFFFFF"/>
+<path d="M252 247 C274 253 289 263 294 276 C299 289 292 301 274 310 C245 325 226 341 219 363 C212 385 218 414 241 474 L321 474 C298 420 292 384 301 357 C310 329 331 313 350 296 C369 279 378 264 370 251 C361 236 337 225 307 215 C286 208 269 199 256 187Z" fill="#FFFFFF"/>
+<path d="M246 92 L256 46 L266 92 L312 102 L266 112 L256 158 L246 112 L200 102Z" fill="#FFFFFF"/>
+</g>
+<rect x="510" y="96" width="4" height="300" rx="2" fill="#151515"/>
+<text x="560" y="245" font-family="Lora, Georgia, serif" font-size="112" font-weight="600" fill="#151515">Amigos del Cielo</text>
+<rect x="560" y="280" width="950" height="4" fill="#151515"/>
+<text x="560" y="340" font-family="Inter, Arial, sans-serif" font-size="34" letter-spacing="3" fill="#151515">Camina junto a los santos cada día</text>
+</svg>
