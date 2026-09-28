@@ -40,7 +40,8 @@
                 "Madre Clara Fey"
             ],
             "image": "assets/images/santos/beata_clara_fey.webp",
-            "sourceFile": "data/beata-clara-fey.json"
+            "sourceFile": "data/beata-clara-fey.json",
+            "category": "beatos"
         },
         {
             "id": "beata-chiara-luce-badano",
@@ -79,7 +80,8 @@
                 "Chiara Luce"
             ],
             "image": "assets/images/santos/beata_chiara_luce_badano.webp",
-            "sourceFile": "data/beata-chiara-luce-badano.json"
+            "sourceFile": "data/beata-chiara-luce-badano.json",
+            "category": "beatos"
         },
         {
             "id": "beato-michael-mcgivney",
@@ -119,7 +121,8 @@
                 "McGivney"
             ],
             "image": "assets/images/santos/beato_michael_mcgivney.webp",
-            "sourceFile": "data/beato-michael-mcgivney.json"
+            "sourceFile": "data/beato-michael-mcgivney.json",
+            "category": "beatos"
         },
         {
             "id": "beato-padre-marianito",
@@ -161,7 +164,8 @@
                 "Marianito"
             ],
             "image": "assets/images/santos/beato_padre_marianito.webp",
-            "sourceFile": "data/beato-padre-marianito.json"
+            "sourceFile": "data/beato-padre-marianito.json",
+            "category": "beatos"
         },
         {
             "id": "beato-ceferino-namuncura",
@@ -202,7 +206,8 @@
                 "Zefferino Namuncurá"
             ],
             "image": "assets/images/santos/beato_ceferino_namuncura.webp",
-            "sourceFile": "data/beato-ceferino-namuncura.json"
+            "sourceFile": "data/beato-ceferino-namuncura.json",
+            "category": "beatos"
         },
         {
             "id": "beata-ana-de-los-angeles-monteagudo",
@@ -243,7 +248,8 @@
                 "Ana de los Ángeles Monteagudo"
             ],
             "image": "assets/images/santos/beata_ana_de_los_angeles_monteagudo.webp",
-            "sourceFile": "data/beata-ana-de-los-angeles-monteagudo.json"
+            "sourceFile": "data/beata-ana-de-los-angeles-monteagudo.json",
+            "category": "beatos"
         },
         {
             "id": "beata-laura-vicuna",
@@ -287,7 +293,8 @@
                 "Laura Vicuna"
             ],
             "image": "assets/images/santos/beata_laura_vicuña.webp",
-            "sourceFile": "data/beata-laura-vicuna.json"
+            "sourceFile": "data/beata-laura-vicuna.json",
+            "category": "beatos"
         },
         {
             "id": "beata-guadalupe-ortiz-de-landazuri",
@@ -333,7 +340,8 @@
                 "Guadalupe Ortiz"
             ],
             "image": "assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp",
-            "sourceFile": "data/beata-guadalupe-ortiz-de-landazuri.json"
+            "sourceFile": "data/beata-guadalupe-ortiz-de-landazuri.json",
+            "category": "beatos"
         }
     ]
 }
