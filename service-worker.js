@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v242";
+const CACHE_NAME = "amigos-del-cielo-v243";
 
 const APP_SHELL = [
     "./",
@@ -128,13 +128,13 @@ const APP_SHELL = [
     "./data/san-oscar-romero.json",
     "./data/santa-mariana-de-jesus.json",
     "./data/santo-toribio-de-mogrovejo.json",
-    "./css/style.css?v=240",
-    "./css/01-base.css?v=240",
-    "./css/02-layout.css?v=240",
-    "./css/03-components.css?v=240",
-    "./css/04-utilities.css?v=240",
-    "./css/05-themes.css?v=240",
-    "./css/06-pwa.css?v=240",
+    "./css/style.css?v=243",
+    "./css/01-base.css?v=243",
+    "./css/02-layout.css?v=243",
+    "./css/03-components.css?v=243",
+    "./css/04-utilities.css?v=243",
+    "./css/05-themes.css?v=243",
+    "./css/06-pwa.css?v=243",
     "./js/config/appConfig.js",
     "./js/state/state.js",
     "./js/services/storage.js",
