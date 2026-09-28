@@ -52,6 +52,16 @@ function renderDia(
 
         <section class="home">
 
+            <div class="novena-context-nav">
+                <button
+                    class="context-back"
+                    type="button"
+                    data-action="back-novena"
+                    aria-label="Volver a la portada de la novena">
+                    ← Volver a la novena
+                </button>
+            </div>
+
             ${renderCabeceraNovena(novena)}
 
             ${crearBadge(
