@@ -655,7 +655,7 @@ body::before{
     display:none;
     position:absolute;
     top:.65rem;
-    right:.65rem;
+    right:1rem;
     width:44px;
     height:44px;
     min-height:44px;
@@ -690,6 +690,31 @@ body::before{
 .side-menu > button:hover{
     background:var(--soft-blue);
     color:var(--color-primary);
+}
+
+.side-menu > .menu-close-button{
+    width:44px;
+    height:44px;
+    min-width:44px;
+    min-height:44px;
+    margin:0;
+    padding:0;
+    border-radius:50%;
+    background:transparent;
+    color:var(--color-text);
+    text-align:center;
+    font-size:1.7rem;
+    line-height:1;
+}
+
+.side-menu > .menu-close-button:hover{
+    background:var(--soft-blue);
+    color:var(--color-text);
+}
+
+.side-menu > .menu-close-button:focus-visible{
+    outline:3px solid var(--color-secondary);
+    outline-offset:2px;
 }
 
 .menu-overlay{
