@@ -148,3 +148,18 @@ No a:
   https://www.vatican.va/content/catechism/en/part_three/section_one/chapter_one/article_7.html
 - Catecismo de la Iglesia Católica, comunión de los santos:
   https://www.vatican.va/content/catechism/en/part_one/section_two/chapter_three/article_9.html
+
+
+## Estado de implementación — 1.3.4
+
+La primera versión funcional ya está integrada en Biblioteca.
+
+- Se incorporó el selector de **situaciones/intenciones**.
+- Se incorporó el selector de **virtudes**.
+- Las relaciones se calculan usando los campos existentes de las fichas: `interventions`, `virtues`, `patronages`, `search`, `searchTerms`, `tags`, título y descripción.
+- La carga de contenido completo es diferida hasta que el usuario solicita una relación.
+- Los resultados indican si la relación procede principalmente de la vida/misión, de una tradición devocional o de las virtudes.
+- Si el contenido tiene días de novena, el resultado ofrece **Ver novena**; de lo contrario, ofrece **Conocerlo**.
+- El buscador general de Biblioteca también considera las virtudes.
+
+La siguiente etapa editorial será revisar las relaciones con fuentes una por una y ajustar los casos que requieran una relación más precisa.
