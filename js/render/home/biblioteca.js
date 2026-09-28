@@ -414,7 +414,9 @@ function renderBiblioteca(catalogo = []) {
                         value="${escaparHTML(state.busqueda || "")}"
                         placeholder="Busca una novena, devoción o santo..."
                         autocomplete="off"
-                        aria-label="Buscar contenido espiritual">
+                        aria-label="Buscar contenido espiritual"
+                        aria-controls="library-list"
+                        aria-expanded="${Boolean(state.busqueda?.trim())}">
                 </div>
 
                 <div id="library-list" class="library-results">
