@@ -57,6 +57,7 @@ function renderDia(
                     class="context-back"
                     type="button"
                     data-action="back-novena"
+                    data-back-level="portada"
                     aria-label="Volver a la portada de la novena">
                     ← Volver a la novena
                 </button>
