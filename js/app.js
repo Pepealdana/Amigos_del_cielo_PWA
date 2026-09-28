@@ -1522,13 +1522,6 @@ function manejarClicksPWA(evento) {
         return;
     }
 
-    const categoria = evento.target.closest("[data-category]");
-
-    if (categoria) {
-        filtrarBibliotecaPWA(
-            categoria.dataset.category
-        );
-    }
 }
 
 function manejarFormularioCatalogo(evento) {
