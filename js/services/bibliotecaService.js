@@ -122,6 +122,18 @@ async function cargarContenidoBibliotecaCompleto() {
         .filter(Boolean);
 }
 
+function bibliotecaTextoContiene(texto, termino) {
+    const valor = normalizarBibliotecaTexto(termino);
+    if (!valor) return false;
+
+    if (valor.length <= 4 && !valor.includes(" ")) {
+        const escapado = valor.replace(/[.*+?^{}()|[\]\\]/g, "\\function obtenerDefinicionBiblioteca(tipo, id) {");
+        return new RegExp("(^|\\s)" + escapado + "(?=\\s|$)", "i").test(texto);
+    }
+
+    return texto.includes(valor);
+}
+
 function obtenerDefinicionBiblioteca(tipo, id) {
     const lista = tipo === "virtud"
         ? BIBLIOTECA_VIRTUDES
@@ -168,16 +180,16 @@ function puntuarRelacionBiblioteca(item, definicion, tipo) {
         const termino = normalizarBibliotecaTexto(keyword);
         if (!termino) continue;
 
-        if (textoIntervenciones.includes(termino)) {
+        if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
             score += tipo === "intencion" ? 8 : 2;
             coincidencias.push("intervenciones");
-        } else if (textoPatronages.includes(termino)) {
+        } else if (bibliotecaTextoContiene(textoPatronages, termino)) {
             score += tipo === "intencion" ? 6 : 1;
             coincidencias.push("tradición devocional");
-        } else if (textoVirtudes.includes(termino)) {
+        } else if (bibliotecaTextoContiene(textoVirtudes, termino)) {
             score += tipo === "virtud" ? 8 : 2;
             coincidencias.push("virtudes");
-        } else if (textoGeneral.includes(termino)) {
+        } else if (bibliotecaTextoContiene(textoGeneral, termino)) {
             score += tipo === "intencion" ? 2 : 3;
             coincidencias.push("contenido");
         }
