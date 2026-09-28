@@ -231,26 +231,22 @@ function renderCamino(
                     </button>
                 </article>
 
-                <article class="camino-summary-card">
+                <article class="camino-summary-card camino-summary-progress">
                     <span class="camino-summary-icon" aria-hidden="true">◷</span>
-                    <strong>${novenasEnCurso}</strong>
-                    <span>En curso</span>
+                    <div class="camino-summary-progress-counts">
+                        <span>
+                            <strong>${novenasEnCurso}</strong>
+                            En curso
+                        </span>
+                        <span>
+                            <strong>${novenasCompletadas}</strong>
+                            Completadas
+                        </span>
+                    </div>
                     <button class="btn btn-outline" type="button" data-route="progreso">
-                        Ver progreso
+                        Ver mi progreso
                     </button>
                 </article>
 
-                <article class="camino-summary-card">
-                    <span class="camino-summary-icon" aria-hidden="true">✓</span>
-                    <strong>${novenasCompletadas}</strong>
-                    <span>Completadas</span>
-                    <button class="btn btn-outline" type="button" data-route="progreso">
-                        Mi recorrido
-                    </button>
-                </article>
-
-            </section>
-
-        </section>
-    `;
+            </section>`;
 }
