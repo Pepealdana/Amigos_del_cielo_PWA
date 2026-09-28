@@ -420,6 +420,46 @@ function renderInicio(catalogo = [], progreso = {}) {
 
             </section>
 
+            <section
+                id="install-app-card"
+                class="install-app-card"
+                aria-labelledby="install-app-title"
+                hidden>
+
+                <div class="install-app-content">
+                    <p class="install-app-kicker">
+                        Amigos del Cielo
+                    </p>
+
+                    <h2 id="install-app-title">
+                        Lleva tus novenas contigo
+                    </h2>
+
+                    <p>
+                        Instala la aplicación para tener tus
+                        novenas siempre a mano y acceder a ellas
+                        incluso sin conexión.
+                    </p>
+                </div>
+
+                <div class="install-app-actions">
+                    <button
+                        id="install-app"
+                        class="btn btn-primary"
+                        type="button">
+                        Instalar aplicación
+                    </button>
+
+                    <button
+                        id="install-app-dismiss"
+                        class="btn btn-secondary"
+                        type="button">
+                        Ahora no
+                    </button>
+                </div>
+
+            </section>
+
             <section class="home-search">
 
                 <p class="section-kicker">
