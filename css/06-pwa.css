@@ -2393,3 +2393,141 @@ body.dark .library-related-card{
         width:100%;
     }
 }
+
+
+/* ==========================================================
+   BIBLIOTECA — CAMINO DE SANTIDAD
+========================================================== */
+
+.library-santidad{
+    margin:0 0 1.75rem;
+    padding:1.1rem;
+    border:1px solid rgba(217,182,107,.34);
+    border-radius:22px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(217,182,107,.10),
+            rgba(44,74,107,.035)
+        );
+}
+
+.library-santidad-intro{
+    max-width:760px;
+    margin:0 0 1rem;
+    color:var(--color-text-light);
+    font-size:.93rem;
+    line-height:1.65;
+}
+
+.library-santidad-intro p{
+    margin:0 0 .65rem;
+}
+
+.library-santidad-intro p:last-child{
+    margin-bottom:0;
+}
+
+.library-santidad-paths{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:.7rem;
+    margin-top:1rem;
+}
+
+.library-santidad-path{
+    display:flex;
+    align-items:flex-start;
+    gap:.7rem;
+    min-width:0;
+    padding:.8rem;
+    border:1px solid var(--color-border);
+    border-radius:16px;
+    background:var(--color-surface);
+}
+
+.library-santidad-path-icon{
+    width:34px;
+    height:34px;
+    flex:0 0 34px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:var(--soft-blue);
+    color:var(--color-primary);
+    font-size:1rem;
+}
+
+.library-santidad-path strong{
+    display:block;
+    color:var(--color-primary);
+    font-size:.88rem;
+}
+
+.library-santidad-path p{
+    margin:.25rem 0 0;
+    color:var(--color-text-light);
+    font-size:.78rem;
+    line-height:1.45;
+}
+
+.library-santidad-callout{
+    margin-top:1rem;
+    padding:.95rem 1rem;
+    border-left:3px solid var(--color-accent);
+    border-radius:0 14px 14px 0;
+    background:rgba(217,182,107,.08);
+}
+
+.library-santidad-callout strong{
+    display:block;
+    color:var(--color-primary);
+    font-size:.95rem;
+}
+
+.library-santidad-callout p{
+    margin:.3rem 0 0;
+    color:var(--color-text-light);
+    font-size:.84rem;
+    line-height:1.55;
+}
+
+.dark-mode .library-santidad{
+    background:
+        linear-gradient(
+            145deg,
+            rgba(217,182,107,.08),
+            rgba(127,178,214,.04)
+        );
+}
+
+.dark-mode .library-santidad-path{
+    background:var(--color-surface);
+}
+
+.dark-mode .library-santidad-callout{
+    background:rgba(217,182,107,.07);
+}
+
+@media (max-width:640px){
+    .library-santidad{
+        padding:.9rem;
+        border-radius:18px;
+    }
+
+    .library-santidad-paths{
+        grid-template-columns:1fr;
+    }
+
+    .library-santidad-intro{
+        font-size:.88rem;
+    }
+}
+
+@media (prefers-reduced-motion:reduce){
+    .library-santidad,
+    .library-santidad-path{
+        transition:none;
+    }
+}
