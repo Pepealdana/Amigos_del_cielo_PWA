@@ -1,8 +1,8 @@
-# Plan UX — Amigos del Cielo 1.4
+# Auditoría UX — Cierre de estabilización 1.3.6
 
 ## Propósito
 
-La versión 1.4 se centrará en experiencia de usuario, interacción, navegación, reducción de errores y estabilidad percibida.
+Este documento registra la auditoría de experiencia de usuario que se utilizó para cerrar la estabilización de la versión 1.3.6. La siguiente versión no queda definida todavía y se establecerá a partir de la retroalimentación de usuarios reales.
 
 No se incorporarán nuevas novenas como objetivo de esta versión. El contenido existente será la base para mejorar la manera en que las personas descubren a los santos, exploran sus historias y rezan las novenas.
 
@@ -171,7 +171,7 @@ Abrir contenido disponible → activar modo sin conexión → navegar → contin
 - revisión editorial;
 - documentación.
 
-La versión solo pasará a 1.4.0 cuando estos criterios estén cerrados y los cambios tengan una justificación clara desde la experiencia del usuario.
+Los criterios de esta auditoría se consideran parte del cierre de estabilización de 1.3.6. Las futuras funcionalidades se decidirán después de observar el uso real de la aplicación.
 
 ## Referencias de diseño
 - Nielsen Norman Group — 10 Usability Heuristics for User Interface Design.
