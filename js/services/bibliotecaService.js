@@ -133,13 +133,6 @@ function bibliotecaTextoContiene(texto, termino) {
     return texto.includes(valor);
 }
 
-function obtenerDefinicionBiblioteca(tipo, id) {");");
-        return new RegExp("(^|\\s)" + escapado + "(?=\\s|$)", "i").test(texto);
-    }
-
-    return texto.includes(valor);
-}
-
 function obtenerDefinicionBiblioteca(tipo, id) {
     const lista = tipo === "virtud"
         ? BIBLIOTECA_VIRTUDES
