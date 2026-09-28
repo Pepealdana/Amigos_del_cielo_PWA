@@ -291,20 +291,29 @@ Cuando una información, cita o dato requiere respaldo documental, debe procurar
 
 El proyecto contempla una evolución progresiva.
 
-### Próximas líneas de trabajo
+### Próxima fase — Versión 1.4: Experiencia de usuario
 
-- ampliar y revisar el catálogo hispanohablante;
-- mejorar el calendario litúrgico;
-- ampliar las fichas biográficas;
-- mejorar búsqueda y filtros;
-- fortalecer accesibilidad;
-- mejorar rendimiento y tamaño de la carga inicial;
-- ampliar el funcionamiento offline;
-- mejorar recordatorios y continuidad;
-- incorporar más recursos de formación espiritual;
-- evaluar internacionalización a otros idiomas después de consolidar el contenido en español.
+La versión 1.4 se enfocará en **UX, navegación, interacción, reducción de errores, accesibilidad y estabilidad percibida**. No se plantea incorporar nuevas novenas como objetivo de esta versión.
 
-El crecimiento del proyecto se realizará de forma incremental para mantener la estabilidad de la aplicación.
+El objetivo rector será que la navegación deje de sentirse como una tarea y se convierta en un medio transparente para descubrir, conocer y rezar.
+
+Las prioridades serán:
+
+- simplificar recorridos;
+- hacer más predecibles las acciones de volver y navegar;
+- mejorar la respuesta visual de botones y acciones;
+- reducir pasos y fricciones innecesarias;
+- mejorar estados de carga, vacío, éxito y error;
+- mejorar la continuidad de las novenas;
+- fortalecer Mi Camino;
+- revisar Biblioteca como espacio de descubrimiento;
+- mejorar accesibilidad;
+- auditar rendimiento percibido;
+- validar recorridos completos en dispositivos móviles y offline.
+
+El plan detallado se encuentra en [docs/UX-1.4.md](docs/UX-1.4.md).
+
+El crecimiento del proyecto continuará de forma incremental y con criterios de calidad definidos antes de declarar una versión estable.
 
 ## Principios del proyecto
 
