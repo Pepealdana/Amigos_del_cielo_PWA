@@ -1064,7 +1064,7 @@ function mostrarPerfilCatalogo(id) {
         (grupos
             ? "<p><strong>Temas:</strong> " + escaparHTML(grupos) + "</p>"
             : "") +
-        '<p class="modal-note">Esta ficha está incorporada al catálogo de Beatos. Su novena podrá añadirse posteriormente sin confundir la ficha biográfica con el contenido de oración.</p>';
+        '<p class="modal-note">Esta ficha está incorporada al catálogo de Beatos. Su historia forma parte de un camino concreto de fe; conocerla no significa presentar una vida perfecta, sino un testimonio que puede ayudar a mirar el propio camino hacia Cristo.</p>';
 
     mostrarModal(
         escaparHTML(beato.name),
