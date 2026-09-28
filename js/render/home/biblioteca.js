@@ -439,6 +439,22 @@ function renderBiblioteca(catalogo = []) {
     `;
 }
 
+function tieneNovenaDisponibleBiblioteca(item) {
+    if (!item?.id) {
+        return false;
+    }
+
+    if (
+        Number(item?.novena?.days) > 0 ||
+        (Array.isArray(item?.days) && item.days.length > 0)
+    ) {
+        return true;
+    }
+
+    return Array.isArray(state.catalogo) &&
+        state.catalogo.some(novena => novena?.id === item.id);
+}
+
 function renderResultadosBiblioteca(texto = "") {
     const termino = String(texto).trim();
 
@@ -468,9 +484,9 @@ function renderResultadosBiblioteca(texto = "") {
         <button
             class="library-result"
             type="button"
-            data-action="${Array.isArray(item.days) && item.days.length ? "open-novena" : "open-profile"}"
+            data-action="${tieneNovenaDisponibleBiblioteca(item) ? "open-novena" : "open-profile"}"
             data-id="${escaparHTML(item.id)}"
-            aria-label="${Array.isArray(item.days) && item.days.length ? "Abrir novena" : "Conocer"} ${escaparHTML(item.name)}">
+            aria-label="${tieneNovenaDisponibleBiblioteca(item) ? "Abrir novena" : "Conocer"} ${escaparHTML(item.name)}">
 
             ${item.image ? `
                 <img
@@ -574,7 +590,7 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
         <div class="library-related-list">
             ${resultados.map(resultado => {
                 const item = resultado.item;
-                const accion = Array.isArray(item.days) && item.days.length
+                const accion = tieneNovenaDisponibleBiblioteca(item)
                     ? "open-novena"
                     : "open-profile";
                 const razon = resultado.coincidencias.includes("intervenciones")
