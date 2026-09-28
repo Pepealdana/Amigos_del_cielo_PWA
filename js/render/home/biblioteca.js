@@ -124,11 +124,81 @@ function renderBiblioteca(catalogo = []) {
                 </p>
             </header>
 
+            <section class="library-santidad" aria-labelledby="library-santidad-title">
+                <div class="library-section-heading">
+                    <div>
+                        <p class="library-kicker">Una mirada diferente</p>
+                        <h3 id="library-santidad-title">Los santos también tuvieron un camino</h3>
+                    </div>
+                    <span class="library-section-symbol" aria-hidden="true">✦</span>
+                </div>
+
+                <div class="library-santidad-intro">
+                    <p>
+                        Los santos no fueron personas perfectas desde el comienzo.
+                        Cada uno recorrió una historia distinta: algunos descubrieron
+                        a Dios desde muy jóvenes; otros cambiaron de rumbo después de
+                        una conversión; otros aprendieron a amar en medio de la
+                        enfermedad, el sufrimiento, las dificultades o el servicio
+                        cotidiano.
+                    </p>
+                    <p>
+                        La Iglesia propone sus vidas como testimonios de que toda
+                        persona está llamada a caminar hacia la santidad. No se trata
+                        de copiar sus vidas, sino de descubrir cómo la fe, la esperanza
+                        y el amor pueden transformar una vida concreta.
+                    </p>
+                </div>
+
+                <div class="library-santidad-paths">
+                    <article class="library-santidad-path">
+                        <span class="library-santidad-path-icon" aria-hidden="true">◌</span>
+                        <div>
+                            <strong>Desde muy joven</strong>
+                            <p>Personas que descubrieron pronto una llamada a seguir a Cristo.</p>
+                        </div>
+                    </article>
+
+                    <article class="library-santidad-path">
+                        <span class="library-santidad-path-icon" aria-hidden="true">↗</span>
+                        <div>
+                            <strong>Después de comenzar de nuevo</strong>
+                            <p>Historias marcadas por conversión, búsqueda, errores o un cambio profundo de vida.</p>
+                        </div>
+                    </article>
+
+                    <article class="library-santidad-path">
+                        <span class="library-santidad-path-icon" aria-hidden="true">♡</span>
+                        <div>
+                            <strong>En medio de la vida</strong>
+                            <p>Laicos, religiosos, sacerdotes y familias que buscaron vivir el Evangelio en su realidad cotidiana.</p>
+                        </div>
+                    </article>
+
+                    <article class="library-santidad-path">
+                        <span class="library-santidad-path-icon" aria-hidden="true">✦</span>
+                        <div>
+                            <strong>A través de la prueba</strong>
+                            <p>Personas que encontraron en la fe una forma de perseverar, servir y amar en circunstancias difíciles.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="library-santidad-callout">
+                    <strong>Tu camino también está comenzando.</strong>
+                    <p>
+                        No necesitas ser perfecto para comenzar a seguir a Cristo.
+                        La santidad se vive paso a paso, aprendiendo a amar en las
+                        circunstancias concretas de cada día.
+                    </p>
+                </div>
+            </section>
+
             <section class="library-discover" aria-labelledby="library-discover-title">
                 <div class="library-section-heading">
                     <div>
                         <p class="library-kicker">Acompañamiento</p>
-                        <h3 id="library-discover-title">Encuentra un amigo para este momento</h3>
+                        <h3 id="library-discover-title">Encuentra un testimonio para este momento</h3>
                     </div>
                     <span class="library-section-symbol" aria-hidden="true">♡</span>
                 </div>
@@ -494,7 +564,7 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
     return `
         <div class="library-related-heading">
             <div>
-                <span class="library-kicker">Puede acompañarte</span>
+                <span class="library-kicker">Testimonios que pueden acompañarte</span>
                 <strong>${escaparHTML(definicion.label)}</strong>
             </div>
             <small>${resultados.length} resultados relacionados</small>
