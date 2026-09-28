@@ -11,6 +11,15 @@ function renderFavoritas(catalogo = [], favoritos = []) {
 
     return `
         <section class="page-shell">
+            <div class="context-page-nav">
+                <button
+                    class="context-back"
+                    type="button"
+                    data-route="camino"
+                    aria-label="Volver a Mi Camino">
+                    ← Volver a Mi Camino
+                </button>
+            </div>
 
             <header class="page-header">
 
