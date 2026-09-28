@@ -29,6 +29,18 @@ function renderPortadaNovena(novena) {
 
         <section class="novena-page">
 
+            <div class="novena-context-nav">
+                <button
+                    class="context-back"
+                    type="button"
+                    data-action="back-novena"
+                    data-back-level="origen"
+                    aria-label="Volver al lugar anterior">
+                    ← Volver
+                </button>
+            </div>
+
+
             ${renderImagenNovena(novena)}
 
             <h2>
@@ -95,16 +107,6 @@ function renderPortadaNovena(novena) {
                     novena.virtues.map(escaparHTML)
                 )
                 : ""}
-
-            <div class="novena-context-nav">
-                <button
-                    class="context-back"
-                    type="button"
-                    data-action="back-novena"
-                    aria-label="Volver al lugar anterior">
-                    ← Volver
-                </button>
-            </div>
 
             <div class="button-group">
 
