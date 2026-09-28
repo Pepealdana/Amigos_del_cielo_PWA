@@ -25,6 +25,16 @@ function renderHistoria(novena) {
 
         <section class="home saint-history-page">
 
+            <div class="novena-context-nav">
+                <button
+                    class="context-back"
+                    type="button"
+                    data-action="back-novena"
+                    aria-label="Volver a la portada de la novena">
+                    ← Volver a la novena
+                </button>
+            </div>
+
             ${renderCabeceraNovena(
 
                 novena
@@ -102,15 +112,6 @@ function renderHistoria(novena) {
             )}
 
             <div class="button-group">
-
-                <button
-                    class="btn btn-secondary"
-                    type="button"
-                    data-route="portada">
-
-                    ← Volver
-
-                </button>
 
                 <button
                     class="btn btn-primary"
