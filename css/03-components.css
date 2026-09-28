@@ -1704,3 +1704,16 @@
         flex-basis:50px;
     }
 }
+
+
+/* ==========================================================
+   ISOTIPO SIN ESQUINAS BLANCAS
+========================================================== */
+
+.app-logo,
+.menu-logo,
+.about-version-logo{
+    border-radius:50%;
+    overflow:hidden;
+    clip-path:circle(50%);
+}
