@@ -2604,3 +2604,28 @@ body.dark .library-related-card{
         transition:none;
     }
 }
+
+
+/* CIERRE DEL MENU MOVIL */
+#menu-close{
+    position:absolute !important;
+    top:.75rem !important;
+    right:.75rem !important;
+    width:44px !important;
+    height:44px !important;
+    min-width:44px !important;
+    min-height:44px !important;
+    margin:0 !important;
+    padding:0 !important;
+    display:flex !important;
+    align-items:center;
+    justify-content:center;
+    border:1px solid var(--color-border);
+    border-radius:50%;
+    background:transparent;
+    color:var(--color-text);
+    font-size:1.7rem;
+    line-height:1;
+    text-align:center;
+    z-index:2;
+}
