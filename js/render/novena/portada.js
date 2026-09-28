@@ -108,48 +108,58 @@ function renderPortadaNovena(novena) {
                 )
                 : ""}
 
-            <div class="button-group">
+            <div class="novena-actions">
 
-                <button
-                    class="btn btn-secondary"
-                    type="button"
-                    data-action="favorite-novena"
-                    data-id="${escaparHTML(novena.id)}">
+                <div class="novena-actions-primary">
 
-                    ${esFavorita(novena.id)
-                        ? "Quitar de favoritas"
-                        : "Agregar a favoritas"}
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        data-action="start-novena">
 
-                </button>
+                        ${estado?.estado === "en-curso"
+                            ? `Continuar · Día ${estado.dia}`
+                            : "Comenzar Novena"}
 
-                <button
-                    class="btn btn-secondary"
-                    type="button"
-                    data-action="share-novena">
+                    </button>
 
-                    Compartir novena
+                </div>
 
-                </button>
+                <div
+                    class="novena-actions-secondary"
+                    aria-label="Acciones adicionales">
 
-                <button
-                    class="btn btn-secondary"
-                    type="button"
-                    data-route="historia">
+                    <button
+                        class="btn btn-outline"
+                        type="button"
+                        data-route="historia">
 
-                    Historia
+                        Historia
 
-                </button>
+                    </button>
 
-                <button
-                    class="btn btn-primary"
-                    type="button"
-                    data-action="start-novena">
+                    <button
+                        class="btn btn-secondary"
+                        type="button"
+                        data-action="favorite-novena"
+                        data-id="${escaparHTML(novena.id)}">
 
-                    ${estado?.estado === "en-curso"
-                        ? `Continuar · Día ${estado.dia}`
-                        : "Comenzar Novena"}
+                        ${esFavorita(novena.id)
+                            ? "En favoritas"
+                            : "Agregar a favoritas"}
 
-                </button>
+                    </button>
+
+                    <button
+                        class="btn btn-secondary"
+                        type="button"
+                        data-action="share-novena">
+
+                        Compartir
+
+                    </button>
+
+                </div>
 
             </div>
 
