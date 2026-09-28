@@ -360,3 +360,14 @@ body.dark ::selection{
     color:#111827;
 
 }
+
+/* Tema oscuro aplicado antes de inicializar JavaScript. */
+html.dark-preload{
+    color-scheme:dark;
+    background:#111827;
+}
+
+html.dark-preload body{
+    background:#111827;
+    color:#F9FAFB;
+}
