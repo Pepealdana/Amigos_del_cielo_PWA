@@ -1607,3 +1607,47 @@
         grid-template-columns:1fr;
     }
 }
+
+
+/* ==========================================================
+   FICHA BREVE DE CATÁLOGO
+========================================================== */
+
+.catalog-profile-media{
+    display:flex;
+    justify-content:center;
+    margin:0 0 1rem;
+}
+
+.catalog-profile-image{
+    width:min(100%,220px);
+    aspect-ratio:4/5;
+    object-fit:cover;
+    border-radius:var(--radius-sm);
+    box-shadow:var(--shadow);
+}
+
+.catalog-profile-category{
+    margin:0 0 1rem;
+    text-align:center;
+    color:var(--color-primary);
+    font-size:var(--font-sm);
+    font-weight:700;
+}
+
+.catalog-profile-media + .catalog-profile-category{
+    margin-top:0;
+}
+
+.modal-note{
+    margin-top:1rem;
+    padding-top:1rem;
+    border-top:1px solid var(--color-border);
+    color:var(--color-text-light);
+    font-size:var(--font-sm);
+}
+
+.modal-body > .btn{
+    width:100%;
+    margin-top:1.25rem;
+}
