@@ -47,6 +47,29 @@
         rel="apple-touch-icon"
         href="assets/branding/isotipo-amigos-del-cielo.webp">
 
+    <script>
+        (function () {
+            try {
+                var raw = localStorage.getItem("adc-settings");
+                var settings = raw ? JSON.parse(raw) : null;
+                var tema = settings && settings.tema ? settings.tema : "claro";
+                var oscuro = tema === "oscuro" || (
+                    tema === "automatico" &&
+                    window.matchMedia &&
+                    window.matchMedia("(prefers-color-scheme: dark)").matches
+                );
+
+                if (oscuro) {
+                    document.documentElement.dataset.theme = "oscuro";
+                    document.documentElement.classList.add("dark-preload");
+                    document.documentElement.style.colorScheme = "dark";
+                }
+            } catch (error) {
+                // La aplicación aplicará la preferencia cuando inicialice su estado.
+            }
+        }());
+    </script>
+
     <link
         rel="stylesheet"
         href="css/style.css?v=247">
