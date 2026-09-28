@@ -700,6 +700,29 @@ async function abrirNovena(id) {
     }
 
     /*
+     * Conservamos el origen para que la portada de la novena
+     * pueda devolver al usuario al contexto desde el que llegó.
+     */
+    const rutasOrigenNovena = [
+        "inicio",
+        "biblioteca",
+        "todos",
+        "santos",
+        "beatos",
+        "maria",
+        "novenas",
+        "devociones",
+        "favoritas",
+        "progreso",
+        "camino"
+    ];
+
+    state.origenNovena =
+        rutasOrigenNovena.includes(router.rutaActual)
+            ? router.rutaActual
+            : "biblioteca";
+
+    /*
      * Respuesta visual inmediata:
      * el usuario recibe confirmación del toque mientras
      * se obtiene el contenido de la novena.
@@ -737,6 +760,17 @@ async function abrirNovena(id) {
         );
 
     }
+
+}
+
+function volverDesdeNovena() {
+
+    if (!state.novenaActual) {
+        navegar(state.origenNovena || "biblioteca");
+        return;
+    }
+
+    mostrarPortadaNovena();
 
 }
 
@@ -1494,6 +1528,11 @@ function manejarClicksPWA(evento) {
 
         if (tipo === "go-novena" && state.novenaActual) {
             mostrarPortadaNovena();
+            return;
+        }
+
+        if (tipo === "back-novena") {
+            volverDesdeNovena();
             return;
         }
     }
