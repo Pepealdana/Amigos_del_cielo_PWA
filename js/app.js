@@ -1779,6 +1779,26 @@ function manejarInputsPWA(evento) {
     }
 }
 
+function tieneNovenaDisponibleBusqueda(item) {
+    if (!item?.id) {
+        return false;
+    }
+
+    return Number(item?.novena?.days) > 0 ||
+        (Array.isArray(item?.days) && item.days.length > 0) ||
+        (Array.isArray(state.catalogo) &&
+            state.catalogo.some(novena => novena?.id === item.id));
+}
+
+function obtenerCategoriaBusqueda(item) {
+    return {
+        santos: "Santo",
+        beatos: "Beato o Beata",
+        maria: "Advocación mariana",
+        devociones: "Devoción"
+    }[String(item?.category || "").toLowerCase()] || "Contenido espiritual";
+}
+
 function mostrarResultadosBusquedaPWA(texto) {
 
     const contenedor =
@@ -1810,7 +1830,7 @@ function mostrarResultadosBusquedaPWA(texto) {
                 <button
                     class="search-result"
                     type="button"
-                    data-action="open-novena"
+                    data-action="${tieneNovenaDisponibleBusqueda(novena) ? "open-novena" : "open-profile"}"
                     data-id="${escaparHTML(novena.id)}">
 
                     ${novena.image
@@ -1834,7 +1854,7 @@ function mostrarResultadosBusquedaPWA(texto) {
                         </strong>
 
                         <span class="search-result-subtitle">
-                            ${escaparHTML(novena.title)}
+                            ${escaparHTML(novena.title || obtenerCategoriaBusqueda(novena))}
                         </span>
 
                         ${obtenerEtiquetasIntervencion(novena, termino)
@@ -1858,10 +1878,10 @@ function mostrarResultadosBusquedaPWA(texto) {
                 <div class="search-result">
                     <span class="search-result-text">
                         <strong class="search-result-name">
-                            No encontramos esa novena
+                            No encontramos coincidencias
                         </strong>
                         <span class="search-result-subtitle">
-                            Prueba con otro término.
+                            Prueba con otro nombre, santo, devoción o palabra clave.
                         </span>
                     </span>
                 </div>
