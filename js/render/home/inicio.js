@@ -366,8 +366,10 @@ function renderInicio(catalogo = [], progreso = {}) {
                     </div>
             `;
 
+    const esSantoDelDia = principal.tipo === "santo-del-dia";
+
     const textoBoton =
-        principal.tipo === "santo-del-dia"
+        esSantoDelDia
             ? "Conocer al santo"
             : "Abrir novena";
 
@@ -446,7 +448,7 @@ function renderInicio(catalogo = [], progreso = {}) {
             <section class="continue-section">
 
                 <p class="section-kicker">
-                    ${continuidad ? "Continuar" : "Comenzar"}
+                    ${esSantoDelDia ? "Conocer" : (continuidad ? "Continuar" : "Comenzar")}
                 </p>
 
                 <article class="continue-card">
@@ -460,11 +462,13 @@ function renderInicio(catalogo = [], progreso = {}) {
                         </h3>
 
                         <p>
-                            ${continuidad
-                                ? (completada
-                                    ? "Novena completada"
-                                    : `Día ${dia} de ${total}`)
-                                : "Aún no has iniciado esta novena"}
+                            ${esSantoDelDia
+                                ? "Descubre su vida y su testimonio"
+                                : (continuidad
+                                    ? (completada
+                                        ? "Novena completada"
+                                        : `Día ${dia} de ${total}`)
+                                    : "Aún no has iniciado esta novena")}
                         </p>
 
                         ${continuidad ? `
@@ -485,12 +489,14 @@ function renderInicio(catalogo = [], progreso = {}) {
                     <button
                         class="btn btn-primary continue-action"
                         type="button"
-                        data-action="${completada ? "restart-novena" : "continue-novena"}"
+                        data-action="${esSantoDelDia ? "open-profile" : (completada ? "restart-novena" : "continue-novena")}"
                         data-id="${escaparHTML(novenaContinuar.id)}">
 
-                        ${completada
-                            ? "Volver a rezar"
-                            : (continuidad ? "Continuar" : "Comenzar")}
+                        ${esSantoDelDia
+                            ? "Conocer al santo"
+                            : (completada
+                                ? "Volver a rezar"
+                                : (continuidad ? "Continuar" : "Comenzar"))}
 
                     </button>
 
