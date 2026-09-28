@@ -91,8 +91,8 @@ function renderCamino(
                 <p class="section-kicker">Tu recorrido</p>
                 <h2 class="page-title">Mi camino</h2>
                 <p class="page-subtitle">
-                    Un espacio para conservar tus favoritos,
-                    tu progreso y tu amigo del cielo del año.
+                    Un espacio para conservar tus favoritos, tu progreso y el santo que
+                    te acompaña este año mientras sigues tu propio camino.
                 </p>
             </header>
 
