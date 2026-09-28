@@ -28,5 +28,11 @@ const state = {
     busqueda: "",
     busquedaCatalogo: "",
     paisCatalogo: "ALL",
-    grupoCatalogo: "ALL"
+    grupoCatalogo: "ALL",
+    bibliotecaExplorador: {
+        modo: null,
+        seleccion: null,
+        cargando: false,
+        resultados: null
+    }
 };
