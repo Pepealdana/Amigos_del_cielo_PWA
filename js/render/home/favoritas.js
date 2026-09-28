@@ -37,9 +37,12 @@ function renderFavoritas(catalogo = [], favoritos = []) {
                 <div class="simple-panel">
                     <strong>Aún no tienes favoritas.</strong>
                     <p>
-                        Puedes guardar una novena desde su pantalla
-                        de información.
+                        Guarda una novena desde su pantalla de información
+                        para tenerla a mano cuando quieras volver a rezarla.
                     </p>
+                    <button class="btn btn-outline" type="button" data-route="novenas">
+                        Explorar novenas
+                    </button>
                 </div>
             ` : `
                 <div class="library-results favoritos-list">
