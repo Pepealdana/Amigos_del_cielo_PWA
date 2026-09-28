@@ -654,8 +654,8 @@ body::before{
 .menu-close-button{
     display:none;
     position:absolute;
-    top:.1rem;
-    right:0;
+    top:.65rem;
+    right:.65rem;
     width:44px;
     height:44px;
     min-height:44px;
