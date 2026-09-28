@@ -1,21 +1,24 @@
 # Amigos del Cielo — identidad visual
 
-## Sistema
-- Isotipo: círculo dorado, estrella guía, camino y cielo.
-- Logotipo: Lora Semibold.
-- Tagline: Inter Regular.
-- Azul principal: #0B3D91
-- Dorado: #F4C430
-- Azul claro: #EAF4FF
+## Sistema oficial
 
-## Variantes
-- logo-horizontal.svg
-- logo-horizontal-azul.svg
-- logo-horizontal-monocromatico-azul.svg
-- logo-horizontal-monocromatico-negro.svg
-- logo-horizontal-sin-tagline.svg
-- logo-vertical.svg
-- isotipo.svg
-- isotipo-simplificado.svg
+La identidad oficial se toma de los recursos originales entregados para el proyecto:
 
-Las variantes PNG de PWA y favicon se mantienen en `assets/icons/`.
+- **Isotipo:** círculo dorado, cielo azul, estrella guía, nubes y camino.
+- **Logotipo horizontal:** «Amigos del Cielo».
+- **Tagline:** «Camina junto a los santos cada día».
+- **Azul principal:** #0B3D91
+- **Dorado:** #F4C430
+- **Azul claro:** #EAF4FF
+
+## Recursos maestros
+
+- `isotipo-original.png` — isotipo original usado por la PWA.
+- `logo-horizontal-original.webp` — logotipo horizontal original.
+- `../icons/icon-192.png` — icono PWA 192×192.
+- `../icons/icon-512.png` — icono PWA 512×512.
+- `../icons/favicon-16.png`
+- `../icons/favicon-32.png`
+- `../icons/favicon-48.png`
+
+Las variantes anteriores en SVG fueron retiradas de la interfaz para evitar que una reconstrucción gráfica sustituya al diseño original. Las futuras variantes deben derivarse de estos recursos oficiales.

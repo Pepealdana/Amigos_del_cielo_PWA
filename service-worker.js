@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v238";
+const CACHE_NAME = "amigos-del-cielo-v239";
 
 const APP_SHELL = [
     "./",
@@ -128,13 +128,13 @@ const APP_SHELL = [
     "./data/san-oscar-romero.json",
     "./data/santa-mariana-de-jesus.json",
     "./data/santo-toribio-de-mogrovejo.json",
-    "./css/style.css?v=238",
-    "./css/01-base.css?v=238",
-    "./css/02-layout.css?v=238",
-    "./css/03-components.css?v=238",
-    "./css/04-utilities.css?v=238",
-    "./css/05-themes.css?v=238",
-    "./css/06-pwa.css?v=238",
+    "./css/style.css?v=239",
+    "./css/01-base.css?v=239",
+    "./css/02-layout.css?v=239",
+    "./css/03-components.css?v=239",
+    "./css/04-utilities.css?v=239",
+    "./css/05-themes.css?v=239",
+    "./css/06-pwa.css?v=239",
     "./js/config/appConfig.js",
     "./js/state/state.js",
     "./js/services/storage.js",
@@ -182,15 +182,8 @@ const APP_SHELL = [
     "./assets/icons/favicon-16.png",
     "./assets/icons/favicon-32.png",
     "./assets/icons/favicon-48.png",
-    "./assets/branding/isotipo.svg",
-    "./assets/branding/isotipo-simplificado.svg",
-    "./assets/branding/logo-horizontal.svg",
-    "./assets/branding/logo-horizontal-azul.svg",
-    "./assets/branding/logo-horizontal-monocromatico-azul.svg",
-    "./assets/branding/logo-horizontal-monocromatico-negro.svg",
-    "./assets/branding/logo-horizontal-sin-tagline.svg",
-    "./assets/branding/logo-vertical.svg",
-    "./assets/icons/logosin.png",
+    "./assets/branding/isotipo-original.png",
+    "./assets/branding/logo-horizontal-original.webp",
     "./assets/images/santos/beata_clara_fey.webp",
     "./assets/images/santos/beata_chiara_luce_badano.webp",
     "./assets/images/santos/beato_michael_mcgivney.webp",
