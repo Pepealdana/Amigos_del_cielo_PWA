@@ -3,6 +3,74 @@
    COMPONENTES
 ========================================================== */
 
+
+/* ==========================================================
+   NAVEGACIÓN CONTEXTUAL DE NOVENA
+========================================================== */
+
+.novena-context-nav{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:1rem;
+
+}
+
+.context-back{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:.35rem;
+
+    min-height:44px;
+
+    padding:.55rem .75rem;
+
+    border:none;
+
+    border-radius:var(--radius-sm);
+
+    background:transparent;
+
+    color:var(--color-primary);
+
+    font:inherit;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:
+        background .2s,
+        transform .15s;
+
+}
+
+.context-back:hover{
+
+    background:rgba(44,74,107,.07);
+
+}
+
+.context-back:active{
+
+    transform:scale(.98);
+
+}
+
+.context-back:focus-visible{
+
+    outline:3px solid var(--color-secondary);
+
+    outline-offset:2px;
+
+}
+
+
 /* ==========================================================
    BOTONES
 ========================================================== */
