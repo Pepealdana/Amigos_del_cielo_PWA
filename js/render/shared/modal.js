@@ -134,6 +134,13 @@ function mantenerFocoModal(evento) {
     const primero = elementos[0];
     const ultimo = elementos[elementos.length - 1];
 
+    if (primero === ultimo) {
+        if (document.activeElement === primero) {
+            evento.preventDefault();
+        }
+        return;
+    }
+
     if (evento.shiftKey && document.activeElement === primero) {
         evento.preventDefault();
         ultimo.focus();
