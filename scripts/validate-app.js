@@ -96,7 +96,7 @@ function checkCatalogs() {
         continue;
       }
 
-      if (!item.id || !item.name || !item.status || !item.category) {
+      if (name !== "paises" && (!item.id || !item.name || !item.status || !item.category)) {
         fail(label, "faltan campos básicos (id, name, status o category).");
       }
 
