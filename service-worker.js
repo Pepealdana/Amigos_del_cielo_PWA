@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v228";
+const CACHE_NAME = "amigos-del-cielo-v229";
 
 const APP_SHELL = [
     "./",
@@ -322,31 +322,53 @@ self.addEventListener("fetch", event => {
     if (url.origin !== self.location.origin) return;
 
     /*
-     * Los JSON son contenido de datos. Cuando hay Internet,
-     * se consulta primero la versión actual y se actualiza
-     * el caché. Sin conexión se utiliza la copia almacenada.
+     * Los JSON son contenido de datos.
+     *
+     * Si ya existe una copia en caché, se entrega inmediatamente
+     * para que la interfaz no dependa de la latencia de red.
+     * En paralelo se consulta la versión actual y se actualiza
+     * el caché para la siguiente apertura.
+     *
+     * Si no existe una copia, se espera a la red y se guarda
+     * el resultado para usos posteriores y funcionamiento offline.
      */
     if (url.pathname.endsWith(".json")) {
 
+        const cachedPromise = caches.match(event.request);
+
+        const networkPromise = fetch(event.request)
+            .then(response => {
+
+                if (response && response.ok) {
+                    const clone = response.clone();
+
+                    return caches.open(CACHE_NAME)
+                        .then(cache =>
+                            cache.put(event.request, clone)
+                        )
+                        .then(() => response);
+                }
+
+                return response;
+
+            });
+
         event.respondWith(
-            fetch(event.request)
-                .then(response => {
+            cachedPromise.then(cached => {
 
-                    if (response && response.ok) {
-                        const clone = response.clone();
+                if (cached) {
+                    event.waitUntil(
+                        networkPromise.catch(() => null)
+                    );
 
-                        caches.open(CACHE_NAME)
-                            .then(cache =>
-                                cache.put(event.request, clone)
-                            );
-                    }
+                    return cached;
+                }
 
-                    return response;
-
-                })
-                .catch(() =>
+                return networkPromise.catch(() =>
                     caches.match(event.request)
-                )
+                );
+
+            })
         );
 
         return;
