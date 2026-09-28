@@ -160,7 +160,7 @@
 
     gap:1.5rem;
 
-    padding:1.5rem;
+    padding:1rem;
 
 }
 
@@ -361,9 +361,9 @@
 
     width:290px;
 
-    height:100vh;
+    height:100dvh;
 
-    overflow-y:auto;
+    overflow:hidden;
 
     background:
 
@@ -401,9 +401,11 @@
 
     text-align:center;
 
-    padding-bottom:1.5rem;
+    position:relative;
 
-    margin-bottom:1.5rem;
+    padding-bottom:.75rem;
+
+    margin-bottom:.75rem;
 
     border-bottom:
 
@@ -414,13 +416,13 @@
 
 .menu-logo{
 
-    width:72px;
+    width:52px;
 
-    height:72px;
+    height:52px;
 
     object-fit:contain;
 
-    margin:0 auto .75rem;
+    margin:0 auto .45rem;
 
 }
 
