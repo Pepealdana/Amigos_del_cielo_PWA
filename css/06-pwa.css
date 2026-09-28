@@ -2122,3 +2122,274 @@ body.dark .library-continuity-card{
         animation:none;
     }
 }
+
+
+/* ==========================================================
+   BIBLIOTECA — ACOMPAÑAMIENTO ESPIRITUAL
+========================================================== */
+
+.library-discover{
+    margin-bottom:1.5rem;
+}
+
+.library-discover-intro{
+    max-width:760px;
+    margin:-.2rem 0 1rem;
+    color:var(--color-text-light);
+    line-height:1.6;
+}
+
+.library-discover-modes{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:.75rem;
+}
+
+.library-discover-mode{
+    display:flex;
+    align-items:center;
+    gap:.8rem;
+    width:100%;
+    min-height:82px;
+    padding:.9rem;
+    border:1px solid var(--color-border);
+    border-radius:18px;
+    background:var(--color-surface);
+    color:var(--color-text);
+    text-align:left;
+    box-shadow:var(--shadow-sm);
+}
+
+.library-discover-mode:hover,
+.library-discover-mode.is-active{
+    border-color:var(--color-accent);
+    background:var(--soft-blue);
+}
+
+.library-discover-mode-icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:42px;
+    height:42px;
+    flex:0 0 42px;
+    border-radius:50%;
+    background:rgba(44,74,107,.08);
+    color:var(--color-primary);
+    font-size:1.2rem;
+}
+
+.library-discover-mode span:last-child{
+    display:flex;
+    flex-direction:column;
+    gap:.2rem;
+}
+
+.library-discover-mode strong{
+    color:var(--color-primary);
+    font-size:.92rem;
+}
+
+.library-discover-mode small{
+    color:var(--color-text-light);
+    line-height:1.35;
+}
+
+.library-discover-panel{
+    margin-top:.85rem;
+    padding:1rem;
+    border:1px solid var(--color-border);
+    border-radius:20px;
+    background:var(--color-surface);
+}
+
+.library-discover-panel-heading{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1rem;
+    margin-bottom:.8rem;
+}
+
+.library-discover-panel-heading strong{
+    color:var(--color-primary);
+}
+
+.library-discover-clear{
+    border:0;
+    background:transparent;
+    color:var(--color-text-light);
+    font:inherit;
+    font-size:.78rem;
+    cursor:pointer;
+}
+
+.library-discover-chips{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.45rem;
+}
+
+.library-discover-chip{
+    display:inline-flex;
+    align-items:center;
+    gap:.35rem;
+    min-height:38px;
+    padding:.45rem .75rem;
+    border:1px solid var(--color-border);
+    border-radius:999px;
+    background:var(--color-bg);
+    color:var(--color-text);
+    font:inherit;
+    font-size:.78rem;
+    cursor:pointer;
+}
+
+.library-discover-chip:hover,
+.library-discover-chip.is-selected{
+    border-color:var(--color-accent);
+    background:var(--soft-blue);
+    color:var(--color-primary);
+}
+
+.library-discover-hint,
+.library-discover-loading,
+.library-discover-empty{
+    margin-top:.8rem;
+    padding:.8rem;
+    border-radius:14px;
+    background:var(--color-bg);
+    color:var(--color-text-light);
+    line-height:1.5;
+}
+
+.library-discover-hint p,
+.library-discover-empty p,
+.library-discover-loading p{
+    margin:.2rem 0 0;
+}
+
+.library-discover-loading{
+    display:flex;
+    align-items:center;
+    gap:.65rem;
+}
+
+.library-loading-dot{
+    color:var(--color-accent);
+}
+
+.library-related-heading{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:1rem;
+    margin:1rem 0 .7rem;
+}
+
+.library-related-heading > div{
+    display:flex;
+    flex-direction:column;
+    gap:.2rem;
+}
+
+.library-related-heading strong{
+    color:var(--color-primary);
+}
+
+.library-related-heading small{
+    color:var(--color-text-light);
+    font-size:.72rem;
+}
+
+.library-related-list{
+    display:grid;
+    gap:.65rem;
+}
+
+.library-related-card{
+    display:flex;
+    align-items:flex-start;
+    gap:.75rem;
+    padding:.7rem;
+    border:1px solid var(--color-border);
+    border-radius:16px;
+    background:var(--color-bg);
+}
+
+.library-related-image{
+    width:58px;
+    height:72px;
+    flex:0 0 58px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.library-related-content{
+    display:flex;
+    min-width:0;
+    flex:1;
+    flex-direction:column;
+    gap:.2rem;
+}
+
+.library-related-content strong{
+    color:var(--color-primary);
+    font-size:.9rem;
+}
+
+.library-related-content > span{
+    color:var(--color-text-light);
+    font-size:.76rem;
+    line-height:1.35;
+}
+
+.library-related-content small{
+    color:var(--color-accent);
+    font-size:.7rem;
+    font-weight:700;
+}
+
+.library-related-button{
+    align-self:flex-start;
+    width:auto;
+    margin-top:.35rem;
+    padding:.42rem .7rem;
+    font-size:.75rem;
+}
+
+body.dark .library-discover-mode-icon{
+    background:rgba(127,178,214,.10);
+}
+
+body.dark .library-discover-chip,
+body.dark .library-discover-hint,
+body.dark .library-discover-loading,
+body.dark .library-discover-empty,
+body.dark .library-related-card{
+    background:var(--color-surface);
+}
+
+@media (max-width:600px){
+    .library-discover-modes{
+        grid-template-columns:1fr;
+    }
+
+    .library-discover-mode{
+        min-height:70px;
+    }
+
+    .library-discover-panel{
+        padding:.8rem;
+    }
+
+    .library-related-heading{
+        align-items:flex-start;
+        flex-direction:column;
+        gap:.2rem;
+    }
+
+    .library-related-button{
+        width:100%;
+    }
+}
