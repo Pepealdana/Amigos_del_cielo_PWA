@@ -439,7 +439,7 @@ function renderExploradorBiblioteca() {
         explorador.seleccion
     );
 
-    const opciones = definiciones.map(item => \`
+    const opciones = definiciones.map(item => `
         <button
             class="library-discover-chip ${item.id === explorador.seleccion ? "is-selected" : ""}"
             type="button"
@@ -449,9 +449,9 @@ function renderExploradorBiblioteca() {
             <span aria-hidden="true">${escaparHTML(item.icon)}</span>
             ${escaparHTML(item.label)}
         </button>
-    \`).join("");
+    `).join("");
 
-    return \`
+    return `
         <div class="library-discover-panel">
             <div class="library-discover-panel-heading">
                 <strong>${titulo}</strong>
@@ -460,38 +460,38 @@ function renderExploradorBiblioteca() {
             </div>
             <div class="library-discover-chips">${opciones}</div>
 
-            ${explorador.cargando ? \`
+            ${explorador.cargando ? `
                 <div class="library-discover-loading" role="status">
                     <span class="library-loading-dot" aria-hidden="true">✦</span>
                     <p>Buscando entre los contenidos de Amigos del Cielo…</p>
                 </div>
-            \` : seleccion && explorador.resultados ? \`
+            ` : seleccion && explorador.resultados ? `
                 ${renderResultadosRelacionBiblioteca(seleccion, explorador.resultados)}
-            \` : seleccion ? \`
+            ` : seleccion ? `
                 <div class="library-discover-hint">
                     <strong>${escaparHTML(seleccion.label)}</strong>
                     <p>Selecciona esta intención para conocer los testimonios relacionados.</p>
                 </div>
-            \` : \`
+            ` : `
                 <div class="library-discover-hint">
                     <p>Elige una opción para comenzar.</p>
                 </div>
-            \`}
+            `}
         </div>
-    \`;
+    `;
 }
 
 function renderResultadosRelacionBiblioteca(definicion, resultados) {
     if (!resultados.length) {
-        return \`
+        return `
             <div class="library-discover-empty">
                 <strong>Aún no encontramos una relación suficientemente clara.</strong>
                 <p>Podemos ampliar esta categoría cuando la ficha de un santo tenga una relación documentada.</p>
             </div>
-        \`;
+        `;
     }
 
-    return \`
+    return `
         <div class="library-related-heading">
             <div>
                 <span class="library-kicker">Puede acompañarte</span>
@@ -512,12 +512,12 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
                         ? "Relacionado con una tradición de devoción"
                         : "Relacionado con sus virtudes";
 
-                return \`
+                return `
                     <article class="library-related-card">
-                        ${item.image ? \`
+                        ${item.image ? `
                             <img src="${escaparHTML(item.image)}"
                                 alt="" class="library-related-image" loading="lazy">
-                        \` : \`<span class="library-related-image library-image-placeholder" aria-hidden="true">✦</span>\`}
+                        ` : `<span class="library-related-image library-image-placeholder" aria-hidden="true">✦</span>`}
                         <div class="library-related-content">
                             <strong>${escaparHTML(item.name)}</strong>
                             <span>${escaparHTML(item.title || "Testimonio de vida cristiana")}</span>
@@ -528,10 +528,10 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
                             </button>
                         </div>
                     </article>
-                \`;
+                `;
             }).join("")}
         </div>
-    \`;
+    `;
 }
 
 function actualizarBibliotecaPWA() {
