@@ -291,29 +291,15 @@ Cuando una información, cita o dato requiere respaldo documental, debe procurar
 
 El proyecto contempla una evolución progresiva.
 
-### Próxima fase — Versión 1.4: Experiencia de usuario
+### Próxima fase
 
-La versión 1.4 se enfocará en **UX, navegación, interacción, reducción de errores, accesibilidad y estabilidad percibida**. No se plantea incorporar nuevas novenas como objetivo de esta versión.
+Las siguientes versiones se definirán a partir del uso real de la aplicación y de la retroalimentación de las personas que la prueben. No se fija todavía un alcance cerrado para la siguiente versión.
 
-El objetivo rector será que la navegación deje de sentirse como una tarea y se convierta en un medio transparente para descubrir, conocer y rezar.
+El cambio de idioma, por ejemplo, se considera una evolución de mayor alcance porque afecta contenido, interfaz, estructura de datos y mantenimiento. Por ahora el objetivo es mantener la aplicación en español y consolidar la experiencia existente.
 
-Las prioridades serán:
+La siguiente etapa deberá priorizar necesidades observadas en el uso real, en lugar de incorporar funciones únicamente para aumentar el número de versión.
 
-- simplificar recorridos;
-- hacer más predecibles las acciones de volver y navegar;
-- mejorar la respuesta visual de botones y acciones;
-- reducir pasos y fricciones innecesarias;
-- mejorar estados de carga, vacío, éxito y error;
-- mejorar la continuidad de las novenas;
-- fortalecer Mi Camino;
-- revisar Biblioteca como espacio de descubrimiento;
-- mejorar accesibilidad;
-- auditar rendimiento percibido;
-- validar recorridos completos en dispositivos móviles y offline.
-
-El plan detallado se encuentra en [docs/UX-1.4.md](docs/UX-1.4.md).
-
-El crecimiento del proyecto continuará de forma incremental y con criterios de calidad definidos antes de declarar una versión estable.
+El documento histórico de auditoría UX puede consultarse en [docs/UX-1.4.md](docs/UX-1.4.md).
 
 ## Principios del proyecto
 
@@ -327,9 +313,11 @@ El crecimiento del proyecto continuará de forma incremental y con criterios de 
 
 ## Calidad y estado de publicación
 
-La versión 1.3.6 ha completado la fase principal de estabilización técnica. Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La prueba funcional manual de navegación, novenas, favoritos, progreso, Biblioteca, configuración, funcionamiento offline y acciones principales se utiliza como complemento de estas verificaciones.
+La versión 1.3.6 ha completado la fase principal de estabilización técnica y de experiencia. Se revisaron estados de carga, vacío y error; recuperación ante fallos; navegación contextual; foco y teclado; modales; formularios; tamaños táctiles; modo oscuro; reducción de movimiento y funcionamiento offline.
 
-Antes de una publicación pública conviene mantener una revisión final de los Pull Requests de Dependabot y crear una etiqueta/release para la versión publicada.
+Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La prueba funcional manual de navegación, novenas, favoritos, progreso, Biblioteca, configuración, funcionamiento offline y acciones principales complementa estas verificaciones.
+
+La publicación oficial queda preparada sobre el commit final de estabilización. La prueba física en Android debe realizarse como comprobación final del dispositivo antes de considerar cerrada la validación de campo.
 
 ## Estado del proyecto
 
@@ -337,7 +325,7 @@ Antes de una publicación pública conviene mantener una revisión final de los 
 
 **Estado:** lista para publicación y pruebas con usuarios reales
 
-**Service Worker:** caché v229
+**Service Worker:** caché v230
 
 **Tipo:** Progressive Web App
 
