@@ -1070,7 +1070,22 @@ function mostrarPerfilCatalogo(id) {
         devociones: "Devoción"
     }[categoria] || "Contenido espiritual";
 
+    const registroNovena = (state.catalogo || [])
+        .find(novena => novena.id === item.id);
+
+    const imagen = item.image ||
+        registroNovena?.image ||
+        "";
+
     const contenido =
+        (imagen
+            ? '<div class="catalog-profile-media"><img src="' +
+              escaparHTML(imagen) +
+              '" alt="" class="catalog-profile-image"></div>'
+            : "") +
+        '<p class="catalog-profile-category">' +
+            escaparHTML(categoriaTexto) +
+        '</p>' +
         (item.description
             ? "<p>" + escaparHTML(item.description) + "</p>"
             : "") +
@@ -1083,9 +1098,12 @@ function mostrarPerfilCatalogo(id) {
         (grupos
             ? "<p><strong>Temas:</strong> " + escaparHTML(grupos) + "</p>"
             : "") +
-        '<p class="modal-note">' +
-        escaparHTML(categoriaTexto) +
-        ': conocer este testimonio permite acercarse a una historia concreta de fe, con sus circunstancias, desafíos y camino hacia Cristo.</p>';
+        '<p class="modal-note">Conocer este testimonio permite acercarse a una historia concreta de fe, con sus circunstancias, desafíos y camino hacia Cristo.</p>' +
+        (registroNovena
+            ? '<button class="btn btn-primary" type="button" data-action="open-novena" data-id="' +
+              escaparHTML(item.id) +
+              '">Abrir novena</button>'
+            : "");
 
     mostrarModal(
         escaparHTML(item.name),
