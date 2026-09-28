@@ -18,7 +18,7 @@ function renderLoader(
 
     return `
 
-        <section class="loader">
+        <section class="loader" role="status" aria-live="polite" aria-busy="true">
 
             <div
 
