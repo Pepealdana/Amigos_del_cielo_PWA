@@ -1,20 +1,15 @@
-## [1.3.6] — Camino de santidad, estabilización y preparación para publicación
+## [1.3.6] — Cierre de estabilización y preparación para publicación
 
-- Se consolida el eje editorial de Biblioteca **“Los santos también tuvieron un camino”**.
-- Se refuerza la presentación de los santos como personas que recorrieron un camino de fe, evitando presentarlos como personas perfectas desde el comienzo.
-- La exploración de Biblioteca se orienta a testimonios relacionados con situaciones y virtudes.
-- Se refuerza **Mi camino** como espacio para favoritos, progreso y continuidad.
-- Se corrigen incidencias relacionadas con la visualización y acceso a favoritos.
-- Se mejora la estrategia de caché del Service Worker para reducir esperas al navegar y favorecer una respuesta más rápida cuando los recursos ya están disponibles localmente.
-- El Service Worker queda actualizado a **v229**.
-- Se incorporan validaciones automáticas de integridad de la aplicación mediante `validate-app.js`, complementarias a las validaciones de datos existentes.
-- Se incorpora **CodeQL** para análisis de seguridad del código.
-- Se incorpora **Dependabot** para supervisar actualizaciones de GitHub Actions.
-- Se incorpora **Lighthouse CI** para comprobar rendimiento, accesibilidad, buenas prácticas y SEO.
-- Se documentan la arquitectura, criterios editoriales, seguridad, validación y flujo de despliegue.
-- Las comprobaciones automáticas de validación, CodeQL, Lighthouse CI y GitHub Pages se encuentran operativas para la rama principal.
-- Versión de aplicación: **1.3.6**.
-- Caché del Service Worker: **v229**.
+- Se completa la revisión de experiencia de usuario iniciada sobre Biblioteca, Catálogo, novenas, Mi Camino, Favoritos y Mi progreso.
+- Se consolidan las rutas de retorno contextual de las novenas y la jerarquía de acciones principales y secundarias.
+- Se revisan estados de carga, vacío y error, procurando que los fallos visibles indiquen qué ocurrió y qué acción de recuperación está disponible.
+- Se mejora la accesibilidad de modales, menú lateral, buscadores, estados de carga y explorador de Biblioteca.
+- Se refuerza la navegación mediante teclado, el manejo del foco y el soporte de la preferencia de reducción de movimiento.
+- Se mantiene la configuración de tema claro/oscuro y tamaño de texto como parte de la experiencia accesible.
+- Se corrigen y sincronizan versiones de recursos para evitar que el Service Worker conserve archivos incompatibles después de las mejoras.
+- El Service Worker queda actualizado a **v230**.
+- Se mantiene la versión de aplicación en **1.3.6**.
+- La siguiente versión se definirá a partir de la interacción y retroalimentación de usuarios reales; no se fija todavía un alcance cerrado para 1.4.
 
 ## [1.3.3] — Rediseño de Biblioteca
 
