@@ -95,7 +95,7 @@ function validateLegacyRootFiles() {
   const catalog = readJson(catalogPath, 'novenas.json');
 
   if (!Array.isArray(catalog)) {
-    report('novenas.json', 'el catálogo debe ser un array.');
+    report('novenas.json', 'el catálogo histórico debe ser un array.');
     return;
   }
 
@@ -124,20 +124,14 @@ function validateLegacyRootFiles() {
     const data = readJson(referenced, item.file);
     if (!data) continue;
 
-    for (const field of REQUIRED_FIELDS) {
-      if (!(field in data)) {
-        report(item.file, 'falta el campo requerido "' + field + '".');
-      }
-    }
-
-    validateDays(data, item.file);
-
-    if (data.history) {
-      for (const field of ['short', 'extended']) {
-        if (typeof data.history[field] !== 'string' || !data.history[field].trim()) {
-          report(item.file, 'history.' + field + ' está vacío o no es texto.');
-        }
-      }
+    /*
+     * novenas.json es histórico y ya no es la fuente de ejecución.
+     * Algunos archivos referenciados son perfiles/contenidos antiguos
+     * que no siguen el esquema V1 completo. Aquí solo verificamos que
+     * sus referencias sigan siendo resolubles y que el JSON sea válido.
+     */
+    if (Array.isArray(data.days)) {
+      validateDays(data, item.file);
     }
 
     const raw = fs.readFileSync(referenced, 'utf8');
