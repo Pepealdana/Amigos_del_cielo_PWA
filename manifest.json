@@ -17,6 +17,12 @@
     ],
     "icons": [
         {
+            "src": "assets/branding/isotipo-splash.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
             "src": "assets/branding/isotipo-amigos-del-cielo.webp",
             "sizes": "192x192",
             "type": "image/webp",
