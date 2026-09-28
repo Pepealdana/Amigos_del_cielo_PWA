@@ -1651,3 +1651,18 @@
     width:100%;
     margin-top:1.25rem;
 }
+
+
+/* ==========================================================
+   NAVEGACIÓN CONTEXTUAL DEL CATÁLOGO
+========================================================== */
+
+.catalog-context-nav{
+    display:flex;
+    align-items:center;
+    margin-bottom:1rem;
+}
+
+.catalog-context-nav .context-back{
+    margin:0;
+}
