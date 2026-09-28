@@ -260,6 +260,14 @@ function registrarEventos() {
 
     registrarEvento(
 
+        "menu-close",
+
+        cerrarMenu
+
+    );
+
+    registrarEvento(
+
         "menu-inicio",
 
         () => navegar("inicio")
