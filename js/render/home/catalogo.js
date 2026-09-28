@@ -664,9 +664,11 @@ function renderTarjetaCatalogoV2(item, seccion) {
 
     const accion = tieneNovena
         ? `data-action="open-novena" data-id="${escaparHTML(item.id)}"`
-        : seccion === "beatos"
-            ? `data-action="open-profile" data-id="${escaparHTML(item.id)}"`
-            : "";
+        : `data-action="open-profile" data-id="${escaparHTML(item.id)}"`;
+
+    const textoAccion = tieneNovena
+        ? "Abrir novena"
+        : "Conocer";
 
     const territorial = item.territorial || {};
     const paises = [
@@ -685,7 +687,7 @@ function renderTarjetaCatalogoV2(item, seccion) {
             class="catalog-card"
             type="button"
             ${accion}
-            ${tieneNovena || seccion === "beatos" ? "" : "disabled"}>
+            aria-label="${textoAccion} ${escaparHTML(item.name)}">
             ${imagen ? `
                 <img
                     src="${escaparHTML(imagen)}"
