@@ -1027,14 +1027,20 @@ document.addEventListener("keydown", evento => {
 
 
 function mostrarPerfilCatalogo(id) {
-    const beato = (state.catalogosV2?.beatos || [])
-        .find(item => item?.id === id);
+    const catalogos = [
+        ...(state.catalogosV2?.santos || []),
+        ...(state.catalogosV2?.beatos || []),
+        ...(state.catalogosV2?.maria || []),
+        ...(state.catalogosV2?.devociones || [])
+    ];
 
-    if (!beato) {
+    const item = catalogos.find(entry => entry?.id === id);
+
+    if (!item) {
         return;
     }
 
-    const territorial = beato.territorial || {};
+    const territorial = item.territorial || {};
     const codigos = [
         ...(territorial.origin || []),
         ...(territorial.historicalLinks || []),
@@ -1046,17 +1052,28 @@ function mostrarPerfilCatalogo(id) {
         .filter(Boolean)
         .join(" · ");
 
-    const grupos = (beato.groups || [])
+    const grupos = (item.groups || [])
         .map(obtenerNombreGrupoCatalogo)
         .filter(Boolean)
         .join(" · ");
 
+    const categoria = normalizarCategoriaNovena(
+        item.category || ""
+    );
+
+    const categoriaTexto = {
+        santos: "Santo",
+        beatas: "Beato o Beata",
+        maria: "Advocación mariana",
+        devociones: "Devoción"
+    }[categoria] || "Contenido espiritual";
+
     const contenido =
-        (beato.description
-            ? "<p>" + escaparHTML(beato.description) + "</p>"
+        (item.description
+            ? "<p>" + escaparHTML(item.description) + "</p>"
             : "") +
-        (beato.feast?.text
-            ? "<p><strong>Celebración:</strong> " + escaparHTML(beato.feast.text) + "</p>"
+        (item.feast?.text
+            ? "<p><strong>Celebración:</strong> " + escaparHTML(item.feast.text) + "</p>"
             : "") +
         (paises
             ? "<p><strong>Vínculos territoriales:</strong> " + escaparHTML(paises) + "</p>"
@@ -1064,10 +1081,12 @@ function mostrarPerfilCatalogo(id) {
         (grupos
             ? "<p><strong>Temas:</strong> " + escaparHTML(grupos) + "</p>"
             : "") +
-        '<p class="modal-note">Esta ficha está incorporada al catálogo de Beatos. Su historia forma parte de un camino concreto de fe; conocerla no significa presentar una vida perfecta, sino un testimonio que puede ayudar a mirar el propio camino hacia Cristo.</p>';
+        '<p class="modal-note">' +
+        escaparHTML(categoriaTexto) +
+        ': conocer este testimonio permite acercarse a una historia concreta de fe, con sus circunstancias, desafíos y camino hacia Cristo.</p>';
 
     mostrarModal(
-        escaparHTML(beato.name),
+        escaparHTML(item.name),
         contenido
     );
 }
