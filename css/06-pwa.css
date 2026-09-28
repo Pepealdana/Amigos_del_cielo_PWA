@@ -464,6 +464,28 @@ body::before{
     font-size:.8rem;
 }
 
+.library-discover-error{
+    margin-top:1rem;
+    padding:1rem;
+    border:1px solid rgba(198,40,40,.28);
+    border-radius:14px;
+    background:rgba(198,40,40,.06);
+}
+
+.library-discover-error strong{
+    display:block;
+    color:var(--color-error);
+}
+
+.library-discover-error p{
+    margin:.35rem 0 .75rem;
+    color:var(--color-text);
+}
+
+.library-discover-error .btn{
+    width:100%;
+}
+
 /* ==========================================================
    BIBLIOTECA
 ========================================================== */
