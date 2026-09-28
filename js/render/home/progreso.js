@@ -56,8 +56,13 @@ function renderProgreso(catalogo = [], progreso = {}) {
                     </strong>
 
                     <p>
-                        Cuando comiences una novena, aparecerá aquí.
+                        Cuando comiences una novena, aparecerá aquí para que
+                        puedas continuarla donde la dejaste.
                     </p>
+
+                    <button class="btn btn-outline" type="button" data-route="novenas">
+                        Explorar novenas
+                    </button>
 
                 </div>
 
