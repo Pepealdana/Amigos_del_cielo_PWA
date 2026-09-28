@@ -47,13 +47,13 @@ function renderModal(
 
                 <div class="modal-footer">
 
-                    ${crearBoton(
-
-                        textoBoton,
-
-                        "cerrarModal()"
-
-                    )}
+                    <button
+                        class="btn btn-primary modal-close-button"
+                        type="button"
+                        onclick="cerrarModal()"
+                        aria-label="${escaparHTML(textoBoton)}">
+                        ${escaparHTML(textoBoton)}
+                    </button>
 
                 </div>
 
@@ -96,9 +96,16 @@ function mostrarModal(
         )
     );
 
-    document
-        .querySelector(".modal-close-button")
-        ?.focus();
+    const modal = document.querySelector(".modal");
+    const botonCerrar = modal?.querySelector(".modal-close-button");
+
+    botonCerrar?.focus();
+
+    modal?.addEventListener("click", evento => {
+        if (evento.target === modal) {
+            cerrarModal();
+        }
+    });
 
 }
 
