@@ -367,10 +367,16 @@ function renderInicio(catalogo = [], progreso = {}) {
             `;
 
     const esSantoDelDia = principal.tipo === "santo-del-dia";
-    const mostrarPerfilSanto = esSantoDelDia && !continuidad;
+    const tieneNovenaPrincipal = (catalogo || [])
+        .some(item => item?.id === santo.id && Array.isArray(item?.days) && item.days.length > 0);
+    const mostrarPerfilSanto = esSantoDelDia && !tieneNovenaPrincipal && !continuidad;
+
+    const accionPrincipal = esSantoDelDia && !tieneNovenaPrincipal
+        ? "open-profile"
+        : "open-novena";
 
     const textoBoton =
-        esSantoDelDia
+        esSantoDelDia && !tieneNovenaPrincipal
             ? "Conocer al santo"
             : "Abrir novena";
 
@@ -407,7 +413,7 @@ function renderInicio(catalogo = [], progreso = {}) {
                 <button
                     class="btn btn-primary btn-hero"
                     type="button"
-                    data-action="open-novena"
+                    data-action="${accionPrincipal}"
                     data-id="${escaparHTML(santo.id)}">
                     ${textoBoton}
                 </button>
