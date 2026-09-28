@@ -96,6 +96,16 @@ function renderPortadaNovena(novena) {
                 )
                 : ""}
 
+            <div class="novena-context-nav">
+                <button
+                    class="context-back"
+                    type="button"
+                    data-action="back-novena"
+                    aria-label="Volver al lugar anterior">
+                    ← Volver
+                </button>
+            </div>
+
             <div class="button-group">
 
                 <button
