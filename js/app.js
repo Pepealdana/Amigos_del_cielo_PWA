@@ -1907,10 +1907,6 @@ function actualizarBibliotecaPWA() {
         state.busqueda || ""
     );
 
-    document.getElementById("library-search")?.setAttribute(
-        "aria-expanded",
-        String(Boolean(state.busqueda?.trim()))
-    );
 }
 
 function continuarNovena(id) {
