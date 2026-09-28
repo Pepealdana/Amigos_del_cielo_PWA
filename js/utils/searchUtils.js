@@ -97,6 +97,9 @@ function buscarNovenas(catalogo, texto) {
                 : []),
             ...(Array.isArray(novena.patronages)
                 ? novena.patronages
+                : []),
+            ...(Array.isArray(novena.virtues)
+                ? novena.virtues
                 : [])
         ];
 
