@@ -509,7 +509,7 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
                 const razon = resultado.coincidencias.includes("intervenciones")
                     ? "Relacionado con su vida o misión"
                     : resultado.coincidencias.includes("tradición devocional")
-                        ? "Vinculado a su tradición devocional"
+                        ? "Relacionado con una tradición de devoción"
                         : "Relacionado con sus virtudes";
 
                 return \`
