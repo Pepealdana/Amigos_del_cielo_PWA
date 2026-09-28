@@ -13,7 +13,7 @@ const APP_CONFIG = {
     descripcion:
         "Novenas, santos y oración diaria.",
 
-    version: "1.3.3",
+    version: "1.3.4",
 
     autor: "Peter Aldana",
 
