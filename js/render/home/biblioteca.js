@@ -124,6 +124,33 @@ function renderBiblioteca(catalogo = []) {
                 </p>
             </header>
 
+            <section class="library-discover" aria-labelledby="library-discover-title">
+                <div class="library-section-heading">
+                    <div>
+                        <p class="library-kicker">Acompañamiento</p>
+                        <h3 id="library-discover-title">Encuentra un amigo para este momento</h3>
+                    </div>
+                    <span class="library-section-symbol" aria-hidden="true">♡</span>
+                </div>
+                <p class="library-discover-intro">
+                    No buscamos un santo que “solucione” una situación. Te ayudamos a conocer
+                    testimonios de vida cristiana que pueden acompañar tu oración e inspirarte.
+                </p>
+                <div class="library-discover-modes">
+                    <button class="library-discover-mode \${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}"
+                        type="button" data-action="library-explorer-mode" data-mode="intencion">
+                        <span class="library-discover-mode-icon" aria-hidden="true">◇</span>
+                        <span><strong>Estoy viviendo algo</strong><small>Una situación o intención</small></span>
+                    </button>
+                    <button class="library-discover-mode \${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}"
+                        type="button" data-action="library-explorer-mode" data-mode="virtud">
+                        <span class="library-discover-mode-icon" aria-hidden="true">✦</span>
+                        <span><strong>Quiero cultivar algo</strong><small>Una virtud para mi camino</small></span>
+                    </button>
+                </div>
+                \${renderExploradorBiblioteca()}
+            </section>
+
             <section class="library-today" aria-labelledby="library-today-title">
                 <div class="library-section-heading">
                     <div>
@@ -393,6 +420,118 @@ function renderResultadosBiblioteca(texto = "") {
             <span class="library-action-arrow" aria-hidden="true">›</span>
         </button>
     `).join("");
+}
+
+function renderExploradorBiblioteca() {
+    const explorador = state.bibliotecaExplorador || {};
+    if (!explorador.modo) return "";
+
+    const definiciones = explorador.modo === "virtud"
+        ? BIBLIOTECA_VIRTUDES
+        : BIBLIOTECA_INTENCIONES;
+
+    const titulo = explorador.modo === "virtud"
+        ? "Elige una virtud"
+        : "¿Qué estás viviendo?";
+
+    const seleccion = obtenerDefinicionBiblioteca(
+        explorador.modo,
+        explorador.seleccion
+    );
+
+    const opciones = definiciones.map(item => \`
+        <button
+            class="library-discover-chip \${item.id === explorador.seleccion ? "is-selected" : ""}"
+            type="button"
+            data-action="library-explorer-select"
+            data-mode="\${escaparHTML(explorador.modo)}"
+            data-id="\${escaparHTML(item.id)}">
+            <span aria-hidden="true">\${escaparHTML(item.icon)}</span>
+            \${escaparHTML(item.label)}
+        </button>
+    \`).join("");
+
+    return \`
+        <div class="library-discover-panel">
+            <div class="library-discover-panel-heading">
+                <strong>\${titulo}</strong>
+                <button type="button" class="library-discover-clear"
+                    data-action="library-explorer-reset">Cerrar</button>
+            </div>
+            <div class="library-discover-chips">\${opciones}</div>
+
+            \${explorador.cargando ? \`
+                <div class="library-discover-loading" role="status">
+                    <span class="library-loading-dot" aria-hidden="true">✦</span>
+                    <p>Buscando entre los contenidos de Amigos del Cielo…</p>
+                </div>
+            \` : seleccion && explorador.resultados ? \`
+                \${renderResultadosRelacionBiblioteca(seleccion, explorador.resultados)}
+            \` : seleccion ? \`
+                <div class="library-discover-hint">
+                    <strong>\${escaparHTML(seleccion.label)}</strong>
+                    <p>Selecciona esta intención para conocer los testimonios relacionados.</p>
+                </div>
+            \` : \`
+                <div class="library-discover-hint">
+                    <p>Elige una opción para comenzar.</p>
+                </div>
+            \`}
+        </div>
+    \`;
+}
+
+function renderResultadosRelacionBiblioteca(definicion, resultados) {
+    if (!resultados.length) {
+        return \`
+            <div class="library-discover-empty">
+                <strong>Aún no encontramos una relación suficientemente clara.</strong>
+                <p>Podemos ampliar esta categoría cuando la ficha de un santo tenga una relación documentada.</p>
+            </div>
+        \`;
+    }
+
+    return \`
+        <div class="library-related-heading">
+            <div>
+                <span class="library-kicker">Puede acompañarte</span>
+                <strong>\${escaparHTML(definicion.label)}</strong>
+            </div>
+            <small>\${resultados.length} resultados relacionados</small>
+        </div>
+
+        <div class="library-related-list">
+            \${resultados.map(resultado => {
+                const item = resultado.item;
+                const accion = Array.isArray(item.days) && item.days.length
+                    ? "open-novena"
+                    : "open-profile";
+                const razon = resultado.coincidencias.includes("intervenciones")
+                    ? "Relacionado con su vida o misión"
+                    : resultado.coincidencias.includes("tradición devocional")
+                        ? "Vinculado a su tradición devocional"
+                        : "Relacionado con sus virtudes";
+
+                return \`
+                    <article class="library-related-card">
+                        \${item.image ? \`
+                            <img src="\${escaparHTML(item.image)}"
+                                alt="" class="library-related-image" loading="lazy">
+                        \` : \`<span class="library-related-image library-image-placeholder" aria-hidden="true">✦</span>\`}
+                        <div class="library-related-content">
+                            <strong>\${escaparHTML(item.name)}</strong>
+                            <span>\${escaparHTML(item.title || "Testimonio de vida cristiana")}</span>
+                            <small>\${escaparHTML(razon)}</small>
+                            <button type="button" class="btn btn-outline library-related-button"
+                                data-action="\${accion}" data-id="\${escaparHTML(item.id)}">
+                                \${accion === "open-novena" ? "Ver novena" : "Conocerlo"}
+                            </button>
+                        </div>
+                    </article>
+                \`;
+            }).join("")}
+        </div>
+    \`;
 }
 
 function actualizarBibliotecaPWA() {
