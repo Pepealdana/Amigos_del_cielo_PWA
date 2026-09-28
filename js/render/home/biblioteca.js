@@ -137,18 +137,18 @@ function renderBiblioteca(catalogo = []) {
                     testimonios de vida cristiana que pueden acompañar tu oración e inspirarte.
                 </p>
                 <div class="library-discover-modes">
-                    <button class="library-discover-mode \${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}"
+                    <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}"
                         type="button" data-action="library-explorer-mode" data-mode="intencion">
                         <span class="library-discover-mode-icon" aria-hidden="true">◇</span>
                         <span><strong>Estoy viviendo algo</strong><small>Una situación o intención</small></span>
                     </button>
-                    <button class="library-discover-mode \${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}"
+                    <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}"
                         type="button" data-action="library-explorer-mode" data-mode="virtud">
                         <span class="library-discover-mode-icon" aria-hidden="true">✦</span>
                         <span><strong>Quiero cultivar algo</strong><small>Una virtud para mi camino</small></span>
                     </button>
                 </div>
-                \${renderExploradorBiblioteca()}
+                ${renderExploradorBiblioteca()}
             </section>
 
             <section class="library-today" aria-labelledby="library-today-title">
@@ -441,35 +441,35 @@ function renderExploradorBiblioteca() {
 
     const opciones = definiciones.map(item => \`
         <button
-            class="library-discover-chip \${item.id === explorador.seleccion ? "is-selected" : ""}"
+            class="library-discover-chip ${item.id === explorador.seleccion ? "is-selected" : ""}"
             type="button"
             data-action="library-explorer-select"
-            data-mode="\${escaparHTML(explorador.modo)}"
-            data-id="\${escaparHTML(item.id)}">
-            <span aria-hidden="true">\${escaparHTML(item.icon)}</span>
-            \${escaparHTML(item.label)}
+            data-mode="${escaparHTML(explorador.modo)}"
+            data-id="${escaparHTML(item.id)}">
+            <span aria-hidden="true">${escaparHTML(item.icon)}</span>
+            ${escaparHTML(item.label)}
         </button>
     \`).join("");
 
     return \`
         <div class="library-discover-panel">
             <div class="library-discover-panel-heading">
-                <strong>\${titulo}</strong>
+                <strong>${titulo}</strong>
                 <button type="button" class="library-discover-clear"
                     data-action="library-explorer-reset">Cerrar</button>
             </div>
-            <div class="library-discover-chips">\${opciones}</div>
+            <div class="library-discover-chips">${opciones}</div>
 
-            \${explorador.cargando ? \`
+            ${explorador.cargando ? \`
                 <div class="library-discover-loading" role="status">
                     <span class="library-loading-dot" aria-hidden="true">✦</span>
                     <p>Buscando entre los contenidos de Amigos del Cielo…</p>
                 </div>
             \` : seleccion && explorador.resultados ? \`
-                \${renderResultadosRelacionBiblioteca(seleccion, explorador.resultados)}
+                ${renderResultadosRelacionBiblioteca(seleccion, explorador.resultados)}
             \` : seleccion ? \`
                 <div class="library-discover-hint">
-                    <strong>\${escaparHTML(seleccion.label)}</strong>
+                    <strong>${escaparHTML(seleccion.label)}</strong>
                     <p>Selecciona esta intención para conocer los testimonios relacionados.</p>
                 </div>
             \` : \`
@@ -495,13 +495,13 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
         <div class="library-related-heading">
             <div>
                 <span class="library-kicker">Puede acompañarte</span>
-                <strong>\${escaparHTML(definicion.label)}</strong>
+                <strong>${escaparHTML(definicion.label)}</strong>
             </div>
-            <small>\${resultados.length} resultados relacionados</small>
+            <small>${resultados.length} resultados relacionados</small>
         </div>
 
         <div class="library-related-list">
-            \${resultados.map(resultado => {
+            ${resultados.map(resultado => {
                 const item = resultado.item;
                 const accion = Array.isArray(item.days) && item.days.length
                     ? "open-novena"
@@ -514,17 +514,17 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
 
                 return \`
                     <article class="library-related-card">
-                        \${item.image ? \`
-                            <img src="\${escaparHTML(item.image)}"
+                        ${item.image ? \`
+                            <img src="${escaparHTML(item.image)}"
                                 alt="" class="library-related-image" loading="lazy">
                         \` : \`<span class="library-related-image library-image-placeholder" aria-hidden="true">✦</span>\`}
                         <div class="library-related-content">
-                            <strong>\${escaparHTML(item.name)}</strong>
-                            <span>\${escaparHTML(item.title || "Testimonio de vida cristiana")}</span>
-                            <small>\${escaparHTML(razon)}</small>
+                            <strong>${escaparHTML(item.name)}</strong>
+                            <span>${escaparHTML(item.title || "Testimonio de vida cristiana")}</span>
+                            <small>${escaparHTML(razon)}</small>
                             <button type="button" class="btn btn-outline library-related-button"
-                                data-action="\${accion}" data-id="\${escaparHTML(item.id)}">
-                                \${accion === "open-novena" ? "Ver novena" : "Conocerlo"}
+                                data-action="${accion}" data-id="${escaparHTML(item.id)}">
+                                ${accion === "open-novena" ? "Ver novena" : "Conocerlo"}
                             </button>
                         </div>
                     </article>
