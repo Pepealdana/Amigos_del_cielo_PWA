@@ -1452,6 +1452,32 @@ function manejarClicksPWA(evento) {
             navegar("biblioteca");
             return;
         }
+        if (tipo === "library-explorer-mode" && accion.dataset.mode) {
+            abrirExploradorBiblioteca(accion.dataset.mode);
+            return;
+        }
+
+        if (tipo === "library-explorer-select" && accion.dataset.mode && accion.dataset.id) {
+            seleccionarExploradorBiblioteca(
+                accion.dataset.mode,
+                accion.dataset.id
+            );
+            return;
+        }
+
+        if (tipo === "library-explorer-reset") {
+            state.bibliotecaExplorador = {
+                modo: null,
+                seleccion: null,
+                cargando: false,
+                resultados: null
+            };
+            if (router.rutaActual === "biblioteca") {
+                renderizar(renderBiblioteca(state.catalogo));
+            }
+            return;
+        }
+
 
         if (tipo === "go-novena" && state.novenaActual) {
             mostrarPortadaNovena();
@@ -1607,6 +1633,68 @@ function cambiarRegion(region) {
 
     guardarConfiguracion();
     mostrarConfiguracion();
+}
+
+function abrirExploradorBiblioteca(modo) {
+    if (!["intencion", "virtud"].includes(modo)) {
+        return;
+    }
+
+    state.bibliotecaExplorador = {
+        modo,
+        seleccion: null,
+        cargando: false,
+        resultados: null
+    };
+
+    if (router.rutaActual === "biblioteca") {
+        renderizar(renderBiblioteca(state.catalogo));
+    }
+}
+
+async function seleccionarExploradorBiblioteca(modo, id) {
+    if (!["intencion", "virtud"].includes(modo) || !id) {
+        return;
+    }
+
+    const definicion = obtenerDefinicionBiblioteca(modo, id);
+
+    if (!definicion) {
+        return;
+    }
+
+    state.bibliotecaExplorador = {
+        modo,
+        seleccion: id,
+        cargando: true,
+        resultados: null
+    };
+
+    renderizar(renderBiblioteca(state.catalogo));
+
+    try {
+        const resultado = await obtenerResultadosBiblioteca(modo, id);
+
+        state.bibliotecaExplorador = {
+            modo,
+            seleccion: id,
+            cargando: false,
+            resultados: resultado.resultados
+        };
+    } catch (error) {
+        console.error("Error cargando relaciones de Biblioteca:", error);
+
+        state.bibliotecaExplorador = {
+            modo,
+            seleccion: id,
+            cargando: false,
+            resultados: []
+        };
+    }
+
+    if (router.rutaActual === "biblioteca") {
+        renderizar(renderBiblioteca(state.catalogo));
+    }
 }
 
 function manejarInputsPWA(evento) {
