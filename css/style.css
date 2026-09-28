@@ -845,10 +845,49 @@ body.dark .catalog-filter-option:hover {
 }
 
 
-/* Evita el destello del tema claro durante el arranque. */
-html.dark-preload,
+/* Evita cualquier destello del tema claro durante el arranque. */
+html.dark-preload{
+    color-scheme:dark;
+
+    --color-primary:#7FB2D6;
+    --color-primary-light:#9BC6E3;
+    --color-secondary:#7FB2D6;
+    --color-accent:#D9B66B;
+
+    --color-background:#111827;
+    --color-surface:#1F2937;
+    --color-surface-alt:#374151;
+
+    --color-text:#F9FAFB;
+    --color-text-light:#CBD5E1;
+    --color-text-inverse:#111827;
+
+    --color-border:#374151;
+
+    background:#111827;
+    color:#F9FAFB;
+}
+
 html.dark-preload body{
     background:#111827;
     color:#F9FAFB;
-    color-scheme:dark;
+}
+
+html.dark-preload .header{
+    background:rgba(17,24,39,.94);
+    color:#F9FAFB;
+}
+
+html.dark-preload .bottom-nav{
+    background:rgba(31,41,55,.96);
+    color:#F9FAFB;
+}
+
+html.dark-preload .bottom-nav-item{
+    color:#CBD5E1;
+}
+
+html.dark-preload .bottom-nav-item.active{
+    background:rgba(127,178,214,.10);
+    color:#9BC6E3;
 }
