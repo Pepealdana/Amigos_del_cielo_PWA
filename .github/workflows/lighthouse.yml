@@ -1,0 +1,52 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "*.html"
+      - "*.js"
+      - "*.css"
+      - "js/**"
+      - "css/**"
+      - "data/**"
+      - "assets/**"
+      - "manifest.json"
+      - "service-worker.js"
+      - ".lighthouserc.js"
+      - ".github/workflows/lighthouse.yml"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "*.html"
+      - "*.js"
+      - "*.css"
+      - "js/**"
+      - "css/**"
+      - "data/**"
+      - "assets/**"
+      - "manifest.json"
+      - "service-worker.js"
+      - ".lighthouserc.js"
+      - ".github/workflows/lighthouse.yml"
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    name: Auditoría Lighthouse
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar Lighthouse CI
+        run: npm install --global @lhci/cli@0.15.x
+
+      - name: Ejecutar Lighthouse
+        run: lhci autorun
