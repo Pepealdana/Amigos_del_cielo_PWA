@@ -863,12 +863,17 @@ function finalizarNovenaActual() {
     }
 
     finalizarNovena(state.novenaActual.id);
-    state.diaActual = 9;
+
+    state.diaActual =
+        obtenerTotalDiasNovena();
 
     actualizarTituloPagina("Novena finalizada");
 
     renderizar(
-        renderAgradecimiento(state.novenaActual)
+        renderAgradecimiento(
+            state.novenaActual,
+            state.origenNovena || "biblioteca"
+        )
     );
 }
 
