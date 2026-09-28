@@ -10,6 +10,68 @@
 
 let eventoInstalacionPWA = null;
 
+const CLAVE_RECHAZO_INSTALACION =
+    "adc-install-prompt-dismissed";
+
+function estaInstaladaComoPWA() {
+    return window.matchMedia?.(
+        "(display-mode: standalone)"
+    ).matches ||
+        window.navigator.standalone === true;
+}
+
+function usuarioRechazoInvitacionInstalacion() {
+    try {
+        return localStorage.getItem(
+            CLAVE_RECHAZO_INSTALACION
+        ) === "1";
+    } catch (error) {
+        return false;
+    }
+}
+
+function ocultarInvitacionInstalacion() {
+    const tarjeta =
+        document.getElementById(
+            "install-app-card"
+        );
+
+    if (tarjeta) {
+        tarjeta.hidden = true;
+    }
+}
+
+function actualizarInvitacionInstalacion() {
+    const tarjeta =
+        document.getElementById(
+            "install-app-card"
+        );
+
+    if (!tarjeta) {
+        return;
+    }
+
+    const mostrar =
+        Boolean(eventoInstalacionPWA) &&
+        !estaInstaladaComoPWA() &&
+        !usuarioRechazoInvitacionInstalacion();
+
+    tarjeta.hidden = !mostrar;
+}
+
+function posponerInvitacionInstalacion() {
+    try {
+        localStorage.setItem(
+            CLAVE_RECHAZO_INSTALACION,
+            "1"
+        );
+    } catch (error) {
+        // La instalación seguirá disponible desde el menú.
+    }
+
+    ocultarInvitacionInstalacion();
+}
+
 window.addEventListener(
     "beforeinstallprompt",
     evento => {
@@ -19,6 +81,7 @@ window.addEventListener(
         eventoInstalacionPWA = evento;
 
         actualizarBotonInstalacion();
+        actualizarInvitacionInstalacion();
 
     }
 );
@@ -30,6 +93,7 @@ window.addEventListener(
         eventoInstalacionPWA = null;
 
         actualizarBotonInstalacion();
+        ocultarInvitacionInstalacion();
 
         cerrarMenu();
 
@@ -196,6 +260,7 @@ async function iniciarApp() {
         await cargarCatalogosV2();
 
         actualizarBotonInstalacion();
+        actualizarInvitacionInstalacion();
 
         const novenaSolicitada =
             new URLSearchParams(
@@ -319,6 +384,18 @@ function registrarEventos() {
 
         instalarAplicacion
 
+    );
+
+    registrarEvento(
+        "install-app",
+
+        instalarAplicacion
+    );
+
+    registrarEvento(
+        "install-app-dismiss",
+
+        posponerInvitacionInstalacion
     );
 
     registrarEvento(
