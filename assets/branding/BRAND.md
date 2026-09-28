@@ -2,13 +2,14 @@
 
 ## Sistema oficial
 
-La interfaz utiliza como recurso gráfico principal el isotipo original ya presente en el proyecto:
+La interfaz utiliza los recursos gráficos maestros proporcionados para el proyecto:
 
-- **Isotipo:** `assets/icons/logosin.png`
+- **Isotipo:** `assets/branding/isotipo-amigos-del-cielo.webp`
+- **Logotipo horizontal:** `assets/branding/logo-horizontal-amigos-del-cielo.webp`
 - **Nombre:** «Amigos del Cielo»
 - **Tagline:** «Camina junto a los santos cada día».
 - **Azul principal:** #0B3D91
 - **Dorado:** #F4C430
 - **Azul claro:** #EAF4FF
 
-Las reconstrucciones SVG generadas anteriormente no forman parte de la interfaz. Se conservan únicamente como material de trabajo hasta que se definan variantes oficiales a partir del recurso original.
+Los archivos maestros anteriores no forman parte de la interfaz. Estos recursos WEBP son versiones optimizadas para uso web de los archivos proporcionados.

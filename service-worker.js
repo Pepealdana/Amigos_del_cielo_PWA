@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v240";
+const CACHE_NAME = "amigos-del-cielo-v241";
 
 const APP_SHELL = [
     "./",
@@ -177,7 +177,8 @@ const APP_SHELL = [
     "./js/render/home/acerca.js",
     "./js/router.js",
     "./js/app.js",
-    "./assets/icons/logosin.png",
+    "./assets/branding/isotipo-amigos-del-cielo.webp",
+    "./assets/branding/logo-horizontal-amigos-del-cielo.webp",
     "./assets/icons/icon-192.png",
     "./assets/icons/icon-512.png",
     "./assets/icons/favicon-16.png",
