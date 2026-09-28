@@ -10,7 +10,6 @@ function renderFavoritas(catalogo = [], favoritos = []) {
         : [];
 
     return `
-
         <section class="page-shell">
 
             <header class="page-header">
@@ -34,12 +33,43 @@ function renderFavoritas(catalogo = [], favoritos = []) {
                     </p>
                 </div>
             ` : `
-                <div class="library-list">
-                    ${renderListaBiblioteca(lista)}
+                <div class="library-results favoritos-list">
+                    ${renderListaFavoritas(lista)}
                 </div>
             `}
 
         </section>
-
     `;
+}
+
+function renderListaFavoritas(lista = []) {
+
+    return lista.map(novena => `
+        <button
+            class="library-result"
+            type="button"
+            data-action="open-novena"
+            data-id="${escaparHTML(novena.id)}">
+
+            ${novena.image ? `
+                <img
+                    src="${escaparHTML(novena.image)}"
+                    alt=""
+                    class="library-result-image"
+                    loading="lazy">
+            ` : `
+                <span
+                    class="library-result-image library-image-placeholder"
+                    aria-hidden="true">✦</span>
+            `}
+
+            <span class="library-result-content">
+                <strong>${escaparHTML(novena.name)}</strong>
+                <span>${escaparHTML(novena.title || "")}</span>
+                <small>${escaparHTML(novena.feast?.text || "Contenido espiritual")}</small>
+            </span>
+
+            <span class="library-action-arrow" aria-hidden="true">›</span>
+        </button>
+    `).join("");
 }
