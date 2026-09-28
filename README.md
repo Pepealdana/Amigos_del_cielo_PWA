@@ -323,7 +323,7 @@ La publicación oficial queda preparada sobre el commit final de estabilización
 
 **Versión de aplicación:** 1.3.6
 
-**Estado:** lista para publicación y pruebas con usuarios reales
+**Estado:** estabilización 1.3.6 cerrada; preparada para publicación y pruebas con usuarios reales
 
 **Service Worker:** caché v230
 
