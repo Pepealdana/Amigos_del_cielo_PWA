@@ -5,7 +5,7 @@ El catálogo v3 separa la navegación y los datos en cinco áreas:
 - **Santos**: santos canonizados.
 - **Beatos**: beatos reconocidos por la Iglesia, diferenciados de los santos canonizados.
 - **María**: advocaciones marianas. Una advocación es una forma de veneración de la misma Virgen María; no se contabiliza como una persona distinta.
-- **Novenas**: contenido de oración de nueve días, actualmente respaldado por `data/novenas.json`.
+- **Novenas**: contenido de oración de nueve días publicado mediante los catálogos maestros y su `sourceFile`.
 - **Devociones**: otras devociones y celebraciones.
 
 ## Estados
