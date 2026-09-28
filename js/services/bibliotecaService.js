@@ -42,7 +42,6 @@ const BIBLIOTECA_VIRTUDES = [
     { id:"sencillez", label:"Sencillez", icon:"⌄", keywords:["sencillez","humildad","simpleza"] },
     { id:"pureza", label:"Pureza de corazón", icon:"✧", keywords:["pureza","castidad","virginidad","limpieza de corazon","limpieza de corazón"] },
     { id:"alegria", label:"Alegría", icon:"☼", keywords:["alegria","alegría","gozo"] },
-    { id:"paciencia", label:"Paciencia", icon:"◷", keywords:["paciencia","perseverancia","longanimidad"] },
     { id:"sabiduria", label:"Sabiduría", icon:"⌘", keywords:["sabiduria","sabiduría","conocimiento","discernimiento"] }
 ];
 
