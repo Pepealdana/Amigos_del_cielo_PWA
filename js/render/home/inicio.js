@@ -367,6 +367,7 @@ function renderInicio(catalogo = [], progreso = {}) {
             `;
 
     const esSantoDelDia = principal.tipo === "santo-del-dia";
+    const mostrarPerfilSanto = esSantoDelDia && !continuidad;
 
     const textoBoton =
         esSantoDelDia
@@ -448,7 +449,7 @@ function renderInicio(catalogo = [], progreso = {}) {
             <section class="continue-section">
 
                 <p class="section-kicker">
-                    ${esSantoDelDia ? "Conocer" : (continuidad ? "Continuar" : "Comenzar")}
+                    ${mostrarPerfilSanto ? "Conocer" : (continuidad ? "Continuar" : "Comenzar")}
                 </p>
 
                 <article class="continue-card">
@@ -462,7 +463,7 @@ function renderInicio(catalogo = [], progreso = {}) {
                         </h3>
 
                         <p>
-                            ${esSantoDelDia
+                            ${mostrarPerfilSanto
                                 ? "Descubre su vida y su testimonio"
                                 : (continuidad
                                     ? (completada
@@ -489,10 +490,10 @@ function renderInicio(catalogo = [], progreso = {}) {
                     <button
                         class="btn btn-primary continue-action"
                         type="button"
-                        data-action="${esSantoDelDia ? "open-profile" : (completada ? "restart-novena" : "continue-novena")}"
+                        data-action="${mostrarPerfilSanto ? "open-profile" : (completada ? "restart-novena" : "continue-novena")}"
                         data-id="${escaparHTML(novenaContinuar.id)}">
 
-                        ${esSantoDelDia
+                        ${mostrarPerfilSanto
                             ? "Conocer al santo"
                             : (completada
                                 ? "Volver a rezar"
