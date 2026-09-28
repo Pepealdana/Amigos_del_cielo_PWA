@@ -1819,6 +1819,7 @@ function mostrarResultadosBusquedaPWA(texto) {
     if (!termino) {
         contenedor.hidden = true;
         contenedor.innerHTML = "";
+        document.getElementById("home-search")?.setAttribute("aria-expanded", "false");
         return;
     }
 
@@ -1892,6 +1893,7 @@ function mostrarResultadosBusquedaPWA(texto) {
             `;
 
     contenedor.hidden = false;
+    document.getElementById("home-search")?.setAttribute("aria-expanded", "true");
 }
 
 function actualizarBibliotecaPWA() {
@@ -1903,6 +1905,11 @@ function actualizarBibliotecaPWA() {
 
     contenedor.innerHTML = renderResultadosBiblioteca(
         state.busqueda || ""
+    );
+
+    document.getElementById("library-search")?.setAttribute(
+        "aria-expanded",
+        String(Boolean(state.busqueda?.trim()))
     );
 }
 
