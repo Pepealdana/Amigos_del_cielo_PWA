@@ -1528,7 +1528,8 @@ function manejarClicksPWA(evento) {
                 modo: null,
                 seleccion: null,
                 cargando: false,
-                resultados: null
+                resultados: null,
+                error: null
             };
             if (router.rutaActual === "biblioteca") {
                 renderizar(renderBiblioteca(state.catalogo));
@@ -1700,7 +1701,8 @@ function abrirExploradorBiblioteca(modo) {
         modo,
         seleccion: null,
         cargando: false,
-        resultados: null
+        resultados: null,
+        error: null
     };
 
     if (router.rutaActual === "biblioteca") {
@@ -1735,7 +1737,8 @@ async function seleccionarExploradorBiblioteca(modo, id) {
             modo,
             seleccion: id,
             cargando: false,
-            resultados: resultado.resultados
+            resultados: resultado.resultados,
+            error: null
         };
     } catch (error) {
         console.error("Error cargando relaciones de Biblioteca:", error);
@@ -1744,7 +1747,8 @@ async function seleccionarExploradorBiblioteca(modo, id) {
             modo,
             seleccion: id,
             cargando: false,
-            resultados: []
+            resultados: [],
+            error: "No pudimos completar la búsqueda en este momento. Inténtalo nuevamente."
         };
     }
 
