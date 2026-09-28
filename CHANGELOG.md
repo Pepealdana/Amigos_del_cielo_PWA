@@ -1,13 +1,20 @@
-## [1.3.6] — Camino de santidad y acompañamiento
+## [1.3.6] — Camino de santidad, estabilización y preparación para publicación
 
-- La Biblioteca incorpora el eje editorial **“Los santos también tuvieron un camino”**.
-- Se explica que las historias de santidad pueden comenzar en etapas y circunstancias diferentes: desde la juventud, después de una conversión, en la vida cotidiana o atravesando pruebas.
-- Se refuerza la distinción entre presentar a los santos como testimonios de vida cristiana y presentarlos como personas perfectas o soluciones automáticas para las dificultades.
-- La sección de exploración de Biblioteca pasa a hablar de **testimonios** que pueden acompañar una situación o una virtud.
-- Se refuerza “Mi camino” como espacio para el recorrido personal del usuario.
-- Las fichas de Beatos incorporan el enfoque biográfico de camino de fe.
-- Versión de aplicación: 1.3.6.
-- Caché del Service Worker: v226.
+- Se consolida el eje editorial de Biblioteca **“Los santos también tuvieron un camino”**.
+- Se refuerza la presentación de los santos como personas que recorrieron un camino de fe, evitando presentarlos como personas perfectas desde el comienzo.
+- La exploración de Biblioteca se orienta a testimonios relacionados con situaciones y virtudes.
+- Se refuerza **Mi camino** como espacio para favoritos, progreso y continuidad.
+- Se corrigen incidencias relacionadas con la visualización y acceso a favoritos.
+- Se mejora la estrategia de caché del Service Worker para reducir esperas al navegar y favorecer una respuesta más rápida cuando los recursos ya están disponibles localmente.
+- El Service Worker queda actualizado a **v229**.
+- Se incorporan validaciones automáticas de integridad de la aplicación mediante `validate-app.js`, complementarias a las validaciones de datos existentes.
+- Se incorpora **CodeQL** para análisis de seguridad del código.
+- Se incorpora **Dependabot** para supervisar actualizaciones de GitHub Actions.
+- Se incorpora **Lighthouse CI** para comprobar rendimiento, accesibilidad, buenas prácticas y SEO.
+- Se documentan la arquitectura, criterios editoriales, seguridad, validación y flujo de despliegue.
+- Las comprobaciones automáticas de validación, CodeQL, Lighthouse CI y GitHub Pages se encuentran operativas para la rama principal.
+- Versión de aplicación: **1.3.6**.
+- Caché del Service Worker: **v229**.
 
 ## [1.3.3] — Rediseño de Biblioteca
 
