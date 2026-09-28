@@ -1,3 +1,16 @@
+## [1.3.3] — Rediseño de Biblioteca
+
+- Biblioteca deja de funcionar como un segundo catálogo de santos.
+- Nuevo enfoque de Biblioteca espiritual: oración, descubrimiento, continuidad y calendario.
+- Nueva sección dinámica “Para hoy” con el santo del día cuando existe en el catálogo.
+- Accesos diferenciados a Novenas, Devociones, María y Conocer santos.
+- Nueva sección de continuidad para retomar una novena en curso.
+- Nueva sección “Próximamente” basada en las celebraciones próximas del catálogo.
+- El buscador de Biblioteca pasa a mostrar resultados bajo demanda, sin repetir todo el catálogo al entrar.
+- Se conserva Santos como espacio especializado de exploración del catálogo.
+- Versión de aplicación: 1.3.3.
+- Caché del Service Worker: v223.
+
 ## [1.3.2] — Navegación y Mi camino
 
 - Simplificación del menú lateral mediante grupos: Inicio, Explorar, Mi camino, Comunidad y Aplicación.
