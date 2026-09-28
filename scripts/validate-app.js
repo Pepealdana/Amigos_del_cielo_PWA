@@ -232,7 +232,7 @@ function checkInteractiveActions() {
     const source = fs.readFileSync(path.join(ROOT, file), "utf8");
 
     for (const match of source.matchAll(/data-action\\s*=\\s*["']([^"']+)["']/g)) {
-      actions.add(match[1]);
+      if (!match[1].includes("${") && !match[1].includes("{")) actions.add(match[1]);
     }
 
     for (const match of source.matchAll(/data-action=\\?"([^"]+)\\?"/g)) {
@@ -265,6 +265,11 @@ function checkInteractiveActions() {
     if (!knownDirectActions.has(action) && !handlers.has(action)) {
       warn("JavaScript", "data-action sin handler reconocido: " + action);
     }
+  }
+
+  const indexSource = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
+  for (const match of indexSource.matchAll(/data-route\s*=\s*["']([^"']+)["']/g)) {
+    routes.add(match[1]);
   }
 
   for (const route of routes) {
