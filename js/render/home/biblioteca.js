@@ -208,12 +208,14 @@ function renderBiblioteca(catalogo = []) {
                 </p>
                 <div class="library-discover-modes">
                     <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}"
-                        type="button" data-action="library-explorer-mode" data-mode="intencion">
+                        type="button" data-action="library-explorer-mode" data-mode="intencion"
+                        aria-pressed="${state.bibliotecaExplorador?.modo === "intencion"}">
                         <span class="library-discover-mode-icon" aria-hidden="true">◇</span>
                         <span><strong>Estoy viviendo algo</strong><small>Una situación o intención</small></span>
                     </button>
                     <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}"
-                        type="button" data-action="library-explorer-mode" data-mode="virtud">
+                        type="button" data-action="library-explorer-mode" data-mode="virtud"
+                        aria-pressed="${state.bibliotecaExplorador?.modo === "virtud"}">
                         <span class="library-discover-mode-icon" aria-hidden="true">✦</span>
                         <span><strong>Quiero cultivar algo</strong><small>Una virtud para mi camino</small></span>
                     </button>
@@ -547,7 +549,20 @@ function renderExploradorBiblioteca() {
             </div>
             <div class="library-discover-chips">${opciones}</div>
 
-            ${explorador.cargando ? `
+            ${explorador.error ? `
+                <div class="library-discover-error" role="alert" aria-live="assertive">
+                    <strong>No pudimos completar la búsqueda.</strong>
+                    <p>${escaparHTML(explorador.error)}</p>
+                    <button
+                        type="button"
+                        class="btn btn-outline"
+                        data-action="library-explorer-select"
+                        data-mode="${escaparHTML(explorador.modo)}"
+                        data-id="${escaparHTML(explorador.seleccion || "")}">
+                        Intentar nuevamente
+                    </button>
+                </div>
+            ` : explorador.cargando ? `
                 <div class="library-discover-loading" role="status">
                     <span class="library-loading-dot" aria-hidden="true">✦</span>
                     <p>Buscando entre los contenidos de Amigos del Cielo…</p>
