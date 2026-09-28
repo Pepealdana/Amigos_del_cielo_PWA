@@ -1,26 +1,39 @@
-name: Validar datos de Amigos del Cielo
+name: Validar aplicación Amigos del Cielo
 
 on:
   push:
     paths:
       - 'data/**'
-      - 'scripts/validate-data.js'
-      - '.github/workflows/validate-data.yml'
+      - 'js/**'
+      - 'scripts/**'
+      - 'service-worker.js'
+      - 'index.html'
+      - 'manifest.json'
+      - '.github/workflows/**'
   pull_request:
     paths:
       - 'data/**'
-      - 'scripts/validate-data.js'
-      - '.github/workflows/validate-data.yml'
+      - 'js/**'
+      - 'scripts/**'
+      - 'service-worker.js'
+      - 'index.html'
+      - 'manifest.json'
+      - '.github/workflows/**'
 
 jobs:
-  validate-json:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+
       - name: Instalar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Validar catálogo y novenas
+
+      - name: Validar datos
         run: node scripts/validate-data.js
+
+      - name: Validar integridad de la aplicación
+        run: node scripts/validate-app.js
