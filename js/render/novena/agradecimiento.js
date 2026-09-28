@@ -2,7 +2,10 @@
    RENDER AGRADECIMIENTO
 ========================================== */
 
-function renderAgradecimiento(novena) {
+function renderAgradecimiento(
+    novena,
+    rutaOrigen = "biblioteca"
+) {
 
     if (!novena) {
 
@@ -90,9 +93,9 @@ function renderAgradecimiento(novena) {
                 <button
                     class="btn btn-secondary"
                     type="button"
-                    data-route="inicio">
+                    data-route="${escaparHTML(rutaOrigen)}">
 
-                    Ir al inicio
+                    Volver a donde estaba
 
                 </button>
 
