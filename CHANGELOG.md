@@ -1,3 +1,14 @@
+## [1.3.6] — Camino de santidad y acompañamiento
+
+- La Biblioteca incorpora el eje editorial **“Los santos también tuvieron un camino”**.
+- Se explica que las historias de santidad pueden comenzar en etapas y circunstancias diferentes: desde la juventud, después de una conversión, en la vida cotidiana o atravesando pruebas.
+- Se refuerza la distinción entre presentar a los santos como testimonios de vida cristiana y presentarlos como personas perfectas o soluciones automáticas para las dificultades.
+- La sección de exploración de Biblioteca pasa a hablar de **testimonios** que pueden acompañar una situación o una virtud.
+- Se refuerza “Mi camino” como espacio para el recorrido personal del usuario.
+- Las fichas de Beatos incorporan el enfoque biográfico de camino de fe.
+- Versión de aplicación: 1.3.6.
+- Caché del Service Worker: v226.
+
 ## [1.3.3] — Rediseño de Biblioteca
 
 - Biblioteca deja de funcionar como un segundo catálogo de santos.
