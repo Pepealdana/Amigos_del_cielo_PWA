@@ -126,7 +126,14 @@ function bibliotecaTextoContiene(texto, termino) {
     if (!valor) return false;
 
     if (valor.length <= 4 && !valor.includes(" ")) {
-        const escapado = valor.replace(/[.*+?^${}()|[\]\\]/g, "\\const escapado = valor.replace(/[.*+?^{}()|[\]\\]/g, "\\function obtenerDefinicionBiblioteca(tipo, id) {");");
+        const escapado = valor.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&");
+        return new RegExp("(^|\\s)" + escapado + "(?=\\s|$)", "i").test(texto);
+    }
+
+    return texto.includes(valor);
+}
+
+function obtenerDefinicionBiblioteca(tipo, id) {");");
         return new RegExp("(^|\\s)" + escapado + "(?=\\s|$)", "i").test(texto);
     }
 
