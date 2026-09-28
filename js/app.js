@@ -1411,6 +1411,7 @@ function manejarClicksPWA(evento) {
         const id = accion.dataset.id;
 
         if (tipo === "open-novena" && id) {
+            cerrarModal();
             abrirNovena(id);
             return;
         }
