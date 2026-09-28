@@ -695,6 +695,19 @@ async function abrirNovena(id) {
 
     cerrarMenu();
 
+    if (!id) {
+        return;
+    }
+
+    /*
+     * Respuesta visual inmediata:
+     * el usuario recibe confirmación del toque mientras
+     * se obtiene el contenido de la novena.
+     */
+    renderizar(
+        renderLoader("Abriendo contenido...")
+    );
+
     try {
 
         await cargarNovena(id);
