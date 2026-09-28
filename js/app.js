@@ -763,7 +763,12 @@ async function abrirNovena(id) {
 
 }
 
-function volverDesdeNovena() {
+function volverDesdeNovena(nivel = "portada") {
+
+    if (nivel === "origen") {
+        navegar(state.origenNovena || "biblioteca");
+        return;
+    }
 
     if (!state.novenaActual) {
         navegar(state.origenNovena || "biblioteca");
@@ -1532,7 +1537,7 @@ function manejarClicksPWA(evento) {
         }
 
         if (tipo === "back-novena") {
-            volverDesdeNovena();
+            volverDesdeNovena(accion.dataset.backLevel || "portada");
             return;
         }
     }
