@@ -162,10 +162,18 @@ function renderAcerca() {
 
             <div class="divider"></div>
 
-            <p class="version">
-                Versión
-                ${APP_CONFIG.version}
-            </p>
+            <div class="about-version">
+                <p class="version">
+                    Versión
+                    ${APP_CONFIG.version}
+                </p>
+
+                <img
+                    class="about-version-logo"
+                    src="assets/branding/isotipo-amigos-del-cielo.webp"
+                    alt=""
+                    aria-hidden="true">
+            </div>
 
         </section>
 
