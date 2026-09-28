@@ -2,10 +2,35 @@
    RENDER AGRADECIMIENTO
 ========================================== */
 
+function obtenerEtiquetaRetornoNovena(rutaOrigen = "biblioteca") {
+    const etiquetas = {
+        inicio: "Volver a Inicio",
+        biblioteca: "Volver a Biblioteca",
+        todos: "Volver a Todos",
+        santos: "Volver a Santos",
+        beatos: "Volver a Beatos",
+        maria: "Volver a María",
+        novenas: "Volver a Novenas",
+        devociones: "Volver a Devociones",
+        favoritas: "Volver a Favoritas",
+        progreso: "Volver a Mi progreso",
+        camino: "Volver a Mi camino"
+    };
+
+    return etiquetas[rutaOrigen] || etiquetas.biblioteca;
+}
+
 function renderAgradecimiento(
     novena,
     rutaOrigen = "biblioteca"
 ) {
+    const totalDias =
+        Number(novena?.novena?.days) ||
+        novena?.days?.length ||
+        APP_CONFIG.diasNovena;
+
+    const etiquetaRetorno =
+        obtenerEtiquetaRetornoNovena(rutaOrigen);
 
     if (!novena) {
 
@@ -52,7 +77,7 @@ function renderAgradecimiento(
             <p>
 
                 Gracias por dedicar estos
-                nueve días de oración junto
+                ${escaparHTML(String(totalDias))} días de oración junto
                 a <strong>${novena.name}</strong>.
 
             </p>
@@ -95,7 +120,7 @@ function renderAgradecimiento(
                     type="button"
                     data-route="${escaparHTML(rutaOrigen)}">
 
-                    Volver a donde estaba
+                    ${escaparHTML(etiquetaRetorno)}
 
                 </button>
 
