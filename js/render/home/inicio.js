@@ -438,9 +438,9 @@ function renderInicio(catalogo = [], progreso = {}) {
                         id="home-search"
                         type="search"
                         value="${escaparHTML(state.busqueda || "")}"
-                        placeholder="Buscar una novena o un santo..."
+                        placeholder="Buscar una novena, santo o devoción..."
                         autocomplete="off"
-                        aria-label="Buscar una novena o un santo">
+                        aria-label="Buscar una novena, santo o devoción">
 
                 </div>
 
