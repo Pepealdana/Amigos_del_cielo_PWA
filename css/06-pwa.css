@@ -693,18 +693,26 @@ body::before{
 }
 
 .side-menu > .menu-close-button{
-    width:44px;
-    height:44px;
-    min-width:44px;
-    min-height:44px;
-    margin:0;
-    padding:0;
-    border-radius:50%;
-    background:transparent;
-    color:var(--color-text);
-    text-align:center;
-    font-size:1.7rem;
-    line-height:1;
+    position:absolute !important;
+    top:1rem !important;
+    right:1rem !important;
+    left:auto !important;
+    width:44px !important;
+    height:44px !important;
+    min-width:44px !important;
+    max-width:44px !important;
+    min-height:44px !important;
+    max-height:44px !important;
+    margin:0 !important;
+    padding:0 !important;
+    border:1px solid var(--color-border) !important;
+    border-radius:50% !important;
+    background:transparent !important;
+    color:var(--color-text) !important;
+    text-align:center !important;
+    font-size:1.7rem !important;
+    line-height:1 !important;
+    flex:0 0 44px !important;
 }
 
 .side-menu > .menu-close-button:hover{
