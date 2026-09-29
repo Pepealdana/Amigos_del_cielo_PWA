@@ -245,7 +245,7 @@ async function cargarJSONConRecuperacion(ruta) {
 
     try {
 
-        const response = await fetch(ruta, { cache: "no-cache" });
+        const response = await fetch(ruta, { cache: "default" });
 
         if (!response.ok) {
             const error = new Error(
