@@ -220,12 +220,12 @@ function renderCamino(
 
             ${historialHTML}
 
-            <section class="camino-summary">
+            <section class="camino-summary" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;width:100%;max-width:760px;margin:1.25rem auto 0;">
 
-                <article class="camino-summary-card camino-summary-favorites">
+                <article class="camino-summary-card camino-summary-favorites" style="min-width:0;min-height:170px;padding:14px;">
                     <div class="camino-summary-heading">
                         <span class="camino-summary-icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <svg style="width:22px;height:22px;display:block;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M20.8 8.8c0 5.2-8.8 10.2-8.8 10.2S3.2 14 3.2 8.8A4.6 4.6 0 0 1 12 6.4a4.6 4.6 0 0 1 8.8 2.4Z"/>
                             </svg>
                         </span>
@@ -244,7 +244,7 @@ function renderCamino(
                     </button>
                 </article>
 
-                <article class="camino-summary-card camino-summary-progress">
+                <article class="camino-summary-card camino-summary-progress" style="min-width:0;min-height:170px;padding:14px;">
                     <div class="camino-summary-heading">
                         <span class="camino-summary-icon" aria-hidden="true">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
