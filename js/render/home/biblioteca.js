@@ -4,9 +4,20 @@
 ========================================== */
 
 function obtenerContenidoBiblioteca() {
-    return Array.isArray(state.catalogo)
-        ? state.catalogo.filter(item => item?.status === "published")
-        : [];
+    if (Array.isArray(state.catalogo) && state.catalogo.length) {
+        return state.catalogo.filter(item => item?.status === "published");
+    }
+
+    /*
+     * Fallback para el primer render: si el catálogo plano todavía no ha
+     * terminado de construirse, usamos directamente los cuatro catálogos V2.
+     */
+    const categorias = ["santos", "beatos", "maria", "devociones"];
+    return categorias.flatMap(categoria =>
+        Array.isArray(state.catalogosV2?.[categoria])
+            ? state.catalogosV2[categoria].filter(item => item?.status === "published")
+            : []
+    );
 }
 
 function obtenerSantoDelDiaBiblioteca() {
@@ -580,9 +591,13 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
                                     <strong>${escaparHTML(item.name)}</strong>
 
                                     <p class="library-related-example">
-                                        <span>${etiquetaEjemplo}</span>
-                                        ${escaparHTML(resultado.ejemplo || "Su testimonio invita a vivir esta virtud de forma concreta.")}
-                                    </p>
+                                         <span>
+                                             ${resultado.referenciaNovena?.day
+                                                 ? "Día " + escaparHTML(String(resultado.referenciaNovena.day)) + " · " + escaparHTML(etiquetaEjemplo)
+                                                 : etiquetaEjemplo}
+                                         </span>
+                                         ${escaparHTML(resultado.ejemplo || "Su testimonio invita a vivir esta virtud de forma concreta.")}
+                                     </p>
 
                                     <button
                                         type="button"
@@ -607,8 +622,9 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
                     <span class="library-kicker">Historias para inspirarte</span>
                     <strong>${escaparHTML(definicion.label)}</strong>
                     <p>
-                        No es un ranking. Son testimonios del catálogo que muestran
-                        distintas maneras de vivir o expresar esta virtud.
+                        Son algunas vidas y testimonios del catálogo relacionados
+                        con esta búsqueda. La selección puede cambiar para que
+                        puedas descubrir distintas historias.
                     </p>
                 </div>
                 <span class="library-related-count">
