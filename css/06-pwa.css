@@ -3274,3 +3274,59 @@ body.dark .library-related-card{
         padding:11px !important;
     }
 }
+
+
+/* Mi camino — explorador de experiencias y virtudes */
+.camino-explorer{
+    max-width:760px;
+    margin:1.5rem auto 2rem;
+    padding:1.4rem 0 0;
+    border-top:1px solid var(--border-subtle);
+}
+
+.camino-explorer .library-section-heading{
+    margin-bottom:.65rem;
+}
+
+.camino-explorer .library-discover-intro{
+    max-width:68ch;
+}
+
+.camino-explorer .library-discover-modes{
+    display:flex;
+    flex-direction:column;
+    gap:.65rem;
+    margin-top:1rem;
+}
+
+.camino-explorer .library-discover-mode{
+    width:100%;
+    min-height:58px;
+    padding:.8rem 1rem;
+    border:1px solid var(--border-subtle);
+    border-radius:18px;
+    background:var(--color-surface);
+    color:var(--color-primary);
+    text-align:left;
+    box-shadow:0 2px 8px rgba(20,35,55,.04);
+}
+
+.camino-explorer .library-discover-mode:hover,
+.camino-explorer .library-discover-mode.is-active{
+    border-color:var(--color-primary);
+}
+
+.camino-explorer .library-discover-panel{
+    margin-top:.8rem;
+}
+
+@media(max-width:700px){
+    .camino-explorer{
+        margin-top:1.25rem;
+        padding-top:1.2rem;
+    }
+
+    .camino-explorer .library-discover-mode{
+        min-height:54px;
+    }
+}
