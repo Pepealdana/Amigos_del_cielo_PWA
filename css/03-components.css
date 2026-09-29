@@ -987,6 +987,9 @@
 
     margin-top:2.25rem;
 
+    scroll-margin-top:
+        calc(var(--topbar-height) + 1rem);
+
 }
 
 .common-prayers h3{
