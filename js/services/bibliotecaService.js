@@ -76,12 +76,32 @@ function obtenerTextoContenidoBiblioteca(item) {
         ...(Array.isArray(item?.tags) ? item.tags : []),
         ...(Array.isArray(item?.patronages) ? item.patronages : []),
         ...(Array.isArray(item?.virtues) ? item.virtues : []),
-        ...intervenciones
+        ...intervenciones,
+        obtenerTextoDiasBiblioteca(item)
     ].filter(Boolean).join(" ");
 }
 
 async function cargarContenidoBibliotecaCompleto() {
-    const publicados = obtenerContenidoBiblioteca();
+    /*
+     * El explorador espiritual se alimenta del contenido real de las novenas.
+     * No mantiene una lista manual de santos recomendados.
+     *
+     * Un contenido entra aquí cuando:
+     * - está publicado en el catálogo maestro;
+     * - tiene sourceFile;
+     * - y su JSON contiene una novena o sus días.
+     *
+     * Así, una novena nueva queda integrada automáticamente al explorador
+     * al incorporarse al catálogo.
+     */
+    const publicados = obtenerContenidoBiblioteca()
+        .filter(item =>
+            item?.sourceFile &&
+            (
+                item?.novena?.days ||
+                Array.isArray(item?.days)
+            )
+        );
 
     const pendientes = publicados.filter(item => {
         const clave = item.id;
@@ -210,6 +230,108 @@ function obtenerEjemploBiblioteca(item, definicion, tipo) {
         "Su testimonio invita a vivir esta virtud de forma concreta.";
 }
 
+function obtenerDiasBiblioteca(item) {
+    return Array.isArray(item?.days)
+        ? item.days.filter(Boolean)
+        : [];
+}
+
+function obtenerTextoDiasBiblioteca(item) {
+    return obtenerDiasBiblioteca(item)
+        .flatMap(dia => [
+            dia?.theme,
+            dia?.title,
+            dia?.virtue,
+            dia?.reflection,
+            dia?.intention,
+            dia?.action,
+            dia?.life?.text,
+            dia?.learning?.text,
+            dia?.prayer?.text
+        ])
+        .filter(Boolean)
+        .join(" ");
+}
+
+function obtenerEjemploDesdeNovenaBiblioteca(item, definicion, tipo) {
+    const dias = obtenerDiasBiblioteca(item);
+
+    if (!dias.length) return null;
+
+    const terminos = [
+        definicion?.label,
+        ...(Array.isArray(definicion?.keywords) ? definicion.keywords : [])
+    ]
+        .map(normalizarBibliotecaTexto)
+        .filter(Boolean);
+
+    let mejor = null;
+    let mejorPuntuacion = 0;
+
+    for (const dia of dias) {
+        const campos = [
+            dia?.theme,
+            dia?.title,
+            dia?.virtue,
+            dia?.reflection,
+            dia?.intention,
+            dia?.action,
+            dia?.life?.text,
+            dia?.learning?.text
+        ]
+            .filter(Boolean)
+            .join(" ");
+
+        const texto = normalizarBibliotecaTexto(campos);
+        let puntuacion = 0;
+
+        for (const termino of terminos) {
+            if (!termino) continue;
+
+            if (normalizarBibliotecaTexto(String(dia?.virtue || "")).includes(termino)) {
+                puntuacion += tipo === "virtud" ? 14 : 4;
+            }
+
+            if (texto.includes(termino)) {
+                puntuacion += tipo === "virtud" ? 3 : 5;
+            }
+        }
+
+        if (puntuacion > mejorPuntuacion) {
+            mejorPuntuacion = puntuacion;
+            mejor = dia;
+        }
+    }
+
+    if (!mejor) return null;
+
+    /*
+     * Para personas usamos primero el relato de vida del día:
+     * permite mostrar una acción o decisión concreta del santo/beato.
+     * Para María y devociones se utiliza el aprendizaje o la acción
+     * que la propia novena destaca.
+     */
+    const categoria = String(item?.category || "").toLowerCase();
+
+    if (mejor.life?.text) {
+        return mejor.life.text;
+    }
+
+    if (mejor.learning?.text) {
+        return mejor.learning.text;
+    }
+
+    if (mejor.action) {
+        return mejor.action;
+    }
+
+    if (mejor.reflection) {
+        return mejor.reflection;
+    }
+
+    return mejor.title || mejor.theme || null;
+}
+
 function puntuarRelacionBiblioteca(item, definicion, tipo) {
     const intervenciones = Array.isArray(item?.interventions)
         ? item.interventions
@@ -248,10 +370,17 @@ function puntuarRelacionBiblioteca(item, definicion, tipo) {
         const termino = normalizarBibliotecaTexto(keyword);
         if (!termino) continue;
 
+        const textoDias = normalizarBibliotecaTexto(
+            obtenerTextoDiasBiblioteca(item)
+        );
+
         if (tipo === "virtud") {
             if (bibliotecaTextoContiene(textoVirtudes, termino)) {
                 score += 10;
                 coincidencias.push("virtudes");
+            } else if (bibliotecaTextoContiene(textoDias, termino)) {
+                score += 8;
+                coincidencias.push("días de la novena");
             } else if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
                 score += 3;
                 coincidencias.push("intervenciones");
@@ -302,7 +431,9 @@ async function obtenerResultadosBiblioteca(tipo, id) {
                 score: relacion.score,
                 coincidencias: relacion.coincidencias,
                 categoria: obtenerCategoriaBiblioteca(item),
-                ejemplo: obtenerEjemploBiblioteca(item, definicion, tipo)
+                ejemplo:
+                    obtenerEjemploDesdeNovenaBiblioteca(item, definicion, tipo) ||
+                    obtenerEjemploBiblioteca(item, definicion, tipo)
             };
         })
         .filter(resultado => resultado.score >= (tipo === "intencion" ? 4 : 6))
