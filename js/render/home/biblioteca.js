@@ -425,7 +425,18 @@ function renderResultadosBiblioteca(texto = "") {
 
 function renderExploradorBiblioteca() {
     const explorador = state.bibliotecaExplorador || {};
-    if (!explorador.modo) return "";
+
+    if (!explorador.modo) {
+        return `
+            <div class="library-discover-start">
+                <span class="library-discover-start-icon" aria-hidden="true">✦</span>
+                <div>
+                    <strong>Elige cómo quieres acercarte a una historia</strong>
+                    <p>Una virtud puede convertirse en una pequeña forma de vivir la fe hoy.</p>
+                </div>
+            </div>
+        `;
+    }
 
     const definiciones = explorador.modo === "virtud"
         ? BIBLIOTECA_VIRTUDES
@@ -446,20 +457,31 @@ function renderExploradorBiblioteca() {
             type="button"
             data-action="library-explorer-select"
             data-mode="${escaparHTML(explorador.modo)}"
-            data-id="${escaparHTML(item.id)}">
-            <span aria-hidden="true">${escaparHTML(item.icon)}</span>
-            ${escaparHTML(item.label)}
+            data-id="${escaparHTML(item.id)}"
+            aria-pressed="${item.id === explorador.seleccion}">
+            <span class="library-discover-chip-icon" aria-hidden="true">${escaparHTML(item.icon)}</span>
+            <span>${escaparHTML(item.label)}</span>
         </button>
     `).join("");
 
     return `
         <div class="library-discover-panel">
             <div class="library-discover-panel-heading">
-                <strong>${titulo}</strong>
-                <button type="button" class="library-discover-clear"
-                    data-action="library-explorer-reset">Cerrar</button>
+                <div>
+                    <span class="library-kicker">${explorador.modo === "virtud" ? "Paso 1 · Elige" : "Paso 1 · Reconoce"}</span>
+                    <strong>${titulo}</strong>
+                </div>
+                <button
+                    type="button"
+                    class="library-discover-clear"
+                    data-action="library-explorer-reset">
+                    Cambiar
+                </button>
             </div>
-            <div class="library-discover-chips">${opciones}</div>
+
+            <div class="library-discover-chips" aria-label="${escaparHTML(titulo)}">
+                ${opciones}
+            </div>
 
             ${explorador.error ? `
                 <div class="library-discover-error" role="alert" aria-live="assertive">
@@ -475,20 +497,21 @@ function renderExploradorBiblioteca() {
                     </button>
                 </div>
             ` : explorador.cargando ? `
-                <div class="library-discover-loading" role="status">
+                <div class="library-discover-loading" role="status" aria-live="polite">
                     <span class="library-loading-dot" aria-hidden="true">✦</span>
-                    <p>Buscando entre los contenidos de Amigos del Cielo…</p>
+                    <p>Buscando testimonios relacionados…</p>
                 </div>
             ` : seleccion && explorador.resultados ? `
                 ${renderResultadosRelacionBiblioteca(seleccion, explorador.resultados)}
             ` : seleccion ? `
                 <div class="library-discover-hint">
                     <strong>${escaparHTML(seleccion.label)}</strong>
-                    <p>Selecciona esta intención para conocer los testimonios relacionados.</p>
+                    <p>Ahora busca ejemplos concretos de esta virtud en las historias de Amigos del Cielo.</p>
                 </div>
             ` : `
                 <div class="library-discover-hint">
-                    <p>Elige una opción para comenzar.</p>
+                    <strong>Tu punto de partida</strong>
+                    <p>Selecciona una opción. La aplicación buscará relaciones documentadas en las fichas del catálogo.</p>
                 </div>
             `}
         </div>
@@ -499,51 +522,101 @@ function renderResultadosRelacionBiblioteca(definicion, resultados) {
     if (!resultados.length) {
         return `
             <div class="library-discover-empty">
-                <strong>Aún no encontramos una relación suficientemente clara.</strong>
-                <p>Podemos ampliar esta categoría cuando la ficha de un santo tenga una relación documentada.</p>
+                <strong>Aún no hay testimonios suficientemente relacionados.</strong>
+                <p>Preferimos mostrar pocos vínculos bien sustentados antes que convertir esta sección en un ranking de santos.</p>
             </div>
         `;
     }
 
+    const grupos = [
+        { clave: "santos", titulo: "Santos" },
+        { clave: "beatos", titulo: "Beatos y beatas" },
+        { clave: "maria", titulo: "María" },
+        { clave: "devociones", titulo: "Devociones" }
+    ];
+
+    const secciones = grupos.map(grupo => {
+        const items = resultados.filter(
+            resultado => String(resultado.item?.category || "").toLowerCase() === grupo.clave
+        );
+
+        if (!items.length) return "";
+
+        return `
+            <section class="library-related-group" aria-labelledby="library-related-${grupo.clave}">
+                <h4 id="library-related-${grupo.clave}">${grupo.titulo}</h4>
+                <div class="library-related-list">
+                    ${items.map(resultado => {
+                        const item = resultado.item;
+                        const accion = tieneNovenaDisponibleBiblioteca(item)
+                            ? "open-novena"
+                            : "open-profile";
+                        const esDevocion = ["maria", "devociones"].includes(
+                            String(item?.category || "").toLowerCase()
+                        );
+                        const etiquetaEjemplo = esDevocion
+                            ? "Lo que se resalta"
+                            : "Un ejemplo de su camino";
+
+                        return `
+                            <article class="library-related-card">
+                                ${item.image ? `
+                                    <img
+                                        src="${escaparHTML(item.image)}"
+                                        alt=""
+                                        class="library-related-image"
+                                        loading="lazy">
+                                ` : `
+                                    <span
+                                        class="library-related-image library-image-placeholder"
+                                        aria-hidden="true">✦</span>
+                                `}
+
+                                <div class="library-related-content">
+                                    <span class="library-related-category">
+                                        ${escaparHTML(resultado.categoria || "Testimonio cristiano")}
+                                    </span>
+
+                                    <strong>${escaparHTML(item.name)}</strong>
+
+                                    <p class="library-related-example">
+                                        <span>${etiquetaEjemplo}</span>
+                                        ${escaparHTML(resultado.ejemplo || "Su testimonio invita a vivir esta virtud de forma concreta.")}
+                                    </p>
+
+                                    <button
+                                        type="button"
+                                        class="btn btn-outline library-related-button"
+                                        data-action="${accion}"
+                                        data-id="${escaparHTML(item.id)}">
+                                        ${accion === "open-novena" ? "Ver novena" : "Conocer su historia"}
+                                    </button>
+                                </div>
+                            </article>
+                        `;
+                    }).join("")}
+                </div>
+            </section>
+        `;
+    }).join("");
+
     return `
-        <div class="library-related-heading">
-            <div>
-                <span class="library-kicker">Testimonios que pueden acompañarte</span>
-                <strong>${escaparHTML(definicion.label)}</strong>
+        <div class="library-related-results">
+            <div class="library-related-heading">
+                <div>
+                    <span class="library-kicker">Historias para inspirarte</span>
+                    <strong>${escaparHTML(definicion.label)}</strong>
+                    <p>
+                        No es un ranking. Son testimonios del catálogo que muestran
+                        distintas maneras de vivir o expresar esta virtud.
+                    </p>
+                </div>
+                <span class="library-related-count">
+                    ${resultados.length} testimonios
+                </span>
             </div>
-            <small>${resultados.length} resultados relacionados</small>
-        </div>
 
-        <div class="library-related-list">
-            ${resultados.map(resultado => {
-                const item = resultado.item;
-                const accion = tieneNovenaDisponibleBiblioteca(item)
-                    ? "open-novena"
-                    : "open-profile";
-                const razon = resultado.coincidencias.includes("intervenciones")
-                    ? "Relacionado con su vida o misión"
-                    : resultado.coincidencias.includes("tradición devocional")
-                        ? "Relacionado con una tradición de devoción"
-                        : "Relacionado con sus virtudes";
-
-                return `
-                    <article class="library-related-card">
-                        ${item.image ? `
-                            <img src="${escaparHTML(item.image)}"
-                                alt="" class="library-related-image" loading="lazy">
-                        ` : `<span class="library-related-image library-image-placeholder" aria-hidden="true">✦</span>`}
-                        <div class="library-related-content">
-                            <strong>${escaparHTML(item.name)}</strong>
-                            <span>${escaparHTML(item.title || "Testimonio de vida cristiana")}</span>
-                            <small>${escaparHTML(razon)}</small>
-                            <button type="button" class="btn btn-outline library-related-button"
-                                data-action="${accion}" data-id="${escaparHTML(item.id)}">
-                                ${accion === "open-novena" ? "Ver novena" : "Conocerlo"}
-                            </button>
-                        </div>
-                    </article>
-                `;
-            }).join("")}
+            ${secciones}
         </div>
     `;
 }
