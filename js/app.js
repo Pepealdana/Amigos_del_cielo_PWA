@@ -1732,7 +1732,9 @@ function manejarClicksPWA(evento) {
                 error: null
             };
             if (router.rutaActual === "biblioteca") {
-                renderizar(renderBiblioteca(state.catalogo));
+                mostrarBiblioteca();
+            } else if (router.rutaActual === "camino") {
+                mostrarCamino();
             }
             return;
         }
@@ -1906,7 +1908,9 @@ function abrirExploradorBiblioteca(modo) {
     };
 
     if (router.rutaActual === "biblioteca") {
-        renderizar(renderBiblioteca(state.catalogo));
+        mostrarBiblioteca();
+    } else if (router.rutaActual === "camino") {
+        mostrarCamino();
     }
 }
 
@@ -1928,7 +1932,11 @@ async function seleccionarExploradorBiblioteca(modo, id) {
         resultados: null
     };
 
-    renderizar(renderBiblioteca(state.catalogo));
+    if (router.rutaActual === "camino") {
+        mostrarCamino();
+    } else {
+        mostrarBiblioteca();
+    }
 
     try {
         const resultado = await obtenerResultadosBiblioteca(modo, id);
@@ -1953,7 +1961,9 @@ async function seleccionarExploradorBiblioteca(modo, id) {
     }
 
     if (router.rutaActual === "biblioteca") {
-        renderizar(renderBiblioteca(state.catalogo));
+        mostrarBiblioteca();
+    } else if (router.rutaActual === "camino") {
+        mostrarCamino();
     }
 }
 
