@@ -102,9 +102,14 @@ function renderOracionesComunesDelDia(novena) {
     return `
         <section class="prayer common-prayers">
             <h3>Oraciones comunes</h3>
-            ${oraciones.map(oracion =>
-                renderOracion(oracion.title, oracion.text)
-            ).join("")}
+            ${oraciones.map(oracion => `
+                <article class="prayer-card">
+                    <div class="prayer-text">
+                        <h4>${escaparHTML(oracion.title)}</h4>
+                        <p>${escaparHTML(oracion.text)}</p>
+                    </div>
+                </article>
+            `).join("")}
         </section>
     `;
 }
