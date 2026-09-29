@@ -12,6 +12,7 @@ const CATALOG_V2_PATHS = {
 };
 
 let catalogosV2Cargados = false;
+const novenasCargadasEnSesion = new Map();
 
 async function cargarCatalogosV2() {
 
@@ -148,9 +149,13 @@ async function cargarNovena(id) {
     }
 
     const ruta = "./" + archivo.replace(/^\.\//, "");
-    const novena = await cargarJSONConRecuperacion(ruta);
 
-    await cargarOraciones();
+    let novena = novenasCargadasEnSesion.get(id);
+
+    if (!novena) {
+        novena = await cargarJSONConRecuperacion(ruta);
+        novenasCargadasEnSesion.set(id, novena);
+    }
 
     if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
         const error = new Error("Los datos de la novena no son válidos.");
