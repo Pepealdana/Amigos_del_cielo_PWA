@@ -266,6 +266,32 @@ document.addEventListener(
 );
 
 /* ==========================================
+   PANTALLA DE INICIO
+========================================== */
+
+function ocultarPantallaInicio() {
+
+    const splash =
+        document.getElementById(
+            "app-splash"
+        );
+
+    if (!splash) {
+        return;
+    }
+
+    splash.classList.add(
+        "is-hidden"
+    );
+
+    window.setTimeout(
+        () => splash.remove(),
+        350
+    );
+
+}
+
+/* ==========================================
    INICIAR APLICACIÓN
 ========================================== */
 
@@ -309,6 +335,8 @@ async function iniciarApp() {
             mostrarInicio();
         }
 
+        ocultarPantallaInicio();
+
     }
 
     catch (error) {
@@ -326,6 +354,8 @@ async function iniciarApp() {
             obtenerTituloErrorInicio(error),
             "reload"
         );
+
+        ocultarPantallaInicio();
 
     }
 
