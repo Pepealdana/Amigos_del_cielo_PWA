@@ -86,7 +86,13 @@ function renderCard(novena) {
 
                     "Abrir Novena",
 
-                    `abrirNovena('${escaparHTML(novena.id)}')`
+                    "open-novena",
+
+                    "primary",
+
+                    "",
+
+                    novena.id
 
                 )}
 
