@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v284";
+const CACHE_NAME = "amigos-del-cielo-v285";
 
 const APP_SHELL = [
     "./",
@@ -183,10 +183,7 @@ const APP_SHELL = [
     "./js/render/home/acerca.js",
     "./js/router.js",
     "./js/app.js",
-    "./assets/branding/isotipo-amigos-del-cielo.webp",
-    "./assets/branding/isotipo-splash.svg",
-    "./assets/branding/splash-horizontal-512.png",
-    "./assets/branding/logo-horizontal-amigos-del-cielo.webp",
+    "./assets/branding/isotipo-amigos-del-cielo.webp?v=285",
     "./assets/images/santos/beata_clara_fey.webp",
     "./assets/images/santos/beata_chiara_luce_badano.webp",
     "./assets/images/santos/beato_michael_mcgivney.webp",
