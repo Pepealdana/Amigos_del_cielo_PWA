@@ -152,8 +152,6 @@ async function cargarNovena(id) {
 
     await cargarOraciones();
 
-    await cargarOraciones();
-
     if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
         const error = new Error("Los datos de la novena no son válidos.");
         error.code = "NOVENA_INVALID";
@@ -167,8 +165,6 @@ async function cargarNovena(id) {
     }
 
     novena.id = resumen?.id || resumenV2?.id || id;
-
-    novena.prayerStructure = resumen?.prayerStructure || resumenV2?.prayerStructure || novena.prayerStructure || null;
 
     novena.prayerStructure = resumen?.prayerStructure || resumenV2?.prayerStructure || novena.prayerStructure || null;
 
