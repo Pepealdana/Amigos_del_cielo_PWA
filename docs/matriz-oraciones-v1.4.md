@@ -6,14 +6,14 @@ Esta matriz distingue la configuración declarada en `prayerStructure` de la exi
 
 | # | ID | Nombre | Categoría | Archivo | Tipo | Oración diaria | Apertura | Oraciones comunes | Cierre | Especial | Estado V1.4 |
 |---:|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | `san-jose` | San José | santos | `data/san-jose.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 2 | `san-antonio-de-padua` | San Antonio de Padua | santos | `data/san-antonio-de-padua.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 3 | `san-agustin-de-hipona` | San Agustín de Hipona | santos | `data/san-agustin-de-hipona.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 4 | `san-benito-abad` | San Benito Abad | santos | `data/san-benito-abad.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 5 | `san-francisco-de-asis` | San Francisco de Asís | santos | `data/san-francisco-de-asis.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 6 | `san-ignacio-de-loyola` | San Ignacio de Loyola | santos | `data/san-ignacio-de-loyola.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 7 | `san-juan-bautista` | San Juan Bautista | santos | `data/san-juan-bautista.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 8 | `san-juan-bosco` | San Juan Bosco | santos | `data/san-juan-bosco.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
+| 1 | `san-jose` | San José | santos | `data/san-jose.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 2 | `san-antonio-de-padua` | San Antonio de Padua | santos | `data/san-antonio-de-padua.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 3 | `san-agustin-de-hipona` | San Agustín de Hipona | santos | `data/san-agustin-de-hipona.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 4 | `san-benito-abad` | San Benito Abad | santos | `data/san-benito-abad.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 5 | `san-francisco-de-asis` | San Francisco de Asís | santos | `data/san-francisco-de-asis.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 6 | `san-ignacio-de-loyola` | San Ignacio de Loyola | santos | `data/san-ignacio-de-loyola.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 7 | `san-juan-bautista` | San Juan Bautista | santos | `data/san-juan-bautista.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 8 | `san-juan-bosco` | San Juan Bosco | santos | `data/san-juan-bosco.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
 | 9 | `san-martin-de-porres` | San Martín de Porres | santos | `data/san-martin-de-porres.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
 | 10 | `san-pio-de-pietrelcina` | San Pío de Pietrelcina | santos | `data/san-pio-de-pietrelcina.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
 | 11 | `san-pedro-claver` | San Pedro Claver | santos | `data/san-pedro-claver.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
