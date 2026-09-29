@@ -109,7 +109,17 @@ async function cargarContenidoBibliotecaCompleto() {
 
     const pendientes = publicados.filter(item => {
         const clave = item.id;
-        return clave && !bibliotecaContenidoCache.has(clave);
+        const cacheado = clave ? bibliotecaContenidoCache.get(clave) : null;
+
+        /*
+         * Los fallos de carga son temporales: no los tratamos como
+         * definitivos. Así una novena que no pudo descargarse en un
+         * intento vuelve a intentarse cuando el explorador se utiliza.
+         */
+        return clave && (
+            !cacheado ||
+            cacheado._relacionesNoDisponibles === true
+        );
     });
 
     const lote = 8;
@@ -141,6 +151,12 @@ async function cargarContenidoBibliotecaCompleto() {
                         bibliotecaContenidoCache.set(item.id, contenidoCompleto);
                     }
                 } catch (error) {
+                    /*
+                     * Conservamos el registro del catálogo aunque el JSON
+                     * no pueda cargarse. Las relaciones generales (virtudes,
+                     * intervenciones, patronazgos, etc.) siguen siendo útiles
+                     * y el siguiente intento volverá a solicitar el JSON.
+                     */
                     bibliotecaContenidoCache.set(item.id, {
                         ...item,
                         _relacionesNoDisponibles: true
@@ -151,12 +167,8 @@ async function cargarContenidoBibliotecaCompleto() {
     }
 
     return publicados
-        .map(item => bibliotecaContenidoCache.get(item.id))
-        .filter(item =>
-            item &&
-            Array.isArray(item.days) &&
-            item.days.length > 0
-        );
+        .map(item => bibliotecaContenidoCache.get(item.id) || item)
+        .filter(Boolean);
 }
 
 function bibliotecaTextoContiene(texto, termino) {
@@ -413,11 +425,14 @@ function puntuarRelacionBiblioteca(item, definicion, tipo) {
         } else if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
             score += 8;
             coincidencias.push("intervenciones");
+        } else if (bibliotecaTextoContiene(textoDias, termino)) {
+            score += 7;
+            coincidencias.push("días de la novena");
         } else if (bibliotecaTextoContiene(textoPatronages, termino)) {
             score += 6;
             coincidencias.push("tradición devocional");
         } else if (bibliotecaTextoContiene(textoVirtudes, termino)) {
-            score += 2;
+            score += 3;
             coincidencias.push("virtudes");
         } else if (bibliotecaTextoContiene(textoGeneral, termino)) {
             score += 2;
