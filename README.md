@@ -25,9 +25,9 @@ La aplicación está diseñada para:
 
 ## Alcance actual
 
-**Versión actual: 1.4.0**
+**Versión actual: 1.4.1**
 
-La versión 1.4 incorpora un sistema centralizado de oraciones, una matriz de validación de las estructuras de oración y mejoras de experiencia para la lectura de las oraciones durante la novena.
+La versión 1.4.1 consolida un sistema centralizado de oraciones, una matriz de validación de las estructuras de oración y mejoras de experiencia para la lectura de las oraciones durante la novena.
 
 La versión actual integra:
 
@@ -52,6 +52,9 @@ La versión actual integra:
 - Oraciones comunes compartidas entre las novenas mediante `prayerStructure`.
 - Soporte de estructuras especiales para Divina Misericordia y Espíritu Santo.
 - Selección de contexto regional hispanohablante como base para la expansión del catálogo.
+- URLs internas con deep links mediante ?ruta=.
+- Historial Atrás/Adelante integrado con el router.
+- Pruebas E2E de navegación, deep links y offline en escritorio y Android emulado.
 
 ## Arquitectura
 
@@ -363,21 +366,23 @@ El documento histórico de auditoría UX puede consultarse en [docs/UX-1.4.md](d
 
 ## Calidad y estado de publicación
 
-La versión 1.4.0 consolida el sistema central de oraciones y continúa la estabilización de la PWA. Se han revisado la estructura de los 112 registros, las referencias de contenido, las estructuras de oración, el renderizado diario, el progreso de las novenas, la navegación, la instalación PWA, el funcionamiento offline y la experiencia de lectura.
+La versión 1.4.1 consolida el sistema central de oraciones y continúa la estabilización de la PWA. Se han revisado la estructura de los 112 registros, las referencias de contenido, las estructuras de oración, el renderizado diario, el progreso de las novenas, la navegación, la instalación PWA, el funcionamiento offline y la experiencia de lectura.
 
 Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La revisión funcional manual complementa estas verificaciones.
 
 La interfaz de las oraciones comunes utiliza un componente compartido, por lo que las mejoras de lectura se aplican a todas las novenas que utilizan esta estructura.
 
+La navegación interna mantiene el contexto en la URL y permite utilizar Atrás/Adelante sin recargar la aplicación. Los enlaces ?novena= existentes siguen siendo compatibles.
+
 ## Estado del proyecto
 
-**Versión de aplicación:** 1.4.0
+**Versión de aplicación:** 1.4.1
 
-**Estado:** V1.4 en estabilización y consolidación
+**Estado:** V1.4.1 en estabilización y endurecimiento
 
 **Catálogo:** 112 registros publicados
 
-**Service Worker:** caché v257
+**Service Worker:** caché v267
 
 **Tipo:** Progressive Web App
 
