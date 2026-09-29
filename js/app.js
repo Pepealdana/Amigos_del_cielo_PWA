@@ -28,8 +28,20 @@ function estaInstaladaComoPWA() {
             ).matches
         );
 
+    /*
+     * Algunos lanzadores Android pueden abrir la PWA instalada
+     * con un contexto que no expone correctamente display-mode.
+     * En esos casos, Chromium suele identificar el origen de
+     * lanzamiento mediante un referrer android-app://.
+     */
+    const referrerIndicaAplicacionAndroid =
+        /^android-app:\/\//i.test(
+            document.referrer || ""
+        );
+
     return estaEnModoAplicacion ||
-        window.navigator.standalone === true;
+        window.navigator.standalone === true ||
+        referrerIndicaAplicacionAndroid;
 }
 
 function usuarioRechazoInvitacionInstalacion() {
@@ -89,6 +101,18 @@ window.addEventListener(
     evento => {
 
         evento.preventDefault();
+
+        /*
+         * Este evento solo debe habilitar la promoción en contexto
+         * de navegador. Si el sistema ya está mostrando la PWA
+         * instalada, ocultamos inmediatamente la invitación.
+         */
+        if (estaInstaladaComoPWA()) {
+            eventoInstalacionPWA = null;
+            ocultarInvitacionInstalacion();
+            actualizarBotonInstalacion();
+            return;
+        }
 
         eventoInstalacionPWA = evento;
 
