@@ -1,2023 +1,2045 @@
 {
-    "version": "3.2",
-    "category": "santos",
-    "description": "Catálogo maestro de santos y beatos. Las categorías se asignan de forma acumulativa y se revisan para evitar omisiones entre fundadores, doctores, padres de la Iglesia, mártires, apóstoles, santos jóvenes, familia franciscana y santos latinoamericanos.",
-    "items": [
+  "version": "3.2",
+  "category": "santos",
+  "description": "Catálogo maestro de santos y beatos. Las categorías se asignan de forma acumulativa y se revisan para evitar omisiones entre fundadores, doctores, padres de la Iglesia, mártires, apóstoles, santos jóvenes, familia franciscana y santos latinoamericanos.",
+  "items": [
+    {
+      "id": "san-jose",
+      "name": "San José",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-jose.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": [],
+        "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
+      },
+      "groups": [],
+      "feast": {
+        "day": 19,
+        "month": 3,
+        "text": "19 de marzo",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
+      },
+      "image": "assets/images/santos/san_jose.webp",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
+    },
+    {
+      "id": "san-antonio-de-padua",
+      "name": "San Antonio de Padua",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-antonio-de-padua.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "PT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "doctores",
+        "franciscanos"
+      ],
+      "feast": {
+        "day": 13,
+        "month": 6,
+        "text": "13 de junio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_antonio_de_padua.webp"
+    },
+    {
+      "id": "san-agustin-de-hipona",
+      "name": "San Agustín de Hipona",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-agustin-de-hipona.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": [],
+        "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
+      },
+      "groups": [
+        "padres-iglesia",
+        "doctores"
+      ],
+      "feast": {
+        "day": 28,
+        "month": 8,
+        "text": "28 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_agustin_de_hipona.webp"
+    },
+    {
+      "id": "san-benito-abad",
+      "name": "San Benito Abad",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-benito-abad.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": []
+      },
+      "groups": [
+        "fundadores"
+      ],
+      "feast": {
+        "day": 11,
+        "month": 7,
+        "text": "11 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_benito_abad.webp"
+    },
+    {
+      "id": "san-francisco-de-asis",
+      "name": "San Francisco de Asís",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-francisco-de-asis.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "fundadores",
+        "franciscanos"
+      ],
+      "feast": {
+        "day": 4,
+        "month": 10,
+        "text": "4 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_francisco_de_asis.webp"
+    },
+    {
+      "id": "san-ignacio-de-loyola",
+      "name": "San Ignacio de Loyola",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-ignacio-de-loyola.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      },
+      "groups": [
+        "fundadores"
+      ],
+      "feast": {
+        "day": 31,
+        "month": 7,
+        "text": "31 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_ignacio_de_loyola.webp"
+    },
+    {
+      "id": "san-juan-bautista",
+      "name": "San Juan Bautista",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-juan-bautista.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": [],
+        "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
+      },
+      "groups": [
+        "martires"
+      ],
+      "feast": {
+        "day": 24,
+        "month": 6,
+        "text": "24 de junio",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
+      },
+      "image": "assets/images/santos/san_juan_bautista.webp"
+    },
+    {
+      "id": "san-juan-bosco",
+      "name": "San Juan Bosco",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-juan-bosco.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "fundadores"
+      ],
+      "feast": {
+        "day": 31,
+        "month": 1,
+        "text": "31 de enero",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_juan_bosco.webp"
+    },
+    {
+      "id": "san-martin-de-porres",
+      "name": "San Martín de Porres",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-martin-de-porres.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "PE"
+        ],
+        "historicalLinks": [
+          "PE"
+        ],
+        "specialDevotion": []
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "feast": {
+        "day": 3,
+        "month": 11,
+        "text": "3 de noviembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_martin_de_porres.webp"
+    },
+    {
+      "id": "san-pio-de-pietrelcina",
+      "name": "San Pío de Pietrelcina",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pio-de-pietrelcina.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 23,
+        "month": 9,
+        "text": "23 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_pio_de_pieltrecina.webp"
+    },
+    {
+      "id": "san-pedro-claver",
+      "name": "San Pedro Claver",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pedro-claver.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "feast": {
+        "day": 9,
+        "month": 9,
+        "text": "9 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_pedro_claver.webp"
+    },
+    {
+      "id": "san-camilo-de-lelis",
+      "name": "San Camilo de Lelis",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-camilo-de-lelis.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "fundadores"
+      ],
+      "feast": {
+        "day": 14,
+        "month": 7,
+        "text": "14 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_camilo_de_lelis.webp"
+    },
+    {
+      "id": "san-carlo-acutis",
+      "name": "San Carlo Acutis",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-carlo-acutis.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ],
+        "note": "Nació en Londres, Reino Unido; su vida y formación se desarrollaron principalmente en Italia. El Reino Unido no forma parte del catálogo territorial actual."
+      },
+      "groups": [
+        "devocion-extendida",
+        "jovenes"
+      ],
+      "feast": {
+        "day": 12,
+        "month": 10,
+        "text": "12 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_carlo_acutis.webp"
+    },
+    {
+      "id": "san-cayetano",
+      "name": "San Cayetano",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-cayetano.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [],
+        "specialDevotion": [
+          "AR"
+        ]
+      },
+      "groups": [
+        "fundadores",
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 7,
+        "month": 8,
+        "text": "7 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_cayetano.webp"
+    },
+    {
+      "id": "san-expedito",
+      "name": "San Expedito",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-expedito.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "AR"
+        ],
+        "note": "Se conserva separado de Devociones por su carácter de figura de santo/mártir venerada en la tradición católica; no se asigna Italia como origen."
+      },
+      "groups": [
+        "martires"
+      ],
+      "feast": {
+        "day": 19,
+        "month": 4,
+        "text": "19 de abril",
+        "movable": false
+      },
+      "image": "assets/images/santos/san_expedito.webp"
+    },
+    {
+      "id": "san-jose-gregorio-hernandez",
+      "name": "San José Gregorio Hernández",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-jose-gregorio-hernandez.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "VE"
+        ],
+        "historicalLinks": [
+          "VE"
+        ],
+        "specialDevotion": [
+          "VE"
+        ]
+      },
+      "groups": [
+        "latinoamericanos",
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 26,
+        "month": 10,
+        "text": "26 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_jose_gregorio_hernandez.webp"
+    },
+    {
+      "id": "san-josemaria-escriva",
+      "name": "San Josemaría Escrivá",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-josemaria-escriva.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      },
+      "groups": [
+        "fundadores"
+      ],
+      "feast": {
+        "day": 26,
+        "month": 6,
+        "text": "26 de junio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_jose_maria_escriva.webp"
+    },
+    {
+      "id": "san-judas-tadeo",
+      "name": "San Judas Tadeo",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-judas-tadeo.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": [],
+        "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
+      },
+      "groups": [
+        "devocion-extendida",
+        "apostoles"
+      ],
+      "feast": {
+        "day": 28,
+        "month": 10,
+        "text": "28 de octubre",
+        "movable": false,
+        "liturgicalRank": "Fiesta"
+      },
+      "image": "assets/images/santos/san_judas_tadeo.webp"
+    },
+    {
+      "id": "san-pier-giorgio-frassati",
+      "name": "San Pier Giorgio Frassati",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pier-giorgio-frassati.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "devocion-extendida",
+        "jovenes"
+      ],
+      "feast": {
+        "day": 4,
+        "month": 7,
+        "text": "4 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_pier_giorgio_frassati.webp"
+    },
+    {
+      "id": "santa-rita-de-casia",
+      "name": "Santa Rita de Casia",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-rita-de-casia.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 22,
+        "month": 5,
+        "text": "22 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria opcional"
+      },
+      "image": "assets/images/santos/santa_rita_de_casia.webp"
+    },
+    {
+      "id": "santa-rosa-de-lima",
+      "name": "Santa Rosa de Lima",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-rosa-de-lima.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "PE"
+        ],
+        "historicalLinks": [
+          "PE"
+        ],
+        "specialDevotion": [
+          "PE"
+        ]
+      },
+      "groups": [
+        "latinoamericanos",
+        "jovenes"
+      ],
+      "feast": {
+        "day": 23,
+        "month": 8,
+        "text": "23 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria opcional"
+      },
+      "image": "assets/images/santos/santa_rosa_de_lima.webp"
+    },
+    {
+      "id": "santa-teresa-de-avila",
+      "name": "Santa Teresa de Ávila",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-teresa-de-avila.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      },
+      "groups": [
+        "fundadores",
+        "doctores"
+      ],
+      "feast": {
+        "day": 15,
+        "month": 10,
+        "text": "15 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_teresa_de_avila.webp"
+    },
+    {
+      "id": "santa-teresita-de-lisieux",
+      "name": "Santa Teresita de Lisieux",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-teresita-de-lisieux.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "FR"
+        ],
+        "historicalLinks": [
+          "FR"
+        ],
+        "specialDevotion": [
+          "FR"
+        ]
+      },
+      "groups": [
+        "jovenes",
+        "doctores"
+      ],
+      "feast": {
+        "day": 1,
+        "month": 10,
+        "text": "1 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_teresita_de_lisieux.webp"
+    },
+    {
+      "id": "santa-catalina-de-siena",
+      "name": "Santa Catalina de Siena",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-catalina-de-siena.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "doctores"
+      ],
+      "feast": {
+        "day": 29,
+        "month": 4,
+        "text": "29 de abril",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_catalina_de_siena.webp"
+    },
+    {
+      "id": "santa-eduviges",
+      "name": "Santa Eduviges de Silesia",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-eduviges.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "DE"
+        ],
+        "historicalLinks": [
+          "PL"
+        ],
+        "specialDevotion": [
+          "PL"
+        ]
+      },
+      "groups": [],
+      "feast": {
+        "day": 16,
+        "month": 10,
+        "text": "16 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_eduviges.webp"
+    },
+    {
+      "id": "santa-faustina-kowalska",
+      "name": "Santa Faustina Kowalska",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-faustina-kowalska.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "PL"
+        ],
+        "historicalLinks": [
+          "PL"
+        ],
+        "specialDevotion": [
+          "PL"
+        ]
+      },
+      "groups": [
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 5,
+        "month": 10,
+        "text": "5 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_faustina_kowalska.webp",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
+    },
+    {
+      "id": "santa-filomena",
+      "name": "Santa Filomena",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-filomena.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "devocion-extendida",
+        "martires"
+      ],
+      "feast": {
+        "day": 11,
+        "month": 8,
+        "text": "11 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_filomena.webp"
+    },
+    {
+      "id": "santa-gemma-galgani",
+      "name": "Santa Gemma Galgani",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-gemma-galgani.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 16,
+        "month": 5,
+        "text": "16 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_gelma_galgani.webp"
+    },
+    {
+      "id": "santa-laura-montoya",
+      "name": "Santa Laura Montoya",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-laura-montoya.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "CO"
+        ],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      },
+      "groups": [
+        "fundadores",
+        "latinoamericanos"
+      ],
+      "feast": {
+        "day": 21,
+        "month": 10,
+        "text": "21 de octubre",
+        "movable": false,
+        "liturgicalRank": "Fiesta en Colombia"
+      },
+      "image": "assets/images/santos/santa_laura_montoya.webp"
+    },
+    {
+      "id": "santa-margarita-maria-alacoque",
+      "name": "Santa Margarita María de Alacoque",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-margarita-maria-alacoque.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "FR"
+        ],
+        "historicalLinks": [
+          "FR"
+        ],
+        "specialDevotion": [
+          "FR"
+        ]
+      },
+      "groups": [
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 16,
+        "month": 10,
+        "text": "16 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_margarita_maria_de_alacoque.webp"
+    },
+    {
+      "id": "santo-tomas-de-aquino",
+      "name": "Santo Tomás de Aquino",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santo-tomas-de-aquino.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "doctores"
+      ],
+      "feast": {
+        "day": 28,
+        "month": 1,
+        "text": "28 de enero",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santo_tomas_aquino.webp"
+    },
+    {
+      "id": "santos-cosme-y-damian",
+      "name": "Santos Cosme y Damián",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santos-cosme-y-damian.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": [],
+        "note": "No se asigna país en el catálogo territorial. La tradición los sitúa originarios de Arabia y vinculados a Siria/Cilicia; aunque existe una antigua basílica dedicada a ellos en Roma, esa presencia no basta para presentarlos como una asociación territorial de Italia en este filtro."
+      },
+      "groups": [
+        "martires"
+      ],
+      "feast": {
+        "day": 26,
+        "month": 9,
+        "text": "26 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria opcional"
+      },
+      "image": "assets/images/santos/santos_cosme_y_damian.webp"
+    },
+    {
+      "id": "san-juan-diego",
+      "name": "San Juan Diego",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-juan-diego.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "MX"
+        ],
+        "historicalLinks": [
+          "MX"
+        ],
+        "specialDevotion": [
+          "MX"
+        ]
+      },
+      "groups": [
+        "latinoamericanos",
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 9,
+        "month": 12,
+        "text": "9 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      },
+      "image": "assets/images/santos/san_juan_diego.webp"
+    },
+    {
+      "id": "san-jose-sanchez-del-rio",
+      "name": "San José Sánchez del Río",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-jose-sanchez-del-rio.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "MX"
+        ],
+        "historicalLinks": [
+          "MX"
+        ],
+        "specialDevotion": [
+          "MX"
+        ]
+      },
+      "groups": [
+        "latinoamericanos",
+        "martires",
+        "jovenes"
+      ],
+      "feast": {
+        "day": 10,
+        "month": 2,
+        "text": "10 de febrero",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      },
+      "image": "assets/images/santos/san_jose_sanchez_del_rio.webp"
+    },
+    {
+      "id": "san-pedro-de-san-jose-de-betancur",
+      "name": "San Pedro de San José de Betancur",
+      "status": "published",
+      "image": "assets/images/santos/san_pedro_de_san_jose_de_betancur.webp",
+      "category": "santos",
+      "sourceFile": "data/san-pedro-de-san-jose-de-betancur.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "GT"
+        ],
+        "specialDevotion": [
+          "GT"
+        ]
+      },
+      "groups": [
+        "fundadores",
+        "franciscanos",
+        "latinoamericanos"
+      ],
+      "feast": {
+        "day": 25,
+        "month": 4,
+        "text": "25 de abril",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
+    },
+    {
+      "id": "san-oscar-romero",
+      "name": "San Óscar Arnulfo Romero",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-oscar-romero.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "SV"
+        ],
+        "historicalLinks": [
+          "SV"
+        ],
+        "specialDevotion": [
+          "SV"
+        ]
+      },
+      "groups": [
+        "latinoamericanos",
+        "martires"
+      ],
+      "feast": {
+        "day": 24,
+        "month": 3,
+        "text": "24 de marzo",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      },
+      "image": "assets/images/santos/san_oscar_romero.webp"
+    },
+    {
+      "id": "santa-mariana-de-jesus",
+      "name": "Santa Mariana de Jesús",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-mariana-de-jesus.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "EC"
+        ],
+        "historicalLinks": [
+          "EC"
+        ],
+        "specialDevotion": [
+          "EC"
+        ]
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "image": "assets/images/santos/santa_mariana_de_jesus.webp",
+      "feast": {
+        "day": 26,
+        "month": 5,
+        "text": "26 de mayo",
+        "liturgicalRank": "Memoria",
+        "movable": false
+      }
+    },
+    {
+      "id": "santo-toribio-de-mogrovejo",
+      "name": "Santo Toribio de Mogrovejo",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santo-toribio-de-mogrovejo.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "PE"
+        ],
+        "specialDevotion": [
+          "PE"
+        ]
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "image": "assets/images/santos/santo_toribio_de_mogrovejo.webp",
+      "feast": {
+        "day": 23,
+        "month": 3,
+        "text": "23 de marzo",
+        "liturgicalRank": "Memoria",
+        "movable": false
+      }
+    },
+    {
+      "id": "san-juan-macias",
+      "name": "San Juan Macías",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-juan-macias.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "PE"
+        ],
+        "specialDevotion": [
+          "PE"
+        ]
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "image": "assets/images/santos/san_juan_macias.webp",
+      "feast": {
+        "day": 16,
+        "month": 9,
+        "text": "16 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
+    },
+    {
+      "id": "santa-teresa-de-jesus-de-los-andes",
+      "name": "Santa Teresa de Jesús de los Andes",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-teresa-de-jesus-de-los-andes.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "CL"
+        ],
+        "historicalLinks": [
+          "CL"
+        ],
+        "specialDevotion": [
+          "CL"
+        ]
+      },
+      "groups": [
+        "latinoamericanos",
+        "jovenes"
+      ],
+      "image": "assets/images/santos/santa_teresa_de_jesus_de_los_andes.webp",
+      "feast": {
+        "day": 13,
+        "month": 7,
+        "text": "13 de julio",
+        "movable": false,
+        "liturgicalRank": "Fiesta"
+      }
+    },
+    {
+      "id": "san-alberto-hurtado",
+      "name": "San Alberto Hurtado",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-alberto-hurtado.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "CL"
+        ],
+        "historicalLinks": [
+          "CL"
+        ],
+        "specialDevotion": [
+          "CL"
+        ]
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "image": "assets/images/santos/san_alberto_hurtado.webp",
+      "feast": {
+        "day": 18,
+        "month": 8,
+        "text": "18 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
+    },
+    {
+      "id": "san-jose-gabriel-del-rosario-brochero",
+      "name": "San José Gabriel del Rosario Brochero",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-jose-gabriel-del-rosario-brochero.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "AR"
+        ],
+        "historicalLinks": [
+          "AR"
+        ],
+        "specialDevotion": [
+          "AR"
+        ]
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "image": "assets/images/santos/san_jose_gabriel_del_rosario_brochero.webp",
+      "feast": {
+        "day": 16,
+        "month": 3,
+        "text": "16 de marzo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
+    },
+    {
+      "id": "santa-carmen-rendiles",
+      "name": "Santa Carmen Rendiles Martínez",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-carmen-rendiles-martinez.json",
+      "priority": "existente",
+      "territorial": {
+        "origin": [
+          "VE"
+        ],
+        "historicalLinks": [
+          "VE"
+        ],
+        "specialDevotion": [
+          "VE"
+        ]
+      },
+      "groups": [
+        "latinoamericanos"
+      ],
+      "image": "assets/images/santos/santa_carmen_rendiles_martinez.webp",
+      "feast": {
+        "day": 9,
+        "month": 5,
+        "text": "9 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
+    },
+    {
+      "id": "san-juan-pablo-ii",
+      "name": "San Juan Pablo II",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-juan-pablo-ii.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "PL"
+        ],
+        "historicalLinks": [
+          "PL",
+          "IT"
+        ],
+        "specialDevotion": [
+          "PL"
+        ]
+      },
+      "feast": {
+        "day": 22,
+        "month": 10,
+        "text": "22 de octubre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_juan_pablo_ii.webp"
+    },
+    {
+      "id": "san-maximiliano-maria-kolbe",
+      "name": "San Maximiliano María Kolbe",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-maximiliano-maria-kolbe.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida",
+        "franciscanos",
+        "martires"
+      ],
+      "territorial": {
+        "origin": [
+          "PL"
+        ],
+        "historicalLinks": [
+          "PL",
+          "IT",
+          "JP"
+        ],
+        "specialDevotion": [
+          "PL",
+          "IT",
+          "JP"
+        ]
+      },
+      "feast": {
+        "day": 14,
+        "month": 8,
+        "text": "14 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_maximiliano_maria_kolbe.webp"
+    },
+    {
+      "id": "santa-monica",
+      "name": "Santa Mónica",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-monica.json",
+      "priority": "alta",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [],
+        "note": "Nació en Tagaste, en el norte de África (actual Argelia). El catálogo territorial actual no incluye Argelia; se registra Italia únicamente por su vínculo histórico con Ostia, donde murió."
+      },
+      "feast": {
+        "day": 27,
+        "month": 8,
+        "text": "27 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_monica.webp"
+    },
+    {
+      "id": "santa-bernardita-soubirous",
+      "name": "Santa Bernardita Soubirous",
+      "status": "published",
+      "category": "Santos",
+      "sourceFile": "data/santa-bernardita-soubirous.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "FR"
+        ],
+        "historicalLinks": [
+          "FR"
+        ],
+        "specialDevotion": [
+          "FR"
+        ]
+      },
+      "slug": "santa-bernardita-soubirous",
+      "title": "Virgen, vidente de Lourdes y religiosa de Nevers",
+      "subtitle": "Humildad, oración y fidelidad al mensaje recibido en Lourdes",
+      "image": "assets/images/santos/santa_bernardita_soubirous.webp",
+      "file": "data/santa-bernardita-soubirous.json",
+      "description": "Joven de Lourdes que recibió dieciocho apariciones de la Virgen María en 1858 y después vivió una vida escondida como religiosa de las Hermanas de la Caridad de Nevers.",
+      "feast": {
+        "day": 18,
+        "month": 2,
+        "text": "18 de febrero",
+        "movable": false,
+        "liturgicalRank": "Memoria (Francia)",
+        "note": "En Francia y en el Santuario de Lourdes se celebra a Santa Bernardita el 18 de febrero, en relación con la tercera aparición. Su conmemoración también aparece el 16 de abril, fecha de su muerte."
+      },
+      "search": [
+        "santa bernardita",
+        "santa bernardette",
+        "bernardita soubirous",
+        "bernadette soubirous",
+        "bernardita de lourdes",
+        "vidente de lourdes",
+        "lourdes",
+        "massabielle",
+        "inmaculada concepcion",
+        "inmaculada concepción",
+        "hermanas de nevers",
+        "nevers",
+        "oracion",
+        "oración",
+        "enfermos",
+        "peregrinos"
+      ],
+      "interventions": [
         {
-            "id": "san-jose",
-            "name": "San José",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-jose.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": [],
-                "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-            },
-            "groups": [],
-            "feast": {
-                "day": 19,
-                "month": 3,
-                "text": "19 de marzo",
-                "movable": false,
-                "liturgicalRank": "Solemnidad"
-            },
-            "image": "assets/images/santos/san_jose.webp"
+          "id": "maria",
+          "label": "María e Inmaculada Concepción",
+          "keywords": [
+            "maria",
+            "maría",
+            "virgen",
+            "inmaculada",
+            "inmaculada concepcion",
+            "inmaculada concepción",
+            "nuestra señora de lourdes"
+          ]
         },
         {
-            "id": "san-antonio-de-padua",
-            "name": "San Antonio de Padua",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-antonio-de-padua.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "PT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "doctores",
-                "franciscanos"
-            ],
-            "feast": {
-                "day": 13,
-                "month": 6,
-                "text": "13 de junio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_antonio_de_padua.webp"
+          "id": "oracion",
+          "label": "Oración y Rosario",
+          "keywords": [
+            "oracion",
+            "oración",
+            "rosario",
+            "rezar",
+            "plegaria",
+            "gruta",
+            "lourdes"
+          ]
         },
         {
-            "id": "san-agustin-de-hipona",
-            "name": "San Agustín de Hipona",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-agustin-de-hipona.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": [],
-                "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-            },
-            "groups": [
-                "padres-iglesia",
-                "doctores"
-            ],
-            "feast": {
-                "day": 28,
-                "month": 8,
-                "text": "28 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_agustin_de_hipona.webp"
+          "id": "enfermos",
+          "label": "Enfermedad, dolor y esperanza",
+          "keywords": [
+            "enfermos",
+            "enfermedad",
+            "dolor",
+            "sufrimiento",
+            "hospital",
+            "consuelo",
+            "esperanza"
+          ]
         },
         {
-            "id": "san-benito-abad",
-            "name": "San Benito Abad",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-benito-abad.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": []
-            },
-            "groups": [
-                "fundadores"
-            ],
-            "feast": {
-                "day": 11,
-                "month": 7,
-                "text": "11 de julio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_benito_abad.webp"
+          "id": "humildad",
+          "label": "Humildad y sencillez",
+          "keywords": [
+            "humildad",
+            "sencillez",
+            "pobreza",
+            "pequeñez",
+            "simpleza"
+          ]
         },
         {
-            "id": "san-francisco-de-asis",
-            "name": "San Francisco de Asís",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-francisco-de-asis.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "fundadores",
-                "franciscanos"
-            ],
-            "feast": {
-                "day": 4,
-                "month": 10,
-                "text": "4 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_francisco_de_asis.webp"
+          "id": "conversion",
+          "label": "Conversión y penitencia",
+          "keywords": [
+            "conversion",
+            "conversión",
+            "penitencia",
+            "pecadores",
+            "cambio",
+            "reconciliacion",
+            "reconciliación"
+          ]
         },
         {
-            "id": "san-ignacio-de-loyola",
-            "name": "San Ignacio de Loyola",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-ignacio-de-loyola.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "ES"
-                ],
-                "specialDevotion": [
-                    "ES"
-                ]
-            },
-            "groups": [
-                "fundadores"
-            ],
-            "feast": {
-                "day": 31,
-                "month": 7,
-                "text": "31 de julio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_ignacio_de_loyola.webp"
+          "id": "vocacion",
+          "label": "Vocación y vida consagrada",
+          "keywords": [
+            "vocacion",
+            "vocación",
+            "religiosa",
+            "nevers",
+            "consagracion",
+            "consagración",
+            "hermanas"
+          ]
         },
         {
-            "id": "san-juan-bautista",
-            "name": "San Juan Bautista",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-juan-bautista.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": [],
-                "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-            },
-            "groups": [
-                "martires"
-            ],
-            "feast": {
-                "day": 24,
-                "month": 6,
-                "text": "24 de junio",
-                "movable": false,
-                "liturgicalRank": "Solemnidad"
-            },
-            "image": "assets/images/santos/san_juan_bautista.webp"
+          "id": "fidelidad",
+          "label": "Fidelidad y testimonio",
+          "keywords": [
+            "fidelidad",
+            "testimonio",
+            "verdad",
+            "apariciones",
+            "mensaje",
+            "perseverancia"
+          ]
         },
         {
-            "id": "san-juan-bosco",
-            "name": "San Juan Bosco",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-juan-bosco.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "fundadores"
-            ],
-            "feast": {
-                "day": 31,
-                "month": 1,
-                "text": "31 de enero",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_juan_bosco.webp"
-        },
-        {
-            "id": "san-martin-de-porres",
-            "name": "San Martín de Porres",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-martin-de-porres.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "PE"
-                ],
-                "historicalLinks": [
-                    "PE"
-                ],
-                "specialDevotion": []
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "feast": {
-                "day": 3,
-                "month": 11,
-                "text": "3 de noviembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_martin_de_porres.webp"
-        },
-        {
-            "id": "san-pio-de-pietrelcina",
-            "name": "San Pío de Pietrelcina",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-pio-de-pietrelcina.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 23,
-                "month": 9,
-                "text": "23 de septiembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_pio_de_pieltrecina.webp"
-        },
-        {
-            "id": "san-pedro-claver",
-            "name": "San Pedro Claver",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-pedro-claver.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "CO"
-                ],
-                "specialDevotion": [
-                    "CO"
-                ]
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "feast": {
-                "day": 9,
-                "month": 9,
-                "text": "9 de septiembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_pedro_claver.webp"
-        },
-        {
-            "id": "san-camilo-de-lelis",
-            "name": "San Camilo de Lelis",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-camilo-de-lelis.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "fundadores"
-            ],
-            "feast": {
-                "day": 14,
-                "month": 7,
-                "text": "14 de julio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_camilo_de_lelis.webp"
-        },
-        {
-            "id": "san-carlo-acutis",
-            "name": "San Carlo Acutis",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-carlo-acutis.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ],
-                "note": "Nació en Londres, Reino Unido; su vida y formación se desarrollaron principalmente en Italia. El Reino Unido no forma parte del catálogo territorial actual."
-            },
-            "groups": [
-                "devocion-extendida",
-                "jovenes"
-            ],
-            "feast": {
-                "day": 12,
-                "month": 10,
-                "text": "12 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_carlo_acutis.webp"
-        },
-        {
-            "id": "san-cayetano",
-            "name": "San Cayetano",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-cayetano.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [],
-                "specialDevotion": [
-                    "AR"
-                ]
-            },
-            "groups": [
-                "fundadores",
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 7,
-                "month": 8,
-                "text": "7 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_cayetano.webp"
-        },
-        {
-            "id": "san-expedito",
-            "name": "San Expedito",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-expedito.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "AR"
-                ],
-                "note": "Se conserva separado de Devociones por su carácter de figura de santo/mártir venerada en la tradición católica; no se asigna Italia como origen."
-            },
-            "groups": [
-                "martires"
-            ],
-            "feast": {
-                "day": 19,
-                "month": 4,
-                "text": "19 de abril",
-                "movable": false
-            },
-            "image": "assets/images/santos/san_expedito.webp"
-        },
-        {
-            "id": "san-jose-gregorio-hernandez",
-            "name": "San José Gregorio Hernández",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-jose-gregorio-hernandez.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "VE"
-                ],
-                "historicalLinks": [
-                    "VE"
-                ],
-                "specialDevotion": [
-                    "VE"
-                ]
-            },
-            "groups": [
-                "latinoamericanos",
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 26,
-                "month": 10,
-                "text": "26 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_jose_gregorio_hernandez.webp"
-        },
-        {
-            "id": "san-josemaria-escriva",
-            "name": "San Josemaría Escrivá",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-josemaria-escriva.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "ES"
-                ],
-                "specialDevotion": [
-                    "ES"
-                ]
-            },
-            "groups": [
-                "fundadores"
-            ],
-            "feast": {
-                "day": 26,
-                "month": 6,
-                "text": "26 de junio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_jose_maria_escriva.webp"
-        },
-        {
-            "id": "san-judas-tadeo",
-            "name": "San Judas Tadeo",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-judas-tadeo.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": [],
-                "note": "Sin vínculo territorial específico registrado en el catálogo; su devoción es universal."
-            },
-            "groups": [
-                "devocion-extendida",
-                "apostoles"
-            ],
-            "feast": {
-                "day": 28,
-                "month": 10,
-                "text": "28 de octubre",
-                "movable": false,
-                "liturgicalRank": "Fiesta"
-            },
-            "image": "assets/images/santos/san_judas_tadeo.webp"
-        },
-        {
-            "id": "san-pier-giorgio-frassati",
-            "name": "San Pier Giorgio Frassati",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-pier-giorgio-frassati.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "devocion-extendida",
-                "jovenes"
-            ],
-            "feast": {
-                "day": 4,
-                "month": 7,
-                "text": "4 de julio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_pier_giorgio_frassati.webp"
-        },
-        {
-            "id": "santa-rita-de-casia",
-            "name": "Santa Rita de Casia",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-rita-de-casia.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 22,
-                "month": 5,
-                "text": "22 de mayo",
-                "movable": false,
-                "liturgicalRank": "Memoria opcional"
-            },
-            "image": "assets/images/santos/santa_rita_de_casia.webp"
-        },
-        {
-            "id": "santa-rosa-de-lima",
-            "name": "Santa Rosa de Lima",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-rosa-de-lima.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "PE"
-                ],
-                "historicalLinks": [
-                    "PE"
-                ],
-                "specialDevotion": [
-                    "PE"
-                ]
-            },
-            "groups": [
-                "latinoamericanos",
-                "jovenes"
-            ],
-            "feast": {
-                "day": 23,
-                "month": 8,
-                "text": "23 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria opcional"
-            },
-            "image": "assets/images/santos/santa_rosa_de_lima.webp"
-        },
-        {
-            "id": "santa-teresa-de-avila",
-            "name": "Santa Teresa de Ávila",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-teresa-de-avila.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "ES"
-                ],
-                "specialDevotion": [
-                    "ES"
-                ]
-            },
-            "groups": [
-                "fundadores",
-                "doctores"
-            ],
-            "feast": {
-                "day": 15,
-                "month": 10,
-                "text": "15 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_teresa_de_avila.webp"
-        },
-        {
-            "id": "santa-teresita-de-lisieux",
-            "name": "Santa Teresita de Lisieux",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-teresita-de-lisieux.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "FR"
-                ],
-                "historicalLinks": [
-                    "FR"
-                ],
-                "specialDevotion": [
-                    "FR"
-                ]
-            },
-            "groups": [
-                "jovenes",
-                "doctores"
-            ],
-            "feast": {
-                "day": 1,
-                "month": 10,
-                "text": "1 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_teresita_de_lisieux.webp"
-        },
-        {
-            "id": "santa-catalina-de-siena",
-            "name": "Santa Catalina de Siena",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-catalina-de-siena.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "doctores"
-            ],
-            "feast": {
-                "day": 29,
-                "month": 4,
-                "text": "29 de abril",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_catalina_de_siena.webp"
-        },
-        {
-            "id": "santa-eduviges",
-            "name": "Santa Eduviges de Silesia",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-eduviges.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "DE"
-                ],
-                "historicalLinks": [
-                    "PL"
-                ],
-                "specialDevotion": [
-                    "PL"
-                ]
-            },
-            "groups": [],
-            "feast": {
-                "day": 16,
-                "month": 10,
-                "text": "16 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_eduviges.webp"
-        },
-        {
-            "id": "santa-faustina-kowalska",
-            "name": "Santa Faustina Kowalska",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-faustina-kowalska.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "PL"
-                ],
-                "historicalLinks": [
-                    "PL"
-                ],
-                "specialDevotion": [
-                    "PL"
-                ]
-            },
-            "groups": [
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 5,
-                "month": 10,
-                "text": "5 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_faustina_kowalska.webp"
-        },
-        {
-            "id": "santa-filomena",
-            "name": "Santa Filomena",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-filomena.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "devocion-extendida",
-                "martires"
-            ],
-            "feast": {
-                "day": 11,
-                "month": 8,
-                "text": "11 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_filomena.webp"
-        },
-        {
-            "id": "santa-gemma-galgani",
-            "name": "Santa Gemma Galgani",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-gemma-galgani.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 16,
-                "month": 5,
-                "text": "16 de mayo",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_gelma_galgani.webp"
-        },
-        {
-            "id": "santa-laura-montoya",
-            "name": "Santa Laura Montoya",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-laura-montoya.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "CO"
-                ],
-                "historicalLinks": [
-                    "CO"
-                ],
-                "specialDevotion": [
-                    "CO"
-                ]
-            },
-            "groups": [
-                "fundadores",
-                "latinoamericanos"
-            ],
-            "feast": {
-                "day": 21,
-                "month": 10,
-                "text": "21 de octubre",
-                "movable": false,
-                "liturgicalRank": "Fiesta en Colombia"
-            },
-            "image": "assets/images/santos/santa_laura_montoya.webp"
-        },
-        {
-            "id": "santa-margarita-maria-alacoque",
-            "name": "Santa Margarita María de Alacoque",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-margarita-maria-alacoque.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "FR"
-                ],
-                "historicalLinks": [
-                    "FR"
-                ],
-                "specialDevotion": [
-                    "FR"
-                ]
-            },
-            "groups": [
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 16,
-                "month": 10,
-                "text": "16 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_margarita_maria_de_alacoque.webp"
-        },
-        {
-            "id": "santo-tomas-de-aquino",
-            "name": "Santo Tomás de Aquino",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santo-tomas-de-aquino.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "doctores"
-            ],
-            "feast": {
-                "day": 28,
-                "month": 1,
-                "text": "28 de enero",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santo_tomas_aquino.webp"
-        },
-        {
-            "id": "santos-cosme-y-damian",
-            "name": "Santos Cosme y Damián",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santos-cosme-y-damian.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": [],
-                "note": "No se asigna país en el catálogo territorial. La tradición los sitúa originarios de Arabia y vinculados a Siria/Cilicia; aunque existe una antigua basílica dedicada a ellos en Roma, esa presencia no basta para presentarlos como una asociación territorial de Italia en este filtro."
-            },
-            "groups": [
-                "martires"
-            ],
-            "feast": {
-                "day": 26,
-                "month": 9,
-                "text": "26 de septiembre",
-                "movable": false,
-                "liturgicalRank": "Memoria opcional"
-            },
-            "image": "assets/images/santos/santos_cosme_y_damian.webp"
-        },
-        {
-            "id": "san-juan-diego",
-            "name": "San Juan Diego",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-juan-diego.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "MX"
-                ],
-                "historicalLinks": [
-                    "MX"
-                ],
-                "specialDevotion": [
-                    "MX"
-                ]
-            },
-            "groups": [
-                "latinoamericanos",
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 9,
-                "month": 12,
-                "text": "9 de diciembre",
-                "movable": false,
-                "liturgicalRank": "Memoria facultativa"
-            },
-            "image": "assets/images/santos/san_juan_diego.webp"
-        },
-        {
-            "id": "san-jose-sanchez-del-rio",
-            "name": "San José Sánchez del Río",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-jose-sanchez-del-rio.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "MX"
-                ],
-                "historicalLinks": [
-                    "MX"
-                ],
-                "specialDevotion": [
-                    "MX"
-                ]
-            },
-            "groups": [
-                "latinoamericanos",
-                "martires",
-                "jovenes"
-            ],
-            "feast": {
-                "day": 10,
-                "month": 2,
-                "text": "10 de febrero",
-                "movable": false,
-                "liturgicalRank": "Memoria facultativa"
-            },
-            "image": "assets/images/santos/san_jose_sanchez_del_rio.webp"
-        },
-        {
-            "id": "san-pedro-de-san-jose-de-betancur",
-            "name": "San Pedro de San José de Betancur",
-            "status": "published",
-            "image": "assets/images/santos/san_pedro_de_san_jose_de_betancur.webp",
-            "category": "santos",
-            "sourceFile": "data/san-pedro-de-san-jose-de-betancur.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "GT"
-                ],
-                "specialDevotion": [
-                    "GT"
-                ]
-            },
-            "groups": [
-                "fundadores",
-                "franciscanos",
-                "latinoamericanos"
-            ],
-            "feast": {
-                "day": 25,
-                "month": 4,
-                "text": "25 de abril",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            }
-        },
-        {
-            "id": "san-oscar-romero",
-            "name": "San Óscar Arnulfo Romero",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-oscar-romero.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "SV"
-                ],
-                "historicalLinks": [
-                    "SV"
-                ],
-                "specialDevotion": [
-                    "SV"
-                ]
-            },
-            "groups": [
-                "latinoamericanos",
-                "martires"
-            ],
-            "feast": {
-                "day": 24,
-                "month": 3,
-                "text": "24 de marzo",
-                "movable": false,
-                "liturgicalRank": "Memoria facultativa"
-            },
-            "image": "assets/images/santos/san_oscar_romero.webp"
-        },
-        {
-            "id": "santa-mariana-de-jesus",
-            "name": "Santa Mariana de Jesús",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-mariana-de-jesus.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "EC"
-                ],
-                "historicalLinks": [
-                    "EC"
-                ],
-                "specialDevotion": [
-                    "EC"
-                ]
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "image": "assets/images/santos/santa_mariana_de_jesus.webp",
-            "feast": {
-                "day": 26,
-                "month": 5,
-                "text": "26 de mayo",
-                "liturgicalRank": "Memoria",
-                "movable": false
-            }
-        },
-        {
-            "id": "santo-toribio-de-mogrovejo",
-            "name": "Santo Toribio de Mogrovejo",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santo-toribio-de-mogrovejo.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "PE"
-                ],
-                "specialDevotion": [
-                    "PE"
-                ]
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "image": "assets/images/santos/santo_toribio_de_mogrovejo.webp",
-            "feast": {
-                "day": 23,
-                "month": 3,
-                "text": "23 de marzo",
-                "liturgicalRank": "Memoria",
-                "movable": false
-            }
-        },
-        {
-            "id": "san-juan-macias",
-            "name": "San Juan Macías",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-juan-macias.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "PE"
-                ],
-                "specialDevotion": [
-                    "PE"
-                ]
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "image": "assets/images/santos/san_juan_macias.webp",
-            "feast": {
-                "day": 16,
-                "month": 9,
-                "text": "16 de septiembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            }
-        },
-        {
-            "id": "santa-teresa-de-jesus-de-los-andes",
-            "name": "Santa Teresa de Jesús de los Andes",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-teresa-de-jesus-de-los-andes.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "CL"
-                ],
-                "historicalLinks": [
-                    "CL"
-                ],
-                "specialDevotion": [
-                    "CL"
-                ]
-            },
-            "groups": [
-                "latinoamericanos",
-                "jovenes"
-            ],
-            "image": "assets/images/santos/santa_teresa_de_jesus_de_los_andes.webp",
-            "feast": {
-                "day": 13,
-                "month": 7,
-                "text": "13 de julio",
-                "movable": false,
-                "liturgicalRank": "Fiesta"
-            }
-        },
-        {
-            "id": "san-alberto-hurtado",
-            "name": "San Alberto Hurtado",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-alberto-hurtado.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "CL"
-                ],
-                "historicalLinks": [
-                    "CL"
-                ],
-                "specialDevotion": [
-                    "CL"
-                ]
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "image": "assets/images/santos/san_alberto_hurtado.webp",
-            "feast": {
-                "day": 18,
-                "month": 8,
-                "text": "18 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            }
-        },
-        {
-            "id": "san-jose-gabriel-del-rosario-brochero",
-            "name": "San José Gabriel del Rosario Brochero",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-jose-gabriel-del-rosario-brochero.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "AR"
-                ],
-                "historicalLinks": [
-                    "AR"
-                ],
-                "specialDevotion": [
-                    "AR"
-                ]
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "image": "assets/images/santos/san_jose_gabriel_del_rosario_brochero.webp",
-            "feast": {
-                "day": 16,
-                "month": 3,
-                "text": "16 de marzo",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            }
-        },
-        {
-            "id": "santa-carmen-rendiles",
-            "name": "Santa Carmen Rendiles Martínez",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-carmen-rendiles-martinez.json",
-            "priority": "existente",
-            "territorial": {
-                "origin": [
-                    "VE"
-                ],
-                "historicalLinks": [
-                    "VE"
-                ],
-                "specialDevotion": [
-                    "VE"
-                ]
-            },
-            "groups": [
-                "latinoamericanos"
-            ],
-            "image": "assets/images/santos/santa_carmen_rendiles_martinez.webp",
-            "feast": {
-                "day": 9,
-                "month": 5,
-                "text": "9 de mayo",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            }
-        },
-        {
-            "id": "san-juan-pablo-ii",
-            "name": "San Juan Pablo II",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-juan-pablo-ii.json",
-            "priority": "alta",
-            "groups": [
-                "devocion-extendida"
-            ],
-            "territorial": {
-                "origin": [
-                    "PL"
-                ],
-                "historicalLinks": [
-                    "PL",
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "PL"
-                ]
-            },
-            "feast": {
-                "day": 22,
-                "month": 10,
-                "text": "22 de octubre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_juan_pablo_ii.webp"
-        },
-        {
-            "id": "san-maximiliano-maria-kolbe",
-            "name": "San Maximiliano María Kolbe",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-maximiliano-maria-kolbe.json",
-            "priority": "alta",
-            "groups": [
-                "devocion-extendida",
-                "franciscanos",
-                "martires"
-            ],
-            "territorial": {
-                "origin": [
-                    "PL"
-                ],
-                "historicalLinks": [
-                    "PL",
-                    "IT",
-                    "JP"
-                ],
-                "specialDevotion": [
-                    "PL",
-                    "IT",
-                    "JP"
-                ]
-            },
-            "feast": {
-                "day": 14,
-                "month": 8,
-                "text": "14 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_maximiliano_maria_kolbe.webp"
-        },
-        {
-            "id": "santa-monica",
-            "name": "Santa Mónica",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-monica.json",
-            "priority": "alta",
-            "groups": [
-                "devocion-extendida"
-            ],
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [],
-                "note": "Nació en Tagaste, en el norte de África (actual Argelia). El catálogo territorial actual no incluye Argelia; se registra Italia únicamente por su vínculo histórico con Ostia, donde murió."
-            },
-            "feast": {
-                "day": 27,
-                "month": 8,
-                "text": "27 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_monica.webp"
-        },
-        {
-            "id": "santa-bernardita-soubirous",
-            "name": "Santa Bernardita Soubirous",
-            "status": "published",
-            "category": "Santos",
-            "sourceFile": "data/santa-bernardita-soubirous.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida"
-            ],
-            "territorial": {
-                "origin": [
-                    "FR"
-                ],
-                "historicalLinks": [
-                    "FR"
-                ],
-                "specialDevotion": [
-                    "FR"
-                ]
-            },
-            "slug": "santa-bernardita-soubirous",
-            "title": "Virgen, vidente de Lourdes y religiosa de Nevers",
-            "subtitle": "Humildad, oración y fidelidad al mensaje recibido en Lourdes",
-            "image": "assets/images/santos/santa_bernardita_soubirous.webp",
-            "file": "data/santa-bernardita-soubirous.json",
-            "description": "Joven de Lourdes que recibió dieciocho apariciones de la Virgen María en 1858 y después vivió una vida escondida como religiosa de las Hermanas de la Caridad de Nevers.",
-            "feast": {
-                "day": 18,
-                "month": 2,
-                "text": "18 de febrero",
-                "movable": false,
-                "liturgicalRank": "Memoria (Francia)",
-                "note": "En Francia y en el Santuario de Lourdes se celebra a Santa Bernardita el 18 de febrero, en relación con la tercera aparición. Su conmemoración también aparece el 16 de abril, fecha de su muerte."
-            },
-            "search": [
-                "santa bernardita",
-                "santa bernardette",
-                "bernardita soubirous",
-                "bernadette soubirous",
-                "bernardita de lourdes",
-                "vidente de lourdes",
-                "lourdes",
-                "massabielle",
-                "inmaculada concepcion",
-                "inmaculada concepción",
-                "hermanas de nevers",
-                "nevers",
-                "oracion",
-                "oración",
-                "enfermos",
-                "peregrinos"
-            ],
-            "interventions": [
-                {
-                    "id": "maria",
-                    "label": "María e Inmaculada Concepción",
-                    "keywords": [
-                        "maria",
-                        "maría",
-                        "virgen",
-                        "inmaculada",
-                        "inmaculada concepcion",
-                        "inmaculada concepción",
-                        "nuestra señora de lourdes"
-                    ]
-                },
-                {
-                    "id": "oracion",
-                    "label": "Oración y Rosario",
-                    "keywords": [
-                        "oracion",
-                        "oración",
-                        "rosario",
-                        "rezar",
-                        "plegaria",
-                        "gruta",
-                        "lourdes"
-                    ]
-                },
-                {
-                    "id": "enfermos",
-                    "label": "Enfermedad, dolor y esperanza",
-                    "keywords": [
-                        "enfermos",
-                        "enfermedad",
-                        "dolor",
-                        "sufrimiento",
-                        "hospital",
-                        "consuelo",
-                        "esperanza"
-                    ]
-                },
-                {
-                    "id": "humildad",
-                    "label": "Humildad y sencillez",
-                    "keywords": [
-                        "humildad",
-                        "sencillez",
-                        "pobreza",
-                        "pequeñez",
-                        "simpleza"
-                    ]
-                },
-                {
-                    "id": "conversion",
-                    "label": "Conversión y penitencia",
-                    "keywords": [
-                        "conversion",
-                        "conversión",
-                        "penitencia",
-                        "pecadores",
-                        "cambio",
-                        "reconciliacion",
-                        "reconciliación"
-                    ]
-                },
-                {
-                    "id": "vocacion",
-                    "label": "Vocación y vida consagrada",
-                    "keywords": [
-                        "vocacion",
-                        "vocación",
-                        "religiosa",
-                        "nevers",
-                        "consagracion",
-                        "consagración",
-                        "hermanas"
-                    ]
-                },
-                {
-                    "id": "fidelidad",
-                    "label": "Fidelidad y testimonio",
-                    "keywords": [
-                        "fidelidad",
-                        "testimonio",
-                        "verdad",
-                        "apariciones",
-                        "mensaje",
-                        "perseverancia"
-                    ]
-                },
-                {
-                    "id": "peregrinacion",
-                    "label": "Peregrinación y vida cristiana",
-                    "keywords": [
-                        "peregrinacion",
-                        "peregrinación",
-                        "peregrinos",
-                        "santuario",
-                        "lourdes",
-                        "camino"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "santa-clara-de-asis",
-            "name": "Santa Clara de Asís",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-clara-de-asis.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "franciscanos",
-                "fundadores"
-            ],
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 11,
-                "month": 8,
-                "text": "11 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_clara_de_asis.webp"
-        },
-        {
-            "id": "san-charbel-makhlouf",
-            "name": "San Chárbel Makhlouf",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-charbel-makhlouf.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida"
-            ],
-            "territorial": {
-                "origin": [
-                    "LB"
-                ],
-                "historicalLinks": [
-                    "LB"
-                ],
-                "specialDevotion": [
-                    "LB"
-                ]
-            },
-            "feast": {
-                "day": 24,
-                "month": 7,
-                "text": "24 de julio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_charbel_makhlouf.webp"
-        },
-        {
-            "id": "santa-marta-de-betania",
-            "name": "Santa Marta de Betania",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-marta-de-betania.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida"
-            ],
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IL"
-                ],
-                "specialDevotion": []
-            },
-            "feast": {
-                "day": 29,
-                "month": 7,
-                "text": "29 de julio",
-                "movable": false,
-                "liturgicalRank": "Memoria obligatoria"
-            },
-            "image": "assets/images/santos/santa_marta_de_betania.webp"
-        },
-        {
-            "id": "santa-teresa-de-calcuta",
-            "name": "Santa Teresa de Calcuta",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-teresa-de-calcuta.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "fundadores"
-            ],
-            "territorial": {
-                "origin": [
-                    "MK"
-                ],
-                "historicalLinks": [
-                    "IN"
-                ],
-                "specialDevotion": [
-                    "IN"
-                ]
-            },
-            "feast": {
-                "day": 5,
-                "month": 9,
-                "text": "5 de septiembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_teresa_de_calcuta.webp"
-        },
-        {
-            "id": "san-francisco-javier",
-            "name": "San Francisco Javier",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-francisco-javier.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "fundadores"
-            ],
-            "territorial": {
-                "origin": [
-                    "ES"
-                ],
-                "historicalLinks": [
-                    "ES",
-                    "IN",
-                    "ID",
-                    "JP",
-                    "CN"
-                ],
-                "specialDevotion": [
-                    "ES",
-                    "IN",
-                    "JP"
-                ]
-            },
-            "feast": {
-                "day": 3,
-                "month": 12,
-                "text": "3 de diciembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_francisco_javier.webp"
-        },
-        {
-            "id": "san-luis-gonzaga",
-            "name": "San Luis Gonzaga",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-luis-gonzaga.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "jovenes"
-            ],
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 21,
-                "month": 6,
-                "text": "21 de junio",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/san_luis_gonzaga.webp"
-        },
-        {
-            "id": "santa-lucia-de-siracusa",
-            "name": "Santa Lucía de Siracusa",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-lucia-de-siracusa.json",
-            "priority": "existente",
-            "groups": [
-                "martires"
-            ],
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 13,
-                "month": 12,
-                "text": "13 de diciembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_lucia_de_siracusa.webp"
-        },
-        {
-            "id": "santa-cecilia",
-            "name": "Santa Cecilia",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-cecilia.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "martires"
-            ],
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 22,
-                "month": 11,
-                "text": "22 de noviembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_cecilia.webp"
-        },
-        {
-            "id": "santa-barbara",
-            "name": "Santa Bárbara",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santa-barbara.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "martires"
-            ],
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 4,
-                "month": 12,
-                "text": "4 de diciembre",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            },
-            "image": "assets/images/santos/santa_barbara.webp"
-        },
-        {
-            "id": "san-roque",
-            "name": "San Roque",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-roque.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida"
-            ],
-            "territorial": {
-                "origin": [
-                    "FR"
-                ],
-                "historicalLinks": [
-                    "FR"
-                ],
-                "specialDevotion": [
-                    "FR"
-                ]
-            },
-            "feast": {
-                "day": 16,
-                "month": 8,
-                "text": "16 de agosto",
-                "movable": false,
-                "liturgicalRank": "Memoria libre según calendario local"
-            },
-            "image": "assets/images/santos/san_roque.webp"
-        },
-        {
-            "id": "san-pancracio",
-            "name": "San Pancracio",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-pancracio.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "martires"
-            ],
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 12,
-                "month": 5,
-                "text": "12 de mayo",
-                "movable": false,
-                "liturgicalRank": "Memoria facultativa"
-            },
-            "image": "assets/images/santos/san_pancracio.webp"
-        },
-        {
-            "id": "san-patricio",
-            "name": "San Patricio",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-patricio.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida"
-            ],
-            "territorial": {
-                "origin": [
-                    "GB"
-                ],
-                "historicalLinks": [
-                    "IE"
-                ],
-                "specialDevotion": [
-                    "IE"
-                ]
-            },
-            "feast": {
-                "day": 17,
-                "month": 3,
-                "text": "17 de marzo",
-                "movable": false,
-                "liturgicalRank": "Memoria facultativa"
-            },
-            "image": "assets/images/santos/san_patricio.webp"
-        },
-        {
-            "id": "san-pedro-apostol",
-            "name": "San Pedro Apóstol",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-pedro-apostol.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "apostoles",
-                "martires"
-            ],
-            "territorial": {
-                "origin": [
-                    "IL"
-                ],
-                "historicalLinks": [
-                    "IL",
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 29,
-                "month": 6,
-                "text": "29 de junio",
-                "movable": false,
-                "liturgicalRank": "Solemnidad"
-            },
-            "image": "assets/images/santos/san_pedro_apostol.webp"
-        },
-        {
-            "id": "san-pablo-apostol",
-            "name": "San Pablo Apóstol",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/san-pablo-apostol.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "apostoles",
-                "martires"
-            ],
-            "territorial": {
-                "origin": [
-                    "TR"
-                ],
-                "historicalLinks": [
-                    "TR",
-                    "IL",
-                    "GR",
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "feast": {
-                "day": 29,
-                "month": 6,
-                "text": "29 de junio",
-                "movable": false,
-                "liturgicalRank": "Solemnidad"
-            },
-            "image": "assets/images/santos/san_pablo_apostol.webp"
-        },
-        {
-            "id": "santiago-apostol",
-            "name": "Santiago Apóstol",
-            "status": "published",
-            "category": "santos",
-            "sourceFile": "data/santiago-apostol.json",
-            "priority": "existente",
-            "groups": [
-                "devocion-extendida",
-                "apostoles",
-                "martires"
-            ],
-            "territorial": {
-                "origin": [
-                    "IL"
-                ],
-                "historicalLinks": [
-                    "IL",
-                    "ES"
-                ],
-                "specialDevotion": [
-                    "ES"
-                ]
-            },
-            "feast": {
-                "day": 25,
-                "month": 7,
-                "text": "25 de julio",
-                "movable": false,
-                "liturgicalRank": "Fiesta"
-            },
-            "image": "assets/images/santos/santiago_apostol.webp"
-        },
-        {
-            "id": "santo-domingo-savio",
-            "name": "Santo Domingo Savio",
-            "status": "published",
-            "image": "assets/images/santos/santo_domingo_savio.webp",
-            "category": "santos",
-            "sourceFile": "data/santo-domingo-savio.json",
-            "priority": "nueva incorporación",
-            "territorial": {
-                "origin": [
-                    "IT"
-                ],
-                "historicalLinks": [
-                    "IT"
-                ],
-                "specialDevotion": [
-                    "IT"
-                ]
-            },
-            "groups": [
-                "jovenes",
-                "devocion-extendida"
-            ],
-            "feast": {
-                "day": 6,
-                "month": 5,
-                "text": "6 de mayo",
-                "movable": false,
-                "liturgicalRank": "Memoria"
-            }
+          "id": "peregrinacion",
+          "label": "Peregrinación y vida cristiana",
+          "keywords": [
+            "peregrinacion",
+            "peregrinación",
+            "peregrinos",
+            "santuario",
+            "lourdes",
+            "camino"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "santa-clara-de-asis",
+      "name": "Santa Clara de Asís",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-clara-de-asis.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "franciscanos",
+        "fundadores"
+      ],
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 11,
+        "month": 8,
+        "text": "11 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_clara_de_asis.webp"
+    },
+    {
+      "id": "san-charbel-makhlouf",
+      "name": "San Chárbel Makhlouf",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-charbel-makhlouf.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "LB"
+        ],
+        "historicalLinks": [
+          "LB"
+        ],
+        "specialDevotion": [
+          "LB"
+        ]
+      },
+      "feast": {
+        "day": 24,
+        "month": 7,
+        "text": "24 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_charbel_makhlouf.webp"
+    },
+    {
+      "id": "santa-marta-de-betania",
+      "name": "Santa Marta de Betania",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-marta-de-betania.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IL"
+        ],
+        "specialDevotion": []
+      },
+      "feast": {
+        "day": 29,
+        "month": 7,
+        "text": "29 de julio",
+        "movable": false,
+        "liturgicalRank": "Memoria obligatoria"
+      },
+      "image": "assets/images/santos/santa_marta_de_betania.webp"
+    },
+    {
+      "id": "santa-teresa-de-calcuta",
+      "name": "Santa Teresa de Calcuta",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-teresa-de-calcuta.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "fundadores"
+      ],
+      "territorial": {
+        "origin": [
+          "MK"
+        ],
+        "historicalLinks": [
+          "IN"
+        ],
+        "specialDevotion": [
+          "IN"
+        ]
+      },
+      "feast": {
+        "day": 5,
+        "month": 9,
+        "text": "5 de septiembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_teresa_de_calcuta.webp"
+    },
+    {
+      "id": "san-francisco-javier",
+      "name": "San Francisco Javier",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-francisco-javier.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "fundadores"
+      ],
+      "territorial": {
+        "origin": [
+          "ES"
+        ],
+        "historicalLinks": [
+          "ES",
+          "IN",
+          "ID",
+          "JP",
+          "CN"
+        ],
+        "specialDevotion": [
+          "ES",
+          "IN",
+          "JP"
+        ]
+      },
+      "feast": {
+        "day": 3,
+        "month": 12,
+        "text": "3 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_francisco_javier.webp"
+    },
+    {
+      "id": "san-luis-gonzaga",
+      "name": "San Luis Gonzaga",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-luis-gonzaga.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "jovenes"
+      ],
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 21,
+        "month": 6,
+        "text": "21 de junio",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/san_luis_gonzaga.webp"
+    },
+    {
+      "id": "santa-lucia-de-siracusa",
+      "name": "Santa Lucía de Siracusa",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-lucia-de-siracusa.json",
+      "priority": "existente",
+      "groups": [
+        "martires"
+      ],
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 13,
+        "month": 12,
+        "text": "13 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_lucia_de_siracusa.webp"
+    },
+    {
+      "id": "santa-cecilia",
+      "name": "Santa Cecilia",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-cecilia.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "martires"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 22,
+        "month": 11,
+        "text": "22 de noviembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_cecilia.webp"
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Bárbara",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santa-barbara.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "martires"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 4,
+        "month": 12,
+        "text": "4 de diciembre",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      },
+      "image": "assets/images/santos/santa_barbara.webp"
+    },
+    {
+      "id": "san-roque",
+      "name": "San Roque",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-roque.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "FR"
+        ],
+        "historicalLinks": [
+          "FR"
+        ],
+        "specialDevotion": [
+          "FR"
+        ]
+      },
+      "feast": {
+        "day": 16,
+        "month": 8,
+        "text": "16 de agosto",
+        "movable": false,
+        "liturgicalRank": "Memoria libre según calendario local"
+      },
+      "image": "assets/images/santos/san_roque.webp"
+    },
+    {
+      "id": "san-pancracio",
+      "name": "San Pancracio",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pancracio.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "martires"
+      ],
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 12,
+        "month": 5,
+        "text": "12 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      },
+      "image": "assets/images/santos/san_pancracio.webp"
+    },
+    {
+      "id": "san-patricio",
+      "name": "San Patricio",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-patricio.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida"
+      ],
+      "territorial": {
+        "origin": [
+          "GB"
+        ],
+        "historicalLinks": [
+          "IE"
+        ],
+        "specialDevotion": [
+          "IE"
+        ]
+      },
+      "feast": {
+        "day": 17,
+        "month": 3,
+        "text": "17 de marzo",
+        "movable": false,
+        "liturgicalRank": "Memoria facultativa"
+      },
+      "image": "assets/images/santos/san_patricio.webp"
+    },
+    {
+      "id": "san-pedro-apostol",
+      "name": "San Pedro Apóstol",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pedro-apostol.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "apostoles",
+        "martires"
+      ],
+      "territorial": {
+        "origin": [
+          "IL"
+        ],
+        "historicalLinks": [
+          "IL",
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 29,
+        "month": 6,
+        "text": "29 de junio",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
+      },
+      "image": "assets/images/santos/san_pedro_apostol.webp"
+    },
+    {
+      "id": "san-pablo-apostol",
+      "name": "San Pablo Apóstol",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/san-pablo-apostol.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "apostoles",
+        "martires"
+      ],
+      "territorial": {
+        "origin": [
+          "TR"
+        ],
+        "historicalLinks": [
+          "TR",
+          "IL",
+          "GR",
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "feast": {
+        "day": 29,
+        "month": 6,
+        "text": "29 de junio",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
+      },
+      "image": "assets/images/santos/san_pablo_apostol.webp"
+    },
+    {
+      "id": "santiago-apostol",
+      "name": "Santiago Apóstol",
+      "status": "published",
+      "category": "santos",
+      "sourceFile": "data/santiago-apostol.json",
+      "priority": "existente",
+      "groups": [
+        "devocion-extendida",
+        "apostoles",
+        "martires"
+      ],
+      "territorial": {
+        "origin": [
+          "IL"
+        ],
+        "historicalLinks": [
+          "IL",
+          "ES"
+        ],
+        "specialDevotion": [
+          "ES"
+        ]
+      },
+      "feast": {
+        "day": 25,
+        "month": 7,
+        "text": "25 de julio",
+        "movable": false,
+        "liturgicalRank": "Fiesta"
+      },
+      "image": "assets/images/santos/santiago_apostol.webp"
+    },
+    {
+      "id": "santo-domingo-savio",
+      "name": "Santo Domingo Savio",
+      "status": "published",
+      "image": "assets/images/santos/santo_domingo_savio.webp",
+      "category": "santos",
+      "sourceFile": "data/santo-domingo-savio.json",
+      "priority": "nueva incorporación",
+      "territorial": {
+        "origin": [
+          "IT"
+        ],
+        "historicalLinks": [
+          "IT"
+        ],
+        "specialDevotion": [
+          "IT"
+        ]
+      },
+      "groups": [
+        "jovenes",
+        "devocion-extendida"
+      ],
+      "feast": {
+        "day": 6,
+        "month": 5,
+        "text": "6 de mayo",
+        "movable": false,
+        "liturgicalRank": "Memoria"
+      }
+    }
+  ]
 }
