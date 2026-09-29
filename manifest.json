@@ -23,16 +23,10 @@
             "purpose": "any"
         },
         {
-            "src": "assets/branding/isotipo-amigos-del-cielo.webp",
-            "sizes": "512x512",
-            "type": "image/webp",
-            "purpose": "maskable"
-        },
-        {
             "src": "assets/branding/splash-horizontal-512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any"
+            "purpose": "maskable"
         }
     ]
 }
