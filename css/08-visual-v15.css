@@ -136,3 +136,39 @@ body.dark .app-startup-splash{
         max-width:210px;
     }
 }
+
+
+/* ==========================================================
+   MI CAMINO — AJUSTES FINALES DEL EXPLORADOR
+   Estos estilos van al final para prevalecer sobre el sistema
+   visual general de Biblioteca.
+========================================================== */
+
+.camino-page .camino-explorer{
+    margin-top:2.4rem;
+}
+
+.camino-page .camino-explorer .library-discover-mode.is-active{
+    background:var(--color-primary);
+    border-color:var(--color-primary);
+    color:#fff;
+}
+
+.camino-page .camino-explorer .library-discover-mode.is-active strong{
+    color:#fff;
+}
+
+.camino-page .camino-explorer .library-discover-mode.is-active small{
+    color:rgba(255,255,255,.88);
+}
+
+.camino-page .camino-explorer .library-discover-mode.is-active .library-discover-mode-icon{
+    background:rgba(255,255,255,.14);
+    color:#fff;
+}
+
+@media (max-width:640px){
+    .camino-page .camino-explorer{
+        margin-top:2.15rem;
+    }
+}
