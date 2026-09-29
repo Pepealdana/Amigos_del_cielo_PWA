@@ -305,3 +305,8 @@ function renderCamino(
 
                 ${renderExploradorBiblioteca()}
             </section>
+
+
+        </section>
+    `;
+}
