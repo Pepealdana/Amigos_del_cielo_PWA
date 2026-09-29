@@ -3,7 +3,7 @@
 ## Estado
 
 **Versión:** 1.4.1  
-**Service Worker:** v271  
+**Service Worker:** v272  
 **Catálogo:** 112 registros publicados
 
 La aplicación es una PWA estática construida con HTML, CSS, JavaScript y JSON. No requiere backend para las funciones actuales.
@@ -68,7 +68,7 @@ Las pruebas E2E requieren Playwright y Chromium.
 
 Toda modificación que afecte código de aplicación, estilos, datos, recursos o comportamiento PWA debe incrementar CACHE_NAME en service-worker.js.
 
-La versión vigente es v271.
+La versión vigente es v272.
 
 ## Pruebas móviles
 
