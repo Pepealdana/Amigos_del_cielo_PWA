@@ -139,6 +139,8 @@ function renderDia(
                 )
                 : ""}
 
+            ${renderOracionesComunesDelDia(novena)}
+
             <div class="button-group">
 
                 <button
