@@ -92,7 +92,18 @@
       ],
       "image": "assets/images/santos/beata_chiara_luce_badano.webp",
       "sourceFile": "data/beata-chiara-luce-badano.json",
-      "category": "beatos"
+      "category": "beatos",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
     },
     {
       "id": "beato-michael-mcgivney",
@@ -133,7 +144,18 @@
       ],
       "image": "assets/images/santos/beato_michael_mcgivney.webp",
       "sourceFile": "data/beato-michael-mcgivney.json",
-      "category": "beatos"
+      "category": "beatos",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
     },
     {
       "id": "beato-padre-marianito",
@@ -176,7 +198,18 @@
       ],
       "image": "assets/images/santos/beato_padre_marianito.webp",
       "sourceFile": "data/beato-padre-marianito.json",
-      "category": "beatos"
+      "category": "beatos",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
     },
     {
       "id": "beato-ceferino-namuncura",
@@ -218,7 +251,18 @@
       ],
       "image": "assets/images/santos/beato_ceferino_namuncura.webp",
       "sourceFile": "data/beato-ceferino-namuncura.json",
-      "category": "beatos"
+      "category": "beatos",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
     },
     {
       "id": "beata-ana-de-los-angeles-monteagudo",
@@ -260,7 +304,18 @@
       ],
       "image": "assets/images/santos/beata_ana_de_los_angeles_monteagudo.webp",
       "sourceFile": "data/beata-ana-de-los-angeles-monteagudo.json",
-      "category": "beatos"
+      "category": "beatos",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
     },
     {
       "id": "beata-laura-vicuna",
@@ -305,7 +360,18 @@
       ],
       "image": "assets/images/santos/beata_laura_vicuña.webp",
       "sourceFile": "data/beata-laura-vicuna.json",
-      "category": "beatos"
+      "category": "beatos",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
     },
     {
       "id": "beata-guadalupe-ortiz-de-landazuri",
@@ -352,7 +418,18 @@
       ],
       "image": "assets/images/santos/beata_guadalupe_ortiz_de_landazuri.webp",
       "sourceFile": "data/beata-guadalupe-ortiz-de-landazuri.json",
-      "category": "beatos"
+      "category": "beatos",
+      "prayerStructure": {
+        "type": "standard-novena",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
     }
   ]
 }
