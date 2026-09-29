@@ -1,141 +1,164 @@
 {
-    "version": "3.0",
-    "category": "devociones",
-    "description": "Devociones y otras expresiones de oración conservadas del catálogo actual.",
-    "items": [
-        {
-            "id": "divina-misericordia",
-            "name": "Divina Misericordia",
-            "category": "devociones",
-            "status": "published",
-            "sourceFile": "data/divina-misericordia.json",
-            "territorial": {
-                "origin": [
-                    "PL"
-                ],
-                "historicalLinks": [
-                    "PL"
-                ],
-                "specialDevotion": []
-            },
-            "groups": [
-                "devociones-cristocentricas",
-                "devocion-extendida"
-            ],
-            "image": "assets/images/santos/divina_misericordia.webp"
-        },
-        {
-            "id": "espiritu-santo",
-            "name": "Espíritu Santo",
-            "category": "devociones",
-            "status": "published",
-            "sourceFile": "data/espiritu-santo.json",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": []
-            },
-            "groups": [
-                "devociones-trinitarias"
-            ],
-            "image": "assets/images/santos/espiritu_santo.webp"
-        },
-        {
-            "id": "sagrado-corazon-de-jesus",
-            "name": "Sagrado Corazón de Jesús",
-            "category": "devociones",
-            "status": "published",
-            "sourceFile": "data/sagrado-corazon-de-jesus.json",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": []
-            },
-            "groups": [
-                "devociones-cristocentricas",
-                "devocion-extendida"
-            ],
-            "image": "assets/images/santos/sagrado_corazon_de_jesus.webp"
-        },
-        {
-            "id": "divino-nino-jesus",
-            "name": "Divino Niño Jesús",
-            "category": "devociones",
-            "status": "published",
-            "sourceFile": "data/divino-nino-jesus.json",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "CO"
-                ],
-                "specialDevotion": [
-                    "CO"
-                ]
-            },
-            "groups": [
-                "devociones-cristocentricas",
-                "devocion-extendida"
-            ],
-            "image": "assets/images/santos/nino_jesus.webp"
-        },
-        {
-            "id": "santos-arcangeles",
-            "name": "Santos Arcángeles Miguel, Gabriel y Rafael",
-            "category": "devociones",
-            "status": "published",
-            "sourceFile": "data/santos-arcangeles.json",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [],
-                "specialDevotion": []
-            },
-            "groups": [
-                "angeles-y-arcangeles",
-                "devocion-extendida"
-            ],
-            "image": "assets/images/santos/santos_arcangeles_miguel_gabriel_rafael.webp"
-        },
-        {
-            "id": "senor-de-los-milagros-de-buga",
-            "name": "Señor de los Milagros de Buga",
-            "category": "devociones",
-            "status": "published",
-            "sourceFile": "data/senor-de-los-milagros-de-buga.json",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "CO"
-                ],
-                "specialDevotion": [
-                    "CO"
-                ]
-            },
-            "groups": [
-                "devociones-cristocentricas",
-                "devocion-extendida"
-            ],
-            "image": "assets/images/santos/senor_de_los_milagros_de_buga.webp"
-        },
-        {
-            "id": "senor-de-los-milagros-peru",
-            "name": "Señor de los Milagros del Perú",
-            "category": "devociones",
-            "status": "published",
-            "image": "assets/images/santos/senor_de_los_milagros_peru.webp",
-            "sourceFile": "data/senor-de-los-milagros-peru.json",
-            "territorial": {
-                "origin": [],
-                "historicalLinks": [
-                    "PE"
-                ],
-                "specialDevotion": [
-                    "PE"
-                ]
-            },
-            "groups": [
-                "devociones-cristocentricas",
-                "devocion-extendida"
-            ]
-        }
-    ]
+  "version": "3.0",
+  "category": "devociones",
+  "description": "Devociones y otras expresiones de oración conservadas del catálogo actual.",
+  "items": [
+    {
+      "id": "divina-misericordia",
+      "name": "Divina Misericordia",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/divina-misericordia.json",
+      "territorial": {
+        "origin": [
+          "PL"
+        ],
+        "historicalLinks": [
+          "PL"
+        ],
+        "specialDevotion": []
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ],
+      "image": "assets/images/santos/divina_misericordia.webp",
+      "prayerStructure": {
+        "type": "divine-mercy",
+        "dailyPrayerFields": [
+          "prayerAdapted",
+          "eternalFather"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
+    },
+    {
+      "id": "espiritu-santo",
+      "name": "Espíritu Santo",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/espiritu-santo.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      },
+      "groups": [
+        "devociones-trinitarias"
+      ],
+      "image": "assets/images/santos/espiritu_santo.webp",
+      "prayerStructure": {
+        "type": "holy-spirit",
+        "dailyPrayerFields": [
+          "prayer"
+        ],
+        "closingPrayers": [
+          "padre-nuestro",
+          "ave-maria",
+          "gloria"
+        ]
+      }
+    },
+    {
+      "id": "sagrado-corazon-de-jesus",
+      "name": "Sagrado Corazón de Jesús",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/sagrado-corazon-de-jesus.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ],
+      "image": "assets/images/santos/sagrado_corazon_de_jesus.webp"
+    },
+    {
+      "id": "divino-nino-jesus",
+      "name": "Divino Niño Jesús",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/divino-nino-jesus.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ],
+      "image": "assets/images/santos/nino_jesus.webp"
+    },
+    {
+      "id": "santos-arcangeles",
+      "name": "Santos Arcángeles Miguel, Gabriel y Rafael",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/santos-arcangeles.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [],
+        "specialDevotion": []
+      },
+      "groups": [
+        "angeles-y-arcangeles",
+        "devocion-extendida"
+      ],
+      "image": "assets/images/santos/santos_arcangeles_miguel_gabriel_rafael.webp"
+    },
+    {
+      "id": "senor-de-los-milagros-de-buga",
+      "name": "Señor de los Milagros de Buga",
+      "category": "devociones",
+      "status": "published",
+      "sourceFile": "data/senor-de-los-milagros-de-buga.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "CO"
+        ],
+        "specialDevotion": [
+          "CO"
+        ]
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ],
+      "image": "assets/images/santos/senor_de_los_milagros_de_buga.webp"
+    },
+    {
+      "id": "senor-de-los-milagros-peru",
+      "name": "Señor de los Milagros del Perú",
+      "category": "devociones",
+      "status": "published",
+      "image": "assets/images/santos/senor_de_los_milagros_peru.webp",
+      "sourceFile": "data/senor-de-los-milagros-peru.json",
+      "territorial": {
+        "origin": [],
+        "historicalLinks": [
+          "PE"
+        ],
+        "specialDevotion": [
+          "PE"
+        ]
+      },
+      "groups": [
+        "devociones-cristocentricas",
+        "devocion-extendida"
+      ]
+    }
+  ]
 }
