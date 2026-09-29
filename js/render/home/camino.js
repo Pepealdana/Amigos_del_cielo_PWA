@@ -277,33 +277,49 @@ function renderCamino(
             </section>
 
             <section class="camino-explorer library-discover" aria-labelledby="camino-explorer-title">
-                <div class="library-section-heading">
+
+                <div class="camino-explorer-hero">
+                    <div class="camino-explorer-hero-icon" aria-hidden="true">✦</div>
                     <div>
                         <p class="library-kicker">Conoce un camino</p>
                         <h3 id="camino-explorer-title">¿Qué quieres aprender de un santo?</h3>
+                        <p>
+                            La santidad no se queda en una idea. Se descubre en decisiones,
+                            gestos y formas concretas de amar a Dios y a los demás.
+                        </p>
                     </div>
                 </div>
 
-                <p class="library-discover-intro">
-                    Puedes acercarte a una historia por aquello que quieres comprender, cultivar o vivir.
-                    Por ejemplo: perseverar, recomenzar, servir, perdonar, mantener la esperanza,
-                    amar a la familia, afrontar una dificultad o vivir con sencillez.
-                </p>
-
-                <div class="library-discover-modes">
-                    <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}"
-                        type="button" data-action="library-explorer-mode" data-mode="intencion"
+                <div class="library-discover-modes" aria-label="Formas de explorar">
+                    <button
+                        class="library-discover-mode ${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}"
+                        type="button"
+                        data-action="library-explorer-mode"
+                        data-mode="intencion"
                         aria-pressed="${state.bibliotecaExplorador?.modo === "intencion"}">
-                        <strong>Explorar experiencias</strong>
+                        <span class="library-discover-mode-icon" aria-hidden="true">⌁</span>
+                        <span>
+                            <strong>Desde lo que estoy viviendo</strong>
+                            <small>Encuentra testimonios relacionados con una situación.</small>
+                        </span>
                     </button>
-                    <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}"
-                        type="button" data-action="library-explorer-mode" data-mode="virtud"
+
+                    <button
+                        class="library-discover-mode ${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}"
+                        type="button"
+                        data-action="library-explorer-mode"
+                        data-mode="virtud"
                         aria-pressed="${state.bibliotecaExplorador?.modo === "virtud"}">
-                        <strong>Explorar virtudes</strong>
+                        <span class="library-discover-mode-icon" aria-hidden="true">✦</span>
+                        <span>
+                            <strong>Desde una virtud</strong>
+                            <small>Elige una virtud y descubre cómo la vivieron otros.</small>
+                        </span>
                     </button>
                 </div>
 
                 ${renderExploradorBiblioteca()}
+
             </section>
 
 
