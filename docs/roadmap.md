@@ -50,8 +50,10 @@
 - [ ] Notificaciones locales o push
 - [ ] Auditoría WCAG más profunda
 - [ ] Optimización de imágenes y rendimiento
-- [ ] Pruebas automatizadas de navegación
-- [ ] Pruebas reales offline en Android/iOS/escritorio
+- [x] Pruebas automatizadas de navegación
+- [x] Pruebas automatizadas offline con Service Worker
+- [x] Pruebas móviles emuladas con perfil Pixel 5
+- [ ] Pruebas físicas offline en Android/iOS
 
 ### Evolución
 - [ ] Biblioteca espiritual
@@ -64,8 +66,10 @@
 
 La versión funcional se mantiene en APP_CONFIG.version.
 
-La aplicación está en **1.3.1**. El Service Worker utiliza **v214** como identificador de caché y los recursos versionados del HTML utilizan **?v=214**.
+La aplicación está en **1.4.1**. El Service Worker utiliza **v267** como identificador de caché. La navegación interna utiliza ?ruta= y los enlaces directos de novenas mantienen compatibilidad con ?novena=.
 
 La versión funcional y la generación de caché son conceptos distintos: la primera identifica cambios de producto; la segunda invalida recursos del navegador.
 
 No deben utilizarse números antiguos de cache-busting salvo que exista una razón documentada.
+
+El splash nativo se mantiene sujeto a la selección de iconos que realiza el navegador a partir del manifest; no existe un campo estándar independiente para definir un icono exclusivo del splash.
