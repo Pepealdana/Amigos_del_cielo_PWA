@@ -266,6 +266,24 @@ document.addEventListener(
 );
 
 /* ==========================================
+   SPLASH DE ARRANQUE
+========================================== */
+
+function ocultarSplashArranque() {
+    const splash = document.getElementById("app-startup-splash");
+
+    if (!splash) {
+        return;
+    }
+
+    splash.classList.add("is-hidden");
+
+    window.setTimeout(() => {
+        splash.remove();
+    }, 220);
+}
+
+/* ==========================================
    INICIAR APLICACIÓN
 ========================================== */
 
@@ -287,7 +305,6 @@ async function iniciarApp() {
         solicitarPersistenciaStorage();
 
         await cargarCatalogo();
-        await cargarCatalogosV2();
 
         actualizarBotonInstalacion();
         actualizarInvitacionInstalacion();
@@ -295,6 +312,8 @@ async function iniciarApp() {
         inicializarHistorialRouter();
 
         await restaurarRutaDesdeURL();
+
+        ocultarSplashArranque();
 
     }
 
@@ -307,6 +326,8 @@ async function iniciarApp() {
             error
 
         );
+
+        ocultarSplashArranque();
 
         mostrarError(
             obtenerMensajeErrorInicio(error),
@@ -2184,18 +2205,20 @@ document.addEventListener(
                         updateViaCache: "none"
                     }
                 )
-                .then(async registro => {
-                    await registro.update();
+                .then(registro => {
 
                     /*
-                     * Si ya existe una actualización esperando, la activamos
-                     * inmediatamente. El Service Worker usa skipWaiting().
+                     * La comprobación explícita update() en cada apertura
+                     * añadía trabajo de red al arranque. El navegador ya
+                     * comprueba y actualiza el Service Worker según su
+                     * ciclo de vida normal.
                      */
                     if (registro.waiting) {
                         registro.waiting.postMessage({
                             type: "SKIP_WAITING"
                         });
                     }
+
                 })
                 .catch(error =>
                     console.error(
