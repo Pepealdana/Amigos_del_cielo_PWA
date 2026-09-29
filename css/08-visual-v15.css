@@ -30,9 +30,39 @@ body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
 ========================================================== */
 @media (max-width:900px){
     /*
-     * El menú vive fuera de #app y debe quedar por encima del header,
-     * independientemente de los stacking contexts creados por la PWA.
+     * Cuando el menú está abierto, el header debe ceder su propia
+     * capa de apilamiento. El menú se renderiza como panel superior.
      */
+    body.menu-open .header{
+        z-index:1 !important;
+    }
+
+    /*
+     * El panel ocupa el viewport completo y queda por encima del header.
+     */
+    .side-menu{
+        position:fixed !important;
+        top:0 !important;
+        bottom:0 !important;
+        left:-320px !important;
+        z-index:3000 !important;
+        overflow-x:hidden;
+        overflow-y:auto;
+        -webkit-overflow-scrolling:touch;
+        overscroll-behavior:contain;
+        padding:.5rem .9rem .75rem;
+        box-shadow:12px 0 32px rgba(20,35,55,.16);
+    }
+    .side-menu.open{left:0 !important}
+    .menu-overlay{z-index:2900 !important}
+    .side-menu .menu-header{padding:.35rem 2.75rem .65rem 0;margin-bottom:.15rem}
+    .side-menu .menu-header h2{margin:.25rem 0 .08rem}
+    .side-menu .menu-header p{margin:0}
+    .side-menu .menu-group{padding:.25rem 0}
+    .side-menu .menu-group-title{margin:0 0 .05rem .35rem;line-height:1.2}
+    .side-menu .menu-group button{min-height:38px;padding:.38rem .7rem}
+    .side-menu > .menu-close-button{z-index:2;top:.45rem !important;right:.65rem !important}
+}
     .side-menu{
         position:fixed !important;
         top:0 !important;
