@@ -35,7 +35,7 @@ function renderModal(
 
                 <h2 id="modal-title" class="modal-title">
 
-                    ${titulo}
+                    ${escaparHTML(titulo)}
 
                 </h2>
 
