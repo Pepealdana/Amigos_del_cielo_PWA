@@ -112,13 +112,13 @@ const router = {
 
             case "portada":
 
-                mostrarPortadaNovena();
+                mostrarPortadaNovena(false);
 
                 break;
 
             case "historia":
 
-                mostrarHistoria();
+                mostrarHistoria(false);
 
                 break;
 
