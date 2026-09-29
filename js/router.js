@@ -3,6 +3,26 @@
    Amigos del Cielo
 ========================================== */
 
+const RUTAS_VALIDAS = new Set([
+    "inicio",
+    "biblioteca",
+    "camino",
+    "todos",
+    "santos",
+    "beatos",
+    "maria",
+    "novenas",
+    "devociones",
+    "portada",
+    "historia",
+    "dia",
+    "favoritas",
+    "progreso",
+    "configuracion",
+    "participa",
+    "acerca"
+]);
+
 const router = {
 
     rutaActual: "inicio",
@@ -15,27 +35,43 @@ const router = {
 
         ruta,
 
-        datos = null
+        datos = null,
+
+        opciones = {}
 
     ) {
 
-        this.rutaAnterior =
+        const rutaNormalizada =
+            RUTAS_VALIDAS.has(ruta)
+                ? ruta
+                : "inicio";
 
+        this.rutaAnterior =
             this.rutaActual;
 
         this.rutaActual =
-
-            ruta;
+            rutaNormalizada;
 
         this.datos =
-
             datos;
 
-        actualizarNavegacionInferior(ruta);
+        if (opciones.actualizarURL !== false) {
+
+            this.actualizarURL(
+                rutaNormalizada,
+                datos,
+                opciones.reemplazar === true
+            );
+
+        }
+
+        actualizarNavegacionInferior(
+            rutaNormalizada
+        );
 
         cerrarMenu();
 
-        switch (ruta) {
+        switch (rutaNormalizada) {
 
             case "inicio":
 
@@ -103,6 +139,15 @@ const router = {
 
                 break;
 
+            case "dia":
+
+                mostrarDia(
+                    Number(datos?.dia) || 1,
+                    false
+                );
+
+                break;
+
             case "favoritas":
 
                 mostrarFavoritas();
@@ -135,15 +180,183 @@ const router = {
 
             default:
 
-                console.warn(
-
-                    `Ruta inexistente: ${ruta}`
-
-                );
-
                 mostrarInicio();
 
         }
+
+    },
+
+    actualizarURL(
+
+        ruta,
+
+        datos = null,
+
+        reemplazar = false
+
+    ) {
+
+        if (
+            typeof window === "undefined" ||
+            !window.history?.pushState
+        ) {
+            return;
+        }
+
+        const url =
+            new URL(
+                window.location.href
+            );
+
+        url.search = "";
+        url.hash = "";
+
+        if (ruta !== "inicio") {
+
+            url.searchParams.set(
+                "ruta",
+                ruta
+            );
+
+        }
+
+        const novenaId =
+            datos?.novenaId ||
+            (
+                ruta === "portada" ||
+                ruta === "historia" ||
+                ruta === "dia"
+                    ? state?.novenaActual?.id
+                    : null
+            );
+
+        if (novenaId) {
+
+            url.searchParams.set(
+                "novena",
+                novenaId
+            );
+
+        }
+
+        if (ruta === "dia") {
+
+            const dia =
+                Number(datos?.dia) ||
+                Number(state?.diaActual) ||
+                1;
+
+            url.searchParams.set(
+                "dia",
+                String(dia)
+            );
+
+        }
+
+        const estado =
+            {
+                ruta,
+                datos: {
+                    ...(datos || {}),
+                    ...(novenaId
+                        ? { novenaId }
+                        : {})
+                }
+            };
+
+        if (reemplazar) {
+
+            window.history.replaceState(
+                estado,
+                "",
+                url.href
+            );
+
+        } else {
+
+            window.history.pushState(
+                estado,
+                "",
+                url.href
+            );
+
+        }
+
+    },
+
+    obtenerDestinoURL() {
+
+        const params =
+            new URLSearchParams(
+                window.location.search
+            );
+
+        const rutaSolicitada =
+            params.get("ruta");
+
+        const novenaId =
+            params.get("novena");
+
+        const dia =
+            Number(
+                params.get("dia")
+            );
+
+        if (
+            novenaId &&
+            buscarNovenaPorId(
+                state.catalogo,
+                novenaId
+            )
+        ) {
+
+            const ruta =
+                RUTAS_VALIDAS.has(
+                    rutaSolicitada
+                ) &&
+                [
+                    "portada",
+                    "historia",
+                    "dia"
+                ].includes(rutaSolicitada)
+                    ? rutaSolicitada
+                    : "portada";
+
+            return {
+                ruta,
+                datos: {
+                    novenaId,
+                    ...(ruta === "dia"
+                        ? {
+                            dia:
+                                Number.isInteger(dia) &&
+                                dia >= 1 &&
+                                dia <= 9
+                                    ? dia
+                                    : 1
+                        }
+                        : {})
+                }
+            };
+
+        }
+
+        const ruta =
+            RUTAS_VALIDAS.has(
+                rutaSolicitada
+            ) &&
+            ![
+                "portada",
+                "historia",
+                "dia"
+            ].includes(rutaSolicitada)
+                ? rutaSolicitada
+                : "inicio";
+
+        return {
+            ruta,
+            datos: null
+        };
 
     }
 
@@ -208,4 +421,148 @@ function actualizarNavegacionInferior(ruta) {
             }
 
         });
+}
+
+/* ==========================================
+   HISTORIAL DEL NAVEGADOR
+========================================== */
+
+function inicializarHistorialRouter() {
+
+    if (
+        typeof window === "undefined" ||
+        !window.history?.replaceState
+    ) {
+        return;
+    }
+
+    window.addEventListener(
+        "popstate",
+        () => {
+
+            restaurarRutaDesdeURL()
+                .catch(error =>
+                    console.error(
+                        "Error restaurando navegación:",
+                        error
+                    )
+                );
+
+        }
+    );
+
+    router.actualizarURL(
+        router.rutaActual,
+        null,
+        true
+    );
+
+}
+
+async function restaurarRutaDesdeURL() {
+
+    const destino =
+        router.obtenerDestinoURL();
+
+    if (
+        destino.ruta === "portada" ||
+        destino.ruta === "historia" ||
+        destino.ruta === "dia"
+    ) {
+
+        const id =
+            destino.datos?.novenaId;
+
+        if (!id) {
+
+            router.ir(
+                "biblioteca",
+                null,
+                {
+                    actualizarURL: false
+                }
+            );
+
+            return;
+
+        }
+
+        if (
+            !state.novenaActual ||
+            state.novenaActual.id !== id
+        ) {
+
+            await cargarNovena(id);
+
+        }
+
+        if (!state.novenaActual) {
+
+            router.ir(
+                "biblioteca",
+                null,
+                {
+                    actualizarURL: false
+                }
+            );
+
+            return;
+
+        }
+
+        if (destino.ruta === "portada") {
+
+            router.ir(
+                "portada",
+                {
+                    novenaId: id
+                },
+                {
+                    actualizarURL: false
+                }
+            );
+
+            return;
+
+        }
+
+        if (destino.ruta === "historia") {
+
+            router.ir(
+                "historia",
+                {
+                    novenaId: id
+                },
+                {
+                    actualizarURL: false
+                }
+            );
+
+            return;
+
+        }
+
+        router.ir(
+            "dia",
+            {
+                novenaId: id,
+                dia: destino.datos?.dia || 1
+            },
+            {
+                actualizarURL: false
+            }
+        );
+
+        return;
+
+    }
+
+    router.ir(
+        destino.ruta,
+        null,
+        {
+            actualizarURL: false
+        }
+    );
+
 }
