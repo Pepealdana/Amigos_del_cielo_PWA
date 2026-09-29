@@ -94,13 +94,17 @@ async function cargarContenidoBibliotecaCompleto() {
      * Así, una novena nueva queda integrada automáticamente al explorador
      * al incorporarse al catálogo.
      */
+    /*
+     * El catálogo contiene metadatos (nombre, imagen, sourceFile), mientras
+     * que los días de la novena viven en el JSON de cada contenido.
+     * Por eso NO debemos filtrar aquí por item.days: todavía no hemos cargado
+     * ese JSON. Cargamos todas las novenas publicadas y después comprobamos
+     * qué contenido real aporta cada archivo.
+     */
     const publicados = obtenerContenidoBiblioteca()
         .filter(item =>
-            item?.sourceFile &&
-            (
-                item?.novena?.days ||
-                Array.isArray(item?.days)
-            )
+            item?.status === "published" &&
+            item?.sourceFile
         );
 
     const pendientes = publicados.filter(item => {
@@ -119,13 +123,23 @@ async function cargarContenidoBibliotecaCompleto() {
                     const contenido = await cargarJSONConRecuperacion(
                         "./" + String(item.sourceFile || item.file || "").replace(/^\.\//, "")
                     );
-                    bibliotecaContenidoCache.set(item.id, {
+                    const contenidoCompleto = {
                         ...item,
                         ...contenido,
                         id: item.id,
                         image: contenido?.image || item.image || "",
                         sourceFile: item.sourceFile || item.file
-                    });
+                    };
+
+                    /*
+                     * Solo el contenido que realmente contiene días de
+                     * novena entra al explorador. Así se incluyen las
+                     * novenas actuales y cualquier novena nueva sin mantener
+                     * una lista manual.
+                     */
+                    if (Array.isArray(contenidoCompleto.days) && contenidoCompleto.days.length) {
+                        bibliotecaContenidoCache.set(item.id, contenidoCompleto);
+                    }
                 } catch (error) {
                     bibliotecaContenidoCache.set(item.id, {
                         ...item,
@@ -138,7 +152,11 @@ async function cargarContenidoBibliotecaCompleto() {
 
     return publicados
         .map(item => bibliotecaContenidoCache.get(item.id))
-        .filter(Boolean);
+        .filter(item =>
+            item &&
+            Array.isArray(item.days) &&
+            item.days.length > 0
+        );
 }
 
 function bibliotecaTextoContiene(texto, termino) {
@@ -313,16 +331,20 @@ function obtenerEjemploDesdeNovenaBiblioteca(item, definicion, tipo) {
      */
     const categoria = String(item?.category || "").toLowerCase();
 
+    const diaReferencia = mejor.day
+        ? "Día " + mejor.day + ": "
+        : "";
+
     if (mejor.life?.text) {
-        return mejor.life.text;
+        return diaReferencia + mejor.life.text;
     }
 
     if (mejor.learning?.text) {
-        return mejor.learning.text;
+        return diaReferencia + mejor.learning.text;
     }
 
     if (mejor.action) {
-        return mejor.action;
+        return diaReferencia + mejor.action;
     }
 
     if (mejor.reflection) {
