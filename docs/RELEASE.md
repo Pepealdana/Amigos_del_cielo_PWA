@@ -2,58 +2,42 @@
 
 ## Estado actual
 
-- Versión de aplicación: **1.3.6**
-- Service Worker: **v229**
+- Versión de aplicación: **1.4.1**
+- Service Worker: **v267**
 - Tipo: Progressive Web App (PWA)
 - Plataforma: GitHub Pages
 - Idioma principal: español
 - Backend: no requerido para las funciones actuales
 
-## Verificaciones completadas
+## Verificaciones automatizadas
 
-La rama principal cuenta con automatizaciones para:
-- validación de JSON y estructura de datos;
-- validación de sintaxis JavaScript;
-- comprobación de rutas, imágenes y recursos locales;
-- revisión de acciones y rutas interactivas;
-- análisis de seguridad mediante CodeQL;
-- auditoría mediante Lighthouse CI;
-- despliegue mediante GitHub Pages.
+Se mantienen automatizaciones para validación de JSON, sintaxis JavaScript, rutas, imágenes, recursos del Service Worker, acciones y rutas interactivas, CodeQL, Lighthouse CI y GitHub Pages.
 
-Además de las comprobaciones automáticas, se realizó una prueba funcional manual de las principales áreas de la aplicación, incluyendo navegación, Biblioteca, catálogo, novenas, favoritos, progreso, configuración, compartir y funcionamiento sin conexión.
+V1.4.1 añade además pruebas E2E con Playwright para navegación, deep links, historial Atrás/Adelante, Service Worker y funcionamiento offline. El perfil Pixel 5 representa una emulación móvil de Chromium; no sustituye una prueba física.
 
-## Documentación del proyecto
+## Verificaciones manuales pendientes
 
-- `README.md`: descripción general, arquitectura, alcance, seguridad, contenido y roadmap.
-- `CHANGELOG.md`: historial de versiones y cambios.
-- `SECURITY.md`: procedimiento para reportar vulnerabilidades.
-- `.github/workflows/validate-data.yml`: validación de integridad.
-- `.github/workflows/codeql.yml`: análisis de seguridad.
-- `.github/workflows/lighthouse.yml`: auditorías de calidad web.
-- `.github/dependabot.yml`: actualización de GitHub Actions.
-- `.lighthouserc.js`: configuración de Lighthouse CI.
+Antes de una publicación estable debe comprobarse en un dispositivo Android real, y cuando sea posible también en iOS:
 
-## Antes de la publicación pública
+1. instalación y apertura de la PWA;
+2. icono y pantalla de inicio nativa;
+3. navegación principal;
+4. Atrás/Adelante;
+5. apertura y continuación de una novena;
+6. progreso;
+7. funcionamiento sin conexión;
+8. actualización del Service Worker después de una nueva publicación.
 
-1. Revisar y, si corresponde, fusionar los Pull Requests de Dependabot pendientes.
-2. Confirmar que los workflows de la rama principal terminan correctamente.
-3. Confirmar que GitHub Pages publica el commit destinado a la versión 1.3.6.
-4. Crear una etiqueta/release `v1.3.6`.
-5. Verificar la URL pública desde un dispositivo móvil.
-6. Comprobar instalación de la PWA en al menos un navegador compatible.
-7. Hacer una última prueba de navegación y de modo offline después del despliegue.
-8. Preparar una presentación pública con nombre, logotipo, propósito, funciones, capturas, enlace de la aplicación, instrucciones de instalación y, si se desea, enlace al repositorio.
+El procedimiento completo está en docs/PRUEBAS-MOVILES.md.
 
-## Después de publicar
+## Splash nativo
 
-La siguiente fase debe centrarse en observar el uso real y registrar errores funcionales, problemas de instalación, contenidos que deban corregirse, dificultades de navegación, accesibilidad, tiempos de carga percibidos y solicitudes de nuevas novenas, santos, beatos, advocaciones o devociones.
+Chrome genera la pantalla de presentación a partir de name, background_color e icons del manifest y selecciona un icono según el dispositivo. La aplicación mantiene el isotipo como icono adaptativo y el logo horizontal como recurso adicional.
 
-Las nuevas funciones deben priorizarse después de recopilar evidencia de uso, evitando introducir cambios grandes inmediatamente antes de una publicación estable.
+No se utiliza un splash HTML porque aparecería también durante recargas y no equivale al splash nativo de la PWA.
 
-## Licencia
+## Criterio de publicación
 
-Actualmente el repositorio no declara una licencia de software abierta. Hasta que se publique una licencia explícita, no debe asumirse que el código, contenido o recursos gráficos pueden reutilizarse libremente.
+Una publicación estable requiere validaciones automáticas en verde, GitHub Pages desplegado con el commit esperado, documentación alineada con la versión y Service Worker incrementado cuando cambia código, estilos, datos, recursos o comportamiento PWA.
 
-## Criterio de cierre de la versión 1.3.6
-
-La versión se considera técnicamente preparada para publicación cuando las validaciones automáticas están en verde, GitHub Pages está correcto, no existen incidencias funcionales conocidas de alta prioridad, la documentación corresponde con la versión desplegada y la etiqueta/release identifica claramente la versión publicada.
+Las referencias a versiones anteriores se conservan como historial en CHANGELOG.md. La documentación operativa actual no debe reutilizar valores históricos como estado vigente.
