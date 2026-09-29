@@ -47,6 +47,12 @@
         rel="apple-touch-icon"
         href="assets/branding/isotipo-amigos-del-cielo.webp">
 
+    <link
+        rel="preload"
+        as="image"
+        href="assets/branding/logo-horizontal-amigos-del-cielo.webp"
+        type="image/webp">
+
     <script>
         (function () {
             try {
@@ -91,6 +97,24 @@
         href="#view">
         Saltar al contenido principal
     </a>
+
+    <!-- ==========================
+         SPLASH DE ARRANQUE
+         Identidad horizontal para evitar
+         que el icono cuadrado domine la carga.
+    =========================== -->
+
+    <div
+        id="app-startup-splash"
+        class="app-startup-splash"
+        aria-hidden="true">
+        <img
+            src="assets/branding/logo-horizontal-amigos-del-cielo.webp"
+            alt=""
+            width="256"
+            height="85"
+            decoding="async">
+    </div>
 
     <!-- ==========================
          APLICACIÓN
