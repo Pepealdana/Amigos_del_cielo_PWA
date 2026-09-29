@@ -230,7 +230,7 @@ function renderCamino(
                             </svg>
                         </span>
                         <div>
-                            <strong>\${Array.isArray(favoritos) ? favoritos.length : 0}</strong>
+                            <strong>${Array.isArray(favoritos) ? favoritos.length : 0}</strong>
                             <span>Favoritos</span>
                         </div>
                     </div>
@@ -260,11 +260,11 @@ function renderCamino(
 
                     <div class="camino-summary-progress-counts">
                         <span>
-                            <strong>\${novenasEnCurso}</strong>
+                            <strong>${novenasEnCurso}</strong>
                             <small>En curso</small>
                         </span>
                         <span>
-                            <strong>\${novenasCompletadas}</strong>
+                            <strong>${novenasCompletadas}</strong>
                             <small>Completadas</small>
                         </span>
                     </div>
