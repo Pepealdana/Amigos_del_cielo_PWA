@@ -128,10 +128,10 @@ function renderBiblioteca(catalogo = []) {
 <div class="library-section-heading"><div><p class="library-kicker">Una mirada diferente</p><h3 id="library-santidad-title">Los santos también tuvieron un camino</h3></div></div>
 <div class="library-santidad-intro"><p>Los santos no fueron personas perfectas desde el comienzo. Cada uno recorrió una historia distinta: algunos descubrieron a Dios desde muy jóvenes; otros cambiaron de rumbo; otros aprendieron a amar en medio de la vida cotidiana y de la prueba.</p><p>Conocer sus historias no significa copiarlas. Significa descubrir cómo la fe, la esperanza y el amor pueden transformar una vida concreta.</p></div>
 <div class="library-santidad-paths" aria-label="Distintas formas de recorrer un camino de fe">
-<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">•</span><div><strong>Comenzar desde joven</strong><p>Una vocación descubierta temprano.</p></div></div>
-<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">↗</span><div><strong>Recomenzar</strong><p>Una conversión o un cambio profundo de rumbo.</p></div></div>
-<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">⌂</span><div><strong>Vivir lo cotidiano</strong><p>La fe vivida en la familia, el trabajo y el servicio.</p></div></div>
-<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">+</span><div><strong>Perseverar en la prueba</strong><p>Aprender a amar y servir en circunstancias difíciles.</p></div></div></div>
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="7" r="3"/><path d="M6 20c.5-3.5 2.5-5.5 6-5.5s5.5 2 6 5.5"/></svg></span><div><strong>Comenzar desde joven</strong><p>Una vocación descubierta temprano.</p></div></div>
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 19 19 5"/><path d="M10 5h9v9"/></svg></span><div><strong>Recomenzar</strong><p>Una conversión o un cambio profundo de rumbo.</p></div></div>
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m4 10 8-6 8 6"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-5h4v5"/></svg></span><div><strong>Vivir lo cotidiano</strong><p>La fe vivida en la familia, el trabajo y el servicio.</p></div></div>
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 19 12 5l7 14"/><path d="M8 16h8"/></svg></span><div><strong>Perseverar en la prueba</strong><p>Aprender a amar y servir en circunstancias difíciles.</p></div></div></div>
 <div class="library-santidad-callout"><strong>Tu camino también está comenzando.</strong><p>No necesitas ser perfecto para comenzar a seguir a Cristo.</p></div>
 </section>
 <section class="library-discover" aria-labelledby="library-discover-title">
@@ -149,7 +149,7 @@ ${renderExploradorBiblioteca()}
                         <p class="library-kicker">Para hoy</p>
                         <h3 id="library-today-title">Un momento para acercarte a Dios</h3>
                     </div>
-                    <span class="library-section-symbol" aria-hidden="true">✦</span>
+                    
                 </div>
 
                 ${santoDelDia ? `
@@ -186,7 +186,7 @@ ${renderExploradorBiblioteca()}
                     </article>
                 ` : `
                     <div class="library-empty-today">
-                        <span aria-hidden="true">✦</span>
+                        <span aria-hidden="true" class="library-loading-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2"/></svg></span>
                         <p>Hoy puedes dedicar un momento a la oración, continuar una novena o descubrir un nuevo santo.</p>
                     </div>
                 `}
@@ -203,39 +203,39 @@ ${renderExploradorBiblioteca()}
                 <div class="library-action-grid">
 
                     <button class="library-action-card" type="button" data-route="novenas">
-                        <span class="library-action-icon" aria-hidden="true">☼</span>
+                        <span class="library-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4.5h10a4 4 0 0 1 4 4V20H9a4 4 0 0 0-4-4V4.5Z"/><path d="M9 20a4 4 0 0 0-4-4"/><path d="M8.5 8h7M8.5 11h7"/></svg></span>
                         <span class="library-action-text">
                             <strong>Novenas</strong>
                             <small>Comienza o continúa una novena.</small>
                         </span>
-                        <span class="library-action-arrow" aria-hidden="true">›</span>
+                        <span class="library-action-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m9 5 7 7-7 7"/></svg></span>
                     </button>
 
                     <button class="library-action-card" type="button" data-route="devociones">
-                        <span class="library-action-icon" aria-hidden="true">♡</span>
+                        <span class="library-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20.2S4.5 15.7 4.5 9.6A4.1 4.1 0 0 1 8.6 5.5c1.5 0 2.7.7 3.4 1.8.7-1.1 1.9-1.8 3.4-1.8a4.1 4.1 0 0 1 4.1 4.1c0 6.1-7.5 10.6-7.5 10.6Z"/></svg></span>
                         <span class="library-action-text">
                             <strong>Devociones</strong>
                             <small>Encuentra una forma de oración para este momento.</small>
                         </span>
-                        <span class="library-action-arrow" aria-hidden="true">›</span>
+                        <span class="library-action-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m9 5 7 7-7 7"/></svg></span>
                     </button>
 
                     <button class="library-action-card" type="button" data-route="maria">
-                        <span class="library-action-icon" aria-hidden="true">✧</span>
+                        <span class="library-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4v16M7 7h10M7 17h10"/></svg></span>
                         <span class="library-action-text">
                             <strong>María</strong>
                             <small>Descubre advocaciones y su tradición devocional.</small>
                         </span>
-                        <span class="library-action-arrow" aria-hidden="true">›</span>
+                        <span class="library-action-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m9 5 7 7-7 7"/></svg></span>
                     </button>
 
                     <button class="library-action-card" type="button" data-route="santos">
-                        <span class="library-action-icon" aria-hidden="true">✦</span>
+                        <span class="library-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="7.5" r="3"/><path d="M5.5 20c.6-4 2.8-6 6.5-6s5.9 2 6.5 6"/></svg></span>
                         <span class="library-action-text">
                             <strong>Conocer santos</strong>
                             <small>Explora vidas, vocaciones y testimonios de santidad.</small>
                         </span>
-                        <span class="library-action-arrow" aria-hidden="true">›</span>
+                        <span class="library-action-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m9 5 7 7-7 7"/></svg></span>
                     </button>
 
                 </div>
@@ -327,7 +327,7 @@ ${renderExploradorBiblioteca()}
                 </div>
 
                 <div class="library-search-box">
-                    <span aria-hidden="true">⌕</span>
+                    <span aria-hidden="true" class="library-search-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="5.8"/><path d="m15.2 15.2 4.2 4.2"/></svg></span>
                     <input
                         id="library-search"
                         type="search"
@@ -342,7 +342,7 @@ ${renderExploradorBiblioteca()}
                         ? renderResultadosBiblioteca(state.busqueda)
                         : `
                             <div class="library-search-hint">
-                                <span aria-hidden="true">⌕</span>
+                                <span aria-hidden="true" class="library-search-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="5.8"/><path d="m15.2 15.2 4.2 4.2"/></svg></span>
                                 <p>Escribe un nombre o una palabra para buscar dentro de la biblioteca.</p>
                             </div>
                         `}
@@ -383,7 +383,7 @@ function renderResultadosBiblioteca(texto = "") {
     if (!termino) {
         return `
             <div class="library-search-hint">
-                <span aria-hidden="true">⌕</span>
+                <span aria-hidden="true" class="library-search-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="5.8"/><path d="m15.2 15.2 4.2 4.2"/></svg></span>
                 <p>Escribe un nombre o una palabra para buscar dentro de la biblioteca.</p>
             </div>
         `;
@@ -417,7 +417,7 @@ function renderResultadosBiblioteca(texto = "") {
                     class="library-result-image"
                     loading="lazy">
             ` : `
-                <span class="library-result-image library-image-placeholder" aria-hidden="true">✦</span>
+                <span class="library-result-image library-image-placeholder" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg></span>
             `}
 
             <span class="library-result-content">
@@ -426,7 +426,7 @@ function renderResultadosBiblioteca(texto = "") {
                 <small>${escaparHTML(item.feast?.text || "Contenido espiritual")}</small>
             </span>
 
-            <span class="library-action-arrow" aria-hidden="true">›</span>
+            <span class="library-action-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m9 5 7 7-7 7"/></svg></span>
         </button>
     `).join("");
 }
