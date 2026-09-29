@@ -12,6 +12,7 @@ const CATALOG_V2_PATHS = {
 };
 
 let catalogosV2Cargados = false;
+const novenasCargadas = new Map();
 
 async function cargarCatalogosV2() {
 
@@ -26,7 +27,7 @@ async function cargarCatalogosV2() {
                 let response;
 
                 try {
-                    response = await fetch(ruta, { cache: "no-cache" });
+                    response = await fetch(ruta, { cache: "default" });
                 } catch (error) {
                     const fallo = new Error(
                         "No fue posible conectar con el catálogo de " + clave + "."
@@ -148,9 +149,21 @@ async function cargarNovena(id) {
     }
 
     const ruta = "./" + archivo.replace(/^\.\//, "");
-    const novena = await cargarJSONConRecuperacion(ruta);
 
-    await cargarOraciones();
+    let novena = novenasCargadas.get(id);
+
+    if (!novena) {
+        novena = await cargarJSONConRecuperacion(ruta);
+        novenasCargadas.set(id, novena);
+    }
+
+    /* La portada no necesita bloquearse esperando el banco de oraciones. */
+    const oracionesPromise = cargarOraciones().catch(error => {
+        console.warn("Banco de oraciones no disponible todavía:", error);
+        return null;
+    });
+
+    await oracionesPromise;
 
     if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
         const error = new Error("Los datos de la novena no son válidos.");
