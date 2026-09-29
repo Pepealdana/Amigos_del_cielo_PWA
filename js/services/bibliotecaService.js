@@ -46,6 +46,88 @@ const BIBLIOTECA_VIRTUDES = [
 ];
 
 const bibliotecaContenidoCache = new Map();
+const BIBLIOTECA_RESULTADOS_RECIENTES_KEY = "amigos-del-cielo-biblioteca-resultados-v1";
+const BIBLIOTECA_RESULTADOS_LIMITE = 5;
+
+function obtenerHistorialResultadosBiblioteca() {
+    try {
+        const guardado = JSON.parse(
+            localStorage.getItem(BIBLIOTECA_RESULTADOS_RECIENTES_KEY) || "{}"
+        );
+        return guardado && typeof guardado === "object" ? guardado : {};
+    } catch (error) {
+        return {};
+    }
+}
+
+function guardarHistorialResultadosBiblioteca(historial) {
+    try {
+        localStorage.setItem(
+            BIBLIOTECA_RESULTADOS_RECIENTES_KEY,
+            JSON.stringify(historial)
+        );
+    } catch (error) {
+        // La variación de resultados sigue funcionando aunque el almacenamiento local no esté disponible.
+    }
+}
+
+function mezclarResultadosBiblioteca(resultados) {
+    const copia = [...resultados];
+
+    for (let indice = copia.length - 1; indice > 0; indice -= 1) {
+        const posicion = Math.floor(Math.random() * (indice + 1));
+        [copia[indice], copia[posicion]] = [copia[posicion], copia[indice]];
+    }
+
+    return copia;
+}
+
+function seleccionarMuestraBiblioteca(resultados, tipo, id) {
+    if (resultados.length <= BIBLIOTECA_RESULTADOS_LIMITE) {
+        return mezclarResultadosBiblioteca(resultados);
+    }
+
+    const clave = String(tipo) + ":" + String(id);
+    const historial = obtenerHistorialResultadosBiblioteca();
+    let vistos = Array.isArray(historial[clave])
+        ? historial[clave].filter(Boolean)
+        : [];
+
+    const idsDisponibles = new Set(
+        resultados.map(resultado => String(resultado.item?.id || ""))
+    );
+
+    vistos = vistos.filter(idResultado => idsDisponibles.has(String(idResultado)));
+
+    let pendientes = resultados.filter(
+        resultado => !vistos.includes(String(resultado.item?.id || ""))
+    );
+
+    /*
+     * No mostramos siempre los mismos cinco. Primero agotamos los que aún
+     * no han aparecido en esta virtud/intención y, cuando ya no quedan
+     * suficientes para completar la muestra, completamos con los anteriores.
+     */
+    if (pendientes.length < BIBLIOTECA_RESULTADOS_LIMITE) {
+        vistos = [];
+        pendientes = [...resultados];
+    }
+
+    const seleccion = mezclarResultadosBiblioteca(pendientes)
+        .slice(0, BIBLIOTECA_RESULTADOS_LIMITE);
+
+    const nuevosVistos = [
+        ...new Set([
+            ...vistos,
+            ...seleccion.map(resultado => String(resultado.item?.id || ""))
+        ])
+    ];
+
+    historial[clave] = nuevosVistos;
+    guardarHistorialResultadosBiblioteca(historial);
+
+    return seleccion;
+}
 
 function normalizarBibliotecaTexto(texto) {
     return String(texto || "")
@@ -189,6 +271,75 @@ function obtenerDefinicionBiblioteca(tipo, id) {
         : BIBLIOTECA_INTENCIONES;
 
     return lista.find(item => item.id === id) || null;
+}
+
+function obtenerTerminosDefinicionBiblioteca(definicion) {
+    return [
+        definicion?.label,
+        ...(Array.isArray(definicion?.keywords) ? definicion.keywords : [])
+    ]
+        .map(normalizarBibliotecaTexto)
+        .filter(Boolean);
+}
+
+function obtenerReferenciaNovenaBiblioteca(item, definicion, tipo) {
+    const dias = obtenerDiasBiblioteca(item);
+    if (!dias.length) return null;
+
+    const terminos = obtenerTerminosDefinicionBiblioteca(definicion);
+    const terminoPrincipal = normalizarBibliotecaTexto(definicion?.label);
+    let mejor = null;
+    let mejorPuntuacion = 0;
+
+    for (const dia of dias) {
+        const virtud = normalizarBibliotecaTexto(dia?.virtue || "");
+        const tema = normalizarBibliotecaTexto(dia?.theme || "");
+        const titulo = normalizarBibliotecaTexto(dia?.title || "");
+        const campos = [
+            dia?.theme,
+            dia?.title,
+            dia?.virtue,
+            dia?.reflection,
+            dia?.intention,
+            dia?.action,
+            dia?.life?.text,
+            dia?.learning?.text
+        ].filter(Boolean).join(" ");
+        const texto = normalizarBibliotecaTexto(campos);
+        let puntuacion = 0;
+
+        if (tipo === "virtud" && terminoPrincipal) {
+            if (virtud === terminoPrincipal) {
+                puntuacion += 30;
+            } else if (virtud.includes(terminoPrincipal)) {
+                puntuacion += 24;
+            } else if (tema === terminoPrincipal || titulo === terminoPrincipal) {
+                puntuacion += 20;
+            }
+        }
+
+        for (const termino of terminos) {
+            if (!termino) continue;
+            if (virtud === termino) {
+                puntuacion += tipo === "virtud" ? 16 : 4;
+            } else if (texto.includes(termino)) {
+                puntuacion += tipo === "virtud" ? 3 : 5;
+            }
+        }
+
+        if (puntuacion > mejorPuntuacion) {
+            mejorPuntuacion = puntuacion;
+            mejor = dia;
+        }
+    }
+
+    if (!mejor || mejorPuntuacion <= 0) return null;
+
+    return {
+        day: mejor.day || null,
+        title: mejor.title || mejor.theme || null,
+        virtue: mejor.virtue || null
+    };
 }
 
 function obtenerCategoriaBiblioteca(item) {
@@ -455,9 +606,14 @@ async function obtenerResultadosBiblioteca(tipo, id) {
 
     const contenidos = await cargarContenidoBibliotecaCompleto();
 
-    const resultados = contenidos
+    const resultadosCompletos = contenidos
         .map(item => {
             const relacion = puntuarRelacionBiblioteca(
+                item,
+                definicion,
+                tipo
+            );
+            const referenciaNovena = obtenerReferenciaNovenaBiblioteca(
                 item,
                 definicion,
                 tipo
@@ -468,20 +624,27 @@ async function obtenerResultadosBiblioteca(tipo, id) {
                 score: relacion.score,
                 coincidencias: relacion.coincidencias,
                 categoria: obtenerCategoriaBiblioteca(item),
+                referenciaNovena,
                 ejemplo:
                     obtenerEjemploDesdeNovenaBiblioteca(item, definicion, tipo) ||
                     obtenerEjemploBiblioteca(item, definicion, tipo)
             };
         })
-        .filter(resultado => resultado.score >= (tipo === "intencion" ? 4 : 6))
-        .sort((a, b) => {
-            if (b.score !== a.score) return b.score - a.score;
-            return String(a.item.name || "").localeCompare(
-                String(b.item.name || ""),
-                "es"
-            );
-        })
-        .slice(0, 8);
+        .filter(resultado => resultado.score >= (tipo === "intencion" ? 4 : 6));
 
-    return { definicion, resultados };
+    /*
+     * El score solo determina si existe una relación suficiente. No se
+     * muestra al usuario ni ordena los resultados: la sección no es un ranking.
+     */
+    const resultados = seleccionarMuestraBiblioteca(
+        resultadosCompletos,
+        tipo,
+        id
+    );
+
+    return {
+        definicion,
+        totalResultados: resultadosCompletos.length,
+        resultados
+    };
 }
