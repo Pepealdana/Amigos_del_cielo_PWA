@@ -100,8 +100,17 @@ function renderOracionesComunesDelDia(novena) {
     }
 
     return `
-        <section class="prayer common-prayers">
-            <h3>Oraciones comunes</h3>
+        <section
+            class="prayer common-prayers"
+            aria-labelledby="oraciones-comunes-titulo">
+
+            <h3 id="oraciones-comunes-titulo">
+                Oraciones comunes
+            </h3>
+
+            <p class="common-prayers-intro">
+                Oraciones que acompañan la novena.
+            </p>
             ${oraciones.map(oracion => `
                 <article class="prayer-card">
                     <div class="prayer-text">
