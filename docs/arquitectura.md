@@ -3,7 +3,7 @@
 ## Estado
 
 **Versión:** 1.4.1  
-**Service Worker:** v267
+**Service Worker:** v268
 
 ## Capas
 
