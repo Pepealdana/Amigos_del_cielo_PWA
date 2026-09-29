@@ -2093,9 +2093,19 @@ document.addEventListener(
                         updateViaCache: "none"
                     }
                 )
-                .then(registro =>
-                    registro.update()
-                )
+                .then(async registro => {
+                    await registro.update();
+
+                    /*
+                     * Si ya existe una actualización esperando, la activamos
+                     * inmediatamente. El Service Worker usa skipWaiting().
+                     */
+                    if (registro.waiting) {
+                        registro.waiting.postMessage({
+                            type: "SKIP_WAITING"
+                        });
+                    }
+                })
                 .catch(error =>
                     console.error(
                         "Service Worker:",
