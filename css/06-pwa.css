@@ -2934,3 +2934,134 @@ body.dark .library-related-card{
 .camino-summary > .camino-summary-card{min-width:0 !important;min-height:170px !important;padding:14px !important;}
 .camino-summary .camino-summary-icon svg{width:22px !important;height:22px !important;display:block !important;}
 @media(max-width:700px){.camino-summary{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:10px !important;}.camino-summary > .camino-summary-card{min-height:170px !important;padding:12px !important;}}
+
+
+/* Mi camino — acabado limpio y compacto */
+.camino-summary > .camino-summary-card{
+    min-height:155px !important;
+    height:auto !important;
+    padding:12px !important;
+    border:1px solid rgba(44,74,107,.14);
+    border-radius:18px;
+    box-shadow:0 4px 14px rgba(20,35,55,.07);
+    background:var(--color-surface);
+}
+
+.camino-summary-heading{
+    gap:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid rgba(44,74,107,.10);
+}
+
+.camino-summary-icon{
+    flex:0 0 38px;
+    width:38px;
+    height:38px;
+    border-radius:11px;
+    background:#f1f5f8;
+    color:var(--color-primary);
+}
+
+.camino-summary-heading div{
+    gap:2px;
+    min-width:0;
+}
+
+.camino-summary-heading strong{
+    font-size:1.18rem;
+    line-height:1.15;
+}
+
+.camino-summary-heading span{
+    font-size:.78rem;
+}
+
+.camino-summary-description{
+    margin:10px 0;
+    font-size:.78rem;
+    line-height:1.4;
+    color:var(--color-text-light);
+}
+
+.camino-summary-progress-counts{
+    gap:6px;
+    margin:10px 0;
+}
+
+.camino-summary-progress-counts span{
+    padding:7px 5px;
+    border-radius:10px;
+    background:#f5f7f9;
+}
+
+.camino-summary-progress-counts strong{
+    font-size:1.15rem;
+    line-height:1.1;
+}
+
+.camino-summary-progress-counts small{
+    font-size:.68rem;
+    line-height:1.15;
+}
+
+.camino-summary-card .btn{
+    min-height:40px;
+    padding:.55rem .6rem;
+    border-radius:11px;
+    font-size:.78rem;
+    margin-top:auto;
+}
+
+@media(max-width:700px){
+    .camino-summary{
+        gap:10px !important;
+        margin-top:1rem !important;
+    }
+
+    .camino-summary > .camino-summary-card{
+        min-height:155px !important;
+        padding:11px !important;
+    }
+
+    .camino-summary-heading{
+        gap:8px;
+        padding-bottom:9px;
+    }
+
+    .camino-summary-icon{
+        flex-basis:36px;
+        width:36px;
+        height:36px;
+    }
+
+    .camino-summary-heading strong{
+        font-size:1.05rem;
+    }
+
+    .camino-summary-heading span{
+        font-size:.72rem;
+    }
+
+    .camino-summary-description{
+        font-size:.74rem;
+        line-height:1.35;
+    }
+
+    .camino-summary-progress-counts{
+        gap:5px;
+    }
+
+    .camino-summary-progress-counts strong{
+        font-size:1.05rem;
+    }
+
+    .camino-summary-progress-counts small{
+        font-size:.64rem;
+    }
+
+    .camino-summary-card .btn{
+        min-height:38px;
+        font-size:.72rem;
+        padding:.5rem .45rem;
+    }
+}
