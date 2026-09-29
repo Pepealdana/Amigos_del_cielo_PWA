@@ -100,7 +100,7 @@ function renderCamino(
 
                 <div class="annual-patron-header">
                     <span class="annual-patron-kicker">
-                        Amigo del cielo del año
+                        Amigo del cielo para el año
                     </span>
                     <span class="annual-patron-year">
                         ${new Date().getFullYear()}
