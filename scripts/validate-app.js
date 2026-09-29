@@ -212,6 +212,34 @@ function checkServiceWorker() {
   console.log("✓ Service Worker: " + unique.length + " referencias locales revisadas.");
 }
 
+function checkRenderSecurity() {
+  const dir = path.join(ROOT, "js", "render", "shared");
+  const files = [];
+
+  function walk(current) {
+    for (const entry of fs.readdirSync(current, { withFileTypes: true })) {
+      const full = path.join(current, entry.name);
+      if (entry.isDirectory()) {
+        walk(full);
+      } else if (entry.name.endsWith(".js")) {
+        files.push(path.relative(ROOT, full));
+      }
+    }
+  }
+
+  walk(dir);
+
+  for (const file of files) {
+    const source = fs.readFileSync(path.join(ROOT, file), "utf8");
+
+    if (/\bon[a-z]+\s*=\s*["']/i.test(source)) {
+      fail(file, "no debe contener handlers HTML inline; use data-action.");
+    }
+  }
+
+  console.log("✓ Render compartido: sin handlers HTML inline.");
+}
+
 function checkInteractiveActions() {
   const files = [];
   function walk(dir) {
@@ -287,6 +315,7 @@ checkCatalogs();
 checkLegacyCatalog();
 checkHtmlReferences();
 checkServiceWorker();
+checkRenderSecurity();
 checkInteractiveActions();
 
 if (errors) {
