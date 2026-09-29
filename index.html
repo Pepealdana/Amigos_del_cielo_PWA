@@ -79,6 +79,43 @@
         rel="stylesheet"
         href="css/style.css">
 
+    <style>
+        /* Estilos críticos: la pantalla de inicio debe cubrir
+           la aplicación incluso antes de cargar la hoja principal. */
+        #app-splash{
+            position:fixed;
+            inset:0;
+            z-index:10000;
+            display:grid;
+            place-items:center;
+            padding:1.5rem;
+            background:#F8F6F2;
+            opacity:1;
+            visibility:visible;
+            pointer-events:auto;
+        }
+
+        #app-splash.is-hidden{
+            opacity:0;
+            visibility:hidden;
+            pointer-events:none;
+        }
+
+        #app-splash .app-splash-brand{
+            width:min(72vw,330px);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        #app-splash .app-splash-logo{
+            display:block;
+            width:100%;
+            height:auto;
+            max-width:330px;
+        }
+    </style>
+
 </head>
 
 <body>
