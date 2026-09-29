@@ -30,20 +30,6 @@ function renderOracion(titulo, texto) {
     `;
 }
 
-function renderOracionInicial(novena) {
-    return renderOracion(
-        "Oración Inicial",
-        novena?.openingPrayer?.text || novena?.openingPrayer || ""
-    );
-}
-
-function renderOracionFinal(novena) {
-    return renderOracion(
-        "Oración Final",
-        novena?.closingPrayer?.text || novena?.closingPrayer || ""
-    );
-}
-
 /* ==========================================
    ORACIONES COMUNES DE LA NOVENA — V1.4
 ========================================== */
