@@ -66,7 +66,7 @@
 
 La versión funcional se mantiene en APP_CONFIG.version.
 
-La aplicación está en **1.4.1**. El Service Worker utiliza **v269** como identificador de caché. La navegación interna utiliza ?ruta= y los enlaces directos de novenas mantienen compatibilidad con ?novena=.
+La aplicación está en **1.4.1**. El Service Worker utiliza **v270** como identificador de caché. La navegación interna utiliza ?ruta= y los enlaces directos de novenas mantienen compatibilidad con ?novena=.
 
 La versión funcional y la generación de caché son conceptos distintos: la primera identifica cambios de producto; la segunda invalida recursos del navegador.
 
