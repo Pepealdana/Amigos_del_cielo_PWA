@@ -264,25 +264,6 @@ document.addEventListener(
     iniciarApp
 
 );
-
-/* ==========================================
-   SPLASH DE ARRANQUE
-========================================== */
-
-function ocultarSplashArranque() {
-    const splash = document.getElementById("app-startup-splash");
-
-    if (!splash) {
-        return;
-    }
-
-    splash.classList.add("is-hidden");
-
-    window.setTimeout(() => {
-        splash.remove();
-    }, 220);
-}
-
 /* ==========================================
    INICIAR APLICACIÓN
 ========================================== */
@@ -313,8 +294,6 @@ async function iniciarApp() {
 
         await restaurarRutaDesdeURL();
 
-        ocultarSplashArranque();
-
     }
 
     catch (error) {
@@ -326,8 +305,6 @@ async function iniciarApp() {
             error
 
         );
-
-        ocultarSplashArranque();
 
         mostrarError(
             obtenerMensajeErrorInicio(error),
