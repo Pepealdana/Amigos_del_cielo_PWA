@@ -3117,3 +3117,73 @@ body.dark .library-related-card{
         font-size:.68rem !important;
     }
 }
+
+
+/* Mi camino — ajuste final: Favoritos intacto; Progreso en filas */
+.camino-summary > .camino-summary-favorites{
+    min-height:170px !important;
+    height:170px !important;
+    padding:12px !important;
+}
+
+.camino-summary > .camino-summary-favorites .camino-summary-description{
+    margin:10px 0 !important;
+}
+
+.camino-summary > .camino-summary-favorites .btn{
+    margin-top:auto !important;
+}
+
+.camino-summary > .camino-summary-progress{
+    min-height:170px !important;
+    height:170px !important;
+    padding:12px !important;
+}
+
+.camino-summary > .camino-summary-progress .camino-summary-progress-counts{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:5px !important;
+    width:100% !important;
+    margin:9px 0 !important;
+}
+
+.camino-summary > .camino-summary-progress .camino-summary-progress-counts span{
+    display:grid !important;
+    grid-template-columns:38px minmax(0,1fr) !important;
+    flex-direction:initial !important;
+    align-items:center !important;
+    justify-content:initial !important;
+    width:100% !important;
+    min-height:31px !important;
+    padding:5px 8px !important;
+    box-sizing:border-box !important;
+    border-radius:9px !important;
+    background:#f5f7f9 !important;
+    text-align:left !important;
+}
+
+.camino-summary > .camino-summary-progress .camino-summary-progress-counts strong{
+    flex:none !important;
+    font-size:1rem !important;
+    line-height:1 !important;
+    text-align:center !important;
+}
+
+.camino-summary > .camino-summary-progress .camino-summary-progress-counts small{
+    font-size:.68rem !important;
+    line-height:1.1 !important;
+    text-align:left !important;
+}
+
+.camino-summary > .camino-summary-progress .btn{
+    margin-top:auto !important;
+}
+
+@media(max-width:700px){
+    .camino-summary > .camino-summary-favorites,
+    .camino-summary > .camino-summary-progress{
+        min-height:170px !important;
+        height:170px !important;
+    }
+}
