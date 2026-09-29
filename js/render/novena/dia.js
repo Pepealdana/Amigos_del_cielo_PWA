@@ -75,6 +75,8 @@ function renderDia(
                 </p>
             ` : ""}
 
+            ${renderOracionAperturaNovena(novena, numeroDia)}
+
             <h3>
                 ${escaparHTML(dia.title)}
             </h3>
@@ -130,6 +132,8 @@ function renderDia(
                 : ""}
 
             ${renderOracionesComunesDelDia(novena)}
+
+            ${renderOracionCierreNovena(novena, numeroDia, total)}
 
             <div class="button-group">
 
