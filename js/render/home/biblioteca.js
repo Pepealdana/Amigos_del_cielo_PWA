@@ -125,105 +125,25 @@ function renderBiblioteca(catalogo = []) {
             </header>
 
             <section class="library-santidad" aria-labelledby="library-santidad-title">
-                <div class="library-section-heading">
-                    <div>
-                        <p class="library-kicker">Una mirada diferente</p>
-                        <h3 id="library-santidad-title">Los santos también tuvieron un camino</h3>
-                    </div>
-                    <span class="library-section-symbol" aria-hidden="true">✦</span>
-                </div>
-
-                <div class="library-santidad-intro">
-                    <p>
-                        Los santos no fueron personas perfectas desde el comienzo.
-                        Cada uno recorrió una historia distinta: algunos descubrieron
-                        a Dios desde muy jóvenes; otros cambiaron de rumbo después de
-                        una conversión; otros aprendieron a amar en medio de la
-                        enfermedad, el sufrimiento, las dificultades o el servicio
-                        cotidiano.
-                    </p>
-                    <p>
-                        La Iglesia propone sus vidas como testimonios de que toda
-                        persona está llamada a caminar hacia la santidad. No se trata
-                        de copiar sus vidas, sino de descubrir cómo la fe, la esperanza
-                        y el amor pueden transformar una vida concreta.
-                    </p>
-                </div>
-
-                <div class="library-santidad-paths">
-                    <article class="library-santidad-path">
-                        <span class="library-santidad-path-icon" aria-hidden="true">◌</span>
-                        <div>
-                            <strong>Desde muy joven</strong>
-                            <p>Personas que descubrieron pronto una llamada a seguir a Cristo.</p>
-                        </div>
-                    </article>
-
-                    <article class="library-santidad-path">
-                        <span class="library-santidad-path-icon" aria-hidden="true">↗</span>
-                        <div>
-                            <strong>Después de comenzar de nuevo</strong>
-                            <p>Historias marcadas por conversión, búsqueda, errores o un cambio profundo de vida.</p>
-                        </div>
-                    </article>
-
-                    <article class="library-santidad-path">
-                        <span class="library-santidad-path-icon" aria-hidden="true">♡</span>
-                        <div>
-                            <strong>En medio de la vida</strong>
-                            <p>Laicos, religiosos, sacerdotes y familias que buscaron vivir el Evangelio en su realidad cotidiana.</p>
-                        </div>
-                    </article>
-
-                    <article class="library-santidad-path">
-                        <span class="library-santidad-path-icon" aria-hidden="true">✦</span>
-                        <div>
-                            <strong>A través de la prueba</strong>
-                            <p>Personas que encontraron en la fe una forma de perseverar, servir y amar en circunstancias difíciles.</p>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="library-santidad-callout">
-                    <strong>Tu camino también está comenzando.</strong>
-                    <p>
-                        No necesitas ser perfecto para comenzar a seguir a Cristo.
-                        La santidad se vive paso a paso, aprendiendo a amar en las
-                        circunstancias concretas de cada día.
-                    </p>
-                </div>
-            </section>
-
-            <section class="library-discover" aria-labelledby="library-discover-title">
-                <div class="library-section-heading">
-                    <div>
-                        <p class="library-kicker">Acompañamiento</p>
-                        <h3 id="library-discover-title">Encuentra un testimonio para este momento</h3>
-                    </div>
-                    <span class="library-section-symbol" aria-hidden="true">♡</span>
-                </div>
-                <p class="library-discover-intro">
-                    No buscamos un santo que “solucione” una situación. Te ayudamos a conocer
-                    testimonios de vida cristiana que pueden acompañar tu oración e inspirarte.
-                </p>
-                <div class="library-discover-modes">
-                    <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}"
-                        type="button" data-action="library-explorer-mode" data-mode="intencion"
-                        aria-pressed="${state.bibliotecaExplorador?.modo === "intencion"}">
-                        <span class="library-discover-mode-icon" aria-hidden="true">◇</span>
-                        <span><strong>Estoy viviendo algo</strong><small>Una situación o intención</small></span>
-                    </button>
-                    <button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}"
-                        type="button" data-action="library-explorer-mode" data-mode="virtud"
-                        aria-pressed="${state.bibliotecaExplorador?.modo === "virtud"}">
-                        <span class="library-discover-mode-icon" aria-hidden="true">✦</span>
-                        <span><strong>Quiero cultivar algo</strong><small>Una virtud para mi camino</small></span>
-                    </button>
-                </div>
-                ${renderExploradorBiblioteca()}
-            </section>
-
-            <section class="library-today" aria-labelledby="library-today-title">
+<div class="library-section-heading"><div><p class="library-kicker">Una mirada diferente</p><h3 id="library-santidad-title">Los santos también tuvieron un camino</h3></div></div>
+<div class="library-santidad-intro"><p>Los santos no fueron personas perfectas desde el comienzo. Cada uno recorrió una historia distinta: algunos descubrieron a Dios desde muy jóvenes; otros cambiaron de rumbo; otros aprendieron a amar en medio de la vida cotidiana y de la prueba.</p><p>Conocer sus historias no significa copiarlas. Significa descubrir cómo la fe, la esperanza y el amor pueden transformar una vida concreta.</p></div>
+<div class="library-santidad-paths" aria-label="Distintas formas de recorrer un camino de fe">
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">•</span><div><strong>Comenzar desde joven</strong><p>Una vocación descubierta temprano.</p></div></div>
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">↗</span><div><strong>Recomenzar</strong><p>Una conversión o un cambio profundo de rumbo.</p></div></div>
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">⌂</span><div><strong>Vivir lo cotidiano</strong><p>La fe vivida en la familia, el trabajo y el servicio.</p></div></div>
+<div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true">+</span><div><strong>Perseverar en la prueba</strong><p>Aprender a amar y servir en circunstancias difíciles.</p></div></div></div>
+<div class="library-santidad-callout"><strong>Tu camino también está comenzando.</strong><p>No necesitas ser perfecto para comenzar a seguir a Cristo.</p></div>
+</section>
+<section class="library-discover" aria-labelledby="library-discover-title">
+<div class="library-section-heading"><div><p class="library-kicker">Conoce un camino</p><h3 id="library-discover-title">¿Qué quieres aprender de un santo?</h3></div></div>
+<p class="library-discover-intro">Puedes acercarte a una historia por aquello que quieres comprender, cultivar o vivir. Por ejemplo: perseverar, recomenzar, servir, perdonar, mantener la esperanza, amar a la familia, afrontar una dificultad o vivir con sencillez.</p>
+<div class="library-discover-modes">
+<button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}" type="button" data-action="library-explorer-mode" data-mode="intencion" aria-pressed="${state.bibliotecaExplorador?.modo === "intencion"}"><strong>Explorar experiencias</strong></button>
+<button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}" type="button" data-action="library-explorer-mode" data-mode="virtud" aria-pressed="${state.bibliotecaExplorador?.modo === "virtud"}"><strong>Explorar virtudes</strong></button>
+</div>
+${renderExploradorBiblioteca()}
+</section>
+<section class="library-today" aria-labelledby="library-today-title">
                 <div class="library-section-heading">
                     <div>
                         <p class="library-kicker">Para hoy</p>
