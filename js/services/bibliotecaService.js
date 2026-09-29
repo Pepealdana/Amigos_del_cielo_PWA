@@ -141,6 +141,75 @@ function obtenerDefinicionBiblioteca(tipo, id) {
     return lista.find(item => item.id === id) || null;
 }
 
+function obtenerCategoriaBiblioteca(item) {
+    const categoria = String(item?.category || "").toLowerCase();
+
+    return {
+        santos: "Santo",
+        beatos: "Beato o Beata",
+        maria: "Advocación mariana",
+        devociones: "Devoción"
+    }[categoria] || "Testimonio cristiano";
+}
+
+function obtenerEjemploBiblioteca(item, definicion, tipo) {
+    const textoBase = [
+        item?.history?.short,
+        item?.description,
+        item?.subtitle
+    ]
+        .filter(Boolean)
+        .join("\n");
+
+    const frases = textoBase
+        .split(/(?<=[.!?])\s+|\n+/)
+        .map(frase => frase.trim())
+        .filter(frase => frase.length >= 35);
+
+    const terminos = [
+        definicion?.label,
+        ...(Array.isArray(definicion?.keywords) ? definicion.keywords : [])
+    ]
+        .map(normalizarBibliotecaTexto)
+        .filter(Boolean);
+
+    let mejor = null;
+    let mejorPuntuacion = 0;
+
+    for (const frase of frases) {
+        const textoFrase = normalizarBibliotecaTexto(frase);
+        let puntuacion = 0;
+
+        for (const termino of terminos) {
+            if (textoFrase.includes(termino)) {
+                puntuacion += termino.length >= 7 ? 3 : 2;
+            }
+        }
+
+        if (puntuacion > mejorPuntuacion) {
+            mejorPuntuacion = puntuacion;
+            mejor = frase;
+        }
+    }
+
+    if (mejor) {
+        return mejor;
+    }
+
+    if (Array.isArray(item?.patronages) && item.patronages.length) {
+        return "Su tradición y su ficha destacan especialmente " +
+            item.patronages.slice(0, 2).join(" y ") + ".";
+    }
+
+    if (Array.isArray(item?.virtues) && item.virtues.length) {
+        return "Su ficha destaca especialmente " +
+            item.virtues.slice(0, 3).join(", ") + ".";
+    }
+
+    return item?.description ||
+        "Su testimonio invita a vivir esta virtud de forma concreta.";
+}
+
 function puntuarRelacionBiblioteca(item, definicion, tipo) {
     const intervenciones = Array.isArray(item?.interventions)
         ? item.interventions
@@ -179,17 +248,28 @@ function puntuarRelacionBiblioteca(item, definicion, tipo) {
         const termino = normalizarBibliotecaTexto(keyword);
         if (!termino) continue;
 
-        if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
-            score += tipo === "intencion" ? 8 : 2;
+        if (tipo === "virtud") {
+            if (bibliotecaTextoContiene(textoVirtudes, termino)) {
+                score += 10;
+                coincidencias.push("virtudes");
+            } else if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
+                score += 3;
+                coincidencias.push("intervenciones");
+            } else if (bibliotecaTextoContiene(textoPatronages, termino)) {
+                score += 2;
+                coincidencias.push("tradición devocional");
+            }
+        } else if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
+            score += 8;
             coincidencias.push("intervenciones");
         } else if (bibliotecaTextoContiene(textoPatronages, termino)) {
-            score += tipo === "intencion" ? 6 : 1;
+            score += 6;
             coincidencias.push("tradición devocional");
         } else if (bibliotecaTextoContiene(textoVirtudes, termino)) {
-            score += tipo === "virtud" ? 8 : 2;
+            score += 2;
             coincidencias.push("virtudes");
         } else if (bibliotecaTextoContiene(textoGeneral, termino)) {
-            score += tipo === "intencion" ? 2 : 3;
+            score += 2;
             coincidencias.push("contenido");
         }
     }
@@ -220,10 +300,12 @@ async function obtenerResultadosBiblioteca(tipo, id) {
             return {
                 item,
                 score: relacion.score,
-                coincidencias: relacion.coincidencias
+                coincidencias: relacion.coincidencias,
+                categoria: obtenerCategoriaBiblioteca(item),
+                ejemplo: obtenerEjemploBiblioteca(item, definicion, tipo)
             };
         })
-        .filter(resultado => resultado.score >= (tipo === "intencion" ? 4 : 3))
+        .filter(resultado => resultado.score >= (tipo === "intencion" ? 4 : 6))
         .sort((a, b) => {
             if (b.score !== a.score) return b.score - a.score;
             return String(a.item.name || "").localeCompare(
