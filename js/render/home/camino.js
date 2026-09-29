@@ -222,27 +222,53 @@ function renderCamino(
 
             <section class="camino-summary">
 
-                <article class="camino-summary-card">
-                    <span class="camino-summary-icon" aria-hidden="true">♡</span>
-                    <strong>${Array.isArray(favoritos) ? favoritos.length : 0}</strong>
-                    <span>Favoritos</span>
+                <article class="camino-summary-card camino-summary-favorites">
+                    <div class="camino-summary-heading">
+                        <span class="camino-summary-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20.8 8.8c0 5.2-8.8 10.2-8.8 10.2S3.2 14 3.2 8.8A4.6 4.6 0 0 1 12 6.4a4.6 4.6 0 0 1 8.8 2.4Z"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <strong>\${Array.isArray(favoritos) ? favoritos.length : 0}</strong>
+                            <span>Favoritos</span>
+                        </div>
+                    </div>
+
+                    <p class="camino-summary-description">
+                        Novenas y contenidos que has guardado para volver a ellos.
+                    </p>
+
                     <button class="btn btn-outline" type="button" data-route="favoritas">
                         Ver favoritos
                     </button>
                 </article>
 
                 <article class="camino-summary-card camino-summary-progress">
-                    <span class="camino-summary-icon" aria-hidden="true">◷</span>
+                    <div class="camino-summary-heading">
+                        <span class="camino-summary-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="8.5"/>
+                                <path d="M12 7v5l3.2 2"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <strong>Progreso</strong>
+                            <span>Mis novenas</span>
+                        </div>
+                    </div>
+
                     <div class="camino-summary-progress-counts">
                         <span>
-                            <strong>${novenasEnCurso}</strong>
-                            En curso
+                            <strong>\${novenasEnCurso}</strong>
+                            <small>En curso</small>
                         </span>
                         <span>
-                            <strong>${novenasCompletadas}</strong>
-                            Completadas
+                            <strong>\${novenasCompletadas}</strong>
+                            <small>Completadas</small>
                         </span>
                     </div>
+
                     <button class="btn btn-outline" type="button" data-route="progreso">
                         Ver mi progreso
                     </button>
