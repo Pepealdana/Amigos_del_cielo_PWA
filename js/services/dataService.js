@@ -152,18 +152,27 @@ async function cargarNovena(id) {
 
     let novena = novenasCargadas.get(id);
 
-    if (!novena) {
-        novena = await cargarJSONConRecuperacion(ruta);
-        novenasCargadas.set(id, novena);
-    }
+    const novenaPromise = novena
+        ? Promise.resolve(novena)
+        : cargarJSONConRecuperacion(ruta);
 
-    /* La portada no necesita bloquearse esperando el banco de oraciones. */
+    /*
+     * La portada no necesita esperar el banco de oraciones.
+     * Lo precargamos en paralelo para que esté disponible cuando
+     * el usuario entre al primer día.
+     */
     const oracionesPromise = cargarOraciones().catch(error => {
         console.warn("Banco de oraciones no disponible todavía:", error);
         return null;
     });
 
-    await oracionesPromise;
+    novena = await novenaPromise;
+
+    if (!novenasCargadas.has(id)) {
+        novenasCargadas.set(id, novena);
+    }
+
+    void oracionesPromise;
 
     if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
         const error = new Error("Los datos de la novena no son válidos.");
