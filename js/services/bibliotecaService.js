@@ -551,27 +551,40 @@ function puntuarRelacionBiblioteca(item, definicion, tipo) {
     let score = 0;
     const coincidencias = [];
 
+    const textoDias = normalizarBibliotecaTexto(
+        obtenerTextoDiasBiblioteca(item)
+    );
+    const terminoPrincipal = normalizarBibliotecaTexto(definicion?.label);
+
+    if (tipo === "virtud" && terminoPrincipal) {
+        /*
+         * Para virtudes, la relación principal debe venir de la misma palabra
+         * que figura en la ficha o en el día de la novena. Las palabras
+         * relacionadas de la definición sirven como contexto, pero no
+         * convierten por sí solas una virtud distinta en la virtud buscada.
+         */
+        if (bibliotecaTextoContiene(textoVirtudes, terminoPrincipal)) {
+            score += 14;
+            coincidencias.push("virtudes");
+        }
+
+        if (bibliotecaTextoContiene(textoDias, terminoPrincipal)) {
+            score += 12;
+            coincidencias.push("días de la novena");
+        }
+    }
+
     for (const keyword of definicion.keywords) {
         const termino = normalizarBibliotecaTexto(keyword);
-        if (!termino) continue;
-
-        const textoDias = normalizarBibliotecaTexto(
-            obtenerTextoDiasBiblioteca(item)
-        );
+        if (!termino || (tipo === "virtud" && termino === terminoPrincipal)) continue;
 
         if (tipo === "virtud") {
-            if (bibliotecaTextoContiene(textoVirtudes, termino)) {
-                score += 10;
-                coincidencias.push("virtudes");
-            } else if (bibliotecaTextoContiene(textoDias, termino)) {
-                score += 8;
-                coincidencias.push("días de la novena");
-            } else if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
+            if (bibliotecaTextoContiene(textoDias, termino)) {
                 score += 3;
-                coincidencias.push("intervenciones");
-            } else if (bibliotecaTextoContiene(textoPatronages, termino)) {
+                coincidencias.push("contexto de la novena");
+            } else if (bibliotecaTextoContiene(textoVirtudes, termino)) {
                 score += 2;
-                coincidencias.push("tradición devocional");
+                coincidencias.push("virtudes relacionadas");
             }
         } else if (bibliotecaTextoContiene(textoIntervenciones, termino)) {
             score += 8;
