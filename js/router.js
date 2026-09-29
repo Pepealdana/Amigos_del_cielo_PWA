@@ -46,27 +46,10 @@ const router = {
                 ? ruta
                 : "inicio";
 
-        this.rutaAnterior =
-            this.rutaActual;
-
-        this.rutaActual =
-            rutaNormalizada;
-
-        this.datos =
-            datos;
-
-        if (opciones.actualizarURL !== false) {
-
-            this.actualizarURL(
-                rutaNormalizada,
-                datos,
-                opciones.reemplazar === true
-            );
-
-        }
-
-        actualizarNavegacionInferior(
-            rutaNormalizada
+        this.establecerRuta(
+            rutaNormalizada,
+            datos,
+            opciones
         );
 
         cerrarMenu();
@@ -183,6 +166,41 @@ const router = {
                 mostrarInicio();
 
         }
+
+    },
+
+    establecerRuta(
+
+        ruta,
+
+        datos = null,
+
+        opciones = {}
+
+    ) {
+
+        this.rutaAnterior =
+            this.rutaActual;
+
+        this.rutaActual =
+            ruta;
+
+        this.datos =
+            datos;
+
+        if (opciones.actualizarURL !== false) {
+
+            this.actualizarURL(
+                ruta,
+                datos,
+                opciones.reemplazar === true
+            );
+
+        }
+
+        actualizarNavegacionInferior(
+            ruta
+        );
 
     },
 
