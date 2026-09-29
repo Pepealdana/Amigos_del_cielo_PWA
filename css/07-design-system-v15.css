@@ -1,0 +1,147 @@
+/* ==========================================================
+   AMIGOS DEL CIELO — SISTEMA VISUAL V1.5
+   Tokens y reglas transversales. No contiene estilos de páginas.
+========================================================== */
+
+:root{
+    /* Superficies */
+    --surface-0: var(--color-background);
+    --surface-1: var(--color-surface);
+    --surface-2: var(--color-surface-alt);
+
+    /* Bordes */
+    --border-subtle: rgba(44,74,107,.12);
+    --border-strong: rgba(44,74,107,.24);
+
+    /* Tipografía */
+    --text-measure: 68ch;
+    --text-measure-narrow: 58ch;
+
+    /* Ritmo */
+    --space-section: clamp(1.5rem,4vw,2.5rem);
+    --space-card: clamp(1rem,2.5vw,1.25rem);
+
+    /* Elevación */
+    --elevation-card: 0 2px 10px rgba(20,35,55,.07);
+    --elevation-raised: 0 6px 20px rgba(20,35,55,.10);
+
+    /* Controles */
+    --control-height: 44px;
+    --control-height-large: 48px;
+}
+
+body{
+    background: var(--surface-0);
+}
+
+#view{
+    gap: var(--space-section);
+}
+
+p,
+.history,
+.prayer,
+.about-section p{
+    max-width: var(--text-measure);
+}
+
+button,
+input,
+textarea,
+select{
+    min-height: var(--control-height);
+}
+
+button{
+    border-radius: var(--radius-sm);
+}
+
+button:hover{
+    transform: translateY(-1px);
+}
+
+button:active{
+    transform: translateY(0);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible{
+    outline: 3px solid var(--color-secondary);
+    outline-offset: 3px;
+}
+
+.home,
+.novena-card,
+.dashboard-card,
+.about-hero{
+    box-shadow: var(--elevation-card);
+}
+
+.home:hover,
+.novena-card:hover,
+.dashboard-card:hover{
+    box-shadow: var(--elevation-raised);
+}
+
+.page-header{
+    margin-bottom: var(--space-lg);
+}
+
+.page-header p{
+    margin-inline: auto;
+    color: var(--color-text-light);
+}
+
+.section{
+    gap: var(--space-md);
+}
+
+/* Jerarquía de acciones: una primaria, las demás secundarias. */
+.btn-primary{
+    min-height: var(--control-height-large);
+}
+
+.btn-secondary,
+.btn-outline{
+    min-height: var(--control-height);
+}
+
+/* Superficies editoriales: sin convertir cada bloque en tarjeta. */
+.editorial-section{
+    padding-block: var(--space-section);
+    border-top: 1px solid var(--border-subtle);
+}
+
+.editorial-section:first-child{
+    border-top: 0;
+    padding-top: 0;
+}
+
+/* Estados interactivos sobrios. */
+a,
+button{
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+
+    button:hover,
+    .home:hover,
+    .novena-card:hover,
+    .dashboard-card:hover{
+        transform: none;
+    }
+}
+
+body.dark{
+    --border-subtle: rgba(203,213,225,.12);
+    --border-strong: rgba(203,213,225,.24);
+    --elevation-card: 0 2px 12px rgba(0,0,0,.24);
+    --elevation-raised: 0 8px 24px rgba(0,0,0,.32);
+}
