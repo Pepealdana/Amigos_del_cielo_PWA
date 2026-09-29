@@ -1,124 +1,46 @@
-# Amigos del Cielo
+# Arquitectura — Amigos del Cielo
 
-## Descripción
+## Estado
 
-**Amigos del Cielo** es una aplicación web progresiva (PWA) orientada a la oración y la formación espiritual católica mediante novenas, santos y devociones.
+**Versión:** 1.4.1  
+**Service Worker:** v267
 
-El proyecto busca ofrecer una experiencia sencilla, rápida y completamente gratuita, funcionando incluso sin conexión a Internet.
+## Capas
 
----
+### Datos
 
-# Objetivos
+Los catálogos V2 de data/catalog/ contienen metadatos. Cada contenido publicado referencia su sourceFile.
 
-- Facilitar la oración diaria.
-- Presentar la vida y enseñanzas de los santos.
-- Guiar novenas paso a paso.
-- Recordar el progreso del usuario.
-- Funcionar como una PWA.
-- Mantener una arquitectura modular y escalable.
+### Estado
 
----
+js/state/ conserva el estado de catálogo, novena actual, progreso, favoritos, preferencias y contexto de navegación.
 
-# Tecnologías
+### Servicios
 
-- HTML5
-- CSS3
-- JavaScript Vanilla (ES6+)
-- JSON
-- LocalStorage
-- Service Worker
-- GitHub Pages
+js/services/ concentra carga de datos, oraciones, almacenamiento, Biblioteca y compartir.
 
----
+### Renderizado
 
-# Estructura del proyecto
+js/render/ genera la interfaz. Los componentes reutilizables viven en js/render/shared/.
 
-```
+Los componentes compartidos escapan el contenido textual antes de insertarlo en HTML. El HTML intencionalmente dinámico se mantiene explícito en los componentes que lo necesitan.
 
-Amigos-del-Cielo/
+### Router
 
-assets/
-css/
-data/
-docs/
-js/
-manifest.json
-service-worker.js
-index.html
+js/router.js centraliza las rutas y sincroniza el estado visual con la URL.
 
-```
+Las rutas internas utilizan el parámetro ?ruta=. Las novenas utilizan ?novena= y, cuando corresponde, ?dia=.
 
----
+El router utiliza history.pushState/replaceState y escucha popstate para responder a Atrás y Adelante.
 
-# Arquitectura
+## PWA
 
-La aplicación está dividida en cuatro grandes bloques:
+manifest.json define la identidad instalable. service-worker.js mantiene el App Shell y las estrategias de caché.
 
-- Datos
-- Estado
-- Renderizado
-- Navegación
+El splash nativo depende de la selección de iconos realizada por el navegador a partir del manifest; no existe un campo estándar independiente para un icono exclusivo del splash.
 
-Cada bloque tiene una responsabilidad única.
+## Pruebas
 
----
+La validación estática se ejecuta mediante scripts/validate-data.js y scripts/validate-app.js.
 
-# Flujo de funcionamiento
-
-Usuario
-
-↓
-
-Router
-
-↓
-
-App
-
-↓
-
-Servicios
-
-↓
-
-JSON
-
-↓
-
-Render
-
-↓
-
-Pantalla
-
----
-
-# Cómo ejecutar
-
-Abrir mediante:
-
-Live Server
-
-o
-
-GitHub Pages
-
-No requiere backend.
-
----
-
-# Cómo agregar una nueva novena
-
-1. Crear un JSON.
-2. Agregar la imagen.
-3. Registrar la novena en `novenas.json`.
-
-No es necesario modificar el código JavaScript.
-
----
-
-# Estado actual
-
-Actualmente el proyecto se encuentra en construcción.
-
-La arquitectura principal ya está implementada y el siguiente paso será desarrollar el motor de las novenas y el sistema de progreso.
+La navegación, los deep links y el modo offline se prueban mediante Playwright. Las pruebas móviles automatizadas utilizan emulación Pixel 5; la validación física continúa siendo necesaria.
