@@ -48,6 +48,35 @@ function renderOracionFinal(novena) {
    ORACIONES COMUNES DE LA NOVENA — V1.4
 ========================================== */
 
+function renderOracionesDelDia(novena, dia) {
+
+    const fields = Array.isArray(novena?.prayerStructure?.dailyPrayerFields)
+        ? novena.prayerStructure.dailyPrayerFields
+        : ["prayer"];
+
+    return fields.map(field => {
+
+        const value = dia?.[field];
+
+        if (!value) {
+            return "";
+        }
+
+        if (typeof value === "object" && !Array.isArray(value)) {
+            return renderOracion(
+                value.title || "Oración",
+                value.text || ""
+            );
+        }
+
+        return renderOracion(
+            field === "eternalFather" ? "Oración al Padre eterno" : "Oración del día",
+            value
+        );
+
+    }).join("");
+}
+
 function renderOracionesComunesDelDia(novena) {
 
     const ids = novena?.prayerStructure?.closingPrayers;
