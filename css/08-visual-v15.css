@@ -172,3 +172,24 @@ body.dark .app-startup-splash{
         margin-top:2.15rem;
     }
 }
+
+
+/* ==========================================================
+   MI CAMINO — RESPIRACIÓN ENTRE SECCIONES
+========================================================== */
+
+.camino-page .camino-summary{
+    margin-top:1.5rem !important;
+    margin-bottom:1.75rem !important;
+}
+
+.camino-page .camino-explorer{
+    margin-top:0 !important;
+}
+
+@media (max-width:640px){
+    .camino-page .camino-summary{
+        margin-top:1.5rem !important;
+        margin-bottom:1.75rem !important;
+    }
+}
