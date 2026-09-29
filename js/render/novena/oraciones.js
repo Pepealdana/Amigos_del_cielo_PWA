@@ -1,34 +1,8 @@
 /* ==========================================
-   RENDER ORACIÓN
-   Amigos del Cielo
+   ORACIONES DE LA NOVENA
+   La implementación compartida de
+   renderOracion() vive en render/shared/oracion.js.
 ========================================== */
-
-function renderOracion(titulo, texto) {
-
-    return `
-
-        <section class="prayer">
-
-            <h3>
-                ${escaparHTML(titulo)}
-            </h3>
-
-            <article class="prayer-card">
-
-                <div class="prayer-text">
-
-                    <p>
-                        ${escaparHTML(texto)}
-                    </p>
-
-                </div>
-
-            </article>
-
-        </section>
-
-    `;
-}
 
 /* ==========================================
    ORACIONES COMUNES DE LA NOVENA — V1.4
