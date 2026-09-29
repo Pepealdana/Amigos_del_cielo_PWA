@@ -46,11 +46,13 @@ body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
         bottom:0 !important;
         left:-320px !important;
         z-index:3000 !important;
-        overflow-x:hidden;
-        overflow-y:auto;
-        -webkit-overflow-scrolling:touch;
-        overscroll-behavior:contain;
-        padding:.5rem .9rem .75rem;
+        width:min(290px, 84vw) !important;
+        height:100dvh !important;
+        max-height:100dvh !important;
+        box-sizing:border-box !important;
+        overflow:hidden !important;
+        overscroll-behavior:none;
+        padding:.45rem .85rem calc(.45rem + env(safe-area-inset-bottom)) !important;
         box-shadow:12px 0 32px rgba(20,35,55,.16);
     }
     .side-menu.open{left:0 !important}
@@ -58,9 +60,12 @@ body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
     .side-menu .menu-header{padding:.35rem 2.75rem .65rem 0;margin-bottom:.15rem}
     .side-menu .menu-header h2{margin:.25rem 0 .08rem}
     .side-menu .menu-header p{margin:0}
-    .side-menu .menu-group{padding:.25rem 0}
-    .side-menu .menu-group-title{margin:0 0 .05rem .35rem;line-height:1.2}
-    .side-menu .menu-group button{min-height:38px;padding:.38rem .7rem}
+    .side-menu .menu-group{padding:.12rem 0}
+    .side-menu .menu-group-title{margin:0 0 0 .3rem;line-height:1.15}
+    .side-menu .menu-group button{min-height:36px;padding:.3rem .65rem;line-height:1.2}
+    .side-menu .menu-group + .menu-group{margin-top:.05rem}
+    .side-menu .menu-header{flex:0 0 auto}
+    .side-menu .menu-group{flex:0 0 auto}
     .side-menu > .menu-close-button{z-index:2;top:.45rem !important;right:.65rem !important}
 }
     .side-menu{
