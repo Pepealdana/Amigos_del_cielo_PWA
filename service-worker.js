@@ -1,9 +1,15 @@
+self.addEventListener("message", event => {
+    if (event.data?.type === "SKIP_WAITING") {
+        self.skipWaiting();
+    }
+});
+
 /* ==========================================
    AMIGOS DEL CIELO
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v288";
+const CACHE_NAME = "amigos-del-cielo-v289";
 
 const APP_SHELL = [
     "./",
