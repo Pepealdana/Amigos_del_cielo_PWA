@@ -61,7 +61,7 @@ test.describe("Amigos del Cielo — navegación PWA", () => {
         );
 
         await expect(
-            page.getByRole("heading", { name: "Día 2" })
+            page.getByRole("heading", { name: "Llamado a una misión" })
         ).toBeVisible();
 
         await expect(
