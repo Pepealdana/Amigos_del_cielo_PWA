@@ -1,3 +1,19 @@
+## [1.4.1] — Endurecimiento, navegación y pruebas
+
+- Se endurecen componentes compartidos de renderizado para escapar datos textuales antes de insertarlos en HTML.
+- Se eliminan handlers JavaScript inline de los botones compartidos; las acciones utilizan atributos declarativos.
+- Se elimina la duplicación de renderOracion() en el renderizador específico de novenas y queda como fuente única el componente compartido.
+- Se elimina la configuración APP_CONFIG.storage obsoleta; el almacenamiento real continúa centralizado en STORAGE_KEYS.
+- El router sincroniza las rutas internas con la URL mediante ?ruta= y conserva compatibilidad con ?novena=.
+- Se incorpora historial Atrás/Adelante mediante History API y popstate.
+- Se admiten deep links directos a portada, historia y días de una novena.
+- Se incorporan pruebas E2E de navegación, deep links y offline con Service Worker.
+- Se añade emulación móvil Pixel 5 a la suite automatizada.
+- Se documenta la prueba física Android/iOS como validación complementaria.
+- Se actualiza la documentación operativa y se marcan como históricos los documentos de estabilización 1.3.6.
+- Service Worker actualizado a **v267**.
+- Versión de aplicación: **1.4.1**.
+
 ## [1.3.6] — Cierre de estabilización y preparación para publicación
 
 - Se completa la revisión de experiencia de usuario iniciada sobre Biblioteca, Catálogo, novenas, Mi Camino, Favoritos y Mi progreso.
