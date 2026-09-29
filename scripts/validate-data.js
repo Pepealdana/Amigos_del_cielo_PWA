@@ -370,13 +370,14 @@ function validatePrayerBank() {
         report('data/catalog/' + name + '.json#' + item.id, 'prayerStructure debe declarar type.');
       }
 
-      for (const field of ['dailyPrayerFields', 'closingPrayers']) {
-        if (!Array.isArray(structure[field])) continue;
-
-        for (const prayerId of structure[field]) {
+      // dailyPrayerFields son nombres de campos dentro del JSON de la novena
+      // (por ejemplo "prayer", "prayerAdapted" o "eternalFather"),
+      // no IDs del banco central. Solo closingPrayers referencia el banco común.
+      if (Array.isArray(structure.closingPrayers)) {
+        for (const prayerId of structure.closingPrayers) {
           if (!ids.has(prayerId)) {
             report('data/catalog/' + name + '.json#' + item.id,
-              'referencia de oración inexistente: ' + prayerId + '.');
+              'referencia de oración común inexistente: ' + prayerId + '.');
           }
         }
       }
