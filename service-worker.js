@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v264";
+const CACHE_NAME = "amigos-del-cielo-v265";
 
 const APP_SHELL = [
     "./",
@@ -181,6 +181,7 @@ const APP_SHELL = [
     "./js/app.js",
     "./assets/branding/isotipo-amigos-del-cielo.webp",
     "./assets/branding/isotipo-splash.svg",
+    "./assets/branding/splash-horizontal-512.png",
     "./assets/branding/logo-horizontal-amigos-del-cielo.webp",
     "./assets/images/santos/beata_clara_fey.webp",
     "./assets/images/santos/beata_chiara_luce_badano.webp",
@@ -377,14 +378,60 @@ self.addEventListener("fetch", event => {
     }
 
     /*
-     * Para HTML, CSS, JS e imágenes mantenemos cache-first:
-     * la aplicación sigue siendo rápida y disponible offline.
+     * HTML, CSS, JS y manifest usan network-first cuando hay conexión.
+     * Así una publicación nueva de GitHub Pages no queda bloqueada
+     * indefinidamente por una copia antigua del App Shell.
+     * Si no hay red, se conserva el funcionamiento offline desde caché.
+     */
+    const esRecursoDeInterfaz =
+        url.pathname.endsWith(".html") ||
+        url.pathname.endsWith(".css") ||
+        url.pathname.endsWith(".js") ||
+        url.pathname.endsWith(".json") ||
+        url.pathname.endsWith("manifest.json");
+
+    if (esRecursoDeInterfaz) {
+
+        const cachedPromise = caches.match(event.request);
+
+        const networkPromise = fetch(event.request)
+            .then(response => {
+
+                if (response && response.ok) {
+                    const clone = response.clone();
+
+                    return caches.open(CACHE_NAME)
+                        .then(cache =>
+                            cache.put(event.request, clone)
+                        )
+                        .then(() => response);
+                }
+
+                return response;
+
+            });
+
+        event.respondWith(
+            networkPromise.catch(() =>
+                cachedPromise
+            )
+        );
+
+        return;
+    }
+
+    /*
+     * Imágenes y demás recursos binarios mantienen cache-first.
      */
     event.respondWith(
         caches.match(event.request)
             .then(cached => {
 
-                const network = fetch(event.request)
+                if (cached) {
+                    return cached;
+                }
+
+                return fetch(event.request)
                     .then(response => {
 
                         if (response && response.ok) {
@@ -398,11 +445,11 @@ self.addEventListener("fetch", event => {
 
                         return response;
 
-                    })
-                    .catch(() => cached);
-
-                return cached || network;
+                    });
 
             })
+            .catch(() =>
+                caches.match(event.request)
+            )
     );
 });
