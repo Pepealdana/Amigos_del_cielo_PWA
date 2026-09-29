@@ -2763,3 +2763,12 @@ body.dark .library-related-card{
         display:none !important;
     }
 }
+
+
+/* ==========================================================
+   INSTALACIÓN — RESPETAR EL ATRIBUTO HIDDEN
+========================================================== */
+
+.install-app-card[hidden]{
+    display:none !important;
+}
