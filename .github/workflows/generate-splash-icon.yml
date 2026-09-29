@@ -68,11 +68,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- assets/branding/splash-horizontal-512.png; then
+          if git status --porcelain -- assets/branding/splash-horizontal-512.png | grep -q .; then
+            git add assets/branding/splash-horizontal-512.png
+          else
             echo "El icono ya está actualizado."
             exit 0
           fi
-
-          git add assets/branding/splash-horizontal-512.png
           git commit -m "chore(v1.4): generar icono PNG para splash nativo"
           git push
