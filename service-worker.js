@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v268";
+const CACHE_NAME = "amigos-del-cielo-v269";
 
 const APP_SHELL = [
     "./",
@@ -323,6 +323,47 @@ self.addEventListener("fetch", event => {
     const url = new URL(event.request.url);
 
     if (url.origin !== self.location.origin) return;
+
+    /*
+     * Las navegaciones de una SPA pueden incluir query params
+     * que no coinciden literalmente con la copia de index.html.
+     * En offline, siempre se utiliza el App Shell como fallback.
+     */
+    if (event.request.mode === "navigate") {
+
+        const appShell = caches.match(
+            new URL("./index.html", self.location).href
+        );
+
+        event.respondWith(
+            fetch(event.request)
+                .then(response => {
+
+                    if (response && response.ok) {
+                        const clone = response.clone();
+
+                        event.waitUntil(
+                            caches.open(CACHE_NAME)
+                                .then(cache =>
+                                    cache.put(
+                                        new URL(
+                                            "./index.html",
+                                            self.location
+                                        ).href,
+                                        clone
+                                    )
+                                )
+                        );
+                    }
+
+                    return response;
+
+                })
+                .catch(() => appShell)
+        );
+
+        return;
+    }
 
     /*
      * Los JSON son contenido de datos.
