@@ -2673,7 +2673,7 @@ body.dark .library-related-card{
 ========================================================== */
 
 .install-app-card{
-    display:flex;
+    display:none;
     align-items:center;
     justify-content:space-between;
     gap:1rem;
@@ -2766,8 +2766,19 @@ body.dark .library-related-card{
 
 
 /* ==========================================================
-   INSTALACIÓN — RESPETAR EL ATRIBUTO HIDDEN
+   INSTALACIÓN — SOLO EN CONTEXTO DE NAVEGADOR
 ========================================================== */
+
+.install-app-card{
+    display:none;
+}
+
+@media (display-mode: browser){
+
+    .install-app-card:not([hidden]){
+        display:flex;
+    }
+}
 
 .install-app-card[hidden]{
     display:none !important;
