@@ -890,7 +890,24 @@ function volverDesdeNovena(nivel = "portada") {
    PORTADA NOVENA
 ========================================== */
 
-function mostrarPortadaNovena() {
+function mostrarPortadaNovena(
+    actualizarURL = true
+) {
+
+    if (
+        actualizarURL &&
+        state.novenaActual?.id
+    ) {
+
+        router.establecerRuta(
+            "portada",
+            {
+                novenaId:
+                    state.novenaActual.id
+            }
+        );
+
+    }
 
     actualizarTituloPagina(
 
@@ -914,7 +931,24 @@ function mostrarPortadaNovena() {
    HISTORIA
 ========================================== */
 
-function mostrarHistoria() {
+function mostrarHistoria(
+    actualizarURL = true
+) {
+
+    if (
+        actualizarURL &&
+        state.novenaActual?.id
+    ) {
+
+        router.establecerRuta(
+            "historia",
+            {
+                novenaId:
+                    state.novenaActual.id
+            }
+        );
+
+    }
 
     actualizarTituloPagina(
 
@@ -1257,7 +1291,7 @@ function mostrarDia(
         state.novenaActual?.id
     ) {
 
-        router.ir(
+        router.establecerRuta(
             "dia",
             {
                 novenaId:
