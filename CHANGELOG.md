@@ -11,7 +11,7 @@
 - Se añade emulación móvil Pixel 5 a la suite automatizada.
 - Se documenta la prueba física Android/iOS como validación complementaria.
 - Se actualiza la documentación operativa y se marcan como históricos los documentos de estabilización 1.3.6.
-- Service Worker actualizado a **v268**.
+- Service Worker actualizado a **v269**.
 - Versión de aplicación: **1.4.1**.
 
 ## [1.3.6] — Cierre de estabilización y preparación para publicación
