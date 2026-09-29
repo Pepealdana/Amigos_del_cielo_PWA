@@ -23,3 +23,65 @@ body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
 .library-search-icon{display:grid;place-items:center;color:var(--color-text-light);flex:0 0 20px}
 .library-loading-mark{display:grid;place-items:center}
 .library-image-placeholder{display:grid;place-items:center;color:var(--color-text-light);background:var(--color-surface-alt)}
+
+
+/* ==========================================================
+   V1.5 HOTFIX — MOBILE / RENDIMIENTO
+========================================================== */
+@media (max-width:900px){
+    /*
+     * El menú vive fuera de #app y debe quedar por encima del header,
+     * independientemente de los stacking contexts creados por la PWA.
+     */
+    .side-menu{
+        position:fixed !important;
+        top:0 !important;
+        bottom:0 !important;
+        left:-320px !important;
+        z-index:3000 !important;
+        overflow-x:hidden;
+        overflow-y:auto;
+        -webkit-overflow-scrolling:touch;
+        overscroll-behavior:contain;
+        padding:.75rem 1rem 1rem;
+        box-shadow:12px 0 32px rgba(20,35,55,.16);
+    }
+    .side-menu.open{left:0 !important}
+    .menu-overlay{z-index:2900 !important}
+    .side-menu .menu-header{padding:.5rem 2.75rem .8rem 0;margin-bottom:.25rem}
+    .side-menu .menu-header h2{margin:.35rem 0 .1rem}
+    .side-menu .menu-header p{margin:0}
+    .side-menu .menu-group{padding:.45rem 0}
+    .side-menu .menu-group-title{margin:0 0 .15rem .35rem}
+    .side-menu .menu-group button{min-height:42px;padding:.48rem .7rem}
+    .side-menu > .menu-close-button{z-index:2;top:.65rem !important;right:.7rem !important}
+}
+.library-new .library-santidad{margin:0;padding:1.8rem 0;border:0;border-radius:0;background:transparent}
+.library-new .library-santidad .library-section-heading{margin-bottom:.9rem}
+.library-new .library-santidad-intro{max-width:68ch;margin:0;font-size:1rem;line-height:1.7}
+.library-new .library-santidad-paths{margin-top:1.25rem}
+@media (max-width:640px){
+    .library-new .library-santidad{padding:1.45rem 0}
+    .library-new .library-santidad-intro{font-size:.98rem}
+    .library-new .library-santidad-paths{padding:1rem 0}
+}
+button,.btn,.icon-button,.bottom-nav-item{transition:background-color .12s ease,color .12s ease,border-color .12s ease,box-shadow .12s ease,opacity .12s ease,transform .06s ease;touch-action:manipulation}
+@media (hover:none){button:hover,.btn:hover,.icon-button:hover,.bottom-nav-item:hover{transform:none}}
+@media (max-width:900px){#view > .home,#view > .library,#view > .dashboard,#view > .section{animation-duration:.18s}}
+.header .icon-button{
+    display:grid;
+    place-items:center;
+    padding:0;
+    line-height:0;
+    background:rgba(44,93,131,.055);
+    border:1px solid rgba(44,93,131,.10);
+}
+.header .icon-button svg{
+    display:block;
+    width:21px;
+    height:21px;
+    margin:0;
+    transform:none;
+}
+.header .icon-button:active{background:rgba(44,93,131,.12)}
+body.dark .header .icon-button{background:rgba(127,178,214,.10);border-color:rgba(127,178,214,.16)}
