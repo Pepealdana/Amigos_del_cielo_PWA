@@ -451,10 +451,16 @@ function inicializarHistorialRouter() {
         }
     );
 
-    router.actualizarURL(
-        router.rutaActual,
-        null,
-        true
+    const destino =
+        router.obtenerDestinoURL();
+
+    window.history.replaceState(
+        {
+            ruta: destino.ruta,
+            datos: destino.datos
+        },
+        "",
+        window.location.href
     );
 
 }
