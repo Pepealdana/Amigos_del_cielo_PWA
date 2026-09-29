@@ -150,6 +150,8 @@ async function cargarNovena(id) {
     const ruta = "./" + archivo.replace(/^\.\//, "");
     const novena = await cargarJSONConRecuperacion(ruta);
 
+    await cargarOraciones();
+
     if (!novena || typeof novena !== "object" || Array.isArray(novena)) {
         const error = new Error("Los datos de la novena no son válidos.");
         error.code = "NOVENA_INVALID";
@@ -163,6 +165,8 @@ async function cargarNovena(id) {
     }
 
     novena.id = resumen?.id || resumenV2?.id || id;
+
+    novena.prayerStructure = resumen?.prayerStructure || resumenV2?.prayerStructure || novena.prayerStructure || null;
 
     if (!novena.feast) {
         novena.feast = resumen?.feast || resumenV2?.feast || null;

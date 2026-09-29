@@ -75,6 +75,8 @@ function renderDia(
                 </p>
             ` : ""}
 
+            ${renderOracionAperturaNovena(novena, numeroDia)}
+
             <h3>
                 ${escaparHTML(dia.title)}
             </h3>
@@ -113,17 +115,7 @@ function renderDia(
                 )
                 : ""}
 
-            ${dia.prayer?.text
-                ? renderOracion(
-                    "Oración del día",
-                    dia.prayer.text
-                )
-                : (dia.prayer
-                    ? renderOracion(
-                        "Oración",
-                        dia.prayer
-                    )
-                    : "")}
+            ${renderOracionesDelDia(novena, dia)}
 
             ${dia.action
                 ? renderListaSeccion(
@@ -138,6 +130,10 @@ function renderDia(
                     novena.intercessionPrayer.text
                 )
                 : ""}
+
+            ${renderOracionesComunesDelDia(novena)}
+
+            ${renderOracionCierreNovena(novena, numeroDia, total)}
 
             <div class="button-group">
 

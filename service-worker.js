@@ -3,7 +3,7 @@
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v250";
+const CACHE_NAME = "amigos-del-cielo-v252";
 
 const APP_SHELL = [
     "./",
@@ -34,6 +34,7 @@ const APP_SHELL = [
     "./data/catalog/beatos.json",
     "./data/catalog/maria.json",
     "./data/catalog/devociones.json",
+    "./data/oraciones.json",
     "./data/catalog/paises.json",
     "./data/beata-clara-fey.json",
     "./data/beata-chiara-luce-badano.json",
@@ -128,17 +129,18 @@ const APP_SHELL = [
     "./data/san-oscar-romero.json",
     "./data/santa-mariana-de-jesus.json",
     "./data/santo-toribio-de-mogrovejo.json",
-    "./css/style.css?v=249",
-    "./css/01-base.css?v=249",
-    "./css/02-layout.css?v=249",
-    "./css/03-components.css?v=249",
-    "./css/04-utilities.css?v=249",
-    "./css/05-themes.css?v=249",
-    "./css/06-pwa.css?v=249",
+    "./css/style.css",
+    "./css/01-base.css",
+    "./css/02-layout.css",
+    "./css/03-components.css",
+    "./css/04-utilities.css",
+    "./css/05-themes.css",
+    "./css/06-pwa.css",
     "./js/config/appConfig.js",
     "./js/state/state.js",
     "./js/services/storage.js",
     "./js/services/dataService.js",
+    "./js/services/oracionesService.js",
     "./js/services/bibliotecaService.js",
     "./js/services/shareService.js",
     "./js/utils/constants.js",
