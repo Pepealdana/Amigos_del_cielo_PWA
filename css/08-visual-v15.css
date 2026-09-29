@@ -68,29 +68,6 @@ body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
     .side-menu .menu-group{flex:0 0 auto}
     .side-menu > .menu-close-button{z-index:2;top:.45rem !important;right:.65rem !important}
 }
-    .side-menu{
-        position:fixed !important;
-        top:0 !important;
-        bottom:0 !important;
-        left:-320px !important;
-        z-index:3000 !important;
-        overflow-x:hidden;
-        overflow-y:auto;
-        -webkit-overflow-scrolling:touch;
-        overscroll-behavior:contain;
-        padding:.75rem 1rem 1rem;
-        box-shadow:12px 0 32px rgba(20,35,55,.16);
-    }
-    .side-menu.open{left:0 !important}
-    .menu-overlay{z-index:2900 !important}
-    .side-menu .menu-header{padding:.5rem 2.75rem .8rem 0;margin-bottom:.25rem}
-    .side-menu .menu-header h2{margin:.35rem 0 .1rem}
-    .side-menu .menu-header p{margin:0}
-    .side-menu .menu-group{padding:.45rem 0}
-    .side-menu .menu-group-title{margin:0 0 .15rem .35rem}
-    .side-menu .menu-group button{min-height:42px;padding:.48rem .7rem}
-    .side-menu > .menu-close-button{z-index:2;top:.65rem !important;right:.7rem !important}
-}
 .library-new .library-santidad{margin:0;padding:1.8rem 0;border:0;border-radius:0;background:transparent}
 .library-new .library-santidad .library-section-heading{margin-bottom:.9rem}
 .library-new .library-santidad-intro{max-width:68ch;margin:0;font-size:1rem;line-height:1.7}
