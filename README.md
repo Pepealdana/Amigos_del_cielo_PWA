@@ -25,6 +25,10 @@ La aplicación está diseñada para:
 
 ## Alcance actual
 
+**Versión actual: 1.4.0**
+
+La versión 1.4 incorpora un sistema centralizado de oraciones, una matriz de validación de las estructuras de oración y mejoras de experiencia para la lectura de las oraciones durante la novena.
+
 La versión actual integra:
 
 - Biblioteca espiritual.
@@ -44,6 +48,9 @@ La versión actual integra:
 - Compartir contenidos y la aplicación.
 - Instalación como PWA.
 - Soporte de funcionamiento offline mediante Service Worker.
+- Sistema central de oraciones comunes mediante `data/oraciones.json`.
+- Oraciones comunes compartidas entre las novenas mediante `prayerStructure`.
+- Soporte de estructuras especiales para Divina Misericordia y Espíritu Santo.
 - Selección de contexto regional hispanohablante como base para la expansión del catálogo.
 
 ## Arquitectura
@@ -148,6 +155,24 @@ Esto permite separar:
 - información necesaria para listar y buscar;
 - contenido completo que se carga cuando el usuario lo necesita.
 
+### Catálogo actual
+
+La versión 1.4 contiene **112 registros publicados**:
+
+- 63 santos.
+- 8 beatos.
+- 34 advocaciones marianas.
+- 7 devociones.
+
+Los 112 registros cuentan con `sourceFile` y estructura de oración configurada.
+
+La distribución de estructuras de oración es:
+
+- 105 `standard-novena`.
+- 1 `divine-mercy`.
+- 1 `holy-spirit`.
+- 5 `devotion-novena`.
+
 ### 2. Contenido detallado
 
 Los archivos JSON de `data/` contienen el contenido de cada santo, beato, advocación o devoción.
@@ -186,7 +211,23 @@ Entre ellas:
 - Participa
 - Acerca de
 
-### 5. Service Worker
+### 5. Sistema central de oraciones
+
+Las oraciones comunes se mantienen en `data/oraciones.json` para evitar duplicación de contenido entre las novenas.
+
+El servicio `js/services/oracionesService.js` permite cargar y resolver las oraciones por identificador. Las novenas indican mediante `prayerStructure.closingPrayers` qué oraciones comunes utilizan.
+
+Las oraciones propias de cada día continúan almacenadas en los archivos JSON de cada novena y se indican mediante `prayerStructure.dailyPrayerFields`.
+
+Actualmente las oraciones comunes principales son:
+
+- Padre Nuestro.
+- Ave María.
+- Gloria.
+
+La matriz `docs/matriz-oraciones-v1.4.md` documenta la validación de las 112 estructuras de oración.
+
+### 6. Service Worker
 
 `service-worker.js` proporciona las funciones PWA y administra la caché.
 
@@ -291,13 +332,22 @@ Cuando una información, cita o dato requiere respaldo documental, debe procurar
 
 El proyecto contempla una evolución progresiva.
 
-### Próxima fase
+### V1.5 — experiencia y continuidad
 
-Las siguientes versiones se definirán a partir del uso real de la aplicación y de la retroalimentación de las personas que la prueben. No se fija todavía un alcance cerrado para la siguiente versión.
+La siguiente etapa prevista se orienta a mejorar la experiencia de uso y la continuidad de la oración. El alcance podrá ajustarse a partir de la validación con usuarios reales.
 
-El cambio de idioma, por ejemplo, se considera una evolución de mayor alcance porque afecta contenido, interfaz, estructura de datos y mantenimiento. Por ahora el objetivo es mantener la aplicación en español y consolidar la experiencia existente.
+Entre las líneas previstas se encuentran:
 
-La siguiente etapa deberá priorizar necesidades observadas en el uso real, en lugar de incorporar funciones únicamente para aumentar el número de versión.
+- calendario litúrgico;
+- santo del día;
+- recordatorios;
+- búsqueda y filtros mejorados;
+- favoritos y recomendaciones por intención;
+- mejoras de Mi Camino y continuidad de oración;
+- compartir novenas y oraciones;
+- refinamientos de accesibilidad y experiencia visual.
+
+La internacionalización y la expansión multilingüe se mantienen como una etapa posterior de mayor alcance.
 
 El documento histórico de auditoría UX puede consultarse en [docs/UX-1.4.md](docs/UX-1.4.md).
 
@@ -313,19 +363,21 @@ El documento histórico de auditoría UX puede consultarse en [docs/UX-1.4.md](d
 
 ## Calidad y estado de publicación
 
-La versión 1.3.6 ha completado la fase principal de estabilización técnica y de experiencia. Se revisaron estados de carga, vacío y error; recuperación ante fallos; navegación contextual; foco y teclado; modales; formularios; tamaños táctiles; modo oscuro; reducción de movimiento y funcionamiento offline.
+La versión 1.4.0 consolida el sistema central de oraciones y continúa la estabilización de la PWA. Se han revisado la estructura de los 112 registros, las referencias de contenido, las estructuras de oración, el renderizado diario, el progreso de las novenas, la navegación, la instalación PWA, el funcionamiento offline y la experiencia de lectura.
 
-Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La prueba funcional manual de navegación, novenas, favoritos, progreso, Biblioteca, configuración, funcionamiento offline y acciones principales complementa estas verificaciones.
+Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La revisión funcional manual complementa estas verificaciones.
 
-La publicación oficial queda preparada sobre el commit final de estabilización. La prueba física en Android debe realizarse como comprobación final del dispositivo antes de considerar cerrada la validación de campo.
+La interfaz de las oraciones comunes utiliza un componente compartido, por lo que las mejoras de lectura se aplican a todas las novenas que utilizan esta estructura.
 
 ## Estado del proyecto
 
-**Versión de aplicación:** 1.3.6
+**Versión de aplicación:** 1.4.0
 
-**Estado:** estabilización 1.3.6 cerrada; preparada para publicación y pruebas con usuarios reales
+**Estado:** V1.4 en estabilización y consolidación
 
-**Service Worker:** caché v230
+**Catálogo:** 112 registros publicados
+
+**Service Worker:** caché v257
 
 **Tipo:** Progressive Web App
 
