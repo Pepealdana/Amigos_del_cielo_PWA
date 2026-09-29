@@ -1661,6 +1661,13 @@ function manejarClicksPWA(evento) {
             return;
         }
 
+        if (tipo === "close-modal") {
+
+            cerrarModal();
+            return;
+
+        }
+
         if (tipo === "retry-app") {
             window.location.reload();
             return;
