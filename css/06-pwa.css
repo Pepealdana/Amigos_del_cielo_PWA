@@ -3338,7 +3338,7 @@ body.dark .library-related-card{
 
 .camino-explorer{
     max-width:760px;
-    margin:1.35rem auto 2rem;
+    margin:2.4rem auto 2rem;
     padding:1.15rem;
     border:1px solid var(--color-border);
     border-radius:24px;
@@ -3399,6 +3399,25 @@ body.dark .library-related-card{
     display:block;
     margin-top:.2rem;
     font-size:.74rem;
+}
+
+.camino-explorer .library-discover-mode.is-active{
+    background:var(--color-primary);
+    border-color:var(--color-primary);
+    color:#fff;
+}
+
+.camino-explorer .library-discover-mode.is-active strong{
+    color:#fff;
+}
+
+.camino-explorer .library-discover-mode.is-active small{
+    color:rgba(255,255,255,.86);
+}
+
+.camino-explorer .library-discover-mode.is-active .library-discover-mode-icon{
+    background:rgba(255,255,255,.14);
+    color:#fff;
 }
 
 .camino-explorer .library-discover-panel{
