@@ -23,6 +23,10 @@ body{
     min-height:100%;
 }
 
+html{
+    scroll-padding-top:calc(var(--topbar-height) + 1rem);
+}
+
 body{
     background:var(--color-background);
 }
