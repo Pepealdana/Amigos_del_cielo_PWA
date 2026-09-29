@@ -1,0 +1,77 @@
+name: Generate PWA splash icon
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Generate horizontal splash PNG
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          source_path = Path("assets/branding/logo-horizontal-amigos-del-cielo.webp")
+          target_path = Path("assets/branding/splash-horizontal-512.png")
+
+          canvas_size = 512
+          max_logo_width = 360
+          max_logo_height = 100
+          background = (248, 246, 242, 255)
+
+          source = Image.open(source_path).convert("RGBA")
+          source.thumbnail(
+              (max_logo_width, max_logo_height),
+              Image.Resampling.LANCZOS
+          )
+
+          canvas = Image.new(
+              "RGBA",
+              (canvas_size, canvas_size),
+              background
+          )
+
+          x = (canvas_size - source.width) // 2
+          y = (canvas_size - source.height) // 2
+
+          canvas.alpha_composite(source, (x, y))
+          canvas.convert("RGB").save(
+              target_path,
+              "PNG",
+              optimize=True
+          )
+          PY
+
+      - name: Commit generated icon when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- assets/branding/splash-horizontal-512.png; then
+            echo "El icono ya está actualizado."
+            exit 0
+          fi
+
+          git add assets/branding/splash-horizontal-512.png
+          git commit -m "chore(v1.4): generar icono PNG para splash nativo"
+          git push
