@@ -77,6 +77,28 @@ function renderOracionesDelDia(novena, dia) {
     }).join("");
 }
 
+function renderOracionAperturaNovena(novena, numeroDia) {
+
+    if (Number(numeroDia) !== 1) {
+        return "";
+    }
+
+    const texto = novena?.openingPrayer?.text || novena?.openingPrayer;
+
+    return texto ? renderOracion("Oración inicial", texto) : "";
+}
+
+function renderOracionCierreNovena(novena, numeroDia, total) {
+
+    if (Number(numeroDia) !== Number(total)) {
+        return "";
+    }
+
+    const texto = novena?.closingPrayer?.text || novena?.closingPrayer;
+
+    return texto ? renderOracion("Oración final", texto) : "";
+}
+
 function renderOracionesComunesDelDia(novena) {
 
     const ids = novena?.prayerStructure?.closingPrayers;
