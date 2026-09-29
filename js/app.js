@@ -2125,11 +2125,15 @@ function continuarNovena(id) {
             }
 
             const dia =
-                state.progreso[novenaId]?.dia ||
-                obtenerDiaInicialPorCalendario(
-                    state.novenaActual
-                ) ||
-                1;
+                typeof obtenerDiaContinuacion === "function"
+                    ? obtenerDiaContinuacion(novenaId)
+                    : (
+                        state.progreso[novenaId]?.dia ||
+                        obtenerDiaInicialPorCalendario(
+                            state.novenaActual
+                        ) ||
+                        1
+                    );
 
             mostrarDia(dia);
         });
