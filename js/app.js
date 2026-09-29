@@ -2059,14 +2059,50 @@ document.addEventListener(
         if (
             "serviceWorker" in navigator
         ) {
+
+            const teniaControlador =
+                Boolean(
+                    navigator.serviceWorker.controller
+                );
+
+            if (teniaControlador) {
+
+                let recargando =
+                    false;
+
+                navigator.serviceWorker.addEventListener(
+                    "controllerchange",
+                    () => {
+
+                        if (recargando) {
+                            return;
+                        }
+
+                        recargando = true;
+                        window.location.reload();
+
+                    }
+                );
+
+            }
+
             navigator.serviceWorker
-                .register("./service-worker.js")
+                .register(
+                    "./service-worker.js",
+                    {
+                        updateViaCache: "none"
+                    }
+                )
+                .then(registro =>
+                    registro.update()
+                )
                 .catch(error =>
                     console.error(
                         "Service Worker:",
                         error
                     )
                 );
+
         }
     }
 );
