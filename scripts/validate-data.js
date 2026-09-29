@@ -6,6 +6,7 @@ const REQUIRED_FIELDS = ['id', 'slug', 'name', 'title', 'category', 'image', 'no
 const DAY_FIELDS = ['theme', 'title', 'virtue', 'reflection', 'intention', 'action'];
 const V2_CATALOGS = ['paises', 'santos', 'beatos', 'maria', 'devociones'];
 const TERRITORIAL_FIELDS = ['origin', 'historicalLinks', 'specialDevotion'];
+const PRAYERS_PATH = path.join(DATA_DIR, 'oraciones.json');
 let errors = 0;
 
 function report(file, message) {
@@ -268,6 +269,76 @@ function validateV2Catalogs() {
   }
 }
 
+
+function validatePrayerBank() {
+  const file = 'data/oraciones.json';
+  const fullPath = path.join(process.cwd(), file);
+
+  if (!fs.existsSync(fullPath)) {
+    report(file, 'banco central de oraciones no encontrado.');
+    return;
+  }
+
+  const data = readJson(fullPath, file);
+  if (!data) return;
+
+  if (!data.version || !data.language || !data.common || typeof data.common !== 'object') {
+    report(file, 'debe declarar version, language y common.');
+    return;
+  }
+
+  const ids = new Set();
+
+  for (const [key, prayer] of Object.entries(data.common)) {
+    if (!prayer || typeof prayer !== 'object') {
+      report(file, 'oración inválida: ' + key + '.');
+      continue;
+    }
+
+    if (!prayer.id || prayer.id !== key) {
+      report(file, 'la oración ' + key + ' debe tener id coincidente.');
+    }
+
+    if (ids.has(prayer.id)) {
+      report(file, 'id de oración duplicado: ' + prayer.id + '.');
+    }
+
+    ids.add(prayer.id);
+
+    if (!prayer.title || !prayer.text || !String(prayer.text).trim()) {
+      report(file, 'oración incompleta: ' + key + '.');
+    }
+  }
+
+  for (const name of V2_CATALOGS.filter(item => item !== 'paises')) {
+    const catalog = path.join(DATA_DIR, 'catalog', name + '.json');
+
+    if (!fs.existsSync(catalog)) continue;
+
+    const dataCatalog = readJson(catalog, 'data/catalog/' + name + '.json');
+    for (const item of dataCatalog?.items || []) {
+      const structure = item?.prayerStructure;
+      if (!structure) continue;
+
+      if (!structure.type) {
+        report('data/catalog/' + name + '.json#' + item.id, 'prayerStructure debe declarar type.');
+      }
+
+      for (const field of ['dailyPrayerFields', 'closingPrayers']) {
+        if (!Array.isArray(structure[field])) continue;
+
+        for (const prayerId of structure[field]) {
+          if (!ids.has(prayerId)) {
+            report('data/catalog/' + name + '.json#' + item.id,
+              'referencia de oración inexistente: ' + prayerId + '.');
+          }
+        }
+      }
+    }
+  }
+}
+
+validatePrayerBank();
 validateLegacyRootFiles();
 validateV2Catalogs();
 
