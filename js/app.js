@@ -997,6 +997,40 @@ function iniciarNovena() {
 
 }
 
+function marcarDiaActualComoRezado() {
+
+    if (!state.novenaActual) {
+        return;
+    }
+
+    const resultado = marcarDiaRezado(
+        state.novenaActual.id,
+        state.diaActual
+    );
+
+    if (!resultado.ok) {
+        return;
+    }
+
+    if (resultado.completada) {
+        actualizarTituloPagina("Novena completada");
+        renderizar(
+            renderAgradecimiento(
+                state.novenaActual,
+                state.origenNovena || "biblioteca"
+            )
+        );
+        return;
+    }
+
+    renderizar(
+        renderDia(
+            state.novenaActual,
+            state.diaActual
+        )
+    );
+}
+
 function finalizarNovenaActual() {
 
     if (!state.novenaActual) {
@@ -1259,14 +1293,6 @@ function mostrarDia(
         return;
 
     }
-
-    actualizarProgreso(
-
-        state.novenaActual.id,
-
-        numeroDia
-
-    );
 
     actualizarTituloPagina(
 
@@ -1631,6 +1657,11 @@ function manejarClicksPWA(evento) {
 
         if (tipo === "start-novena") {
             iniciarNovena();
+            return;
+        }
+
+        if (tipo === "mark-day-prayed") {
+            marcarDiaActualComoRezado();
             return;
         }
 
