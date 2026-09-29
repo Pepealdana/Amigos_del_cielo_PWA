@@ -9,7 +9,7 @@ self.addEventListener("message", event => {
    SERVICE WORKER
 ========================================== */
 
-const CACHE_NAME = "amigos-del-cielo-v299";
+const CACHE_NAME = "amigos-del-cielo-v300";
 
 const APP_SHELL = [
     "./",
