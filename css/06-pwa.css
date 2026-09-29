@@ -2748,3 +2748,18 @@ body.dark .library-related-card{
         width:100%;
     }
 }
+
+
+/* ==========================================================
+   INSTALACIÓN — OCULTAR PROMOCIÓN EN MODO APLICACIÓN
+========================================================== */
+
+@media (display-mode: standalone),
+       (display-mode: fullscreen),
+       (display-mode: minimal-ui),
+       (display-mode: window-controls-overlay){
+
+    .install-app-card{
+        display:none !important;
+    }
+}
