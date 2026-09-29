@@ -14,9 +14,21 @@ const CLAVE_RECHAZO_INSTALACION =
     "adc-install-prompt-dismissed";
 
 function estaInstaladaComoPWA() {
-    return window.matchMedia?.(
-        "(display-mode: standalone)"
-    ).matches ||
+    const modosDeAplicacion = [
+        "standalone",
+        "fullscreen",
+        "minimal-ui",
+        "window-controls-overlay"
+    ];
+
+    const estaEnModoAplicacion =
+        modosDeAplicacion.some(modo =>
+            window.matchMedia?.(
+                `(display-mode: ${modo})`
+            ).matches
+        );
+
+    return estaEnModoAplicacion ||
         window.navigator.standalone === true;
 }
 
@@ -109,13 +121,7 @@ function actualizarBotonInstalacion() {
         return;
     }
 
-    const instalada =
-        window.matchMedia?.(
-            "(display-mode: standalone)"
-        ).matches ||
-        window.navigator.standalone === true;
-
-    boton.hidden = instalada;
+    boton.hidden = estaInstaladaComoPWA();
 
 }
 
