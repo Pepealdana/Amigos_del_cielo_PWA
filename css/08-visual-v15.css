@@ -23,3 +23,142 @@ body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
 .library-search-icon{display:grid;place-items:center;color:var(--color-text-light);flex:0 0 20px}
 .library-loading-mark{display:grid;place-items:center}
 .library-image-placeholder{display:grid;place-items:center;color:var(--color-text-light);background:var(--color-surface-alt)}
+
+
+/* ==========================================================
+   V1.5 — AJUSTE VISUAL Y RENDIMIENTO
+   Correcciones posteriores a la primera prueba en dispositivo.
+========================================================== */
+
+/* El menú debe quedar por encima del header y de la navegación inferior. */
+.menu-overlay{
+    z-index:1390;
+}
+
+.side-menu{
+    z-index:1400;
+    overflow-y:auto;
+    overflow-x:hidden;
+    overscroll-behavior:contain;
+    -webkit-overflow-scrolling:touch;
+    padding:0;
+}
+
+.side-menu .menu-header{
+    padding:1.15rem 1rem .9rem;
+    margin:0;
+}
+
+.side-menu .menu-logo{
+    width:46px;
+    height:46px;
+    margin:0 0 .45rem;
+}
+
+.side-menu .menu-group{
+    padding:.45rem .75rem;
+    margin:0;
+    gap:.12rem;
+}
+
+.side-menu .menu-group-title{
+    margin:0 0 .15rem;
+    padding:0 .45rem;
+}
+
+.side-menu .menu-group button{
+    min-height:40px;
+    padding:.5rem .65rem;
+    border-radius:9px;
+}
+
+.side-menu .menu-group-last{
+    padding-bottom:1.25rem;
+}
+
+/* Configuración: control limpio y discreto, alineado con el menú. */
+.header .icon-button{
+    width:42px;
+    height:42px;
+    min-height:42px;
+    border:1px solid rgba(44,74,107,.12);
+    background:rgba(44,74,107,.055);
+    color:var(--color-primary);
+    box-shadow:none;
+}
+
+.header .icon-button:hover{
+    background:rgba(44,74,107,.10);
+}
+
+.header .icon-button:active{
+    transform:scale(.97);
+}
+
+.header .icon-button svg{
+    width:20px;
+    height:20px;
+    stroke-width:1.9;
+}
+
+/* La Biblioteca usa lectura editorial; el marco exterior no debe
+   competir con el texto ni recortarlo en pantallas estrechas. */
+.library-santidad{
+    margin:0;
+    padding:1.35rem 0;
+    border:0;
+    border-top:1px solid var(--border-subtle);
+    border-radius:0;
+    background:transparent;
+}
+
+.library-santidad-paths{
+    margin-top:1.1rem;
+}
+
+.library-santidad-callout{
+    margin-top:1.1rem;
+}
+
+/* Respuesta táctil inmediata. En móvil no aplicamos efectos hover. */
+.btn{
+    transition:
+        background-color .12s ease,
+        color .12s ease,
+        border-color .12s ease,
+        box-shadow .12s ease,
+        transform .08s ease;
+}
+
+.btn:active{
+    transform:scale(.985);
+}
+
+button{
+    -webkit-tap-highlight-color:transparent;
+}
+
+@media (hover:none){
+    .btn:hover,
+    button:hover{
+        transform:none;
+    }
+
+    .btn-primary:hover,
+    .btn-secondary:hover,
+    .btn-accent:hover,
+    .btn-outline:hover{
+        filter:none;
+    }
+}
+
+/* Las vistas no necesitan una animación perceptible de 350 ms. */
+#view > *{
+    animation-duration:.16s !important;
+}
+
+@media (prefers-reduced-motion:reduce){
+    #view > *{
+        animation:none !important;
+    }
+}
