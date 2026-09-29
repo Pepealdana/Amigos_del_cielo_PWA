@@ -220,7 +220,7 @@ function renderCamino(
 
             ${historialHTML}
 
-            <section class="camino-summary" style="display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important;width:100% !important;max-width:760px !important;margin:1rem auto 0 !important;">
+            <section class="camino-summary" style="display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important;width:100% !important;max-width:760px !important;margin:1.5rem auto 2rem !important;">
 
                 <article class="camino-summary-card camino-summary-favorites" style="min-width:0 !important;height:190px !important;padding:12px !important;box-sizing:border-box !important;">
                     <div class="camino-summary-heading">
