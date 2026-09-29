@@ -134,15 +134,7 @@ function renderBiblioteca(catalogo = []) {
 <div class="library-santidad-path"><span class="library-santidad-path-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 19 12 5l7 14"/><path d="M8 16h8"/></svg></span><div><strong>Perseverar en la prueba</strong><p>Aprender a amar y servir en circunstancias difíciles.</p></div></div></div>
 <div class="library-santidad-callout"><strong>Tu camino también está comenzando.</strong><p>No necesitas ser perfecto para comenzar a seguir a Cristo.</p></div>
 </section>
-<section class="library-discover" aria-labelledby="library-discover-title">
-<div class="library-section-heading"><div><p class="library-kicker">Conoce un camino</p><h3 id="library-discover-title">¿Qué quieres aprender de un santo?</h3></div></div>
-<p class="library-discover-intro">Puedes acercarte a una historia por aquello que quieres comprender, cultivar o vivir. Por ejemplo: perseverar, recomenzar, servir, perdonar, mantener la esperanza, amar a la familia, afrontar una dificultad o vivir con sencillez.</p>
-<div class="library-discover-modes">
-<button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "intencion" ? "is-active" : ""}" type="button" data-action="library-explorer-mode" data-mode="intencion" aria-pressed="${state.bibliotecaExplorador?.modo === "intencion"}"><strong>Explorar experiencias</strong></button>
-<button class="library-discover-mode ${state.bibliotecaExplorador?.modo === "virtud" ? "is-active" : ""}" type="button" data-action="library-explorer-mode" data-mode="virtud" aria-pressed="${state.bibliotecaExplorador?.modo === "virtud"}"><strong>Explorar virtudes</strong></button>
-</div>
-${renderExploradorBiblioteca()}
-</section>
+
 <section class="library-today" aria-labelledby="library-today-title">
                 <div class="library-section-heading">
                     <div>
