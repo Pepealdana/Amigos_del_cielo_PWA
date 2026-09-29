@@ -4,15 +4,17 @@
 ========================================== */
 
 function normalizarResultadoBusqueda(item, type, actionType, target = null) {
-    if (!item?.id || !item?.name) {
+    const title = item?.name || item?.title || item?.label || "";
+
+    if (!item?.id || !title) {
         return null;
     }
 
     return {
         id: item.id,
         type,
-        title: item.name,
-        subtitle: item.title || item.subtitle || "",
+        title,
+        subtitle: item.subtitle || item.description || "",
         image: item.image || "",
         action: {
             type: actionType,
