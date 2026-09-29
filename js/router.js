@@ -320,13 +320,7 @@ const router = {
                 params.get("dia")
             );
 
-        if (
-            novenaId &&
-            buscarNovenaPorId(
-                state.catalogo,
-                novenaId
-            )
-        ) {
+        if (novenaId) {
 
             const ruta =
                 RUTAS_VALIDAS.has(
@@ -516,7 +510,28 @@ async function restaurarRutaDesdeURL() {
             state.novenaActual.id !== id
         ) {
 
-            await cargarNovena(id);
+            try {
+
+                await cargarNovena(id);
+
+            } catch (error) {
+
+                console.error(
+                    "No fue posible restaurar la novena desde la URL:",
+                    error
+                );
+
+                router.ir(
+                    "biblioteca",
+                    null,
+                    {
+                        actualizarURL: false
+                    }
+                );
+
+                return;
+
+            }
 
         }
 
