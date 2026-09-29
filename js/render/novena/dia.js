@@ -135,6 +135,23 @@ function renderDia(
 
             ${renderOracionCierreNovena(novena, numeroDia, total)}
 
+            <div class="prayer-day-status" aria-live="polite">
+                ${estaDiaRezado(novena.id, numeroDia)
+                    ? `
+                        <p class="text-muted">
+                            Este día ya está marcado como rezado.
+                        </p>
+                    `
+                    : `
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            data-action="mark-day-prayed">
+                            Marcar día como rezado
+                        </button>
+                    `}
+            </div>
+
             <div class="button-group">
 
                 <button
@@ -145,22 +162,13 @@ function renderDia(
                     ← Anterior
                 </button>
 
-                ${esUltimoDia ? `
-                    <button
-                        class="btn btn-primary"
-                        type="button"
-                        data-action="finish-novena">
-                        Finalizar novena
-                    </button>
-                ` : `
-                    <button
-                        class="btn btn-primary"
-                        type="button"
-                        data-action="next-day"
-                        ${siguienteDisponible ? "" : "disabled"}>
-                        Siguiente →
-                    </button>
-                `}
+                <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-action="next-day"
+                    ${siguienteDisponible ? "" : "disabled"}>
+                    Siguiente →
+                </button>
 
             </div>
 
