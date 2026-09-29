@@ -1,5 +1,7 @@
 name: Generate PWA splash icon
 
+# El PNG generado se conserva en el repositorio para que Pages y la PWA lo sirvan directamente.
+
 on:
   push:
     branches:
