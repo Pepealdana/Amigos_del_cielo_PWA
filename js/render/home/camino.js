@@ -220,9 +220,9 @@ function renderCamino(
 
             ${historialHTML}
 
-            <section class="camino-summary" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;width:100%;max-width:760px;margin:1.25rem auto 0;">
+            <section class="camino-summary" style="display:grid !important;grid-template-columns:1fr 1fr !important;gap:10px !important;width:100% !important;max-width:760px !important;margin:1rem auto 0 !important;">
 
-                <article class="camino-summary-card camino-summary-favorites" style="min-width:0;min-height:170px;padding:14px;">
+                <article class="camino-summary-card camino-summary-favorites" style="min-width:0 !important;min-height:135px !important;height:135px !important;padding:10px !important;box-sizing:border-box !important;">
                     <div class="camino-summary-heading">
                         <span class="camino-summary-icon" aria-hidden="true">
                             <svg style="width:22px;height:22px;display:block;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -247,7 +247,7 @@ function renderCamino(
                 <article class="camino-summary-card camino-summary-progress" style="min-width:0;min-height:170px;padding:14px;">
                     <div class="camino-summary-heading">
                         <span class="camino-summary-icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <svg style="width:22px !important;height:22px !important;display:block !important;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="8.5"/>
                                 <path d="M12 7v5l3.2 2"/>
                             </svg>
