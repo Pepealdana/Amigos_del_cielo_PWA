@@ -35,7 +35,7 @@ function renderModal(
 
                 <h2 id="modal-title" class="modal-title">
 
-                    ${titulo}
+                    ${escaparHTML(titulo)}
 
                 </h2>
 
@@ -50,7 +50,7 @@ function renderModal(
                     <button
                         class="btn btn-primary modal-close-button"
                         type="button"
-                        onclick="cerrarModal()"
+                        data-action="close-modal"
                         aria-label="${escaparHTML(textoBoton)}">
                         ${escaparHTML(textoBoton)}
                     </button>

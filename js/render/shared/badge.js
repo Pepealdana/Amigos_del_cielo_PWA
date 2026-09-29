@@ -21,9 +21,9 @@ function renderBadge(
 
     return `
 
-        <span class="badge badge-${tipo}">
+        <span class="badge badge-${escaparHTML(tipo)}">
 
-            ${texto}
+            ${escaparHTML(texto)}
 
         </span>
 

@@ -292,22 +292,9 @@ async function iniciarApp() {
         actualizarBotonInstalacion();
         actualizarInvitacionInstalacion();
 
-        const novenaSolicitada =
-            new URLSearchParams(
-                window.location.search
-            ).get("novena");
+        inicializarHistorialRouter();
 
-        if (
-            novenaSolicitada &&
-            buscarNovenaPorId(
-                state.catalogo,
-                novenaSolicitada
-            )
-        ) {
-            abrirNovena(novenaSolicitada);
-        } else {
-            mostrarInicio();
-        }
+        await restaurarRutaDesdeURL();
 
     }
 
@@ -860,7 +847,12 @@ async function abrirNovena(id) {
 
         }
 
-        mostrarPortadaNovena();
+        router.ir(
+            "portada",
+            {
+                novenaId: id
+            }
+        );
 
     }
 
@@ -898,7 +890,24 @@ function volverDesdeNovena(nivel = "portada") {
    PORTADA NOVENA
 ========================================== */
 
-function mostrarPortadaNovena() {
+function mostrarPortadaNovena(
+    actualizarURL = true
+) {
+
+    if (
+        actualizarURL &&
+        state.novenaActual?.id
+    ) {
+
+        router.establecerRuta(
+            "portada",
+            {
+                novenaId:
+                    state.novenaActual.id
+            }
+        );
+
+    }
 
     actualizarTituloPagina(
 
@@ -922,7 +931,24 @@ function mostrarPortadaNovena() {
    HISTORIA
 ========================================== */
 
-function mostrarHistoria() {
+function mostrarHistoria(
+    actualizarURL = true
+) {
+
+    if (
+        actualizarURL &&
+        state.novenaActual?.id
+    ) {
+
+        router.establecerRuta(
+            "historia",
+            {
+                novenaId:
+                    state.novenaActual.id
+            }
+        );
+
+    }
 
     actualizarTituloPagina(
 
@@ -1211,7 +1237,10 @@ function mostrarPerfilAmigoDelCielo(id) {
    DÍAS DE LA NOVENA
 ========================================== */
 
-function mostrarDia(numeroDia) {
+function mostrarDia(
+    numeroDia,
+    actualizarURL = true
+) {
 
     state.diaActual = numeroDia;
 
@@ -1256,6 +1285,22 @@ function mostrarDia(numeroDia) {
         )
 
     );
+
+    if (
+        actualizarURL &&
+        state.novenaActual?.id
+    ) {
+
+        router.establecerRuta(
+            "dia",
+            {
+                novenaId:
+                    state.novenaActual.id,
+                dia: numeroDia
+            }
+        );
+
+    }
 
 }
 
@@ -1614,6 +1659,13 @@ function manejarClicksPWA(evento) {
         if (tipo === "theme" && accion.dataset.theme) {
             cambiarTema(accion.dataset.theme);
             return;
+        }
+
+        if (tipo === "close-modal") {
+
+            cerrarModal();
+            return;
+
         }
 
         if (tipo === "retry-app") {

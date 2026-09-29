@@ -34,7 +34,7 @@ function renderHeader(
 
                     <div class="page-header-icon">
 
-                        ${icono}
+                        ${escaparHTML(icono)}
 
                     </div>
 
@@ -46,7 +46,7 @@ function renderHeader(
 
             <h2 class="page-title">
 
-                ${titulo}
+                ${escaparHTML(titulo)}
 
             </h2>
 
@@ -58,7 +58,7 @@ function renderHeader(
 
                     <p class="page-subtitle">
 
-                        ${subtitulo}
+                        ${escaparHTML(subtitulo)}
 
                     </p>
 

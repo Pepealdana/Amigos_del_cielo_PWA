@@ -26,9 +26,9 @@ function renderCard(novena) {
 
             <img
 
-                src="${novena.image}"
+                src="${escaparHTML(novena.image)}"
 
-                alt="${novena.name}"
+                alt="${escaparHTML(novena.name)}"
 
                 class="novena-card-image"
 
@@ -38,13 +38,13 @@ function renderCard(novena) {
 
                 <h3>
 
-                    ${novena.name}
+                    ${escaparHTML(novena.name)}
 
                 </h3>
 
                 <p class="novena-card-title">
 
-                    ${novena.title}
+                    ${escaparHTML(novena.title)}
 
                 </p>
 
@@ -56,7 +56,7 @@ function renderCard(novena) {
 
                         <p class="novena-card-feast">
 
-                            📅 ${festividad}
+                            📅 ${escaparHTML(festividad)}
 
                         </p>
 
@@ -86,7 +86,13 @@ function renderCard(novena) {
 
                     "Abrir Novena",
 
-                    `abrirNovena('${novena.id}')`
+                    "open-novena",
+
+                    "primary",
+
+                    "",
+
+                    novena.id
 
                 )}
 

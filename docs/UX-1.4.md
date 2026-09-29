@@ -1,8 +1,8 @@
-# Auditoría UX — Cierre de estabilización 1.3.6
+# Auditoría UX — Registro histórico de estabilización 1.3.6
 
 ## Propósito
 
-Este documento registra la auditoría de experiencia de usuario que se utilizó para cerrar la estabilización de la versión 1.3.6. La siguiente versión no queda definida todavía y se establecerá a partir de la retroalimentación de usuarios reales.
+Este documento conserva el registro histórico de la auditoría de experiencia de usuario utilizada para cerrar la versión 1.3.6. No representa el estado técnico actual de V1.4.1.
 
 No se incorporarán nuevas novenas como objetivo de esta versión. El contenido existente será la base para mejorar la manera en que las personas descubren a los santos, exploran sus historias y rezan las novenas.
 
@@ -171,7 +171,7 @@ Abrir contenido disponible → activar modo sin conexión → navegar → contin
 - revisión editorial;
 - documentación.
 
-Los criterios de esta auditoría se consideran parte del cierre de estabilización de 1.3.6. Las futuras funcionalidades se decidirán después de observar el uso real de la aplicación.
+Los criterios de esta auditoría siguen siendo referencia histórica. V1.4.1 incorpora además URLs internas, historial Atrás/Adelante, endurecimiento del renderizado, pruebas E2E y documentación operativa actualizada.
 
 ## Referencias de diseño
 - Nielsen Norman Group — 10 Usability Heuristics for User Interface Design.

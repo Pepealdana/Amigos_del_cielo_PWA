@@ -69,23 +69,6 @@ const APP_CONFIG = {
     colorAcento: "#D9B66B",
 
     /* ==========================
-       ALMACENAMIENTO
-    ========================== */
-
-    storage: {
-
-        favoritos:
-            "adc_favoritos",
-
-        progreso:
-            "adc_progreso",
-
-        configuracion:
-            "adc_configuracion"
-
-    },
-
-    /* ==========================
        FUNCIONES
     ========================== */
 

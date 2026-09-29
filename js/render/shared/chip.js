@@ -21,9 +21,9 @@ function renderChip(
 
     return `
 
-        <span class="chip chip-${tipo}">
+        <span class="chip chip-${escaparHTML(tipo)}">
 
-            ${texto}
+            ${escaparHTML(texto)}
 
         </span>
 

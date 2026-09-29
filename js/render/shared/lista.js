@@ -43,7 +43,7 @@ function renderLista(
 
                     <h3 class="list-title">
 
-                        ${titulo}
+                        ${escaparHTML(titulo)}
 
                     </h3>
 
@@ -65,7 +65,7 @@ function renderLista(
 
                                 <li>
 
-                                    ${item}
+                                    ${escaparHTML(item)}
 
                                 </li>
 

@@ -10,6 +10,7 @@
  * @param {string} accion
  * @param {string} tipo
  * @param {string} icono
+ * @param {string} id
  * @returns {string}
  */
 
@@ -21,25 +22,30 @@ function crearBoton(
 
     tipo = "primary",
 
-    icono = ""
+    icono = "",
+
+    id = ""
 
 ) {
 
     const contenido = icono
-        ? `${icono} ${texto}`
-        : texto;
+        ? `${escaparHTML(icono)} ${escaparHTML(texto)}`
+        : escaparHTML(texto);
 
-    const atributoAccion = accion
-        ? `onclick="${accion}"`
+    const atributosAccion = accion
+        ? `
+            data-action="${escaparHTML(accion)}"
+            ${id ? `data-id="${escaparHTML(id)}"` : ""}
+        `
         : "";
 
     return `
 
         <button
 
-            class="btn btn-${tipo}"
+            class="btn btn-${escaparHTML(tipo)}"
 
-            ${atributoAccion}
+            ${atributosAccion}
 
             type="button">
 

@@ -64,7 +64,7 @@ function renderOracionDestacada(
 
             <p>
 
-                ${texto}
+                ${escaparHTML(texto).replace(/\\n/g, "<br>")}
 
             </p>
 

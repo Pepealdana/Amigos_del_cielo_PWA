@@ -1,124 +1,75 @@
-# Amigos del Cielo
+# Amigos del Cielo — Guía de desarrollo
 
-## Descripción
+## Estado
 
-**Amigos del Cielo** es una aplicación web progresiva (PWA) orientada a la oración y la formación espiritual católica mediante novenas, santos y devociones.
+**Versión:** 1.4.1  
+**Service Worker:** v269  
+**Catálogo:** 112 registros publicados
 
-El proyecto busca ofrecer una experiencia sencilla, rápida y completamente gratuita, funcionando incluso sin conexión a Internet.
+La aplicación es una PWA estática construida con HTML, CSS, JavaScript y JSON. No requiere backend para las funciones actuales.
 
----
-
-# Objetivos
-
-- Facilitar la oración diaria.
-- Presentar la vida y enseñanzas de los santos.
-- Guiar novenas paso a paso.
-- Recordar el progreso del usuario.
-- Funcionar como una PWA.
-- Mantener una arquitectura modular y escalable.
-
----
-
-# Tecnologías
+## Tecnologías
 
 - HTML5
 - CSS3
-- JavaScript Vanilla (ES6+)
+- JavaScript Vanilla ES6+
 - JSON
 - LocalStorage
 - Service Worker
 - GitHub Pages
+- GitHub Actions
+- Playwright para pruebas E2E
 
----
+## Arquitectura
 
-# Estructura del proyecto
+El flujo principal es:
 
-```
+Usuario → Router → Estado/Servicios → JSON → Render → Pantalla
 
-Amigos-del-Cielo/
+La aplicación separa:
 
-assets/
-css/
-data/
-docs/
-js/
-manifest.json
-service-worker.js
-index.html
+- datos en data/;
+- estado en js/state/;
+- servicios en js/services/;
+- utilidades en js/utils/;
+- renderizado en js/render/;
+- navegación en js/router.js.
 
-```
+## Navegación
 
----
+El router utiliza URLs internas mediante el parámetro ?ruta= y conserva compatibilidad con ?novena=.
 
-# Arquitectura
+Ejemplos:
 
-La aplicación está dividida en cuatro grandes bloques:
+- ?ruta=biblioteca
+- ?ruta=santos
+- ?ruta=portada&novena=san-jose
+- ?ruta=dia&novena=san-jose&dia=2
 
-- Datos
-- Estado
-- Renderizado
-- Navegación
+El router sincroniza estas URLs con el historial del navegador mediante History API y responde a Atrás/Adelante.
 
-Cada bloque tiene una responsabilidad única.
+## Cómo ejecutar
 
----
+Puede utilizarse un servidor estático local:
 
-# Flujo de funcionamiento
+python3 -m http.server 4173
 
-Usuario
+o GitHub Pages.
 
-↓
+## Validaciones
 
-Router
+- node scripts/validate-data.js
+- node scripts/validate-app.js
+- npm run test:e2e
 
-↓
+Las pruebas E2E requieren Playwright y Chromium.
 
-App
+## Service Worker
 
-↓
+Toda modificación que afecte código de aplicación, estilos, datos, recursos o comportamiento PWA debe incrementar CACHE_NAME en service-worker.js.
 
-Servicios
+La versión vigente es v269.
 
-↓
+## Pruebas móviles
 
-JSON
-
-↓
-
-Render
-
-↓
-
-Pantalla
-
----
-
-# Cómo ejecutar
-
-Abrir mediante:
-
-Live Server
-
-o
-
-GitHub Pages
-
-No requiere backend.
-
----
-
-# Cómo agregar una nueva novena
-
-1. Crear un JSON.
-2. Agregar la imagen.
-3. Registrar la novena en `novenas.json`.
-
-No es necesario modificar el código JavaScript.
-
----
-
-# Estado actual
-
-Actualmente el proyecto se encuentra en construcción.
-
-La arquitectura principal ya está implementada y el siguiente paso será desarrollar el motor de las novenas y el sistema de progreso.
+La suite E2E incluye Chromium de escritorio y perfil emulado Pixel 5. La prueba física de Android/iOS sigue siendo manual y está documentada en docs/PRUEBAS-MOVILES.md.
