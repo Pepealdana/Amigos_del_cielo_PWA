@@ -513,6 +513,8 @@ function abrirMenu() {
         .getElementById("side-menu")
         ?.classList.add("open");
 
+    document.body.classList.add("menu-open");
+
     document
         .getElementById("menu-overlay")
         ?.classList.add("show");
@@ -530,6 +532,8 @@ function cerrarMenu() {
     document
         .getElementById("side-menu")
         ?.classList.remove("open");
+
+    document.body.classList.remove("menu-open");
 
     document
         .getElementById("menu-overlay")
