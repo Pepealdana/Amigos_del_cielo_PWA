@@ -26,18 +26,18 @@ function crearBoton(
 ) {
 
     const contenido = icono
-        ? `${icono} ${texto}`
-        : texto;
+        ? `${escaparHTML(icono)} ${escaparHTML(texto)}`
+        : escaparHTML(texto);
 
     const atributoAccion = accion
-        ? `onclick="${accion}"`
+        ? `onclick="${escaparHTML(accion)}"`
         : "";
 
     return `
 
         <button
 
-            class="btn btn-${tipo}"
+            class="btn btn-${escaparHTML(tipo)}"
 
             ${atributoAccion}
 
