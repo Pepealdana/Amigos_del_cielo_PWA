@@ -111,13 +111,13 @@ Esta matriz distingue la configuración declarada en `prayerStructure` de la exi
 | 103 | `virgen-del-rocio` | Nuestra Señora del Rocío | maria | `data/nuestra-senora-del-rocio.json` | standard-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
 | 104 | `nuestra-senora-del-perpetuo-socorro` | Nuestra Señora del Perpetuo Socorro | maria | `data/nuestra-senora-del-perpetuo-socorro.json` | standard-novena | `prayer` | Revisar | padre-nuestro, ave-maria, gloria | Revisar | — | PENDIENTE DE REVISIÓN |
 | 105 | `nuestra-senora-de-la-dulce-espera` | Nuestra Señora de la Dulce Espera | maria | `data/nuestra-senora-de-la-dulce-espera.json` | standard-novena | `prayer` | Revisar | padre-nuestro, ave-maria, gloria | Revisar | — | PENDIENTE DE REVISIÓN |
-| 106 | `divina-misericordia` | Divina Misericordia | devociones | `data/divina-misericordia.json` | divine-mercy | `prayerAdapted + eternalFather` | Sí | padre-nuestro, ave-maria, gloria | Sí | prayerAdapted + eternalFather | CONFIGURADA · REVISAR CONTENIDO |
-| 107 | `espiritu-santo` | Espíritu Santo | devociones | `data/espiritu-santo.json` | holy-spirit | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 108 | `sagrado-corazon-de-jesus` | Sagrado Corazón de Jesús | devociones | `data/sagrado-corazon-de-jesus.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 109 | `divino-nino-jesus` | Divino Niño Jesús | devociones | `data/divino-nino-jesus.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 110 | `santos-arcangeles` | Santos Arcángeles Miguel, Gabriel y Rafael | devociones | `data/santos-arcangeles.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 111 | `senor-de-los-milagros-de-buga` | Señor de los Milagros de Buga | devociones | `data/senor-de-los-milagros-de-buga.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
-| 112 | `senor-de-los-milagros-peru` | Señor de los Milagros del Perú | devociones | `data/senor-de-los-milagros-peru.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | CONFIGURADA · REVISAR CONTENIDO |
+| 106 | `divina-misericordia` | Divina Misericordia | devociones | `data/divina-misericordia.json` | divine-mercy | `prayerAdapted + eternalFather` | Sí | padre-nuestro, ave-maria, gloria | Sí | prayerAdapted + eternalFather | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 107 | `espiritu-santo` | Espíritu Santo | devociones | `data/espiritu-santo.json` | holy-spirit | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 108 | `sagrado-corazon-de-jesus` | Sagrado Corazón de Jesús | devociones | `data/sagrado-corazon-de-jesus.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 109 | `divino-nino-jesus` | Divino Niño Jesús | devociones | `data/divino-nino-jesus.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 110 | `santos-arcangeles` | Santos Arcángeles Miguel, Gabriel y Rafael | devociones | `data/santos-arcangeles.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 111 | `senor-de-los-milagros-de-buga` | Señor de los Milagros de Buga | devociones | `data/senor-de-los-milagros-de-buga.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
+| 112 | `senor-de-los-milagros-peru` | Señor de los Milagros del Perú | devociones | `data/senor-de-los-milagros-peru.json` | devotion-novena | `prayer` | Sí | padre-nuestro, ave-maria, gloria | Sí | — | COMPLETO · ESTRUCTURA Y ORACIÓN VALIDADA |
 
 ## Resumen
 
