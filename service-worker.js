@@ -182,7 +182,7 @@ const APP_SHELL = [
     "./js/render/home/biblioteca.js",
     "./js/render/home/catalogo.js",
     "./js/render/home/favoritas.js",
-    "./js/render/home/camino.js",
+    "./js/render/home/camino.js?v=298",
     "./js/render/home/progreso.js",
     "./js/render/home/configuracion.js",
     "./js/render/home/participa.js",
