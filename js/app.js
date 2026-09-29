@@ -835,7 +835,10 @@ async function abrirNovena(id) {
 
     try {
 
-        await cargarNovena(id);
+        await Promise.all([
+            cargarNovena(id),
+            cargarOraciones()
+        ]);
 
         if (!state.novenaActual) {
 
