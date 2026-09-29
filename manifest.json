@@ -17,10 +17,16 @@
     ],
     "icons": [
         {
-            "src": "assets/branding/splash-horizontal-512.png",
+            "src": "assets/branding/isotipo-amigos-del-cielo.webp",
+            "sizes": "192x192",
+            "type": "image/webp",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/branding/isotipo-amigos-del-cielo.webp",
             "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any maskable"
+            "type": "image/webp",
+            "purpose": "maskable"
         }
     ]
 }
