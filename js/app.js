@@ -292,22 +292,9 @@ async function iniciarApp() {
         actualizarBotonInstalacion();
         actualizarInvitacionInstalacion();
 
-        const novenaSolicitada =
-            new URLSearchParams(
-                window.location.search
-            ).get("novena");
+        inicializarHistorialRouter();
 
-        if (
-            novenaSolicitada &&
-            buscarNovenaPorId(
-                state.catalogo,
-                novenaSolicitada
-            )
-        ) {
-            abrirNovena(novenaSolicitada);
-        } else {
-            mostrarInicio();
-        }
+        await restaurarRutaDesdeURL();
 
     }
 
@@ -860,7 +847,12 @@ async function abrirNovena(id) {
 
         }
 
-        mostrarPortadaNovena();
+        router.ir(
+            "portada",
+            {
+                novenaId: id
+            }
+        );
 
     }
 
@@ -1211,7 +1203,10 @@ function mostrarPerfilAmigoDelCielo(id) {
    DÍAS DE LA NOVENA
 ========================================== */
 
-function mostrarDia(numeroDia) {
+function mostrarDia(
+    numeroDia,
+    actualizarURL = true
+) {
 
     state.diaActual = numeroDia;
 
@@ -1256,6 +1251,22 @@ function mostrarDia(numeroDia) {
         )
 
     );
+
+    if (
+        actualizarURL &&
+        state.novenaActual?.id
+    ) {
+
+        router.ir(
+            "dia",
+            {
+                novenaId:
+                    state.novenaActual.id,
+                dia: numeroDia
+            }
+        );
+
+    }
 
 }
 
