@@ -129,8 +129,22 @@ function renderCatalogoV2(
         return coincidePais && coincideGrupo && coincideBusqueda;
     });
 
-    const publicados = catalogoFiltrado.filter(item => item.status === "published");
+    const publicadosBase = catalogoFiltrado.filter(item => item.status === "published");
     const pendientes = catalogoFiltrado.filter(item => item.status === "pending");
+
+    /*
+     * El catálogo no es un ranking. Al entrar a una sección se crea una
+     * nueva secuencia aleatoria para favorecer el descubrimiento de otros
+     * contenidos. Durante los rerenders internos se conserva esa secuencia.
+     */
+    if (state.catalogoOrdenSeccion !== seccion) {
+        state.catalogoOrdenSeccion = seccion;
+        state.catalogoOrden = mezclarCatalogoParaDescubrimiento(publicadosBase);
+    }
+
+    const idsVisibles = new Set(publicadosBase.map(item => item.id));
+    const publicados = (Array.isArray(state.catalogoOrden) ? state.catalogoOrden : publicadosBase)
+        .filter(item => idsVisibles.has(item.id));
 
     return `
         <section class="catalog-page page-shell">
@@ -145,7 +159,6 @@ function renderCatalogoV2(
             </div>
 
             <header class="catalog-head">
-                <span class="catalog-kicker" aria-hidden="true">${datos.icono}</span>
                 <div>
                     <h2>${escaparHTML(datos.titulo)}</h2>
                     <p>${escaparHTML(datos.descripcion)}</p>
@@ -661,6 +674,18 @@ function obtenerDatoSecundarioCatalogo(item, seccion) {
         ? "Disponible"
         : "Próximamente";
 }
+
+function mezclarCatalogoParaDescubrimiento(items = []) {
+    const copia = [...items];
+
+    for (let indice = copia.length - 1; indice > 0; indice -= 1) {
+        const posicion = Math.floor(Math.random() * (indice + 1));
+        [copia[indice], copia[posicion]] = [copia[posicion], copia[indice]];
+    }
+
+    return copia;
+}
+
 
 function renderTarjetaCatalogoV2(item, seccion) {
     const imagen = item.image ||
