@@ -25,9 +25,9 @@ La aplicación está diseñada para:
 
 ## Alcance actual
 
-**Versión actual: 1.4.1**
+**Versión actual: 1.5.0**
 
-La versión 1.4.1 consolida un sistema centralizado de oraciones, una matriz de validación de las estructuras de oración y mejoras de experiencia para la lectura de las oraciones durante la novena.
+La versión 1.5.0 consolida la experiencia de descubrimiento y continuidad: Mi Camino, exploración por virtudes e intenciones, descubrimiento variable del catálogo y adaptación responsive para pantallas móviles.
 
 La versión actual integra:
 
@@ -160,7 +160,7 @@ Esto permite separar:
 
 ### Catálogo actual
 
-La versión 1.4 contiene **112 registros publicados**:
+La versión 1.5.0 contiene **112 registros publicados**:
 
 - 63 santos.
 - 8 beatos.
@@ -354,6 +354,20 @@ La internacionalización y la expansión multilingüe se mantienen como una etap
 
 El documento histórico de auditoría UX puede consultarse en [docs/UX-1.4.md](docs/UX-1.4.md).
 
+## V1.5 — experiencia de descubrimiento
+
+Esta versión incorpora:
+
+- Mi Camino como espacio de favoritos, progreso y continuidad espiritual.
+- Amigo del cielo para el año, con elección anual persistente.
+- Explorador de experiencias e intenciones integrado en Mi Camino.
+- Cruce de las virtudes canónicas de las fichas con las virtudes y temas de los días de las novenas.
+- Resultados variables de descubrimiento, sin presentarlos como ranking.
+- Orden variable del catálogo al entrar en Santos, Beatos, María y Devociones.
+- Navegación de categorías adaptada a pantallas móviles.
+- Ajustes de contraste para modo oscuro y mejoras responsive.
+- Validación manual en un segundo dispositivo Android con pantalla de menor tamaño.
+
 ## Principios del proyecto
 
 1. **Cristocéntrico:** los santos se presentan como testigos que orientan hacia Cristo.
@@ -366,7 +380,7 @@ El documento histórico de auditoría UX puede consultarse en [docs/UX-1.4.md](d
 
 ## Calidad y estado de publicación
 
-La versión 1.4.1 consolida el sistema central de oraciones y continúa la estabilización de la PWA. Se han revisado la estructura de los 112 registros, las referencias de contenido, las estructuras de oración, el renderizado diario, el progreso de las novenas, la navegación, la instalación PWA, el funcionamiento offline y la experiencia de lectura.
+La versión 1.5.0 consolida la experiencia de descubrimiento y continuidad, manteniendo el sistema central de oraciones y la estabilidad de la PWA. Se han revisado la estructura de los 112 registros, las referencias de contenido, las estructuras de oración, el renderizado diario, el progreso de las novenas, la navegación, la instalación PWA, el funcionamiento offline y la experiencia de lectura.
 
 Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La revisión funcional manual complementa estas verificaciones.
 
