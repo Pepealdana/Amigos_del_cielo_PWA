@@ -91,7 +91,7 @@ function cargarProgreso() {
         }
 
         /*
-         * Migración V1.6:
+         * Migración V1.5:
          * los registros antiguos solo conocían el estado "completada".
          * Ese estado se convierte una sola vez en la primera entrada
          * del historial, para que nadie pierda sus amigos del cielo.
