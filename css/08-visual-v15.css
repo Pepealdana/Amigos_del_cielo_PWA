@@ -727,3 +727,92 @@ body.dark .camino-profile-virtue-action:hover{
     line-height:1.2 !important;
     box-shadow:none !important;
 }
+
+
+/* ==========================================================
+   MI CAMINO — UX "CONOCE UN CAMINO"
+   Contenido interior con ancho controlado para evitar
+   tarjetas pegadas a los bordes del contenedor.
+========================================================== */
+
+.camino-page .camino-explorer{
+    padding:clamp(1.25rem,4vw,2rem);
+}
+
+.camino-page .camino-explorer-inner{
+    width:min(100%,760px);
+    margin:0 auto;
+}
+
+.camino-page .camino-explorer-hero{
+    max-width:680px;
+    margin:0 auto 1.2rem;
+}
+
+.camino-page .camino-explorer .library-discover-modes{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:.8rem;
+    width:min(100%,700px);
+    margin:0 auto;
+}
+
+.camino-page .camino-explorer .library-discover-mode{
+    width:100%;
+    min-height:86px;
+    margin:0;
+    padding:1rem;
+    box-sizing:border-box;
+    border-radius:18px;
+    box-shadow:none;
+}
+
+.camino-page .camino-explorer .library-discover-panel{
+    width:min(100%,700px);
+    margin:1rem auto 0;
+    box-sizing:border-box;
+}
+
+.camino-page .camino-explorer .library-discover-start{
+    width:min(100%,700px);
+    margin:1rem auto 0;
+    box-sizing:border-box;
+    border-radius:18px;
+}
+
+@media(max-width:640px){
+    .camino-page .camino-explorer{
+        padding:1.15rem .85rem 1.35rem;
+    }
+
+    .camino-page .camino-explorer-inner{
+        width:100%;
+    }
+
+    .camino-page .camino-explorer-hero{
+        margin-bottom:1rem;
+    }
+
+    .camino-page .camino-explorer .library-discover-modes{
+        grid-template-columns:1fr;
+        width:min(100%,620px);
+        gap:.65rem;
+    }
+
+    .camino-page .camino-explorer .library-discover-mode{
+        min-height:74px;
+        padding:.85rem .9rem;
+        border-radius:16px;
+    }
+
+    .camino-page .camino-explorer .library-discover-panel,
+    .camino-page .camino-explorer .library-discover-start{
+        width:min(100%,620px);
+    }
+}
+
+@media(prefers-reduced-motion:reduce){
+    .camino-page .camino-explorer .library-discover-mode{
+        transition:none;
+    }
+}
