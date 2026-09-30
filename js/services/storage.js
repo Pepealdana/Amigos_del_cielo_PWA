@@ -89,7 +89,29 @@ function cargarProgreso() {
                     .filter(dia => Number.isInteger(dia) && dia >= 1)
             )].sort((a, b) => a - b);
         }
+
+        /*
+         * Migración V1.6:
+         * los registros antiguos solo conocían el estado "completada".
+         * Ese estado se convierte una sola vez en la primera entrada
+         * del historial, para que nadie pierda sus amigos del cielo.
+         */
+        if (
+            datos.completada === true &&
+            !Array.isArray(datos.historialCompletaciones)
+        ) {
+            const fecha = datos.fechaFinalizacion || datos.fecha || new Date().toISOString();
+
+            datos.historialCompletaciones = [{
+                fechaInicio: datos.fechaInicio || fecha,
+                fechaFinalizacion: fecha
+            }];
+        } else if (!Array.isArray(datos.historialCompletaciones)) {
+            datos.historialCompletaciones = [];
+        }
     }
+
+    guardarEnStorage(STORAGE_KEYS.PROGRESS, state.progreso);
 
     const ids = Object.keys(state.progreso);
 
