@@ -396,6 +396,9 @@ Esta versión incorpora:
 
 - Mi Camino como espacio de favoritos, progreso y continuidad espiritual.
 - Amigo del cielo para el año, con elección anual persistente.
+- Círculo de amigos para santos y beatos con novena completada.
+- Jardín de María para advocaciones marianas con novena completada.
+- Colección separada de devociones completadas.
 - Explorador de experiencias e intenciones integrado en Mi Camino.
 - Cruce de las virtudes canónicas de las fichas con las virtudes y temas de los días de las novenas.
 - Resultados variables de descubrimiento, sin presentarlos como ranking.
@@ -417,7 +420,7 @@ Esta versión incorpora:
 
 ## Calidad y estado de publicación
 
-La versión 1.5.0 consolida la experiencia de descubrimiento y continuidad, manteniendo el sistema central de oraciones y la estabilidad de la PWA. Se han revisado la estructura de los 112 registros, las referencias de contenido, las estructuras de oración, el renderizado diario, el progreso de las novenas, la navegación, la instalación PWA, el funcionamiento offline y la experiencia de lectura.
+La versión 1.5.0 consolida la experiencia de descubrimiento y continuidad, incorpora el primer modelo de camino personal y mantiene el sistema central de oraciones y la estabilidad de la PWA. Se han revisado la estructura de los 112 registros, las referencias de contenido, las estructuras de oración, el renderizado diario, el progreso de las novenas, la navegación, la instalación PWA, el funcionamiento offline y la experiencia de lectura.
 
 Las validaciones automáticas de integridad, CodeQL, Lighthouse CI y el despliegue de GitHub Pages se ejecutan mediante GitHub Actions. La revisión funcional manual complementa estas verificaciones.
 
@@ -433,7 +436,7 @@ La navegación interna mantiene el contexto en la URL y permite utilizar Atrás/
 
 **Catálogo:** 112 registros publicados
 
-**Service Worker:** caché v316
+**Service Worker:** caché v317
 
 **Tipo:** Progressive Web App
 
