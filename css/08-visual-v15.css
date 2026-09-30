@@ -193,3 +193,41 @@ body.dark .app-startup-splash{
         margin-bottom:1.75rem !important;
     }
 }
+
+
+/* Mi camino — contraste definitivo en modo oscuro.
+   Este archivo es la hoja visual final cargada por la aplicación. */
+body.dark .camino-summary > .camino-summary-progress .camino-summary-progress-counts span{
+    background:#29384A !important;
+}
+
+body.dark .camino-summary > .camino-summary-progress .camino-summary-progress-counts strong{
+    color:#A9D9F5 !important;
+}
+
+body.dark .camino-summary > .camino-summary-progress .camino-summary-progress-counts small{
+    color:#F5F7FA !important;
+    opacity:1 !important;
+}
+
+body.dark .camino-summary > .camino-summary-card .btn.btn-outline{
+    color:#B9E0F8 !important;
+    border-color:#82B9DE !important;
+    background:rgba(127,178,214,.10) !important;
+}
+
+body.dark .camino-summary > .camino-summary-card .btn.btn-outline:hover{
+    color:#FFFFFF !important;
+    border-color:#A9D9F5 !important;
+    background:rgba(127,178,214,.20) !important;
+}
+
+body.dark .camino-explorer .library-discover-mode,
+body.dark .camino-explorer .library-related-button{
+    color:#D7ECFA !important;
+    border-color:#82B9DE !important;
+}
+
+body.dark .camino-explorer .library-discover-mode.is-active{
+    color:#111827 !important;
+}
