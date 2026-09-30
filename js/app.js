@@ -1251,6 +1251,97 @@ function sortearAmigoDelCieloAnual() {
     mostrarCamino();
 }
 
+
+function mostrarPerfilCamino(id) {
+    const catalogos = [
+        ...(state.catalogosV2?.santos || []),
+        ...(state.catalogosV2?.beatos || []),
+        ...(state.catalogosV2?.maria || []),
+        ...(state.catalogosV2?.devociones || [])
+    ];
+
+    const item = catalogos.find(entry => entry?.id === id);
+    const progreso = state.progreso?.[id];
+
+    if (!item || !progreso?.completada) {
+        return;
+    }
+
+    const categoria = normalizarCategoriaNovena(item.category || "");
+    const esPersona = categoria === "santos" || categoria === "beatos";
+    const esMaria = categoria === "maria";
+
+    const frase = esPersona
+        ? "Has caminado junto a " + item.name + "."
+        : esMaria
+            ? "Esta advocación mariana ya forma parte de tu camino."
+            : "Esta devoción ya forma parte de tu camino.";
+
+    const fecha = progreso.fechaFinalizacion
+        ? new Date(progreso.fechaFinalizacion).toLocaleDateString(
+            "es-CO",
+            { day: "numeric", month: "long", year: "numeric" }
+        )
+        : "";
+
+    const imagen = item.image || "";
+    const contenido =
+        (imagen
+            ? '<div class="camino-profile-media"><img src="' +
+              escaparHTML(imagen) +
+              '" alt="" class="camino-profile-image"></div>'
+            : "") +
+        '<p class="camino-profile-kicker">Parte de tu camino</p>' +
+        '<p class="camino-profile-message">' +
+            escaparHTML(frase) +
+        '</p>' +
+        '<div class="camino-profile-meta">' +
+            '<p><strong>Novena completada</strong></p>' +
+            (fecha
+                ? '<p>Finalizada el ' + escaparHTML(fecha) + '</p>'
+                : '') +
+        '</div>' +
+        '<p class="modal-note">' +
+            (esPersona
+                ? 'Puedes volver a rezar su novena o continuar conociendo su historia.'
+                : 'Puedes volver a rezar esta novena o conocer más sobre esta advocación o devoción.') +
+        '</p>' +
+        '<div class="camino-profile-actions">' +
+            '<button class="btn btn-primary" type="button" data-action="restart-novena" data-id="' +
+                escaparHTML(item.id) + '">Volver a rezar</button>' +
+            '<button class="btn btn-outline" type="button" data-action="open-camino-history" data-id="' +
+                escaparHTML(item.id) + '">Conocer su historia</button>' +
+        '</div>';
+
+    mostrarModal(
+        escaparHTML(item.name),
+        contenido
+    );
+}
+
+async function abrirHistoriaDesdeCamino(id) {
+    if (!id) return;
+
+    cerrarModal();
+
+    try {
+        await cargarNovena(id);
+
+        if (!state.novenaActual) {
+            return;
+        }
+
+        mostrarHistoria();
+    } catch (error) {
+        console.error("No fue posible abrir la historia desde Mi Camino:", error);
+        mostrarError(
+            obtenerMensajeErrorNovena(error),
+            obtenerTituloErrorNovena(error),
+            "biblioteca"
+        );
+    }
+}
+
 function mostrarPerfilAmigoDelCielo(id) {
     const santo = (state.catalogosV2?.santos || [])
         .find(item => item?.id === id);
@@ -1606,6 +1697,16 @@ function manejarClicksPWA(evento) {
         if (tipo === "open-novena" && id) {
             cerrarModal();
             abrirNovena(id);
+            return;
+        }
+
+        if (tipo === "open-camino-history" && id) {
+            abrirHistoriaDesdeCamino(id);
+            return;
+        }
+
+        if (tipo === "open-camino-profile" && id) {
+            mostrarPerfilCamino(id);
             return;
         }
 
