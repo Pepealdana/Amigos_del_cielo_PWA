@@ -1397,6 +1397,49 @@ async function mostrarPerfilCamino(id) {
     );
 }
 
+async function abrirHistoriaDesdeCamino(id) {
+    if (!id) {
+        return;
+    }
+
+    /*
+     * La ficha de Mi Camino vive en un modal, pero la historia
+     * pertenece a la novena completa. Cargamos la misma fuente
+     * de datos que utiliza la novena y después mostramos su historia.
+     *
+     * Esto mantiene un único flujo para Santos, Beatos, María y
+     * Devociones, sin depender de una implementación específica
+     * de cada categoría.
+     */
+    cerrarModal();
+
+    state.origenNovena = "camino";
+    renderizar(
+        renderLoader("Abriendo historia...")
+    );
+
+    try {
+        await cargarNovena(id);
+
+        if (!state.novenaActual) {
+            throw new Error("No fue posible cargar la novena.");
+        }
+
+        mostrarHistoria();
+    } catch (error) {
+        console.error(
+            "No fue posible abrir la historia desde Mi Camino:",
+            error
+        );
+
+        mostrarError(
+            obtenerMensajeErrorNovena(error),
+            obtenerTituloErrorNovena(error),
+            "camino"
+        );
+    }
+}
+
 function mostrarPerfilAmigoDelCielo(id) {
     const santo = (state.catalogosV2?.santos || [])
         .find(item => item?.id === id);
