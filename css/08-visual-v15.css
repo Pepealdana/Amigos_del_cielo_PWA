@@ -651,3 +651,33 @@ body.dark .camino-profile-virtue{
     border-color:rgba(127,178,214,.28);
     background:rgba(127,178,214,.07);
 }
+
+
+.camino-profile-virtue-action{
+    appearance:none;
+    font:inherit;
+    cursor:pointer;
+    transition:background .18s ease,border-color .18s ease,transform .18s ease;
+}
+
+.camino-profile-virtue-action:hover{
+    border-color:var(--color-primary);
+    background:rgba(44,93,131,.08);
+    color:var(--color-primary);
+    transform:translateY(-1px);
+}
+
+.camino-profile-virtue-action:focus-visible{
+    outline:3px solid color-mix(in srgb,var(--color-primary) 40%,transparent);
+    outline-offset:2px;
+}
+
+body.dark .camino-profile-virtue-action:hover{
+    background:rgba(127,178,214,.1);
+}
+
+@media(prefers-reduced-motion:reduce){
+    .camino-profile-virtue-action{
+        transition:none;
+    }
+}
