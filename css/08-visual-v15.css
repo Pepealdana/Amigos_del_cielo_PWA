@@ -259,3 +259,264 @@ body.dark .camino-friend-card{background:#151F2B;border-color:#2A3A4D}
 body.dark .camino-friend-card:hover{background:#1A2938;border-color:#49677F}
 body.dark .camino-friend-status,body.dark .camino-friend-date{color:#C8D5E2}
 body.dark .camino-collection-count{color:#A9D9F5;border-color:#82B9DE;background:rgba(127,178,214,.08)}
+
+
+/* ==========================================
+   MI CAMINO — UX CÍRCULO DE AMIGOS
+   V1.5
+========================================== */
+
+.camino-collections{
+    display:flex;
+    flex-direction:column;
+    gap:1.8rem;
+    width:100%;
+    max-width:980px;
+    margin:1.25rem auto 2rem;
+}
+
+.camino-collection{
+    width:100%;
+}
+
+.camino-collection-heading{
+    display:flex;
+    align-items:end;
+    justify-content:space-between;
+    gap:1rem;
+    margin:0 0 .85rem;
+}
+
+.camino-collection-heading h3{
+    margin:0;
+    color:var(--color-primary);
+    font-size:1.15rem;
+    line-height:1.25;
+}
+
+.camino-collection-heading p{
+    margin:.28rem 0 0;
+    color:var(--color-text-light);
+    font-size:.86rem;
+    line-height:1.45;
+}
+
+.camino-collection-count{
+    flex:0 0 auto;
+    min-width:30px;
+    height:30px;
+    display:grid;
+    place-items:center;
+    padding:0 .55rem;
+    border:1px solid var(--border-subtle);
+    border-radius:999px;
+    color:var(--color-primary);
+    background:var(--color-surface);
+    font-size:.78rem;
+    font-weight:750;
+}
+
+.camino-collection-row{
+    display:flex;
+    gap:.9rem;
+    overflow-x:auto;
+    overscroll-behavior-inline:contain;
+    padding:.15rem .1rem .55rem;
+    scrollbar-width:thin;
+    scroll-snap-type:x proximity;
+}
+
+.camino-collection-row::-webkit-scrollbar{
+    height:5px;
+}
+
+.camino-friend-card{
+    flex:0 0 112px;
+    width:112px;
+    min-height:154px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:.55rem;
+    padding:.35rem .25rem .5rem;
+    border:0;
+    border-radius:18px;
+    background:transparent;
+    color:var(--color-text);
+    cursor:pointer;
+    scroll-snap-align:start;
+    transition:background .18s ease,transform .18s ease;
+}
+
+.camino-friend-card:hover{
+    background:rgba(44,93,131,.07);
+    transform:translateY(-1px);
+}
+
+.camino-friend-card:focus-visible{
+    outline:3px solid color-mix(in srgb,var(--color-primary) 45%,transparent);
+    outline-offset:2px;
+}
+
+.camino-friend-portrait{
+    width:88px;
+    height:110px;
+    flex:0 0 110px;
+    overflow:hidden;
+    display:grid;
+    place-items:center;
+    border-radius:50% 50% 46% 46%;
+    border:2px solid rgba(202,164,93,.65);
+    background:var(--color-surface);
+    box-shadow:0 5px 18px rgba(20,35,55,.10);
+}
+
+.camino-friend-portrait img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+
+.camino-friend-placeholder{
+    color:var(--color-primary);
+    font-size:1.4rem;
+}
+
+.camino-friend-name{
+    display:block;
+    width:100%;
+    color:var(--color-text);
+    font-size:.82rem;
+    font-weight:700;
+    line-height:1.25;
+    text-align:center;
+}
+
+.camino-circle-empty{
+    width:100%;
+    max-width:760px;
+    margin:1.4rem auto 1.8rem;
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    padding:1.15rem;
+    border:1px solid var(--border-subtle);
+    border-radius:20px;
+    background:var(--color-surface);
+    box-shadow:0 8px 24px rgba(20,35,55,.06);
+}
+
+.camino-circle-empty-symbol{
+    width:62px;
+    height:62px;
+    flex:0 0 62px;
+    display:grid;
+    place-items:center;
+    border-radius:50%;
+    border:1px dashed rgba(202,164,93,.65);
+    color:var(--color-primary);
+    font-size:1.35rem;
+}
+
+.camino-circle-empty h3{
+    margin:0;
+    color:var(--color-primary);
+    font-size:1rem;
+}
+
+.camino-circle-empty p{
+    margin:.3rem 0 .8rem;
+    color:var(--color-text-light);
+    font-size:.86rem;
+    line-height:1.45;
+}
+
+.camino-collection-maria,
+.camino-collection-devociones{
+    padding-top:.2rem;
+}
+
+@media (max-width:640px){
+    .camino-collections{
+        gap:1.35rem;
+        margin-top:1rem;
+    }
+
+    .camino-collection-heading{
+        align-items:center;
+        margin-bottom:.55rem;
+    }
+
+    .camino-collection-heading h3{
+        font-size:1.03rem;
+    }
+
+    .camino-collection-heading p{
+        max-width:30rem;
+        font-size:.8rem;
+    }
+
+    .camino-collection-count{
+        min-width:28px;
+        height:28px;
+    }
+
+    .camino-collection-row{
+        gap:.55rem;
+        margin-inline:-.25rem;
+        padding-inline:.25rem;
+    }
+
+    .camino-friend-card{
+        flex-basis:94px;
+        width:94px;
+        min-height:136px;
+    }
+
+    .camino-friend-portrait{
+        width:76px;
+        height:96px;
+        flex-basis:96px;
+    }
+
+    .camino-friend-name{
+        font-size:.76rem;
+    }
+
+    .camino-circle-empty{
+        align-items:flex-start;
+        padding:1rem;
+        border-radius:18px;
+    }
+
+    .camino-circle-empty-symbol{
+        width:52px;
+        height:52px;
+        flex-basis:52px;
+    }
+}
+
+@media (max-width:390px){
+    .camino-friend-card{
+        flex-basis:88px;
+        width:88px;
+    }
+
+    .camino-friend-portrait{
+        width:70px;
+        height:90px;
+        flex-basis:90px;
+    }
+
+    .camino-circle-empty{
+        gap:.75rem;
+    }
+}
+
+@media (prefers-reduced-motion:reduce){
+    .camino-friend-card{
+        transition:none;
+    }
+}
