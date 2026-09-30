@@ -1774,6 +1774,7 @@ function manejarClicksPWA(evento) {
         }
 
         if (tipo === "restart-novena" && id) {
+            cerrarModal();
             reiniciarYComenzarNovena(id);
             return;
         }
