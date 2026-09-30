@@ -816,3 +816,24 @@ body.dark .camino-profile-virtue-action:hover{
         transition:none;
     }
 }
+
+
+.camino-friend-meta{
+    display:block;
+    min-height:1.05em;
+    margin-top:-.2rem;
+    color:var(--color-text-light);
+    font-size:.7rem;
+    font-weight:650;
+    line-height:1.2;
+    text-align:center;
+}
+
+.camino-profile-current{
+    color:var(--color-primary) !important;
+    font-weight:700;
+}
+
+body.dark .camino-friend-meta{
+    color:#aebed0;
+}
