@@ -2,8 +2,8 @@
 
 ## Estado actual
 
-- Versión de aplicación: **1.4.1**
-- Service Worker: **v272**
+- Versión de aplicación: **1.5.0**
+- Service Worker: **v315**
 - Tipo: Progressive Web App (PWA)
 - Plataforma: GitHub Pages
 - Idioma principal: español
@@ -13,7 +13,7 @@
 
 Se mantienen automatizaciones para validación de JSON, sintaxis JavaScript, rutas, imágenes, recursos del Service Worker, acciones y rutas interactivas, CodeQL, Lighthouse CI y GitHub Pages.
 
-V1.4.1 añade además pruebas E2E con Playwright para navegación, deep links, historial Atrás/Adelante, Service Worker y funcionamiento offline. El perfil Pixel 5 representa una emulación móvil de Chromium; no sustituye una prueba física.
+V1.5.0 incorpora mejoras de descubrimiento, Mi Camino, catálogo responsive y contraste en modo oscuro. Se validó además la adaptación en un segundo dispositivo Android físico de menor tamaño; esta prueba complementa, pero no sustituye, la cobertura automatizada.
 
 ## Verificaciones manuales pendientes
 
