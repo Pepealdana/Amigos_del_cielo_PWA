@@ -681,3 +681,21 @@ body.dark .camino-profile-virtue-action:hover{
         transition:none;
     }
 }
+
+
+/* Corrección de uniformidad: las virtudes interactivas no deben heredar
+   las dimensiones del componente global .btn. */
+.camino-profile-virtue-action{
+    width:auto;
+    min-height:34px;
+    margin-top:0 !important;
+    padding:.4rem .65rem;
+    border:1px solid var(--border-subtle);
+    border-radius:999px;
+    background:var(--color-surface);
+    color:var(--color-text);
+    font-size:.8rem;
+    font-weight:700;
+    line-height:1.2;
+    box-sizing:border-box;
+}
