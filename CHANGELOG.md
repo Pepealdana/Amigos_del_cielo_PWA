@@ -1,3 +1,19 @@
+## [1.5.0] — Descubrimiento, Mi Camino y experiencia móvil
+
+- Se consolida Mi Camino como espacio de favoritos, progreso y continuidad.
+- Se incorpora el explorador de experiencias y virtudes dentro de Mi Camino.
+- Las relaciones por virtud utilizan las mismas virtudes canónicas de las fichas y las cruzan con los campos de virtud y tema de los días de las novenas.
+- Los resultados del explorador se presentan como descubrimiento, no como ranking.
+- Se implementa una muestra variable de resultados para evitar mostrar siempre los mismos contenidos cuando existen más relaciones disponibles.
+- El catálogo de Santos, Beatos, María y Devociones utiliza una secuencia variable al entrar en cada sección para favorecer el descubrimiento.
+- Se reorganiza la navegación de categorías del catálogo para pantallas móviles.
+- Se simplifica la jerarquía tipográfica del catálogo y se elimina decoración que no aporta información.
+- Se mejora la adaptación responsive de Mi Camino para pantallas de menor tamaño.
+- Se mejora el contraste de Mi Camino en modo oscuro.
+- Se valida la aplicación en un segundo dispositivo Android físico con una pantalla diferente.
+- Versión de aplicación: 1.5.0.
+- Service Worker: v315.
+
 ## [1.4.1] — Endurecimiento, navegación y pruebas
 
 - Se endurecen componentes compartidos de renderizado para escapar datos textuales antes de insertarlos en HTML.
