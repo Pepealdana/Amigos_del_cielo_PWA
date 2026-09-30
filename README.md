@@ -100,7 +100,9 @@ Amigos_del_cielo_PWA/
 │   ├── 03-components.css
 │   ├── 04-utilities.css
 │   ├── 05-themes.css
-│   └── 06-pwa.css
+│   ├── 06-pwa.css
+│   ├── 07-design-system-v15.css
+│   └── 08-visual-v15.css
 │
 ├── data/
 │   ├── catalog/
@@ -390,9 +392,9 @@ La navegación interna mantiene el contexto en la URL y permite utilizar Atrás/
 
 ## Estado del proyecto
 
-**Versión de aplicación:** 1.4.1
+**Versión de aplicación:** 1.5.0
 
-**Estado:** V1.4.1 en estabilización y endurecimiento
+**Estado:** V1.5.0 — experiencia de descubrimiento, Mi Camino y adaptación móvil
 
 **Catálogo:** 112 registros publicados
 
