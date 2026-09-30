@@ -699,3 +699,31 @@ body.dark .camino-profile-virtue-action:hover{
     line-height:1.2;
     box-sizing:border-box;
 }
+
+
+/* FIX DEFINITIVO — chips de virtudes dentro del modal.
+   .modal-content button aplica reglas globales que no corresponden a estos chips. */
+.modal-content .camino-profile-virtue-action{
+    display:inline-flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    align-self:flex-start !important;
+    width:auto !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    height:34px !important;
+    min-height:34px !important;
+    max-height:34px !important;
+    margin:0 !important;
+    padding:.4rem .65rem !important;
+    box-sizing:border-box !important;
+    border:1px solid var(--border-subtle) !important;
+    border-radius:999px !important;
+    background:var(--color-surface) !important;
+    color:var(--color-text) !important;
+    font:inherit !important;
+    font-size:.8rem !important;
+    font-weight:700 !important;
+    line-height:1.2 !important;
+    box-shadow:none !important;
+}
