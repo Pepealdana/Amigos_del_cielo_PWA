@@ -45,24 +45,32 @@ function renderCamino(
     const resolverCompletados = (lista = []) => (Array.isArray(lista) ? lista : [])
         .map(item => ({
             item,
-            progreso: state.progreso?.[item?.id]
+            progreso: state.progreso?.[item?.id],
+            historial: typeof obtenerHistorialCompletaciones === "function"
+                ? obtenerHistorialCompletaciones(item?.id)
+                : []
         }))
-        .filter(({ item, progreso }) => item?.id && progreso?.completada === true);
+        .filter(({ item, historial }) => item?.id && historial.length > 0);
+
+    const obtenerFechaUltimaCompletacion = registro =>
+        registro?.historial?.length
+            ? registro.historial[registro.historial.length - 1]?.fechaFinalizacion
+            : registro?.progreso?.fechaFinalizacion || registro?.progreso?.fecha || 0;
+
+    const ordenarPorUltimaCompletacion = (a, b) =>
+        new Date(obtenerFechaUltimaCompletacion(b)).getTime() -
+        new Date(obtenerFechaUltimaCompletacion(a)).getTime();
 
     const amigosDelCielo = [
         ...resolverCompletados(catalogos.santos),
         ...resolverCompletados(catalogos.beatos)
-    ].sort((a, b) => {
-        const fechaA = new Date(a.progreso?.fechaFinalizacion || a.progreso?.fecha || 0).getTime();
-        const fechaB = new Date(b.progreso?.fechaFinalizacion || b.progreso?.fecha || 0).getTime();
-        return fechaB - fechaA;
-    });
+    ].sort(ordenarPorUltimaCompletacion);
 
     const jardinDeMaria = resolverCompletados(catalogos.maria)
-        .sort((a, b) => new Date(b.progreso?.fechaFinalizacion || b.progreso?.fecha || 0).getTime() - new Date(a.progreso?.fechaFinalizacion || a.progreso?.fecha || 0).getTime());
+        .sort(ordenarPorUltimaCompletacion);
 
     const misDevociones = resolverCompletados(catalogos.devociones)
-        .sort((a, b) => new Date(b.progreso?.fechaFinalizacion || b.progreso?.fecha || 0).getTime() - new Date(a.progreso?.fechaFinalizacion || a.progreso?.fecha || 0).getTime());
+        .sort(ordenarPorUltimaCompletacion);
 
     const renderCaminoCollection = (items, tipo, titulo, descripcion) => {
         const coleccion = Array.isArray(items) ? items : [];
@@ -78,7 +86,7 @@ function renderCamino(
                     <span class="camino-collection-count" aria-label="${coleccion.length} elementos">${coleccion.length}</span>
                 </div>
                 <div class="camino-collection-row" role="list">
-                    ${coleccion.map(({ item }) => `
+                    ${coleccion.map(({ item, progreso, historial }) => `
                         <button class="camino-friend-card" type="button" role="listitem"
                             data-action="open-camino-profile" data-id="${escaparHTML(item.id)}"
                             aria-label="Conocer a ${escaparHTML(item.name)}">
@@ -88,6 +96,7 @@ function renderCamino(
                                     : `<span class="camino-friend-placeholder" aria-hidden="true">✦</span>`}
                             </span>
                             <span class="camino-friend-name">${escaparHTML(item.name)}</span>
+                            <span class="camino-friend-meta">${historial.length > 1 ? historial.length + " novenas" : (progreso?.completada === false ? "En curso" : "1 novena")}</span>
                         </button>
                     `).join("")}
                 </div>
@@ -109,8 +118,8 @@ function renderCamino(
                 <div>
                     <h3 id="camino-circle-empty-title">Tu círculo aún está vacío</h3>
                     <p>
-                        Cuando completes tu primera novena de un santo o beato,
-                        aparecerá aquí como parte de tu camino.
+                        Cuando completes una novena de un santo o beato,
+                        aparecerá aquí como parte de tu camino y permanecerá aunque vuelvas a rezarla.
                     </p>
                     <button class="btn btn-outline" type="button" data-route="santos">
                         Conocer santos
