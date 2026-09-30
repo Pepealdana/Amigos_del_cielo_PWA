@@ -1252,6 +1252,33 @@ function sortearAmigoDelCieloAnual() {
 }
 
 
+function obtenerIdVirtudExplorable(virtud) {
+    const texto = typeof normalizarBibliotecaTexto === "function"
+        ? normalizarBibliotecaTexto(virtud)
+        : String(virtud || "").trim().toLowerCase();
+
+    if (!texto || !Array.isArray(typeof BIBLIOTECA_VIRTUDES !== "undefined" ? BIBLIOTECA_VIRTUDES : [])) {
+        return null;
+    }
+
+    const definicion = BIBLIOTECA_VIRTUDES.find(item => {
+        const terminos = [
+            item?.label,
+            ...(Array.isArray(item?.keywords) ? item.keywords : [])
+        ]
+            .filter(Boolean)
+            .map(valor =>
+                typeof normalizarBibliotecaTexto === "function"
+                    ? normalizarBibliotecaTexto(valor)
+                    : String(valor).trim().toLowerCase()
+            );
+
+        return terminos.includes(texto);
+    });
+
+    return definicion?.id || null;
+}
+
 async function mostrarPerfilCamino(id) {
     const catalogos = [
         ...(state.catalogosV2?.santos || []),
@@ -1312,9 +1339,24 @@ async function mostrarPerfilCamino(id) {
                 <h3 id="camino-profile-virtues-title">Virtudes que acompañan este camino</h3>
                 <p>Aspectos de la vida y espiritualidad que esta novena invita a contemplar.</p>
                 <div class="camino-profile-virtue-list">
-                    ${virtudes.map(virtud => `
-                        <span class="camino-profile-virtue">${escaparHTML(virtud)}</span>
-                    `).join("")}
+                    ${virtudes.map(virtud => {
+                        const virtudId = obtenerIdVirtudExplorable(virtud);
+
+                        return virtudId
+                            ? `
+                                <button
+                                    class="camino-profile-virtue camino-profile-virtue-action"
+                                    type="button"
+                                    data-action="explore-camino-virtue"
+                                    data-id="${escaparHTML(virtudId)}"
+                                    aria-label="Explorar testimonios sobre ${escaparHTML(virtud)}">
+                                    ${escaparHTML(virtud)}
+                                </button>
+                            `
+                            : `
+                                <span class="camino-profile-virtue">${escaparHTML(virtud)}</span>
+                            `;
+                    }).join("")}
                 </div>
             </section>
         `
@@ -1710,6 +1752,12 @@ function manejarClicksPWA(evento) {
         if (tipo === "open-novena" && id) {
             cerrarModal();
             abrirNovena(id);
+            return;
+        }
+
+        if (tipo === "explore-camino-virtue" && id) {
+            seleccionarExploradorBiblioteca("virtud", id);
+            cerrarModal();
             return;
         }
 
