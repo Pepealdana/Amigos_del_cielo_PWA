@@ -56,13 +56,18 @@ function normalizarRegistroProgreso(novenaId) {
             diasVisitados: [],
             completada: false,
             fecha: null,
-            fechaFinalizacion: null
+            fechaInicio: null,
+            fechaFinalizacion: null,
+            historialCompletaciones: []
         };
     }
 
     return {
         ...anterior,
-        diasVisitados: obtenerDiasRezado(novenaId)
+        diasVisitados: obtenerDiasRezado(novenaId),
+        historialCompletaciones: Array.isArray(anterior.historialCompletaciones)
+            ? anterior.historialCompletaciones
+            : []
     };
 }
 
@@ -103,12 +108,15 @@ function marcarDiaRezado(novenaId, dia) {
 
     const completada = diasVisitados.length >= totalDias;
 
+    const ahora = new Date().toISOString();
+
     const registro = {
         ...anterior,
         dia: numeroDia,
         diasVisitados,
         completada,
-        fecha: new Date().toISOString(),
+        fecha: ahora,
+        fechaInicio: anterior.fechaInicio || ahora,
         fechaFinalizacion: completada
             ? (anterior.fechaFinalizacion || new Date().toISOString())
             : null
@@ -182,15 +190,68 @@ function obtenerNovenasEnCurso(catalogo = state.catalogo) {
     });
 }
 
+function obtenerHistorialCompletaciones(novenaId) {
+    const progreso = state.progreso?.[novenaId];
+
+    if (!progreso || typeof progreso !== "object") {
+        return [];
+    }
+
+    return Array.isArray(progreso.historialCompletaciones)
+        ? progreso.historialCompletaciones.filter(item =>
+            item &&
+            typeof item === "object" &&
+            item.fechaFinalizacion
+        )
+        : [];
+}
+
+function obtenerUltimaCompletacion(novenaId) {
+    const historial = obtenerHistorialCompletaciones(novenaId);
+
+    return historial.length
+        ? historial[historial.length - 1]
+        : null;
+}
+
+function obtenerVecesCompletada(novenaId) {
+    return obtenerHistorialCompletaciones(novenaId).length;
+}
+
+function tieneCaminoRecorrido(novenaId) {
+    return obtenerVecesCompletada(novenaId) > 0;
+}
+
+function registrarCompletacion(novenaId, fechaFinalizacion = new Date().toISOString()) {
+    if (!novenaId) {
+        return false;
+    }
+
+    const anterior = normalizarRegistroProgreso(novenaId);
+    const historial = [...obtenerHistorialCompletaciones(novenaId)];
+    const ultima = historial[historial.length - 1];
+
+    if (ultima?.fechaFinalizacion === fechaFinalizacion) {
+        return true;
+    }
+
+    historial.push({
+        fechaInicio: anterior.fechaInicio || fechaFinalizacion,
+        fechaFinalizacion
+    });
+
+    return guardarRegistroProgreso(novenaId, {
+        ...anterior,
+        historialCompletaciones: historial
+    });
+}
+
 function obtenerNovenasTerminadas(catalogo = state.catalogo) {
     if (!Array.isArray(catalogo)) {
         return [];
     }
 
-    return catalogo.filter(item => {
-        const progreso = state.progreso?.[item?.id];
-        return Boolean(item?.id && progreso?.completada);
-    });
+    return catalogo.filter(item => tieneCaminoRecorrido(item?.id));
 }
 
 function reiniciarNovena(novenaId) {
@@ -198,11 +259,16 @@ function reiniciarNovena(novenaId) {
         return false;
     }
 
+    const ahora = new Date().toISOString();
+    const anterior = normalizarRegistroProgreso(novenaId);
+
     return guardarRegistroProgreso(novenaId, {
+        ...anterior,
         dia: 0,
         diasVisitados: [],
         completada: false,
-        fecha: new Date().toISOString(),
+        fecha: ahora,
+        fechaInicio: ahora,
         fechaFinalizacion: null
     });
 }
@@ -223,13 +289,20 @@ function finalizarNovena(novenaId) {
     }
 
     const anterior = normalizarRegistroProgreso(novenaId);
+    const fechaFinalizacion = anterior.fechaFinalizacion || new Date().toISOString();
 
-    return guardarRegistroProgreso(novenaId, {
+    const guardado = guardarRegistroProgreso(novenaId, {
         ...anterior,
         dia: progreso.totalDias,
         diasVisitados: progreso.diasRezado,
         completada: true,
-        fecha: new Date().toISOString(),
-        fechaFinalizacion: anterior.fechaFinalizacion || new Date().toISOString()
+        fecha: fechaFinalizacion,
+        fechaFinalizacion
     });
+
+    if (!guardado) {
+        return false;
+    }
+
+    return registrarCompletacion(novenaId, fechaFinalizacion);
 }
