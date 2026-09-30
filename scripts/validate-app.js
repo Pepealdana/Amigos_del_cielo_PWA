@@ -285,7 +285,7 @@ function checkInteractiveActions() {
     "continue-novena", "next-day", "previous-day", "favorite-novena",
     "share-novena", "start-novena", "finish-novena", "restart-novena",
     "toggle-extended-history", "text-size", "theme", "retry-app",
-    "go-library", "library-explorer-mode", "library-explorer-select",
+    "go-library", "go-camino", "library-explorer-mode", "library-explorer-select",
     "library-explorer-reset", "go-novena", "share-app", "region"
   ]);
 
