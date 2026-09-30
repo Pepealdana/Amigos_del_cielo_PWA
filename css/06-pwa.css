@@ -3693,3 +3693,47 @@ body.dark .library-discover-start{
         grid-template-columns:1fr;
     }
 }
+
+
+/* Mi camino — contraste final en modo oscuro */
+body.dark .camino-summary > .camino-summary-card .btn,
+body.dark .camino-explorer .library-discover-mode,
+body.dark .camino-explorer .library-related-button{
+    color:#C7E4F7;
+    border-color:#82B9DE;
+    background:rgba(127,178,214,.10);
+}
+
+body.dark .camino-summary > .camino-summary-card .btn:hover,
+body.dark .camino-explorer .library-discover-mode:hover,
+body.dark .camino-explorer .library-related-button:hover{
+    color:#F3F4F6;
+    border-color:#A5C9E5;
+    background:rgba(127,178,214,.20);
+}
+
+body.dark .camino-summary > .camino-summary-progress .camino-summary-progress-counts span{
+    background:#29384A !important;
+}
+
+body.dark .camino-summary > .camino-summary-progress .camino-summary-progress-counts strong{
+    color:#9ED0EE !important;
+}
+
+body.dark .camino-summary > .camino-summary-progress .camino-summary-progress-counts small{
+    color:#F1F5F9 !important;
+}
+
+body.dark .camino-explorer .library-discover-hint,
+body.dark .camino-explorer .library-discover-loading,
+body.dark .camino-explorer .library-discover-empty{
+    color:#E5E7EB;
+    background:rgba(127,178,214,.07);
+    border-color:rgba(165,201,229,.28);
+}
+
+body.dark .camino-explorer .library-discover-hint p,
+body.dark .camino-explorer .library-discover-loading p,
+body.dark .camino-explorer .library-discover-empty p{
+    color:#DDE7EF;
+}
