@@ -96,9 +96,7 @@ function renderCamino(
                                     : `<span class="camino-friend-placeholder" aria-hidden="true">✦</span>`}
                             </span>
                             <span class="camino-friend-name">${escaparHTML(item.name)}</span>
-                            <span class="camino-friend-meta">${historial.length > 1
-                                ? historial.length + " novenas" + (progreso?.completada === false ? " · En curso" : "")
-                                : (progreso?.completada === false ? "En curso" : "1 novena")}</span>
+                            <span class="camino-friend-meta">${historial.length > 1 ? historial.length + " novenas" : (progreso?.completada === false ? "En curso" : "1 novena")}</span>
                         </button>
                     `).join("")}
                 </div>
