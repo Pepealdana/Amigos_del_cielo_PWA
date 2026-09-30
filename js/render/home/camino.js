@@ -80,7 +80,7 @@ function renderCamino(
                 <div class="camino-collection-row" role="list">
                     ${coleccion.map(({ item }) => `
                         <button class="camino-friend-card" type="button" role="listitem"
-                            data-action="open-profile" data-id="${escaparHTML(item.id)}"
+                            data-action="open-camino-profile" data-id="${escaparHTML(item.id)}"
                             aria-label="Conocer a ${escaparHTML(item.name)}">
                             <span class="camino-friend-portrait">
                                 ${item.image
