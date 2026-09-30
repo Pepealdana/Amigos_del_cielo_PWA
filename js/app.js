@@ -1252,7 +1252,7 @@ function sortearAmigoDelCieloAnual() {
 }
 
 
-function mostrarPerfilCamino(id) {
+async function mostrarPerfilCamino(id) {
     const catalogos = [
         ...(state.catalogosV2?.santos || []),
         ...(state.catalogosV2?.beatos || []),
@@ -1271,6 +1271,27 @@ function mostrarPerfilCamino(id) {
     const esPersona = categoria === "santos" || categoria === "beatos";
     const esMaria = categoria === "maria";
 
+    let contenidoNovena = null;
+
+    /*
+     * Las virtudes viven en el contenido de la novena, no en el
+     * catálogo maestro. Las cargamos solo al entrar en esta vista
+     * para mantener una única fuente de verdad.
+     */
+    if (item.sourceFile) {
+        try {
+            contenidoNovena = await cargarJSONConRecuperacion(
+                "./" + item.sourceFile.replace(/^\.\//, "")
+            );
+        } catch (error) {
+            console.warn("No fue posible cargar las virtudes de Mi Camino:", error);
+        }
+    }
+
+    const virtudes = Array.isArray(contenidoNovena?.virtues)
+        ? contenidoNovena.virtues.filter(Boolean).slice(0, 5)
+        : [];
+
     const frase = esPersona
         ? "Has caminado junto a " + item.name + "."
         : esMaria
@@ -1285,6 +1306,20 @@ function mostrarPerfilCamino(id) {
         : "";
 
     const imagen = item.image || "";
+    const virtudesHTML = virtudes.length
+        ? `
+            <section class="camino-profile-virtues" aria-labelledby="camino-profile-virtues-title">
+                <h3 id="camino-profile-virtues-title">Virtudes que acompañan este camino</h3>
+                <p>Aspectos de la vida y espiritualidad que esta novena invita a contemplar.</p>
+                <div class="camino-profile-virtue-list">
+                    ${virtudes.map(virtud => `
+                        <span class="camino-profile-virtue">${escaparHTML(virtud)}</span>
+                    `).join("")}
+                </div>
+            </section>
+        `
+        : "";
+
     const contenido =
         (imagen
             ? '<div class="camino-profile-media"><img src="' +
@@ -1301,6 +1336,7 @@ function mostrarPerfilCamino(id) {
                 ? '<p>Finalizada el ' + escaparHTML(fecha) + '</p>'
                 : '') +
         '</div>' +
+        virtudesHTML +
         '<p class="modal-note">' +
             (esPersona
                 ? 'Puedes volver a rezar su novena o continuar conociendo su historia.'
@@ -1317,29 +1353,6 @@ function mostrarPerfilCamino(id) {
         escaparHTML(item.name),
         contenido
     );
-}
-
-async function abrirHistoriaDesdeCamino(id) {
-    if (!id) return;
-
-    cerrarModal();
-
-    try {
-        await cargarNovena(id);
-
-        if (!state.novenaActual) {
-            return;
-        }
-
-        mostrarHistoria();
-    } catch (error) {
-        console.error("No fue posible abrir la historia desde Mi Camino:", error);
-        mostrarError(
-            obtenerMensajeErrorNovena(error),
-            obtenerTituloErrorNovena(error),
-            "biblioteca"
-        );
-    }
 }
 
 function mostrarPerfilAmigoDelCielo(id) {
