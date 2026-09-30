@@ -520,3 +520,88 @@ body.dark .camino-collection-count{color:#A9D9F5;border-color:#82B9DE;background
         transition:none;
     }
 }
+
+
+/* ==========================================
+   MI CAMINO — FICHA PERSONAL
+========================================== */
+
+.camino-profile-media{
+    width:min(100%,360px);
+    margin:0 auto 1rem;
+    overflow:hidden;
+    border-radius:16px;
+    border:1px solid rgba(202,164,93,.45);
+    box-shadow:var(--elevation-card);
+}
+
+.camino-profile-image{
+    display:block;
+    width:100%;
+    aspect-ratio:4/5;
+    object-fit:cover;
+}
+
+.camino-profile-kicker{
+    margin:.25rem 0 .35rem;
+    color:var(--color-text-light);
+    font-size:.74rem;
+    font-weight:800;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+.camino-profile-message{
+    margin:0 auto 1rem;
+    max-width:32rem;
+    color:var(--color-primary);
+    font-size:1.1rem;
+    font-weight:750;
+    line-height:1.45;
+    text-align:center;
+}
+
+.camino-profile-meta{
+    margin:1rem 0;
+    padding:.9rem 0;
+    border-top:1px solid var(--border-subtle);
+    border-bottom:1px solid var(--border-subtle);
+}
+
+.camino-profile-meta p{
+    margin:.2rem 0;
+    color:var(--color-text-light);
+}
+
+.camino-profile-meta strong{
+    color:var(--color-text);
+}
+
+.camino-profile-actions{
+    display:grid;
+    gap:.65rem;
+    margin-top:1rem;
+}
+
+.camino-profile-actions .btn{
+    width:100%;
+}
+
+@media(max-width:640px){
+    .camino-profile-media{
+        max-width:320px;
+    }
+
+    .camino-profile-message{
+        font-size:1rem;
+    }
+}
+
+body.dark .camino-friend-card:hover{
+    background:rgba(127,178,214,.08);
+}
+
+body.dark .camino-profile-media{
+    border-color:rgba(202,164,93,.55);
+}
