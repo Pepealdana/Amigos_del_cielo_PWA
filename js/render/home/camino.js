@@ -64,41 +64,60 @@ function renderCamino(
     const misDevociones = resolverCompletados(catalogos.devociones)
         .sort((a, b) => new Date(b.progreso?.fechaFinalizacion || b.progreso?.fecha || 0).getTime() - new Date(a.progreso?.fechaFinalizacion || a.progreso?.fecha || 0).getTime());
 
-    const renderCaminoCollection = (items, tipo, titulo, descripcion, emptyText) => {
-        const coleccion = items || [];
+    const renderCaminoCollection = (items, tipo, titulo, descripcion) => {
+        const coleccion = Array.isArray(items) ? items : [];
+        if (!coleccion.length) return "";
+
         return `
             <section class="camino-collection camino-collection-${tipo}" aria-labelledby="camino-collection-${tipo}">
                 <div class="camino-collection-heading">
                     <div>
-                        <p class="section-kicker">Tu camino</p>
                         <h3 id="camino-collection-${tipo}">${titulo}</h3>
                         <p>${descripcion}</p>
                     </div>
-                    <span class="camino-collection-count" aria-label="${coleccion.length} completados">${coleccion.length}</span>
+                    <span class="camino-collection-count" aria-label="${coleccion.length} elementos">${coleccion.length}</span>
                 </div>
-                ${coleccion.length ? `
-                    <div class="camino-collection-grid">
-                        ${coleccion.map(({ item, progreso }) => `
-                            <button class="camino-friend-card" type="button" data-action="open-profile" data-id="${escaparHTML(item.id)}" aria-label="Conocer a ${escaparHTML(item.name)}">
-                                ${item.image ? `
-                                    <img src="${escaparHTML(item.image)}" alt="" loading="lazy">
-                                ` : `<span class="camino-friend-placeholder" aria-hidden="true">✦</span>`}
-                                <span class="camino-friend-name">${escaparHTML(item.name)}</span>
-                                <span class="camino-friend-status">Novena completada</span>
-                                ${progreso?.fechaFinalizacion ? `<span class="camino-friend-date">${escaparHTML(new Date(progreso.fechaFinalizacion).toLocaleDateString("es-CO",{day:"numeric",month:"short",year:"numeric"}))}</span>` : ""}
-                            </button>
-                        `).join("")}
-                    </div>
-                ` : `<div class="camino-collection-empty"><strong>Aún no hay contenidos aquí.</strong><p>${emptyText}</p></div>`}
+                <div class="camino-collection-row" role="list">
+                    ${coleccion.map(({ item }) => `
+                        <button class="camino-friend-card" type="button" role="listitem"
+                            data-action="open-profile" data-id="${escaparHTML(item.id)}"
+                            aria-label="Conocer a ${escaparHTML(item.name)}">
+                            <span class="camino-friend-portrait">
+                                ${item.image
+                                    ? `<img src="${escaparHTML(item.image)}" alt="" loading="lazy">`
+                                    : `<span class="camino-friend-placeholder" aria-hidden="true">✦</span>`}
+                            </span>
+                            <span class="camino-friend-name">${escaparHTML(item.name)}</span>
+                        </button>
+                    `).join("")}
+                </div>
             </section>
         `;
     };
 
     const coleccionesHTML = [
-        renderCaminoCollection(amigosDelCielo, "amigos", "Mi círculo de amigos", "Santos y beatos con quienes ya has caminado al completar su novena.", "Cuando completes tu primera novena de un santo o beato, aparecerá aquí como parte de tu camino."),
-        renderCaminoCollection(jardinDeMaria, "maria", "Jardín de María", "Advocaciones marianas cuyas novenas ya has completado.", "Tu jardín crecerá cada vez que completes una novena mariana."),
-        renderCaminoCollection(misDevociones, "devociones", "Mis devociones", "Devociones con las que has recorrido una novena completa.", "Aquí quedarán reunidas tus devociones completadas, sin mezclarlas con las personas de tu círculo de amigos.")
+        renderCaminoCollection(amigosDelCielo, "amigos", "Mi círculo de amigos", "Santos y beatos con quienes has caminado."),
+        renderCaminoCollection(jardinDeMaria, "maria", "Jardín de María", "Advocaciones marianas que ya forman parte de tu camino."),
+        renderCaminoCollection(misDevociones, "devociones", "Mis devociones", "Devociones cuyas novenas ya has recorrido.")
     ].join("");
+
+    const estadoCirculoHTML = amigosDelCielo.length
+        ? ""
+        : `
+            <section class="camino-circle-empty" aria-labelledby="camino-circle-empty-title">
+                <div class="camino-circle-empty-symbol" aria-hidden="true">✦</div>
+                <div>
+                    <h3 id="camino-circle-empty-title">Tu círculo aún está vacío</h3>
+                    <p>
+                        Cuando completes tu primera novena de un santo o beato,
+                        aparecerá aquí como parte de tu camino.
+                    </p>
+                    <button class="btn btn-outline" type="button" data-route="catalogo">
+                        Conocer santos
+                    </button>
+                </div>
+            </section>
+        `;
 
     const anioActual = new Date().getFullYear();
 
@@ -280,10 +299,6 @@ function renderCamino(
 
             ${historialHTML}
 
-            <section class="camino-collections" aria-label="Tu camino con los contenidos completados">
-                ${coleccionesHTML}
-            </section>
-
             <section class="camino-summary" style="display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important;width:100% !important;max-width:760px !important;margin:1.5rem auto 2rem !important;">
 
                 <article class="camino-summary-card camino-summary-favorites" style="min-width:0 !important;height:225px !important;padding:12px !important;box-sizing:border-box !important;">
@@ -339,6 +354,10 @@ function renderCamino(
                 </article>
 
             </section>
+
+            ${estadoCirculoHTML}
+
+            ${coleccionesHTML}
 
             <section class="camino-explorer library-discover" aria-labelledby="camino-explorer-title">
 
