@@ -3,7 +3,7 @@
 ## Estado actual
 
 - Versión de aplicación: **1.5.0**
-- Service Worker: **v315**
+- Service Worker: **v316**
 - Tipo: Progressive Web App (PWA)
 - Plataforma: GitHub Pages
 - Idioma principal: español
