@@ -40,6 +40,66 @@ function renderCamino(
         ([, datos]) => datos?.completada === true
     ).length;
 
+    const catalogos = state.catalogosV2 || {};
+
+    const resolverCompletados = (lista = []) => (Array.isArray(lista) ? lista : [])
+        .map(item => ({
+            item,
+            progreso: state.progreso?.[item?.id]
+        }))
+        .filter(({ item, progreso }) => item?.id && progreso?.completada === true);
+
+    const amigosDelCielo = [
+        ...resolverCompletados(catalogos.santos),
+        ...resolverCompletados(catalogos.beatos)
+    ].sort((a, b) => {
+        const fechaA = new Date(a.progreso?.fechaFinalizacion || a.progreso?.fecha || 0).getTime();
+        const fechaB = new Date(b.progreso?.fechaFinalizacion || b.progreso?.fecha || 0).getTime();
+        return fechaB - fechaA;
+    });
+
+    const jardinDeMaria = resolverCompletados(catalogos.maria)
+        .sort((a, b) => new Date(b.progreso?.fechaFinalizacion || b.progreso?.fecha || 0).getTime() - new Date(a.progreso?.fechaFinalizacion || a.progreso?.fecha || 0).getTime());
+
+    const misDevociones = resolverCompletados(catalogos.devociones)
+        .sort((a, b) => new Date(b.progreso?.fechaFinalizacion || b.progreso?.fecha || 0).getTime() - new Date(a.progreso?.fechaFinalizacion || a.progreso?.fecha || 0).getTime());
+
+    const renderCaminoCollection = (items, tipo, titulo, descripcion, emptyText) => {
+        const coleccion = items || [];
+        return `
+            <section class="camino-collection camino-collection-${tipo}" aria-labelledby="camino-collection-${tipo}">
+                <div class="camino-collection-heading">
+                    <div>
+                        <p class="section-kicker">Tu camino</p>
+                        <h3 id="camino-collection-${tipo}">${titulo}</h3>
+                        <p>${descripcion}</p>
+                    </div>
+                    <span class="camino-collection-count" aria-label="${coleccion.length} completados">${coleccion.length}</span>
+                </div>
+                ${coleccion.length ? `
+                    <div class="camino-collection-grid">
+                        ${coleccion.map(({ item, progreso }) => `
+                            <button class="camino-friend-card" type="button" data-action="open-profile" data-id="${escaparHTML(item.id)}" aria-label="Conocer a ${escaparHTML(item.name)}">
+                                ${item.image ? `
+                                    <img src="${escaparHTML(item.image)}" alt="" loading="lazy">
+                                ` : `<span class="camino-friend-placeholder" aria-hidden="true">✦</span>`}
+                                <span class="camino-friend-name">${escaparHTML(item.name)}</span>
+                                <span class="camino-friend-status">Novena completada</span>
+                                ${progreso?.fechaFinalizacion ? `<span class="camino-friend-date">${escaparHTML(new Date(progreso.fechaFinalizacion).toLocaleDateString("es-CO",{day:"numeric",month:"short",year:"numeric"}))}</span>` : ""}
+                            </button>
+                        `).join("")}
+                    </div>
+                ` : `<div class="camino-collection-empty"><strong>Aún no hay contenidos aquí.</strong><p>${emptyText}</p></div>`}
+            </section>
+        `;
+    };
+
+    const coleccionesHTML = [
+        renderCaminoCollection(amigosDelCielo, "amigos", "Mi círculo de amigos", "Santos y beatos con quienes ya has caminado al completar su novena.", "Cuando completes tu primera novena de un santo o beato, aparecerá aquí como parte de tu camino."),
+        renderCaminoCollection(jardinDeMaria, "maria", "Jardín de María", "Advocaciones marianas cuyas novenas ya has completado.", "Tu jardín crecerá cada vez que completes una novena mariana."),
+        renderCaminoCollection(misDevociones, "devociones", "Mis devociones", "Devociones con las que has recorrido una novena completa.", "Aquí quedarán reunidas tus devociones completadas, sin mezclarlas con las personas de tu círculo de amigos.")
+    ].join("");
+
     const anioActual = new Date().getFullYear();
 
     const historialPatronos = Object.entries(patronoAnual || {})
@@ -219,6 +279,10 @@ function renderCamino(
             </section>
 
             ${historialHTML}
+
+            <section class="camino-collections" aria-label="Tu camino con los contenidos completados">
+                ${coleccionesHTML}
+            </section>
 
             <section class="camino-summary" style="display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important;width:100% !important;max-width:760px !important;margin:1.5rem auto 2rem !important;">
 
