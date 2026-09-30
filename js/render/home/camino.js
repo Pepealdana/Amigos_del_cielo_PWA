@@ -112,7 +112,7 @@ function renderCamino(
                         Cuando completes tu primera novena de un santo o beato,
                         aparecerá aquí como parte de tu camino.
                     </p>
-                    <button class="btn btn-outline" type="button" data-route="catalogo">
+                    <button class="btn btn-outline" type="button" data-route="santos">
                         Conocer santos
                     </button>
                 </div>
