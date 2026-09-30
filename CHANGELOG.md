@@ -12,7 +12,7 @@
 - Se mejora el contraste de Mi Camino en modo oscuro.
 - Se valida la aplicación en un segundo dispositivo Android físico con una pantalla diferente.
 - Versión de aplicación: 1.5.0.
-- Service Worker: v315.
+- Service Worker: v316.
 
 ## [1.4.1] — Endurecimiento, navegación y pruebas
 
