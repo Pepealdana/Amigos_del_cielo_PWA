@@ -222,7 +222,7 @@ function renderCamino(
 
             <section class="camino-summary" style="display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important;width:100% !important;max-width:760px !important;margin:1.5rem auto 2rem !important;">
 
-                <article class="camino-summary-card camino-summary-favorites" style="min-width:0 !important;height:250px !important;padding:12px !important;box-sizing:border-box !important;">
+                <article class="camino-summary-card camino-summary-favorites" style="min-width:0 !important;height:225px !important;padding:12px !important;box-sizing:border-box !important;">
                     <div class="camino-summary-heading">
                         <span class="camino-summary-icon" aria-hidden="true">
                             <svg style="width:22px;height:22px;display:block;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -244,7 +244,7 @@ function renderCamino(
                     </button>
                 </article>
 
-                <article class="camino-summary-card camino-summary-progress" style="min-width:0 !important;height:250px !important;padding:12px !important;box-sizing:border-box !important;">
+                <article class="camino-summary-card camino-summary-progress" style="min-width:0 !important;height:225px !important;padding:12px !important;box-sizing:border-box !important;">
                     <div class="camino-summary-heading">
                         <span class="camino-summary-icon" aria-hidden="true">
                             <svg style="width:22px !important;height:22px !important;display:block !important;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
