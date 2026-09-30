@@ -87,7 +87,7 @@ function renderAgradecimiento(
             <p>
 
                 Que el ejemplo de
-                <strong>${novena.name}</strong>
+                <strong>${escaparHTML(novena.name || "")}</strong>
                 fortalezca tu fe, tu esperanza
                 y tu caridad cada día.
 
