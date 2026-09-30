@@ -1015,6 +1015,25 @@ function marcarDiaActualComoRezado() {
     }
 
     if (resultado.completada) {
+        /*
+         * La finalización real ocurre al marcar el último día.
+         * Registramos aquí la completación histórica para que
+         * Mi Camino reconozca inmediatamente esta novena como
+         * parte del recorrido del usuario.
+         *
+         * finalizarNovena() mantiene una segunda capa de seguridad
+         * y evita duplicados si se invoca posteriormente.
+         */
+        if (typeof registrarCompletacion === "function") {
+            const fechaFinalizacion =
+                state.progreso?.[state.novenaActual.id]?.fechaFinalizacion;
+
+            registrarCompletacion(
+                state.novenaActual.id,
+                fechaFinalizacion || new Date().toISOString()
+            );
+        }
+
         actualizarTituloPagina("Novena completada");
         renderizar(
             renderAgradecimiento(
