@@ -365,8 +365,9 @@ La primera etapa será deliberadamente sencilla:
 
 Una segunda capa podrá desarrollar colecciones personales:
 
-- **Mis amigos del cielo:** espacio donde aparecen santos, beatos y devociones con los que el usuario ha completado una novena.
+- **Mis amigos del cielo:** espacio donde aparecen santos y beatos con los que el usuario ha completado una novena.
 - **Jardín de María:** espacio específico para las advocaciones marianas cuyas novenas haya completado el usuario.
+- **Mis devociones:** espacio separado para las devociones cuyas novenas haya completado el usuario.
 
 Estos espacios deben representar un camino personal de descubrimiento y amistad espiritual, no una puntuación de mérito religioso.
 
