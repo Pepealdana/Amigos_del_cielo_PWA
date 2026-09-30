@@ -1279,7 +1279,7 @@ function obtenerIdVirtudExplorable(virtud) {
     return definicion?.id || null;
 }
 
-async function mostrarPerfilCamino(id) {
+async async function mostrarPerfilCamino(id) {
     const catalogos = [
         ...(state.catalogosV2?.santos || []),
         ...(state.catalogosV2?.beatos || []),
