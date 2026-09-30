@@ -361,7 +361,8 @@ function renderCamino(
 
             <section class="camino-explorer library-discover" aria-labelledby="camino-explorer-title">
 
-                <div class="camino-explorer-hero">
+                <div class="camino-explorer-inner">
+                    <div class="camino-explorer-hero">
                     <div class="camino-explorer-hero-icon" aria-hidden="true">✦</div>
                     <div>
                         <p class="library-kicker">Conoce un camino</p>
@@ -401,7 +402,8 @@ function renderCamino(
                     </button>
                 </div>
 
-                ${renderExploradorBiblioteca()}
+                    ${renderExploradorBiblioteca()}
+                </div>
 
             </section>
 
