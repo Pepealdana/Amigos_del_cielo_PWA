@@ -12,7 +12,9 @@
 - Se mejora el contraste de Mi Camino en modo oscuro.
 - Se valida la aplicación en un segundo dispositivo Android físico con una pantalla diferente.
 - Versión de aplicación: 1.5.0.
-- Service Worker: v316.
+- Se conserva el vínculo de Mi Camino después de volver a rezar una novena y se registra correctamente cada nueva completación al marcar el último día.
+- Se endurece el renderizado de la pantalla de finalización de novena.
+- Service Worker: v333.
 
 ## [1.4.1] — Endurecimiento, navegación y pruebas
 
