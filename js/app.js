@@ -1629,6 +1629,12 @@ function mostrarError(
         );
     }
 
+    if (accion === "camino") {
+        botones.push(
+            '<button class="btn btn-primary" type="button" data-action="go-camino">Volver a Mi Camino</button>'
+        );
+    }
+
     const acciones =
         botones.length
             ? '<div class="empty-state-actions">' +
@@ -1945,6 +1951,11 @@ function manejarClicksPWA(evento) {
             return;
         }
 
+
+        if (tipo === "go-camino") {
+            navegar("camino");
+            return;
+        }
 
         if (tipo === "go-novena" && state.novenaActual) {
             mostrarPortadaNovena();
