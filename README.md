@@ -79,6 +79,20 @@ No requiere un servidor backend propio ni una base de datos remota para las func
 
 Se mantiene deliberadamente una arquitectura sencilla para reducir dependencias, facilitar el mantenimiento y permitir que la aplicación sea desplegada como sitio estático.
 
+### Dirección tecnológica a medio plazo: PWA + TWA
+
+La PWA seguirá siendo la aplicación principal y la fuente de verdad del proyecto. A medio plazo se contempla añadir una **Trusted Web Activity (TWA)** para distribuir Amigos del Cielo en Google Play.
+
+Esta transición debe realizarse sobre el mismo proyecto:
+
+- un solo repositorio;
+- una sola base de código para la aplicación;
+- sin duplicar la lógica de negocio;
+- GitHub Pages/web como canal PWA;
+- Google Play como canal adicional mediante la capa TWA.
+
+Todas las decisiones estructurales futuras deben preservar esta posibilidad. La preparación de TWA no forma parte de la implementación inmediata de V1.5.
+
 ## Estructura del repositorio
 
 ```text
@@ -337,24 +351,44 @@ Cuando una información, cita o dato requiere respaldo documental, debe procurar
 
 El proyecto contempla una evolución progresiva.
 
-### V1.5 — experiencia y continuidad
+### V1.6 — constancia y camino
 
-La siguiente etapa prevista se orienta a mejorar la experiencia de uso y la continuidad de la oración. El alcance podrá ajustarse a partir de la validación con usuarios reales.
+A partir de la sugerencia de usuarios jóvenes y de la necesidad de dar continuidad al uso de la aplicación, se contempla una evolución de **Mi Camino** centrada en la constancia de oración y los vínculos personales con los contenidos completados.
 
-Entre las líneas previstas se encuentran:
+La primera etapa será deliberadamente sencilla:
 
-- calendario litúrgico;
-- santo del día;
-- recordatorios;
-- búsqueda y filtros mejorados;
-- favoritos y recomendaciones por intención;
-- mejoras de Mi Camino y continuidad de oración;
-- compartir novenas y oraciones;
-- refinamientos de accesibilidad y experiencia visual.
+- racha de oración y continuidad diaria;
+- progreso personal;
+- hitos de novenas completadas;
+- reconocimientos o **méritos** relacionados con el camino, evitando convertir la oración en una competición;
+- posibilidad de recuperar el camino después de un día sin actividad, evitando una experiencia de culpa o castigo.
+
+Una segunda capa podrá desarrollar colecciones personales:
+
+- **Mis amigos del cielo:** espacio donde aparecen santos, beatos y devociones con los que el usuario ha completado una novena.
+- **Jardín de María:** espacio específico para las advocaciones marianas cuyas novenas haya completado el usuario.
+
+Estos espacios deben representar un camino personal de descubrimiento y amistad espiritual, no una puntuación de mérito religioso.
+
+La función será transversal: debe resultar útil para jóvenes sin convertir toda la aplicación en una experiencia juvenil. Quien solamente quiera rezar una novena podrá hacerlo sin depender de la gamificación.
+
+### Distribución futura: TWA / Google Play
+
+La evolución tecnológica prevista mantiene la PWA como aplicación principal y contempla posteriormente una **Trusted Web Activity (TWA)** para Android.
+
+La transición deberá:
+
+- utilizar el mismo repositorio;
+- conservar la misma base de código de la aplicación;
+- evitar duplicar lógica de negocio;
+- añadir únicamente la capa Android necesaria para distribución;
+- permitir mantener simultáneamente la PWA y la versión distribuida mediante Google Play.
+
+El detalle de esta transición se mantiene en [docs/roadmap.md](docs/roadmap.md).
+
+### Internacionalización
 
 La internacionalización y la expansión multilingüe se mantienen como una etapa posterior de mayor alcance.
-
-El documento histórico de auditoría UX puede consultarse en [docs/UX-1.4.md](docs/UX-1.4.md).
 
 ## V1.5 — experiencia de descubrimiento
 
@@ -379,6 +413,7 @@ Esta versión incorpora:
 5. **Simple:** se prioriza una arquitectura mantenible y con pocas dependencias.
 6. **Accesible:** la aplicación busca ser usable desde teléfonos, tabletas y computadores.
 7. **Progresivo:** las nuevas funciones se incorporan después de validar las existentes.
+8. **No competitivo:** los sistemas de constancia y reconocimiento acompañan el camino personal y no establecen jerarquías entre usuarios.
 
 ## Calidad y estado de publicación
 
@@ -398,7 +433,7 @@ La navegación interna mantiene el contexto en la URL y permite utilizar Atrás/
 
 **Catálogo:** 112 registros publicados
 
-**Service Worker:** caché v269
+**Service Worker:** caché v316
 
 **Tipo:** Progressive Web App
 
