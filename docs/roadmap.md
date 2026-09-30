@@ -34,7 +34,7 @@ La aplicación continuará desarrollándose como una **PWA multiplataforma**, pe
 
 **Versión actual: 1.5.0**
 
-La versión 1.5.0 cierra una etapa centrada en descubrimiento, continuidad de oración y adaptación móvil.
+La versión 1.5.0 cierra una etapa centrada en descubrimiento, continuidad de oración, adaptación móvil y el primer modelo de camino personal.
 
 ### Arquitectura
 - [x] HTML
@@ -50,6 +50,9 @@ La versión 1.5.0 cierra una etapa centrada en descubrimiento, continuidad de or
 ### Experiencia
 - [x] Inicio
 - [x] Mi Camino y amigo del cielo anual
+- [x] Círculo de amigos con santos y beatos completados
+- [x] Jardín de María con advocaciones completadas
+- [x] Colección separada de devociones completadas
 - [x] Explorador de experiencias y virtudes
 - [x] Descubrimiento variable del catálogo
 - [x] Diseño responsive para pantallas móviles
@@ -95,6 +98,9 @@ La versión 1.5.0 cierra una etapa centrada en descubrimiento, continuidad de or
 - [ ] Pruebas físicas offline en Android/iOS
 
 ### Evolución
+- [ ] Continuidad diaria y recuperación sin culpa
+- [ ] Méritos narrativos y reconocimientos personales
+- [ ] Detalle de camino por santo y virtudes aprendidas
 - [ ] Biblioteca espiritual
 - [ ] Audio
 - [ ] Lectura por voz
