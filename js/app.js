@@ -1290,7 +1290,11 @@ async function mostrarPerfilCamino(id) {
     const item = catalogos.find(entry => entry?.id === id);
     const progreso = state.progreso?.[id];
 
-    if (!item || !progreso?.completada) {
+    const historial = typeof obtenerHistorialCompletaciones === "function"
+        ? obtenerHistorialCompletaciones(id)
+        : [];
+
+    if (!item || !progreso || historial.length === 0) {
         return;
     }
 
@@ -1325,12 +1329,19 @@ async function mostrarPerfilCamino(id) {
             ? "Esta advocación mariana ya forma parte de tu camino."
             : "Esta devoción ya forma parte de tu camino.";
 
-    const fecha = progreso.fechaFinalizacion
-        ? new Date(progreso.fechaFinalizacion).toLocaleDateString(
+    const ultimaCompletacion = historial[historial.length - 1];
+    const fechaUltima = ultimaCompletacion?.fechaFinalizacion || progreso.fechaFinalizacion;
+    const fecha = fechaUltima
+        ? new Date(fechaUltima).toLocaleDateString(
             "es-CO",
             { day: "numeric", month: "long", year: "numeric" }
         )
         : "";
+
+    const vecesCompletada = historial.length;
+    const enCurso = progreso.completada !== true &&
+        typeof obtenerDiasRezado === "function" &&
+        obtenerDiasRezado(id).length > 0;
 
     const imagen = item.image || "";
     const virtudesHTML = virtudes.length
@@ -1373,9 +1384,12 @@ async function mostrarPerfilCamino(id) {
             escaparHTML(frase) +
         '</p>' +
         '<div class="camino-profile-meta">' +
-            '<p><strong>Novena completada</strong></p>' +
+            '<p><strong>' + vecesCompletada + (vecesCompletada === 1 ? ' novena completada' : ' novenas completadas') + '</strong></p>' +
             (fecha
-                ? '<p>Finalizada el ' + escaparHTML(fecha) + '</p>'
+                ? '<p>Última vez: ' + escaparHTML(fecha) + '</p>'
+                : '') +
+            (enCurso
+                ? '<p class="camino-profile-current">Actualmente estás rezando esta novena.</p>'
                 : '') +
         '</div>' +
         virtudesHTML +
