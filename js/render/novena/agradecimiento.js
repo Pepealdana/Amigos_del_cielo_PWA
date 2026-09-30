@@ -56,9 +56,9 @@ function renderAgradecimiento(
 
             <img
 
-                src="${novena.image}"
+                src="${escaparHTML(novena.image || "")}"
 
-                alt="${novena.name}"
+                alt="${escaparHTML(novena.name || "")}"
 
                 class="saint-image">
 
@@ -70,7 +70,7 @@ function renderAgradecimiento(
 
             <p class="saint-title">
 
-                ${novena.name}
+                ${escaparHTML(novena.name || "")}
 
             </p>
 
@@ -78,7 +78,7 @@ function renderAgradecimiento(
 
                 Gracias por dedicar estos
                 ${escaparHTML(String(totalDias))} días de oración junto
-                a <strong>${novena.name}</strong>.
+                a <strong>${escaparHTML(novena.name || "")}</strong>.
 
             </p>
 
@@ -109,7 +109,7 @@ function renderAgradecimiento(
                     class="btn btn-primary"
                     type="button"
                     data-action="restart-novena"
-                    data-id="${escaparHTML(novena.id)}">
+                    data-id="${escaparHTML(novena.id || "")}">
 
                     Volver a rezar
 
