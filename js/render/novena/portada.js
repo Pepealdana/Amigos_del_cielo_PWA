@@ -12,6 +12,14 @@ function renderPortadaNovena(novena) {
         Number(novena?.novena?.days) ||
         APP_CONFIG.diasNovena;
 
+    const progresoActual = state.progreso?.[novena?.id];
+    const diasRezado = Array.isArray(progresoActual?.diasVisitados)
+        ? progresoActual.diasVisitados.length
+        : 0;
+    const puedeAbandonar =
+        diasRezado > 0 &&
+        progresoActual?.completada !== true;
+
     let mensajeCalendario = "";
 
     if (estado?.estado === "en-curso") {
@@ -158,6 +166,18 @@ function renderPortadaNovena(novena) {
                         Compartir
 
                     </button>
+
+                    ${puedeAbandonar ? `
+                        <button
+                            class="btn btn-outline"
+                            type="button"
+                            data-action="abandon-novena"
+                            data-id="${escaparHTML(novena.id)}">
+
+                            Dejar de rezar
+
+                        </button>
+                    ` : ""}
 
                 </div>
 
