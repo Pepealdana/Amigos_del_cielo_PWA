@@ -1112,7 +1112,15 @@ function mostrarPerfilCatalogo(id) {
         registroNovena?.image ||
         "";
 
+    const esSanto =
+        categoria === "santos";
+
     const contenido =
+        (esSanto
+            ? '<div class="catalog-profile-swipe" data-swipe-profile="santos" data-current-id="' +
+              escaparHTML(item.id) +
+              '">'
+            : "") +
         (imagen
             ? '<div class="catalog-profile-media"><img src="' +
               escaparHTML(imagen) +
@@ -1142,6 +1150,121 @@ function mostrarPerfilCatalogo(id) {
 
     mostrarModal(
         escaparHTML(item.name),
-        contenido
+        contenido + (esSanto ? "</div>" : "")
     );
+
+    if (esSanto) {
+        inicializarSwipePerfilSantos();
+    }
+}
+
+
+
+function obtenerSecuenciaNavegacionSantos() {
+    const santos = state.catalogosV2?.santos || [];
+
+    if (
+        state.catalogoOrdenSeccion === "santos" &&
+        Array.isArray(state.catalogoOrden) &&
+        state.catalogoOrden.length
+    ) {
+        const idsSantos = new Set(
+            santos.map(item => item.id)
+        );
+
+        const orden = state.catalogoOrden.filter(
+            item => idsSantos.has(item?.id)
+        );
+
+        if (orden.length) {
+            return orden;
+        }
+    }
+
+    return santos;
+}
+
+function inicializarSwipePerfilSantos() {
+    const area = document.querySelector(
+        '.modal .catalog-profile-swipe[data-swipe-profile="santos"]'
+    );
+
+    if (!area) {
+        return;
+    }
+
+    let inicioX = 0;
+    let inicioY = 0;
+    let activo = false;
+
+    area.addEventListener("touchstart", evento => {
+        if (evento.touches.length !== 1) {
+            activo = false;
+            return;
+        }
+
+        if (
+            evento.target.closest(
+                "button, a, input, select, textarea"
+            )
+        ) {
+            activo = false;
+            return;
+        }
+
+        inicioX = evento.touches[0].clientX;
+        inicioY = evento.touches[0].clientY;
+        activo = true;
+    }, { passive: true });
+
+    area.addEventListener("touchend", evento => {
+        if (!activo || evento.changedTouches.length !== 1) {
+            activo = false;
+            return;
+        }
+
+        activo = false;
+
+        const finalX = evento.changedTouches[0].clientX;
+        const finalY = evento.changedTouches[0].clientY;
+
+        const desplazamientoX = finalX - inicioX;
+        const desplazamientoY = finalY - inicioY;
+
+        const distanciaMinima = 70;
+
+        if (
+            Math.abs(desplazamientoX) < distanciaMinima ||
+            Math.abs(desplazamientoX) <= Math.abs(desplazamientoY) * 1.2
+        ) {
+            return;
+        }
+
+        const secuencia =
+            obtenerSecuenciaNavegacionSantos();
+
+        const idActual =
+            area.dataset.currentId;
+
+        const indice =
+            secuencia.findIndex(
+                item => item?.id === idActual
+            );
+
+        if (indice < 0) {
+            return;
+        }
+
+        const siguienteIndice =
+            desplazamientoX < 0
+                ? indice + 1
+                : indice - 1;
+
+        const siguiente =
+            secuencia[siguienteIndice];
+
+        if (siguiente?.id) {
+            mostrarPerfilCatalogo(siguiente.id);
+        }
+    }, { passive: true });
 }
