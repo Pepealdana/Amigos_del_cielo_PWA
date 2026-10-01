@@ -474,6 +474,10 @@ body::before{
     font-size:.8rem;
 }
 
+.catalog-profile-modal-content{
+    touch-action:pan-y;
+}
+
 .catalog-profile-swipe{
     touch-action:pan-y;
     -webkit-user-select:none;
