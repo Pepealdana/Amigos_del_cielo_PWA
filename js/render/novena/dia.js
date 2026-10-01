@@ -172,6 +172,18 @@ function renderDia(
 
             </div>
 
+            ${obtenerDiasRezado(novena.id).length > 0 && !state.progreso?.[novena.id]?.completada ? `
+                <div class="novena-abandon-action">
+                    <button
+                        class="btn btn-outline"
+                        type="button"
+                        data-action="abandon-novena"
+                        data-id="${escaparHTML(novena.id)}">
+                        Dejar de rezar esta novena
+                    </button>
+                </div>
+            ` : ""}
+
         </section>
 
     `;
