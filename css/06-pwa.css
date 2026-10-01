@@ -474,6 +474,23 @@ body::before{
     font-size:.8rem;
 }
 
+.novena-abandon-action{
+    margin-top:1rem;
+    text-align:center;
+}
+
+.novena-abandon-action .btn{
+    width:auto;
+}
+
+.modal-action-group{
+    margin-top:1rem;
+}
+
+.modal-action-group .btn{
+    width:100%;
+}
+
 .library-discover-error{
     margin-top:1rem;
     padding:1rem;
