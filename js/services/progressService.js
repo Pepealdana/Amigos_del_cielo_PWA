@@ -254,6 +254,28 @@ function obtenerNovenasTerminadas(catalogo = state.catalogo) {
     return catalogo.filter(item => tieneCaminoRecorrido(item?.id));
 }
 
+function abandonarNovena(novenaId) {
+    if (!novenaId) {
+        return false;
+    }
+
+    const anterior = normalizarRegistroProgreso(novenaId);
+
+    if (!anterior) {
+        return false;
+    }
+
+    return guardarRegistroProgreso(novenaId, {
+        ...anterior,
+        dia: 0,
+        diasVisitados: [],
+        completada: false,
+        fecha: null,
+        fechaInicio: null,
+        fechaFinalizacion: null
+    });
+}
+
 function reiniciarNovena(novenaId) {
     if (!novenaId) {
         return false;
