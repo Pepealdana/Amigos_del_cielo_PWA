@@ -409,6 +409,12 @@ body::before{
     margin:0 0 1.5rem;
 }
 
+.continue-list{
+    display:flex;
+    flex-direction:column;
+    gap:.75rem;
+}
+
 .continue-card{
     display:flex;
     align-items:center;
