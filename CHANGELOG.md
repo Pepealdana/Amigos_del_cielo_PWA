@@ -1,5 +1,10 @@
 ## [1.5.0] — Descubrimiento, Mi Camino y experiencia móvil
 
+### Corrección posterior al cierre de V1.5.0
+- La pantalla de Inicio ahora muestra **todas las novenas que están en curso**, no solo la última novena iniciada.
+- Cada novena en curso conserva su propio progreso, porcentaje y botón **Continuar**.
+- Service Worker: v334.
+
 - Se consolida Mi Camino como espacio de favoritos, progreso y continuidad.
 - Se incorpora el explorador de experiencias y virtudes dentro de Mi Camino.
 - Las relaciones por virtud utilizan las mismas virtudes canónicas de las fichas y las cruzan con los campos de virtud y tema de los días de las novenas.
