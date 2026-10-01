@@ -286,6 +286,19 @@ function renderInicio(catalogo = [], progreso = {}) {
             progreso
         );
 
+    const novenasEnCurso = typeof obtenerNovenasEnCurso === "function"
+        ? obtenerNovenasEnCurso(catalogo)
+            .map(novena => ({
+                novena,
+                progreso: progreso?.[novena.id] || {}
+            }))
+            .sort((a, b) => {
+                const fechaA = new Date(a.progreso?.fecha || 0).getTime();
+                const fechaB = new Date(b.progreso?.fecha || 0).getTime();
+                return fechaB - fechaA;
+            })
+        : [];
+
     if (!principal?.novena) {
         return renderEmptyState(
             "No hay novenas disponibles",
@@ -497,59 +510,147 @@ function renderInicio(catalogo = [], progreso = {}) {
             <section class="continue-section">
 
                 <p class="section-kicker">
-                    ${mostrarPerfilSanto ? "Conocer" : (continuidad ? "Continuar" : "Comenzar")}
+                    ${novenasEnCurso.length > 0
+                        ? "Continuar"
+                        : (mostrarPerfilSanto ? "Conocer" : (continuidad ? "Continuar" : "Comenzar"))}
                 </p>
 
-                <article class="continue-card">
+                <div class="continue-list">
 
-                    ${imagenContinuar}
+                    ${novenasEnCurso.length > 0
+                        ? novenasEnCurso.map(({ novena, progreso: progresoNovena }) => {
+                            const diaNovena =
+                                progresoNovena?.dia || obtenerDiaContinuacion(novena.id) || 1;
 
-                    <div class="continue-content">
+                            const totalNovena =
+                                Number(progresoNovena?.totalDias) ||
+                                APP_CONFIG.diasNovena;
 
-                        <h3>
-                            ${escaparHTML(novenaContinuar.name)}
-                        </h3>
+                            const diasNovena =
+                                Array.isArray(progresoNovena?.diasVisitados)
+                                    ? progresoNovena.diasVisitados.length
+                                    : Array.isArray(progresoNovena?.completados)
+                                        ? progresoNovena.completados.length
+                                        : obtenerDiasRezado(novena.id).length;
 
-                        <p>
-                            ${mostrarPerfilSanto
-                                ? "Descubre su vida y su testimonio"
-                                : (continuidad
-                                    ? (completada
-                                        ? "Novena completada"
-                                        : `Día ${dia} de ${total}`)
-                                    : "Aún no has iniciado esta novena")}
-                        </p>
+                            const porcentajeNovena =
+                                Math.min(
+                                    100,
+                                    Math.round((diasNovena / totalNovena) * 100)
+                                );
 
-                        ${continuidad ? `
-                            <div
-                                class="progress-track"
-                                aria-label="${porcentaje}% completado">
+                            const imagen =
+                                novena.image
+                                    ? `
+                                        <img
+                                            src="${escaparHTML(novena.image)}"
+                                            alt=""
+                                            class="continue-image"
+                                            loading="lazy">
+                                    `
+                                    : `
+                                        <div
+                                            class="continue-image continue-image-placeholder"
+                                            aria-hidden="true">
+                                            ✦
+                                        </div>
+                                    `;
 
-                                <div
-                                    class="progress-fill"
-                                    style="width:${porcentaje}%">
+                            return `
+                                <article class="continue-card">
+
+                                    ${imagen}
+
+                                    <div class="continue-content">
+
+                                        <h3>
+                                            ${escaparHTML(novena.name)}
+                                        </h3>
+
+                                        <p>
+                                            Día ${diaNovena} de ${totalNovena}
+                                        </p>
+
+                                        <div
+                                            class="progress-track"
+                                            aria-label="${porcentajeNovena}% completado">
+
+                                            <div
+                                                class="progress-fill"
+                                                style="width:${porcentajeNovena}%">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <button
+                                        class="btn btn-primary continue-action"
+                                        type="button"
+                                        data-action="continue-novena"
+                                        data-id="${escaparHTML(novena.id)}">
+
+                                        Continuar
+
+                                    </button>
+
+                                </article>
+                            `;
+                        }).join("")
+                        : `
+                            <article class="continue-card">
+
+                                ${imagenContinuar}
+
+                                <div class="continue-content">
+
+                                    <h3>
+                                        ${escaparHTML(novenaContinuar.name)}
+                                    </h3>
+
+                                    <p>
+                                        ${mostrarPerfilSanto
+                                            ? "Descubre su vida y su testimonio"
+                                            : (continuidad
+                                                ? (completada
+                                                    ? "Novena completada"
+                                                    : `Día ${dia} de ${total}`)
+                                                : "Aún no has iniciado esta novena")}
+                                    </p>
+
+                                    ${continuidad ? `
+                                        <div
+                                            class="progress-track"
+                                            aria-label="${porcentaje}% completado">
+
+                                            <div
+                                                class="progress-fill"
+                                                style="width:${porcentaje}%">
+                                            </div>
+
+                                        </div>
+                                    ` : ""}
+
                                 </div>
 
-                            </div>
-                        ` : ""}
+                                <button
+                                    class="btn btn-primary continue-action"
+                                    type="button"
+                                    data-action="${mostrarPerfilSanto ? "open-profile" : (completada ? "restart-novena" : "continue-novena")}"
+                                    data-id="${escaparHTML(novenaContinuar.id)}">
 
-                    </div>
+                                    ${mostrarPerfilSanto
+                                        ? "Conocer al santo"
+                                        : (completada
+                                            ? "Volver a rezar"
+                                            : (continuidad ? "Continuar" : "Comenzar"))}
 
-                    <button
-                        class="btn btn-primary continue-action"
-                        type="button"
-                        data-action="${mostrarPerfilSanto ? "open-profile" : (completada ? "restart-novena" : "continue-novena")}"
-                        data-id="${escaparHTML(novenaContinuar.id)}">
+                                </button>
 
-                        ${mostrarPerfilSanto
-                            ? "Conocer al santo"
-                            : (completada
-                                ? "Volver a rezar"
-                                : (continuidad ? "Continuar" : "Comenzar"))}
+                            </article>
+                        `}
 
-                    </button>
-
-                </article>
+                </div>
 
             </section>
 
