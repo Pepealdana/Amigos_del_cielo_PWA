@@ -125,7 +125,7 @@ La versión 1.5.0 cierra una etapa centrada en descubrimiento, continuidad de or
 
 La versión funcional se mantiene en APP_CONFIG.version.
 
-La aplicación está en **1.5.0**. El Service Worker utiliza **v335** como identificador de caché. La navegación interna utiliza ?ruta= y los enlaces directos de novenas mantienen compatibilidad con ?novena=.
+La aplicación está en **1.5.0**. El Service Worker utiliza **v336** como identificador de caché. La navegación interna utiliza ?ruta= y los enlaces directos de novenas mantienen compatibilidad con ?novena=.
 
 La versión funcional y la generación de caché son conceptos distintos: la primera identifica cambios de producto; la segunda invalida recursos del navegador.
 
