@@ -1193,13 +1193,18 @@ function inicializarSwipePerfilSantos() {
         return;
     }
 
+    /*
+     * La navegación táctil se implementa con Pointer Events.
+     * Esto evita depender de que touchend sobreviva al desplazamiento
+     * dentro del modal y permite capturar el gesto completo.
+     */
     let inicioX = 0;
     let inicioY = 0;
-    let activo = false;
+    let pointerIdActivo = null;
+    let gestoActivo = false;
 
-    area.addEventListener("touchstart", evento => {
-        if (evento.touches.length !== 1) {
-            activo = false;
+    const iniciarGesto = evento => {
+        if (evento.pointerType && evento.pointerType !== "touch") {
             return;
         }
 
@@ -1208,48 +1213,67 @@ function inicializarSwipePerfilSantos() {
                 "button, a, input, select, textarea"
             )
         ) {
-            activo = false;
+            gestoActivo = false;
+            pointerIdActivo = null;
             return;
         }
 
-        inicioX = evento.touches[0].clientX;
-        inicioY = evento.touches[0].clientY;
-        activo = true;
-    }, { passive: true });
+        inicioX = evento.clientX;
+        inicioY = evento.clientY;
+        pointerIdActivo = evento.pointerId;
+        gestoActivo = true;
 
-    area.addEventListener("touchend", evento => {
-        if (!activo || evento.changedTouches.length !== 1) {
-            activo = false;
-            return;
+        try {
+            area.setPointerCapture(evento.pointerId);
+        } catch (_) {
+            // Algunos navegadores no permiten captura en todos los casos.
         }
+    };
 
-        activo = false;
-
-        const finalX = evento.changedTouches[0].clientX;
-        const finalY = evento.changedTouches[0].clientY;
-
-        const desplazamientoX = finalX - inicioX;
-        const desplazamientoY = finalY - inicioY;
-
-        const distanciaMinima = 70;
-
+    const cancelarGesto = evento => {
         if (
-            Math.abs(desplazamientoX) < distanciaMinima ||
-            Math.abs(desplazamientoX) <= Math.abs(desplazamientoY) * 1.2
+            pointerIdActivo !== null &&
+            evento.pointerId !== undefined &&
+            evento.pointerId !== pointerIdActivo
         ) {
             return;
         }
 
-        const secuencia =
-            obtenerSecuenciaNavegacionSantos();
+        gestoActivo = false;
+        pointerIdActivo = null;
+    };
 
-        const idActual =
-            area.dataset.currentId;
+    const finalizarGesto = evento => {
+        if (
+            !gestoActivo ||
+            pointerIdActivo === null ||
+            evento.pointerId !== pointerIdActivo
+        ) {
+            return;
+        }
 
-        const indice =
-            secuencia.findIndex(
-                item => item?.id === idActual
-            );
+        const desplazamientoX = evento.clientX - inicioX;
+        const desplazamientoY = evento.clientY - inicioY;
+
+        gestoActivo = false;
+        pointerIdActivo = null;
+
+        const distanciaMinima = 60;
+        const esDesplazamientoHorizontal =
+            Math.abs(desplazamientoX) >= distanciaMinima &&
+            Math.abs(desplazamientoX) >
+                Math.abs(desplazamientoY) * 1.15;
+
+        if (!esDesplazamientoHorizontal) {
+            return;
+        }
+
+        const secuencia = obtenerSecuenciaNavegacionSantos();
+        const idActual = area.dataset.currentId;
+
+        const indice = secuencia.findIndex(
+            item => item?.id === idActual
+        );
 
         if (indice < 0) {
             return;
@@ -1260,11 +1284,95 @@ function inicializarSwipePerfilSantos() {
                 ? indice + 1
                 : indice - 1;
 
-        const siguiente =
-            secuencia[siguienteIndice];
+        const siguiente = secuencia[siguienteIndice];
 
         if (siguiente?.id) {
             mostrarPerfilCatalogo(siguiente.id);
         }
-    }, { passive: true });
+    };
+
+    if ("PointerEvent" in window) {
+        area.addEventListener(
+            "pointerdown",
+            iniciarGesto,
+            { passive: true }
+        );
+
+        area.addEventListener(
+            "pointerup",
+            finalizarGesto,
+            { passive: true }
+        );
+
+        area.addEventListener(
+            "pointercancel",
+            cancelarGesto,
+            { passive: true }
+        );
+
+        area.addEventListener(
+            "lostpointercapture",
+            cancelarGesto,
+            { passive: true }
+        );
+
+        return;
+    }
+
+    /*
+     * Fallback para navegadores antiguos sin Pointer Events.
+     */
+    area.addEventListener(
+        "touchstart",
+        evento => {
+            if (evento.touches.length !== 1) {
+                gestoActivo = false;
+                return;
+            }
+
+            const toque = evento.touches[0];
+
+            if (
+                evento.target.closest(
+                    "button, a, input, select, textarea"
+                )
+            ) {
+                gestoActivo = false;
+                return;
+            }
+
+            inicioX = toque.clientX;
+            inicioY = toque.clientY;
+            gestoActivo = true;
+        },
+        { passive: true }
+    );
+
+    area.addEventListener(
+        "touchend",
+        evento => {
+            if (!gestoActivo || evento.changedTouches.length !== 1) {
+                gestoActivo = false;
+                return;
+            }
+
+            const toque = evento.changedTouches[0];
+
+            finalizarGesto({
+                pointerId: 0,
+                clientX: toque.clientX,
+                clientY: toque.clientY
+            });
+        },
+        { passive: true }
+    );
+
+    area.addEventListener(
+        "touchcancel",
+        () => {
+            gestoActivo = false;
+            pointerIdActivo = null;
+        },
+        { passive: true }
+    );
 }
