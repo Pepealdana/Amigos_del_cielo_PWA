@@ -1189,82 +1189,118 @@ function inicializarSwipePerfilSantos() {
         '.modal .catalog-profile-swipe[data-swipe-profile="santos"]'
     );
 
-    if (!area) {
+    const modalContent = area?.closest(".modal-content");
+
+    if (!area || !modalContent) {
         return;
     }
 
     /*
-     * La navegación táctil se implementa con Pointer Events.
-     * Esto evita depender de que touchend sobreviva al desplazamiento
-     * dentro del modal y permite capturar el gesto completo.
+     * Navegación táctil complementaria:
+     * - usa Touch Events directamente, que son especialmente fiables
+     *   dentro de WebViews/PWA y Safari en iPhone;
+     * - conserva el scroll vertical;
+     * - solo activa el cambio de santo cuando el gesto es claramente
+     *   horizontal;
+     * - los botones y enlaces siguen funcionando normalmente.
      */
+    modalContent.classList.add("catalog-profile-modal-content");
+
     let inicioX = 0;
     let inicioY = 0;
-    let pointerIdActivo = null;
     let gestoActivo = false;
+    let intencionHorizontal = false;
+    let ultimoX = 0;
+    let ultimoY = 0;
+
+    const esControlInteractivo = target =>
+        target?.closest?.(
+            "button, a, input, select, textarea, [role=\"button\"]"
+        );
+
+    const reiniciarGesto = () => {
+        gestoActivo = false;
+        intencionHorizontal = false;
+        inicioX = 0;
+        inicioY = 0;
+        ultimoX = 0;
+        ultimoY = 0;
+    };
 
     const iniciarGesto = evento => {
-        if (evento.pointerType && evento.pointerType !== "touch") {
+        if (evento.touches.length !== 1) {
+            reiniciarGesto();
             return;
         }
 
-        if (
-            evento.target.closest(
-                "button, a, input, select, textarea"
-            )
-        ) {
-            gestoActivo = false;
-            pointerIdActivo = null;
+        if (esControlInteractivo(evento.target)) {
+            reiniciarGesto();
             return;
         }
 
-        inicioX = evento.clientX;
-        inicioY = evento.clientY;
-        pointerIdActivo = evento.pointerId;
+        const toque = evento.touches[0];
+
+        inicioX = toque.clientX;
+        inicioY = toque.clientY;
+        ultimoX = inicioX;
+        ultimoY = inicioY;
         gestoActivo = true;
-
-        try {
-            area.setPointerCapture(evento.pointerId);
-        } catch (_) {
-            // Algunos navegadores no permiten captura en todos los casos.
-        }
+        intencionHorizontal = false;
     };
 
-    const cancelarGesto = evento => {
-        if (
-            pointerIdActivo !== null &&
-            evento.pointerId !== undefined &&
-            evento.pointerId !== pointerIdActivo
-        ) {
+    const moverGesto = evento => {
+        if (!gestoActivo || evento.touches.length !== 1) {
             return;
         }
 
-        gestoActivo = false;
-        pointerIdActivo = null;
-    };
+        const toque = evento.touches[0];
+        ultimoX = toque.clientX;
+        ultimoY = toque.clientY;
 
-    const finalizarGesto = evento => {
+        const desplazamientoX = ultimoX - inicioX;
+        const desplazamientoY = ultimoY - inicioY;
+
+        /*
+         * Esperamos unos píxeles antes de decidir si se trata de
+         * desplazamiento horizontal o scroll vertical.
+         */
         if (
-            !gestoActivo ||
-            pointerIdActivo === null ||
-            evento.pointerId !== pointerIdActivo
-        ) {
-            return;
-        }
-
-        const desplazamientoX = evento.clientX - inicioX;
-        const desplazamientoY = evento.clientY - inicioY;
-
-        gestoActivo = false;
-        pointerIdActivo = null;
-
-        const distanciaMinima = 60;
-        const esDesplazamientoHorizontal =
-            Math.abs(desplazamientoX) >= distanciaMinima &&
+            !intencionHorizontal &&
+            Math.abs(desplazamientoX) >= 12 &&
             Math.abs(desplazamientoX) >
-                Math.abs(desplazamientoY) * 1.15;
+                Math.abs(desplazamientoY) * 1.15
+        ) {
+            intencionHorizontal = true;
+        }
 
-        if (!esDesplazamientoHorizontal) {
+        /*
+         * Una vez identificado el gesto horizontal, evitamos que el
+         * navegador lo convierta en otra interacción horizontal.
+         * El listener es passive:false para que esto funcione también
+         * en Safari/iOS.
+         */
+        if (intencionHorizontal) {
+            evento.preventDefault();
+        }
+    };
+
+    const finalizarGesto = () => {
+        if (!gestoActivo) {
+            return;
+        }
+
+        const desplazamientoX = ultimoX - inicioX;
+        const desplazamientoY = ultimoY - inicioY;
+
+        const esDeslizamientoHorizontal =
+            intencionHorizontal &&
+            Math.abs(desplazamientoX) >= 50 &&
+            Math.abs(desplazamientoX) >
+                Math.abs(desplazamientoY) * 1.1;
+
+        reiniciarGesto();
+
+        if (!esDeslizamientoHorizontal) {
             return;
         }
 
@@ -1291,89 +1327,27 @@ function inicializarSwipePerfilSantos() {
         }
     };
 
-    if ("PointerEvent" in window) {
-        area.addEventListener(
-            "pointerdown",
-            iniciarGesto,
-            { passive: true }
-        );
-
-        area.addEventListener(
-            "pointerup",
-            finalizarGesto,
-            { passive: true }
-        );
-
-        area.addEventListener(
-            "pointercancel",
-            cancelarGesto,
-            { passive: true }
-        );
-
-        area.addEventListener(
-            "lostpointercapture",
-            cancelarGesto,
-            { passive: true }
-        );
-
-        return;
-    }
-
-    /*
-     * Fallback para navegadores antiguos sin Pointer Events.
-     */
-    area.addEventListener(
+    modalContent.addEventListener(
         "touchstart",
-        evento => {
-            if (evento.touches.length !== 1) {
-                gestoActivo = false;
-                return;
-            }
-
-            const toque = evento.touches[0];
-
-            if (
-                evento.target.closest(
-                    "button, a, input, select, textarea"
-                )
-            ) {
-                gestoActivo = false;
-                return;
-            }
-
-            inicioX = toque.clientX;
-            inicioY = toque.clientY;
-            pointerIdActivo = 0;
-            gestoActivo = true;
-        },
+        iniciarGesto,
         { passive: true }
     );
 
-    area.addEventListener(
+    modalContent.addEventListener(
+        "touchmove",
+        moverGesto,
+        { passive: false }
+    );
+
+    modalContent.addEventListener(
         "touchend",
-        evento => {
-            if (!gestoActivo || evento.changedTouches.length !== 1) {
-                gestoActivo = false;
-                return;
-            }
-
-            const toque = evento.changedTouches[0];
-
-            finalizarGesto({
-                pointerId: 0,
-                clientX: toque.clientX,
-                clientY: toque.clientY
-            });
-        },
+        finalizarGesto,
         { passive: true }
     );
 
-    area.addEventListener(
+    modalContent.addEventListener(
         "touchcancel",
-        () => {
-            gestoActivo = false;
-            pointerIdActivo = null;
-        },
+        reiniciarGesto,
         { passive: true }
     );
 }
