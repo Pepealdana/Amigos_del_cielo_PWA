@@ -1343,6 +1343,7 @@ function inicializarSwipePerfilSantos() {
 
             inicioX = toque.clientX;
             inicioY = toque.clientY;
+            pointerIdActivo = 0;
             gestoActivo = true;
         },
         { passive: true }
