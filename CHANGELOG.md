@@ -1,5 +1,12 @@
 ## [1.5.0] — Descubrimiento, Mi Camino y experiencia móvil
 
+### Corrección posterior — navegación táctil de Santos
+
+- Se reemplaza la detección táctil basada únicamente en `touchstart/touchend` por **Pointer Events** con captura del puntero.
+- Se conserva un fallback para navegadores sin Pointer Events.
+- Se mantiene el desplazamiento vertical como scroll y se ignoran gestos iniciados sobre botones o controles.
+- Service Worker: v337.
+
 ### Mejora posterior — navegación táctil de Santos
 - Los perfiles de **Santos** admiten deslizamiento horizontal para pasar al santo anterior o siguiente.
 - La navegación táctil respeta el orden de descubrimiento aleatorio de la sección Santos durante la sesión.
