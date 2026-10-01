@@ -1,5 +1,12 @@
 ## [1.5.0] — Descubrimiento, Mi Camino y experiencia móvil
 
+### Mejora posterior — navegación táctil de Santos
+- Los perfiles de **Santos** admiten deslizamiento horizontal para pasar al santo anterior o siguiente.
+- La navegación táctil respeta el orden de descubrimiento aleatorio de la sección Santos durante la sesión.
+- El gesto es complementario: la navegación existente y el botón Volver se mantienen.
+- Los desplazamientos verticales siguen funcionando como scroll normal.
+- Service Worker: v336.
+
 ### Corrección posterior al cierre de V1.5.0 — abandono de novenas
 - Se añade la opción **Dejar de rezar** para las novenas en curso.
 - Al abandonar una novena se eliminan todos los días marcados de su progreso actual y deja de aparecer en Inicio como novena en curso.
