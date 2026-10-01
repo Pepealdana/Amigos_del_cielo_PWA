@@ -1,9 +1,14 @@
 ## [1.5.0] — Descubrimiento, Mi Camino y experiencia móvil
 
-### Corrección posterior al cierre de V1.5.0
-- La pantalla de Inicio ahora muestra **todas las novenas que están en curso**, no solo la última novena iniciada.
-- Cada novena en curso conserva su propio progreso, porcentaje y botón **Continuar**.
-- Service Worker: v334.
+### Corrección posterior al cierre de V1.5.0 — abandono de novenas
+- Se añade la opción **Dejar de rezar** para las novenas en curso.
+- Al abandonar una novena se eliminan todos los días marcados de su progreso actual y deja de aparecer en Inicio como novena en curso.
+- El historial de completaciones anteriores se conserva.
+- Se puede volver a iniciar la novena posteriormente desde cero.
+- Service Worker: v335.
+
+### Corrección posterior al cierre de V1.5.0 — múltiples novenas en curso
+- La pantalla de Inicio muestra **todas las novenas que están en curso**, cada una con su propio progreso y botón **Continuar**.
 
 - Se consolida Mi Camino como espacio de favoritos, progreso y continuidad.
 - Se incorpora el explorador de experiencias y virtudes dentro de Mi Camino.
