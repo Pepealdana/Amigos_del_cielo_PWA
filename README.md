@@ -437,7 +437,7 @@ La navegación interna mantiene el contexto en la URL y permite utilizar Atrás/
 
 **Catálogo:** 112 registros publicados
 
-**Service Worker:** caché v335
+**Service Worker:** caché v336
 
 **Tipo:** Progressive Web App
 
