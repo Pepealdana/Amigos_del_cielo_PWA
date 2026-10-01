@@ -19,8 +19,6 @@
 - Versión de aplicación: 1.5.0.
 - Se conserva el vínculo de Mi Camino después de volver a rezar una novena y se registra correctamente cada nueva completación al marcar el último día.
 - Se endurece el renderizado de la pantalla de finalización de novena.
-- Service Worker: v333.
-
 ## [1.4.1] — Endurecimiento, navegación y pruebas
 
 - Se endurecen componentes compartidos de renderizado para escapar datos textuales antes de insertarlos en HTML.
