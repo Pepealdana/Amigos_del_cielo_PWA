@@ -1188,14 +1188,17 @@ let swipeSantosInicializado = false;
 let swipeSantosInicioX = 0;
 let swipeSantosInicioY = 0;
 let swipeSantosActivo = false;
+let swipeSantosIdActual = "";
+let swipeSantosHorizontal = false;
 
 function inicializarSwipePerfilSantos() {
     /*
-     * El listener se instala una sola vez sobre document.
-     * El perfil del santo se crea y destruye cada vez que cambia
-     * el modal, por lo que enlazar eventos directamente al elemento
-     * hacía que el comportamiento dependiera demasiado del ciclo
-     * de vida del modal.
+     * El gesto se registra una sola vez sobre document y se inicializa
+     * desde la carga del módulo. Así no depende del ciclo de vida del modal.
+     *
+     * touchmove usa passive:false para poder cancelar el desplazamiento
+     * vertical/navegación del navegador cuando el gesto ya se reconoce
+     * claramente como horizontal.
      */
     if (swipeSantosInicializado) {
         return;
@@ -1208,6 +1211,7 @@ function inicializarSwipePerfilSantos() {
         evento => {
             if (evento.touches.length !== 1) {
                 swipeSantosActivo = false;
+                swipeSantosHorizontal = false;
                 return;
             }
 
@@ -1217,6 +1221,7 @@ function inicializarSwipePerfilSantos() {
 
             if (!area) {
                 swipeSantosActivo = false;
+                swipeSantosHorizontal = false;
                 return;
             }
 
@@ -1226,6 +1231,7 @@ function inicializarSwipePerfilSantos() {
                 )
             ) {
                 swipeSantosActivo = false;
+                swipeSantosHorizontal = false;
                 return;
             }
 
@@ -1233,9 +1239,39 @@ function inicializarSwipePerfilSantos() {
 
             swipeSantosInicioX = toque.clientX;
             swipeSantosInicioY = toque.clientY;
-            swipeSantosActivo = true;
+            swipeSantosIdActual = area.dataset.currentId || "";
+            swipeSantosActivo = Boolean(swipeSantosIdActual);
+            swipeSantosHorizontal = false;
         },
         { passive: true, capture: true }
+    );
+
+    document.addEventListener(
+        "touchmove",
+        evento => {
+            if (
+                !swipeSantosActivo ||
+                evento.touches.length !== 1
+            ) {
+                return;
+            }
+
+            const toque = evento.touches[0];
+            const desplazamientoX =
+                toque.clientX - swipeSantosInicioX;
+            const desplazamientoY =
+                toque.clientY - swipeSantosInicioY;
+
+            if (
+                Math.abs(desplazamientoX) >= 12 &&
+                Math.abs(desplazamientoX) >
+                    Math.abs(desplazamientoY) * 1.1
+            ) {
+                swipeSantosHorizontal = true;
+                evento.preventDefault();
+            }
+        },
+        { passive: false, capture: true }
     );
 
     document.addEventListener(
@@ -1246,12 +1282,10 @@ function inicializarSwipePerfilSantos() {
                 evento.changedTouches.length !== 1
             ) {
                 swipeSantosActivo = false;
+                swipeSantosHorizontal = false;
+                swipeSantosIdActual = "";
                 return;
             }
-
-            const area = document.querySelector(
-                '.modal .catalog-profile-swipe[data-swipe-profile="santos"]'
-            );
 
             const toque = evento.changedTouches[0];
             const desplazamientoX =
@@ -1259,19 +1293,23 @@ function inicializarSwipePerfilSantos() {
             const desplazamientoY =
                 toque.clientY - swipeSantosInicioY;
 
-            swipeSantosActivo = false;
-
             const esHorizontal =
                 Math.abs(desplazamientoX) >= 45 &&
                 Math.abs(desplazamientoX) >
-                    Math.abs(desplazamientoY) * 1.1;
+                    Math.abs(desplazamientoY) * 1.1 &&
+                swipeSantosHorizontal;
 
-            if (!area || !esHorizontal) {
+            const idActual = swipeSantosIdActual;
+
+            swipeSantosActivo = false;
+            swipeSantosHorizontal = false;
+            swipeSantosIdActual = "";
+
+            if (!esHorizontal || !idActual) {
                 return;
             }
 
             const secuencia = obtenerSecuenciaNavegacionSantos();
-            const idActual = area.dataset.currentId;
 
             const indice = secuencia.findIndex(
                 item => item?.id === idActual
@@ -1299,8 +1337,12 @@ function inicializarSwipePerfilSantos() {
         "touchcancel",
         () => {
             swipeSantosActivo = false;
+            swipeSantosHorizontal = false;
+            swipeSantosIdActual = "";
         },
         { passive: true, capture: true }
     );
 }
+
+inicializarSwipePerfilSantos();
 
