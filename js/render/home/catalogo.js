@@ -1184,170 +1184,123 @@ function obtenerSecuenciaNavegacionSantos() {
     return santos;
 }
 
+let swipeSantosInicializado = false;
+let swipeSantosInicioX = 0;
+let swipeSantosInicioY = 0;
+let swipeSantosActivo = false;
+
 function inicializarSwipePerfilSantos() {
-    const area = document.querySelector(
-        '.modal .catalog-profile-swipe[data-swipe-profile="santos"]'
-    );
-
-    const modalContent = area?.closest(".modal-content");
-
-    if (!area || !modalContent) {
+    /*
+     * El listener se instala una sola vez sobre document.
+     * El perfil del santo se crea y destruye cada vez que cambia
+     * el modal, por lo que enlazar eventos directamente al elemento
+     * hacía que el comportamiento dependiera demasiado del ciclo
+     * de vida del modal.
+     */
+    if (swipeSantosInicializado) {
         return;
     }
 
-    /*
-     * Navegación táctil complementaria:
-     * - usa Touch Events directamente, que son especialmente fiables
-     *   dentro de WebViews/PWA y Safari en iPhone;
-     * - conserva el scroll vertical;
-     * - solo activa el cambio de santo cuando el gesto es claramente
-     *   horizontal;
-     * - los botones y enlaces siguen funcionando normalmente.
-     */
-    modalContent.classList.add("catalog-profile-modal-content");
+    swipeSantosInicializado = true;
 
-    let inicioX = 0;
-    let inicioY = 0;
-    let gestoActivo = false;
-    let intencionHorizontal = false;
-    let ultimoX = 0;
-    let ultimoY = 0;
-
-    const esControlInteractivo = target =>
-        target?.closest?.(
-            "button, a, input, select, textarea, [role=\"button\"]"
-        );
-
-    const reiniciarGesto = () => {
-        gestoActivo = false;
-        intencionHorizontal = false;
-        inicioX = 0;
-        inicioY = 0;
-        ultimoX = 0;
-        ultimoY = 0;
-    };
-
-    const iniciarGesto = evento => {
-        if (evento.touches.length !== 1) {
-            reiniciarGesto();
-            return;
-        }
-
-        if (esControlInteractivo(evento.target)) {
-            reiniciarGesto();
-            return;
-        }
-
-        const toque = evento.touches[0];
-
-        inicioX = toque.clientX;
-        inicioY = toque.clientY;
-        ultimoX = inicioX;
-        ultimoY = inicioY;
-        gestoActivo = true;
-        intencionHorizontal = false;
-    };
-
-    const moverGesto = evento => {
-        if (!gestoActivo || evento.touches.length !== 1) {
-            return;
-        }
-
-        const toque = evento.touches[0];
-        ultimoX = toque.clientX;
-        ultimoY = toque.clientY;
-
-        const desplazamientoX = ultimoX - inicioX;
-        const desplazamientoY = ultimoY - inicioY;
-
-        /*
-         * Esperamos unos píxeles antes de decidir si se trata de
-         * desplazamiento horizontal o scroll vertical.
-         */
-        if (
-            !intencionHorizontal &&
-            Math.abs(desplazamientoX) >= 12 &&
-            Math.abs(desplazamientoX) >
-                Math.abs(desplazamientoY) * 1.15
-        ) {
-            intencionHorizontal = true;
-        }
-
-        /*
-         * Una vez identificado el gesto horizontal, evitamos que el
-         * navegador lo convierta en otra interacción horizontal.
-         * El listener es passive:false para que esto funcione también
-         * en Safari/iOS.
-         */
-        if (intencionHorizontal) {
-            evento.preventDefault();
-        }
-    };
-
-    const finalizarGesto = () => {
-        if (!gestoActivo) {
-            return;
-        }
-
-        const desplazamientoX = ultimoX - inicioX;
-        const desplazamientoY = ultimoY - inicioY;
-
-        const esDeslizamientoHorizontal =
-            intencionHorizontal &&
-            Math.abs(desplazamientoX) >= 50 &&
-            Math.abs(desplazamientoX) >
-                Math.abs(desplazamientoY) * 1.1;
-
-        reiniciarGesto();
-
-        if (!esDeslizamientoHorizontal) {
-            return;
-        }
-
-        const secuencia = obtenerSecuenciaNavegacionSantos();
-        const idActual = area.dataset.currentId;
-
-        const indice = secuencia.findIndex(
-            item => item?.id === idActual
-        );
-
-        if (indice < 0) {
-            return;
-        }
-
-        const siguienteIndice =
-            desplazamientoX < 0
-                ? indice + 1
-                : indice - 1;
-
-        const siguiente = secuencia[siguienteIndice];
-
-        if (siguiente?.id) {
-            mostrarPerfilCatalogo(siguiente.id);
-        }
-    };
-
-    modalContent.addEventListener(
+    document.addEventListener(
         "touchstart",
-        iniciarGesto,
-        { passive: true }
+        evento => {
+            if (evento.touches.length !== 1) {
+                swipeSantosActivo = false;
+                return;
+            }
+
+            const area = evento.target.closest?.(
+                '.catalog-profile-swipe[data-swipe-profile="santos"]'
+            );
+
+            if (!area) {
+                swipeSantosActivo = false;
+                return;
+            }
+
+            if (
+                evento.target.closest?.(
+                    "button, a, input, select, textarea, [role=\"button\"]"
+                )
+            ) {
+                swipeSantosActivo = false;
+                return;
+            }
+
+            const toque = evento.touches[0];
+
+            swipeSantosInicioX = toque.clientX;
+            swipeSantosInicioY = toque.clientY;
+            swipeSantosActivo = true;
+        },
+        { passive: true, capture: true }
     );
 
-    modalContent.addEventListener(
-        "touchmove",
-        moverGesto,
-        { passive: false }
-    );
-
-    modalContent.addEventListener(
+    document.addEventListener(
         "touchend",
-        finalizarGesto,
-        { passive: true }
+        evento => {
+            if (
+                !swipeSantosActivo ||
+                evento.changedTouches.length !== 1
+            ) {
+                swipeSantosActivo = false;
+                return;
+            }
+
+            const area = document.querySelector(
+                '.modal .catalog-profile-swipe[data-swipe-profile="santos"]'
+            );
+
+            const toque = evento.changedTouches[0];
+            const desplazamientoX =
+                toque.clientX - swipeSantosInicioX;
+            const desplazamientoY =
+                toque.clientY - swipeSantosInicioY;
+
+            swipeSantosActivo = false;
+
+            const esHorizontal =
+                Math.abs(desplazamientoX) >= 45 &&
+                Math.abs(desplazamientoX) >
+                    Math.abs(desplazamientoY) * 1.1;
+
+            if (!area || !esHorizontal) {
+                return;
+            }
+
+            const secuencia = obtenerSecuenciaNavegacionSantos();
+            const idActual = area.dataset.currentId;
+
+            const indice = secuencia.findIndex(
+                item => item?.id === idActual
+            );
+
+            if (indice < 0) {
+                return;
+            }
+
+            const siguienteIndice =
+                desplazamientoX < 0
+                    ? indice + 1
+                    : indice - 1;
+
+            const siguiente = secuencia[siguienteIndice];
+
+            if (siguiente?.id) {
+                mostrarPerfilCatalogo(siguiente.id);
+            }
+        },
+        { passive: true, capture: true }
     );
 
-    modalContent.addEventListener(
+    document.addEventListener(
         "touchcancel",
-        reiniciarGesto,
-        { passive: true }
+        () => {
+            swipeSantosActivo = false;
+        },
+        { passive: true, capture: true }
     );
 }
+
