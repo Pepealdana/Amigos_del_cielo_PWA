@@ -1093,6 +1093,69 @@ function reiniciarYComenzarNovena(id) {
     });
 }
 
+function solicitarAbandonoNovena(id) {
+    if (!id) {
+        return;
+    }
+
+    const novena = buscarNovenaPorId(state.catalogo, id);
+
+    if (!novena) {
+        return;
+    }
+
+    const contenido = `
+        <p>
+            ¿Quieres dejar de rezar esta novena?
+        </p>
+
+        <p>
+            Se quitarán todos los días que hayas marcado como rezados
+            y dejará de aparecer entre tus novenas en curso.
+            Podrás volver a iniciarla más adelante.
+        </p>
+
+        <div class="button-group modal-action-group">
+            <button
+                class="btn btn-primary"
+                type="button"
+                data-action="confirm-abandon-novena"
+                data-id="${escaparHTML(id)}">
+                Sí, dejar de rezar
+            </button>
+        </div>
+    `;
+
+    mostrarModal(
+        "Dejar de rezar",
+        contenido,
+        "Cancelar"
+    );
+}
+
+function confirmarAbandonoNovena(id) {
+    if (!id) {
+        return;
+    }
+
+    const abandonada = abandonarNovena(id);
+
+    if (!abandonada) {
+        cerrarModal();
+        return;
+    }
+
+    cerrarModal();
+
+    state.diaActual = 1;
+
+    if (state.novenaActual?.id === id) {
+        state.novenaActual = null;
+    }
+
+    navegar("inicio");
+}
+
 /* ==========================================
    FAVORITAS
 ========================================== */
@@ -1919,6 +1982,16 @@ function manejarClicksPWA(evento) {
         if (tipo === "restart-novena" && id) {
             cerrarModal();
             reiniciarYComenzarNovena(id);
+            return;
+        }
+
+        if (tipo === "abandon-novena" && id) {
+            solicitarAbandonoNovena(id);
+            return;
+        }
+
+        if (tipo === "confirm-abandon-novena" && id) {
+            confirmarAbandonoNovena(id);
             return;
         }
 
