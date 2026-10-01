@@ -474,6 +474,16 @@ body::before{
     font-size:.8rem;
 }
 
+.catalog-profile-swipe{
+    touch-action:pan-y;
+    -webkit-user-select:none;
+    user-select:none;
+}
+
+.catalog-profile-swipe .catalog-profile-media img{
+    -webkit-user-drag:none;
+}
+
 .novena-abandon-action{
     margin-top:1rem;
     text-align:center;
