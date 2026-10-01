@@ -3,7 +3,7 @@
 ## Estado actual
 
 - Versión de aplicación: **1.5.0**
-- Service Worker: **v333**
+- Service Worker: **v334**
 - Tipo: Progressive Web App (PWA)
 - Plataforma: GitHub Pages
 - Idioma principal: español
@@ -13,7 +13,7 @@
 
 Se mantienen automatizaciones para validación de JSON, sintaxis JavaScript, rutas, imágenes, recursos del Service Worker, acciones y rutas interactivas, CodeQL, Lighthouse CI y GitHub Pages.
 
-V1.5.0 incorpora mejoras de descubrimiento, Mi Camino, catálogo responsive, contraste en modo oscuro y conservación del vínculo con los contenidos completados al volver a rezar una novena. Se validó además la adaptación en un segundo dispositivo Android físico de menor tamaño; esta prueba complementa, pero no sustituye, la cobertura automatizada.
+V1.5.0 incorpora mejoras de descubrimiento, Mi Camino, catálogo responsive, contraste en modo oscuro y conservación del vínculo con los contenidos completados al volver a rezar una novena. Como corrección posterior, Inicio muestra ahora todas las novenas que el usuario tiene en curso, cada una con su propio progreso y acceso directo para continuar. Se validó además la adaptación en un segundo dispositivo Android físico de menor tamaño; esta prueba complementa, pero no sustituye, la cobertura automatizada.
 
 ## Verificaciones manuales pendientes
 
