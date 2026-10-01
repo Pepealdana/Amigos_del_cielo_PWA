@@ -283,7 +283,7 @@ function checkInteractiveActions() {
   const knownDirectActions = new Set([
     "open-novena", "open-profile", "open-camino-profile", "open-camino-history", "explore-camino-virtue", "draw-patron", "open-patron-profile",
     "continue-novena", "next-day", "previous-day", "favorite-novena",
-    "share-novena", "start-novena", "finish-novena", "restart-novena",
+    "share-novena", "start-novena", "finish-novena", "restart-novena", "abandon-novena", "confirm-abandon-novena",
     "toggle-extended-history", "text-size", "theme", "retry-app",
     "go-library", "go-camino", "library-explorer-mode", "library-explorer-select",
     "library-explorer-reset", "go-novena", "share-app", "region"
