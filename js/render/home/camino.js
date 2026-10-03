@@ -32,8 +32,15 @@ function renderCamino(
             new Date(a[1]?.fecha || 0).getTime()
         );
 
-    const novenasEnCurso = entradasProgreso.filter(
-        ([, datos]) => datos?.completada !== true
+    /*
+     * Una novena solo cuenta como "En curso" si conserva progreso
+     * real de la oración actual. Al abandonar una novena se limpian
+     * los días rezados y el registro queda disponible para retomarla
+     * más adelante, pero no debe seguir apareciendo como activa.
+     */
+    const novenasEnCurso = entradasProgreso.filter(([id, datos]) =>
+        datos?.completada !== true &&
+        obtenerDiasRezado(id).length > 0
     ).length;
 
     const novenasCompletadas = entradasProgreso.filter(
