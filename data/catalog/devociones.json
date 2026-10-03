@@ -1,5 +1,5 @@
 {
-  "version": "3.0",
+  "version": "3.1",
   "category": "devociones",
   "description": "Devociones y otras expresiones de oración conservadas del catálogo actual.",
   "items": [
@@ -34,6 +34,10 @@
           "ave-maria",
           "gloria"
         ]
+      },
+      "feast": {
+        "movable": true,
+        "text": "II Domingo de Pascua — Domingo de la Divina Misericordia"
       }
     },
     {
@@ -61,6 +65,10 @@
           "ave-maria",
           "gloria"
         ]
+      },
+      "feast": {
+        "movable": true,
+        "text": "Domingo de Pentecostés"
       }
     },
     {
@@ -89,6 +97,10 @@
           "ave-maria",
           "gloria"
         ]
+      },
+      "feast": {
+        "movable": true,
+        "text": "Solemnidad del Sagrado Corazón de Jesús — viernes después de la Solemnidad del Corpus Christi"
       }
     },
     {
@@ -121,6 +133,10 @@
           "ave-maria",
           "gloria"
         ]
+      },
+      "feast": {
+        "movable": true,
+        "text": "Fiesta del Divino Niño Jesús en el Santuario del 20 de Julio — primer domingo de septiembre"
       }
     },
     {
@@ -149,6 +165,13 @@
           "ave-maria",
           "gloria"
         ]
+      },
+      "feast": {
+        "day": 29,
+        "month": 9,
+        "text": "29 de septiembre",
+        "liturgicalRank": "Fiesta",
+        "movable": false
       }
     },
     {
@@ -181,6 +204,12 @@
           "ave-maria",
           "gloria"
         ]
+      },
+      "feast": {
+        "day": 14,
+        "month": 9,
+        "text": "14 de septiembre — Exaltación de la Santa Cruz y celebración del Señor de los Milagros de Buga",
+        "movable": false
       }
     },
     {
@@ -213,6 +242,13 @@
           "ave-maria",
           "gloria"
         ]
+      },
+      "feast": {
+        "day": 28,
+        "month": 10,
+        "text": "28 de octubre",
+        "movable": false,
+        "liturgicalRank": "Solemnidad"
       }
     }
   ]
