@@ -11,7 +11,19 @@ function renderProgreso(catalogo = [], progreso = {}) {
                 novena: buscarNovenaPorId(catalogo, id),
                 datos
             }))
-            .filter(item => item.novena)
+            /*
+             * Mostrar únicamente progreso real o novenas completadas.
+             * Los registros abandonados conservan su entrada histórica,
+             * pero al tener 0 días rezados ya no forman parte del
+             * progreso activo del usuario.
+             */
+            .filter(item =>
+                item.novena &&
+                (
+                    item.datos?.completada === true ||
+                    obtenerDiasRezado(item.novena.id).length > 0
+                )
+            )
             .sort((a, b) => {
                 const fechaA =
                     new Date(a.datos?.fecha || 0).getTime();
