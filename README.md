@@ -454,3 +454,10 @@ La navegación interna mantiene el contexto en la URL y permite utilizar Atrás/
 Amigos del Cielo nace como un proyecto de software orientado a reunir oración, conocimiento de los santos y acompañamiento espiritual en una herramienta digital sencilla.
 
 El propósito de la aplicación es servir como apoyo para la vida de oración y el conocimiento de la fe, no sustituir la participación en la vida sacramental, el acompañamiento pastoral ni el discernimiento personal.
+
+
+## Seguridad — Fase 1
+
+El proyecto mantiene una arquitectura estática sin cuentas ni contraseñas, y ya dispone de `SECURITY.md`, CodeQL y Dependabot. En esta fase se añade además un control estático automatizado que detecta patrones de alto riesgo como `eval()`, `new Function()`, URLs `javascript:` y scripts externos servidos por HTTP.
+
+El uso de `innerHTML` continúa permitido únicamente en los renderizadores que construyen HTML controlado por el propio proyecto y aplican `escaparHTML()` a los valores dinámicos. La validación de seguridad no sustituye la revisión de los renderizadores cuando se incorporen nuevas fuentes externas.
