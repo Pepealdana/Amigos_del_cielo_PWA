@@ -2,7 +2,8 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = process.cwd();
-const EXTENSIONS = new Set([".js", ".html", ".json"]);\nconst SELF = path.join(ROOT, "scripts", "security-check.js");
+const EXTENSIONS = new Set([".js", ".html", ".json"]);
+const SELF = path.join(ROOT, "scripts", "security-check.js");
 const findings = [];
 
 function walk(dir) {
@@ -10,7 +11,7 @@ function walk(dir) {
     if ([".git", "node_modules"].includes(entry.name)) continue;
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) walk(full);
-    else if (EXTENSIONS.has(path.extname(entry.name).toLowerCase())) {
+    else if (EXTENSIONS.has(path.extname(entry.name).toLowerCase()) && full !== SELF) {
       inspect(full);
     }
   }
@@ -45,4 +46,4 @@ if (findings.length) {
   process.exit(1);
 }
 
-console.log("✓ Security check superado: sin eval(), new Function(), javascript: ni scripts HTTP.");
+console.log("✓ Security check superado.");
