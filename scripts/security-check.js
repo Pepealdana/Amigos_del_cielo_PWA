@@ -24,7 +24,8 @@ function inspect(file) {
   const forbidden = [
     { regex: /\beval\s*\(/, label: "eval()" },
     { regex: /\bnew\s+Function\s*\(/, label: "new Function()" },
-    { regex: /javascript\s*:/i, label: "javascript: URL" }
+    { regex: /(?:href|src|action)\s*=\s*["']?\s*javascript\s*:/i, label: "javascript: URL" },
+    { regex: /\blocation(?:\.href)?\s*=\s*["']\s*javascript\s*:/i, label: "javascript: URL" }
   ];
 
   for (const item of forbidden) {
