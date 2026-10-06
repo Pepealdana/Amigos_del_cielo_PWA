@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = process.cwd();
-const EXTENSIONS = new Set([".js", ".html", ".json"]);
+const EXTENSIONS = new Set([".js", ".html", ".json"]);\nconst SELF = path.join(ROOT, "scripts", "security-check.js");
 const findings = [];
 
 function walk(dir) {
