@@ -198,6 +198,21 @@ function obtenerDiaContinuacion(novenaId) {
 
     const totalDias = obtenerTotalDiasProgreso(novenaId);
     const diasRezado = new Set(obtenerDiasRezado(novenaId));
+    const progreso = state.progreso?.[novenaId];
+
+    /*
+     * Si la novena fue iniciada pero todavía no se ha marcado
+     * ningún día, conservamos el día de inicio calculado al comenzar.
+     */
+    if (
+        progreso?.iniciada === true &&
+        diasRezado.size === 0 &&
+        Number.isInteger(Number(progreso.dia)) &&
+        Number(progreso.dia) >= 1 &&
+        Number(progreso.dia) <= totalDias
+    ) {
+        return Number(progreso.dia);
+    }
 
     if (diasRezado.size >= totalDias) {
         return totalDias;
