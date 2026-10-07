@@ -188,7 +188,7 @@ const APP_SHELL = [
     "./js/render/home/participa.js",
     "./js/render/home/acerca.js",
     "./js/router.js",
-    "./js/app.js?v=336",
+    "./js/app.js?v=337",
     "./assets/branding/isotipo-amigos-del-cielo.webp?v=285",
     "./assets/images/santos/beata_clara_fey.webp",
     "./assets/images/santos/beata_chiara_luce_badano.webp",
