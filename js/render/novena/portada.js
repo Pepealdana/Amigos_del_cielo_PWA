@@ -17,7 +17,7 @@ function renderPortadaNovena(novena) {
         ? progresoActual.diasVisitados.length
         : 0;
     const puedeAbandonar =
-        diasRezado > 0 &&
+        progresoActual?.iniciada === true &&
         progresoActual?.completada !== true;
 
     let mensajeCalendario = "";
@@ -166,6 +166,18 @@ function renderPortadaNovena(novena) {
                         Compartir
 
                     </button>
+
+                    ${progresoActual?.iniciada && progresoActual?.completada ? `
+                        <button
+                            class="btn btn-outline"
+                            type="button"
+                            data-action="restart-novena"
+                            data-id="${escaparHTML(novena.id)}">
+
+                            Volver a rezar
+
+                        </button>
+                    ` : ""}
 
                     ${puedeAbandonar ? `
                         <button
