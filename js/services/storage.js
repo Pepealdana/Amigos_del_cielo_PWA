@@ -91,6 +91,22 @@ function cargarProgreso() {
         }
 
         /*
+         * Migración V1.5.1:
+         * los registros anteriores no tenían la bandera "iniciada".
+         * La reconstruimos sin alterar el progreso existente.
+         */
+        if (datos.iniciada !== true) {
+            const diasVisitados = Array.isArray(datos.diasVisitados)
+                ? datos.diasVisitados
+                : [];
+
+            datos.iniciada =
+                Boolean(datos.fechaInicio) ||
+                diasVisitados.length > 0 ||
+                datos.completada === true;
+        }
+
+        /*
          * Migración V1.5:
          * los registros antiguos solo conocían el estado "completada".
          * Ese estado se convierte una sola vez en la primera entrada
