@@ -2518,11 +2518,22 @@ document.addEventListener(
                 .then(registro => {
 
                     /*
-                     * La comprobación explícita update() en cada apertura
-                     * añadía trabajo de red al arranque. El navegador ya
-                     * comprueba y actualiza el Service Worker según su
-                     * ciclo de vida normal.
+                     * Comprobamos explícitamente el Service Worker mientras
+                     * haya conexión. Así una recarga no depende únicamente
+                     * de la comprobación automática del navegador.
+                     *
+                     * updateViaCache: "none" evita que la caché HTTP oculte
+                     * una nueva versión del worker.
                      */
+                    if (navigator.onLine) {
+                        registro.update().catch(error =>
+                            console.warn(
+                                "No fue posible comprobar una actualización del Service Worker:",
+                                error
+                            )
+                        );
+                    }
+
                     if (registro.waiting) {
                         registro.waiting.postMessage({
                             type: "SKIP_WAITING"
