@@ -54,6 +54,7 @@ function normalizarRegistroProgreso(novenaId) {
         return {
             dia: 0,
             diasVisitados: [],
+            iniciada: false,
             completada: false,
             fecha: null,
             fechaInicio: null,
@@ -62,9 +63,16 @@ function normalizarRegistroProgreso(novenaId) {
         };
     }
 
+    const diasVisitados = obtenerDiasRezado(novenaId);
+
     return {
         ...anterior,
-        diasVisitados: obtenerDiasRezado(novenaId),
+        diasVisitados,
+        iniciada:
+            anterior.iniciada === true ||
+            Boolean(anterior.fechaInicio) ||
+            diasVisitados.length > 0 ||
+            anterior.completada === true,
         historialCompletaciones: Array.isArray(anterior.historialCompletaciones)
             ? anterior.historialCompletaciones
             : []
@@ -80,6 +88,49 @@ function guardarRegistroProgreso(novenaId, registro) {
     state.ultimaNovenaId = novenaId;
 
     return guardarProgreso();
+}
+
+function iniciarProgresoNovena(novenaId, diaInicial = 1) {
+    if (!novenaId) {
+        return false;
+    }
+
+    const anterior = normalizarRegistroProgreso(novenaId);
+
+    if (anterior.completada) {
+        return false;
+    }
+
+    /*
+     * Una novena ya iniciada conserva el día desde el que quedó
+     * pendiente. Esto evita que "Comenzar/Continuar" vuelva a
+     * calcular el día desde el calendario y pierda el estado del usuario.
+     */
+    if (anterior.iniciada) {
+        return true;
+    }
+
+    const totalDias = obtenerTotalDiasProgreso(novenaId);
+    const numeroDia = Number(diaInicial);
+    const diaValido =
+        Number.isInteger(numeroDia) &&
+        numeroDia >= 1 &&
+        numeroDia <= totalDias
+            ? numeroDia
+            : 1;
+
+    const ahora = new Date().toISOString();
+
+    return guardarRegistroProgreso(novenaId, {
+        ...anterior,
+        dia: diaValido,
+        diasVisitados: [],
+        iniciada: true,
+        completada: false,
+        fecha: ahora,
+        fechaInicio: ahora,
+        fechaFinalizacion: null
+    });
 }
 
 function marcarDiaRezado(novenaId, dia) {
@@ -114,6 +165,7 @@ function marcarDiaRezado(novenaId, dia) {
         ...anterior,
         dia: numeroDia,
         diasVisitados,
+        iniciada: true,
         completada,
         fecha: ahora,
         fechaInicio: anterior.fechaInicio || ahora,
@@ -169,6 +221,7 @@ function obtenerProgreso(novenaId) {
         diasRezado,
         totalDias,
         cantidadRezada: diasRezado.length,
+        iniciada: state.progreso?.[novenaId]?.iniciada === true,
         completada: diasRezado.length >= totalDias,
         siguienteDia: obtenerDiaContinuacion(novenaId)
     };
@@ -184,8 +237,8 @@ function obtenerNovenasEnCurso(catalogo = state.catalogo) {
         return (
             item?.id &&
             progreso &&
-            !progreso.completada &&
-            obtenerDiasRezado(item.id).length > 0
+            progreso.iniciada === true &&
+            !progreso.completada
         );
     });
 }
@@ -269,6 +322,7 @@ function abandonarNovena(novenaId) {
         ...anterior,
         dia: 0,
         diasVisitados: [],
+        iniciada: false,
         completada: false,
         fecha: null,
         fechaInicio: null,
@@ -286,8 +340,9 @@ function reiniciarNovena(novenaId) {
 
     return guardarRegistroProgreso(novenaId, {
         ...anterior,
-        dia: 0,
+        dia: 1,
         diasVisitados: [],
+        iniciada: true,
         completada: false,
         fecha: ahora,
         fechaInicio: ahora,
