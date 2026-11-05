@@ -980,23 +980,23 @@ function iniciarNovena() {
         return;
     }
 
-    const progresoActual =
-        state.progreso[state.novenaActual.id];
+    const novenaId = state.novenaActual.id;
+    const estado = obtenerEstadoProgresoNovena(novenaId);
 
-    if (progresoActual?.completada) {
-        reiniciarYComenzarNovena(state.novenaActual.id);
+    if (estado.completada) {
+        reiniciarYComenzarNovena(novenaId);
         return;
     }
 
-    const diaInicial =
-        obtenerDiaInicialPorCalendario(
-            state.novenaActual
-        );
+    const diaInicial = estado.iniciada
+        ? estado.siguienteDia
+        : obtenerDiaInicialPorCalendario(state.novenaActual);
 
-    mostrarDia(
-        diaInicial || 1
-    );
+    if (!iniciarProgresoNovena(novenaId, diaInicial || 1)) {
+        return;
+    }
 
+    mostrarDia(diaInicial || 1);
 }
 
 function marcarDiaActualComoRezado() {
@@ -2459,16 +2459,20 @@ function continuarNovena(id) {
                 return;
             }
 
-            const dia =
-                typeof obtenerDiaContinuacion === "function"
-                    ? obtenerDiaContinuacion(novenaId)
-                    : (
-                        state.progreso[novenaId]?.dia ||
-                        obtenerDiaInicialPorCalendario(
-                            state.novenaActual
-                        ) ||
-                        1
-                    );
+            const estado = obtenerEstadoProgresoNovena(novenaId);
+
+            if (estado.completada) {
+                reiniciarYComenzarNovena(novenaId);
+                return;
+            }
+
+            const dia = estado.iniciada
+                ? estado.siguienteDia
+                : obtenerDiaInicialPorCalendario(state.novenaActual) || 1;
+
+            if (!iniciarProgresoNovena(novenaId, dia)) {
+                return;
+            }
 
             mostrarDia(dia);
         });
@@ -2518,11 +2522,22 @@ document.addEventListener(
                 .then(registro => {
 
                     /*
-                     * La comprobación explícita update() en cada apertura
-                     * añadía trabajo de red al arranque. El navegador ya
-                     * comprueba y actualiza el Service Worker según su
-                     * ciclo de vida normal.
+                     * Comprobamos explícitamente el Service Worker mientras
+                     * haya conexión. Así una recarga no depende únicamente
+                     * de la comprobación automática del navegador.
+                     *
+                     * updateViaCache: "none" evita que la caché HTTP oculte
+                     * una nueva versión del worker.
                      */
+                    if (navigator.onLine) {
+                        registro.update().catch(error =>
+                            console.warn(
+                                "No fue posible comprobar una actualización del Service Worker:",
+                                error
+                            )
+                        );
+                    }
+
                     if (registro.waiting) {
                         registro.waiting.postMessage({
                             type: "SKIP_WAITING"

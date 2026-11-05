@@ -201,40 +201,37 @@ function obtenerContenidoPrincipalInicio(catalogo = [], progreso = {}) {
 }
 
 function obtenerProgresoPrincipal(catalogo = [], progreso = {}) {
-    if (!progreso || typeof progreso !== "object") {
+    if (!Array.isArray(catalogo) || !progreso || typeof progreso !== "object") {
         return null;
     }
 
-    const ids = Object.keys(progreso);
+    const candidatos = catalogo
+        .map(novena => ({
+            novena,
+            estado: obtenerEstadoProgresoNovena(novena?.id),
+            fecha: new Date(progreso[novena?.id]?.fecha || 0).getTime()
+        }))
+        .filter(item => item.novena?.id && item.estado?.iniciada)
+        .sort((a, b) => {
+            if (a.estado.completada !== b.estado.completada) {
+                return a.estado.completada ? 1 : -1;
+            }
+            return b.fecha - a.fecha;
+        });
 
-    if (ids.length === 0) {
-        return null;
-    }
+    const preferida = candidatos.find(
+        item => item.novena.id === state.ultimaNovenaId
+    );
+    const seleccionada = preferida && !preferida.estado.completada
+        ? preferida
+        : candidatos[0];
 
-    const idPreferido = state.ultimaNovenaId;
-
-    const id =
-        idPreferido && progreso[idPreferido]
-            ? idPreferido
-            : ids.sort((a, b) => {
-                const fechaA =
-                    new Date(progreso[a]?.fecha || 0).getTime();
-
-                const fechaB =
-                    new Date(progreso[b]?.fecha || 0).getTime();
-
-                return fechaB - fechaA;
-            })[0];
-
-    const novena = buscarNovenaPorId(catalogo, id);
-
-    if (!novena) {
-        return null;
-    }
+    if (!seleccionada) return null;
 
     return {
-        novena,
-        progreso: progreso[id]
+        novena: seleccionada.novena,
+        progreso: progreso[seleccionada.novena.id],
+        estado: seleccionada.estado
     };
 }
 
@@ -286,13 +283,17 @@ function renderInicio(catalogo = [], progreso = {}) {
             progreso
         );
 
-    const novenasEnCurso = typeof obtenerNovenasEnCurso === "function"
-        ? obtenerNovenasEnCurso(catalogo)
+    const novenasConProgreso = typeof obtenerNovenasConProgreso === "function"
+        ? obtenerNovenasConProgreso(catalogo)
             .map(novena => ({
                 novena,
-                progreso: progreso?.[novena.id] || {}
+                progreso: progreso?.[novena.id] || {},
+                estado: obtenerEstadoProgresoNovena(novena.id)
             }))
             .sort((a, b) => {
+                if (a.estado.completada !== b.estado.completada) {
+                    return a.estado.completada ? 1 : -1;
+                }
                 const fechaA = new Date(a.progreso?.fecha || 0).getTime();
                 const fechaB = new Date(b.progreso?.fecha || 0).getTime();
                 return fechaB - fechaA;
@@ -311,35 +312,10 @@ function renderInicio(catalogo = [], progreso = {}) {
     const novenaContinuar =
         continuidad?.novena || santo;
 
-    const dia =
-        continuidad?.progreso?.dia || 1;
-
-    const total =
-        Number(
-            continuidad?.novena?.novena?.days
-        ) || APP_CONFIG.diasNovena;
-
-    const completada =
-        continuidad?.progreso?.completada === true;
-
-    const diasVisitados =
-        Array.isArray(
-            continuidad?.progreso?.diasVisitados
-        )
-            ? continuidad.progreso.diasVisitados.length
-            : Array.isArray(continuidad?.progreso?.completados)
-                ? continuidad.progreso.completados.length
-                : 0;
-
-    const porcentaje =
-        continuidad
-            ? Math.min(
-                100,
-                Math.round(
-                    (diasVisitados / total) * 100
-                )
-            )
-            : 0;
+    const dia = continuidad?.estado?.siguienteDia || 1;
+    const total = continuidad?.estado?.totalDias || APP_CONFIG.diasNovena;
+    const completada = continuidad?.estado?.completada === true;
+    const porcentaje = continuidad?.estado?.porcentaje || 0;
 
     const tituloPrincipal =
         obtenerTituloPrincipal(principal.tipo);
@@ -510,34 +486,29 @@ function renderInicio(catalogo = [], progreso = {}) {
             <section class="continue-section">
 
                 <p class="section-kicker">
-                    ${novenasEnCurso.length > 0
-                        ? "Continuar"
+                    ${novenasConProgreso.length > 0
+                        ? (novenasConProgreso.some(item => !item.estado.completada)
+                            ? "Continuar"
+                            : "Novenas completadas")
                         : (mostrarPerfilSanto ? "Conocer" : (continuidad ? "Continuar" : "Comenzar"))}
                 </p>
 
                 <div class="continue-list">
 
-                    ${novenasEnCurso.length > 0
-                        ? novenasEnCurso.map(({ novena, progreso: progresoNovena }) => {
-                            const diaNovena =
-                                progresoNovena?.dia || obtenerDiaContinuacion(novena.id) || 1;
-
-                            const totalNovena =
-                                Number(progresoNovena?.totalDias) ||
-                                APP_CONFIG.diasNovena;
-
-                            const diasNovena =
-                                Array.isArray(progresoNovena?.diasVisitados)
-                                    ? progresoNovena.diasVisitados.length
-                                    : Array.isArray(progresoNovena?.completados)
-                                        ? progresoNovena.completados.length
-                                        : obtenerDiasRezado(novena.id).length;
-
-                            const porcentajeNovena =
-                                Math.min(
-                                    100,
-                                    Math.round((diasNovena / totalNovena) * 100)
-                                );
+                    ${novenasConProgreso.length > 0
+                        ? novenasConProgreso.map(({ novena, progreso: progresoNovena, estado }) => {
+                            const diaNovena = estado.siguienteDia;
+                            const totalNovena = estado.totalDias;
+                            const porcentajeNovena = estado.porcentaje;
+                            const etiquetaProgreso = estado.completada
+                                ? "Novena completada"
+                                : `Día ${diaNovena} de ${totalNovena}`;
+                            const accionProgreso = estado.completada
+                                ? "restart-novena"
+                                : "continue-novena";
+                            const textoAccion = estado.completada
+                                ? "Volver a rezar"
+                                : "Continuar";
 
                             const imagen =
                                 novena.image
@@ -568,7 +539,7 @@ function renderInicio(catalogo = [], progreso = {}) {
                                         </h3>
 
                                         <p>
-                                            Día ${diaNovena} de ${totalNovena}
+                                            ${etiquetaProgreso}
                                         </p>
 
                                         <div
@@ -587,10 +558,10 @@ function renderInicio(catalogo = [], progreso = {}) {
                                     <button
                                         class="btn btn-primary continue-action"
                                         type="button"
-                                        data-action="continue-novena"
+                                        data-action="${accionProgreso}"
                                         data-id="${escaparHTML(novena.id)}">
 
-                                        Continuar
+                                        ${textoAccion}
 
                                     </button>
 

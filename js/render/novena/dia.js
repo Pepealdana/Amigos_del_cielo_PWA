@@ -172,7 +172,7 @@ function renderDia(
 
             </div>
 
-            ${obtenerDiasRezado(novena.id).length > 0 && !state.progreso?.[novena.id]?.completada ? `
+            ${obtenerEstadoProgresoNovena(novena.id).iniciada && !obtenerEstadoProgresoNovena(novena.id).completada ? `
                 <div class="novena-abandon-action">
                     <button
                         class="btn btn-outline"

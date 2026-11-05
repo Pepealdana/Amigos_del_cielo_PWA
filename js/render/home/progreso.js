@@ -19,10 +19,7 @@ function renderProgreso(catalogo = [], progreso = {}) {
              */
             .filter(item =>
                 item.novena &&
-                (
-                    item.datos?.completada === true ||
-                    obtenerDiasRezado(item.novena.id).length > 0
-                )
+obtenerEstadoProgresoNovena(item.novena.id).iniciada
             )
             .sort((a, b) => {
                 const fechaA =
@@ -84,35 +81,13 @@ function renderProgreso(catalogo = [], progreso = {}) {
 
                     ${entradas.map(item => {
 
-                        const dia =
-                            Number(item.datos?.dia) || 1;
+                        const estado =
+                            obtenerEstadoProgresoNovena(item.novena.id);
 
-                        const total =
-                            Number(
-                                item.novena?.novena?.days
-                            ) || APP_CONFIG.diasNovena;
-
-                        const diasVisitados =
-                            Array.isArray(
-                                item.datos?.diasVisitados
-                            )
-                                ? item.datos.diasVisitados.length
-                                : Array.isArray(item.datos?.completados)
-                                    ? item.datos.completados.length
-                                    : 0;
-
-                        const completada =
-                            item.datos?.completada === true;
-
-                        const porcentaje =
-                            completada
-                                ? 100
-                                : Math.min(
-                                    100,
-                                    Math.round(
-                                        (diasVisitados / total) * 100
-                                    )
-                                );
+                        const dia = estado.siguienteDia;
+                        const total = estado.totalDias;
+                        const completada = estado.completada;
+                        const porcentaje = estado.porcentaje;
 
                         return `
 
@@ -137,7 +112,7 @@ function renderProgreso(catalogo = [], progreso = {}) {
                                     <p>
                                         ${completada
                                             ? "Novena completada"
-                                            : `Día ${dia} de ${total}`}
+                                            : `Siguiente: día ${dia} de ${total}`}
                                     </p>
 
                                     <div class="progress-track"
