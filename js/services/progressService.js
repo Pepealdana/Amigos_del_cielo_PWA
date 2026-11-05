@@ -71,22 +71,40 @@ function obtenerEstadoProgresoNovena(novenaId) {
         completada
     );
 
+    /*
+     * El día de inicio puede ser distinto de 1 cuando el usuario
+     * comienza siguiendo el calendario litúrgico. La continuación
+     * recorre los días en ese orden circular: por ejemplo 6,7,8,9,1...
+     * Así no regresa al día 1 inmediatamente después de rezar el 6.
+     */
+    const diaInicioGuardado = Number(registro?.diaInicio);
+    const diaInicioInferido = diasRezado.length
+        ? diasRezado[0]
+        : Number(registro?.dia);
+    const diaInicio =
+        Number.isInteger(diaInicioGuardado) &&
+        diaInicioGuardado >= 1 &&
+        diaInicioGuardado <= totalDias
+            ? diaInicioGuardado
+            : (
+                Number.isInteger(diaInicioInferido) &&
+                diaInicioInferido >= 1 &&
+                diaInicioInferido <= totalDias
+                    ? diaInicioInferido
+                    : 1
+            );
+
+    const ordenDias = [
+        ...Array.from({ length: totalDias - diaInicio + 1 }, (_, i) => diaInicio + i),
+        ...Array.from({ length: diaInicio - 1 }, (_, i) => i + 1)
+    ];
+
     let siguienteDia = 1;
 
     if (iniciada && !completada) {
         siguienteDia =
-            diasCompletos.find(dia => !diasRezado.includes(dia)) ||
-            Number(registro?.dia) ||
-            1;
-
-        if (
-            diasRezado.length === 0 &&
-            Number.isInteger(Number(registro?.dia)) &&
-            Number(registro.dia) >= 1 &&
-            Number(registro.dia) <= totalDias
-        ) {
-            siguienteDia = Number(registro.dia);
-        }
+            ordenDias.find(dia => !diasRezado.includes(dia)) ||
+            diaInicio;
     } else if (completada) {
         siguienteDia = totalDias;
     }
@@ -98,6 +116,7 @@ function obtenerEstadoProgresoNovena(novenaId) {
         totalDias,
         diasRezado,
         cantidadRezada: diasRezado.length,
+        diaInicio,
         siguienteDia,
         porcentaje: completada
             ? 100
@@ -126,6 +145,11 @@ function normalizarRegistroProgreso(novenaId) {
     return {
         ...anterior,
         diasVisitados: obtenerDiasRezado(novenaId),
+        diaInicio: Number(anterior.diaInicio) || (
+            obtenerDiasRezado(novenaId)[0] ||
+            Number(anterior.dia) ||
+            1
+        ),
         historialCompletaciones: Array.isArray(anterior.historialCompletaciones)
             ? anterior.historialCompletaciones
             : []
@@ -158,6 +182,7 @@ function iniciarProgresoNovena(novenaId, diaInicial = 1) {
     return guardarRegistroProgreso(novenaId, {
         ...anterior,
         dia: diaValido,
+        diaInicio: diaValido,
         diasVisitados: [],
         iniciada: true,
         completada: false,
@@ -192,10 +217,25 @@ function marcarDiaRezado(novenaId, dia) {
         (_, indice) => indice + 1
     ).every(diaRequerido => diasVisitados.includes(diaRequerido));
 
+    const diaInicio =
+        Number(anterior.diaInicio) >= 1 &&
+        Number(anterior.diaInicio) <= totalDias
+            ? Number(anterior.diaInicio)
+            : (Number(anterior.dia) >= 1 ? Number(anterior.dia) : numeroDia);
+
+    const ordenDias = [
+        ...Array.from({ length: totalDias - diaInicio + 1 }, (_, i) => diaInicio + i),
+        ...Array.from({ length: diaInicio - 1 }, (_, i) => i + 1)
+    ];
+    const siguienteDia = completada
+        ? totalDias
+        : (ordenDias.find(dia => !diasVisitados.includes(dia)) || diaInicio);
+
     const ahora = new Date().toISOString();
     const registro = {
         ...anterior,
-        dia: numeroDia,
+        dia: siguienteDia,
+        diaInicio,
         diasVisitados,
         iniciada: true,
         completada,
@@ -327,6 +367,7 @@ function reiniciarNovena(novenaId) {
     return guardarRegistroProgreso(novenaId, {
         ...anterior,
         dia: 1,
+        diaInicio: 1,
         diasVisitados: [],
         iniciada: true,
         completada: false,
