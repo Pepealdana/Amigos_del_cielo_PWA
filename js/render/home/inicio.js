@@ -312,35 +312,10 @@ function renderInicio(catalogo = [], progreso = {}) {
     const novenaContinuar =
         continuidad?.novena || santo;
 
-    const dia =
-        continuidad?.progreso?.dia || 1;
-
-    const total =
-        Number(
-            continuidad?.novena?.novena?.days
-        ) || APP_CONFIG.diasNovena;
-
-    const completada =
-        continuidad?.progreso?.completada === true;
-
-    const diasVisitados =
-        Array.isArray(
-            continuidad?.progreso?.diasVisitados
-        )
-            ? continuidad.progreso.diasVisitados.length
-            : Array.isArray(continuidad?.progreso?.completados)
-                ? continuidad.progreso.completados.length
-                : 0;
-
-    const porcentaje =
-        continuidad
-            ? Math.min(
-                100,
-                Math.round(
-                    (diasVisitados / total) * 100
-                )
-            )
-            : 0;
+    const dia = continuidad?.estado?.siguienteDia || 1;
+    const total = continuidad?.estado?.totalDias || APP_CONFIG.diasNovena;
+    const completada = continuidad?.estado?.completada === true;
+    const porcentaje = continuidad?.estado?.porcentaje || 0;
 
     const tituloPrincipal =
         obtenerTituloPrincipal(principal.tipo);
