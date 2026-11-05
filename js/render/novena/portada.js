@@ -12,9 +12,7 @@ function renderPortadaNovena(novena) {
         Number(novena?.novena?.days) ||
         APP_CONFIG.diasNovena;
 
-    const progresoActual = state.progreso?.[novena?.id];
     const estadoProgreso = obtenerEstadoProgresoNovena(novena?.id);
-    const diasRezado = estadoProgreso.cantidadRezada;
     const puedeAbandonar =
         estadoProgreso.iniciada &&
         !estadoProgreso.completada;
@@ -169,18 +167,6 @@ function renderPortadaNovena(novena) {
                         Compartir
 
                     </button>
-
-                    ${estadoProgreso.completada ? `
-                        <button
-                            class="btn btn-outline"
-                            type="button"
-                            data-action="restart-novena"
-                            data-id="${escaparHTML(novena.id)}">
-
-                            Volver a rezar
-
-                        </button>
-                    ` : ""}
 
                     ${puedeAbandonar ? `
                         <button
