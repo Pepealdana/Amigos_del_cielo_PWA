@@ -487,7 +487,9 @@ function renderInicio(catalogo = [], progreso = {}) {
 
                 <p class="section-kicker">
                     ${novenasConProgreso.length > 0
-                        ? "Continuar"
+                        ? (novenasConProgreso.some(item => !item.estado.completada)
+                            ? "Continuar"
+                            : "Novenas completadas")
                         : (mostrarPerfilSanto ? "Conocer" : (continuidad ? "Continuar" : "Comenzar"))}
                 </p>
 
