@@ -38,13 +38,13 @@ function renderCamino(
      * los días rezados y el registro queda disponible para retomarla
      * más adelante, pero no debe seguir apareciendo como activa.
      */
-    const novenasEnCurso = entradasProgreso.filter(([id, datos]) =>
-        datos?.completada !== true &&
-        obtenerDiasRezado(id).length > 0
-    ).length;
+    const novenasEnCurso = entradasProgreso.filter(([id]) => {
+        const estado = obtenerEstadoProgresoNovena(id);
+        return estado.iniciada && !estado.completada;
+    }).length;
 
-    const novenasCompletadas = entradasProgreso.filter(
-        ([, datos]) => datos?.completada === true
+    const novenasCompletadas = entradasProgreso.filter(([id]) =>
+        obtenerEstadoProgresoNovena(id).completada
     ).length;
 
     const catalogos = state.catalogosV2 || {};
@@ -103,7 +103,7 @@ function renderCamino(
                                     : `<span class="camino-friend-placeholder" aria-hidden="true">✦</span>`}
                             </span>
                             <span class="camino-friend-name">${escaparHTML(item.name)}</span>
-                            <span class="camino-friend-meta">${progreso && progreso.completada !== true && obtenerDiasRezado(item.id).length > 0 ? "En curso" : `${historial.length} ${historial.length === 1 ? "novena" : "novenas"}`}</span>
+                            <span class="camino-friend-meta">${progreso && obtenerEstadoProgresoNovena(item.id).iniciada && !obtenerEstadoProgresoNovena(item.id).completada ? "En curso" : `${historial.length} ${historial.length === 1 ? "novena" : "novenas"}`}</span>
                         </button>
                     `).join("")}
                 </div>
