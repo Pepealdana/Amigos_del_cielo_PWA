@@ -107,6 +107,23 @@ function cargarProgreso() {
         }
 
         /*
+         * Conserva el punto de partida de novenas iniciadas antes
+         * de la versión 1.5.2. Si no existe, se infiere del primer
+         * día marcado o del día guardado.
+         */
+        if (!Number.isInteger(Number(datos.diaInicio)) || Number(datos.diaInicio) < 1 || Number(datos.diaInicio) > 9) {
+            const dias = Array.isArray(datos.diasVisitados)
+                ? datos.diasVisitados.map(Number).filter(dia => Number.isInteger(dia) && dia >= 1 && dia <= 9)
+                : [];
+            const diaGuardado = Number(datos.dia);
+            datos.diaInicio = dias[0] || (
+                Number.isInteger(diaGuardado) && diaGuardado >= 1 && diaGuardado <= 9
+                    ? diaGuardado
+                    : 1
+            );
+        }
+
+        /*
          * Migración V1.5:
          * los registros antiguos solo conocían el estado "completada".
          * Ese estado se convierte una sola vez en la primera entrada
