@@ -290,11 +290,26 @@ function obtenerHistorialCompletaciones(novenaId) {
 
     if (!progreso || typeof progreso !== "object") return [];
 
-    return Array.isArray(progreso.historialCompletaciones)
+    const historial = Array.isArray(progreso.historialCompletaciones)
         ? progreso.historialCompletaciones.filter(item =>
             item && typeof item === "object" && item.fechaFinalizacion
         )
         : [];
+
+    /*
+     * Recupera visualmente las finalizaciones antiguas cuyo registro
+     * de días está completo, aunque la versión previa no haya escrito
+     * el historial. No modifica datos durante el renderizado.
+     */
+    if (!historial.length && obtenerEstadoProgresoNovena(novenaId).completada) {
+        const fecha = progreso.fechaFinalizacion || progreso.fecha || new Date().toISOString();
+        return [{
+            fechaInicio: progreso.fechaInicio || fecha,
+            fechaFinalizacion: fecha
+        }];
+    }
+
+    return historial;
 }
 
 function obtenerUltimaCompletacion(novenaId) {
@@ -314,7 +329,10 @@ function registrarCompletacion(novenaId, fechaFinalizacion = new Date().toISOStr
     if (!novenaId) return false;
 
     const anterior = normalizarRegistroProgreso(novenaId);
-    const historial = [...obtenerHistorialCompletaciones(novenaId)];
+    const historialGuardado = state.progreso?.[novenaId]?.historialCompletaciones;
+    const historial = Array.isArray(historialGuardado)
+        ? [...historialGuardado]
+        : [];
     const ultima = historial[historial.length - 1];
 
     if (ultima?.fechaFinalizacion === fechaFinalizacion) return true;
