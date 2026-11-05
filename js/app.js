@@ -980,23 +980,23 @@ function iniciarNovena() {
         return;
     }
 
-    const progresoActual =
-        state.progreso[state.novenaActual.id];
+    const novenaId = state.novenaActual.id;
+    const estado = obtenerEstadoProgresoNovena(novenaId);
 
-    if (progresoActual?.completada) {
-        reiniciarYComenzarNovena(state.novenaActual.id);
+    if (estado.completada) {
+        reiniciarYComenzarNovena(novenaId);
         return;
     }
 
-    const diaInicial =
-        obtenerDiaInicialPorCalendario(
-            state.novenaActual
-        );
+    const diaInicial = estado.iniciada
+        ? estado.siguienteDia
+        : obtenerDiaInicialPorCalendario(state.novenaActual);
 
-    mostrarDia(
-        diaInicial || 1
-    );
+    if (!iniciarProgresoNovena(novenaId, diaInicial || 1)) {
+        return;
+    }
 
+    mostrarDia(diaInicial || 1);
 }
 
 function marcarDiaActualComoRezado() {
@@ -2459,16 +2459,20 @@ function continuarNovena(id) {
                 return;
             }
 
-            const dia =
-                typeof obtenerDiaContinuacion === "function"
-                    ? obtenerDiaContinuacion(novenaId)
-                    : (
-                        state.progreso[novenaId]?.dia ||
-                        obtenerDiaInicialPorCalendario(
-                            state.novenaActual
-                        ) ||
-                        1
-                    );
+            const estado = obtenerEstadoProgresoNovena(novenaId);
+
+            if (estado.completada) {
+                reiniciarYComenzarNovena(novenaId);
+                return;
+            }
+
+            const dia = estado.iniciada
+                ? estado.siguienteDia
+                : obtenerDiaInicialPorCalendario(state.novenaActual) || 1;
+
+            if (!iniciarProgresoNovena(novenaId, dia)) {
+                return;
+            }
 
             mostrarDia(dia);
         });
