@@ -172,7 +172,7 @@ function renderDia(
 
             </div>
 
-            ${state.progreso?.[novena.id]?.iniciada === true && !state.progreso?.[novena.id]?.completada ? `
+            ${obtenerEstadoProgresoNovena(novena.id).iniciada && !obtenerEstadoProgresoNovena(novena.id).completada ? `
                 <div class="novena-abandon-action">
                     <button
                         class="btn btn-outline"
